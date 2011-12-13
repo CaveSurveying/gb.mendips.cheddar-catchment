@@ -87,17 +87,30 @@ code metapost
 
 endcode
 
+
+#for Andrew
+#code tex-map
+#    \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+#    \def\maplayout{
+
+#      \legendbox{60}{70}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/UBSS_survey/Charterhouse/Charterthouse_GB_Titlebox.pdf}}
+#      \legendbox{2}{3}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/UBSS_survey/Charterhouse/Charterhouse_overview.pdf}}
+#      \legendbox{32}{3}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/UBSS_survey/Charterhouse/Overview_Key.jpg}}
+#      \legendbox{62}{73}{SW}{\northarrow}
+#      \legendbox{65}{73}{SW}{\scalebar}
+#    }
+
+#for Graham	
 code tex-map
     \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
     \def\maplayout{
 
-      \legendbox{60}{70}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/UBSS_survey/Charterhouse/Charterthouse_GB_Titlebox.pdf}}
-      \legendbox{2}{3}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/UBSS_survey/Charterhouse/Charterhouse_overview.pdf}}
-      \legendbox{32}{3}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/UBSS_survey/Charterhouse/Overview_Key.jpg}}
+      \legendbox{60}{70}{SW}{\loadpicture{C:/Users/Graham/My Documents/Cave Survey data/Registry Repository/CheddarCatchment/Charterthouse_GB_Titlebox.pdf}}
+#      \legendbox{2}{3}{SW}{\loadpicture{C:/Users/Graham/My Documents/Cave Survey data/Registry Repository/CheddarCatchment/Charterhouse_overview.pdf}}
+#      \legendbox{32}{3}{SW}{\loadpicture{C:/Users/Graham/My Documents/Cave Survey data/Registry Repository/CheddarCatchment/Charterhouse/Overview_Key.jpg}}
       \legendbox{62}{73}{SW}{\northarrow}
-      \legendbox{65}{73}{SW}{\scalebar}
-    }
-
+      \legendbox{65}{73}{SW}{\scalebar}	
+	}
 endcode
 
 endlayout
