@@ -8,12 +8,12 @@ cs OSGB:SN
 #unselect Surface.Charterhouse
 
 select TyningsGSM@TyningsGS.CheddarCatchment
-select OldCaveM@OldCave.charter.CheddarCatchment
+select OldCaveM@OldCave.Charterhouse.CheddarCatchment
 select GBM@GB.CheddarCatchment
-select New_Charter_displaceM@charter.CheddarCatchment
+select New_Charter_displaceM@Charterhouse.CheddarCatchment
 select ReadsGrottoM@ReadsGrotto.CheddarCatchment
-#select 2010bM@2010b.charter.CheddarCatchment
-select charter.CheddarCatchment
+#select 2010bM@2010b.Charterhouse.CheddarCatchment
+select Charterhouse.CheddarCatchment
 
 
 #Surveys to output

@@ -79,8 +79,6 @@ input WhiteSpot/WhiteSpot.th
 #file with 4 fixed co-ordinates, to make sure same size plot every time for mendip map
 #input corners.th 
 
-equate 1.0@ReadsGrotto 1.0@Entrance.OldCave.charter
-
-
+equate 1.0@ReadsGrotto 1.0@Entrance.OldCave.Charterhouse
 endsurvey
 
