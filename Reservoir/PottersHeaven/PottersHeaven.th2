@@ -1,0 +1,56 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -278.05 -965.99 1668.31 5795.93
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {217.766124288 1 1.0} {4821.57647701 1.0} PocketTopo/PottersHeaven_p.xvi 0 {}
+
+
+scrap PottersHeavenSPl1 -projection plan -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap PottersHeavenSX8.17 -projection none -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap PottersHeavenSX8.15 -projection none -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap PottersHeavenSX8.11 -projection none -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap PottersHeavenSX8.9 -projection none -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap PottersHeavenSX8.7 -projection none -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap PottersHeavenSX8.5 -projection none -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap PottersHeavenSX8.4 -projection none -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap PottersHeavenSX8.3 -projection none -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap PottersHeavenSX8.1 -projection none -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

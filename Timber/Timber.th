@@ -1,0 +1,17 @@
+encoding  utf-8
+survey Timber
+
+centreline
+cs OSGB:ST
+# fudge survey by GJM to show cave on output
+date 2010
+
+data normal from to tape compass clino ignoreall
+Timber  2  8.0  -  down
+
+station Timber "" entrance
+fix Timber   48840 54830 189
+
+endcentreline
+endsurvey Timber
+

@@ -1,0 +1,12 @@
+encoding  utf-8
+source Great_Swallet.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan  -o Great_Swallet.pdf
+#Produces plan of cave, on a single sheet
+
+#export model -o Great_Swalletth.3d

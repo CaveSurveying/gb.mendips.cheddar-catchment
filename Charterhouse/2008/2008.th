@@ -1,0 +1,26 @@
+encoding  utf-8
+survey 2008
+
+input 100Fathom/100Fathom.th
+input ChillOutChoke/ChillOutChoke.th
+input TimeLine/TimeLine.th
+input RockNRoll/RockNRoll.th
+
+equate 1.0@100Fathom 1.17@TimeLine
+equate 1.0@RockNRoll 1.36@ChillOutChoke
+equate 1.27@100Fathom 1.62@RockNRoll
+
+map 2008M
+  ChillOutChokeM@ChillOutChoke
+  RockNRollM@RockNRoll
+  100FathomM@100Fathom
+  TimeLineM@TimeLine
+endmap
+
+join ChillOutChokeSPl5@ChillOutChoke RockNRollSPl1@RockNRoll -smooth on
+join RockNRollSPl3@RockNRoll 100FathomSPl1@100Fathom -smooth on
+join TimeLineSPl2@TimeLine 100FathomSPl1@100Fathom -smooth on
+join TimeLineSPl1@TimeLine 100FathomSPl2@100Fathom -smooth on 
+
+endsurvey
+

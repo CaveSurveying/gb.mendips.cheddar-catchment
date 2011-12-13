@@ -1,0 +1,399 @@
+encoding  utf-8
+ 
+survey UpperFlood -title " " 
+
+
+   
+   # MASTER CONTROL
+   # ==============
+   # Fixes entrance, equates component centrelines
+   # Note: loops are closed in the relevant sub-survey files, not here.  
+   #       This ensures that standalone sub-surveys include loop closure.  
+   # Note: scraps joins are included within INPUT section
+   centreline -cs EPSG:27700 
+     author 2007.01.23 "Ben Cooper"
+     copyright 2009 "Mendip Caving Group"
+     
+     station Entrance@Entrance "" entrance
+     fix   Entrance@Entrance  350570.6 155766.6 237.489 # Height data from Carl Ruxton levelling, 2008.07.30
+     #300000 100000 added to convert from OSGB ST to EPSG:27700
+                   # from Journal printed survey
+                   # ST 50570 557766 237.8 
+                   # Longitude 43° 17.2' W      
+       # Latitude  49° 38.7' N 
+      
+     # fix   Entrance@Entrance  570.0 765.5 237   # from GPS averages spreadsheet
+
+     # Join Martin and Yvonne's entrance survey to Malcolm's:-     
+     #equate Entrance@Entrance 1@Entrance2 
+     equate 16@Entrance2   R6@Entrance 
+     equate 13@TK1986      R6@Entrance
+
+     # Join Ben and Paul's Midnight Chamber survey to Malcolm's:-     
+     #fix   1@MidnightChamber  698.37  700.65   214
+     equate 1@MidnightChamber M2@Entrance 
+
+
+     # Join Golden Chamber survey to Malcolm's paper survey:-     
+     equate RA2@GoldenChamber    RA2@Entrance 
+     
+     equate 1@BoulderChoke    14@GoldenChamber   
+     
+     equate 1@Leg1.MalcolmsWay    39@BoulderChoke
+     equate FFMW54@TrenchPassage  54@Leg2.MalcolmsWay  
+     equate 2a@TrenchPassage     53@Leg2.MalcolmsWay
+     equate s22@WallStreet    22@Leg2.MalcolmsWay
+     equate CH1@CharnelPassage    15@Leg2.MalcolmsWay
+     equate MW9@RoyalIcing     9@Leg2.MalcolmsWay  
+
+     # ** the following 6 equate statements need to be swapped round.....
+     equate d7@SouthPassage      36@RoyalIcing  # d7 approximate location (could also be 35@RI)
+     equate 1@FullLRUD.EastPassage    36@RoyalIcing   # Fixed station in Royal Icing Chamber
+
+     equate d8@CentreLineOnly.WestPassage  d8@SouthPassage  # original TF and DW survey
+     equate 2.78@DistoX.FullLRUD.WestPassage   42@RoyalIcing   # Fixed station above Neverland entrance
+     equate N1@Neverland      42@RoyalIcing
+
+     equate 1@NeverlandRopeClimb    N41@Neverland 
+     
+   endcentreline
+
+   # INPUTS
+   # ======
+   input MapLabels.th2     # 2500-scale map labels for Magazine output
+   
+   input Surface.th         # Fixed survey points of various surface features
+   input Surface_s1.th2    # Cave entrances and mine shafts
+   input Surface_s2.th2    # Two surface points to set bounds of output
+
+   input Legend.th
+   input Legend.th2
+   
+   input Grid.th
+   input Grid.th2
+   
+   #input Speculation.th2
+   input Snippets.th2
+   input Snippets_RI.th2
+   
+   input Entrance.th
+   input Entrance2.th
+   input Entrance_s1r.th2
+   input Entrance_s2.th2
+   input Entrance_s3.th2
+   join UF_s2 UF_s1
+   join wall_Es3_1 wall_Es2_1
+   join wall_Es3_2 wall_Es2_2
+   
+   input MidnightChamber.th    # Ben and Paul's re-survey of Midnight Chamber
+   input MidnightChamber.th2   # Ben and Paul's re-survey of Midnight Chamber
+   input TK1986.th             # Tony Knibbs 1986 data
+         
+   input GoldenChamber.th
+   input GoldenChamber_s1.th2
+   input StreamwayRegained_s1.th2
+   join wall_GCs1_1:end wall_Es2_1:end -smooth on
+   join wall_GCs1_2:0 wall_Es2_3:0
+   #join GC_p1 RR_p1
+   #join chim1 pit1
+
+   input BoulderChoke.th
+   input BoulderChoke_s0.th2 # Contains the presumed passage widths
+   input BoulderChoke_sL.th2 # Contains the detailed labels
+   input BoulderChoke_s1.th2 # Section from 3D to Rope Climb
+   input BoulderChoke_s2.th2 # Section from Rope Climb to Easy Squeeze
+   input BoulderChoke_s3.th2 # Section from Easy Squeeze to Departure Lounge
+   join BoulderChoke_s1 StreamwayRegained_s1
+   
+   input MalcolmsWay.th
+   input MalcolmsWay_s1.th2
+   input MalcolmsWay_s2.th2
+   input MalcolmsWay_s3.th2
+   input MalcolmsWay_s4.th2
+   # ID convetion:  <item>_<Passage Initials><Scrap Number>_<Sequence>  Sequence counts L->R; Up->Down
+   join wall_FFMWs1_1 wall_BCs3_1    
+   join wall_FFMWs1_2 wall_BCs3_2
+   
+   input TrenchPassage.th
+   input TrenchPassage.th2
+   join wall_TPs1_1 wall_FFMWs1_3
+   join wall_TPs1_2 wall_FFMWs1_4
+
+   input WallStreet.th
+   input WallStreet.th2
+   join WallStreet_s1  MalcolmsWay_s3
+   
+   input CharnelPassage.th
+   input CharnelPassage.th2
+
+   input RoyalIcing.th
+   input RoyalIcing_s1.th2
+   join wall_RIs1_1      wall_MWs3_2:29
+   join wall_RIs1_1b:end wall_MWs3_3:end
+   join wall_RIs1_1b:0   wall_MWs3_3:0
+   join wall_RIs1_1c:end wall_MWs3_4:0
+   join wall_RIs1_1c:0   wall_MWs3_4:end
+   join wall_RIs1_5   wall_MWs3_1:0
+
+   input RoyalIcing_s2.th2
+   #JOIN start=0!!
+   join wall_RIs2_W:0   wall_RIs1_3:0
+   join wall_RIs2_W:end   wall_RIs1_3:4 
+   join wall_RIs2_E:end   wall_RIs1_1:end
+   join wall_RIs2_E:0    wall_RIs1_SE:0
+
+   input RoyalIcing_s3.th2
+   join wall_RIs3_NE:0     wall_RIs1_SE:4
+   join wall_RIs3_Pillar:0 wall_RIs1_SE:end
+   join wall_RIs3_NW:0     wall_RIs1_SW:end
+   
+   input RoyalIcing_s4.th2
+
+   input EastPassage.th
+   input EastPassage_s1.th2
+   join wall_EPs1_NW:0  wall_RIs3_NE:end
+   join wall_EPs1_SW:0  wall_RIs3_SE:end
+   
+   input SouthPassage.th # South Passage
+   input SouthPassage.th2
+   
+   input WestPassage.th
+   input WestPassage_s1.th2
+   input WestPassage_s2.th2
+   join wall_RIs3_NW:end   wall_WPs1_1:0  # Northern wall to Royal Icing
+   join wall_RIs3_4:0     wall_WPs1_2:0  # Eastern edge of NL entrance
+
+   input Neverland.th
+   input Neverland.th2
+   
+   input NeverlandRopeClimb.th
+   input NeverlandRopeClimb_s1.th2
+   input NeverlandRopeClimb_s2.th2
+   input NeverlandRopeClimb_s3.th2
+   input NeverlandRopeClimb_sL.th2  # Detailed labels for NRC
+   join wall_NLs1_1:0  wall_WPs1_3:0
+   join wall_NLs1_2:end  wall_WPs1_2:end
+   join NeverlandRopeClimb_s1 Neverland_s1
+   
+   # MAPS.  Only maps can be selected in thconfig.
+   # ====
+   # Different maps used for different outputs.  
+   # Maps are collections of scraps.  "break" is used to denote levels (underlying levels are greyed)
+   # Maps can also be collections of other maps, with "break", "preview below" and "preview above".
+   # Maps and Scraps can only be mixed in same map using "preview" prefix for map.
+   # Therefore, use "select" in thconfig file to build up selection of maps required.
+   # Clearly there are two ways of doing the same: multiple select statements in thconfig, or 
+   # multiple map definitions here.  Not sure I've got the right balance, yet.
+
+   # m2500 Small scale outline with text overlays for magazine output
+   # =====
+   map Map_m2500 -title "Upper Flood Swallet"
+       MapLabels_s1
+       preview below UF_m1   # "preview below" creates a greyed outline of the cave
+       preview below BoulderChoke_m1
+       preview above Centreline_m1 # Preview above removes labels and other detail
+       preview below Neverland_m1
+   endmap
+   
+   # Ouline_m2500
+   # ============
+   # Outline only small scale map with no text,  Good for Bill's website overlay and T-shirt.  
+   map Outline_m2500
+       Surface_s2    # This is currently used to remove error "incompatible map projection"  Don't know why.
+       preview below Map_m500   # "preview below" creates a greyed outline of the cave
+       preview above Centreline_m1 # Preview above removes labels and other detail
+       #Survey_m1 
+       #preview above # Preview above removes labels and other detail
+   endmap
+
+   # Map_m500 - This is the main detailed 1:500 scale map, all in one page.  
+   # ========
+   # Good for zooming within pdf on computer or A1 printing
+   map Map_m500 # -title "Upper Flood Swallet" 
+       BoulderChoke_m1
+       UF_m0
+       Neverland_m1
+       RoyalIcing_m1
+       EastPassage_m1
+       UF_m1
+       break
+       BoulderChoke_m0
+       break
+       #Surface_m1  # Contains surface mineshafts and cave entrances
+       #Survey_m1
+       Centreline_m1
+   endmap
+   
+   map Upper_Flood_Atlas # Chapter equivalent to Map_m500
+       BoulderChoke_m1
+       Neverland_m1
+       RoyalIcing_m1
+       EastPassage_m1
+       UF_m1
+       break
+       BoulderChoke_m0
+       break
+       #Surface_m1  # Contains surface mineshafts and cave entrances
+       #Survey_m1
+       Centreline_m1
+   endmap
+
+   # COMPONENT MAPS - only contain scraps.  No preview above / below in this section.
+   # ==============
+   # Component maps are individually selected in the thconfig files and in the Map collections above.
+   # Keep full survey separate from Centreline for Preview Below
+   # Main Cave Passages
+   map Surface_m1
+       Surface_s1
+   endmap   
+
+   map UF_m0
+       Legend_s1
+       Grid_s1
+       Snippets_s1
+       #Speculation_s1
+   endmap
+   
+   map UF_m1 -proj plan
+       UF_s1
+       UF_s2
+       UF_s3
+       GoldenChamber_s1
+       break
+       StreamwayRegained_s1
+       break
+       MalcolmsWay_s1  
+       TrenchPassage_s1
+       break
+       MalcolmsWay_s2
+       break
+       MalcolmsWay_s3 
+       break
+       WallStreet_s1
+       break
+       MalcolmsWay_s4 
+       WestPassage_s2
+       break
+       WestPassage_s1
+   endmap
+
+   # Technical map overlay showing Ben and Paul's survey of Midnight Chamber.  Seldom selected.
+   # Similar will be produced for Martin and Yvonne's survey, when they have provided LRUD.
+   map MC_m1
+       MC_s1    # Ben and Paul's survey overlay
+       preview below UF_m1
+   endmap
+
+   # Keep centreline separate for Preview Above in m2500 output
+   map Survey_m1 -proj plan
+     TrenchPassage
+     #CharnelPassage
+     #SouthPassage
+     break
+     FullLRUD.EastPassage
+     #CentreLineOnly.WestPassage
+   endmap   
+   
+   map Centreline_m1       # These are scrap drawings over centreline only data.
+       CharnelPassage_s1
+       SouthPassage_s1 
+   endmap
+   
+   map GoldenChamber_m1
+       GoldenChamber_s1 
+       break
+       StreamwayRegained_s1
+   endmap
+
+   map BoulderChoke_m0  # Presumed boundary of boulder choke passage, selectable for different outputs
+       BoulderChoke_s0
+   endmap
+   
+   map BoulderChoke_mL  # Boulder Choke Detail map with labels and presumed passage walls
+       BoulderChoke_sL  # Contains detailed text wanted in detailed map, but not in UF500
+       break
+       BoulderChoke_s1 
+       break
+       BoulderChoke_s2
+       break
+       BoulderChoke_s3
+       break
+       BoulderChoke_s0  # Presumed boundary
+   endmap
+   
+   map BoulderChoke_m1  # Boulder Choke Passage Walls, use in all outputs
+       BoulderChoke_s1 
+       break
+       BoulderChoke_s2
+       break
+       BoulderChoke_s3
+   endmap
+
+   map RoyalIcing_m1
+       RoyalIcing_s2
+       RoyalIcing_s3
+       break
+       RoyalIcing_s4
+       RoyalIcing_s1
+       break
+       Snippets_RI_s1
+   endmap
+   
+   map EastPassage_m1 -title "East Passage"
+       EastPassage_s1
+   endmap
+
+   map WestPassage_m1 -title "West Passage"
+       WestPassage_s1
+       WestPassage_s2
+   endmap
+
+
+   map Neverland_mL
+       NeverlandRopeClimb_sL # Contains detailed text wanted in detailed map, but not in UF500
+       break
+       Neverland_s1
+       NeverlandRopeClimb_s1
+       NeverlandRopeClimb_s3  
+       break
+       NeverlandRopeClimb_s2  # s2 is below both s1 and s2
+   endmap
+
+   map Neverland_m1
+       Neverland_s1
+       NeverlandRopeClimb_s1
+       NeverlandRopeClimb_s3
+       break
+       NeverlandRopeClimb_s2  # s2 is below both s1 and s2
+   endmap
+ 
+
+   # SURFACE OVERLAYS
+   # ================
+   # Only one surface / bitmap definition permitted.  Un-comment as required.  
+   # The Geo_Surface must be selected or not in thconfig.  
+   # This is done within Layout using "surface on"  This is why only one surface can be defined.  
+   survey Geo_Surface
+     surface 
+         # bitmap "../../images/6in BGS map Blkmoor.jpg" [236 177 50000 55000 801.5 732.7 51000 56000]
+         #NOTES:-
+         # size 436.034mm x 337.346mm (1648 x 1275) pixels
+         # Grid 1 62.5mm x 46.827 mm (236, 177)pixels E(350)000,N(155)000
+         # Grid 2 212.067mm x 193.858mm (801.5, 732.7)pixels E(351)000,N(156)000 = 1000,1000
+         
+#         bitmap "../../images/GrebeBlackWater2.png" [327 1203 50500 55600 918 22 50600 55400]
+         # Pixel 327, 269 = ST 50500 55600      327,1203
+    # and pixel 918, 1450 = ST 50600 55400 918,22
+         # X from Left, Y from top.  940x1472
+     endsurface
+
+     #surface 
+     #    bitmap "../images/UF WWh Grebe on OS base.JPG" [72 2131 300 1000 1625 230 800 400]
+         #NOTES:-
+         # Grid 1:  72, 2131  300, 1000
+         # Grid 2:  1625, 230  800, 400
+     #endsurface
+   endsurvey
+  
+endsurvey
+

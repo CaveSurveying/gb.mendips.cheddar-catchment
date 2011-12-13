@@ -1,0 +1,26 @@
+encoding  utf-8
+survey Spider
+
+input Entrance/Entrance.th
+input Hazelnut/Hazelnut.th
+
+map SpiderM
+  EntranceM@Entrance
+ break
+  HazelnutM@Hazelnut
+endmap
+
+map SpiderEeM
+  EntranceEeM@Entrance
+  HazelnutEeM@Hazelnut
+endmap
+
+equate 1.10@Entrance 2.0@Hazelnut
+
+#Plan joins
+join EntranceSPl2@Entrance HazelnutSPl1@Hazelnut
+
+#Elevation joins
+
+endsurvey
+

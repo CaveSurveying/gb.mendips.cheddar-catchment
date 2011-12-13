@@ -1,0 +1,102 @@
+encoding  utf-8
+survey Long_Hole
+
+#Long Hole, Cheddar
+#Data from Willie Stanton's Survey Book 1 pp7-10
+#In all cases bearings in the original are in degrees and minutes
+#These are converted here to decimal degrees
+#Typed in by Graham Mullan May 2010
+
+input Long_Hole.th2
+
+map Long_HoleM
+  Long_HoleSPl1
+endmap
+
+equate A A@Goughs_Old
+equate F F@Reynolds
+
+
+centreline
+cs EPSG:27700 
+date 1950
+
+data normal from to compass tape clino ignoreall
+units tape feet
+declination 0 degree
+calibrate compass +11.5
+station A "" entrance
+fix A  346680 153870 63
+#46680 53870 63
+#300000 100000 added to offset for from OSGB ST to ESPN27700
+
+A  B  072.00  83.5  14.5
+B  C  092.25  78.0  7.0
+C  D  085.5  82.25  12.5
+D  E  076.25  19.66  33.5
+E  F  275.00  20.0  76.0
+F  G  326.5  34.33  32.0
+G  H  337.5  13.66  8.0
+H  I  093.00  14.0  -3.0
+I  J  060.5  31.58  -13.0
+J  K  052.00  35.0  4.0
+
+C  O  081.00  41.92  13.25
+O  P  022.5  46.17  35.5
+
+C  Q  141.75  23.17  -18.0
+Q  R  210.25  15.58  -25.5
+R  S  185.00  21.66  -15.0
+S  T  151.25  15.75  7.0
+T  U  156.00  11.58  -30.0
+endcentreline
+
+survey Goughs_Old
+centreline
+date 1950
+data normal from to compass tape clino ignoreall
+units tape feet
+declination 0 degree
+calibrate compass +11.5
+station AA "" entrance
+
+A  AA  146.00  7.5  -11
+AA  BB  162.00  17.17  -48.0
+BB  CC  038.00  3.08  36.0
+CC  DD  157.00  18.0  -25.0
+CC  EE  322.00  13.17  -7.0
+EE  FF  034.00  32.0  -68.0
+DD  II  182.5  47.17  -11.0
+II  HH  008.5  45.17  -18.5
+HH  GG  335.5  14.0  -3.0
+GG  FF  348.5  26.17  1.5
+FF  ZZ  342.25  19.17   -4.0
+ZZ  XX  267.00  30.58  -31.0
+
+endcentreline
+endsurvey
+
+survey Reynolds
+#in this survey angles are in degrees:minutes
+centreline
+date 1964
+data normal from to compass clino tape ignoreall
+units tape feet
+calibrate compass +10
+
+F 218 256:00 18:00  3.9
+218 219 128:00  13:20 31.2
+219 220 127:30  -2:10 9.5
+220 221 - up  1.7
+221 222 131:00  -4:00 7.6
+222 223 124:00  -19:00  7.4
+223 224 142:30  -12:10  24.7
+224 225 148:30  -13:00  29.2
+225 226 188:00  -14:20  9.1
+226 227 158:00  -17:00  12.5
+227 228 189:00  -14:10  18.4  
+
+endcentreline
+endsurvey
+endsurvey
+

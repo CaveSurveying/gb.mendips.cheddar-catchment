@@ -1,0 +1,40 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -4344.0 -401.0 1236.73 2439.365
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {360.699 1 1.0} {382.24 1.0@HiddenPassage.RoyalIcing} xvi/RoyalIcing.xvi 0 {}
+##XTHERION## xth_me_image_insert {-4206.15748031 1 1.0} {-194.377952756 1.0} DistoX/WestPassage/therion05_p1.xvi 0 {}
+##XTHERION## xth_me_image_insert {359.023622047 1 1.0} {382.377952756 1.0} DistoX/RoyalIcing/UF_RoyalIcing_20090710.therion_p5.xvi 0 {}
+
+
+
+scrap RoyalIcing_s4 -scale [-128.0 -128.0 6618.1104 -128.0 0.0 0.0 171.35120416 0.0 m]
+
+line ceiling-step -outline out
+  338.75 294.25
+  341.75 301.25 369.0 420.0 372.0 428.0
+  smooth off
+endline
+
+line wall
+  255.0 396.0
+  259.5 394.5 295.5 389.5 300.0 387.0
+  304.5 384.5 339.75 298.25 338.75 294.25
+  smooth off
+endline
+
+line wall
+  372.0 428.0
+  364.5 423.0 307.0 395.5 301.0 395.5
+  295.0 395.5 265.0 403.5 259.5 403.5
+  smooth off
+endline
+
+point 300.0 387.0 station -name 37@RoyalIcing
+
+point 257.549 399.95 station -name 38@RoyalIcing
+
+point 392.951 409.98 station -name 35@RoyalIcing
+
+endscrap
+
+

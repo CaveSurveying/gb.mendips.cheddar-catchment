@@ -1,0 +1,283 @@
+*BEGIN Reservoir_Hole
+
+;In all cases bearings in the original are in degrees and minutes
+;These are converted here to decimal degrees
+;Typed in by Graham Mullan May 2010
+
+*BEGIN
+;Source WIS survey book 1 pp55/6
+;*DATE 1951.12.28
+;commented out usual Survex date problem
+*DATA Normal from to compass tape clino ignoreall
+*UNITS tape feet
+*CALIBRATE Compass +11.5
+
+*FIX H reference 47460 54470 128
+*ENTRANCE H
+
+H	I	184.16	15.0	-16.5
+I	J	208.50	7.3	-11.0
+J	K	201.50	24.3	-18.0
+K	L	194.00	16.8	-21.5
+L	M	185.00	17.3	-15.5
+M	N	199.00	41.7	-20.5
+N	O	198.00	13.8	14.0
+O	P	200.50	36.0	-12.5
+N	N1	-	0.7	up
+N1	Q	006.16	24.5	-22.5
+Q	R	191.00	4.5	-6.0
+R	S	293.00	34.2	-72.0
+
+*END
+
+*BEGIN
+;Source WIS survey book 2 pp27/8
+;*DATE 1965.03.03
+;commented out usual Survex date problem
+*DATA Normal from to compass clino tape ignoreall
+*UNITS tape feet
+*CALIBRATE Compass +7.66
+
+Q	423	182.83	21.42	5.0
+423	424	286.16	17.5	18.1
+424	425	012.00	36.5	19.4
+425	426	009.00	11.32	33.3
+
+*END
+
+*BEGIN
+;Source WIS survey book 2 pp33/4
+;*DATE 1965.11.08
+;commented out usual Survex date problem
+*DATA Normal from to compass clino tape ignoreall
+*UNITS tape feet
+*CALIBRATE Compass +8.32
+
+Q	445	160.00	-12.5	3.9
+445	446	100.66	3.66	5.7
+446	447	-	down	19.2
+447	448	274.00	-	6.0
+
+*END
+
+;*BEGIN
+;Source WIS survey book 2 pp49/50
+;*DATE 1967.03.18
+;commented out usual Survex date problem
+;*DATA Normal from to compass clino tape ignoreall
+;*UNITS tape feet
+;*CALIBRATE Compass +8.16
+
+;Q	449	182.32	25.5	23.2
+;449	450	189.92	2.35	20.5
+;450	451	197.83	-18.1	17.6
+;451	452	191.16	-6.0	12.3
+
+;*END
+;duplicate section so commented out
+
+*BEGIN
+;Source WIS survey book 2 pp53/4
+;*DATE 1967.10.13
+;commented out usual Survex date problem
+*DATA Normal from to compass clino tape ignoreall
+*UNITS tape feet
+*CALIBRATE Compass +8.42
+
+426	453	181.75	-31.5	15,2
+453	454	016.75	-61.5	36.1
+454	455	224.33	-54.25	11.2
+455	456	-	down	7.8
+456	457	228.16	-32.0	5.3
+457	458	210.00	-35.33	2.9
+458	459	-	up	2.6
+
+*END
+
+*BEGIN
+;Source WIS survey book 2 pp61/2
+;*DATE 1969.04.14
+;commented out usual Survex date problem
+*DATA Normal from to compass clino tape ignoreall
+*UNITS tape feet
+*CALIBRATE Compass +8.32
+
+459	460	-	down	8.5
+460	461	275.5	-44.0	3.2
+461	462	038.00	-46.33	8.0
+462	463	354.5	-48.67	11.1
+463	464	006.00	-23.58	7.7
+
+*END
+
+*BEGIN
+;Source WIS survey book 2 pp63/4
+;*DATE 1969.05.16
+;commented out usual Survex date problem
+*DATA Normal from to compass clino tape ignoreall
+*UNITS tape feet
+*CALIBRATE Compass +8.16
+
+464	465	-	down	10.5
+465	466	-	up	2.8
+466	467	273.33	-56.5	16.1
+467	468	335.50	-31.5	14.7
+468	469	309.83	-46.0	15.6
+469	470	326.50	13.0	9.4
+470	471	342.66	-4.5	5.3
+
+*END
+
+*BEGIN
+;Source WIS survey book 2 pp63/4
+;*DATE 1969.10.15
+;commented out usual Survex date problem
+*DATA Normal from to compass clino tape ignoreall
+*UNITS tape feet
+*CALIBRATE Compass +8.16
+
+471	472	289.33	-27.0	7.0
+472	473	284.66	0.5	10.4
+473	474	261.33	-8.5	20.2
+474	475	257.00	-23.75	12.8
+475	476	169.5	-30.33	23.5
+476	477	216.66	-28.0	25.3
+477	478	194.83	-12.66	32.6
+478	479	186.83	-16.83	40.5
+479	480	178.16	-12.0	40.5
+480	481	264.33	-16.33	24.6
+481	482	189.5	-5.25	24.3
+482	483	142.83	12.5	24.2
+482	484	221.66	-37.5	20.3
+484	485	187.00	-20.5	18.3
+485	486	219.66	-14.66	17.0
+;486 centre of head of upper bolt holding chain
+
+*END
+
+*BEGIN
+;Source WIS survey book 2 pp65/6
+;*DATE 1969.10.17
+;commented out usual Survex date problem
+*DATA Normal from to compass clino tape ignoreall
+*UNITS tape feet
+*CALIBRATE Compass +8.16
+
+486	487	186.83	-29.0	23.7
+487	488	126.00	-1.83	17.7
+;488 candle 1" high on top of larger staagmite in middle or enntrance to Potter's Heaven
+487	489	197.5	-14.5	20.9
+489	490	175.00	-22.5	14.8
+490	491	237.66	-37.16	8.4
+491	492	211.33	-20.0	14.9
+492	493	158.5	-10.5	17.3
+493	494	191.66	-27.33	11.3
+494	495	160.5	-12.75	38.2
+;495 drillmark at bottom of s. end of small aven
+
+*END
+
+*BEGIN
+;Source WIS survey book 2 pp65/6
+*DATE 1970.02.27
+*DATA Normal from to compass clino tape ignoreall
+*UNITS tape feet
+*CALIBRATE Compass +8.0
+
+488	499	322.16	13.25	5.0
+499	500	138.16	-4.66	17.9
+500	501	165.16	-16.16	40.3
+501	502	159.00	-8.66	11.8
+502	503	226.16	-26.5	28.7
+503	504	202.92	-19.25	15.8
+504	505	176.50	-16.5	16.7
+505	506	193.00	-14.83	10.9
+
+*END
+
+*BEGIN
+;Source WIS survey book 2 pp65/6
+*DATE 1970.03.17
+*DATA Normal from to compass clino tape ignoreall
+*UNITS tape feet
+*CALIBRATE Compass +8.16
+
+481	507	084.66	18.16	24.0
+507	508	147.83	3.83	33.1
+508	509	112.00	56.75	7.6
+509	510	159.16	28.0	5.2
+510	511	160.00	33.83	65.0
+511	512	301.33	2.75	5.5
+;512 Tip of embedded chain link (2 loose links) holding rope.
+511	513	132.33	6.33	21.5
+513	514	200.33	15.5	6.0
+514	515	180.00	-13.0	33.6
+
+*END
+
+*BEGIN
+;Source WIS survey book 2 pp78/9
+*DATE 1973.11.21
+*DATA Normal from to compass clino tape ignoreall
+*UNITS tape feet
+*CALIBRATE Compass +7.50
+
+512	524	126.5	4.66	19.4
+524	525	167.50	21.0	8.7
+525	526	081.50	37.33	8.5
+526	527	171.5	33.5	7.7
+527	528	-	up	16.7
+528	529	026.5	22.16	9.1
+529	530	137.00	3.33	11.7
+530	531	220.00	72.5	29.0
+531	532	074.00	-27.16	2.2
+532	533	207.00	5.25	9.2
+533	534	262.50	11.0	9.6
+;534 Top of stumpy stalagmite on west wall 3' below roof
+532	535	129.00	17.0	7.5
+535	536	005.00	49.0	34.0
+
+*END
+
+*BEGIN
+;Source WIS survey book 2 pp79/80
+*DATE 1974.02.13
+*DATA Normal from to compass clino tape ignoreall
+*UNITS tape feet
+*CALIBRATE Compass +7.33
+
+534	537	027	8.33	3.4
+537	538	177	6.25	9.6
+538	539	-	up	8.7
+539	540	104	12.66	2.6
+540	541	172	27.83	18.4
+541	542	049	21.25	5.5
+542	543	201	30.16	22.6
+543	544	189	25.33	10.4
+544	545	203	30.5	76.7
+545	546	289	53.33	4.8
+546	547	179	58.66	34.4
+547	548	282	3.83	11.8
+548	549	162	21.33	23.9
+549	550	008	30.5	1.7
+550	551	213	58.83	50.1
+551	552	207	24.33	20.2
+552	553	199	-16.0	22.3
+;553 top of broken stalagmite on W edge of path by pseudo cave pearls
+*END
+
+*BEGIN
+;Source WIS survey book 2 pp79/80
+*DATE 1974.02.16
+*DATA Normal from to compass clino tape ignoreall
+*UNITS tape feet
+*CALIBRATE Compass +7.50
+
+553	554	174.00	1.33	20.1
+554	555	173.50	-9.33	18.1
+555	556	043.00	23.33	11.2	too tight at 10'
+556	557	065.00	17.5	25.0	in low bedding plane beyond constriction
+
+*END
+
+*END Reservoir_Hole

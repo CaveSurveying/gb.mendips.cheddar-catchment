@@ -1,0 +1,42 @@
+*begin GB
+
+*include C/C.svx
+*include D/D.svx
+*include E/E.svx
+*include F/F.svx
+*include G/G.svx
+*include H/H.svx
+*include K/K.svx
+*include L/L.svx
+*include M/M.svx
+*include N/N.svx
+*include P/P.svx
+*include Q/Q.svx
+*include R/R.svx
+*include T/T.svx
+*include W/W.svx
+*include X/X.svx
+*include Y/Y.svx
+*include Z/Z.svx
+;*include LadderDig/LadderDig.svx
+
+;*Equate LadderDig.2 T.1
+
+*data nosurvey from to
+Q.1	N.17c
+N.17a	R.1
+N.31	W.1
+N.20	G.11a
+M.1	G.11a
+F.1	G.11a
+G.19	T.1
+N.1	G.15a
+N.9	P.1
+G.13a	N.8
+D.35	G.A
+G.1	D.34
+G.8	Z.18
+Z.1	D.1
+Y.1	D.1
+
+*end GB

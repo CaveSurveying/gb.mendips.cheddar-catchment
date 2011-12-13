@@ -1,0 +1,26 @@
+encoding  utf-8
+survey TyningsBarrow
+
+input Main/Main.th
+input Velcro/Velcro.th
+input DrunkenHorse/DrunkenHorse.th
+input PatonPlace/PatonPlace.th
+
+equate 29@Main 29@Velcro
+equate 50a@Main 50a@DrunkenHorse
+equate 14@Main 14@PatonPlace
+equate 17@Main 17@PatonPlace
+
+map TyningsBarrowM -title "Tyning's Barrows Swallet"
+  DrunkenHorseM@DrunkenHorse
+  VelcroM@Velcro
+  PatonPlaceM@PatonPlace
+  MainM@Main
+endmap
+
+join MainSPl1@Main VelcroSPl1@Velcro -smooth on
+join MainSPl1@Main DrunkenHorseSPl1@DrunkenHorse -smooth on
+join MainSPl1@Main PatonPlaceSPl1@PatonPlace -smooth on
+
+endsurvey
+

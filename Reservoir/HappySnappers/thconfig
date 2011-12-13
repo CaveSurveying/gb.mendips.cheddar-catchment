@@ -1,0 +1,33 @@
+encoding  utf-8
+source HappySnappers.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+
+#export map -proj plan -layout local -o HappySnappers.pdf
+#Produces plan of cave, on a single sheet
+
+export model -fmt survex -o HappySnappersth.3d
+#Survex file showing centre line only
+
+#export map -proj plan -fmt kml -layout googlemaps -o HappySnappers.kml
+
+#export model -o HappySnappers.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o HappySnappers_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+
+base-scale 1 500
+scale 1 1000
+endlayout
+
+input ../../common_layout.th

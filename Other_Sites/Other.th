@@ -1,0 +1,16 @@
+encoding  utf-8
+survey Other -namespace off
+centreline
+cs OSGB:ST
+
+#Information taken from MCRA, unless otherwise stated.
+
+#station  "" entrance
+
+fix Wigmore 55710 52560 265
+station Wigmore "" entrance
+
+
+endcentreline
+endsurvey
+

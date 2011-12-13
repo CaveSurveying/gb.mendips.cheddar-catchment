@@ -1,0 +1,118 @@
+; Locn: GB Cavern, Mendips, UK
+
+
+*begin ladderDig
+;*export 2
+*title "ladderDig"
+
+
+*date 2008.08.15
+*team Compass clino BenM
+*team tape BenM James 
+*team Notes Gina
+
+; Calibration: A to B 313, B to A 133 
+; NB this file is of three trips on different dates and will need replacing...[AMA 20080923]
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+;Declination calculated using
+;http://www.ngdc.noaa.gov/geomagmodels/struts/calcDeclination;jsessionid=469CA96838B38F9B9FDCE963D7954750
+;location 51.3N 2.75W for above date giving 2 degrees 53 minute West {is negative right for west}
+*calibrate declination -2.88333
+;*calibrate compass 
+
+;from	to	tape	compass	clino	; remarks
+*flags duplicate
+2	3	3.42	227	34	;
+3	4	7.53	221	-17	;
+4	5	3.56	257	-6	;
+5	6	1.66	200	-40	;
+6	7	3.22	239	-3	;
+7	8	1.14	095	+42	;
+8	9	3.86	238	-11	;
+9	10	1.64	204	+12	;
+10	11	3.05	227	+2	;
+11	12	7.49	184	-6	;
+12	13	4.80	144	-1	;
+13	14	3.35	210	+11	;
+14	15	4.59	168	+7	;
+15	16	4.71	130	-11	;
+16	17	3.40	159	-27	;
+17	18	1.74	170	-15	;
+18	19 	1.60	119	0	;
+19	20	1.76	082	+32	;
+20	21	0.9	0	+90	;
+21	22	2.93	195	+14	;
+22	23	5.17	206	+24	;
+23	24	7.02	168	+28	;
+24	25	4.45	223	-4	;
+25	26	1.9	231	-19	;
+26	27	7.85	331	-56	;
+27	28	4.10	223	0	;
+28	29	4.4	185	-20	;
+29	30	3.52	192	+13	;
+30	31	1.93	178	-10	;
+31	32	5.18	196	+8	;
+32	33	3.04	200	-10	;
+33	34	2.55	235	-54	;
+34	35	1.39	208	-52	;
+35	36	1.90	182	-79	;
+36	37	2.67	233	-11	;
+37	38	5.68	232	-25	;
+38	39	8.43	218	-31	;
+39	40	11.65	206	+9	;
+40	40a	5	145	0	;
+40	41	9.13	203	-6	;
+
+
+
+
+
+
+;station details
+;name	L	R	U	D	description
+;2	1	2.5	3.5	0	Point of rock top of pitch
+;3	1	0	0	1.5	Nobbel of flowstone
+;4	0.2	1.2	0.1	1	Stal on left before iron gate
+;5	0.6	0	0.4	1	Small piece of flow stone on right wall
+;6	0	1	0.2	0.2	Vein of calcite on left just into the duck
+;7	1	0	0.3	0.1	Knob of rock at water level on RHS @ end of duck
+;8	0	1	0.2	0.5	Small nickin wall above climb up on LHS
+;9	1	0.2	2	0.1	
+;10	0.4	0.4	0.5	0.3	Stal centre of passage after crawl
+;11	0.7	0.1	0	0.5	Curtain right of passage
+;12	0.8	0.3	0.4	0	Flow Stone on corner, left of passage top of black rock
+;13	0.3	0.5	0.4	0	Small stall in centre of passage
+;14	1	3	2.5	0.5	Stal as emerge into Helictite Chamber
+;15	1	1.5	3	1	Rock on right of passage
+;16	1	1.5	3	1	Flow Stone in middle passage
+;17	0.5	0.5	0.8	0.2	Black rock prior to duck
+;18	1.0	0.1	0.1	0	Edge of water before duck
+;19	0.8	0.5	0.8	0	Edge of water after duck
+;20	0.4	0.2	0.9	0.2	Point of rock up from duck
+;21	2.5	1.0	0	0.9	Point of rock on ceiling
+;22	1.0	1.0	1.5	0	Pint of black rock
+;23	3.0	0.1	1.0	1.5	Point of large boulder
+;24	2.0	3.5	4.0	0.2	
+;25	2.0	0.5	3.5	0	
+;26	5.0	2.0	1.8	1.7	Corner of obvious large pearched boulder 
+;27	0	1.5	1.0	0	Back wall prior to 1m drop down into "lower boulder" route
+;28	2.5	0	0.5	1.5	Corner of large flat square boulder
+;29	2.5	0	0.5	1.0 	Tip of red boss stall
+;30	0	1.8	0.5	0.3	
+;31	0.8	0.2	0.6	0	
+;32	0	1.0	0.3	1.0
+;33	4.0	0	0	1.0	Obvious stalictite prior to climb down (piece of paper left)
+;34	0.2	1.	1.0	1.0	
+;35	2.5	0.1	1.2	0
+;36	1.0	1.5	2.0	0.2
+;37	0.5	4.0	0.5	0.1
+;38	2.0	3.0	5.0	0
+;39	2.5	0	3.5	1.5	RHS of low point of Bat Passage 	
+;40	2.5	3.5	4.0	0.2	Tip of stal on left of passage
+
+
+
+*end ladderDig
+
+

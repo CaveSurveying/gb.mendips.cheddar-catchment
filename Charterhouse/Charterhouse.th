@@ -1,0 +1,129 @@
+encoding  utf-8
+survey Charterhouse -title "Charterhouse<br>Cheddar Catchment"
+
+#import charter.3d -surveys use -filter charter -cs OSGB:ST
+
+#input Entrance/Entrance.th
+input OldCave/OldCave.th
+input lower/lower.th
+#input up08/up08.th
+input 2008/2008.th
+input 2009/2009.th
+input 2010/2010.th
+input 2010b/2010b.th
+
+#As 2011 is in so many seperate bits, there is not an overall 2011.th
+
+input 2011/BTAven/BTAven.th
+input 2011/Squiffy/Squiffy.th
+input 2011/R66-3/R66-3.th
+input 2011/R66-4/R66-4.th
+input 2011/R66-6/R66-6.th
+input 2011/R66-8/R66-8.th
+input 2011/R66-9/R66-9.th
+input 2011/RhinoPassage/RhinoPassage.th
+input 2011/ShitAndBust/ShitAndBust.th
+input 2011/HippoSump/HippoSump.th
+
+equate 1.9@DieselDuck.2009  4.0@R66-8
+equate 1.13@DieselDuck.2009  2.0@R66-9
+equate 1.4@R66-3 1.19@RipRiftLadder.2009
+equate 1.0@R66-4 1.26@Stream.2009
+equate 1.7@R66-6 1.29@Stream.2009
+equate 1.8@Rip_Rift2.2009 1.0@RhinoPassage
+equate 1.1@Stream.2009  1.27@ShitAndBust
+
+equate 1.10@PortalPool.2009 1.0@Squiffy
+equate 1.12@PortalPool.2009 1.0@BTAven
+
+equate 1.0@TimeLine.2008 1.0@PortalPool.2009
+#equate 1.11@TimeLine.2008 f05@lower
+#equate 1.0@TimeLine.2008 f13@lower
+equate 1.0@ChillOutChoke.2008 1.72@Entrance.OldCave
+
+equate 1.1@ChillOutChoke.2008 1@lower
+equate 1.13@DieselDuck.2009 1.0@Skeleton.2010b
+#equate 1.0@PortalPool.2009 f12@lower
+equate 1.27@HighTime.2010 1.23@Time_Square.2009
+equate  1.1@OverPot.2010 X@HippoSump
+
+join PortalPoolSPl1@PortalPool.2009 SquiffySPl1@Squiffy -smooth on
+join DieselDuckSPl2@DieselDuck.2009 SkeletonSPl1@Skeleton.2010b -smooth on
+join DieselDuckSPl2@DieselDuck.2009 R66-9SPl1@R66-9
+join HighTimeSPl2@HighTime.2010 Time_SquareSPl2@Time_Square.2009 -smooth on
+#join lower5ScP1@lower PortalPoolSPl1@PortalPool.2009 -smooth on
+join TimeLineSPl1@TimeLine.2008 PortalPoolSPl1@PortalPool.2009 -smooth on
+#join SkeletonSPl2@Skeleton.2010b Quicksand_ChamberSPl1@Quicksand_Chamber.2009 -smooth on
+join ShitAndBustSPl1@ShitAndBust StreamSPl1@Stream.2009 -smooth on
+join left@RipRiftLadder.2009 left@R66-3 -smooth on
+join l42-510-341@RipRiftLadder.2009 right@R66-3 -smooth on
+#R66-4 is not joined, very hard
+join R66-6SPl1@R66-6 StreamSPl2@Stream.2009 -smooth on
+
+#2011 need different maps as S&B is under 2009 the rest are over
+
+map 2011aM
+  BTAvenM@BTAven
+  HippoSumpM@HippoSump
+  RhinoPassageM@RhinoPassage
+  R66-3M@R66-3
+  R66-4M@R66-4
+  R66-6M@R66-6
+  R66-8M@R66-8
+  R66-9M@R66-9
+  SquiffyM@Squiffy  
+endmap
+
+map 2011bM
+  ShitAndBustM@ShitAndBust
+endmap
+
+map 2010M 
+  2010aM@2010
+  2010bM@2010b
+endmap
+
+map CharterhouseM 
+  OldCaveM@OldCave
+#  lowerM@lower
+  #up08M@up08
+  2011aM
+  2010M
+  2009M@2009
+  2011bM
+  2008M@2008
+  
+endmap
+
+map Charterhouse_exclude_2010M 
+  OldCaveM@OldCave
+#  lowerM@lower
+  #up08M@up08
+  2009M@2009
+  2008M@2008 
+endmap
+
+
+#Next set of maps are used to split displace Hall of Time from Hightime
+#Select Charter_displaceM to get the map
+map underHighTime
+  HighTimeSPl2@HighTime.2010
+  Time_SquareSPl2@Time_Square.2009
+ break
+  Time_SquareSPl1@Time_Square.2009
+endmap
+
+map New_Charter_displaceM
+#  lowerM@lower
+  2008M@2008
+  2010adispM@2010
+  2010bM@2010b
+  2011aM
+  2009dispM@2009
+  2011bM [-20 0] below  
+  underHighTime [40 40] below   
+endmap
+
+#end displace hall of time
+endsurvey
+

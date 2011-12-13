@@ -1,0 +1,35 @@
+encoding  utf-8
+survey R7
+
+centreline
+cs OSGB:ST
+date 1969 10 15
+#Source WIS survey book 2 pp63/4
+
+data normal from to compass clino tape ignoreall
+units tape feet
+#calibrate compass +8.16
+calibrate compass -0.33
+#altered to allow for automatic mag dev correction
+
+471  472  289.33  -27.0  7.0
+#471 drillmark on east wall 4' up 2' below roof
+472  473  284.66  0.5  10.4
+473  474  261.33  -8.5  20.2
+474  475  257.00  -23.75  12.8
+475  476  169.5  -30.33  23.5
+476  477  216.66  -28.0  25.3
+477  478  194.83  -12.66  32.6
+478  479  186.83  -16.83  40.5
+479  480  178.16  -12.0  40.5
+480  481  264.33  -16.33  24.6
+481  482  189.5  -5.25  24.3
+482  483  142.83  12.5  24.2
+482  484  221.66  -37.5  20.3
+484  485  187.00  -20.5  18.3
+485  486  219.66  -14.66  17.0
+#486 centre of head of upper bolt holding chain
+
+endcentreline
+endsurvey R7
+

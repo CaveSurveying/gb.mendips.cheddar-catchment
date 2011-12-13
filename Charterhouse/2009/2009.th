@@ -1,0 +1,87 @@
+encoding  utf-8
+survey 2009
+
+input DieselDuck/DieselDuck.th
+input DieselInlet/DieselInlet.th
+input Oxbow/Oxbow.th
+input PipeDream1/PipeDream1.th
+input PipeDream2/PipeDream2.th
+input PortalPool/PortalPool.th
+input Quicksand_Chamber/Quicksand_Chamber.th
+input Rip_Rift1/Rip_Rift1.th
+input Rip_Rift2/Rip_Rift2.th
+input RipRiftLadder/RipRiftLadder.th
+input StalPotInlet/StalPotInlet.th
+input Stream/Stream.th
+input Time_Square/Time_Square.th
+
+
+equate 1.0@DieselDuck 1.42@Stream
+equate 1.43@DieselDuck 1.0@Time_Square
+equate 1.9@DieselDuck 1.0@Quicksand_Chamber
+equate 1.4@DieselDuck 1.7@Quicksand_Chamber
+equate 1.0@DieselInlet 1.34@Stream
+equate 1.0@Oxbow 1.18@RipRiftLadder
+equate 1.6@PipeDream1 1.5@PipeDream2
+equate 1.0@PipeDream2 1.7@Stream
+equate 1.22@PortalPool 1.0@Rip_Rift1
+equate 1.39@PortalPool 1.0@Stream
+equate 1.14@Rip_Rift1 1.11@Rip_Rift2
+equate 1.22@Rip_Rift2 1.0@RipRiftLadder
+equate 1.48@Rip_Rift2 1.26@Stream
+equate 1.5@Rip_Rift1 2.0@StalPotInlet
+equate 1.22@Stream 1.13@Oxbow
+equate 1.18@Stream 1.22@RipRiftLadder
+
+map 2009M -title "2009"
+  DieselDuckM@DieselDuck
+  DieselInletM@DieselInlet
+  OxbowM@Oxbow
+  PipeDream1M@PipeDream1
+  PipeDream2M@PipeDream2
+    StalPotInletM@StalPotInlet
+  PortalPoolM@PortalPool
+  Quicksand_ChamberM@Quicksand_Chamber
+    RipRiftLadderM@RipRiftLadder
+  Rip_Rift1M@Rip_Rift1
+  Rip_Rift2M@Rip_Rift2
+  #RipRiftLadderM@RipRiftLadder
+  #StalPotInletM@StalPotInlet
+  StreamM@Stream
+  Time_SquareM@Time_Square
+endmap
+
+map 2009dispM
+  DieselDuckM@DieselDuck
+  DieselInletM@DieselInlet
+  OxbowM@Oxbow
+  PipeDream1M@PipeDream1
+  PipeDream2M@PipeDream2
+  StalPotInlet_displacedM@StalPotInlet
+  PortalPoolM@PortalPool
+  Quicksand_ChamberM@Quicksand_Chamber
+    RipRiftLadderM@RipRiftLadder
+  Rip_Rift1M@Rip_Rift1
+  Rip_Rift2M@Rip_Rift2
+  StreamM@Stream
+endmap
+
+join Quicksand_ChamberSPl1@Quicksand_Chamber DieselDuckSPl1@DieselDuck -smooth on
+join Quicksand_ChamberSPl2@Quicksand_Chamber DieselDuckSPl1@DieselDuck -smooth on
+join DieselDuckSPl4@DieselDuck Time_SquareSPl1@Time_Square -smooth on
+join DieselInletSPl1@DieselInlet StreamSPl2@Stream -smooth on  -count 4
+join PipeDream1SPl1@PipeDream1 PipeDream2SPl1@PipeDream2 -smooth on
+join PipeDream2SPl1@PipeDream2 StreamSPl1@Stream -smooth on 
+join PortalPoolSPl1@PortalPool Rip_Rift1SPl1@Rip_Rift1 -smooth on
+join PortalPoolSPl1@PortalPool StalPotInletSPl1@StalPotInlet -smooth on
+join Rip_Rift1SPl1@Rip_Rift1 Rip_Rift2SPl1@Rip_Rift2 -smooth on
+join Rip_Rift1SPl1@Rip_Rift1 StalPotInletSPl1@StalPotInlet -smooth on
+join Rip_Rift1SPl1@Rip_Rift1 StalPotInletSPl2@StalPotInlet -smooth on
+join RipRiftLadderSPl2@RipRiftLadder OxbowSPl1@Oxbow -smooth on
+join RipRiftLadderSPl3@RipRiftLadder StreamSPl1@Stream -smooth on 
+join StreamSPl2@Stream DieselDuckSPl1@DieselDuck -smooth on
+join StreamSPl2@Stream OxbowSPl1@Oxbow -smooth on
+join StreamSPl2@Stream Rip_Rift2SPl2@Rip_Rift2 -smooth on
+
+endsurvey
+

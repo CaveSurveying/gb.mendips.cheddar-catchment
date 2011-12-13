@@ -1,0 +1,404 @@
+encoding  utf-8
+survey EastPassage -title "East Passage"
+
+  centreline
+    units clino compass degree
+    units length centimeter
+#    calibrate length 0.095  # missing first 10cm - check?
+    #declination -3.13 deg  #3deg 8 min West @ 2006.09.17  51.2987N 2.71038W
+    declination -2.58 deg   #+0.55 Grid North
+    team "Tim Francis"
+    team "Richard Carey"
+    date 2007.01.06
+    data normal from to length compass clino
+
+    equate E6 			14@FullLRUD
+    equate D15 			26@BeyondZebraAven
+    equate 53@DeepPoolTube	53@FullLRUD       
+    equate 2@DeepPoolTube	54@FullLRUD       
+    equate 53@MikesTube		53@FullLRUD       
+    equate START@BeyondZebraAven	41@FullLRUD
+
+    extend start E1
+    extend right
+    #		length	bearing	dip	Notes on first station per leg
+    flags duplicate
+    E1	E2	900	074	-9	#E1 is the large boulder at Royal Icing Junction
+    E2	E3	420	333	-21	#Right wall
+    E3	E4	970	094	-8	#Tip of rock above Richard's drip photo
+    E4	E5	1393	079	2	#Roof ridge above tape
+    E5	E6	864	127	8	#Left wall on mud
+    E6	E7	744	106	-1	#Boulder - oxbow starts on right
+    E7	E8	950	121	4	#Right wall, knee height
+    E8	E9	1031	083	5	
+    E9	E10	1030	126	19	#Spike, left wall
+    E10	E11	390	252	23	#Left wall, rocky climb
+    E11	E12	475	133	4	#Boulder at Zebra Aven - oxbow back in right
+    E12	E13	884	128	14	#The traverses
+    E13	E14	900	124	26	#The traverses
+    E14	E15	570	120	1	#The traverses
+    E15	E16	812	091	3	#The traverses
+    E16	E17	120	099	1	#Gour aven on right
+    E17	E18	840	110	-3	#Mud crawl
+    E18	E19	1525	135	-17	#Left wall, lip of pit
+    E19	E20	1000	129	-3	#Right wall
+    E20	E21	292	127	-1	#Right wall, narrow rift
+    E21	E22	260	261	2	#Descending tube, poor air
+    E22	E23	250	268	0	
+    E23	E24	250	227	-6	
+    E24	E25	255	241	-3	
+    E25	E26	566	311	-2	
+    E26	E27	507	158	-6	
+    E28	E27	556	089	4	#Low muddy squeeze, Left wall
+    E28	E29	347	215	-18	#Junction. Closes down at pool ahead
+    E29	E30	770	341	2	
+    E30	E31	1231	337	-1	#Right wall, sump pool
+    E31	E32	700	304	0	#Sump pool
+
+    sd length 2 centimeter
+    sd compass 1 degree
+    sd clino 2 degree
+    E11	D12	475	133	4	#Boulder at Zebra Aven - oxbow back in right
+    D12	D13	884	128	14	#The traverses
+    D13	D14	900	124	26	#The traverses
+    D14	D15	570	120	1	#The traverses
+    D15	D16	812	091	3	#The traverses
+    D16	D17	120	099	1	#Gour aven on right
+    D17	D18	840	110	-3	#Mud crawl
+    D18	D19	1525	135	-17	#Left wall, lip of pit
+    D19	D20	1000	129	-3	#Right wall
+    D20	D21	292	127	-1	#Right wall, narrow rift
+    D21	D22	260	261	2	#Descending tube, poor air
+    D22	D23	250	268	0	
+    D23	D24	250	227	-6	
+    D24	D25	255	241	-3	
+    D25	D26	566	311	-2	
+    D26	D27	507	158	-6	
+    D28	D27	556	089	4	#Low muddy squeeze, Left wall
+    D28	D29	347	215	-18	#Junction. Closes down at pool ahead
+    D29	D30	770	341	2	
+    D30	D31	1231	337	-1	#Right wall, sump pool
+    D31	D32	700	304	0	#Sump pool
+
+    flags not duplicate
+
+  endcentreline
+  
+  survey FullLRUD
+    centreline
+      units clino compass degree
+      units length meter
+      instrument length  "Ben's Bosch DLE50 laser rangefinder"
+      instrument compass  "Ben's SAP #7"
+      
+      sd length 0.5 centimeter
+      sd compass 0.5 degree
+      sd clino 0.5 degree
+
+      declination -2.58 deg   #+0.55 Grid North
+      
+      flags duplicate  # Legs copied from Royal Icing survey, to aid scrap drawing
+        data normal from to length compass clino left right up down		# 1 is fixed station 36@RI
+        RI34	RI35	2.62	177	+13	0	1.3	3.0	1.0	# LRUD 35
+        RI35	RI36	2.23	232	+15	4.0	0	6.4	2.8	# LRUD 36
+        mark 36 painted
+        RI35	RI37	6.46	259	-41	0	0.4	1.0	1.0	# LRUD 37
+        RI36	RI39	6.86	188	+1	2.7	1.2	4.0	0.6	# LRUD 39
+        RI39	RI40	3.88	232	+38	0	0.5	6.0	0.5	# LRUD 40
+        equate RI36 1
+     flags not duplicate
+      
+      
+      team "Ben Cooper"
+      team "Mike Richardson"
+      date 2008.06.13
+      data normal from to length compass clino left right up down		# 1 is fixed station 36@RI
+      1	2	4.50	094	-03	[3.7 1.6] [10.2 2.8] [0.8 6.0] [3.0 1.5]# 2 on boulder
+      2 3	5.54	050 	-15	6.0	1.5	2.3	2.3		# 3 on boulder
+      3 4	4.46	021	-24	0.0	2.4	2.8	1.2		# 4 LH wall
+      4 5	8.04	107	+0	2.1	2.6	0	0.8		# 5 low ceiling above taped off mud
+      
+      # Side tube
+      #6 5	3.90	328	+0	0	0.8	0.4	0.4		# 6 start of side tube LHS
+      5 6	3.90	148	+0	0	0.8	0.4	0.4		# 6 start of side tube LHS
+      6 7	4.08	180	+07	0.3	0.5	0.9	0.2		# 7
+      7 8 	2.61	176	+09	0	0.5	0.2	0.6		# 8
+      8 10	3.50	219	-18	1	1	0	0		# 10 est LRUD.  Dig?
+      8 9	3.32	275	+03	0	0.8	1.1	0.2		# 9
+      9 11	2.22	313	+23	.2	.2	0	0		# 11 Roof meets mud floor.  Dig?
+      #12 5	10.53	264	-01	2.6	0.1	0	1.0		# 12 RHS
+      5 12	10.53	084	+01	2.6	0.1	0	1.0		# 12 RHS
+      12 13	7.21	072	-03	0	3.0	5.0	0.7		# 13
+      13 14	5.94	143	+14	1.4	1.4	2.0	1.8		# 14 Boulder - Oxbow starts on RH
+      
+      # Oxbow
+      14 15	4.98	136	+11	0	0.7	3.5	1.8		# 15 Start of Oxbow
+      15 16	3.66	156	+42	0.6	0	1.0	1.7		# 16
+      16 17	4.57	143	+01	0.5	0	2.4	0.9		# 17
+      17 18 	3.59	120	+02	0	0.5	1.1	1.4		# 18
+      18 19 	4.12	142	-07	0.4	0	1.7	2.4		# 19
+      19 20 	2.61	137	+21	0.7	0.3	0	3.2		# 20 top of rift - T junction
+      
+      # Right Hand Passage
+      # 21 20	1.81	093	+02	1.7	0	0.2	0.3		# 21 on RHS
+      20 21	1.81	273	-02	1.7	0	0.2	0.3		# 21 on RHS
+      flags duplicate
+      21 22a	3.30	225	-11	1.5	0.5	0	0		# 22a mud filled. Est. LRUD
+      21 22b	4.20	210	-10	.5	.5	0	0		# 22 mud filled continuation. Est. LRUD
+      flags not duplicate
+      # 20 22d	8.14	227	-08	.2	.8	.2	.2		# 22b dig site, 8.14 measured on 4/10/2008
+      # 20 22d	11	227	-08	.2	.8	.2	.2		# 22b dig site, 10.19m measured on 8/12/2008, plus an arm's length.
+      20 22d	15	227	-08	[0 0]	[1 .8]	.2	.2		# 22b dig site, 15m estimated Sat 2/5/May 2009  
+      
+      
+      # RHP, LH Rift								# 21 is below an interesting aven
+      21 23	5.17	146	-11	[0.2 0.6] [0.2 0] [5.0 2.5] 0.3		# 23
+      23 24	2.22	109	-12	0	0.9	3.3	0.1		# 24
+      24 25	3.54	153	+3	0.5	0	0	0		# 25 end est LRUD
+      
+      # Second low arch on LHS							# 24-26 flat out crawl
+      24 26	3.05	105	-06	1.2	0.9	[0.2 0.2] [0.1 0.1]	# 26 boulders on floor
+      26 27	6.24	131	+10	[0.4 0] [0 0.6] [3.4 2.3] [0.1 0.8]	# 26-27
+      27 28 	4.30	152	+08	0.6	0	1.0	1.5		# 28
+      28 29 	6.04	142	-05	0.7	1.0	2.6	0.8		# 29
+      29 30 	6.64	152	-14	0.3	1.4	0.2	0.2		# 30
+      30 31	3.32	136	-05	0	0.8	6.8	0.1		# 31  Aven
+      31 32 	2.80	151	+08	0	0.6	4.6	0.6		# 32 Aven - with high level lead
+      32 33	2.66	162	-15	0.5	0.3	0	0.4		# 33 Loose sandy crawl down
+      33 34	3.79	170	-13	0	0.7	0.4	0.1		# 34 T junction.  Stale air.  Wet
+      34 35	10.15	124	-01	[0.6 .2] [0.3 .2] [2.1 0] [0.1 0]	# 34-35	ends
+      34 36 	8.25	306	+6	[0.3 .2] [0.6 .2] [2.1 0] [0.1 0]	# 34-36 ends	
+flags duplicate
+34 34a 100 305 +5 [.05 .05] [.05 .05] 5 5  		# projected direction for fault intersecting dig
+flags not duplicate
+      # First low arch on LHS							# 
+      23 37	4.68	036	+11	[0.8 0.8] [0.8 .8] [.1 .1 ] [.2 .2]	# 23-37 flat out crawl
+      37 38 	3.74	311	+09	[1.5 1.1] [0 1.4] [1.4 0.5] [0.1 0.3]	# 37-38
+      38 20	2.58	212	-08	0	2	0	0.3		# 20 est LRUD from this direction
+      
+      # Left Hand Passage
+      38 39	5.20	074	+03	0	1.7	0.5	1.2		# 39
+      39 40 	5.15	114	-05	0.3	1.7	0	0.2		# 40 (LRUD from 39)
+      40 41	3.99	100	+02	[0.8 3.3] [0 0.8] [0.7 0.4] [0.2 0.4]	# 40-41
+      mark 41 painted
+      
+      # 41-42 underneatch Zebra Aven, 9.0m high
+      41 42	3.46	053	+26	3.2	0	0.9	1.0		# 42 above loose rocky climb 
+      42 43	3.47	027	-38	1.4	0	5	2.0		# 43
+      
+      # Bill's Tube
+      data normal from to length compass clino
+      44 43	1.99	009	-19						# back across passage
+      44 45	8.8	061	+10						# 45 into Bill's Tube
+      
+      data normal from to length compass clino left right up down
+      43 46	6.94	307	-30	1.4	0	12	1.7		# 46
+      46 47 	4.10	290	-05	0	1.3	8	1.3		# 47
+      
+      # Tubes
+      47 48 	4.70	038	-01	[2.9 0] [0 1.0] 2.6	1.3		# 48
+      48 49 	5.7	292	+12	[1.0 .1] [0 .1] 1	1		# 48-49.  49 est LRUD
+      48 50	2.54	088	-17	[0 0.4] [1.0 0.8] 0.3	0.6		# 48-50
+      50 51	6.0	123	-08	0	0.5	0	0		# 51
+      
+      47 52	6.25	287	-05	[0 2] [2.9 0]	1.4	0.9		# 52
+      52 53	4.87	236	-02	0	2	0.4	0.9		# 53
+      mark 53 fixed								# Mike's tube.  Fixed 10/1/2009
+      										# fixed 5mm hole; rawlplug; brass screw; reflector
+      53 54	4.92	327	+03	[1.8 2.6] [0 0]	[1.5 7] 1.1		# 53-54
+      54 55 	6.27	289	+0	0.6	0	[1.2 2.4] 1.3		# 55
+      55 14	6.08	281	+03	1.4	1.4	2	1.8		# 14	
+    endcentreline
+  endsurvey
+
+  survey DeepPoolTube
+    centreline
+      units clino compass degree
+      units length meter
+      instrument length  "Ben's Bosch DLE50 laser rangefinder"
+      instrument compass  "Ben's SAP #7 - now repaired with replacement transistor"
+      declination -2.58 deg   #+0.55 Grid North  CHECK THIS FOR DATE
+      
+      sd length 0.5 centimeter
+      sd compass 1 degree
+      sd clino 0.5 degree
+
+      team "Ben Cooper"
+      team "Mike Richardson"
+      date 2008.01.10
+      
+      data normal \
+      from to	length	compass	clino	left	right	up	down		
+
+      flags duplicate
+      53 2	4.93	326	+2	[2.3 2.7] [2.1 0] [0.6 1.2] [1.0 1.0]	# 2 Above Deep Pool
+      2 3	9.76	296	+20	0	1.2	0.3	0.6		# 3 Start of Tube
+      flags not duplicate
+ 
+      #3 4	4.85	067	+19	0.6	0	0.3	0.5		# 4 At end of tube in x-rift
+      3 4a	4.55	067	+19	0.6	0	0.3	0.5		# 4a Estimated start of x-rift
+      4a 4	0.3	067	+19	[1.5 1.5] [1.8 1.8] [3.2 3.2] [0.5 0.5]	# 4 far wall of x-rift
+      4 4b	2.3	067	+19	[0.6 0.6] [0 0] [0.3 0] [0.6 0]		# 4b Est. compass & clino.  Diggable
+    endcentreline
+  endsurvey
+  
+  survey MikesTube
+    centreline
+      units clino compass degree
+      units length meter
+      declination -2.58 deg   #+0.55 Grid North  CHECK THIS FOR DATE
+      instrument length  "Ben's Bosch DLE50 laser rangefinder"
+      instrument compass  "Ben's SAP #7"
+      
+      sd length 0.5 centimeter
+      sd compass 1 degree
+      sd clino 0.5 degree
+
+      team "Ben Cooper"
+      team "Mike Richardson"
+      date 2008.01.10
+      
+      data normal \
+      from to	length	compass	clino	left	right	up	down		# Start is 53@FullLRUD
+
+      53 5	2.08	084	+32	[1.8 0] [0 0.6] [0.5 ] [0.5 ]		# 5 Est LRUD
+      #6 5	1.58	296	-35	0	0.6	0.6	0.4		# 6 LRUD in direction of survey, not back bearing
+      5 6	1.58	116	+35	0	0.6	0.6	0.4		# 6 with LRUD correct in direction of survey
+      6 7	2.42	117	+10	0.2	0.5	1.0	0.6		# 7 in LH corner.  Way on above and to right
+      7 8	3.82	217	-06	[0 1.0] [0.5 0] [0.1 0.4] [0.8 0.1]	# 7-8
+      8 9	1.86	133	+04	[0 0] [0.5 0.8] [0.4 1] [0.1 0.3]	# 8-9
+      9 10	5.3	206	-01	[0.6 1.2] [0.3 0.3] 0.2 0.2		# 9-10  10 Est LRUD  10 Diggable (Hilti)
+      9 11	3.3	049	+32	[0 0.2] [0.5 0.2] [1 0.5] [0.3 0.2]	# 9-11  11 Est LRUD
+      data normal \
+      from to	length	compass	clino
+      flags duplicate
+      9 12	0.87	041	+47						# 12 is part way along 9-11, to a x-rift
+      flags not duplicate
+      data normal \
+      from to	length	compass	clino	left	right	up	down
+      12 13	4.5	148	+36	[0 0.2] [0.2 0] [1 0.5] [0.5 1]		# 12-13 all LRUD are estimates
+      
+      8 14	1.33	225	+18	[0.6 0] [0.2 0.5] [0.4 4.8] [0.2 0.3]	# 14 with 5m aven above
+      14 15	3.3	312	+51	0.2	0.2	0	0		# 15 est LRUD.  Diggable?
+      
+      7 16	1.21	099	+75	[0.2 0]	[0.5 0.2] [1.0 0.7] [0.6 0.4]	# 16 into rift behind and above #7
+      16 17 	2.0	173	+09	0.2	0.2	1	0.5		# 17 Est LRUD
+      
+    endcentreline
+  endsurvey
+
+  survey BeyondZebraAven
+    centreline
+      units clino compass degree
+      units length meter
+      instrument length  "Ben's Bosch DLE50 laser rangefinder"
+      instrument compass  "Ben's SAP #7"
+      declination -2.58 deg   #+0.55 Grid North  CHECK THIS FOR DATE
+
+      sd length 0.5 centimeter
+      sd compass 3 degree
+      sd clino 1 degree
+
+      team "Ben Cooper"
+      team "Mike Richardson"
+      date 2008.01.10
+      
+      data normal \
+      from to	length	compass	clino	left	right	up	down		# Start is 41@FullLRUD
+      flags duplicate
+      20 START	3.76	162	-18	[4.0 3.3] [1.1 0.8] [6.4 0.4] [1.2 0.4]	# 20-START
+      flags not duplicate
+      mark 20 fixed								# Zebra Aven
+										# fixed 5mm hole; rawlplug; brass screw; reflector
+      20 21	8.96	137	+01	0.9	0.9	8.0	1.5		# 21
+      21 22	4.78	148	+02	1.1	0	8.0	1.7		# 22
+      22 23	3.35	128	+19	0.7	0	8.8	1.6		# 23
+      23 24 	5.76	127	+11	0	0.8	5.0	2.9		# 24
+      24 25	2.52	124	-17	0.4	0	5.5	2.0		# 25
+      25 26 	4.42	141	+29	0.8	0.8	4.5	2.9		# 26 on top of flake at y junction
+      
+      # RH rift (rises up and doubles back to high level tube)
+      26 27	1.59	165	+20	0.6	0.4	5.6	0.4		# 27 up into RH rift
+      27 28	4.32	126	+42	0.2	0.2	5	2.4		# 28
+      28 29 	2.61	159	+53	0	0.4	4.2	3.3		# 29
+      29 30	1.54	135	+03	0.8	0.4	4.0	0.3		# 30 Rim of Crystal Pool
+      30 31	3.2	144	+0	0.3	0.3	4	0.3		# 31 Across Crystal Pool  Est LRUD
+      
+      #32 29	2.35	135	-29	0	0.7	4.6	5.3		# 32 on roof of side tube.  LRUD relates to rift
+      29 32	2.35	315	+29	0	0.7	4.6	5.3		# 32 reversed
+      32 33	1.28	238	-22	[0.5 0] [1.2 0.8] [0 0.6] [0.6 0.6]	# 32-33 into side tube
+      										# 250Kg rock crashes down below Mike onto surveying box 5m below
+      33 34	1.37	303	+22	0.3	0.2	0	0.6		# 34
+      34 35	6.6	275	+06	0.3	0.2	0	0		# 35 End of tube.  Diggable.
+      
+      32 36	1.17	314	-26	0	0.5	4	5.8		# 36 on floor of tube for view down rift
+      data normal \
+      from to	length	compass	clino
+      36 27	5.67	333	-73						# close loop with station below
+
+      data normal \
+      from to	length	compass	clino	left	right	up	down
+      36 37	4.11	078	+11	[0 0] [1.2 1.3] [0.9 0.5] [0.8 0.5]	# 36-37 Across rift to continuation of tube
+      37 38	0.8	112	-01	0	1.3	1.5	1.5		# 38 further along LH wall with view down drop
+      38 39	7.77	113	-62	0	0.6	6.5	0.8		# 39 at bottom of LH rift
+      
+      # LH rift
+      26 40	5.91	114	-03	0	1.3	1.9	1.0		# 40 Another y junction
+      40 39	3.64	134	+04	0	0.6	6.5	0.8		# 39 Loop closure
+      39 41	2.38	161	+10	0.2	0.2	6.5	0.8		# 41 Est LRUD
+      
+      40 42	2.91	067	+12	[2.7 1.3] 0.8	1.5	0.5		# 42 along main route
+      42 43	7.78	121	-04	1.1	1.3	0.5	5		# 43 start of low section
+      43 44	4.53	124	-03	0	1.3	1.9	0.9		# 44 end of low section
+      44 45	3.47	148	-13	1.3	0	9.0	1.1		# 45
+      45 46	8.22	148	-34	0	0.9	6.0	1.0		# 46
+      46 47	9.88	132	-02	0.1	0.2	1.3	1.3		# 47
+      47 48	5.7	133	-04	0.5	0	0.3	1.0		# 48 lip of second side tube
+      48 49	5.87	143	-10	0.1	0.1	1	0.5		# 49 into closing down rift
+      
+      # First side tube (blind, but diggable)
+      flags duplicate
+      data normal \
+      from to	length	compass	clino
+      47a 47	1.67	136	-24						# 47a lip of first side tube
+      flags not duplicate
+      data normal \
+      from to	length	compass	clino	left	right	up	down
+      47a 47b	2.21	188	-09	[0.7 0.3] [0.2 0.3] [0.3 0.1] [0 0.1]	# 47a-47b 47b Est LRUD Diggable
+      
+      # Second side tube
+      48 50	4.19	245	-07	[0 0] [1.1 1.1] [0.2 0.5] [0.4 0.2]	# 50 lh wall inside tube
+      50 51	2.98	218	-06	0.6	0	0.2	0.5		# 51 rh wall
+      51 52	3.35	235	-08	0.2	1	0.0	0.3		# 52
+      52 53	3.43	271	+0	0.9	0	0.1	0.5		# 53 Very muddy tube
+      53 54	2.24	243	-05	0.9	0.8	0	0.4		# 54
+      54 55	3.63	165	-15	0.9	0	0.3	0.3		# 55
+      55 56	1.46	123	-15	0	0.7	0.3	0.3		# 56
+      56 57	1.20	240	-01	[1.1 1] [0 0] [0.3 0.2] [0.3 0.2]	# 57 on very corner before squeeze
+      57 58	4.65	254	-01	0	1	0.3	0.3		# 58 lh wall beyond squeeze
+
+      58 59 	5.0	304	+08	0.5	0.5	0	0.3		# 59 into rh side tube
+      
+      58 60	2.62	235	-18	2.0	0	0.7	0		# 60 on RH corner, start of x-rift
+      60 61	2.38	172	-14	2.0	0	0.6	0.6		# 61 on RH corner just across x-rift
+      mark 61 fixed								# Far East Tube.  Fixed 10/1/2008
+										# fixed 5mm hole; rawlplug; brass screw; reflector
+
+      61 62	6.5	182	-08	0.3	1	0	0.3		# 62 SUMP Est LRUD
+      
+      61 63	3.19	107	+07	0.5	0.5	0	0		# 63 Filled tube, Diggable.
+      
+      61 64	4.75	007	+06	[0 1] [1.0 0] [4 1.3] [1 1.6]		# 64 on rh wall
+      64 65	1.6	260	-09	0.5	0.4	0.4	1.4		# 65 into LH side passgae 
+      65 66	6.0	306	+22	0.5	0.5	1	2		# 66 into narrow rift
+      										
+      64 67	2.78	313	+01	[1 0] [0 0.5] [5 2] [1.6 2]		# 67 
+      										# Blind aven climbed 5m by Ben Cooper on previous trip (Nov 2008)
+      67 68	3.89	343	-07	0	0.3	3	1.4		# 68
+      68 69	6.41	001	-04	0.5	0	4	1.0		# 69 on edge of Deep Pool
+      69 70	9.3	291	-06	0.5	0.2	4	0.3		# 70 Across water to end, Est LRUD
+    endcentreline
+  endsurvey
+  
+endsurvey
+

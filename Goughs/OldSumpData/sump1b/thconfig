@@ -1,0 +1,27 @@
+encoding  utf-8
+source sump1b.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout local -o sump1b.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o sump1bEe.pdf
+
+export model -fmt survex -o sump1bth.3d
+#Survex file showing centre line only
+
+#export model -o sump1b.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o sump1b_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+endlayout

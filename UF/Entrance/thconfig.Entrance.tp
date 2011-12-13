@@ -1,0 +1,17 @@
+encoding  utf-8
+source Entrance
+
+layout l1
+    colour map-fg 50
+    scale 1 100
+endlayout
+ 
+#cs EPSG:27700
+
+select Entrance
+
+export model -format survex -o 0.Maps/Entrance.3d
+export map -projection plan -layout l1 -o 0.Maps/Entrance.pdf
+export map -projection plan -format xvi -layout l1 -o 0.Maps/Entrance.xvi
+export map -projection extended -format xvi -layout l1 -o 0.Maps/Entrance_Ex.xvi
+#export atlas -projection plan -layout l1 -o 0.Maps/Entrance.pdf

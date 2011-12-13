@@ -1,0 +1,32 @@
+encoding  utf-8
+source TyningsGS.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o TyningsGS.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o TyningsGSEe.pdf
+#Produces plan of cave, on a single sheet
+
+export model -fmt survex -o TyningsGSth.3d
+#Survex file showing centre line only
+
+#export model  -o TyningsGS.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o TyningsGS_Walls.3d
+#Survex file showing walls only
+
+layout local
+debug off
+scale 1 200
+symbol-hide group cave-centerline
+colour map-fg 100
+colour map-bg 90
+
+symbol-hide point section
+endlayout

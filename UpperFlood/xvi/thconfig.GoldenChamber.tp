@@ -1,0 +1,17 @@
+encoding  utf-8
+source ../GoldenChamber.th
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 165 
+endlayout
+
+export model -format survex -o GoldenChamber.3d
+export model -format loch -o GoldenChamber.lox
+export map -projection plan -format pdf -layout l1 -o GoldenChamber_CL.pdf
+export map -projection extended -format pdf -layout l1 -o GoldenChamber_CLex.pdf
+export map -projection elevation -format pdf -layout l1 -o GoldenChamber_CLel.pdf
+export map -projection plan -format xvi -o GoldenChamber.xvi
+export map -projection extended -format xvi -o GoldenChamber_ex.xvi
+export map -projection elevation -format xvi -o GoldenChamber_el.xvi

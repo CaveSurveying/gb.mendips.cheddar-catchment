@@ -1,0 +1,31 @@
+There are now a number of survey sets for the entrance series.  Arguably the most accurate is the one lead by 
+Willie Stanton in the early 1970's using a tripod mounted compass, with recorded precision of 10-seconds of arc.
+
+The MCG Paper survey is described in the MCG Publication (number ?).  The author (Ben Cooper) scanned this electronically in 2006 to 
+generate the origial electronic survey upon which the current electronic survey is based.  While some sections of the original 
+survey are of high standard, the translation of this into an electronic three-dimensional survey was at best crude.  Clinometer 
+data in particular has only been estimated based on a uniform slope from the entrance to the Red Room!  An approximate centre-line was
+reverse engineered from the survey station markers visible in the drawing.  Later versions of the software Therion would have made this 
+much simpler, obviating the need to reverse engineer a centreline and using the drawing directly in a scaled scrap.  
+
+Most probblematic has been the accurate attachement of separate surveys onto the original paper survey.  No fixed point
+survey stations were recorded in the available survey information, and hence continuation of the survey from the Canal has been 
+approximate (within about 1m).  
+
+Subsequent to scanning in the paper survey, other surveys of the Entrance series have come to light.  These are, in order of receipt
+
+1. the 2000 survey of Midnight Passage by Ben Cooper and Paul Craddy
+2. the 2007 re-survey of the Entrance by Martin and Yvonne Rowe, sadly stopped before completion due to Martin's health.
+3. the 1986 survey from Tony Knibbs
+4. the c. 1972 survey from Willie Stanton
+
+These surveys are all brought together in this folder.  Similar survey stations appear within surveys at tight bends, and these
+have been used to join the surveys together.  As stated before, this is likely to fix the surveys together to within about 1m of 
+true.  While not perfect, it is sufficient to compare them.  By fixing at the first bend in the Entrance, any divergence is amplified
+at the Midnight Chamber end of the survey.  Note that the WS data of 1972 appears to suggest that the entrance pipe was not yet in place.
+This fact should be easily confirmed from the MCG publications.  
+
+Subject to checking survey dates and hence declination values, the WS and TK surveys demonstrate superb corelation along their entire 
+lengths.  The MYR survey shows a significant rotation to the South, which may be either a declination (date) error or a systemic error 
+in the data set.  MYR used compass and clino, which usually gives increasing accuracy with number of recorded stations, so this result
+is disappointing.  

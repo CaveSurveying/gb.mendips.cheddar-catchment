@@ -1,0 +1,44 @@
+*BEGIN ManorFarm
+
+;Compilation file for all of Manor Farm Swallet
+;Compiled by Graham Mullan November 2008
+
+*Copyright 2008 UBSS
+
+*INCLUDE Entrance.svx
+
+*INCLUDE CurtainChamber.svx
+
+*EQUATE Entrance.13 CurtainChamberOne.13
+
+*EQUATE Entrance.16 CurtainChamberTWo.16
+
+*INCLUDE Albertseye.svx
+
+*EQUATE CurtainChamberTwo.28 Albertseye.28
+
+*INCLUDE ToNhasa.svx
+
+*EQUATE Albertseye.44 ToNhasa.44 
+
+*INCLUDE Nhasa.svx
+
+*EQUATE ToNhasa.58 Nhasa.58
+
+*INCLUDE AvenPassage.svx
+
+*EQUATE Albertseye.40 AvenPassage.40
+
+*INCLUDE Upstream.svx
+
+*EQUATE CurtainChamberTwo.28 Upstream.28
+
+*INCLUDE FleetStreet.svx
+
+*EQUATE AvenPassage.103 FleetStreet.19
+
+*INCLUDE TheFatBellyBoyes.svx
+
+*EQUATE TheFatBellyBoyes.201 Nhasa.72
+
+*END ManorFarm

@@ -1,0 +1,41 @@
+encoding  utf-8
+
+survey MW -title "Section of Malcolm's Way Leg 2 survey for scrap drawing purposes"
+
+	centreline
+		date 2007.06.02
+		team "Ben Cooper"    	instruments	# Instruments
+		team "Mike Richardson"	notes    	# Master note taker
+		team "Brian Snell"    	station   	# Spotter
+		team "Linda Milne"	# porter
+		instrument length  "Ben's Bosch DLE50 laser rangefinder"
+		instrument compass  "Ben's Suunto "  
+		instrument clino  "Ben's Suunto "
+		
+		sd compass clino 0.75 degrees
+		sd length 1 centimetre
+
+		mark MW51 MW54 painted
+		equate MW51	MW51-stal		# stal flowstone veru close to WalkThePlank
+		equate MW54	MW54-wall		# top LH wall at very top of WTP Chamber
+		
+		flags duplicate
+			#declination -3.003 deg  	# BGS at 2007.06.02 (2007.51) 51.2987N 2.71038W
+			#declination -3.016 deg  	# BGS at 2007.06.02 51.2987N 2.71038W 0.2Km 2010 Mode.  Updated Nov 2011
+					# http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html
+			declination -2.463 deg    	# Allign to grid, Grid North +0.5535 deg
+
+			data normal \
+			from to	length	compass	clino	left	right	up	down	# station Nr
+			MW50 MW51	5.81	40.5	+5	[0.6 1]	[3.0 2.5]	[8.5 2]	[0.6 1.5]	# 51 Estimated LRUD		
+			MW50 MW52	2.26	67	+33	6	3.0	7.5	0	# 52 Estimated LRUD
+			extend left
+			MW52 MW53	7.11	295	+24	5.6	0.9	7.0	0.2	# 53 REVERSED
+			MW53 MW54	12.82	291	+36	0	3.5	0	1.5	# 54 Top of LH Wall
+			data normal from to length compass clino				
+			MW54 MW55	7.90	322	+6
+			MW53	MW56	18.1	128	-5 				
+			MW53	MW57	16.5	177	-5 				
+		flags not duplicate
+  endcentreline
+ endsurvey

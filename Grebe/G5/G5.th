@@ -1,0 +1,27 @@
+encoding  utf-8
+survey G5
+
+centreline
+date 1983 10 01
+
+data normal from to compass clino tape ignoreall
+declination 0 degree
+#added to override automatic date correction.
+calibrate compass +7.00
+
+205  216  344.00  -29.50  0.98
+216  217  121.50  -19.00  1.36
+217  218  -  down  3.86
+218  219  190.50  -18.66  3.55
+219  220  229.00  -27.50  1.56
+220  221  -  down  5.35
+
+210  222  148.50  -18.67  4.52
+222  223  119.00  -22.66  3.95
+223  224  -  down  2.27
+224  225  137.30  8.00  1.62
+225  226  168.50  12.50  1.77
+
+endcentreline
+endsurvey G5
+

@@ -1,0 +1,31 @@
+encoding  utf-8
+survey White_Spot
+
+#In all cases bearings in the original are in degrees and minutes
+#These are converted here to decimal degrees
+#Typed in by Graham Mullan May 2010
+#Source WIS survey book 1 pp55/6
+#Replaced in the overall model by new data November 2011
+
+centreline
+date 1951.12.28
+cs EPSG:27700
+data normal from to compass tape clino ignoreall
+units tape feet
+declination 0 degree
+#added to override automatic date correction.
+calibrate compass +11.5
+
+
+fix A 347400 154430 123
+#300000 100000 added to convert from OSGB ST to EPSG:27700
+#ST 47400 54430 123
+station A "" entrance
+
+A  B  142.00  24.7  -11.5
+B  C  196.87  27.2  -8.5
+C  D  193.00  80.5  -38.0
+D  E  196.16  37.0  6.0
+endcentreline
+endsurvey
+

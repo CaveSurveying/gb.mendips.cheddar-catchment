@@ -1,0 +1,13 @@
+encoding  utf-8
+source ../Entrance2.th
+
+layout l1
+ 	scale 1 165 
+endlayout
+ 
+
+export model -format survex -o Entrance2.3d
+export map -projection plan -o Entrance2.pdf
+export map -projection plan -format xvi -layout l1 -o Entrance2.xvi
+export map -projection extended -format xvi -layout l1 -o Entrance2.xvi
+#export atlas -projection plan -o Entrance2.pdf

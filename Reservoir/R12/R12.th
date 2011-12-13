@@ -1,0 +1,36 @@
+encoding  utf-8
+survey R12
+
+centreline
+cs OSGB:ST
+date 1974 02 13
+#Source WIS survey book 2 pp79/80
+
+data normal from to compass clino tape ignoreall
+units tape feet
+#calibrate compass +7.33
+calibrate compass -0.7
+#altered to allow for automatic mag dev correction
+
+534  537  027  8.33  3.4
+537  538  177  6.25  9.6
+538  539  -  up  8.7
+539  540  104  12.66  2.6
+540  541  172  27.83  18.4
+541  542  049  21.25  5.5
+542  543  201  30.16  22.6
+543  544  189  25.33  10.4
+544  545  203  30.5  76.7
+545  546  289  53.33  4.8
+546  547  179  58.66  34.4
+547  548  282  3.83  11.8
+548  549  162  21.33  23.9
+549  550  008  30.5  1.7
+550  551  213  58.83  50.1
+551  552  207  24.33  20.2
+552  553  199  -16.0  22.3
+#553 top of broken stalagmite on W edge of path by pseudo cave pearls
+
+endcentreline
+endsurvey R12
+

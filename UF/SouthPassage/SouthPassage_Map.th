@@ -1,0 +1,18 @@
+encoding  utf-8
+survey Map
+
+  input SouthPassage.th
+  input SouthPassage_s1.th2
+  input SouthPassage_s2.th2
+  input SouthPassage_s3.th2
+  join wall_SPS3S wall_SPS2
+  join wall SPS3N wall_SPS2
+
+  map SouthPassage_m1
+	SouthPassage_s1
+	SouthPassage_s3
+	break
+	SouthPassage_s2
+  endmap
+endsurvey
+

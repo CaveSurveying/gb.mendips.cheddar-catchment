@@ -1,0 +1,131 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 161.14 97.952 3763.59 1731.902
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {3025.36 1 1.0} {1013.352 N38} xvi/NeverlandRopeClimb.xvi 0 {}
+
+
+
+scrap NeverlandRopeClimb_s3 -scale [-128.0 -128.0 4255.9011 -128.0 0.0 0.0 111.35108794 0.0 m]
+
+point 391.4 1357.142 station -name 46@NeverlandRopeClimb
+
+point 864.32 1014.502 station -name 47@NeverlandRopeClimb
+
+point 565.58 1148.362 station -name 48@NeverlandRopeClimb
+
+point 680.83 1135.482 station -name 45@NeverlandRopeClimb
+
+point 821.84 1164.352 station -name 44@NeverlandRopeClimb
+
+point 1147.06 1086.802 station -name 43@NeverlandRopeClimb
+
+point 1282.12 1056.982 station -name 42@NeverlandRopeClimb
+
+point 1363.96 1053.642 station -name 41@NeverlandRopeClimb
+
+point 1628.79 1206.372 station -name 40@NeverlandRopeClimb
+
+point 1524.3 1189.882 station -name 39@NeverlandRopeClimb
+
+point 1486.84 1123.552 station -name 38@NeverlandRopeClimb
+
+point 1514.76 998.282 station -name 37@NeverlandRopeClimb
+
+point 1501.16 876.352 station -name 36a@NeverlandRopeClimb
+
+point 1506.88 817.892 station -name 35@NeverlandRopeClimb
+
+point 1665.32 594.802 station -name 33@NeverlandRopeClimb
+
+point 1352.98 822.432 station -name 34@NeverlandRopeClimb
+
+point 1536.23 735.332 station -name 32@NeverlandRopeClimb
+
+point 1610.44 756.092 station -name 31@NeverlandRopeClimb
+
+point 824.0 1042.0 gradient -orientation 299.4
+
+point 437.0 1322.0 gradient -orientation 127.5
+
+point 1577.0 1198.0 gradient -orientation 261.9
+
+point 1423.0 788.0 gradient -orientation 112.3
+
+point 1629.0 637.0 gradient -orientation 312.6
+
+point 1496.0 985.0 popcorn
+
+line rock-border -close on
+  1472.0 972.0
+  1486.0 1001.0
+  1514.76 998.282
+  1511.0 971.0
+  1472.0 972.0
+endline
+
+line pit
+  1591.0 771.0
+  1600.0 737.0
+endline
+
+line rock-border
+  1600.0 737.0
+  1536.23 735.332
+endline
+
+point 1569.0 982.0 label -text "Popcorn Boulder" -scale s -align r
+
+line wall -reverse on
+  822.5 1112.5
+  803.0 1099.0 818.0 1084.0 821.0 1079.5
+  824.0 1075.0 880.91 1041.7 864.32 1014.502
+  839.0 973.0 563.5 1112.0 564.0 1130.0
+  564.5 1148.0 571.0 1160.0 565.5 1171.0
+  560.0 1182.0 355.8 1312.78 391.4 1357.142
+  altitude .
+  427.0 1401.5 640.5 1209.0 665.0 1212.0
+  689.5 1215.0 802.5 1250.0 826.5 1246.0
+  altitude .
+  850.5 1242.0 1143.0 1125.0 1155.0 1119.5
+  1167.0 1114.0 1273.0 1066.0 1283.5 1064.5
+  1294.0 1063.0 1352.0 1064.5 1359.0 1067.5
+  1366.0 1070.5 1439.5 1141.0 1444.5 1145.5
+  1449.5 1150.0 1522.3 1182.88 1525.5 1193.0
+  1528.7 1203.12 1536.5 1210.0 1542.0 1211.0
+  1547.5 1212.0 1638.6 1224.84 1629.5 1203.0
+  altitude .
+  1624.5 1191.0 1567.0 1181.5 1545.5 1178.0
+endline
+
+line wall -reverse on
+  1607.0 772.0
+  1608.0 768.0 1542.5 771.5 1539.5 774.5
+  1536.5 777.5 1524.0 819.5 1523.5 822.0
+  1523.0 824.5 1518.5 871.0 1520.0 874.5
+  1521.5 878.0 1562.5 996.0 1560.5 1002.5
+  1558.5 1009.0 1508.0 1119.0 1509.0 1122.5
+  1510.0 1126.0 1541.5 1176.5 1545.5 1178.0
+endline
+
+line wall
+  822.5 1112.5
+  836.0 1111.5 1131.5 1042.0 1140.5 1042.0
+  1149.5 1042.0 1271.0 1045.0 1280.0 1044.0
+  1289.0 1043.0 1355.57 1031.38 1368.5 1032.5
+  1391.5 1034.5 1470.5 990.5 1470.5 976.5
+  1470.5 962.5 1408.0 893.5 1413.0 878.0
+  1418.0 862.5 1480.0 822.5 1483.0 814.0
+  1486.0 805.5 1496.0 798.5 1496.0 793.5
+  1496.0 788.5 1366.46 849.36 1352.98 822.432
+  1339.5 795.5 1491.5 724.0 1509.0 714.0
+  1526.5 704.0 1647.64 573.6 1665.32 594.802
+  altitude .
+  1683.0 616.0 1596.5 719.5 1597.5 729.0
+  1598.5 738.5 1613.0 738.5 1613.0 738.5
+  smooth off
+  1607.0 772.0
+endline
+
+endscrap
+
+

@@ -1,0 +1,38 @@
+*BEGIN Rhino1
+;Cave Rhino Rift, Charterhouse, Mendip
+*COPYRIGHT UBSS 2008
+;Source Willie Stanton's Survey book 2 pp 69-70
+;Typed in by Graham Mullan October 2008
+
+;SURVEY TEAM: WIS, Fred Davies, Tim Reynolds Glyn Bolt, Greg ?
+*DATE 26091971
+*DATA NORMAL FROM TO COMPASS CLINO TAPE IGNOREALL
+;(up down left right)
+*UNITS tape feet
+*CALIBRATE compass +7.5
+
+1	2	165	56	21.9	80	6	4	3
+2	3	053	21.25	15.6	60	19	10	8
+;passage continues 10' beyond right
+;station 2 is rawlbolt head above 15' drop
+3	4	096	60.66	30.4	50	2	1	6
+4	5	104	28.66	5.7	5	2	0	1.5
+5	6	358	38.33	26.3	6	0	-	3
+6	7	003	45	13.8	6	3	1	1
+7	8	172	54.83	6.0	10	6	0.5	0.5
+8	9	356	19.33	24.3	6	10	1	1
+;passage continues 8' south from 8
+9	10	006	42	21.6	3	2	1	2
+10	12	350	54.83	15.5	2	6	3	1
+;no station 11 recorded
+12	13	351	35	30.5	2	3	3	2
+13	14	021	67.5	85.8	50	4	1	12
+;pitch 73' deep
+14	15	077	35.83	29.0	10	6	-	14
+15	16	328	73	45.9	50	6	25	7
+16	17	302	43.07	35.4	30	3	6	1
+17	18	082	73	88.5	100	3	4	12
+18	19	105	40.66	11.6	10	101	5	1
+;19 is chisel notch in top of projecting rock on S side
+
+*END Rhino1

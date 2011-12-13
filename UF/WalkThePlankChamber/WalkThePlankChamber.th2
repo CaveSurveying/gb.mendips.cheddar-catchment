@@ -1,0 +1,153 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 14551.42 9324.0 16854.6640945 20251.1927559
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {14679.42 1 1.0} {18713.24 Entrance@Entrance} xvi/UF.xvi 0 {}
+##XTHERION## xth_me_image_insert {15543.922 0 1.0} {11318.901 MW51-stal@MW.WalkThePlankChamber} 0.Maps/WalkThePlankChamber.xvi 0 {}
+##XTHERION## xth_me_image_insert {15586.2124409 1 1.0} {10786.2232283 0.0} PocketTopo/wtp_ufs_p.xvi 0 {}
+
+
+
+scrap WalkThePlankChamber_s1 -scale [-128.0 -128.0 6618.1104 -128.0 0.0 0.0 171.35120416 0.0 m]
+
+point 15370.5 10747.25 station -name 53@Leg2.MalcolmsWay
+
+point 15512.75 10686.44 station -name 52@Leg2.MalcolmsWay
+
+point 15472.45 10666.87 station -name 50@Leg2.MalcolmsWay
+
+point 15557.0 10776.0 station -name 35@Leg1.MalcolmsWay
+
+point 15131.5 10812.5 station -name 54@Leg2.MalcolmsWay
+
+line arrow -head end
+  15599.0 10635.0
+  15484.0 10631.0
+endline
+
+line arrow -head end
+  15523.0 10897.0
+  15528.0 10748.0
+endline
+
+point 15643.0 10634.0 label -text "p3" -scale s
+
+point 15500.0 10968.0 label -text "Walk The Plank (c1)" -scale s -align r
+
+line rock-border
+  15499.0 10727.0
+  15509.0 10722.0
+  15536.0 10740.0
+  15539.0 10735.5
+  15518.5 10719.0
+  15523.0 10710.0
+endline
+
+line rock-border -close on
+  15370.5 10747.25
+  15363.5 10747.25
+  15362.75 10743.0
+  15369.0 10741.0
+  15370.5 10747.25
+endline
+
+point 15308.63 10622.09 station -name 3@TrenchPassage
+
+line overhang
+  15490.5 10658.5
+  15470.0 10665.0 15463.0 10630.0 15468.0 10604.0
+  smooth off
+endline
+
+line ceiling-step -reverse on
+  15251.0 10657.0
+  15332.0 10610.0
+  15501.0 10493.0
+endline
+
+line flowstone
+  15322.0 10782.0
+  15317.0 10746.0 15318.0 10745.0 15304.0 10719.0
+  15290.0 10693.0 15262.0 10681.0 15242.0 10677.0
+  smooth off
+endline
+
+line flowstone
+  15425.0 10755.0
+  15426.0 10732.0 15432.0 10721.0 15419.0 10695.0
+  15406.0 10669.0 15384.0 10629.0 15367.0 10619.0
+  15350.0 10609.0 15301.0 10608.0 15276.0 10614.0
+  smooth off
+endline
+
+line flowstone
+  15541.0 10792.0
+  15541.0 10792.0 15557.5 10798.5 15558.0 10780.0
+  15558.5 10761.5 15537.0 10757.0 15518.0 10744.0
+  15503.57 10734.12 15496.41 10733.44 15486.0 10720.0
+  15462.0 10689.0 15456.0 10678.0 15455.0 10658.0
+  15454.0 10638.0 15458.0 10609.0 15476.0 10597.0
+  15494.0 10585.0 15492.0 10593.0 15505.0 10593.0
+  15518.0 10593.0 15497.5 10639.0 15496.5 10645.0
+  15493.82 10661.06 15501.16 10675.8 15514.5 10691.5
+  15531.5 10711.5 15536.0 10718.0 15552.0 10725.0
+  15568.0 10732.0 15574.0 10736.0 15587.0 10721.0
+  15600.0 10706.0 15609.0 10706.0 15609.0 10706.0
+  smooth off
+endline
+
+line wall -id wall_FFMWs1_4
+  15501.0 10493.0
+  15501.0 10493.0 15791.0 10393.0 15799.0 10417.0
+  15807.0 10441.0 15543.0 10634.0 15526.0 10655.0
+  smooth off
+  15528.0 10678.0 15552.0 10714.0 15563.5 10715.0
+  smooth off
+  15609.0 10706.0
+endline
+
+line wall -id wall_FFMWs1_3 -reverse on
+  15372.0 10418.0
+  15363.0 10435.0 15301.0 10578.0 15288.0 10601.0
+  15275.0 10624.0 15231.0 10690.0 15220.0 10701.0
+  15209.0 10712.0 15142.0 10802.0 15117.0 10828.0
+  15106.93 10838.48 15015.0 10945.0 15005.0 10951.0
+  smooth off
+endline
+
+point 14951.0 10991.0 label -text "Plank Inlet" -scale s -align l
+
+point 15034.0 10950.0 water-flow -orientation 128.7 -scale l -align t
+
+point 14996.0 10986.0 dig
+
+line arrow -head begin
+  15282.0 10808.0
+  15325.0 10902.0
+endline
+
+point 15333.0 10921.0 label -text "Aven" -scale xs -align r
+
+line chimney -close on
+  15253.5 10804.5
+  15231.0 10791.5 15284.94 10755.69 15301.0 10779.0
+  15305.83 10786.01 15266.37 10811.94 15253.5 10804.5
+endline
+
+point 15278.5 10799.5 station -name 2@TrenchPassage
+
+line wall
+  15589.0 10792.0
+  15570.5 10796.0 15565.5 10803.5 15541.0 10792.0
+  smooth off
+  15541.0 10792.0 15515.0 10759.0 15493.0 10757.0
+  15471.0 10755.0 15394.0 10755.0 15376.0 10764.0
+  15358.0 10773.0 15297.0 10791.0 15264.0 10807.0
+  15236.08 10820.54 15164.0 10876.0 15149.0 10887.0
+  15134.0 10898.0 15038.0 10971.0 15031.0 10976.0
+  smooth off
+  altitude .
+endline
+
+endscrap
+
+

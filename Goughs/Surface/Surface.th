@@ -1,0 +1,23 @@
+encoding  utf-8
+survey Surface
+
+centreline
+
+  date 2011.01.20
+  team "Andrew Atkinson" notes
+  team "Andrew Atkinson" instruments
+  team "Tony Boycott" dog
+  instrument instruments UBSS2-distoX
+  
+  data normal from to compass clino tape
+flags surface
+#AAs garden calibration check
+#  1.0 - 89.22 18.93 3.483
+  1.1 1.0 102.80 8.46 16.151
+  1.1 1.2 215.14 -25.88 3.107
+flags not surface
+endcentreline
+endsurvey
+
+
+

@@ -1,0 +1,58 @@
+*begin W
+;Data typed in by Christian Chourot 2008 file GB Data.xls
+;converted by Andrew Atkinson July 2008 GB Data ready for survex.xls
+;Original data at end commented out
+
+*fix	1	47548.5	56194.8	219.82176
+*fix	2	47549.7	56198.4	222.8088
+*fix	3	47549.2	56202.0	224.60712
+*fix	4	47548.0	56202.5	225.61296
+*fix	5	47547.8	56206.0	227.74656
+*fix	6	47546.8	56209.0	230.18496
+*fix	7	47548.3	56208.6	231.22128
+;stn 8 has been changed from original notes, apppears to be transcript error of 200ft [AMA july 2008]
+*fix	8	47547.1	56214.7	231.22128
+*fix	9	47548.7	56213.3	231.58704
+*fix	10	47550.8	56215.3	232.5624
+*fix	11	47548.1	56221.2	235.21416
+*fix	12	47549.9	56226.2	239.78616
+*fix	13	47552.0	56219.9	239.20704
+*fix	14	47549.1	56227.1	241.0968
+*fix	15	47548.9	56229.9	241.0968
+
+
+*data nosurvey station
+
+*begin
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+*end
+
+*begin
+12
+13
+*end
+
+*begin
+12
+14
+15
+*end
+
+*begin
+10
+13
+*end
+
+
+*end W

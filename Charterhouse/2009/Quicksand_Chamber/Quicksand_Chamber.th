@@ -1,0 +1,61 @@
+encoding  utf-8
+survey Quicksand_Chamber
+
+input Quicksand_Chamber.th2
+
+map Quicksand_ChamberM
+  Quicksand_ChamberSPl1
+  Quicksand_ChamberSPl2
+endmap
+
+centreline
+  date 2009.09.12
+  team "Andrew Atkinson" notes
+  team "Pete Moody" instruments
+  instrument instruments UBSS1-distoX
+  explo-date 2009
+  explo-team "Alison Moody" 
+  explo-team "Pete Hann" 
+  explo-team "Pete Moody"
+  explo-team "Andrew Atkinson"
+  explo-team "Simon Flower"
+  
+  data normal from to compass clino tape
+  extend right
+  1.1 1.0 207.40 15.65 1.713
+  1.1 - 218.16 -82.62 0.277
+  1.1 - 315.96 -15.89 0.438
+  1.1 - 150.55 -9.11 0.847
+  1.1 1.2 41.64 18.48 3.751
+  1.2 - 301.03 -4.37 0.840
+  1.2 - 306.40 -83.68 1.117
+  1.2 - 300.50 52.16 0.479
+  1.2 - 6.15 0.50 1.933
+  1.3 1.2 190.59 -1.51 4.900
+  1.3 - 343.20 26.12 1.183
+  1.3 - 270.53 19.36 1.141
+  1.3 - 95.84 -73.90 1.098
+  1.3 - 114.47 12.06 2.508
+  1.3 - 162.78 -4.25 2.954
+  1.3 1.4 59.98 14.06 5.658
+  1.4 - 265.98 -17.03 3.370
+  1.4 - 328.32 -19.15 3.088
+  1.4 - 6.87 -11.60 5.275
+  1.4 - 26.47 -7.95 7.029
+  1.4 - 50.76 -20.55 4.256
+  1.4 - 88.11 -31.75 3.928
+  1.4 - 107.40 -24.49 6.728
+  1.4 - 130.63 -15.09 6.246
+  1.4 - 164.48 -16.02 3.457
+  1.4 - 193.31 -17.87 4.575
+  1.3 1.5 314.48 9.24 3.655
+  1.5 - 183.96 -9.80 0.881
+  1.5 - 9.79 38.35 0.630
+  1.5 - 112.69 -2.32 1.409
+  1.6 1.5 80.75 5.00 3.154
+  1.6 - 67.33 6.16 1.965
+  1.6 1.7 346.95 5.14 1.596
+endcentreline
+
+endsurvey
+

@@ -1,0 +1,30 @@
+encoding  utf-8
+survey W7
+
+centreline
+date 1980 04 29
+
+data normal from to compass clino tape ignoreall
+declination 0 degree
+#added to override automatic date correction.
+calibrate compass +7.00
+
+129  130  -  down  0.49
+130  131  253.00  -25.25  2.32
+131  132  197.00  -65.67  4.98
+132  133  177.50  12.50  5.33
+133  134  232.00  -31.17  5.59
+134  135  282.50  4.83  3.47
+135  136  65.00  -56.00  0.70
+136  137  287.00  25.08  5.08
+137  138  270.00  7.50  6.28
+138  139  292.00  7.67  6.44
+139  140  287.50  0.67  9.67
+140  141  313.00  -32.17  2.25
+141  142  287.00  -27.75  3.23
+142  143  29.00  -42.50  4.38
+143  144  326.00  -22.33  5.23
+
+endcentreline
+endsurvey
+

@@ -1,0 +1,90 @@
+encoding  utf-8
+survey SouthPassage -title "South Passage"
+
+#Originally surveyed under the RoyalIcing name, renamed to SouthPassage in July 2009 following LRUD survey RoyalIcing_s3
+
+  centreline
+    units clino compass degree
+    units length meter
+
+    declination -2.58 deg   #Allign to grid, Grid North +0.55 deg
+
+    flags duplicate
+	    extend start d0
+	    extend right
+
+	    team "Tim Francis"
+	    team "Dongwoo Park"
+	    date 2006.10.07
+	    data normal from to length compass clino 
+	    d0	d1	10.5	195	+8
+	    d1	d2	13.5	205	+10
+	    d2	d3	13.0	200	-3
+	    d3	d4	4.0	180	+12
+	    d4	d5	2.70	190	-5
+	    d5	d6	7.0	175	+35
+	    d6	d7	6.5	187	+3
+	    d7	d8	12.5	195	+20	# d8 is where West Passage peels off to RHS
+    flags not duplicate
+
+    team "Tim Francis"
+    team "Richard Carey"
+    date 2007.01.20
+    data normal from to length compass clino 
+    equate	d8	C1
+    #		length	bearing	dip	Notes on first station per leg
+    C1	C2	5.30	167	-11	#Starts at the station where West Passage goes right.
+    C2	C3	4.30	084	28	#Lip of ice grotto
+    C3	C4	2.62	092	23	
+    C4	C5	7.80	189	23	
+    C5	C6	4.60	185	47	
+    C2	C7	6.34	209	-20	#Lip of ice grotto
+    C7	C8	4.30	231	-59	
+    C8	C9	4.60	184	-36	
+    C9	C10	10.60	176	-3	
+    C10	C11	2.65	163	-14	
+    C11	C12	5.75	253	-7	#Stal stump in floor, pretty rift goes off left
+    C12	C13	2.30	284	2	
+    C13	C14	3.50	325	4	#Up and over tube, dodgy readings
+    #C15 C14	6.20	012	5	#Up and over tube, dodgy readings, read from C15
+    C14 C15	6.20	192	-5	#REVERSED
+    C15	C16	5.70	166	2	
+    C16	C17	3.50	145	-8	
+    C17	C18	3.43	163	-2	
+    C18	C19	1.98	179	3	
+    C19	C20	3.60	147	24	
+    C20	C21	2.70	221	6	
+    C21	C22	3.14	157	-4	
+    C22	C23	4.08	096	-8	
+    C23	C24	8.80	183	-4	
+    C24	C25	4.42	130	-4	
+    C25	C26	4.40	193	-5	
+    C26	C27	3.26	142	-5	
+    C27	C28	4.26	210	-6	
+    C28	C29	2.00	140	0	#Temporary sump
+
+
+    # visual estimates - not measured!!!!!!!!!!!!!!!!!!!!!!!!!
+    #team "Tim Francis"
+    #date 2006.09.30
+    #data normal from to length compass clino 
+    #e2  r1  8.0  40.0  0	# new passage
+    #r1	r2  3    130    0	# entrance turn
+    #r2  r3  100  140   0	# r3 is Royal Icing Junction
+    #
+    #r3	r4  50   140    0	
+    #r4  r5  80   140    0        # straight on twisting crawl
+    #d8  r5  80   210    0        # straight on twisting crawl
+    
+    #r3  rl1 10    90   0	# East passage
+    #d4  rl1 10    90   0	# East passage, guestimate location
+    #rl1 rl2 40   140   0
+    #rl2 rl3 40   130   0
+    
+    #r4  rr1 80   290   0	# West passage
+    #rr1 rr2 80   265   0
+    
+  endcentreline
+
+endsurvey
+

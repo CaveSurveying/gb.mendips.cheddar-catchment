@@ -1,0 +1,31 @@
+encoding  utf-8
+source ReadsGrotto.th
+# Change name to the main therion file
+
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o ReadsGrotto.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o ReadsGrottoEe.pdf
+
+export model -fmt survex -o ReadsGrottoth.3d
+#Survex file showing centre line only
+
+#export model -fmt therion -o ReadsGrotto.thm
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o ReadsGrotto_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+scale 1 100
+map-header 0 0 off
+debug off
+endlayout
+
+input ../common_layout.th

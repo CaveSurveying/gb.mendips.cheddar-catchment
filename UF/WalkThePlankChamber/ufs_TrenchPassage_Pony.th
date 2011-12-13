@@ -1,0 +1,60 @@
+encoding  utf-8
+ 
+survey TrenchPassage_Pony -title "Trench Passage" 
+   
+   centreline
+    units clino compass degree
+    units length meter
+
+    team "Ben Cooper"    instruments  # Instruments
+    team "Julie Hesketh"  notes    # Note taker
+    instrument length  "Ben's Bosch DLE50 laser rangefinder"
+    instrument compass  "Ben's SAP #7 - the Pony"  
+    date 2007.12.08   # Saturday 8th December 2007
+    #declination -2.937 deg  	# BGS at 2007.12.08 (2007.94) 51.2987N 2.71038W
+  				# http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html
+    declination -2.385 deg    	# Allign to grid, Grid North +0.5535 deg
+
+    sd compass 2 degrees		# It turns out Pony compass readings are unreliable.  Back then, perhaps not so bad, so 2-deg sd.
+	sd clino 1 degrees
+    sd length 1 centimetre
+
+    # LRUD taken in terms of direction of Survey (not the leg if reversed)
+    data normal \
+    from to length compass	clino 	left	right	up	down	# station Nr
+
+    extend right
+    data normal \
+    from to	length	compass clino	left	right	up	down	# station Nr
+	MW54	2	7.51	093	-34	[3.2 0] [0 4.7] [0 4.7]	[1.5 1.7]	# 1-2
+	2		2a	5.54	120	-40	0.8	5.5	7.0	2		# 2a boulder in floor (see MW.Leg2)
+	data normal from to length compass clino				
+	2		2b	10.8	0	+90				# 2b - Aven 
+    equate MW53 2a
+    data normal \
+    from to	length	compass clino	left	right	up	down	# station Nr
+    2	3	8.55	173	-28	8.6	0	3.0	0.7	# 3 bottom of overhang
+    3	4	6.93	136	-26	6.5	3.0	3.0	0	# 4 mud on floor edge of stream
+    4	5	4.35	208	+08	6.0	0	2.0	0.4	# 5 RH wall / entrance to Trench	
+    5	6	7.39	137	+24	5.0	0.5	2.1	1.0	# 6 
+    6	7	5.38	151	0	6.0	0	0.3	1.4	# 7 on roof just before where stream comes in
+    data normal from to length compass clino				
+    6	6a	2	61	0					# Est leg to Crystal Dome
+    6a	6b	8.6	0	+90					# Crystal Dome Aven
+
+    data normal \
+    from to length compass	clino 	left	right	up	down	# station Nr
+    7	8	7.95	135	0	2.8	1.5	0.4	1.9	# 8
+    8	9	9.29	130	-10	2.5	1.4	0.8	0.5	# 9
+    mark 9 painted
+
+    flags duplicate
+     9	10	4.00	136	-02	0.2	1.6	0.3	0.2	# 10
+     #11	9	7.40	325	+02					# 11 
+     9	11	7.40	145	-02	0.2	1.5	0.2	0.5	# 11 est LRUD
+     data normal from to length compass clino				
+     11	12	2.8	207	-03					# 12 under 2" airspace, now dug, 
+     # 12 now dug into Thief's Chamber
+   endcentreline
+endsurvey
+

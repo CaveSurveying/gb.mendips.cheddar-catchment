@@ -1,0 +1,34 @@
+encoding  utf-8
+survey Grebe_Swallet
+
+#Grebe Swallet, Charterhouse
+#Data from Willie Stanton's Survey Book 2 pp86 et seq
+#In all cases bearings in the original are in degrees and minutes
+#These are converted here to decimal degrees
+#Typed in by Graham Mullan June 2010
+
+input G1/G1.th
+input G2/G2.th
+equate 176@G1 176@G2
+
+input G3/G3.th
+equate 182@G2 182@G3
+
+input G4/G4
+equate 203@G3 203@G4
+
+input G5/G5.th
+equate 205@G4 205@G5
+
+equate 210a@G4 210@G5
+
+input G6/G6.th
+equate 226@G5 226@G6
+
+input G7/G7.th
+equate 233@G6 233@G7
+
+input G8/G8.th
+equate 246@G7 246@G8
+
+endsurvey

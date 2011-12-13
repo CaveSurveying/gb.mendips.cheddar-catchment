@@ -1,0 +1,13 @@
+*begin Great_Swallet
+
+
+
+*flags surface
+;*include "Great_Swallet_surface.DAT"
+*include Tynings_surface.MAK
+*flags not surface
+*include "Great_Swallet_no_surface.DAT"
+
+;*fix Thedig6 47650.000 56100.000 247.400
+
+*end Great_Swallet

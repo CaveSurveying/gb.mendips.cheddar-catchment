@@ -1,0 +1,85 @@
+encoding  utf-8
+survey Crickmay
+
+
+import GB.3d -surveys use -cs OSGB:ST
+#-cs EPSG:27700 -calibrate [0 0 0 300000 100000 0]
+#[0 0 0 299912 99991 0]
+#Should be -calibrate [0 0 0 300000 100000 0]
+#bodge to compensate for not doing datum shift between
+#Airy and WGS84 ellipsoids
+
+input "Crickmay Drawings/Crick001.th2"
+input "Crickmay Drawings/Crick002.th2"
+input "Crickmay Drawings/Crick003.th2"
+input "Crickmay Drawings/Crick004.th2"
+input "Crickmay Drawings/Crick005.th2"
+input "Crickmay Drawings/Crick006.th2"
+input "Crickmay Drawings/Crick007.th2"
+input "Crickmay Drawings/Crick008.th2"
+input "Crickmay Drawings/Crick009.th2"
+input "Crickmay Drawings/Crick010.th2"
+input "Crickmay Drawings/Crick011.th2"
+input "Crickmay Drawings/Crick012.th2"
+
+
+map CrickmayM -title "GB"
+  Crick001ScP1
+break
+  Crick001ScP2
+break
+  Crick001ScP3
+  Crick002ScP1
+  Crick002ScP2
+break
+  Crick002ScP3
+  Crick003ScP1
+break
+#  Crick003ScP2 #not needed as repeated
+  Crick003ScP3
+break
+  Crick004ScP1
+  Crick004ScP2
+  Crick005ScP1
+break
+  Crick005ScP2
+  Crick006ScP1
+  Crick007ScP1
+break
+  Crick007ScP2
+  Crick008ScP1
+  Crick009ScP1
+break
+  Crick009ScP2
+  Crick010ScP1
+  Crick011ScP1
+  Crick012ScP1
+endmap
+#join  -smooth on
+
+join Crick001ScP1 Crick001ScP2 -smooth on
+join Crick001ScP1 Crick002ScP1 -smooth on
+join Crick001ScP3 Crick002ScP2 -smooth on
+join Crick001ScP3 Crick004ScP1 -smooth on
+join Crick002ScP1 Crick003ScP3 -smooth on
+join Crick002ScP2 Crick002ScP3 -smooth on
+join Crick002ScP2 Crick003ScP1 -smooth on
+join Crick003ScP1 Crick004ScP2 -smooth on
+join Crick003ScP3 Crick004ScP2 -smooth on
+join Crick004ScP1 Crick005ScP2 -smooth on
+join Crick004ScP2 Crick005ScP1 -smooth on
+join Crick005ScP1 Crick006ScP1 -smooth on
+join Crick005ScP1 Crick009ScP2 -smooth on
+join Crick006ScP1 Crick007ScP1 -smooth on
+join Crick006ScP1 Crick008ScP1 -smooth on
+join Crick007ScP1 Crick007ScP2 -smooth on
+join Crick008ScP1 Crick009ScP2 -smooth on
+join Crick009ScP1 Crick009ScP2 -smooth on
+#join Crick009ScP1 Crick010ScP1 -smooth on #something wrong with n17's
+join Crick009ScP2 Crick010ScP1 -smooth on
+join Crick009ScP2 Crick012ScP1 -smooth on
+join Crick010ScP1 Crick011ScP1 -smooth on
+
+
+endsurvey
+

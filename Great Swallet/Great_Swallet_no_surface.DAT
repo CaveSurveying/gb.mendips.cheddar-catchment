@@ -1,0 +1,45 @@
+Tynings Great Swallet
+SURVEY NAME: TheDig
+SURVEY DATE: 4 6 2004  COMMENT:surface legs in file Great_Swallet_surface.DAT: NOT CONTINUOUS SO WILL NOT RUN AS SINGLE FILE
+SURVEY TEAM: 
+Instruments Tony Boycott; Recording Jon Talling; Tape Graham Mullan
+DECLINATION:    0.00  FORMAT: DMMDLRUDLADN  CORRECTIONS:  0.00 0.00 0.00
+
+        FROM           TO   LENGTH  BEARING      INC     LEFT       UP     DOWN    RIGHT   FLAGS  COMMENTS
+
+     Thedig2      Thedig3    12.73   166.00   -23.00     0.00     0.00     4.92     1.64
+     Thedig3      Thedig4    24.54   159.00    15.00     4.92     8.20     6.56     0.00
+     Thedig4      Thedig5    12.96   266.00    16.00     0.33     0.98     1.97     0.33
+     Thedig6      Thedig7     7.58   179.00   -25.00     3.28     0.98     1.31     0.98
+     Thedig7      Thedig8    15.62   175.00   -73.00     1.64     1.64     6.56     0.33
+     Thedig8      Thedig9    10.56   242.00   -37.00     0.00     9.84     1.64     1.97
+     Thedig9     Thedig10     3.05     9.00     5.00     0.00     1.64     1.64     1.97
+    Thedig10     Thedig11    14.73   353.00   -69.00     0.98     1.64    -9.90     0.00
+    Thedig11     Thedig12    11.45   353.00   -90.00     1.64    -9.90    -9.90     3.94
+    Thedig12     Thedig13     2.66   110.00   -55.00     1.64    -9.90    -9.90     0.00
+    Thedig13     Thedig14     8.79   110.00   -50.00     0.98    -9.90    -9.90     0.66
+    Thedig14     Thedig15     3.12   174.00    -7.00    14.76     3.28     0.00     3.28  15 is fixed point on ceiling
+    Thedig15     Thedig17     6.40   180.00   -45.00     3.28     0.00     3.28     1.64
+    Thedig17     Thedig18    12.14   222.00   -75.00     3.28     0.00     9.35     1.64
+    Thedig18     Thedig19    11.48   240.00   -60.00     3.28     6.56     6.56     1.64  19 is bone area B
+    Thedig19     Thedig20    12.47   312.00     0.00     3.28    -9.90     0.00     1.64  20 is bone area C
+    Thedig20     Thedig21    11.48   312.00   -12.00     0.00     0.00     6.56     3.28
+    Thedig21     Thedig22     8.86    42.00    52.00     9.84     3.28     3.28    13.12  21 is fixed survey point
+    Thedig22     Thedig23    19.42   353.00    40.00     0.00     6.56     6.56     3.28
+    Thedig23     Thedig24     4.49     9.00    -1.00     0.00     3.28     1.64     3.28
+    Thedig24     Thedig25    13.78     5.00    40.00     0.00     0.00     0.49     0.82
+    Thedig24     Thedig26     6.20   305.00   -45.00     3.28     0.00     6.56     3.28
+    Thedig26     Thedig27    15.42   185.00   -25.00     3.28     0.00     3.28     0.00
+    Thedig21     Thedig30    11.75   160.00   -33.00     3.28     1.97     2.62     0.00
+    Thedig30     Thedig31    13.12   149.00   -34.00    13.12     0.00     6.56     6.56
+    Thedig31     Thedig32    10.01     0.00   -90.00     3.28     0.00    -9.90     3.28
+    Thedig32     Thedig33     5.91   182.00   -32.00     1.64    -9.90     0.00     1.64
+    Thedig33     Thedig34     7.38    46.00     2.00     3.28     0.00     3.28     0.00
+    Thedig34     Thedig35    15.75    28.00    14.00     3.28     0.00     6.56     0.00
+    Thedig31     Thedig36     8.83   106.00   -73.00     3.28     0.00    -9.90     3.28
+    Thedig36     Thedig37    12.76   194.00   -38.00     3.28    -9.90     3.28     3.28  37 = bolt in wall = psp
+    Thedig37     Thedig38    11.19   331.00   -78.00     1.64     0.00    -9.90     3.28
+    Thedig38     Thedig39     9.19     0.00   -90.00     0.00    -9.90    -9.90     1.97
+    Thedig39     Thedig40     0.00     0.00     0.00     3.28    -9.90     0.00     3.28
+
+

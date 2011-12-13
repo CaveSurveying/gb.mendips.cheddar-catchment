@@ -1,0 +1,55 @@
+encoding  utf-8
+survey ChGorge
+
+centreline
+  
+  date 2011.05.18
+  team "Andrew Atkinson" notes
+  team "Tony Boycott" instruments
+  instrument instruments UBSS2-distoX
+  
+  data normal from to compass clino tape
+  extend right
+ flags surface
+  1.0 1.1 296.08 -13.91 31.292
+  1.0 1.2 319.11 -18.04 26.581
+  1.0 1.3 273.65 -19.41 23.105
+  1.0 1.4 273.47 -13.01 48.680
+  1.0 1.5 287.69 -10.83 61.707
+  1.6 1.5 241.45 -5.24 16.008
+  1.6 1.7 85.64 1.26 46.848
+  1.6 1.8 92.54 -0.33 20.021
+  1.6 1.9 210.34 -3.21 39.027
+  1.6 1.10 190.75 -0.32 36.909
+  1.6 1.11 111.75 3.29 40.835
+ flags not surface
+
+#made up legs to show probable reservoir
+ flags duplicate
+ flags surface 
+  1.1 1.1a - down 1
+  1.3 1.3a - down 1
+  1.10 1.10a - down 1
+ flags not surface
+
+#Vertical parts 5m deep
+  1.1a 1.1b - down 5
+  1.3a 1.3b - down 5
+  1.4 1.4b - down 5
+  1.10a 1.10b - down 5
+#Horz parts
+  1.1a 1.7a 061 0 34
+  1.1b 1.7b 061 0 34
+  1.1a 1.12a 242 0 32
+  1.1b 1.12b 242 0 32
+  1.10a 1.13a 330 0 10
+  1.10b 1.13b 330 0 10
+  1.10a 1.14a 068 0 31
+  1.10b 1.14b 068 0 31
+  1.3a 1.15a 059 0 34
+  1.3b 1.15b 059 0 34
+  1.3a 1.16a 335 0 13
+  1.3b 1.16b 335 0 13
+
+endcentreline
+endsurvey

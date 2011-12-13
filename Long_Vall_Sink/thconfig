@@ -1,0 +1,29 @@
+encoding  utf-8
+source Long_Vall_Sink.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout mendip -o Long_Vall_Sink.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj plan -fmt kml -layout mendip -o Long_Vall_Sink.kml
+
+export model -fmt survex -o Long_Vall_Sinkth.3d
+#Survex file showing centre line only
+
+export model -o Long_Vall_Sink.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Long_Vall_Sink_Walls.3d
+#Survex file showing walls only
+
+layout mendip
+
+colour map-bg 90
+#colour map-fg scrap
+#debug on
+#debug scrap-names
+endlayout

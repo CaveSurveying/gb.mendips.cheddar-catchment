@@ -1,0 +1,31 @@
+encoding  utf-8
+survey Box
+
+#Box Cave, Cheddar
+#Data from Willie Stanton's Survey Book 2 pp27-28
+
+#Typed in by Graham Mullan May 2010
+
+centreline
+cs OSGB:ST 
+date 1965.02.07
+
+fix 400 46310 54430 93
+station 400 "Box Cave" entrance
+
+data normal from to compass clino tape ignoreall
+units tape feet
+#in this survey angles are in degrees:minutes
+
+400 401 164:20  -53:40 22.2
+401 402 121:40  -36:00 50.7
+402 403 237:00  -20:30 13.1
+403 404 038:30  -22:10 42.4
+402 405 213:00 15:20  18.5
+405 406 226:15 -36:15 36.7
+#406 candle smoke mark on wall at foot of chocolate covered stal flow
+
+
+endcentreline
+endsurvey
+

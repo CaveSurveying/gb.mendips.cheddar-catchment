@@ -1,0 +1,10 @@
+encoding  utf-8
+source corners.th
+
+export map -proj plan -layout googlemaps -o corners.pdf
+
+layout googlemaps
+
+scale 1 1000
+
+endlayout

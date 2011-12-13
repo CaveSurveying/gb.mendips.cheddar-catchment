@@ -1,0 +1,36 @@
+encoding  utf-8
+source Rip_Rift2.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o Rip_Rift2.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o Rip_Rift2Ee.pdf
+
+#export model -fmt survex -o Rip_Rift2th.3d
+#Survex file showing centre line only
+
+
+#export model -o Rip_Rift2.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Rip_Rift2_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+colour map-fg [0 50 50]
+
+#A3
+scale 1 2750
+base-scale 1 750
+
+endlayout
+
+input ../../../common_layout.th

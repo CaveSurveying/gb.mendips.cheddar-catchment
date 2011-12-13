@@ -1,0 +1,147 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 1917.5525 1249.4529
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {1598.66 1 1.0} {882.849 s22} xvi/WallStreet.xvi 0 {}
+
+
+
+scrap WallStreet_s1 -scale [-128.0 -128.0 1917.5525 -128.0 0.0 0.0 51.9570335 0.0 m]
+
+point 717.0 1026.0 label -orientation 5 -text "Threadneedle Street" -scale m
+
+point 714.0 132.0 dig
+
+point 152.0 941.0 dig
+
+point 714.0 522.0 label -orientation 42.2 -text "Wall Street" -scale m
+
+line wall
+  1531.0 899.0
+  mark north
+  1551.0 877.0 1526.0 852.0 1504.0 844.0
+  1482.0 836.0 1449.0 846.0 1439.0 849.0
+  1429.0 852.0 1183.0 905.0 1160.0 902.0
+  1137.0 899.0 1093.0 854.0 1068.0 856.0
+  1043.0 858.0 1020.0 876.0 995.0 882.0
+  970.0 888.0 939.0 894.0 912.0 896.0
+  885.0 898.0 757.0 893.0 740.0 896.0
+  723.0 899.0 649.0 920.0 620.0 925.0
+  591.0 930.0 444.0 929.0 412.0 937.0
+  380.0 945.0 358.0 967.0 314.0 973.0
+  270.0 979.0 185.0 991.0 180.0 973.0
+  altitude .
+  175.0 955.0 174.0 955.0 180.0 945.0
+  186.0 935.0 269.0 926.0 300.0 915.0
+  331.0 904.0 370.0 907.0 405.0 901.0
+  440.0 895.0 576.0 884.0 587.0 875.0
+  598.0 866.0 622.0 817.0 634.0 800.0
+  646.0 783.0 717.0 715.0 721.0 696.0
+  725.0 677.0 729.0 680.0 740.0 664.0
+  751.0 648.0 860.0 558.0 880.0 549.0
+  900.0 540.0 980.0 496.0 996.0 490.0
+  1012.0 484.0 1066.0 412.0 1074.0 403.0
+  1082.0 394.0 1108.0 373.0 1116.0 363.0
+  1124.0 353.0 1117.0 347.0 1126.0 329.0
+  1135.0 311.0 1143.6 261.68 1150.0 254.0
+  1155.0 248.0 1157.5 232.5 1158.0 228.0
+  smooth off
+endline
+
+line wall -reverse on -subtype unsurveyed
+  736.0 157.0
+  altitude .
+  736.0 157.0 1146.5 225.5 1158.0 228.0
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  744.0 120.0
+  753.0 122.0 1168.0 188.5 1183.5 189.5
+  1242.95 193.34 1274.37 195.25 1274.16 208.539
+  1273.29 263.33 1184.5 223.25 1181.5 230.25
+  smooth off
+endline
+
+line wall
+  1181.5 230.25
+  1178.5 237.25 1155.0 265.0 1152.0 275.0
+  1149.0 285.0 1124.0 333.0 1133.0 340.0
+  1142.0 347.0 1154.3 358.2 1148.65 369.599
+  1143.0 381.0 1101.0 384.0 1076.0 422.0
+  1051.0 460.0 999.0 526.0 982.0 541.0
+  965.0 556.0 927.0 587.0 913.0 599.0
+  899.0 611.0 832.0 643.0 817.0 654.0
+  802.0 665.0 709.0 691.0 691.0 765.0
+  685.07 789.37 686.0 774.0 655.0 838.0
+  633.3 882.79 666.0 856.0 677.0 851.0
+  688.0 846.0 773.0 840.0 828.0 842.0
+  883.0 844.0 906.0 852.0 946.0 847.0
+  986.0 842.0 973.0 851.0 1009.0 846.0
+  1045.0 841.0 1092.0 844.0 1110.0 846.0
+  1128.0 848.0 1166.0 850.0 1187.0 845.0
+  1208.0 840.0 1306.0 830.0 1326.0 827.0
+  1346.0 824.0 1402.0 823.0 1428.0 806.0
+  1454.0 789.0 1516.0 758.0 1540.0 769.0
+  1564.0 780.0 1617.0 780.0 1637.0 773.0
+  smooth off
+  mark south
+endline
+
+point 947.98 177.049 station -name wp12@WallStreet
+
+point 1274.16 208.539 station -name wp11@WallStreet
+
+point 1180.86 229.059 station -name wp10@WallStreet
+
+point 1143.64 269.629 station -name wp9@WallStreet
+
+point 1121.69 343.119 station -name wp8@WallStreet
+
+point 1148.65 369.599 station -name wp7@WallStreet
+
+point 1081.84 404.199 station -name wp6@WallStreet
+
+point 1009.54 509.429 station -name wp5@WallStreet
+
+point 895.25 573.609 station -name wp4@WallStreet
+
+point 713.91 714.629 station -name wp2@WallStreet
+
+point 748.75 677.879 station -name wp3@WallStreet
+
+line arrow -head end
+  833.0 715.0
+  728.0 718.0
+endline
+
+point 857.91 715.629 label -text "2/6/2007" -scale xs -align r
+
+point 644.71 804.339 station -name wp1@WallStreet
+
+point 178.72 960.389 station -name ws11@WallStreet
+
+point 306.13 946.079 station -name ws10@WallStreet
+
+point 407.3 914.339 station -name ws9@WallStreet
+
+point 614.41 894.779 station -name ws8@WallStreet
+
+point 735.62 863.519 station -name ws7@WallStreet
+
+point 911.0 871.629 station -name ws6@WallStreet
+
+point 990.46 863.999 station -name ws5@WallStreet
+
+point 1066.81 848.489 station -name ws4@WallStreet
+
+point 1162.73 863.039 station -name ws3@WallStreet
+
+point 1435.93 837.029 station -name ws2@WallStreet
+
+point 1528.04 808.159 station -name ws1@WallStreet
+
+point 1598.66 882.849 station -name s22@WallStreet
+
+endscrap
+
+

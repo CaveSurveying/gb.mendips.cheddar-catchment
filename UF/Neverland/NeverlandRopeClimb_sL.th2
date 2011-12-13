@@ -1,0 +1,22 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 4255.9011 1893.6918
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {3350.36 1 1.0} {986.352 N38} xvi/NeverlandRopeClimb.xvi 0 {}
+
+
+
+scrap NeverlandRopeClimb_sL -scale [-128.0 -128.0 4255.9011 -128.0 0.0 0.0 111.35108794 0.0 m]
+
+point 3021.29 495.532 station -name 9@NeverlandRopeClimb
+
+point 3207.19 619.372 station -name 1@NeverlandRopeClimb
+
+point 3087.25 651.75 label -text "-2m" -scale s
+
+point 2849.0 652.0 label -text "Rope Climb" -scale s
+
+point 3122.01 676.882 station -name 3@NeverlandRopeClimb
+
+endscrap
+
+

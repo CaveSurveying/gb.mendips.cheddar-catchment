@@ -1,0 +1,50 @@
+encoding  utf-8
+survey WalkThePlankChamber
+
+  # Define fixed points
+  #####################
+  centreline
+    mark FIXED-MW4-wall fixed
+	mark PAINTED-MW54-wall painted
+	mark 0.11@PlankGrotto_DistoX painted
+    station FIXED-MW4-wall "MW51 5mm hole, brass screw, reflector" continuation attr code "fixed" attr Name "MW51"
+    station PAINTED-MW54-wall "MW54 Painted on South Wall close to ceiling" continuation attr code "fixed" attr Name "MW54"
+    station 0.11@PlankGrotto_DistoX "T5 Painted on South Wall close to floor" continuation attr code "fixed" attr Name "T5"
+  endcentreline
+  
+  # Build the centreline
+  ######################
+  input ufs_wtpMW.th
+  equate MW51-stal@MW          PAINTED-MW4-stal
+  equate MW54-wall@MW          PAINTED-MW54-wall
+  
+  
+  input ufs_PlankGrotto_DistoX.th
+  equate MW4-wall@PlankGrotto_DistoX  FIXED-MW4-wall
+  equate MW4-stal@PlankGrotto_DistoX  PAINTED-MW4-stal
+    equate 0.2@PlankGrotto_DistoX    MW52@MW
+  
+  input ufs_TrenchPassage_Pony.th
+  equate MW54@TrenchPassage_Pony    PAINTED-MW54-wall
+  equate MW53@TrenchPassage_Pony    MW53@MW
+  equate 5@TrenchPassage_Pony      0.11@PlankGrotto_DistoX
+  
+  input ufs_ThievesChamber_Pony.th
+  equate D1@ThievesChamber_Pony    9@TrenchPassage_Pony   
+
+  # Import the scraps 
+  ####################
+  input WalkThePlankChamber_v2.th2
+  input ufs_TrenchPassage.th2
+  #join wall_SPS3S wall_SPS2:14
+  #join wall_SPS3N wall_SPS2:11
+
+  # Create the maps
+  ###########################
+  map WalkThePlankChamber_m1
+    PlankChamber_s1
+    TrenchPassage_s1
+  endmap
+
+endsurvey
+

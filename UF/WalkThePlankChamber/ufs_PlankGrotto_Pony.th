@@ -1,0 +1,34 @@
+encoding  utf-8
+ 
+survey PlankGrotto -title "Plank Grotto" 
+# Pony survey conducted by Ben Cooper and Tim Frances.  Data proved to be unreliable, as evidenced by the Thieves Chamber data.     
+# Subsequent survey using a DistoX confirmed that this survey is useless.
+# Station 3 refers to the Trench Passage survey completed by Ben Cooper and Julie Hesketh in Dec 2007 
+   centreline
+    units clino compass degree
+    units length meter
+
+    # End Passage of Plank Chamber  (Plank Grotto)
+	date 2008.03.08    
+	team "Ben Cooper"    instruments  # Instruments
+	team "Tim Francis"   notes    # Note taker
+	instrument length  "Ben's Bosch DLE50 laser rangefinder"
+	instrument compass  "Ben's SAP #7"    
+	#declination -2.887 deg  	# BGS at 2008-03-08 (2008.27) 51.2987N 2.71038W
+								# http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html
+	declination -2.33 deg    	# Allign to grid, Grid North +0.5535 deg
+	data normal \
+	from to	compass clino	length	left	right	up	down	# station Nr
+	3 A2	129.3	-08.0	16.56	[8.6 4.3] [0 0.8] [3.0 0.8] [0.7 0.2]	# [3@two A2]
+	A2 A3	090.6	-12.4	3.37	2.4	2.2	1.4	0.2		# A3
+	A3 A4	132.0	-18.3	6.23	4.1	0	2.0	1.0		# A4
+	A4 A5	089.2	-10.3	8.20	1	2	1	.3		# A5 Est. LRUD
+														# A5 is tip of rock at end above sand
+	flags duplicate # a couple of stations to fix side wall
+		A2 B1	288.0	-10.8	5.79	[0 3.2] [8.6 3.8] [3.0 2.7] [0.7 0.3] # B1 is top of rocks close to drop
+		data normal from to compass clino	length 
+		B1 B2	196.2	+24	4.99					# B2 is LH corner of Trench Passage
+	flags not duplicate
+   endcentreline
+endsurvey
+

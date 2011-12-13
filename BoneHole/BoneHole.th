@@ -1,0 +1,16 @@
+encoding  utf-8
+survey BoneHole -title "Bone Hole"
+
+  input 00_Surface/BH_Surface.th
+  input 01_Entrance/BH_Entrance.th
+  input 02_FirstPitch/BH_FirstPitch.th
+  input 10_PerforationChoke/BH_PerforationChoke.th
+  input Bone2/Bone2
+
+  equate 1.3@BH_Entrance 1.3@BH_Surface
+  equate 1.13@BH_FirstPitch 1.13@BH_Entrance
+  equate 1.22@BH_PerforationChoke 1.22@BH_Surface
+  equate 1.15@BH_FirstPitch 1.0@Bone2
+
+endsurvey
+

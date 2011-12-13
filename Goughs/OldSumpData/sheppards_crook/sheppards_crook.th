@@ -1,0 +1,17 @@
+encoding  utf-8
+survey sheppards_crook
+
+centreline
+
+date 2005.09.17
+#date taken from Somerset Sump Index
+
+data normal from to gradient bearing length ignoreall
+SC1  SC2  +4  102  10.5
+SC2  SC3  +10  068  14.5
+SC3  SC4  -8  164  4  ; SC4=dive line tie off
+
+endcentreline
+
+endsurvey sheppards_crook
+

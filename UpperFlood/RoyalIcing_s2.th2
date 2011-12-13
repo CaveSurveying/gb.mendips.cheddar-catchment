@@ -1,0 +1,47 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 250.0 409.0 1939.021 4320.915
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {1062.99 1 1.0} {2263.79 1.0@HiddenPassage.RoyalIcing} xvi/RoyalIcing.xvi 0 {}
+
+
+
+scrap RoyalIcing_s2 -scale [-128.0 -128.0 6618.1104 -128.0 0.0 0.0 171.35120416 0.0 m]
+
+point 380.711 539.57 station -name 33@RoyalIcing
+
+point 524.211 1195.48 station -name 26@RoyalIcing
+
+point 621.061 1272.25 station -name 25@RoyalIcing
+
+point 662.601 1370.87 station -name 24@RoyalIcing
+
+line wall -visibility off
+  495.0 1191.0
+  491.5 1182.0
+endline
+
+line pit -reverse on
+  495.0 1191.0
+  504.5 1184.5 615.5 1131.0 626.0 1125.0
+  smooth off
+endline
+
+line wall -id wall_RIs2_W
+  635.0 1387.0
+  638.75 1385.0 643.0 1383.5 640.0 1379.5
+  637.0 1375.5 570.5 1323.0 566.5 1315.0
+  562.5 1307.0 493.5 1206.0 495.0 1191.0
+  smooth off
+endline
+
+line wall -id wall_RIs2_E
+  626.0 1125.0
+  626.0 1141.0 618.0 1258.0 619.5 1264.5
+  621.0 1271.0 624.0 1278.5 628.0 1281.0
+  632.0 1283.5 697.0 1356.5 697.5 1369.5
+  smooth off
+endline
+
+endscrap
+
+

@@ -1,0 +1,30 @@
+encoding  utf-8
+survey sumps
+
+input downstream/downstream.th
+input upstream/upstream.th
+input sump1b/sump1b.th
+input bishops_palace/bishops_palace.th
+input sump2/sump2.th
+input sheppards_crook/sheppards_crook.th
+input sump3/sump3
+
+equate 20@downstream 20@upstream
+equate 160@upstream 0@sump1b
+equate 137@sump1b 0@bishops_palace
+equate 19@bishops_palace 0@sump2
+equate 23@sump2 1@sheppards_crook
+equate 4@sheppards_crook 0_00@sump3
+
+map sumpsM
+  downstreamM@downstream
+  upstreamM@upstream
+  sump1bM@sump1b
+  bishops_palaceM@bishops_palace  
+endmap
+
+join downstreamSPl1@downstream upstreamSPl1@upstream -smooth on
+join sump1bSPl1@sump1b bishops_palaceSPl1@bishops_palace -smooth on
+
+endsurvey
+

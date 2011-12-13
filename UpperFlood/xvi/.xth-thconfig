@@ -1,0 +1,11 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 6 {} 0 main main "Cave No. 241" "Cave No. 241" "length: 96.59m (surface 15.00m, duplicated 0.00m)\nvertical range: 22.88m (from 1@entrance.main at 0.00m to 5'@entrance.main at -22.88m)\nnorth-south range: 15.52m (from 2@chamber.main at 11.97m to 5'@entrance.main at -3.55m)\neast-west range: 27.31m (from 4'@entrance.main at 27.31m to 1@entrance.main at 0.00m)\nnumber of shots: 12\nnumber of stations: 15"
+xth_cp_data_tree_insert 71 6 1 entrance entrance.main "A few first metres of the cave" "A few first metres of the cave" "length: 70.75m (surface 0.00m, duplicated 0.00m)\nvertical range: 22.88m (from 1@entrance.main at 0.00m to 5'@entrance.main at -22.88m)\nnorth-south range: 10.75m (from 3@entrance.main at 7.21m to 5'@entrance.main at -3.55m)\neast-west range: 27.31m (from 4'@entrance.main at 27.31m to 1@entrance.main at 0.00m)\nnumber of shots: 7\nnumber of stations: 8"
+xth_cp_data_tree_insert 74 6 1 chamber chamber.main "A Big Chamber" "A Big Chamber" "length: 25.84m (surface 0.00m, duplicated 0.00m)\nvertical range: 7.57m (from LP@chamber.main at -8.98m to 2@chamber.main at -16.55m)\nnorth-south range: 14.27m (from 2@chamber.main at 11.97m to 0@chamber.main at -2.30m)\neast-west range: 12.29m (from LP@chamber.main at 19.67m to 2@chamber.main at 7.39m)\nnumber of shots: 3\nnumber of stations: 4"
+xth_cp_data_tree_insert 77 6 1 surface surface.main "Some surface data" "Some surface data" "length: 0.00m (surface 15.00m, duplicated 0.00m)\nvertical range: 0.87m (from b@surface.main at 0.87m to a@surface.main at 0.00m)\nnorth-south range: 2.31m (from a@surface.main at 0.00m to b@surface.main at -2.31m)\neast-west range: 9.69m (from b@surface.main at 9.69m to a@surface.main at 0.00m)\nnumber of shots: 2\nnumber of stations: 3"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 85 p1 1 entr entr@main "Cave entrance" "Cave entrance"
+xth_cp_map_tree_insert map 1 86 p1 1 chamb chamb@main "End Chamber" "End Chamber"
+xth_cp_map_tree_create

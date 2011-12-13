@@ -1,0 +1,22 @@
+encoding  utf-8
+survey R13
+
+centreline
+cs OSGB:ST
+date 1974 02 16
+#Source WIS survey book 2 pp79/80
+
+data normal from to compass clino tape ignoreall
+units tape feet
+#calibrate compass +7.50
+calibrate compass -0.53
+#altered to allow for automatic mag dev correction
+
+553  554  174.00  1.33  20.1
+554  555  173.50  -9.33  18.1
+555  556  043.00  23.33  11.2  too tight at 10'
+556  557  065.00  17.5  25.0  in low bedding plane beyond constriction
+
+endcentreline
+endsurvey R13
+

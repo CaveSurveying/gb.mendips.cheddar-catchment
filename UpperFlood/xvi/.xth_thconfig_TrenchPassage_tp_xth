@@ -1,0 +1,10 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 184.65m (surface 0.00m, duplicated 105.13m)\nvertical range: 21.26m (from 2b@TrenchPassage at 18.44m to A5@TrenchPassage at -2.82m)\nnorth-south range: 64.41m (from FF55@TrenchPassage at 11.78m to U12@TrenchPassage at -52.64m)\neast-west range: 58.74m (from U12@TrenchPassage at 39.41m to FF55@TrenchPassage at -19.32m)\nnumber of shots: 43\nnumber of stations: 45"
+xth_cp_data_tree_insert 13 1 1 TrenchPassage TrenchPassage " " " " "length: 184.65m (surface 0.00m, duplicated 105.13m)\nvertical range: 21.26m (from 2b@TrenchPassage at 18.44m to A5@TrenchPassage at -2.82m)\nnorth-south range: 64.41m (from FF55@TrenchPassage at 11.78m to U12@TrenchPassage at -52.64m)\neast-west range: 58.74m (from U12@TrenchPassage at 39.41m to FF55@TrenchPassage at -19.32m)\nnumber of shots: 43\nnumber of stations: 45"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 185 0

@@ -1,0 +1,11 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 212.97m (surface 0.00m, duplicated 56.31m)\nvertical range: 11.81m (from 9@RoyalIcing at 9.61m to 6@FFMW.RoyalIcing at -2.20m)\nnorth-south range: 94.63m (from 13@FFMW.RoyalIcing at 21.11m to 40@RoyalIcing at -73.52m)\neast-west range: 34.68m (from 9@RoyalIcing at 11.31m to 42@RoyalIcing at -23.37m)\nnumber of shots: 59\nnumber of stations: 60"
+xth_cp_data_tree_insert 13 1 1 RoyalIcing RoyalIcing "Royal Icing Passage" "Royal Icing Passage" "length: 212.97m (surface 0.00m, duplicated 56.31m)\nvertical range: 11.81m (from 9@RoyalIcing at 9.61m to 6@FFMW.RoyalIcing at -2.20m)\nnorth-south range: 94.63m (from 13@FFMW.RoyalIcing at 21.11m to 40@RoyalIcing at -73.52m)\neast-west range: 34.68m (from 9@RoyalIcing at 11.31m to 42@RoyalIcing at -23.37m)\nnumber of shots: 59\nnumber of stations: 60"
+xth_cp_data_tree_insert 16 13 2 FFMW FFMW.RoyalIcing "" "" "length: 0.00m (surface 0.00m, duplicated 43.61m)\nvertical range: 6.25m (from 13@FFMW.RoyalIcing at 4.05m to 6@FFMW.RoyalIcing at -2.20m)\nnorth-south range: 25.47m (from 13@FFMW.RoyalIcing at 21.11m to 6@FFMW.RoyalIcing at -4.36m)\neast-west range: 18.82m (from 11@FFMW.RoyalIcing at 3.85m to 13@FFMW.RoyalIcing at -14.97m)\nnumber of shots: 7\nnumber of stations: 8"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 213 0

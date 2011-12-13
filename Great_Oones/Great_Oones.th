@@ -1,0 +1,58 @@
+encoding  utf-8
+survey Great_Oones
+
+#Great Oones Hole, Cheddar
+#Data from Willie Stanton's Survey Book 1 pp5-6
+#In all cases bearings in the original are in degrees and minutes
+#These are converted here to decimal degrees
+#Typed in by Graham Mullan June 2010
+
+input Great_Oones.th2
+
+map Great_OonesM
+  Great_OonesSPl1
+endmap
+
+centreline
+cs OSGB:ST 
+date 1950
+
+data normal from to compass tape clino ignoreall
+
+units tape feet
+declination 0 degree
+#added to override automatic date correction.
+calibrate compass +11.5
+station AJ "Great Oones Hole" entrance
+fix AJ  46800 53920 93
+
+AJ  i  105.50  43.5  -4.50
+i  ii  115.50  122.7  2.50
+ii  iii  145.20  15.8  -6.50
+iii  iv  101.83  32.8  7.67
+iv  v  168.50  39.8  -34.33
+v  vi  208.00  39.8  -31.50
+vi  vii  201.00  10.7  -31.50
+vii  viii  197.17  36.7  -20.50
+viii  ix  190.00  12.6  -58.30
+ix  x  151.83  34.9  -21.00
+x  xi  106.30  21.8  -1.50
+
+#data dimensions station up down left right
+#units tape feet
+#AJ 4  2 6 12
+#i 4  2 6 12
+#ii 4  2 6 12
+#iii 2 4 10 6
+#iv  2 4 10 6
+#v 5 2 10 12
+#vi 5  2 10 12
+#vii 5 2 10 12
+#viii 2 2 1 1
+#ix 2 0.5 1 1
+#x 3 0.5 1 1
+#xi  2 2 5 6
+
+endcentreline
+endsurvey Great_Oones
+

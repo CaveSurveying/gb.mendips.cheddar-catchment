@@ -1,0 +1,17 @@
+encoding  utf-8
+source ../RoyalIcing2.th
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 200
+endlayout
+
+export model -format survex -o RoyalIcing2.3d
+export model -format loch -o RoyalIcing2.lox
+export map -projection plan -format pdf -layout l1 -o RoyalIcing2_CL.pdf
+export map -projection extended -format pdf -layout l1 -o RoyalIcing2_CLex.pdf
+export map -projection elevation -format pdf -layout l1 -o RoyalIcing2_CLel.pdf
+export map -projection plan -format xvi -layout l1 -o RoyalIcing2.xvi
+export map -projection extended -format xvi -o RoyalIcing2_ex.xvi
+export map -projection elevation -format xvi -o RoyalIcing2_el.xvi

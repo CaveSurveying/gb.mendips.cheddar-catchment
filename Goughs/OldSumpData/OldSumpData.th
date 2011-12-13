@@ -1,0 +1,17 @@
+encoding  utf-8
+survey OldSumpData
+
+input show_cave_to_lloyd_hall/show_cave_to_lloyd_hall.th
+input sump1b/sump1b.th
+input bishops_palace/bishops_palace
+input sump2/sump2.th
+input sheppards_crook/sheppards_crook.th
+
+
+equate LH22@show_cave_to_lloyd_hall 0@sump1b    
+equate 25@sump1b bp17@bishops_palace
+equate bp0@bishops_palace 0@sump2 
+equate 23@sump2 SC1@sheppards_crook
+
+endsurvey OldSumpData
+

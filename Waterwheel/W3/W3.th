@@ -1,0 +1,19 @@
+encoding  utf-8
+survey W3
+
+centreline
+date 1979 07 25
+
+data normal from to compass clino tape ignoreall
+calibrate compass +6.66
+declination 0 degree
+#added to override automatic date correction.
+
+90  94  -  down  2.13
+94  95  146.00  11.17  3.41
+95  96  139.00  10.92  3.82
+96  97  -  up  0.81
+
+endcentreline
+endsurvey
+

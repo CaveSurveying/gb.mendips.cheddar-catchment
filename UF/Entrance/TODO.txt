@@ -1,0 +1,4 @@
+Suffering from Therion issue with rotation to Grid North for all declination set surveys.
+Solution to remove cs, and manually set all declinations
+Note MYR missing declination - add
+Note WS declinations almost 1-deg off Therion internal database.  Check against BG

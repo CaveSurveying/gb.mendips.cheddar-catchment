@@ -1,0 +1,18 @@
+encoding  utf-8
+language en_UK
+source SouthPassage.th
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 200 
+endlayout
+ 
+
+export model -format survex -o 0.Maps/SouthPassage.3d
+export model -format loch -o 0.Maps/SouthPassage.lox
+export map -projection plan -layout l1 -o 0.Maps/SouthPassage.pdf
+export map -projection plan -format xvi -layout l1 -o 0.Maps/SouthPassage.xvi
+export map -projection extended -format xvi -layout l1 -o 0.Maps/SouthPassage_ex.xvi
+export map -projection elevation -format xvi -layout l1 -o 0.Maps/SouthPassage_el.xvi
+#export atlas -projection plan -layout l1 -o 0.Maps/SouthPassage.pdf

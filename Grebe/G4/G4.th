@@ -1,0 +1,32 @@
+encoding  utf-8
+survey G4
+
+centreline
+date 1982 10 02
+
+data normal from to compass clino tape ignoreall
+declination 0 degree
+#added to override automatic date correction.
+calibrate compass +7.83
+
+203  204  155.00  25.50  3.32
+204  205  149.00  -6.83  5.44
+205  206  275.00  14.33  1.34
+206  207  163.00  20.50  3.86
+207  208  142.00  1.33  4.43
+208  209  214.50  6.83  10.77
+209  210  212.00  -15.50  3.48
+210  211  329.50  13.83  17.68
+210  210a  134.00  -22.00  6.05
+#leg added by GJM from survey notes
+204  212  020.00  -4.00  4.30
+212  213  347.00  0  2.27
+213  213a  -  up  0.97
+213a  214  310.00  0  1.3
+214  214a  -  up  1.5
+214a  215  321.00  27.00  7.7
+
+
+endcentreline
+endsurvey G4
+

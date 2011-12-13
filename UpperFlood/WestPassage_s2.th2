@@ -1,0 +1,52 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -563.17 1486.62 6326.1046 3842.3616
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {5170.58 1 1.0} {2927.45 d11@CentreLineOnly.WestPassage} xvi/WestPassage.xvi 0 {}
+
+
+
+scrap WestPassage_s2 -scale [-128.0 -128.0 557.4926 -128.0 0.0 0.0 17.41151204 0.0 m]
+
+line wall
+endline
+
+point 3285.0 2598.5 dig
+
+point 3257.6 2702.136 station -name 1@Rift.Pony.FullLRUD.WestPassage
+
+point 3257.6 2706.186 station -name 2@Rift.Pony.FullLRUD.WestPassage
+
+point 3267.5 2629.0 station -name 3@Rift.Pony.FullLRUD.WestPassage
+
+line pit -close on
+  3269.5 2695.0
+  3267.29 2705.32 3246.6 2699.69 3249.0 2692.0
+  3251.5 2684.0 3271.0 2688.0 3269.5 2695.0
+endline
+
+line wall -close on
+  3277.0 2630.5
+  3275.5 2635.5 3269.5 2698.0 3268.5 2704.5
+  3267.5 2711.0 3246.0 2719.0 3247.5 2705.5
+  3249.0 2692.0 3267.0 2635.5 3267.5 2629.0
+  3268.0 2622.5 3278.5 2625.5 3277.0 2630.5
+  altitude .
+endline
+
+line chimney -close on
+  4078.0 2882.5
+  4072.0 2885.0 4055.0 2867.0 4069.5 2863.5
+  4084.0 2860.0 4083.63 2880.15 4078.0 2882.5
+endline
+
+line wall -close on
+  4078.0 2882.5
+  4067.0 2881.5 4058.5 2865.5 4069.5 2863.5
+  4080.5 2861.5 4089.0 2883.5 4078.0 2882.5
+endline
+
+point 4036.07 2862.05 station -name 2.55@DistoX.FullLRUD.WestPassage
+
+endscrap
+
+

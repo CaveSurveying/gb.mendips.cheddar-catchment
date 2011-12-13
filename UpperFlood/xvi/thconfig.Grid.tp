@@ -1,0 +1,12 @@
+encoding  utf-8
+source ../Grid.th
+
+layout l1
+ 	scale 1 10000 
+endlayout
+ 
+
+export model -format survex -o Grid.3d
+export map -layout l1 -projection plan -o Grid.pdf
+export map -projection plan -format xvi -layout l1 -o Grid.xvi
+#export atlas -projection plan -o Grid.pdf

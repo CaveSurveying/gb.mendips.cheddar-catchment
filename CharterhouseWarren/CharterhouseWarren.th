@@ -1,0 +1,18 @@
+encoding  utf-8
+survey CharterhouseWarren
+
+input Entrance/Entrance.th
+input Mitchells/Mitchells.th
+input UpperBeddingChamber/UpperBeddingChamber.th
+
+equate 1.11@Entrance 1.0@Mitchells
+equate 1.19@Mitchells 1.0@UpperBeddingChamber
+
+map CharterhouseWarrenM
+  MitchellsM@Mitchells
+  UpperBeddingChamberM@UpperBeddingChamber
+endmap
+  
+
+endsurvey
+

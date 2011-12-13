@@ -1,0 +1,66 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -280.322 -319.359 682.0 1309.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {-33.022 1 1.0} {810.789 gc13} xvi/BoulderChoke.xvi 0 {}
+
+
+
+scrap BoulderChoke_s0 -scale [-128.0 -128.0 581.3533 -128.0 0.0 0.0 18.01757382 0.0 m]
+
+point 201.858 412.549 station -name 17@BoulderChoke
+
+point 198.048 472.919 station -name 16@BoulderChoke
+
+point 148.178 544.019 station -name 12@BoulderChoke
+
+point 198.518 639.229 station -name 8@BoulderChoke
+
+point 141.018 604.389 station -name 9@BoulderChoke
+
+point 182.538 702.219 station -name 6@BoulderChoke
+
+point 123.118 723.929 station -name 4@BoulderChoke
+
+line wall -outline none -subtype presumed
+  181.5 267.0
+  201.5 187.0 234.0 109.0 247.0 93.5
+  smooth off
+endline
+
+line wall -outline none -subtype presumed
+  119.0 789.0
+  103.0 980.0 -18.0 885.0 -50.0 1038.0
+  smooth off
+endline
+
+line wall -outline none -subtype presumed
+  244.0 1176.0
+  244.0 1110.0 247.0 982.0 242.0 927.0
+  236.75 869.25 230.0 640.0 235.0 625.0
+  240.0 610.0 270.0 502.0 276.0 480.0
+  282.0 458.0 363.0 307.0 374.0 286.0
+  385.0 265.0 418.0 217.0 440.0 192.0
+  462.0 167.0 542.0 70.0 549.0 54.0
+  smooth off
+endline
+
+line wall -outline none -subtype presumed
+  125.25 722.25
+  133.0 673.0 131.02 645.39 131.0 630.0
+  130.98 614.61 143.49 523.52 148.0 505.0
+  152.62 486.02 155.5 420.75 155.0 412.0
+  smooth off
+endline
+
+point 110.0 287.0 label -text "Boulder Choke" -scale m -align l
+
+line label -text "Presumed Passage Extremity" -scale s
+  281.0 803.0
+  274.67 757.4 273.47 661.9 280.0 622.0
+  289.0 567.0 359.0 379.0 414.0 313.0
+  smooth off
+endline
+
+endscrap
+
+

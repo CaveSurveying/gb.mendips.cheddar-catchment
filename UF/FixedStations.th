@@ -1,0 +1,8 @@
+encoding  utf-8
+
+  centreline
+  
+    equate MW4		MW4@ufs-wtpDistoX
+    equate MW4-stal	35@Leg1.MalcolmsWay 
+
+  endcentreline

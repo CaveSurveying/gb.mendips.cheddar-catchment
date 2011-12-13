@@ -1,0 +1,233 @@
+encoding  utf-8
+survey WS #WillieStanton -title "Entrance"
+
+# Scan of Willie's notes supplied to me (Ben Cooper) courtesy of Graham Mullan, 2010.  
+# This file developed during lumch times and train rides to London in 2011
+# Interpretation of Willie's notes: 
+# Dimensions UDLR: Confirmation from diagram on P80 that first dimension is definitely UP
+# Do dimensions relate to the From or To station?  Hard to tell because of page break, but it appears from diagram on P80
+#  that station 69 dimensions are provided against leg from station 69 to 70.  Hence conclude that dimensions are the From station.
+# I assume "C, A, F, Tripod" means Compass, Altimeter(? but I assume means clinometer, ie angle off horizontal), Fibron tape
+# I don't know what a Fibron tape is, but it was spelled out below
+# NOTE drillmarks made by Willie are ~20mm in diameter and 20mm deep. Very easy to find when you know where to look!   
+
+  equate 12@Surface 12@FS
+
+  grade 6
+	clino compass 0.25 deg
+	tape 5 cm
+  endgrade
+  grade 5
+    clino compass 0.5 deg
+	tape 5 cm
+  endgrade
+  
+  survey Surface
+    centreline
+      date 1972.04.13
+      team "Willie Stanton"			# Paper notes cite no people.  I assume at least Willie Stanton
+      units clino compass degree
+      units length metres
+      instrument compass "C, A, F, tripod"
+      grade 6
+      # declination -7:40 deg			# to Grid N.  Value from Willie Stanton's notes 1972.04.13
+      # declination -7.667 deg  			# converted to decimal for Therion
+      declination -7.630 deg			# 1972-04-13 to Grid North http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html  Oct 2011
+      flags surface 
+
+      data normal from to compass clino length
+						# 1  800' contour crossing wall on 6" map
+      1	2	-	UP	0.30		# 2
+      2	3	293:00	+1:50	18.60		# 3
+      3	4	277:00	-0:20	30.09		# 4
+      4	5	288:00	+5:30	29.51		# 5
+      5	6	264:40	+1:20	28.62		# 6
+      6	7	258:20	+2:10	28.20		# 7 1m over centre of limekiln chimney base ("shaft"  on 6" map)
+      7	8	351:10	-6:30	18.69		# 8
+      8	9	343:45	-9:00	29.11		# 9 by track (W side)
+      9	10	012:30	-2:20	13.91		# 10   
+      10	11	349:50	-3:00	17.05	# 11
+      11	12	342:22	-12:30	8.38	# 12 "inverted T" in pencil on W corner fence support post at ground level.
+						# 2011 - no longer a fence around the entrance.  This has not existed in my memory ie since 1993, Ben Cooper		
+    endcentreline
+  endsurvey
+  
+  survey FS # Flood Swallet
+    centreline
+      date 1972.05.24
+      team "Willie Stanton"
+      team "Tom Davies"
+      units clino compass degree
+      units length metres
+
+      walls on	# turn on LRUD wall generation for CL.pdf output
+      instrument compass "C, A, F, tripod"
+      grade 6
+      # declination -7:00 deg			# to Grid N.  Value from Willie Stanton's notes 1972.05.24
+      ##declination -7.000 deg  		# converted to decimal for Therion
+      # ************* SUSPICIOUS DECLINATION VALUE.  Suggests error of 30' in compass if WS has measured decl against a reference station.  Assume SD 15'
+      declination -7.500 deg  			# converted to decimal for Therion
+      declination -7.619 deg 			# 1972.05.24 to Grid North http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html  Oct 2011 
+
+      data normal from to compass clino length
+      flags surface
+      12	17	122:10	+13:00	2.20	# 17 2' above edge of pit
+      17	18	106:00	-30:15	4.57	# 18 North edge of top of concrete ring
+      flags not surface
+      flags duplicate
+      mark 18 fixed				# 18 North edge of top of concrete ring
+      station 18 "WS18 North edge of top of ring" continuation attr Code "fixed" attr Name "WS18"
+      data normal from to compass clino length up down left right
+      18	19	-	DOWN	2.71	-	.3	.6	.6		# 19 2nd step down (steel ladder?  Original replaced c. 2008)
+      19	20	154:10	-21:30	3.35	1.5	.6	.6	3		# 20 4' back from lip	
+      20	21	150:40	-23:25	2.32	.6	2.4	-	-		# 21 3' above shot holes
+      mark 21 fixed									# 21 3' above shot holes
+	  station 21 "WS21 3' above shot holes" continuation attr Code "fixed" attr Name "WS21"
+      21	22	-	DOWN	2.57	3	0	.6	.6		# 22 On steps (man-made stone steps)
+      22	23	085:30	-24:10	2.26	1.5	.9	.9	.6		# 23 Bottom of steps , entrance of Fowl Crawl
+      23	24	097:50	-10:00	8.82	.6	.9	.9	1.5		# 24 Large shallow drill mark on stal corbel (?) on S wall of half-way-house
+      mark 24 fixed									# 24 Large shallow drill mark on stal corbel on S wall of half-way-house.  Found 12-11-2011
+	  station 24 "WS24 Large shallow drill mark on stal corbel on S wall of half-way-house" continuation attr Code "fixed" attr Name "WS24"
+      24	25	332:40	-21:00	2.32	1.2	.6	2.4	1.2		# 25 Over second step up in half-way-house
+      25	26	087:00	-34:15	3.31	1.5	.15	.3	.5		# 26 Floor of main passage
+      26	27	109:20	+4:30	6.49	1.2	.9	.6	.3		# 27 Main passage by "my" seat (ie Willie Stanton's)
+      27	28	097:10	-5:30	7.31	1.5	.6	.3	.9		# 28 Drill mark in E wall above spring , at old sump.  Side rift enters 3.5m back towards 27
+      mark 28 fixed									# 28 Drill mark in E wall above spring , at old sump.  Side rift enters 3.5m back towards 27
+      station 28 "WS28 Drill mark in E wall above spring , at old sump.  Side rift enters 3.5m back towards 27" continuation attr Code "fixed" attr Name "WS28"
+    endcentreline
+    centreline -title "Upstream Entrance Grotto"
+      date 1972.06.21
+      data normal from to compass clino length up down left right
+      team "Tom Davies"		# Paper notes cite "tom".  I assume Tom Davies
+      instrument compass "C, A, F"
+      grade 5
+      # declination -7:20 deg	# to Grid N.  Value from Willie Stanton's notes 1972.06.21
+      declination -7.333 deg  # converted to decimal for Therion
+      declination -7.612 deg   # 1972.06.21 to Grid North http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html  Oct 2011 
+      flags duplicate
+
+      24	29	326:00	-20:30	3.34	.6	.6	.6	.6		# 29
+      29	30	322:30	+1:00	5.18	.6	.3	1.2	.15		# 30 Squeeze over boss at 2m, then 8' wide and 5' high
+      30	31	319:00	+19:00	5.33	.3	1.2	.6	1.8		# 31 3' wide after 2m.  Smoke mark on roof projection opposite side passage
+      mark 31 painted									# 31 3' wide after 2m.  Smoke mark on roof projection opposite side passage
+      31	32	327:00	+24:00	3.34	.6	.6	2.1	1.5		# 32 Steep rock slope in chamber, which is 8' high 2m before #33
+      32	33	282:30	+31:00	5.94	.6	.15	1.2	1.5		# 33 Among boulders.  Passage (low) turns half right & continues 3m horiz to wide low chamber
+
+      31	34	028:00	+0:30	3.19	.9	.6	.15	.15		# 34 Corner phreatic roof tube
+      34	35	101:00	+9:00	2.13	.6	.9	.15	.3		# 35 Corner, 3' step up
+      35	36	009:30	+6:20	5.25	.3	1.2	.3	.6		# 36 Corner & 4' drop, stal bridge at station level.  Vert joint
+      36	37	102:00	-9:00	1.74	.9	1.2	.6	2.7		# 37 Station 37 is tip of 2nd longest stalactite.  R (2.7) to sump
+      mark 37 fixed									# 37 Station 37 is tip of 2nd longest stalactite
+      37	38	046:00	-2:00	3.04	.6	1.2	.3	.3		# 38 Phreatic roof tube
+      38	39	340:00	+5:00	7.50	.3	1.8	.15	.3		# 39 Stal blockage in high thin rift, stream below in find tailings 
+
+    endcentreline
+    centreline
+      date 1972.08.23
+      team "Willie Stanton"		# Paper notes cite "Will".  I assume Willie Stanton
+      team "Tom Davies"			# Paper notes cite "tom".  I assume Tom Davies
+      instrument compass "C, A, F, tripod"
+      grade 6
+
+      # declination -7:15 deg	# to Grid N.  Value from Willie Stanton's notes 1972.08.23
+      # declination -7.250 deg  # converted to decimal for Therion	
+      declination -7.595 deg    # 1972.08.23 to Grid North http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html  Oct 2011 
+
+      flags duplicate
+      data normal \
+      from to compass clino length up down left right
+      28	40	253:00	-0:30	1.15	1.5	.6	.9	.3		# 40 Damn at 2.8m, creep starts at 4.7m
+      40	41	109:20	-4:40	10.38	.9	.6	.3	.9		# 41 
+      41	42	134:50	-4:10	6.03	2.7	.9	1.2	1.2		# 42
+      42	43	141:30	-8:25	4.72	1.2	.9	.9	1.8		# 43 Top of sharp rock in chamber
+      mark 43 fixed									# 43 Top of sharp rock in chamber
+      43	44	162:30	-18:40	1.26	1.5	0.6	.9	1.2		# 44 End of chamber (?)  ~ symbol around U-D suggests reverse order?
+      44	45	148:20	-21.25	4.38	.6	.1	.1	.6		# 45
+      45	46	174:20	+5:30	3.21	.9	1.2	.3	.3		# 46
+      46	47	229:45	-3:10	6.20	.9	.6	.6	0		# 47
+      47	48	194:30	-1:00	4.40	.3	.56	.3	1.2		# 48 (D=.49 to water)
+      data normal from to compass clino tape
+      48	49	120:10	+11:20	0.95						# 49
+      data normal from to compass clino tape up down left right
+      49	50	111:00	+74:00	0.76	1.5	1.5	.9	.9		# 50 drillmark 1.5m up on base of big stal column
+      mark 50 fixed									# 50 drillmark 1.5m up on base of big stal column. Found 12-11-2011
+	  station 50 "WS50 drillmark 1.5m up on base of big stal column" continuation attr Code "fixed" attr Name "WS50"
+      50	51	036:00	+25:30	5.15	3.0	.6	1.3	.3		# 51 on top of wall
+      51	52	025:00	+10:00	2.25	3.0	0	03	03		# 52 Foot of flow on tip 3' under tip is connection mousefole
+
+    endcentreline
+    centreline
+      date 1972.11.29
+      team "Alan Clarke"
+      data normal from to compass clino tape
+      instrument compass "C, A, F, tripod"
+      grade 6
+      # declination -7:00 deg	# to Grid N.  Value from Willie Stanton's notes 1972.11.29
+      declination -7.000 deg  # converted to decimal for Therion
+      declination -7.569 deg # 1972.11.29 to Grid North http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html  Oct 2011 
+
+      flags duplicate
+													      # 50 See above
+      50	53	284:00	-47:00	1.28						# 53 Inlet Chamber
+      data normal from to compass clino tape up down left right
+      53	54	136:00	-13:30	2.94	.6	.05	.3	.5		# 54 on floor in low point of ex-wriggle
+      54	55	132:00	+5:00	9.28	1	1	.7	.8		# 55 2m beyond start of tip, 3-4m beyond removed boss
+      55	56	124:30	-1:00	4.60	.6	1	.1	1		# 56 by tip.  1.5m beyond start of "terminal" stal flow.
+      56	57	156:30	-8:10	1.73	.5	.6	.6	.8		# 57 end of tip
+      57	58	137:00	-12:40	4.27	.8	.1	.5	0		# 58 1m beyond end of flow, 03m below old ooze floor.  Aven 3m high is 1m beyond station
+      58	59	118:00	+1:20	7.45	1.2	.7	1.4	1		# 59 Start of second chamber
+      59	60	107:50	-2:10	8.55	0	2	1	3		# 60 Smoked broken stal in rood just before downstep of 0.6m.  
+      mark 60 painted									# 60 Smoked broken stal in rood just before downstep of 0.6m.  
+										    	# End of chamber, which is 4m high and 4m wide in middle with tight central aven to 7m high
+      #60
+
+    endcentreline
+    centreline
+      date 1973.01.14
+      team "Tom Davies"		# Paper notes cite "tom".  I assume Tom Davies
+      team "Bob <>"
+      instrument compass "Vershoyle transit"  # what is this (BJC Sep 2011)?
+      instrument clino "Vershoyle transit"
+      instrument tape "Fibron tape"
+      grade 6
+      # declination -7:00 deg	# to Grid N.  Value from Willie Stanton's notes 1973.01.14
+      # declination -7.000 deg  # converted to decimal for Therion
+      declination -7.557 deg # 1973.01.14 to Grid North http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html  Oct 2011 
+
+      flags duplicate
+      data normal from to compass clino tape 
+      60	61	-		DOWN	1.59					# 61 mud bank LB of stream, 2' up
+      data normal from to compass clino tape up down left right
+      61	62	130:00	-0:30	3.25	1	1	1.2	1.6		# 62 Tip on LB starts 2m before 62, ends 4m beyond 62
+      62	63	111:30	-15:15	7.58	.6	.3	.9	.3		# 63 Trickle enters on LB 1m before 63
+      63	64	100:10	+1:00	2.89	.9	.6	.9	.6		# 64
+      64	65	123:30	+19:35	1.76	.9	1.5	1.2	.6		# 65 Drillmark  in middle of roof in niche facing up passage, in stal.
+      mark 65 fixed  # 65 Drillmark in middle of roof in niche facing up passage, in stal. Found 2011
+	  station 65 "WS65 Drillmark in middle of roof in niche facing up passage, in stal" continuation attr Code "fixed" attr Name "WS65"
+
+    endcentreline
+    centreline
+      date 1976.05.19
+      team "Willie Stanton"		# Paper notes cite "Will".  I assume Willie Stanton
+      team "Sue <>"
+      instrument compass "C, A, F, Compass"
+      grade 5
+      # declination -6:30 deg	# to Grid N.  Value from Willie Stanton's notes 1976.05.19
+      declination -6.500 deg  # converted to decimal for Therion
+      declination -7.142	deg	# 1976.05.19 to Grid North http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html  Oct 2011 
+
+      flags duplicate
+      data normal from to compass clino tape 
+										# 65 see above
+      65	66	-	DOWN	0.97					# 66 D/S End of SB4 at 3.5m
+      data normal from to compass clino tape up down left right
+      66	67	107:00	-3:30	10.85	.6	.8	.6	.3	# 67
+      67	68	097:30	-9:30	6.02	1	0	.2	.5	# 68 
+      68	69	109:00	+6:45	7.52	.83	1	.6	.4	# 69
+      mark 69 fixed								# See sketch on p80 Willie Stanton notes.  1.06 from rock spike; .83 from ceiling
+      data normal from to compass clino tape 
+      69	70	109:00	0	5.4					# 70
+
+    endcentreline
+  endsurvey
+endsurvey

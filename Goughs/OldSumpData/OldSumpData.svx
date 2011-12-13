@@ -1,0 +1,143 @@
+*begin OldSumpData
+
+*units length	metres
+*units bearing	degrees
+*units gradient	degrees
+
+*entrance show_cave_to_lloyd_hall.ENT
+*equate show_cave_to_lloyd_hall.LH22 sump1b.0		
+*equate sump1b.25 bishops_palace.bp17
+*equate bishops_palace.bp0 sump2.0 
+*equate sump2.23 sheppards_crook.SC1
+										
+*begin show_cave_to_lloyd_hall		
+*data normal from to length bearing gradient ignoreall
+
+ROAD	ENT	25.6	136	-3
+ENT	SH1	14.2	119	-2
+SH1	SH2	27.0	101	-4
+SH2	SH3	17.4	115	0
+SH3	SH4	14.5	082	+3
+SH4	SH5	7.0	049	+4
+SH5	SH6	16.7	079	+4
+SH6	SH7	30.0	069	+9
+SH7	SH8	20.8	098	+1
+SH8	SH9	10.2	047	+21
+SH9	SH10	12.0	080	+10
+SH10	SH11	24.4	105	+1
+SH11	SH12	8.8	190	+8
+SH12	SH13	13.9	139	+5
+SH13	SH14	5.2	070	+2
+SH14	SH15	9.2	141	-5
+SH14	LH1	4.6	349	+14
+LH1	LH2	3.6	006	-26
+LH2	LH3	4.0	089	-32
+LH3	LH4	1.9	145	-47
+LH4	LH5	3.0	058	-10
+LH5	LH6	9.0	126	-15
+LH6	LH7	3.3	000	-22
+LH7	LH8	8.0	101	0
+LH8	LH9	7.9	019	+22
+LH9	LH10	3.7	345	+8
+LH10	LH11	3.5	325	+26
+LH11	LH12	1.7	310	-1
+LH12	LH13	2.3	324	+25
+LH13	LH14	7.8	285	+44
+LH14	LH15	4.9	337	+24
+LH15	LH16	5.0	046	-60
+LH16	LH17	3.0	001	-49
+LH17	LH18	3.0	063	-63
+LH18	LH19	3.1	121	-31
+LH19	LH20	3.6	311	-62
+LH20	LH21	11.0	000	-90
+LH21	LH22	1.6	293	-1
+*end show_cave_to_lloyd_hall
+
+*begin sump1b 
+*data diving from fromdepth compass tape to todepth ignoreall					;	
+0	+1	292	4.5	1	-1	; 0=tie off to diving platform
+1	-1	000	5.2	2	-6	; 1=u/s d/s belay point?
+2	-6	006	8.6	3	-9.4
+3	-9.4	012	1.0	4	-8.9
+4	-8.9	024	4.3	5	-8.3
+5	-8.3	028	0.9	6	-7.9
+6	-7.9	028	5.6	7	-7.3
+7	-7.3	086	20.7	8	-5.3
+8	-5.3	090	3.4	9	-4.7
+9	-4.7	084	2.3	10	-4.0
+10	-4.0	000	1.6	11	-2.7
+11	-2.7	084	9.0	12	-1.2
+12	-1.2	058	0.5	13	-1.0
+13	-1.0	074	7.4	14	-2.2
+14	-2.2	010	6.4	15	-1.6
+15	-1.6	342	3.6	16	-4.2
+16	-4.2	034	1.0	17	-4.8
+17	-4.8	000	1.0	18	-5.2
+18	-5.2	370	6.5	19	-8.5
+19	-8.5	016	1.0	20	-8.3
+20	-8.3	024	1.0	21	-8.3
+21	-8.3	020	3.0	22	-9.6
+22	-9.6	020	6.3	23	-9.4
+23	-9.4	020	29.0	24	0
+24	0	020	4.7	25	+1.1	; 25=ladder eye
+*end sump1b
+
+*begin bishops_palace		
+*data normal from to length bearing gradient ignoreall
+bp0	bp1	1.1	130	-30
+bp1	bp2	5.9	170	+70
+bp2	bp3	6.3	261	-21
+bp3	bp4	7.0	255	+25
+bp4	bp5	13.6	178	-12
+bp5	bp6	12.5	192	+22
+bp6	bp7	5.9	150	+18
+bp7	bp8	6.3	260	+20
+bp8	bp9	10.2	120	+20
+bp9	bp10	14.5	175	+2
+bp10	bp11	10.3	195	0
+bp11	bp12	2.6	290	+25
+bp12	bp13	10.2	246	-28
+bp13	bp14	11.6	160	-35
+bp14	bp15	7.65	212	-25
+bp15	bp16	6.7	135	-35
+bp16	bp17	5.4	170	-25
+bp13	rt1	21.4	357	+12
+rt1	rt2	9.0	060	+10
+*end bishops_palace
+
+*begin sump2 
+*data diving from fromdepth compass tape to todepth ignoreall
+0	+1.1	352	3.3	1	-0.2	; 0=belay point
+1	-0.2	006	5.0	2	-3.8
+2	-3.8	104	8.1	3	-3.3
+3	-3.3	110	9.5	4	-2.2
+4	-2.2	122	1.9	5	-2.7
+5	-2.7	018	8.5	6	-8.9
+6	-8.9	018	1.2	7	-10
+7	-10	006	9.8	8	-15.3
+8	-15.3	012	13.0	9	-23.8
+9	-23.8	000	7.0	10	-26.8
+10	-26.8	304	10.5	11	-27.3
+11	-27.3	058	4.0	12	-26.1
+12	-26.1	058	3.2	13	-24.4
+13	-24.4	030	10.6	14	-22.5
+14	-22.5	000	2.7	15	-19.8
+15	-19.8	000	8.3	16	-16.8
+16	-16.8	010	2.8	17	-17.3
+17	-17.3	060	19.4	18	-14.6
+18	-14.6	062	26.3	19	-8.1
+19	-8.1	062	12.5	20	-5.3
+20	-5.3	066	12.5	21	-2.0
+21	-2.0	048	7.0	22	-0.2
+22	-0.2	078	3.0	23	0	; 23=rock edge at end of sump
+17	-17.3	308	8.3	In1	-18.5	; inlet
+*end sump2
+
+*begin sheppards_crook		
+*data normal from to gradient bearing length ignoreall
+SC1	SC2	+4	102	10.5
+SC2	SC3	+10	068	14.5
+SC3	SC4	-8	164	4	; SC4=dive line tie off
+*end sheppards_crook
+
+*end OldSumpData

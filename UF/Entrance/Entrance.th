@@ -1,0 +1,39 @@
+encoding  utf-8
+survey Entrance -title "Entrance"
+
+  centreline     
+    walls on
+#	cs EPSG:27700 
+     #cs OSGB:SN
+	fix LIMEKILN 350590.00	155693.50	249.11	2	2	0.2	
+											# StD derived by BJC as follows: 6"-to-mile map (15cm to 1600m), 
+											# assumed map measurement precision ~0.2 mm = 0.3/150 x 1600m = 2m 
+											# (but this assumes no intrinsic printing error in map, which will not be the case)
+											# altitude std, because of shallow surface gradient will be much more accurate
+  endcentreline
+
+	input Entrance_MCGPaper.th
+	equate Entrance@MCGPaper	ENTRANCE
+	
+	input Entrance_MYR2007.th
+	equate 1@MYR2007 		ENTRANCE
+	#equate 16@MYR2007		R6@MCGPaper 
+
+	input Entrance_TK1986.th
+	equate 2@TK1986			3@MYR2007
+	#equate 13@TK1986		R6@MCGPaper
+
+	input MidnightChamber.th
+	equate 1@MidnightChamber M2@MCGPaper 
+
+	input WillieStanton/WillieStanton.th
+	equate 7@Surface.WS		LIMEKILN
+	equate 18@FS.WS			ENTRANCE
+	#equate 46@FS.WS		R6@MCGPaper
+	
+	input EntranceDisto2011.th
+	equate 0.0@Disto2011	24@FS.WS
+	#equate 0.5@Disto2011	28@FS.WS
+	#equate 0.19@Disto2011	50@FS.WS
+	#equate 0.16@Disto2011	R6@MCGPaper
+endsurvey

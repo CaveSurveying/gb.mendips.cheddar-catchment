@@ -1,0 +1,37 @@
+*BEGIN FleetStreet
+
+;Manor Farm Swallet Charterhouse, Mendip
+;Source handwritten data from Tim Atkinson
+;Typed in by Graham Mullan September 2009
+
+*COPYRIGHT 2008 UBSS
+*DATE 1980.11.28
+;data already calibrated
+
+*DATA NORMAL FROM TO COMPASS TAPE CLINO IGNOREALL
+
+19	18	-	1.0	up
+18	17	035	1.4	0
+17	16	026.5	20.2	10
+16	15	033	18.8	42.5
+15	14	-	2.8	up
+14	13	031	10.1	42.5
+13	12	203	10.4	47
+12	11	015.5	15.5	25.5
+11	3	006	2.35	-11.5
+3	2	126.5	7.2	0
+2	1	013	12.3	32.5
+
+3	4	037	4.35	6
+4	5	319	7.6	12
+5	6	025	1.95	5
+6	7	064	7.6	6.5
+7	8	082	1.9	2
+8	9	077	1.8	15
+9	10	121	3.5	27.5
+10	10a	063	2	0
+
+
+
+*END FleetStreet
+

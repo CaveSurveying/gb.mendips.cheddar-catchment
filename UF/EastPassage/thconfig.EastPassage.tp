@@ -1,0 +1,17 @@
+encoding  utf-8
+source EastPassage.th
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 200 
+endlayout
+ 
+
+export model -format survex -o 0.Maps\EastPassage.3d
+export model -format loch -o 0.Maps\EastPassage.lox
+export map -projection plan -layout l1 -o 0.Maps\EastPassage.pdf
+export map -projection plan -format xvi -layout l1 -o 0.Maps\EastPassage.xvi
+export map -projection extended -format xvi -layout l1 -o 0.Maps\EastPassage_ex.xvi
+export map -projection elevation -format xvi -layout l1 -o 0.Maps\EastPassage_el.xvi
+#export atlas -projection plan -layout l1 -o 0.Maps\EastPassage.pdf

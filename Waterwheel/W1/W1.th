@@ -1,0 +1,27 @@
+encoding  utf-8
+survey W1
+
+centreline
+cs OSGB:ST
+date 1978 04 08
+
+data normal from to compass clino tape ignoreall
+declination 0 degree
+#added to override automatic date correction.
+calibrate compass +6.833
+station 79 "" entrance
+fix 79  50485 55637 237.5
+#79 is centre of lid of Waterwheel Swallet
+
+79  80  -  down  4.36
+80  81  147.66  -4.33  3.33
+81  82  118.00  8.58  7.82
+81  83  265.00  -59.58  3.80
+83  84  146.50  -12.25  3.20
+84  85  -  down  1.52
+85  86  181.00  9.00  0.70
+86  87  206.00  -45.00  3.99
+
+endcentreline
+endsurvey W1
+

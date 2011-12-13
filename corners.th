@@ -1,0 +1,21 @@
+encoding  utf-8
+survey corners
+
+
+centreline
+cs OSGB:ST
+fix  bl  47500  54500  0
+#fix  tl  47500  56250  0
+#fix  br  48200  53500  0
+fix  tr  48200  56250  0
+endcentreline
+
+
+input corners.th2
+
+map cornersM
+  corners
+endmap
+
+endsurvey
+

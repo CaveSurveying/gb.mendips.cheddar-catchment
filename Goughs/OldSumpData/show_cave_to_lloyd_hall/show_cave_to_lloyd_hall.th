@@ -1,0 +1,58 @@
+encoding  utf-8
+survey show_cave_to_lloyd_hall
+
+centreline
+
+date 2005.07.08
+#date taken from Somerset Sump Index
+
+data normal from to length bearing gradient ignoreall
+
+cs OSGB:ST
+fix ROAD 46695 53934 32
+station ENT "" entrance
+
+flags surface
+ROAD  ENT  25.6  136  -3
+flags not surface
+ENT  SH1  14.2  119  -2
+SH1  SH2  27.0  101  -4
+SH2  SH3  17.4  115  0
+SH3  SH4  14.5  082  +3
+SH4  SH5  7.0  049  +4
+SH5  SH6  16.7  079  +4
+SH6  SH7  30.0  069  +9
+SH7  SH8  20.8  098  +1
+SH8  SH9  10.2  047  +21
+SH9  SH10  12.0  080  +10
+SH10  SH11  24.4  105  +1
+SH11  SH12  8.8  190  +8
+SH12  SH13  13.9  139  +5
+SH13  SH14  5.2  070  +2
+SH14  SH15  9.2  141  -5
+SH14  LH1  4.6  349  +14
+LH1  LH2  3.6  006  -26
+LH2  LH3  4.0  089  -32
+LH3  LH4  1.9  145  -47
+LH4  LH5  3.0  058  -10
+LH5  LH6  9.0  126  -15
+LH6  LH7  3.3  000  -22
+LH7  LH8  8.0  101  0
+LH8  LH9  7.9  019  +22
+LH9  LH10  3.7  345  +8
+LH10  LH11  3.5  325  +26
+LH11  LH12  1.7  310  -1
+LH12  LH13  2.3  324  +25
+LH13  LH14  7.8  285  +44
+LH14  LH15  4.9  337  +24
+LH15  LH16  5.0  046  -60
+LH16  LH17  3.0  001  -49
+LH17  LH18  3.0  063  -63
+LH18  LH19  3.1  121  -31
+LH19  LH20  3.6  311  -62
+LH20  LH21  11.0  000  -90
+LH21  LH22  1.6  293  -1
+
+endcentreline
+endsurvey show_cave_to_lloyd_hall
+

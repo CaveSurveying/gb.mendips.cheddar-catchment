@@ -1,0 +1,110 @@
+encoding  utf-8
+source HighTime.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o HighTime.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o HighTimeEe.pdf
+
+export model -fmt survex -o HighTimeth.3d
+#Survex file showing centre line only
+
+#export model -o HighTime.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o HighTime_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+
+endlayout
+
+input ../../../common_layout.th
+source HighTime.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout common -o HighTime.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o HighTimeEe.pdf
+
+export model -fmt survex -o HighTimeth.3d
+#Survex file showing centre line only
+
+#export model -fmt therion -o HighTime.thm
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o HighTime_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+
+endlayout
+
+input ../../../common_layout.th
+source HighTime.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout common -o HighTime.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o HighTimeEe.pdf
+
+export model -fmt survex -o HighTimeth.3d
+#Survex file showing centre line only
+
+#export model -fmt therion -o HighTime.thm
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o HighTime_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+
+endlayout
+
+input ../../../common_layout.thsource HighTime.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout common -o HighTime.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o HighTimeEe.pdf
+
+export model -fmt survex -o HighTimeth.3d
+#Survex file showing centre line only
+
+#export model -fmt therion -o HighTime.thm
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o HighTime_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+
+endlayout

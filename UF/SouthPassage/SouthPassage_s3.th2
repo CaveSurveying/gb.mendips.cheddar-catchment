@@ -1,0 +1,84 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -238.0 -887.868110235 698.866141733 1072.88188976
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {305.902440945 1 1.0} {946.461417323 1.0} PocketTopo/south01_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {20.098346457 1 1.0} {234.892913395 1.29} PocketTopo/new01_p0.xvi 0 {}
+
+
+
+scrap SouthPassage_s3 -station-names "" @Disto -scale [-128.0 -128.0 187.055 -128.0 0.0 0.0 8.002397 0.0 m]
+
+point 48.862440945 224.661417323 station -name 1.25
+
+point 58.75 245.0 station -name 1.24
+
+point 86.5 233.25 station -name 1.23
+
+point 100.802440945 197.541417323 station -name 1.22
+
+line wall -id wall_SPS3S
+  38.5 170.5
+  41.0 181.5 81.25 168.25 82.5 176.0
+  83.75 183.75 50.25 225.25 50.25 225.25
+  smooth off
+  51.0 228.0 59.75 243.75 59.75 243.75
+  smooth off
+  59.75 243.75 79.0 228.5 80.75 226.75
+  82.5 225.0 100.802440945 197.541417323 100.802440945 197.541417323
+  smooth off
+  100.802440945 197.541417323 102.5 196.5 102.25 190.25
+  smooth off
+endline
+
+point 32.5 201.25 station -name 1.26
+
+point 32.558346457 172.452913395 station -name 1.31
+
+line gradient
+  72.5 180.25
+  46.75 187.5
+endline
+
+line arrow -head end
+  4.75 275.75
+  31.25 243.25
+endline
+
+point -0.25 283.5 label -text "P3" -scale xs -align l
+
+line pit -reverse on
+  40.75 228.75
+  50.25 225.25
+endline
+
+line ceiling-step -reverse on
+  29.5 221.75
+  39.8 216.6 40.0 179.5 38.5 173.5
+  smooth off
+endline
+
+line wall -id wall_SPS3N
+  120.0 197.5
+  119.75 197.0 111.75 195.25 106.75 202.0
+  101.75 208.75 90.5 228.75 88.0 232.5
+  85.5 236.25 68.0 245.25 63.25 248.0
+  58.5 250.75 60.75 252.25 49.5 255.25
+  37.79 258.37 6.5 272.0 40.5 252.75
+  42.04 251.88 48.25 249.25 49.0 248.5
+  50.11 247.39 41.75 229.75 40.75 228.75
+  smooth off
+  34.52 239.83 31.75 226.25 29.5 221.75
+  smooth off
+endline
+
+line floor-step -reverse on
+  98.0 186.0
+  95.0 183.75 104.19 194.39 102.25 199.0
+  98.25 208.5 99.75 209.5 104.5 201.5
+  109.28 193.46 112.75 196.75 117.0 198.5
+  smooth off
+endline
+
+endscrap
+
+

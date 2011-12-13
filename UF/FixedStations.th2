@@ -1,0 +1,40 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 470.0 1130.0 14879.515 18649.745
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {6080.88 1 1.0} {11842.25 PAINTED-MW1-stal@Leg1.MalcolmsWay.UpperFlood} 0.Maps/UF.xvi 0 {}
+
+
+
+scrap FixedStations_s1 -projection plan -stations [18@FS.WS.Entrance 24@FS.WS.Entrance 28@FS.WS.Entrance 50@FS.WS.Entrance 65@FS.WS.Entrance 		1@BoulderChoke 	1@Leg1.MalcolmsWay 13@Leg1.MalcolmsWay 17@Leg1.MalcolmsWay 22@Leg2.MalcolmsWay 41@Leg2.MalcolmsWay 		FIXED-MW4-wall@WalkThePlankChamber PAINTED-MW54-wall@WalkThePlankChamber 0.11@PlankGrotto_DistoX.WalkThePlankChamber 		ws8@WallStreet 		UF_1.0@CharnelFull 		1@RoyalIcing 4@RoyalIcing 36@RoyalIcing 		53@EP.Pony.EastPassage 20@BeyondZebraAven.Pony.EastPassage 61@BeyondZebraAven.Pony.EastPassage 		1.11@Disto.SouthPassage 		2.2@DistoX.FullLRUD.WestPassage 2.49@DistoX.FullLRUD.WestPassage 2.61@DistoX.FullLRUD.WestPassage 2.78@DistoX.FullLRUD.WestPassage 		N1@Neverland N15@Neverland N_D17@Neverland N_D38@Neverland 		2@NeverlandRopeClimb.Neverland 48@NeverlandRopeClimb.Neverland 		] -scale [-128.0 -128.0 14706.8877 -128.0 0.0 0.0 376.80614758 0.0 m]
+
+point 2344.46 6494.81 station -name 46@NeverlandRopeClimb.Neverland
+
+point 10441.94 4602.38 station -name 35@EP.Pony.EastPassage
+
+point 4582.73 16269.96 station -name E0@MCGPaper.Entrance
+
+point 6322.0 11374.0 camp
+
+point 5935.0 12330.0 station:fixed
+
+point 5751.0 12847.0 station:fixed
+
+point 5794.0 13051.0 station:fixed
+
+point 5673.0 13459.0 station:fixed
+
+point 5415.0 13683.0 station:fixed
+
+point 5595.8 13704.59 station:fixed
+
+point 6512.0 13556.0 station:fixed
+
+point 6552.0 14074.0 station:fixed
+
+point 7125.0 14916.0 station:fixed
+
+point 6928.0 15180.0 station:fixed
+
+endscrap
+
+

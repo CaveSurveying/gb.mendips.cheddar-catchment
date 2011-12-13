@@ -1,0 +1,18 @@
+encoding  utf-8
+language en_UK
+source BH_PerforationChoke.th
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 200 
+endlayout
+ 
+
+export model -format survex -o Maps/BH_PerforationChoke.3d
+export model -format loch -o Maps/BH_PerforationChoke.lox
+export map -projection plan -layout l1 -o Maps/BH_PerforationChoke.pdf
+export map -projection plan -format xvi -layout l1 -o Maps/BH_PerforationChoke.xvi
+export map -projection extended -format xvi -layout l1 -o Maps/BH_PerforationChoke_ex.xvi
+export map -projection [elevation 90] -format xvi -layout l1 -o Maps/BH_PerforationChoke_el90.xvi
+#export atlas -projection plan -layout l1 -o Maps/BH_PerforationChoke.pdf

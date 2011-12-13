@@ -1,0 +1,29 @@
+encoding  utf-8
+source 100Fathom.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -o 100Fathom.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o 100FathomEe.pdf
+
+export model -fmt survex -o 100Fathomth.3d
+#Survex file showing centre line only
+
+#export model -o 100Fathom.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o 100Fathom_Walls.3d
+#Survex file showing walls only
+
+layout local
+debug off
+scale 1 200
+symbol-hide group cave-centerline
+colour map-fg 100
+colour map-bg 90
+endlayout

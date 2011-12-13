@@ -1,0 +1,58 @@
+; Locn: GB Cavern, Mendips, UK
+
+*begin ladderDig
+*title "ladderDig"
+
+*date 2008.08.15
+*team Compass clino BenM
+*team tape BenM James 
+*team Notes Gina
+
+; Calibration: A to B 313, B to A 133 
+
+
+*calibrate tape 0	; +ve if tape was too short, -ve if too long
+
+;from	to	tape	compass	clino	; remarks
+2	3	3.42	227	34	;
+3	4	7.53	221	-17	;
+4	5	3.56	257	-6	;
+5	6	1.66	200	-40	;
+6	7	3.22	239	-3	;
+7	8	1.14	095	+42	;
+8	9	3.86	238	-11	;
+9	10	1.64	204	+12	;
+10	11	3.05	227	+2	;
+11	12	7.49	184	-6	;
+12	13	4.80	144	-1	;
+13	14	3.35	210	+11	;
+14	15	4.59	168	+7	;
+15	16	4.71	130	-11	;
+16	17	3.40	159	-27	;
+
+
+
+
+
+;station details
+;name	L	R	U	D	description
+;2	1	2.5	3.5	0	Point of rock top of pitch
+;3	1	0	0	1.5	Nobbel of flowstone
+;4	0.2	1.2	0.1	1	Stal on left before iron gate
+;5	0.6	0	0.4	1	Small piece of flow stone on right wall
+;6	0	1	0.2	0.2	Vein of calcite on left just into the duck
+;7	1	0	0.3	0.1	Knob of rock at water level on RHS @ end of duck
+;8	0	1	0.2	0.5	Small nickin wall above climb up on LHS
+;9	1	0.2	2	0.1	
+;10	0.4	0.4	0.5	0.3	Stal centre of passage after crawl
+;11	0.7	0.1	0	0.5	Curtain right of passage
+;12	0.8	0.3	0.4	0	Flow Stone on corner, left of passage top of black rock
+;13	0.3	0.5	0.4	0	Small stall in centre of passage
+;14	1	3	2.5	0.5	Stal as emerge into Helictite Chamber
+;15	1	1.5	3	1	Rock on right of passage
+;16	1	1.5	3	1	Flow Stone in middle passage
+
+
+*end ladderDig
+
+

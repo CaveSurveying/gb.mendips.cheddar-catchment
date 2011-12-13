@@ -1,0 +1,36 @@
+*BEGIN Upstream
+
+;Manor Farm Swallet Charterhouse, Mendip
+;Source Wille Stanton's Survey Book 2 page 79
+;Typed in by Graham Mullan November 2008
+;Passage of Curtain Chamber
+;WIS, Tom, Alan T, Terry, Brian.
+*COPYRIGHT 2008 UBSS
+*DATE 1974.02.27
+*CALIBRATE Compass +7.16
+
+*DATA NORMAL FROM TO COMPASS CLINO TAPE IGNOREALL
+;passage dimensions recorded but order not noted
+;passage dimensions not included in this file
+
+28	74	026	46.33	10.19
+74	75	026	36	10.26
+75	76	043	3.66	5.26
+76	77	037.5	4.16	7.74
+77	78	036	17.33	7.68
+78	79	024.5	13.33	10.05
+79	80	028	41.83	8.07
+80	81	036.5	22.5	6.04
+81	82	023	0	16
+81	83	353.5	10.33	11.02
+83	84	358	-8.25	2.93
+84	85	024	72.5	1.80
+85	86	003	31.5	8.07
+86	87	045	33.16	4.01
+87	88	007	29.5	16.03
+88	89	020	18	10.00
+88	90	323	60	8.00
+90	91	020	15	10
+
+
+*END Upstream

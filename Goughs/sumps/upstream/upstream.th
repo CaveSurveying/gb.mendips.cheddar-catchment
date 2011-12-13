@@ -1,0 +1,65 @@
+encoding  utf-8
+survey upstream
+
+input upstream.th2
+
+map upstreamM
+  upstreamSPl1
+  endmap
+
+centreline
+  date 2010.12.22
+  team "Duncan Price" instruments
+
+data diving from fromdepth to todepth compass tape ignoreall  
+
+sd compass 5 degrees
+sd depth 0.05 m
+                
+0  4  4.5  0  240  4.5  ; 4.5=water surface (4 m below bolt belay on 22/12/10 and 4.5m from start of line, bearing accurate)
+4.5  0  17  -12.5  240  12.5  ; 17=lip of shaft compass bearing made up, depth changed to 12.5 from original 13.3 to make shaft vertical 
+17  -12.5  20  -14.1  0  3  ; 20m tag and junction to Dire Straits
+20  -14.1  28  -12.7  110  8  
+28  -12.7  30  -12.9  110  2  
+30  -12.9  40  -12.4  67.5  10  
+40  -12.4  50  -11.5  67.5  10  
+50  -11.5  60  -10.1  67.5  10  
+60  -9.6  70  -9.1  67.5  10  
+70  -9.1  74  -8.6  80  4  
+74  -8.6  80  -8.1  50.625  6  
+80  -8.1  84  -6.9  100  4  
+84  -6.9  90  -6.6  90  6  
+90  -6.6  99  -4.3  90  9  
+99  -4.3  100  -4.3  56.25  1  
+100  -4.3  103  -2.1  120  3  
+103  -2.1  110  -2.7  130  7  ; 103=lip of drop off
+110  -2.7  120  -2.2  130  10  
+120  -2.2  130  -3.3  130  10  
+130  -3.3  140  -3.9  130  10  
+140  -3.9  142.5  -3.6  90  2.5  
+142.5  -3.6  150  -2  78.75  7.5  
+150  -2  160  0  56.25  10  ; 160=belay in Lloyd Hall (160 m tag on line)
+
+data dimensions station left right up down
+#date 2011.03.28
+
+20  1.58  3.29  1.68  0.30
+30  2.71  1.86  4.36  0.00
+40  1.13  3.11  1.62  0.61
+50  1.80  3.20  0.91  0.82
+60  1.04  3.81  0.85  0.91
+70  0.49  4.54  0.43  1.01
+80  2.99  1.40  1.71  0.15
+90  5.73  1.52  3.60  0.49
+100  1.89  0.73  2.74  0.61
+110  1.43  3.02  0.88  2.04
+120  3.87  0.88  1.25  0.00
+130  1.80  1.92  1.74  0.00
+140  0.70  3.11  1.46  0.30
+150  1.80  2.83  2.07  0.61
+160  0.00  3.26  0.00  5.76
+
+endcentreline
+
+endsurvey
+

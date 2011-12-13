@@ -1,0 +1,950 @@
+set XVIgrids {1.0 m}
+set XVIstations {
+  {     2134.93       167.91 d8@CentreLineOnly.WestPassage}
+  {     2066.05       169.09 d9@CentreLineOnly.WestPassage}
+  {     2066.05       169.09 d9@CentreLineOnly.WestPassage}
+  {     1718.15         6.89 d10@CentreLineOnly.WestPassage}
+  {     1718.15         6.89 d10@CentreLineOnly.WestPassage}
+  {     1621.40       -60.83 d11@CentreLineOnly.WestPassage}
+  {     1621.40       -60.83 d11@CentreLineOnly.WestPassage}
+  {     1361.46      -116.14 d12@CentreLineOnly.WestPassage}
+  {     1361.46      -116.14 d12@CentreLineOnly.WestPassage}
+  {     1155.05      -105.31 d13@CentreLineOnly.WestPassage}
+  {     1155.05      -105.31 d13@CentreLineOnly.WestPassage}
+  {      899.30       -96.26 d14@CentreLineOnly.WestPassage}
+  {      899.30       -96.26 d14@CentreLineOnly.WestPassage}
+  {      614.26      -111.22 d15@CentreLineOnly.WestPassage}
+  {      614.26      -111.22 d15@CentreLineOnly.WestPassage}
+  {      368.23      -106.89 d16@CentreLineOnly.WestPassage}
+  {      368.23      -106.89 d16@CentreLineOnly.WestPassage}
+  {      299.38      -109.45 d17@CentreLineOnly.WestPassage}
+  {      299.38      -109.45 d17@CentreLineOnly.WestPassage}
+  {      -34.81      -126.97 d18@CentreLineOnly.WestPassage}
+  {      -34.81      -126.97 d18@CentreLineOnly.WestPassage}
+  {     -171.26      -146.06 d19@CentreLineOnly.WestPassage}
+  {     -171.26      -146.06 d19@CentreLineOnly.WestPassage}
+  {     -210.61      -147.44 d20@CentreLineOnly.WestPassage}
+  {     -210.61      -147.44 d20@CentreLineOnly.WestPassage}
+  {     -259.79      -145.67 d21@CentreLineOnly.WestPassage}
+  {     -259.79      -145.67 d21@CentreLineOnly.WestPassage}
+  {     -328.59      -142.13 d22@CentreLineOnly.WestPassage}
+  {     -328.59      -142.13 d22@CentreLineOnly.WestPassage}
+  {     -417.06      -146.85 d23@CentreLineOnly.WestPassage}
+  {     -417.06      -146.85 d23@CentreLineOnly.WestPassage}
+  {     -584.35      -149.61 d24@CentreLineOnly.WestPassage}
+  {     -584.35      -149.61 d24@CentreLineOnly.WestPassage}
+  {     -790.76      -160.43 d25@CentreLineOnly.WestPassage}
+  {     -790.76      -160.43 d25@CentreLineOnly.WestPassage}
+  {     -898.62      -169.88 d26@CentreLineOnly.WestPassage}
+  {     -898.62      -169.88 d26@CentreLineOnly.WestPassage}
+  {    -1193.71      -180.31 d27@CentreLineOnly.WestPassage}
+  {    -1193.71      -180.31 d27@CentreLineOnly.WestPassage}
+  {    -1390.44      -187.01 d28@CentreLineOnly.WestPassage}
+  {    -1390.44      -187.01 d28@CentreLineOnly.WestPassage}
+  {    -1833.09      -202.56 d29@CentreLineOnly.WestPassage}
+  {    -1833.09      -202.56 d29@CentreLineOnly.WestPassage}
+  {    -2029.94      -202.56 d30@CentreLineOnly.WestPassage}
+  {    -2029.94      -202.56 d30@CentreLineOnly.WestPassage}
+  {    -2443.07      -216.93 d31@CentreLineOnly.WestPassage}
+  {    -2443.07      -216.93 d31@CentreLineOnly.WestPassage}
+  {    -2718.29      -231.50 d32@CentreLineOnly.WestPassage}
+  {    -2718.29      -231.50 d32@CentreLineOnly.WestPassage}
+  {    -2816.65      -234.84 d33@CentreLineOnly.WestPassage}
+  {    -2816.65      -234.84 d33@CentreLineOnly.WestPassage}
+  {    -2934.60      -240.94 d34@CentreLineOnly.WestPassage}
+  {    -2934.60      -240.94 d34@CentreLineOnly.WestPassage}
+  {    -2996.00      -232.48 d35@CentreLineOnly.WestPassage}
+  {     1688.87       -26.97 1@Rift.Pony.FullLRUD.WestPassage}
+  {     1713.48       -97.64 2@Rift.Pony.FullLRUD.WestPassage}
+  {     1738.48       -37.80 1@Rift.Pony.FullLRUD.WestPassage}
+  {     1926.67       -53.54 3@Rift.Pony.FullLRUD.WestPassage}
+  {     2004.42       -62.20 1@Rift.Pony.FullLRUD.WestPassage}
+  {     1981.78       -62.20 4@Rift.Pony.FullLRUD.WestPassage}
+  {     2187.30       -28.94 4@Rift.Pony.FullLRUD.WestPassage}
+  {     2200.29         0.98 5@Rift.Pony.FullLRUD.WestPassage}
+  {     2249.89       161.81 5@Rift.Pony.FullLRUD.WestPassage}
+  {     2268.99        51.57 6@Rift.Pony.FullLRUD.WestPassage}
+  {     3332.39       -35.43 6@WP.Pony.FullLRUD.WestPassage}
+  {     3220.86       -54.72 7@WP.Pony.FullLRUD.WestPassage}
+  {     3220.86       -54.72 7@WP.Pony.FullLRUD.WestPassage}
+  {     3074.91       -36.81 8@WP.Pony.FullLRUD.WestPassage}
+  {     3074.91       -36.81 8@WP.Pony.FullLRUD.WestPassage}
+  {     2964.38       -60.43 9@WP.Pony.FullLRUD.WestPassage}
+  {     2964.38       -60.43 9@WP.Pony.FullLRUD.WestPassage}
+  {     2900.69       -52.56 10@WP.Pony.FullLRUD.WestPassage}
+  {     2900.69       -52.56 10@WP.Pony.FullLRUD.WestPassage}
+  {     2631.01       -42.13 11@WP.Pony.FullLRUD.WestPassage}
+  {     2631.01       -42.13 11@WP.Pony.FullLRUD.WestPassage}
+  {     2562.45       -30.91 12@WP.Pony.FullLRUD.WestPassage}
+  {     2631.01       -42.13 11@WP.Pony.FullLRUD.WestPassage}
+  {     2776.67       -42.13 13@WP.Pony.FullLRUD.WestPassage}
+  {     2631.01       -42.13 11@WP.Pony.FullLRUD.WestPassage}
+  {     2712.11        -1.97 14@WP.Pony.FullLRUD.WestPassage}
+  {     2562.45       -30.91 12@WP.Pony.FullLRUD.WestPassage}
+  {     2374.07       -32.48 15@WP.Pony.FullLRUD.WestPassage}
+  {     2374.07       -32.48 15@WP.Pony.FullLRUD.WestPassage}
+  {     2171.89       -24.02 16@WP.Pony.FullLRUD.WestPassage}
+  {     2171.89       -24.02 16@WP.Pony.FullLRUD.WestPassage}
+  {     2171.89       -14.17 16a@WP.Pony.FullLRUD.WestPassage}
+  {     2171.89       -14.17 16a@WP.Pony.FullLRUD.WestPassage}
+  {     2224.60        12.40 17@WP.Pony.FullLRUD.WestPassage}
+  {     2171.89       -24.02 16@WP.Pony.FullLRUD.WestPassage}
+  {     2097.73       -26.97 18@WP.Pony.FullLRUD.WestPassage}
+  {     2097.73       -26.97 18@WP.Pony.FullLRUD.WestPassage}
+  {     2166.23       -97.64 19@WP.Pony.FullLRUD.WestPassage}
+  {     2097.73       -26.97 18@WP.Pony.FullLRUD.WestPassage}
+  {     2035.87       -37.80 20@WP.Pony.FullLRUD.WestPassage}
+  {     2035.87       -37.80 20@WP.Pony.FullLRUD.WestPassage}
+  {     1839.66       -53.54 21@WP.Pony.FullLRUD.WestPassage}
+  {     1839.66       -53.54 21@WP.Pony.FullLRUD.WestPassage}
+  {     1754.47       -62.20 22@WP.Pony.FullLRUD.WestPassage}
+  {     1754.47       -62.20 22@WP.Pony.FullLRUD.WestPassage}
+  {     1797.77       -62.20 23@WP.Pony.FullLRUD.WestPassage}
+  {     1754.47       -62.20 22@WP.Pony.FullLRUD.WestPassage}
+  {     1621.40       -60.83 24@WP.Pony.FullLRUD.WestPassage}
+  {     1621.40       -60.83 24@WP.Pony.FullLRUD.WestPassage}
+  {     1679.76       -28.94 25@WP.Pony.FullLRUD.WestPassage}
+  {     1679.76       -28.94 25@WP.Pony.FullLRUD.WestPassage}
+  {     1743.17         0.98 26@WP.Pony.FullLRUD.WestPassage}
+  {     1743.17         0.98 26@WP.Pony.FullLRUD.WestPassage}
+  {     1866.60       161.81 27@WP.Pony.FullLRUD.WestPassage}
+  {     1743.17         0.98 26@WP.Pony.FullLRUD.WestPassage}
+  {     1845.70        51.57 28@WP.Pony.FullLRUD.WestPassage}
+  {     1845.70        51.57 28@WP.Pony.FullLRUD.WestPassage}
+  {     1916.93        97.44 29@WP.Pony.FullLRUD.WestPassage}
+  {     1916.93        97.44 29@WP.Pony.FullLRUD.WestPassage}
+  {     1944.62       133.27 30@WP.Pony.FullLRUD.WestPassage}
+  {     1944.62       133.27 30@WP.Pony.FullLRUD.WestPassage}
+  {     2014.45       174.80 31@WP.Pony.FullLRUD.WestPassage}
+  {     2014.45       174.80 31@WP.Pony.FullLRUD.WestPassage}
+  {     2028.51       199.61 32@WP.Pony.FullLRUD.WestPassage}
+  {     2190.20       187.80 39@RI.FullLRUD.WestPassage}
+  {     2130.01       234.84 40@RI.FullLRUD.WestPassage}
+  {     2130.01       234.84 40@RI.FullLRUD.WestPassage}
+  {     2103.50       233.07 41@RI.FullLRUD.WestPassage}
+  {     2103.50       233.07 41@RI.FullLRUD.WestPassage}
+  {     2028.51       199.61 42@RI.FullLRUD.WestPassage}
+  {    -1479.04      -154.92 1.1@DistoX.FullLRUD.WestPassage}
+  {    -1594.40      -154.53 1.0@DistoX.FullLRUD.WestPassage}
+  {    -3320.36      -133.07 1.1@DistoX.FullLRUD.WestPassage}
+  {    -3320.36      -133.07 1.1@DistoX.FullLRUD.WestPassage}
+  {    -3320.36      -133.07 1.1@DistoX.FullLRUD.WestPassage}
+  {    -1284.55      -162.80 1.1@DistoX.FullLRUD.WestPassage}
+  {    -1342.63      -162.20 1.2@DistoX.FullLRUD.WestPassage}
+  {    -1342.82      -151.38 1.2@DistoX.FullLRUD.WestPassage}
+  {    -1342.23      -180.71 2.1@DistoX.FullLRUD.WestPassage}
+  {    -3294.83      -132.68 1.2@DistoX.FullLRUD.WestPassage}
+  {    -3294.83      -132.68 1.2@DistoX.FullLRUD.WestPassage}
+  {    -3294.83      -132.68 1.2@DistoX.FullLRUD.WestPassage}
+  {    -3294.83      -132.68 1.2@DistoX.FullLRUD.WestPassage}
+  {    -1200.11      -163.98 2.1@DistoX.FullLRUD.WestPassage}
+  {    -1061.92      -154.92 2.2@DistoX.FullLRUD.WestPassage}
+  {    -3251.69      -131.10 2.1@DistoX.FullLRUD.WestPassage}
+  {    -3251.69      -131.10 2.1@DistoX.FullLRUD.WestPassage}
+  {    -3251.69      -131.10 2.1@DistoX.FullLRUD.WestPassage}
+  {    -3251.69      -131.10 2.1@DistoX.FullLRUD.WestPassage}
+  {    -3251.69      -131.10 2.1@DistoX.FullLRUD.WestPassage}
+  {     -937.90      -159.45 2.2@DistoX.FullLRUD.WestPassage}
+  {     -938.29      -133.66 2.3@DistoX.FullLRUD.WestPassage}
+  {    -3191.91      -139.57 2.2@DistoX.FullLRUD.WestPassage}
+  {    -3191.91      -139.57 2.2@DistoX.FullLRUD.WestPassage}
+  {    -3191.91      -139.57 2.2@DistoX.FullLRUD.WestPassage}
+  {    -3191.91      -139.57 2.2@DistoX.FullLRUD.WestPassage}
+  {    -3191.91      -139.57 2.2@DistoX.FullLRUD.WestPassage}
+  {    -3191.91      -139.57 2.2@DistoX.FullLRUD.WestPassage}
+  {     -709.16      -172.05 2.3@DistoX.FullLRUD.WestPassage}
+  {     -706.41       -94.29 2.4@DistoX.FullLRUD.WestPassage}
+  {    -3132.76      -170.87 2.3@DistoX.FullLRUD.WestPassage}
+  {    -3132.76      -170.87 2.3@DistoX.FullLRUD.WestPassage}
+  {    -3132.76      -170.87 2.3@DistoX.FullLRUD.WestPassage}
+  {     -520.78      -153.15 2.4@DistoX.FullLRUD.WestPassage}
+  {     -519.40      -135.24 2.5@DistoX.FullLRUD.WestPassage}
+  {    -3095.34      -165.35 2.4@DistoX.FullLRUD.WestPassage}
+  {    -3095.34      -165.35 2.4@DistoX.FullLRUD.WestPassage}
+  {    -3095.34      -165.35 2.4@DistoX.FullLRUD.WestPassage}
+  {    -3095.34      -165.35 2.4@DistoX.FullLRUD.WestPassage}
+  {     -323.14      -171.06 2.4@DistoX.FullLRUD.WestPassage}
+  {     -365.07      -157.87 2.6@DistoX.FullLRUD.WestPassage}
+  {     -305.22      -154.33 2.6@DistoX.FullLRUD.WestPassage}
+  {     -256.21      -166.14 2.7@DistoX.FullLRUD.WestPassage}
+  {    -2946.59      -153.54 2.6@DistoX.FullLRUD.WestPassage}
+  {    -2946.59      -153.54 2.6@DistoX.FullLRUD.WestPassage}
+  {    -2946.59      -153.54 2.6@DistoX.FullLRUD.WestPassage}
+  {    -2946.59      -153.54 2.6@DistoX.FullLRUD.WestPassage}
+  {      -66.05      -150.79 2.6@DistoX.FullLRUD.WestPassage}
+  {      -70.78      -124.61 2.8@DistoX.FullLRUD.WestPassage}
+  {      -68.41      -170.28 2.8@DistoX.FullLRUD.WestPassage}
+  {        3.63      -150.59 2.9@DistoX.FullLRUD.WestPassage}
+  {    -2905.44      -149.80 2.8@DistoX.FullLRUD.WestPassage}
+  {    -2905.44      -149.80 2.8@DistoX.FullLRUD.WestPassage}
+  {    -2905.44      -149.80 2.8@DistoX.FullLRUD.WestPassage}
+  {    -2905.44      -149.80 2.8@DistoX.FullLRUD.WestPassage}
+  {    -2905.44      -149.80 2.8@DistoX.FullLRUD.WestPassage}
+  {    -2823.76      -153.15 2.9@DistoX.FullLRUD.WestPassage}
+  {    -2823.76      -153.15 2.9@DistoX.FullLRUD.WestPassage}
+  {    -2823.76      -153.15 2.9@DistoX.FullLRUD.WestPassage}
+  {      219.58      -127.36 2.9@DistoX.FullLRUD.WestPassage}
+  {       74.50      -132.28 2.10@DistoX.FullLRUD.WestPassage}
+  {       69.38      -105.91 2.10@DistoX.FullLRUD.WestPassage}
+  {       68.20      -151.18 2.11@DistoX.FullLRUD.WestPassage}
+  {    -2688.78      -155.31 2.10@DistoX.FullLRUD.WestPassage}
+  {    -2688.78      -155.31 2.10@DistoX.FullLRUD.WestPassage}
+  {    -2688.78      -155.31 2.10@DistoX.FullLRUD.WestPassage}
+  {      410.52      -124.41 2.11@DistoX.FullLRUD.WestPassage}
+  {      419.78      -122.44 2.12@DistoX.FullLRUD.WestPassage}
+  {    -2586.53      -155.31 2.11@DistoX.FullLRUD.WestPassage}
+  {    -2586.53      -155.31 2.11@DistoX.FullLRUD.WestPassage}
+  {    -2586.53      -155.31 2.11@DistoX.FullLRUD.WestPassage}
+  {      438.87      -140.16 2.12@DistoX.FullLRUD.WestPassage}
+  {      491.23      -131.10 2.13@DistoX.FullLRUD.WestPassage}
+  {    -2468.56      -154.92 2.12@DistoX.FullLRUD.WestPassage}
+  {    -2468.56      -154.92 2.12@DistoX.FullLRUD.WestPassage}
+  {    -2468.56      -154.92 2.12@DistoX.FullLRUD.WestPassage}
+  {      474.50       -76.77 2.13@DistoX.FullLRUD.WestPassage}
+  {      462.49      -141.14 2.14@DistoX.FullLRUD.WestPassage}
+  {    -2331.09      -163.19 2.13@DistoX.FullLRUD.WestPassage}
+  {    -2331.09      -163.19 2.13@DistoX.FullLRUD.WestPassage}
+  {    -2331.09      -163.19 2.13@DistoX.FullLRUD.WestPassage}
+  {      432.18       -64.57 2.14@DistoX.FullLRUD.WestPassage}
+  {      423.52      -141.14 2.15@DistoX.FullLRUD.WestPassage}
+  {    -2272.25      -162.80 2.14@DistoX.FullLRUD.WestPassage}
+  {    -2272.25      -162.80 2.14@DistoX.FullLRUD.WestPassage}
+  {    -2272.25      -162.80 2.14@DistoX.FullLRUD.WestPassage}
+  {      493.00       -73.82 2.15@DistoX.FullLRUD.WestPassage}
+  {      497.14       -31.89 2.16@DistoX.FullLRUD.WestPassage}
+  {    -2237.14      -165.55 2.15@DistoX.FullLRUD.WestPassage}
+  {    -2237.14      -165.55 2.15@DistoX.FullLRUD.WestPassage}
+  {    -2237.14      -165.55 2.15@DistoX.FullLRUD.WestPassage}
+  {    -2237.14      -165.55 2.15@DistoX.FullLRUD.WestPassage}
+  {      643.59       -74.80 2.16@DistoX.FullLRUD.WestPassage}
+  {      642.41       -32.68 2.17@DistoX.FullLRUD.WestPassage}
+  {    -2144.05      -157.09 2.16@DistoX.FullLRUD.WestPassage}
+  {    -2144.05      -157.09 2.16@DistoX.FullLRUD.WestPassage}
+  {    -2144.05      -157.09 2.16@DistoX.FullLRUD.WestPassage}
+  {      926.67       -60.04 2.17@DistoX.FullLRUD.WestPassage}
+  {      893.00       -70.87 2.18@DistoX.FullLRUD.WestPassage}
+  {      915.45       -40.55 2.17@DistoX.FullLRUD.WestPassage}
+  {      917.41       -89.96 2.19@DistoX.FullLRUD.WestPassage}
+  {    -2048.73      -154.92 2.17@DistoX.FullLRUD.WestPassage}
+  {    -2048.73      -154.92 2.17@DistoX.FullLRUD.WestPassage}
+  {    -2048.73      -154.92 2.17@DistoX.FullLRUD.WestPassage}
+  {    -2048.73      -154.92 2.17@DistoX.FullLRUD.WestPassage}
+  {     1053.83       -78.54 2.19@DistoX.FullLRUD.WestPassage}
+  {     1177.26       -49.02 2.20@DistoX.FullLRUD.WestPassage}
+  {    -1926.28      -160.63 2.19@DistoX.FullLRUD.WestPassage}
+  {    -1926.28      -160.63 2.19@DistoX.FullLRUD.WestPassage}
+  {    -1926.28      -160.63 2.19@DistoX.FullLRUD.WestPassage}
+  {    -1926.28      -160.63 2.19@DistoX.FullLRUD.WestPassage}
+  {    -1849.15      -164.37 2.20@DistoX.FullLRUD.WestPassage}
+  {    -1849.15      -164.37 2.20@DistoX.FullLRUD.WestPassage}
+  {    -1849.15      -164.37 2.20@DistoX.FullLRUD.WestPassage}
+  {     1592.81       -37.80 2.20@DistoX.FullLRUD.WestPassage}
+  {     1594.19         1.77 2.21@DistoX.FullLRUD.WestPassage}
+  {     1594.38       -48.23 2.21@DistoX.FullLRUD.WestPassage}
+  {     1764.07       -51.38 2.22@DistoX.FullLRUD.WestPassage}
+  {    -1799.06      -160.04 2.21@DistoX.FullLRUD.WestPassage}
+  {    -1799.06      -160.04 2.21@DistoX.FullLRUD.WestPassage}
+  {    -1799.06      -160.04 2.21@DistoX.FullLRUD.WestPassage}
+  {     1743.79       -43.31 2.22@DistoX.FullLRUD.WestPassage}
+  {     1741.23       -32.28 2.23@DistoX.FullLRUD.WestPassage}
+  {    -1692.80      -157.09 2.22@DistoX.FullLRUD.WestPassage}
+  {    -1692.80      -157.09 2.22@DistoX.FullLRUD.WestPassage}
+  {    -1692.80      -157.09 2.22@DistoX.FullLRUD.WestPassage}
+  {    -1692.80      -157.09 2.22@DistoX.FullLRUD.WestPassage}
+  {     2012.30       -55.91 2.23@DistoX.FullLRUD.WestPassage}
+  {     2047.93       -64.57 2.24@DistoX.FullLRUD.WestPassage}
+  {    -1584.44      -157.87 2.23@DistoX.FullLRUD.WestPassage}
+  {    -1584.44      -157.87 2.23@DistoX.FullLRUD.WestPassage}
+  {    -1584.44      -157.87 2.23@DistoX.FullLRUD.WestPassage}
+  {     2165.84       -53.35 2.24@DistoX.FullLRUD.WestPassage}
+  {     2109.15       -62.20 2.25@DistoX.FullLRUD.WestPassage}
+  {    -1505.88      -153.15 2.24@DistoX.FullLRUD.WestPassage}
+  {    -1505.88      -153.15 2.24@DistoX.FullLRUD.WestPassage}
+  {    -1505.88      -153.15 2.24@DistoX.FullLRUD.WestPassage}
+  {     2165.05       -60.24 2.25@DistoX.FullLRUD.WestPassage}
+  {     2193.20       -12.99 2.26@DistoX.FullLRUD.WestPassage}
+  {    -1392.05      -157.09 2.25@DistoX.FullLRUD.WestPassage}
+  {    -1392.05      -157.09 2.25@DistoX.FullLRUD.WestPassage}
+  {    -1392.05      -157.09 2.25@DistoX.FullLRUD.WestPassage}
+  {     2285.72        45.28 2.26@DistoX.FullLRUD.WestPassage}
+  {     2179.62        63.58 2.27@DistoX.FullLRUD.WestPassage}
+  {    -1304.47      -161.02 2.26@DistoX.FullLRUD.WestPassage}
+  {    -1304.47      -161.02 2.26@DistoX.FullLRUD.WestPassage}
+  {    -1304.47      -161.02 2.26@DistoX.FullLRUD.WestPassage}
+  {     2280.60        49.21 2.26@DistoX.FullLRUD.WestPassage}
+  {     2321.35       134.06 2.28@DistoX.FullLRUD.WestPassage}
+  {     2320.96       167.32 2.27@DistoX.FullLRUD.WestPassage}
+  {     2343.20       127.95 2.29@DistoX.FullLRUD.WestPassage}
+  {    -1234.54      -169.09 2.27@DistoX.FullLRUD.WestPassage}
+  {    -1234.54      -169.09 2.27@DistoX.FullLRUD.WestPassage}
+  {    -1234.54      -169.09 2.27@DistoX.FullLRUD.WestPassage}
+  {     2346.74       144.49 2.27@DistoX.FullLRUD.WestPassage}
+  {     2343.20       110.83 2.30@DistoX.FullLRUD.WestPassage}
+  {     2443.20       212.99 2.30@DistoX.FullLRUD.WestPassage}
+  {     2385.33       179.33 2.31@DistoX.FullLRUD.WestPassage}
+  {    -1131.11      -151.38 2.30@DistoX.FullLRUD.WestPassage}
+  {    -1131.11      -151.38 2.30@DistoX.FullLRUD.WestPassage}
+  {    -1131.11      -151.38 2.30@DistoX.FullLRUD.WestPassage}
+  {     1704.42       -87.60 2.31@DistoX.FullLRUD.WestPassage}
+  {     1708.75       -44.09 2.32@DistoX.FullLRUD.WestPassage}
+  {    -1042.33      -148.62 2.31@DistoX.FullLRUD.WestPassage}
+  {    -1042.33      -148.62 2.31@DistoX.FullLRUD.WestPassage}
+  {    -1042.33      -148.62 2.31@DistoX.FullLRUD.WestPassage}
+  {     1772.34      -119.29 2.31@DistoX.FullLRUD.WestPassage}
+  {     1770.56      -119.29 2.33@DistoX.FullLRUD.WestPassage}
+  {     1695.17      -120.47 2.33@DistoX.FullLRUD.WestPassage}
+  {     1691.63      -121.26 2.34@DistoX.FullLRUD.WestPassage}
+  {     -964.35      -150.59 2.33@DistoX.FullLRUD.WestPassage}
+  {     -964.35      -150.59 2.33@DistoX.FullLRUD.WestPassage}
+  {     -964.35      -150.59 2.33@DistoX.FullLRUD.WestPassage}
+  {     -964.35      -150.59 2.33@DistoX.FullLRUD.WestPassage}
+  {     1716.23      -163.39 2.34@DistoX.FullLRUD.WestPassage}
+  {     1702.26      -144.69 2.35@DistoX.FullLRUD.WestPassage}
+  {     -875.01      -123.03 2.35@DistoX.FullLRUD.WestPassage}
+  {     -875.01      -123.03 2.35@DistoX.FullLRUD.WestPassage}
+  {     -875.01      -123.03 2.35@DistoX.FullLRUD.WestPassage}
+  {     -875.01      -123.03 2.35@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.35@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.36@DistoX.FullLRUD.WestPassage}
+  {     -895.81      -132.68 2.34@DistoX.FullLRUD.WestPassage}
+  {     -895.81      -132.68 2.34@DistoX.FullLRUD.WestPassage}
+  {     -895.81      -132.68 2.34@DistoX.FullLRUD.WestPassage}
+  {     -875.01      -123.03 2.35@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.34@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.37@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.37@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.38@DistoX.FullLRUD.WestPassage}
+  {     -822.89      -130.51 2.37@DistoX.FullLRUD.WestPassage}
+  {     -822.89      -130.51 2.37@DistoX.FullLRUD.WestPassage}
+  {     -822.89      -130.51 2.37@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.38@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.39@DistoX.FullLRUD.WestPassage}
+  {     -668.33      -127.36 2.38@DistoX.FullLRUD.WestPassage}
+  {     -668.33      -127.36 2.38@DistoX.FullLRUD.WestPassage}
+  {     -668.33      -127.36 2.38@DistoX.FullLRUD.WestPassage}
+  {     -668.33      -127.36 2.38@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.39@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.40@DistoX.FullLRUD.WestPassage}
+  {     -456.24      -122.83 2.39@DistoX.FullLRUD.WestPassage}
+  {     -456.24      -122.83 2.39@DistoX.FullLRUD.WestPassage}
+  {     -456.24      -122.83 2.39@DistoX.FullLRUD.WestPassage}
+  {     -456.24      -122.83 2.39@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.40@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.41@DistoX.FullLRUD.WestPassage}
+  {     -420.42      -119.29 2.40@DistoX.FullLRUD.WestPassage}
+  {     -420.42      -119.29 2.40@DistoX.FullLRUD.WestPassage}
+  {     -420.42      -119.29 2.40@DistoX.FullLRUD.WestPassage}
+  {     -420.42      -119.29 2.40@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.40@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.42@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.42@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.43@DistoX.FullLRUD.WestPassage}
+  {     -360.20      -131.10 2.42@DistoX.FullLRUD.WestPassage}
+  {     -360.20      -131.10 2.42@DistoX.FullLRUD.WestPassage}
+  {     -360.20      -131.10 2.42@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.43@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.44@DistoX.FullLRUD.WestPassage}
+  {     -315.30      -115.16 2.43@DistoX.FullLRUD.WestPassage}
+  {     -315.30      -115.16 2.43@DistoX.FullLRUD.WestPassage}
+  {     -315.30      -115.16 2.43@DistoX.FullLRUD.WestPassage}
+  {     -293.29      -116.54 2.44@DistoX.FullLRUD.WestPassage}
+  {     -293.29      -116.54 2.44@DistoX.FullLRUD.WestPassage}
+  {     -293.29      -116.54 2.44@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.44@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.45@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.45@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.46@DistoX.FullLRUD.WestPassage}
+  {     -245.58      -119.09 2.45@DistoX.FullLRUD.WestPassage}
+  {     -245.58      -119.09 2.45@DistoX.FullLRUD.WestPassage}
+  {     -245.58      -119.09 2.45@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.46@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.47@DistoX.FullLRUD.WestPassage}
+  {     -192.06      -115.75 2.46@DistoX.FullLRUD.WestPassage}
+  {     -192.06      -115.75 2.46@DistoX.FullLRUD.WestPassage}
+  {     -192.06      -115.75 2.46@DistoX.FullLRUD.WestPassage}
+  {     -192.06      -115.75 2.46@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.46@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.48@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.48@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.49@DistoX.FullLRUD.WestPassage}
+  {     -121.31       -74.41 2.48@DistoX.FullLRUD.WestPassage}
+  {     -121.31       -74.41 2.48@DistoX.FullLRUD.WestPassage}
+  {     -121.31       -74.41 2.48@DistoX.FullLRUD.WestPassage}
+  {      -72.47       -44.49 2.49@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.49@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.50@DistoX.FullLRUD.WestPassage}
+  {      -72.47       -44.49 2.49@DistoX.FullLRUD.WestPassage}
+  {      -72.47       -44.49 2.49@DistoX.FullLRUD.WestPassage}
+  {      -72.47       -44.49 2.49@DistoX.FullLRUD.WestPassage}
+  {      -72.47       -44.49 2.49@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.50@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.51@DistoX.FullLRUD.WestPassage}
+  {       27.20       -76.18 2.50@DistoX.FullLRUD.WestPassage}
+  {       27.20       -76.18 2.50@DistoX.FullLRUD.WestPassage}
+  {       27.20       -76.18 2.50@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.51@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.52@DistoX.FullLRUD.WestPassage}
+  {      169.99       -54.13 2.51@DistoX.FullLRUD.WestPassage}
+  {      169.99       -54.13 2.51@DistoX.FullLRUD.WestPassage}
+  {      169.99       -54.13 2.51@DistoX.FullLRUD.WestPassage}
+  {      169.99       -54.13 2.51@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.52@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.53@DistoX.FullLRUD.WestPassage}
+  {      307.45       -65.94 2.52@DistoX.FullLRUD.WestPassage}
+  {      307.45       -65.94 2.52@DistoX.FullLRUD.WestPassage}
+  {      307.45       -65.94 2.52@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.53@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.54@DistoX.FullLRUD.WestPassage}
+  {      358.50       -60.04 2.53@DistoX.FullLRUD.WestPassage}
+  {      358.50       -60.04 2.53@DistoX.FullLRUD.WestPassage}
+  {      358.50       -60.04 2.53@DistoX.FullLRUD.WestPassage}
+  {      358.50       -60.04 2.53@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.54@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.55@DistoX.FullLRUD.WestPassage}
+  {      486.62       -57.87 2.54@DistoX.FullLRUD.WestPassage}
+  {      486.62       -57.87 2.54@DistoX.FullLRUD.WestPassage}
+  {      486.62       -57.87 2.54@DistoX.FullLRUD.WestPassage}
+  {      628.49       -48.82 2.55@DistoX.FullLRUD.WestPassage}
+  {      628.49       -48.82 2.55@DistoX.FullLRUD.WestPassage}
+  {      628.49       -48.82 2.55@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.55@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.56@DistoX.FullLRUD.WestPassage}
+  {      628.49       -48.82 2.55@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.55@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.57@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.55@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.58@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.58@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.59@DistoX.FullLRUD.WestPassage}
+  {      697.15       -37.60 2.58@DistoX.FullLRUD.WestPassage}
+  {      697.15       -37.60 2.58@DistoX.FullLRUD.WestPassage}
+  {      697.15       -37.60 2.58@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.59@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.60@DistoX.FullLRUD.WestPassage}
+  {      885.39       -38.39 2.59@DistoX.FullLRUD.WestPassage}
+  {      885.39       -38.39 2.59@DistoX.FullLRUD.WestPassage}
+  {      885.39       -38.39 2.59@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.60@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.61@DistoX.FullLRUD.WestPassage}
+  {     1060.89       -35.04 2.60@DistoX.FullLRUD.WestPassage}
+  {     1060.89       -35.04 2.60@DistoX.FullLRUD.WestPassage}
+  {     1060.89       -35.04 2.60@DistoX.FullLRUD.WestPassage}
+  {     1164.33       -31.30 2.61@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.61@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.62@DistoX.FullLRUD.WestPassage}
+  {     1164.33       -31.30 2.61@DistoX.FullLRUD.WestPassage}
+  {     1164.33       -31.30 2.61@DistoX.FullLRUD.WestPassage}
+  {     1164.33       -31.30 2.61@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.61@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.63@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.62@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.64@DistoX.FullLRUD.WestPassage}
+  {     1226.00       -42.72 2.62@DistoX.FullLRUD.WestPassage}
+  {     1226.00       -42.72 2.62@DistoX.FullLRUD.WestPassage}
+  {     1226.00       -42.72 2.62@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.64@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.65@DistoX.FullLRUD.WestPassage}
+  {     1421.65       -57.68 2.64@DistoX.FullLRUD.WestPassage}
+  {     1421.65       -57.68 2.64@DistoX.FullLRUD.WestPassage}
+  {     1421.65       -57.68 2.64@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.65@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.66@DistoX.FullLRUD.WestPassage}
+  {     1511.17       -67.13 2.65@DistoX.FullLRUD.WestPassage}
+  {     1511.17       -67.13 2.65@DistoX.FullLRUD.WestPassage}
+  {     1511.17       -67.13 2.65@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.65@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.67@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.67@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.68@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.67@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.69@DistoX.FullLRUD.WestPassage}
+  {     1549.24       -64.57 2.67@DistoX.FullLRUD.WestPassage}
+  {     1549.24       -64.57 2.67@DistoX.FullLRUD.WestPassage}
+  {     1549.24       -64.57 2.67@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.67@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.70@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.69@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.71@DistoX.FullLRUD.WestPassage}
+  {     1628.98       -60.43 2.69@DistoX.FullLRUD.WestPassage}
+  {     1628.98       -60.43 2.69@DistoX.FullLRUD.WestPassage}
+  {     1628.98       -60.43 2.69@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.71@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.72@DistoX.FullLRUD.WestPassage}
+  {     1670.62       -53.35 2.71@DistoX.FullLRUD.WestPassage}
+  {     1670.62       -53.35 2.71@DistoX.FullLRUD.WestPassage}
+  {     1670.62       -53.35 2.71@DistoX.FullLRUD.WestPassage}
+  {     1670.62       -53.35 2.71@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.72@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.73@DistoX.FullLRUD.WestPassage}
+  {     1718.76       -16.73 2.72@DistoX.FullLRUD.WestPassage}
+  {     1718.76       -16.73 2.72@DistoX.FullLRUD.WestPassage}
+  {     1718.76       -16.73 2.72@DistoX.FullLRUD.WestPassage}
+  {     1718.76       -16.73 2.72@DistoX.FullLRUD.WestPassage}
+  {     1718.76       -16.73 2.72@DistoX.FullLRUD.WestPassage}
+  {     1718.76       -16.73 2.72@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.73@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.74@DistoX.FullLRUD.WestPassage}
+  {     1740.79       -12.99 2.73@DistoX.FullLRUD.WestPassage}
+  {     1740.79       -12.99 2.73@DistoX.FullLRUD.WestPassage}
+  {     1740.79       -12.99 2.73@DistoX.FullLRUD.WestPassage}
+  {     1740.79       -12.99 2.73@DistoX.FullLRUD.WestPassage}
+  {     1740.79       -12.99 2.73@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.74@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.75@DistoX.FullLRUD.WestPassage}
+  {     1848.19        45.28 2.74@DistoX.FullLRUD.WestPassage}
+  {     1848.19        45.28 2.74@DistoX.FullLRUD.WestPassage}
+  {     1848.19        45.28 2.74@DistoX.FullLRUD.WestPassage}
+  {     1848.19        45.28 2.74@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.75@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.76@DistoX.FullLRUD.WestPassage}
+  {     1921.23       114.57 2.75@DistoX.FullLRUD.WestPassage}
+  {     1921.23       114.57 2.75@DistoX.FullLRUD.WestPassage}
+  {     1921.23       114.57 2.75@DistoX.FullLRUD.WestPassage}
+  {     1921.23       114.57 2.75@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.76@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.77@DistoX.FullLRUD.WestPassage}
+  {     1935.25       127.95 2.76@DistoX.FullLRUD.WestPassage}
+  {     1935.25       127.95 2.76@DistoX.FullLRUD.WestPassage}
+  {     1935.25       127.95 2.76@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.77@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.78@DistoX.FullLRUD.WestPassage}
+  {     2014.12       174.61 2.77@DistoX.FullLRUD.WestPassage}
+  {     2014.12       174.61 2.77@DistoX.FullLRUD.WestPassage}
+  {     2014.12       174.61 2.77@DistoX.FullLRUD.WestPassage}
+  {     2134.93       -60.83 2.1@ChuckleChoke.WestPassage}
+  {     2134.93       -60.83 2.0@ChuckleChoke.WestPassage}
+  {     2134.93       -60.83 2.1@ChuckleChoke.WestPassage}
+  {     2134.93       -60.83 2.2@ChuckleChoke.WestPassage}
+  {     1141.85       -65.75 2.2@ChuckleChoke.WestPassage}
+  {     1141.85       -65.75 2.2@ChuckleChoke.WestPassage}
+  {     1141.85       -65.75 2.2@ChuckleChoke.WestPassage}
+  {     1141.85       -65.75 2.2@ChuckleChoke.WestPassage}
+  {     1141.85       -65.75 2.2@ChuckleChoke.WestPassage}
+  {     2134.93       -60.83 2.2@ChuckleChoke.WestPassage}
+  {     2134.93       -60.83 2.3@ChuckleChoke.WestPassage}
+  {     1157.55       -98.62 2.3@ChuckleChoke.WestPassage}
+  {     1157.55       -98.62 2.3@ChuckleChoke.WestPassage}
+  {     1157.55       -98.62 2.3@ChuckleChoke.WestPassage}
+  {     1157.55       -98.62 2.3@ChuckleChoke.WestPassage}
+  {     1157.55       -98.62 2.3@ChuckleChoke.WestPassage}
+  {     1157.55       -98.62 2.3@ChuckleChoke.WestPassage}
+  {     1157.55       -98.62 2.3@ChuckleChoke.WestPassage}
+  {     2134.93       -60.83 2.3@ChuckleChoke.WestPassage}
+  {     2134.93       -60.83 2.4@ChuckleChoke.WestPassage}
+  {     1180.62      -120.47 2.4@ChuckleChoke.WestPassage}
+  {     1180.62      -120.47 2.4@ChuckleChoke.WestPassage}
+  {     1180.62      -120.47 2.4@ChuckleChoke.WestPassage}
+  {     2134.93       -60.83 2.4@ChuckleChoke.WestPassage}
+  {     2134.93       -60.83 2.5@ChuckleChoke.WestPassage}
+  {     1201.20      -170.67 2.5@ChuckleChoke.WestPassage}
+  {     1201.20      -170.67 2.5@ChuckleChoke.WestPassage}
+  {     1201.20      -170.67 2.5@ChuckleChoke.WestPassage}
+  {     1201.20      -170.67 2.5@ChuckleChoke.WestPassage}
+  {     1201.20      -170.67 2.5@ChuckleChoke.WestPassage}
+  {     1201.20      -170.67 2.5@ChuckleChoke.WestPassage}
+  {     1201.20      -170.67 2.5@ChuckleChoke.WestPassage}
+  {     1201.20      -170.67 2.5@ChuckleChoke.WestPassage}
+  {     2134.93       -60.83 2.5@ChuckleChoke.WestPassage}
+  {     2134.93       -60.83 2.6@ChuckleChoke.WestPassage}
+}
+set XVIshots {
+  {     2134.93       167.91      2066.05       169.09}
+  {     2066.05       169.09      1718.15         6.89}
+  {     1718.15         6.89      1621.40       -60.83}
+  {     1621.40       -60.83      1361.46      -116.14}
+  {     1361.46      -116.14      1155.05      -105.31}
+  {     1155.05      -105.31       899.30       -96.26}
+  {      899.30       -96.26       614.26      -111.22}
+  {      614.26      -111.22       368.23      -106.89}
+  {      368.23      -106.89       299.38      -109.45}
+  {      299.38      -109.45       -34.81      -126.97}
+  {      -34.81      -126.97      -171.26      -146.06}
+  {     -171.26      -146.06      -210.61      -147.44}
+  {     -210.61      -147.44      -259.79      -145.67}
+  {     -259.79      -145.67      -328.59      -142.13}
+  {     -328.59      -142.13      -417.06      -146.85}
+  {     -417.06      -146.85      -584.35      -149.61}
+  {     -584.35      -149.61      -790.76      -160.43}
+  {     -790.76      -160.43      -898.62      -169.88}
+  {     -898.62      -169.88     -1193.71      -180.31}
+  {    -1193.71      -180.31     -1390.44      -187.01}
+  {    -1390.44      -187.01     -1833.09      -202.56}
+  {    -1833.09      -202.56     -2029.94      -202.56}
+  {    -2029.94      -202.56     -2443.07      -216.93}
+  {    -2443.07      -216.93     -2718.29      -231.50}
+  {    -2718.29      -231.50     -2816.65      -234.84}
+  {    -2816.65      -234.84     -2934.60      -240.94}
+  {    -2934.60      -240.94     -2996.00      -232.48}
+  {     1688.87       -26.97      1713.48       -97.64}
+  {     1738.48       -37.80      1926.67       -53.54}
+  {     2004.42       -62.20      1981.78       -62.20      2004.42       -38.58      1981.78       -42.52      1981.78       -72.05      2004.42       -81.89}
+  {     2187.30       -28.94      2200.29         0.98      2187.30        -9.25      2200.29        16.73      2200.29       -18.70      2187.30       -38.78}
+  {     2249.89       161.81      2268.99        51.57      2249.89       177.56      2268.99        71.26      2268.99       -21.26      2249.89       142.13}
+  {     3332.39       -35.43      3220.86       -54.72      3332.39        -5.91      3220.86       -25.20      3220.86      -123.62      3332.39      -104.33}
+  {     3220.86       -54.72      3074.91       -36.81      3220.86       -25.20      3074.91       -25.00      3074.91       -93.90      3220.86      -123.62}
+  {     3074.91       -36.81      2964.38       -60.43      3074.91       -25.00      2964.38       -40.75      2964.38       -86.02      3074.91       -93.90}
+  {     2964.38       -60.43      2900.69       -52.56      2964.38       -40.75      2900.69       -23.03      2900.69       -76.18      2964.38       -86.02}
+  {     2900.69       -52.56      2631.01       -42.13      2900.69       -23.03      2631.01       -18.50      2631.01       -67.72      2900.69       -76.18}
+  {     2631.01       -42.13      2562.45       -30.91      2631.01       -18.50      2562.45       -23.03      2562.45       -54.53      2631.01       -67.72}
+  {     2631.01       -42.13      2776.67       -42.13      2631.01       -18.50      2776.67       -32.28      2776.67       -51.97      2631.01       -67.72}
+  {     2631.01       -42.13      2712.11        -1.97}
+  {     2562.45       -30.91      2374.07       -32.48      2562.45       -23.03      2374.07       -18.70      2374.07       -46.26      2562.45       -54.53}
+  {     2374.07       -32.48      2171.89       -24.02      2374.07       -18.70      2171.89         3.54      2171.89       -45.67      2374.07       -46.26}
+  {     2171.89       -24.02      2171.89       -14.17}
+  {     2171.89       -14.17      2224.60        12.40}
+  {     2171.89       -24.02      2097.73       -26.97      2171.89         3.54      2097.73       -13.19      2097.73       -46.65      2171.89       -45.67}
+  {     2097.73       -26.97      2166.23       -97.64}
+  {     2097.73       -26.97      2035.87       -37.80      2097.73       -13.19      2035.87       -27.95      2035.87       -43.70      2097.73       -46.65}
+  {     2035.87       -37.80      1839.66       -53.54      2035.87       -27.95      1839.66       -43.70      1839.66       -59.45      2035.87       -43.70}
+  {     1839.66       -53.54      1754.47       -62.20      1839.66       -43.70      1754.47       -50.39      1754.47       -62.20      1839.66       -59.45}
+  {     1754.47       -62.20      1797.77       -62.20}
+  {     1754.47       -62.20      1621.40       -60.83      1754.47       -50.39      1621.40       -50.98      1621.40       -60.83      1754.47       -62.20}
+  {     1621.40       -60.83      1679.76       -28.94      1621.40       -50.98      1679.76       -21.06      1679.76       -32.87      1621.40       -60.83}
+  {     1679.76       -28.94      1743.17         0.98      1679.76       -21.06      1743.17        79.72      1743.17       -24.61      1679.76       -32.87}
+  {     1743.17         0.98      1866.60       161.81}
+  {     1743.17         0.98      1845.70        51.57      1743.17        79.72      1845.70       209.06      1845.70        16.14      1743.17       -24.61}
+  {     1845.70        51.57      1916.93        97.44      1845.70       209.06      1916.93       136.81      1916.93        77.76      1845.70        16.14}
+  {     1916.93        97.44      1944.62       133.27      1916.93       136.81      1944.62       166.73      1944.62       117.52      1916.93        77.76}
+  {     1944.62       133.27      2014.45       174.80      1944.62       166.73      2014.45       263.39      2014.45       161.02      1944.62       117.52}
+  {     2014.45       174.80      2028.51       199.61      2014.45       263.39      2028.51       266.54      2028.51       164.17      2014.45       161.02}
+  {     2190.20       187.80      2130.01       234.84      2190.20       305.91      2130.01       352.95      2130.01       225.00      2190.20       177.95}
+  {     2130.01       234.84      2103.50       233.07      2130.01       352.95      2103.50       292.13      2103.50       229.13      2130.01       225.00}
+  {     2103.50       233.07      2028.51       199.61      2103.50       292.13      2028.51       266.54      2028.51       164.17      2103.50       229.13}
+  {    -1479.04      -154.92     -1594.40      -154.53     -1479.04      -154.92     -1594.40      -115.16     -1594.40      -154.53     -1479.04      -164.76}
+  {    -3320.36      -133.07     -3332.39      -134.25}
+  {    -3320.36      -133.07     -3325.03      -133.66}
+  {    -3320.36      -133.07     -3323.83      -144.09}
+  {    -1284.55      -162.80     -1342.63      -162.20     -1284.55      -162.80     -1342.63      -148.43     -1342.63      -172.05     -1284.55      -172.64}
+  {    -1342.82      -151.38     -1342.23      -180.71     -1342.82      -137.60     -1342.23      -174.80     -1342.23      -194.49     -1342.82      -161.22}
+  {    -3294.83      -132.68     -3280.68      -132.28}
+  {    -3294.83      -132.68     -3283.91      -131.10}
+  {    -3294.83      -132.68     -3292.75      -118.31}
+  {    -3294.83      -132.68     -3293.25      -140.94}
+  {    -1200.11      -163.98     -1061.92      -154.92     -1200.11      -158.07     -1061.92      -139.17     -1061.92      -176.57     -1200.11      -177.76}
+  {    -3251.69      -131.10     -3224.03      -130.12}
+  {    -3251.69      -131.10     -3230.17      -126.38}
+  {    -3251.69      -131.10     -3251.27      -124.21}
+  {    -3251.69      -131.10     -3249.01      -144.88}
+  {    -3251.69      -131.10     -3181.54      -162.20}
+  {     -937.90      -159.45      -938.29      -133.66      -937.90      -143.70      -938.29      -127.76      -938.29      -147.44      -937.90      -181.10}
+  {    -3191.91      -139.57     -3159.86      -143.70}
+  {    -3191.91      -139.57     -3188.95      -124.21}
+  {    -3191.91      -139.57     -3187.60      -161.61}
+  {    -3191.91      -139.57     -3138.29      -157.87}
+  {    -3191.91      -139.57     -3140.76      -166.73}
+  {    -3191.91      -139.57     -3123.14      -145.47}
+  {     -709.16      -172.05      -706.41       -94.29      -709.16      -166.14      -706.41       -94.29      -706.41      -112.01      -709.16      -185.83}
+  {    -3132.76      -170.87     -3088.41      -174.61}
+  {    -3132.76      -170.87     -3132.37      -163.39}
+  {    -3132.76      -170.87     -3130.11      -185.63}
+  {     -520.78      -153.15      -519.40      -135.24      -520.78      -153.15      -519.40      -135.24      -519.40      -145.08      -520.78      -170.87}
+  {    -3095.34      -165.35     -3068.18      -167.32}
+  {    -3095.34      -165.35     -3068.62      -164.57}
+  {    -3095.34      -165.35     -3067.23      -168.70}
+  {    -3095.34      -165.35     -3093.90      -183.27}
+  {     -323.14      -171.06      -365.07      -157.87      -323.14      -171.06      -365.07      -148.03      -365.07      -183.46      -323.14      -188.78}
+  {     -305.22      -154.33      -256.21      -166.14      -305.22      -144.49      -256.21      -156.30      -256.21      -205.51      -305.22      -179.92}
+  {    -2946.59      -153.54     -2909.11      -153.35}
+  {    -2946.59      -153.54     -2945.81      -143.70}
+  {    -2946.59      -153.54     -2945.10      -179.72}
+  {    -2946.59      -153.54     -2926.18      -152.56}
+  {      -66.05      -150.79       -70.78      -124.61       -66.05      -140.94       -70.78      -124.61       -70.78      -156.10       -66.05      -176.38}
+  {      -68.41      -170.28         3.63      -150.59       -68.41      -170.28         3.63      -125.98         3.63      -178.15       -68.41      -201.77}
+  {    -2905.44      -149.80     -2877.68      -154.72}
+  {    -2905.44      -149.80     -2840.44      -153.74}
+  {    -2905.44      -149.80     -2877.73      -153.54}
+  {    -2905.44      -149.80     -2880.81      -158.07}
+  {    -2905.44      -149.80     -2902.27      -181.10}
+  {    -2823.76      -153.15     -2790.46      -153.54}
+  {    -2823.76      -153.15     -2814.85      -130.12}
+  {    -2823.76      -153.15     -2819.66      -181.89}
+  {      219.58      -127.36        74.50      -132.28       219.58      -102.76        74.50       -96.85        74.50      -159.84       219.58      -154.92}
+  {       69.38      -105.91        68.20      -151.18        69.38       -70.47        68.20      -115.75        68.20      -176.77        69.38      -133.46}
+  {    -2688.78      -155.31     -2676.97      -154.53}
+  {    -2688.78      -155.31     -2683.27      -119.49}
+  {    -2688.78      -155.31     -2683.83      -182.48}
+  {      410.52      -124.41       419.78      -122.44       410.52       -88.98       419.78       -88.98       419.78      -148.03       410.52      -150.00}
+  {    -2586.53      -155.31     -2573.98      -154.53}
+  {    -2586.53      -155.31     -2580.36      -120.28}
+  {    -2586.53      -155.31     -2582.99      -181.89}
+  {      438.87      -140.16       491.23      -131.10       438.87      -106.69       491.23      -119.29       491.23      -146.85       438.87      -165.75}
+  {    -2468.56      -154.92     -2459.11      -154.72}
+  {    -2468.56      -154.92     -2464.86      -121.85}
+  {    -2468.56      -154.92     -2465.35      -181.69}
+  {      474.50       -76.77       462.49      -141.14       474.50       -64.96       462.49      -131.30       462.49      -158.86       474.50       -92.52}
+  {    -2331.09      -163.19     -2321.90      -162.20}
+  {    -2331.09      -163.19     -2329.97      -151.38}
+  {    -2331.09      -163.19     -2330.13      -180.71}
+  {      432.18       -64.57       423.52      -141.14       432.18       -54.72       423.52      -127.36       423.52      -154.92       432.18       -82.28}
+  {    -2272.25      -162.80     -2264.96      -162.20}
+  {    -2272.25      -162.80     -2270.74      -152.17}
+  {    -2272.25      -162.80     -2270.54      -180.91}
+  {      493.00       -73.82       497.14       -31.89       493.00       -60.04       497.14       -18.11       497.14       -53.54       493.00       -87.60}
+  {    -2237.14      -165.55     -2227.34      -164.76}
+  {    -2237.14      -165.55     -2236.20      -150.39}
+  {    -2237.14      -165.55     -2233.83      -179.72}
+  {    -2237.14      -165.55     -2187.69      -163.98}
+  {      643.59       -74.80       642.41       -32.68       643.59       -61.02       642.41        26.38       642.41       -56.30       643.59       -96.46}
+  {    -2144.05      -157.09     -2133.79      -157.68}
+  {    -2144.05      -157.09     -2143.48      -142.32}
+  {    -2144.05      -157.09     -2142.91      -179.72}
+  {      926.67       -60.04       893.00       -70.87       926.67        -0.98       893.00       -70.87       893.00       -70.87       926.67       -83.66}
+  {      915.45       -40.55       917.41       -89.96       915.45        18.50       917.41       -62.40       917.41      -109.65       915.45       -64.17}
+  {    -2048.73      -154.92     -2038.15      -156.10}
+  {    -2048.73      -154.92     -2037.07      -138.58}
+  {    -2048.73      -154.92     -2021.02       -99.41}
+  {    -2048.73      -154.92     -2047.60      -178.74}
+  {     1053.83       -78.54      1177.26       -49.02      1053.83       -50.98      1177.26       -39.17      1177.26       -60.83      1053.83       -98.23}
+  {    -1926.28      -160.63     -1916.83      -159.45}
+  {    -1926.28      -160.63     -1922.77      -133.66}
+  {    -1926.28      -160.63     -1919.56      -178.94}
+  {    -1926.28      -160.63     -1905.06      -106.30}
+  {    -1849.15      -164.37     -1839.40      -165.16}
+  {    -1849.15      -164.37     -1846.21      -155.91}
+  {    -1849.15      -164.37     -1847.26      -177.95}
+  {     1592.81       -37.80      1594.19         1.77      1592.81       -27.95      1594.19        37.20      1594.19       -15.94      1592.81       -49.61}
+  {     1594.38       -48.23      1764.07       -51.38      1594.38       -12.80      1764.07        13.58      1764.07       -71.06      1594.38       -65.94}
+  {    -1799.06      -160.04     -1790.65      -160.24}
+  {    -1799.06      -160.04     -1791.60      -125.98}
+  {    -1799.06      -160.04     -1795.69      -178.15}
+  {     1743.79       -43.31      1741.23       -32.28      1743.79        21.65      1741.23        42.52      1741.23       -48.03      1743.79       -62.99}
+  {    -1692.80      -157.09     -1683.18      -157.28}
+  {    -1692.80      -157.09     -1667.14      -172.05}
+  {    -1692.80      -157.09     -1672.11       -94.29}
+  {    -1692.80      -157.09     -1682.07      -177.36}
+  {     2012.30       -55.91      2047.93       -64.57      2012.30        18.90      2047.93       -44.88      2047.93       -86.22      2012.30       -71.65}
+  {    -1584.44      -157.87     -1574.30      -156.89}
+  {    -1584.44      -157.87     -1560.34       -86.02}
+  {    -1584.44      -157.87     -1580.40      -175.98}
+  {     2165.84       -53.35      2109.15       -62.20      2165.84       -33.66      2109.15       -54.33      2109.15       -77.95      2165.84       -75.00}
+  {    -1505.88      -153.15     -1493.89      -153.15}
+  {    -1505.88      -153.15     -1495.42      -135.24}
+  {    -1505.88      -153.15     -1505.51      -175.00}
+  {     2165.05       -60.24      2193.20       -12.99      2165.05       -52.36      2193.20       -12.99      2193.20       -22.83      2165.05       -75.98}
+  {    -1392.05      -157.09     -1384.50      -157.48}
+  {    -1392.05      -157.09     -1387.04      -150.39}
+  {    -1392.05      -157.09     -1386.80      -172.24}
+  {     2285.72        45.28      2179.62        63.58      2285.72        45.28      2179.62        75.39      2179.62        63.58      2285.72        35.43}
+  {    -1304.47      -161.02     -1279.27      -167.91}
+  {    -1304.47      -161.02     -1294.40      -162.20}
+  {    -1304.47      -161.02     -1301.28      -171.06}
+  {     2280.60        49.21      2321.35       134.06      2280.60        49.21      2321.35       134.06      2321.35       134.06      2280.60        39.37}
+  {     2320.96       167.32      2343.20       127.95      2320.96       179.13      2343.20       127.95      2343.20       127.95      2320.96       167.32}
+  {    -1234.54      -169.09     -1210.24      -166.14}
+  {    -1234.54      -169.09     -1227.45      -167.91}
+  {    -1234.54      -169.09     -1233.58      -155.51}
+  {     2346.74       144.49      2343.20       110.83      2346.74       156.30      2343.20       118.70      2343.20        93.11      2346.74       144.49}
+  {     2443.20       212.99      2385.33       179.33      2443.20       220.87      2385.33       208.86      2385.33       157.68      2443.20       195.28}
+  {    -1131.11      -151.38     -1117.92      -151.18}
+  {    -1131.11      -151.38     -1130.39      -141.93}
+  {    -1131.11      -151.38     -1130.49      -169.69}
+  {     1704.42       -87.60      1708.75       -44.09      1704.42       -58.07      1708.75        -4.72      1708.75       -63.78      1704.42      -109.25}
+  {    -1042.33      -148.62     -1023.56      -150.79}
+  {    -1042.33      -148.62     -1023.09      -124.61}
+  {    -1042.33      -148.62     -1040.84      -170.28}
+  {     1772.34      -119.29      1770.56      -119.29      1772.34       -89.76      1770.56       -79.92      1770.56      -138.98      1772.34      -140.94}
+  {     1695.17      -120.47      1691.63      -121.26      1695.17       -81.10      1691.63       -74.02      1691.63      -140.94      1695.17      -140.16}
+  {     -964.35      -150.59      -948.31      -149.21}
+  {     -964.35      -150.59      -958.26      -110.04}
+  {     -964.35      -150.59      -963.02      -171.65}
+  {     -964.35      -150.59      -913.73      -153.35}
+  {     1716.23      -163.39      1702.26      -144.69      1716.23      -116.14      1702.26      -132.87      1702.26      -156.50      1716.23      -183.07}
+  {     -875.01      -123.03      -865.98      -125.00}
+  {     -875.01      -123.03      -868.94      -121.26}
+  {     -875.01      -123.03      -873.01      -110.63}
+  {     -875.01      -123.03      -869.00      -133.66}
+  {     2134.93       -60.83      2134.93       -60.83      2125.09       -72.64      2140.84       -72.64      2140.84       -41.14      2125.09       -41.14}
+  {     -895.81      -132.68      -870.04      -133.46}
+  {     -895.81      -132.68      -887.40      -108.86}
+  {     -895.81      -132.68      -888.04       -85.63}
+  {     -875.01      -123.03      -872.25      -143.70}
+  {     2134.93       -60.83      2134.93       -60.83      2109.34       -80.51      2134.93       -80.51      2134.93       -13.58      2109.34       -13.58}
+  {     2134.93       -60.83      2134.93       -60.83      2121.15       -82.48      2152.65       -82.48      2152.65        29.72      2121.15        29.72}
+  {     -822.89      -130.51      -807.54      -132.28}
+  {     -822.89      -130.51      -819.11      -105.91}
+  {     -822.89      -130.51      -821.89      -151.18}
+  {     2134.93       -60.83      2134.93       -60.83      2103.44       -90.35      2152.65       -90.35      2152.65        29.72      2103.44        29.72}
+  {     -668.33      -127.36      -650.28      -127.17}
+  {     -668.33      -127.36      -655.30      -106.10}
+  {     -668.33      -127.36      -608.56       -57.48}
+  {     -668.33      -127.36      -666.03      -149.02}
+  {     2134.93       -60.83      2134.93       -60.83      2103.44       -90.35      2152.65       -90.35      2152.65       -37.20      2103.44       -37.20}
+  {     -456.24      -122.83      -424.33      -124.41}
+  {     -456.24      -122.83      -447.70      -122.44}
+  {     -456.24      -122.83      -445.64      -101.18}
+  {     -456.24      -122.83      -452.65      -132.09}
+  {     2134.93       -60.83      2134.93       -60.83      2131.00       -80.51      2152.65       -80.51      2152.65       -41.14      2131.00       -41.14}
+  {     -420.42      -119.29      -403.46      -119.09}
+  {     -420.42      -119.29      -406.71      -125.00}
+  {     -420.42      -119.29      -409.66      -103.15}
+  {     -420.42      -119.29      -418.30      -140.16}
+  {     2134.93       -60.83      2134.93       -60.83      2107.37       -80.51      2152.65       -80.51      2152.65       -31.30      2107.37       -31.30}
+  {     2134.93       -60.83      2134.93       -60.83      2107.37       -86.42      2150.68       -86.42      2150.68       -21.46      2107.37       -21.46}
+  {     -360.20      -131.10      -332.55      -128.74}
+  {     -360.20      -131.10      -306.50      -127.56}
+  {     -360.20      -131.10      -348.91      -103.15}
+  {     2134.93       -60.83      2134.93       -60.83      2125.09       -86.42      2150.68       -86.42      2150.68       -21.46      2125.09       -21.46}
+  {     -315.30      -115.16      -299.39      -114.37}
+  {     -315.30      -115.16      -305.47       -76.77}
+  {     -315.30      -115.16      -312.91      -141.14}
+  {     -293.29      -116.54      -282.89      -116.73}
+  {     -293.29      -116.54      -287.83       -77.76}
+  {     -293.29      -116.54      -291.39      -140.35}
+  {     2134.93       -60.83      2134.93       -60.83      2125.09       -84.45      2146.74       -84.45      2146.74        -5.71      2125.09        -5.71}
+  {     2134.93       -60.83      2134.93       -60.83      2134.93       -86.42      2146.74       -86.42      2146.74        27.76      2134.93        27.76}
+  {     -245.58      -119.09      -232.00      -118.11}
+  {     -245.58      -119.09      -234.06       -64.57}
+  {     -245.58      -119.09      -241.76      -141.14}
+  {     2134.93       -60.83      2134.93       -60.83      2123.12       -86.42      2134.93       -86.42      2134.93        27.76      2123.12        27.76}
+  {     -192.06      -115.75      -180.10      -118.31}
+  {     -192.06      -115.75      -149.68       -37.60}
+  {     -192.06      -115.75      -166.71       -14.37}
+  {     -192.06      -115.75      -190.28      -140.35}
+  {     2134.93       -60.83      2134.93       -60.83      2117.22      -129.72      2146.74      -129.72      2146.74        27.76      2117.22        27.76}
+  {     2134.93       -60.83      2134.93       -60.83      2117.22      -129.72      2150.68      -129.72      2150.68        13.98      2117.22        13.98}
+  {     -121.31       -74.41      -103.53       -73.82}
+  {     -121.31       -74.41      -117.46       -31.89}
+  {     -121.31       -74.41       -91.95      -138.78}
+  {      -72.47       -44.49        -3.20       -14.57}
+  {     2134.93       -60.83      2134.93       -60.83      2134.93      -119.88      2154.62      -119.88      2154.62        13.98      2134.93        13.98}
+  {      -72.47       -44.49       -56.89       -39.17}
+  {      -72.47       -44.49       -65.48       -10.24}
+  {      -72.47       -44.49       -56.28        29.72}
+  {      -72.47       -44.49       -65.83      -106.10}
+  {     2134.93       -60.83      2134.93       -60.83      2119.19      -115.94      2154.62      -115.94      2154.62       -17.52      2119.19       -17.52}
+  {       27.20       -76.18        47.62       -74.80}
+  {       27.20       -76.18        36.59       -32.68}
+  {       27.20       -76.18        46.73      -128.54}
+  {     2134.93       -60.83      2134.93       -60.83      2103.44      -110.04      2134.93      -110.04      2134.93       -35.24      2103.44       -35.24}
+  {      169.99       -54.13       186.30       -56.10}
+  {      169.99       -54.13       174.93       -36.42}
+  {      169.99       -54.13       171.39       -67.91}
+  {      169.99       -54.13       188.77      -100.98}
+  {     2134.93       -60.83      2134.93       -60.83      2103.44      -104.13      2156.59      -104.13      2156.59         8.07      2103.44         8.07}
+  {      307.45       -65.94       339.57       -70.87}
+  {      307.45       -65.94       311.57       -40.55}
+  {      307.45       -65.94       310.60       -89.96}
+  {     2134.93       -60.83      2134.93       -60.83      2134.93      -104.13      2156.59      -104.13      2156.59         8.07      2134.93         8.07}
+  {      358.50       -60.04       380.86       -57.68}
+  {      358.50       -60.04       362.46       -30.12}
+  {      358.50       -60.04       411.67       -13.98}
+  {      358.50       -60.04       374.64      -100.59}
+  {     2134.93       -60.83      2134.93       -60.83      2107.37       -88.39      2154.62       -88.39      2154.62       -29.33      2107.37       -29.33}
+  {      486.62       -57.87       509.87       -57.09}
+  {      486.62       -57.87       490.56       -32.28}
+  {      486.62       -57.87       488.02       -78.54}
+  {      628.49       -48.82       656.25       -49.02}
+  {      628.49       -48.82       631.08       -18.31}
+  {      628.49       -48.82       629.79       -76.18}
+  {     2134.93       -60.83      2134.93       -60.83      2107.37       -88.39      2138.87       -88.39      2138.87       -29.33      2107.37       -29.33}
+  {      628.49       -48.82       688.40       -14.96}
+  {     2134.93       -60.83      2134.93       -60.83      2107.37       -88.39      2134.93       -88.39      2134.93       -29.33      2107.37       -29.33}
+  {     2134.93       -60.83      2134.93       -60.83      2107.37       -88.39      2160.52       -88.39      2160.52       -29.33      2107.37       -29.33}
+  {     2134.93       -60.83      2134.93       -60.83      2134.93       -88.39      2160.52       -88.39      2160.52       -49.02      2134.93       -49.02}
+  {      697.15       -37.60       722.13       -41.34}
+  {      697.15       -37.60       700.70       -29.13}
+  {      697.15       -37.60       710.04       -62.01}
+  {     2134.93       -60.83      2134.93       -60.83      2134.93       -76.57      2156.59       -76.57      2156.59       -19.49      2134.93       -19.49}
+  {      885.39       -38.39       908.25       -34.84}
+  {      885.39       -38.39       891.74       -26.97}
+  {      885.39       -38.39       891.16       -53.35}
+  {     2134.93       -60.83      2134.93       -60.83      2111.31       -78.54      2146.74       -78.54      2146.74       -19.49      2111.31       -19.49}
+  {     1060.89       -35.04      1077.72       -37.80}
+  {     1060.89       -35.04      1080.36         1.77}
+  {     1060.89       -35.04      1061.56       -48.23}
+  {     1164.33       -31.30      1242.58       -51.38}
+  {     2134.93       -60.83      2134.93       -60.83      2111.31       -78.54      2168.40       -78.54      2168.40       -47.05      2111.31       -47.05}
+  {     1164.33       -31.30      1188.61       -32.28}
+  {     1164.33       -31.30      1171.43       -19.49}
+  {     1164.33       -31.30      1165.78       -50.20}
+  {     2134.93       -60.83      2134.93       -60.83      2111.31      -119.88      2154.62      -119.88      2154.62       -47.05      2111.31       -47.05}
+  {     2134.93       -60.83      2134.93       -60.83      2109.34       -66.73      2168.40       -66.73      2168.40       -49.02      2109.34       -49.02}
+  {     1226.00       -42.72      1259.79       -43.31}
+  {     1226.00       -42.72      1230.92       -32.28}
+  {     1226.00       -42.72      1226.31       -49.61}
+  {     2134.93       -60.83      2134.93       -60.83      2109.34       -66.73      2146.74       -66.73      2146.74       -49.02      2109.34       -49.02}
+  {     1421.65       -57.68      1447.83       -56.50}
+  {     1421.65       -57.68      1425.02       -50.00}
+  {     1421.65       -57.68      1422.29       -64.76}
+  {     2134.93       -60.83      2134.93       -60.83      2115.25       -60.83      2146.74       -60.83      2146.74       -49.02      2115.25       -49.02}
+  {     1511.17       -67.13      1529.98       -62.80}
+  {     1511.17       -67.13      1522.92       -65.94}
+  {     1511.17       -67.13      1511.73       -55.91}
+  {     2134.93       -60.83      2134.93       -60.83      2115.25       -66.73      2146.74       -66.73      2146.74       -49.02      2115.25       -49.02}
+  {     2134.93       -60.83      2134.93       -60.83      2119.19       -66.73      2142.81       -66.73      2142.81       -50.98      2119.19       -50.98}
+  {     2134.93       -60.83      2134.93       -60.83      2101.47       -68.70      2152.65       -68.70      2152.65       -60.83      2101.47       -60.83}
+  {     1549.24       -64.57      1564.88       -66.93}
+  {     1549.24       -64.57      1558.46       -65.75}
+  {     1549.24       -64.57      1550.65       -69.69}
+  {     2134.93       -60.83      2134.93       -60.83      2119.19       -66.73      2142.81       -66.73      2142.81       -50.98      2119.19       -50.98}
+  {     2134.93       -60.83      2134.93       -60.83      2095.56       -68.70      2152.65       -68.70      2152.65       -50.98      2095.56       -50.98}
+  {     1628.98       -60.43      1662.79       -62.20}
+  {     1628.98       -60.43      1646.69       -64.57}
+  {     1628.98       -60.43      1632.74       -68.11}
+  {     2134.93       -60.83      2134.93       -60.83      1977.45       -74.61      2146.74       -74.61      2146.74       -47.05      1977.45       -47.05}
+  {     1670.62       -53.35      1710.91       -56.30}
+  {     1670.62       -53.35      1678.66       -52.56}
+  {     1670.62       -53.35      1672.18       -42.13}
+  {     1670.62       -53.35      1671.63       -60.24}
+  {     2134.93       -60.83      2134.93       -60.83      1977.45       -84.45      2190.05       -84.45      2190.05        76.97      1977.45        76.97}
+  {     1718.76       -16.73      1872.49        54.92}
+  {     1718.76       -16.73      1730.05       -13.58}
+  {     1718.76       -16.73      1720.12        -1.77}
+  {     1718.76       -16.73      1721.52       -29.92}
+  {     1718.76       -16.73      1848.88       144.09}
+  {     1718.76       -16.73      1892.14       125.00}
+  {     2134.93       -60.83      2134.93       -60.83      1977.45       -84.45      2190.05       -84.45      2190.05        76.97      1977.45        76.97}
+  {     1740.79       -12.99      1886.64        63.58}
+  {     1740.79       -12.99      1796.81        -6.10}
+  {     1740.79       -12.99      1745.31        13.19}
+  {     1740.79       -12.99      1833.71       106.50}
+  {     1740.79       -12.99      1745.31       -36.22}
+  {     2134.93       -60.83      2134.93       -60.83      2075.88       -60.83      2156.59       -60.83      2156.59        39.57      2075.88        39.57}
+  {     1848.19        45.28      1898.62        80.51}
+  {     1848.19        45.28      1854.77        49.21}
+  {     1848.19        45.28      1896.98       134.06}
+  {     1848.19        45.28      1888.36       167.32}
+  {     2134.93       -60.83      2134.93       -60.83      2103.44       -76.57      2156.59       -76.57      2156.59       -31.30      2103.44       -31.30}
+  {     1921.23       114.57      1935.63       118.70}
+  {     1921.23       114.57      1941.64       118.31}
+  {     1921.23       114.57      1943.63       115.75}
+  {     1921.23       114.57      1924.87       145.47}
+  {     2134.93       -60.83      2134.93       -60.83      2075.88       -76.57      2158.56       -76.57      2158.56         6.10      2075.88         6.10}
+  {     1935.25       127.95      1967.10       134.06}
+  {     1935.25       127.95      1943.65       144.49}
+  {     1935.25       127.95      1936.94       110.83}
+  {     2134.93       -60.83      2134.93       -60.83}
+  {     2014.12       174.61      2064.97       212.99}
+  {     2014.12       174.61      2037.87       179.33}
+  {     2014.12       174.61      2030.06       240.94}
+  {     2134.93       -60.83      2134.93       -60.83}
+  {     2134.93       -60.83      2134.93       -60.83}
+  {     1141.85       -65.75      1154.03       -66.54}
+  {     1141.85       -65.75      1156.62       -68.11}
+  {     1141.85       -65.75      1154.06       -65.94}
+  {     1141.85       -65.75      1142.70       -87.60}
+  {     1141.85       -65.75      1148.14       -44.09}
+  {     2134.93       -60.83      2134.93       -60.83}
+  {     1157.55       -98.62      1170.32       -99.21}
+  {     1157.55       -98.62      1163.45       -98.62}
+  {     1157.55       -98.62      1159.04       -84.45}
+  {     1157.55       -98.62      1163.85      -116.93}
+  {     1157.55       -98.62      1214.38      -120.28}
+  {     1157.55       -98.62      1212.48      -119.29}
+  {     1157.55       -98.62      1210.98      -119.29}
+  {     2134.93       -60.83      2134.93       -60.83}
+  {     1180.62      -120.47      1189.45      -121.26}
+  {     1180.62      -120.47      1184.74      -120.67}
+  {     1180.62      -120.47      1188.92      -122.05}
+  {     2134.93       -60.83      2134.93       -60.83}
+  {     1201.20      -170.67      1205.50      -171.26}
+  {     1201.20      -170.67      1222.42      -155.71}
+  {     1201.20      -170.67      1213.69      -163.98}
+  {     1201.20      -170.67      1226.42      -165.35}
+  {     1201.20      -170.67      1219.79      -166.34}
+  {     1201.20      -170.67      1234.26      -163.39}
+  {     1201.20      -170.67      1223.07      -144.69}
+  {     1201.20      -170.67      1300.29      -184.06}
+  {     2134.93       -60.83      2134.93       -60.83}
+}
+set XVIgrid  {-4006.8 -926.969 19.685 0.0 0.0 19.685 407 100}

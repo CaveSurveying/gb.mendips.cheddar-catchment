@@ -1,0 +1,40 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 963.1245 939.2638
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {152.847 1 1.0} {721.448 CH1} xvi/CharnelPassage.xvi 0 {}
+
+
+
+scrap CharnelPassage_s1 -projection plan -scale [-128.0 -128.0 6618.1104 -128.0 0.0 0.0 171.35120416 0.0 m]
+
+point 155.572 92.821 station -name CH6@CharnelPassage
+
+point 238.602 174.661 station -name CH5@CharnelPassage
+
+point 120.022 295.161 station -name CH4@CharnelPassage
+
+point 107.612 387.501 station -name CH3@CharnelPassage
+
+point 102.362 576.711 station -name CH2@CharnelPassage
+
+point 56.0 316.0 label -text "Charnel Passage" -scale m -align l
+
+line section
+  153.662 722.021
+  102.362 576.711
+  107.612 387.501
+  120.022 295.161
+  238.602 174.661
+  155.572 92.821
+endline
+
+line arrow -head end
+  -16.0 628.0
+  100.0 632.0
+endline
+
+point -34.0 628.0 label -text "23/9/2006" -scale xs -align l
+
+endscrap
+
+

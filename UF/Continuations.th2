@@ -1,0 +1,18 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 470.0 1130.0 14879.515 18649.745
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {6080.88 1 1.0} {11842.25 PAINTED-MW1-stal@Leg1.MalcolmsWay.UpperFlood} 0.Maps/UF.xvi 0 {}
+
+
+
+scrap Continuations_s1 -projection plan -stations [31@BeyondZebraAven.Pony.EastPassage 35@BeyondZebraAven.Pony.EastPassage 49@BeyondZebraAven.Pony.EastPassage 62@BeyondZebraAven.Pony.EastPassage 63@BeyondZebraAven.Pony.EastPassage 66@BeyondZebraAven.Pony.EastPassage 2.6@ChuckleChoke.WestPassage ] -scale [-128.0 -128.0 14706.8877 -128.0 0.0 0.0 376.80614758 0.0 m]
+
+point 2344.46 6494.81 station -name 46@NeverlandRopeClimb.Neverland
+
+point 10441.94 4602.38 station -name 35@EP.Pony.EastPassage
+
+point 4582.73 16269.96 station -name E0@MCGPaper.Entrance
+
+
+endscrap
+

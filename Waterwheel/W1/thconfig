@@ -1,0 +1,29 @@
+encoding  utf-8
+source W1.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout mendip -o W1.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj plan -fmt kml -layout mendip -o W1.kml
+
+export model -fmt survex -o W1.3d
+#Survex file showing centre line only
+
+#export model -fmt therion -o W1.thm
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o W1_Walls.3d
+#Survex file showing walls only
+
+layout mendip
+
+colour map-bg 90
+#colour map-fg scrap
+#debug on
+#debug scrap-names
+endlayout

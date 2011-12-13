@@ -1,0 +1,30 @@
+encoding  utf-8
+source Skeleton.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o Skeleton.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o SkeletonEe.pdf
+
+export model -fmt survex -o Skeletonth.3d
+#Survex file showing centre line only
+
+#export model -fmt therion -o Skeleton.thm
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Skeleton_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+
+endlayout
+
+input ../../../common_layout.th

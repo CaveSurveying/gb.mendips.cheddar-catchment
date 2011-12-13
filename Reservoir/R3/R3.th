@@ -1,0 +1,21 @@
+encoding  utf-8
+survey R3
+
+centreline
+cs OSGB:ST
+date 1965 11 08
+
+data normal from to compass clino tape ignoreall
+units tape feet
+#calibrate compass +8.32
+calibrate compass -0.48
+#altered to allow for automatic mag dev correction
+
+Q  445  160.00  -12.5  3.9
+445  446  100.66  3.66  5.7
+446  447  -  down  19.2
+447  448  274.00  0.0  6.0
+
+endcentreline
+endsurvey R3
+

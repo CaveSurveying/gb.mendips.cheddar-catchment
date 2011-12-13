@@ -1,0 +1,78 @@
+encoding  utf-8
+survey 2010
+
+input DelayingTactics/DelayingTactics.th
+input HighTime/HighTime.th
+input Hyaena/Hyaena.th
+input HyaenaAven/HyaenaAven.th
+input OverPot/OverPot.th
+input PotOxbow/PotOxbow.th
+input SandWorm/SandWorm.th
+input SplashPoolInlet/SplashPoolInlet.th
+#input Skeleton/Skeleton.th
+input UpperHighTime/UpperHighTime
+input Zebra/Zebra.th
+input ZebraInlet/ZebraInlet.th
+
+equate 1.0@DelayingTactics 1.17@SandWorm
+equate 1.0@HighTime 1.28@OverPot
+equate 1.9@HighTime 1.0@ZebraInlet
+equate 1.22@Hyaena 1.12@PotOxbow
+equate 1.0@Hyaena 1.0@HyaenaAven
+equate 1.3@HyaenaAven 1.0@SandWorm
+equate 1.10@SandWorm 1.3@SplashPoolInlet
+equate 1.4@HyaenaAven 1.4@Zebra
+equate 1.18@HighTime 1.0@UpperHighTime
+equate 1.9@HighTime 1.0@Zebra
+equate 1.15@OverPot 1.16@PotOxbow
+equate 1.17@OverPot 1.0@PotOxbow
+equate 1.27@OverPot 1.9@PotOxbow
+
+map 2010aM
+  ZebraInletM@ZebraInlet
+  DelayingTacticsM@DelayingTactics
+  HighTimeM@HighTime
+  HyaenaM@Hyaena
+  HyaenaAvenM@HyaenaAven 
+  OverPotM@OverPot
+  PotOxbowM@PotOxbow
+  SplashPoolInletM@SplashPoolInlet
+  SandWormM@SandWorm
+  UpperHighTimeM@UpperHighTime
+  ZebraM@Zebra
+  
+endmap
+
+map 2010adispM
+  ZebraInletM@ZebraInlet
+  DelayingTacticsM@DelayingTactics
+  HighTimedispM@HighTime
+  HyaenaM@Hyaena
+  HyaenaAvenM@HyaenaAven 
+  OverPotM@OverPot
+  PotOxbowM@PotOxbow
+  SplashPoolInletM@SplashPoolInlet
+  SandWormM@SandWorm
+  UpperHighTimeM@UpperHighTime
+  ZebraM@Zebra
+  
+endmap
+
+join DelayingTacticsSPl1@DelayingTactics SandWormSPl1@SandWorm -smooth on
+join HighTimeSPl1@HighTime OverPotSPl1@OverPot -smooth on
+join HighTimeSPl1@HighTime UpperHighTimeSPl1@UpperHighTime -smooth on
+join HighTimeSPl1@HighTime ZebraInletSPl1@ZebraInlet -smooth on
+join HyaenaSPl1@Hyaena HyaenaAvenSPl1@HyaenaAven -smooth on
+join HyaenaSPl3@Hyaena PotOxbowSPl2@PotOxbow -smooth on
+join HyaenaAvenSPl2@HyaenaAven ZebraSPl1@Zebra -smooth on
+join over@HyaenaAven l23-745-644@SandWorm -smooth on
+join over@HyaenaAven l25-979-519@SandWorm -smooth on
+join HighTimeSPl1@HighTime ZebraSPl1@Zebra -smooth on
+join OverPotSPl1@OverPot PotOxbowSPl1@PotOxbow -smooth on
+join OverPotSPl2@OverPot PotOxbowSPl1@PotOxbow -smooth on
+join OverPotSPl2@OverPot PotOxbowSPl2@PotOxbow -smooth on
+#join SandWormSPl1@SandWorm SplashPoolInletSPl1@SplashPoolInlet -smooth on
+join l42-3121-2034@SandWorm:20 l20-122-339@SplashPoolInlet:end -smooth on
+join l31-4438-2453@SandWorm:3 l16-318-342@SplashPoolInlet:0 -smooth on
+endsurvey
+

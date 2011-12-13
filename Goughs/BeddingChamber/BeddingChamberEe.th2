@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -822.63 -344.09 4935.75 2064.57
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {2457.61192291 1 1.0} {219.291338583 4.0} PocketTopo/BeddingChamber_e.xvi 0 {}
+
+
+scrap BeddingChamberSEe1 -projection extended -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BeddingChamberSEe2 -projection extended -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BeddingChamberSEe3 -projection extended -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BeddingChamberSEe4 -projection extended -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

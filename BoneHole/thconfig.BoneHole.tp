@@ -1,0 +1,19 @@
+encoding  utf-8
+language en_UK
+source BoneHole.th
+
+layout lcommon
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 200
+endlayout 
+
+export model -format survex -o Maps/BoneHole.3d
+#export model -format loch -o Maps/BoneHole.lox
+#export map -projection plan -layout lcommon -o Maps/BoneHole.pdf
+#export map -projection extended -layout lcommon -o Maps/BoneHole_ex.pdf
+#export map -projection [elevation 90] -layout lcommon -o Maps/BoneHole_el90.pdf
+#export map -projection plan -format xvi -layout lcommon -o Maps/BoneHole.xvi
+#export map -projection extended -format xvi -layout lcommon -o Maps/BoneHole_ex.xvi
+#export map -projection elevation -format xvi -layout lcommon -o Maps/BoneHole_el.xvi
+#export atlas -projection plan -layout lcommon -o Maps/BoneHole.pdf

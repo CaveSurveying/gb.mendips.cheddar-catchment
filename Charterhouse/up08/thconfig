@@ -1,0 +1,13 @@
+encoding  utf-8
+#File(s) to process
+#------------------
+
+source up08.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan  -o up08.pdf
+#Produces plan of cave, on a single sheet

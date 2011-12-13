@@ -1,0 +1,39 @@
+encoding  utf-8
+survey Waterwheel
+
+#Waterwheel Swallet, Charterhouse
+#Data from Willie Stanton's Survey Book 2 pp80 et seq
+#In all cases bearings in the original are in degrees and minutes
+#These are converted here to decimal degrees
+#Typed in by Graham Mullan June 2010
+
+input W1/W1.th
+input W2/W2.th
+equate 87@W1 87@W2
+
+input W3/W3.th
+equate 90@W2 90@W3
+
+input W4/W4.th
+equate 97@W3 97@W4
+
+input W5/W5.th
+equate 107@W4 107@W5
+
+input W6/W6.th
+equate 115@W5 115@W6
+
+input W7/W7.th
+equate 129@W6 129@W7
+
+input W8/W8.th
+equate 136@W7 136@W8
+
+input W9/W9.th
+equate 154@W8 154@W9
+
+input W10/W10.th
+equate 161@W9 161@W10
+
+endsurvey
+

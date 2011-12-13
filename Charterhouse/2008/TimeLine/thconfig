@@ -1,0 +1,26 @@
+encoding  utf-8
+source TimeLine.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout local -o TimeLine.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o TimeLineEe.pdf
+
+export model -fmt survex -o TimeLineth.3d
+#Survex file showing centre line only
+
+#export model -o TimeLine.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o TimeLine_Walls.3d
+#Survex file showing walls only
+
+layout local
+debug off
+
+endlayout

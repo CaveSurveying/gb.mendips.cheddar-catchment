@@ -1,0 +1,82 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -141.118 -1854.999 3107.0096 1629.3492
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {1269.21244095 1 1.0} {931.223228347 0.0} PocketTopo/wtp_ufs_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {1246.722 0 1.0} {910.801 MW51-stal@MW.WalkThePlankChamber} 0.Maps/WalkThePlankChamber.xvi 0 {}
+
+
+
+scrap PlankChamber_s1 -scale [-144.918 -1848.889 3103.2096 -1848.889 0.0 0.0 82.50244104 0.0 m] \
+-stations [FIXED-MW4-wall PAINTED-MW54-wall 0.11@PlankGrotto_DistoX] 
+
+point 2056.97244095 389.883228347 station -name 0.10@PlankGrotto_DistoX
+
+point 1860.78244095 296.853228347 station -name 0.9@PlankGrotto_DistoX
+
+point 1605.16244095 351.343228347 station -name 0.8@PlankGrotto_DistoX
+
+point 1401.81244095 396.493228347 station -name 0.7@PlankGrotto_DistoX
+
+point 1242.83244095 530.673228347 station -name 0.6@PlankGrotto_DistoX
+
+point 907.91244095 339.413228347 station -name 0.11@PlankGrotto_DistoX
+
+point 972.28244095 418.663228347 station -name 0.5@PlankGrotto_DistoX
+
+point 779.932 964.931 station -name 2b@TrenchPassage_Pony
+
+point 536.622 972.811 station -name MW54@MW
+
+point 840.71244095 678.863228347 station -name 0.4@PlankGrotto_DistoX
+
+point 1269.21244095 931.223228347 station -name 0.0@PlankGrotto_DistoX
+
+point 1164.56244095 773.543228347 station -name 0.2@PlankGrotto_DistoX
+
+point 1116.41244095 896.493228347 station -name 0.3@PlankGrotto_DistoX
+
+point 1245.47244095 914.173228347 station -name 0.1@PlankGrotto_DistoX
+
+line wall
+  304.0 1242.0
+  325.0 1219.0 519.0 936.0 526.0 932.0
+  533.0 928.0 765.0 629.0 770.0 606.0
+  775.0 583.0 850.0 456.0 865.0 428.0
+  880.0 400.0 901.0 346.0 906.0 330.0
+  smooth off
+endline
+
+line wall -reverse on
+  1257.0 949.0
+  1266.0 955.0 1125.9 907.03 1115.0 902.0
+  1102.0 896.0 1079.0 882.0 1040.0 893.0
+  1001.0 904.0 821.0 946.0 789.0 967.0
+  757.0 988.0 620.0 1070.0 591.0 1095.0
+  562.0 1120.0 370.0 1241.0 354.0 1266.0
+  smooth off
+endline
+
+line wall -reverse on
+  1300.0 826.0
+  1274.0 820.0 1247.0 823.0 1212.0 797.0
+  1177.0 771.0 1187.0 739.0 1191.0 727.0
+  1195.0 715.0 1262.0 655.0 1284.0 641.0
+  1306.0 627.0 1357.0 595.0 1384.0 573.0
+  1411.0 551.0 1450.0 532.0 1492.0 515.0
+  1534.0 498.0 1656.0 474.0 1688.0 467.0
+  1720.0 460.0 1885.0 443.0 1926.0 453.0
+  1967.0 463.0 2065.0 441.0 2067.0 399.0
+  altitude .
+  2069.0 357.0 2063.0 348.0 2034.0 342.0
+  2005.0 336.0 2028.0 310.0 1999.0 300.0
+  1970.0 290.0 1968.0 259.0 1865.0 276.0
+  1762.0 293.0 1628.0 317.0 1608.0 325.0
+  1588.0 333.0 1356.0 366.0 1340.0 375.0
+  1324.0 384.0 1234.0 391.0 1220.0 378.0
+  1214.83 373.2 1202.0 373.0 1191.0 341.0
+  smooth off
+endline
+
+endscrap
+
+

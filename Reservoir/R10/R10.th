@@ -1,0 +1,29 @@
+encoding  utf-8
+survey R10
+
+centreline
+cs OSGB:ST
+date  1970 03 17
+#Source WIS survey book 2 pp65/6
+
+
+data normal from to compass clino tape ignoreall
+units tape feet
+#calibrate compass +8.16
+calibrate compass -0.26
+#altered to allow for automatic magnetic deviation correction.
+
+481  507  084.66  18.16  24.0
+507  508  147.83  3.83  33.1
+508  509  112.00  56.75  7.6
+509  510  159.16  28.0  5.2
+510  511  160.00  33.83  65.0
+511  512  301.33  2.75  5.5
+#512 Tip of embedded chain link (2 loose links) holding rope.
+511  513  132.33  6.33  21.5
+513  514  200.33  15.5  6.0
+514  515  180.00  -13.0  33.6
+
+endcentreline
+endsurvey R10
+

@@ -1,0 +1,68 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -83.3 512.65 14727.727 19523.1602
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {4783.42 1 1.0} {17047.24 Entrance@Entrance} xvi/UF.xvi 0 {}
+
+
+
+scrap Snippets_s1 -scale [-128.0 -128.0 12155.535 -128.0 0.0 0.0 312.001789 0.0 m]
+
+line wall -id wall_SN_SW1 -subtype unsurveyed
+  9470.0 5605.0
+  9492.0 5591.0 9497.0 5688.0 9519.0 5674.0
+  9556.04 5650.43 9584.0 5592.0 9570.0 5560.0
+  9556.0 5528.0 9515.3 5439.74 9544.0 5368.0
+  9564.0 5318.0 9721.5 5174.5 9745.5 5154.5
+  smooth off
+endline
+
+line wall -id wall_SN_NW1 -subtype unsurveyed
+  9390.0 6058.0
+  9395.0 6055.0 9472.0 6005.5 9480.0 5994.0
+  9488.09 5982.38 9505.0 5973.0 9502.0 5961.0
+  9499.0 5949.0 9514.5 5700.5 9520.0 5686.0
+  9525.5 5671.5 9516.0 5690.0 9550.0 5664.0
+  9584.0 5638.0 9595.14 5569.83 9582.5 5553.5
+  9534.5 5491.5 9544.5 5404.5 9555.5 5372.5
+  9566.5 5340.5 9706.5 5204.5 9755.0 5165.5
+  smooth off
+endline
+
+line wall -id wall_SN_NW2 -subtype unsurveyed
+  9381.0 6050.0
+  9397.0 6039.0 9442.0 6011.0 9472.0 5987.0
+  9482.0 5979.0 9492.08 5969.94 9491.0 5960.0
+  9485.0 5905.0 9504.41 5688.06 9502.0 5686.0
+  9495.0 5680.0 9482.0 5627.0 9474.0 5619.0
+  smooth off
+endline
+
+point 9749.94 5159.87 station -name 48@RoyalIcing
+
+point 9372.0 5671.0 station -name UF_1.14@CharnelFull
+
+point 9612.0 5890.0 label -orientation 85.2 -text "Tim/Peat-sized Tube" -scale xs -align r
+
+point 9270.68 6142.53 label
+
+line wall -subtype unsurveyed
+  9368.0 3975.0
+  9374.0 3978.0 9378.5 3978.0 9378.5 3978.0
+  smooth off
+  9378.5 3978.0 9452.0 4006.5 9478.0 4005.0
+  9514.17 4002.91 9521.0 4014.0 9543.5 4045.5
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  9537.5 4048.5
+  9523.0 4035.5 9515.0 4013.0 9482.0 4014.0
+  9449.0 4015.0 9360.0 3982.5 9360.0 3982.5
+  smooth off
+endline
+
+point 9556.43 4043.9 station -name 37@RoyalIcing
+
+endscrap
+
+

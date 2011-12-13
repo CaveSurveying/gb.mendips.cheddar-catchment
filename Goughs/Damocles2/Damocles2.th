@@ -1,0 +1,40 @@
+encoding  utf-8
+survey Damocles2
+
+input Damocles2.th2
+
+map Damocles2M
+    Damocles2SPl1    
+endmap
+
+centreline
+  date 2011.07.06
+  
+  team "Tony Boycott" notes
+  team "John Williams" instruments
+  instrument instruments Tony-distoX
+  
+  data normal from to compass clino tape
+  extend right
+  1.23 1.22 325.50 -36.92 1.049
+  1.23 - 22.79 -0.78 0.442
+  1.23 - 102.39 -4.23 0.407
+  1.23 - 62.95 -82.47 0.402
+  1.23 - 180.00 5.73 0.671
+  1.24 1.23 320.47 -47.79 2.385
+  1.24 - 303.95 -10.48 0.566
+  1.24 - 21.18 11.06 2.371
+  1.24 - 301.50 44.54 0.459
+  1.24 - 203.47 -0.16 1.476
+  1.25 1.24 186.35 -38.82 1.601
+  1.25 - 194.71 -25.88 0.687
+  1.25 - 155.12 72.48 0.505
+  1.25 - 21.59 -11.54 1.700
+  1.25 - 182.25 -81.26 0.672
+  1.25 - 88.14 -7.48 1.681
+  1.25 - 116.47 0.90 1.658
+  1.25 - 126.05 5.56 1.671
+  1.25 - 139.94 -6.88 1.009
+endcentreline
+endsurvey
+

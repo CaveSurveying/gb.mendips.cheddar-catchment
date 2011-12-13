@@ -1,0 +1,20 @@
+encoding  utf-8
+survey RRift
+
+input RRift.th2
+
+map RRift
+  RRiftSPl1
+break
+  RRiftSPl2
+  RRiftSPl3
+endmap
+
+import RRIFT.3d -surveys use -filter rrift -cs EPSG:27700 -calibrate [0 0 0 300000 100000 0]
+#[0 0 0 299912 99991 0]
+#Should be -calibrate [0 0 0 300000 100000 0]
+#bodge to compensate for not doing datum shift between
+#Airy and WGS84 ellipsoids
+
+endsurvey
+

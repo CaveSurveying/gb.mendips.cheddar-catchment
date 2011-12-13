@@ -1,0 +1,10 @@
+encoding  utf-8
+survey WestPassage -title "West Passage"
+
+    # Attache surveys together.  
+    #equate d11@CentreLineOnly 24@WP.Pony.FullLRUD
+    
+    input WestPassage.Centre.th
+    input WestPassage.Full.th
+endsurvey
+

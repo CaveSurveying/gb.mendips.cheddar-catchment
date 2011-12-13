@@ -1,0 +1,30 @@
+encoding  utf-8
+source Time_Square.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o Time_Square.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o Time_SquareEe.pdf
+
+#export model -fmt survex -o Time_Squareth.3d
+#Survex file showing centre line only
+
+#export model -fmt therion -o Time_Square.thm
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Time_Square_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+map-header 0 0 off
+debug off
+
+endlayout
+
+input ../../../common_layout.th

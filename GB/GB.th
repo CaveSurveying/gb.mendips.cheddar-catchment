@@ -1,0 +1,34 @@
+encoding  utf-8
+survey GB
+
+input Crickmay.th
+input LadderDig/LadderDig.th
+input BatPassage/BatPassage.th
+input GreatChamber/GreatChamber.th
+input TheDig/TheDig.th
+
+equate gb.t.1@Crickmay 1@LadderDig
+#Next line is correct the one before is a bodge
+#equate gb.t.1@Crickmay 1.0@LadderDig
+equate 1.19@LadderDig 1.0@BatPassage
+equate 1.19@LadderDig 1.24@GreatChamber
+equate  1.15@BatPassage 1.0@TheDig
+
+join LadderDigSPl1@LadderDig Crick007ScP1@Crickmay -smooth on
+join TheDigSPl1@TheDig BatPassageSPl2@BatPassage -smooth on
+
+map LadderExtensionM -title "Ladder Dig Extension"
+  GreatChamberM@GreatChamber
+  break
+  LadderDigM@LadderDig
+  BatPassageMPl@BatPassage
+  TheDigM@TheDig  
+endmap
+
+map GBM -title "GB"
+  CrickmayM@Crickmay
+  LadderExtensionM
+endmap
+
+endsurvey
+

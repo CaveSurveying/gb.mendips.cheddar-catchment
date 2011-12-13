@@ -1,0 +1,36 @@
+*BEGIN Entrance
+
+;Manor Farm Swallet Charterhouse, Mendip
+;Source Wille Stanton's Survey Book 2 pages 76-77
+;Typed in by Graham Mullan November 2008
+;Entrance positioning down to first pitch
+;WIS, Will, Terry, Alan T.
+*COPYRIGHT 2008 UBSS
+*DATE 1973.10.05
+*CALIBRATE Compass +6.66
+
+*DATA NORMAL FROM TO COMPASS CLINO TAPE IGNOREALL
+;passage dimensions recorded but order not noted
+;passage dimensions not included in this file
+
+*BEGIN
+*FLAGS surface
+*Fix 5 reference 49805 55644 235.06
+
+5	6	209.5	-0.66	12.5
+6	7	266.5	-6.75	11.46
+;7 is N edge of shaft on blockhouse roof
+*ENTRANCE 7
+*END
+7	8	0	-90	15.24
+8	9	163	-9.16	5.01	bottom of shaft
+9	10	186	-28.5	4.63
+10	11	250.5	-15	1.70
+11	12	173	-25.33	4.90
+12	13	087	2.33	3.25
+13	14	132.33	-6.5	2.34	hammered cross in roof 0.2 m over 13
+14	15	187.66	-24.66	9.70	at top of old tramway
+15	16	355.5	-11.33	1.42	End of rift, beyond pitch "15' pitch"
+
+
+*END Entrance

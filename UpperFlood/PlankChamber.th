@@ -1,0 +1,72 @@
+encoding  utf-8
+ 
+survey PlankChamber -title " " 
+  units clino compass degree
+  units length meter
+  #declination -3.13 deg   #3deg 8 min West @ 2006.09.17  51.2987N 2.71038W
+  declination -2.58 deg   #Allign to grid, Grid North +0.55 deg
+
+  survey one 
+    centreline
+      date 2007.12.08   # check date
+      team "Ben Cooper"    instruments  # Instruments
+      team "Julie Hesketh"  notes    # Note taker
+      instrument length  "Ben's Bosch DLE50 laser rangefinder"
+      instrument compass  "Ben's SAP #7"  
+
+      # LRUD taken in terms of direction of Survey (not the leg if reversed)
+      data normal \
+      from to length compass	clino 	left	right	up	down			# station Nr
+      FF50 FF51	5.81	40.5	+5	[0.6 1]	[3.0 2.5]	[8.5 2]	[0.6 1.5]	# 51 Estimated LRUD		
+      FF50 FF52	2.26	67	+33	6	3.0	7.5	0			# 52 Estimated LRUD
+      extend left
+      FF52 FF53	7.11	295	+24	5.6	0.9	7.0	0.2			# 53 REVERSED
+      FF53 FFMW54	12.82	291	+36	0	3.5	0	1.5		# 54 Top of LH Wall
+      data normal from to length compass clino				
+      FFMW54 FF55	7.90	322	+6
+      data normal from to length compass clino left right up down
+      FFMW54	2	7.51	093	-34	[3.2 0] [0 4.7] [0 4.7]	[1.5 1.7]	# 1-2
+      2	2a	5.54	120	-40	0.8	5.5	7.0	2		# 2a boulder in floor (see FFMW.Leg2)
+      data normal from to length compass clino				
+      2	2b	10.8	0	+90								# 2b - Aven 
+      FF53	FF56	18.1	128	-5 				# duplicate legs from FFMW
+      FF53	FF57	16.5	177	-5 				# duplicate legs from FFMW
+      equate FF53 2a
+    endcentreline
+  endsurvey # one
+  
+  survey two
+    centreline
+      data normal \
+      from to	length	compass clino	left	right	up	down	# station Nr
+      2	3	8.55	173	-28	8.6	0	3.0	0.7	# 3 bottom of overhang
+      3	4	6.93	136	-26	6.5	3.0	3.0	0	# 4 mud on floor edge of stream
+    endcentreline
+  endsurvey # two
+  
+  survey three
+    centreline
+      date 2008.03.08    
+      team "Ben Cooper"    instruments  # Instruments
+      team "Tim Francis"   notes    # Note taker
+      instrument length  "Ben's Bosch DLE50 laser rangefinder"
+      instrument compass  "Ben's SAP #7"  
+      data normal \
+      from to	length	compass clino	left	right	up	down	# station Nr
+      A1 A2	129	-08	16.56	8.6	0	3.0	0.7	# 2@two
+      A2 A3	090	-12	3.37	4.3	0.8	0.8	0.2	# A2
+      A3 A4	132	-18	6.23	2.4	2.2	1.4	0.2	# A3
+      A4 A5	089	-10	8.20	[4.1 1]	[0 2] 	[2.0 1]	[1.0 0.3]	
+      									# A4 Est. LRUD for A5
+      									# A5 is tip of rock at end above sand
+      flags duplicate # a couple of stations to fix side wall
+      A2 B1	288	-10	5.79	[0 3.2] [8.6 3.8] [3.0 2.7] [0.7 0.3] # B1 is top of rocks close to drop
+      B1 B2	196	+24	4.99					# B2 is LH corner of Trench Passage
+      flags not duplicate
+    
+
+   endcentreline
+  endsurvey # three
+
+endsurvey
+

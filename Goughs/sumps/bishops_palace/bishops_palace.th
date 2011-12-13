@@ -1,0 +1,176 @@
+encoding  utf-8
+survey bishops_palace
+
+input bishops_palace.th2
+
+map bishops_palaceM
+  bishops_palaceSPl1
+endmap
+
+centreline
+
+date 2011.05.07
+team "Duncan Price" instruments
+
+data normal from to bearing gradient length ignoreall        
+0  0A  200  -26  6.392
+0  1  -  down  1.027
+1  2  321  +11  3.084
+3  2  164  -33  5.491
+3  4  345  +14  6.424
+4  5  029  +32  8.365
+5  6  340  +27  5.581
+6  7  358  +16  8.031
+8  7  195  -39  10.814
+9  8  177  +13  7.896
+9  10  012  -49  10.117
+11  10  192  +32  7.498
+12  11  197  +14  11.436
+12  13  002  +10  8.921
+13  14  354  -02  2.781
+14  15  065  -26  4.225
+15  16  106  -03  2.963
+17  16  253  -19  4.167
+17  18  078  -42  1.663  ; 18 scaffold pole end opposite wall to 19 on which ladder rests
+19  18  140  +48  3.331  ; 19 = bolt to which Sump 2 line tied
+
+flags splay
+0A  0AA  200  +00  4.44
+0A  0AB  290  +06  3.619
+0A  0AC  110  +02  4.569
+0A  0AD  -  up  1.293
+1  1A  086  00  6.972
+1  1B  264  00  6.032
+1  1C  -  up  4.912
+2  2A  224  00  5.153
+4  4A  269  -13  2.097
+4  4B  -  up  5.504
+4  4C  087  +23  10.538
+5  5A  267  -04  6.966
+5  5B  274  +29  5.629
+5  5C  -  up  3.122
+5  5D  169  -15  20  ; revised up from 17.367
+5  5C  199  -16  12.303
+5  5E  -  down  1.398
+5  5F  089  +26  6.721
+6  6A  284  -11  5.727
+6  6B  289  -09  7.829
+6  6C  316  +04  11.055
+6  6D  -  up  1.365
+6  6E  -  down  2.404
+6  6F  090  +07  7.067
+7  7A  112  +24  8.992
+7  7B  -  up  4.111
+7  7C  -  down  2.43
+7  7D  229  -05  9.99
+8  8A  093  -03  9.183
+8  8B  283  -23  11.521
+9  9A  257  -09  7.867
+9  9B  264  +06  4.446
+9  9C  325  -10  3.162
+9  9D  014  -09  15.231
+9  9E  -  up  4.444
+9  9F  -  down  9.199  
+9  9G  089  -02  5.322
+9  9H  030  -08  10.497
+11  11A  276  00  1.025
+11  11B  091  00  3.884
+11  11C  -  up  14.831
+11  11D  -  down  4.556
+11  11E  002  00  6.41
+11  11F  022  00  6.026
+12  12A  277  -26  4.853
+12  12B  098  00  2.688
+12  12C  -  up  8.165
+12  12D  -  down  1.591
+13  13A  256  00  1.142
+13  13B  080  00  3.616
+13  13C  -  up  4.300
+13  13D  -  down  1.289
+14  14A  272  -12  1.544
+14  14B  326  +06  2.364
+14  14C  024  +05  1.618
+14  14D  350  +09  9.046
+14  14E  -  up  4.724
+14  14F  293  -06  6.589
+14  14G  275  -09  7.037
+14  14H  103  -15  3.982
+14  14I  173  +28  4.090
+15  15A  356  +09  3.154
+15  15B  010  +13  7.369
+15  15C  032  +17  8.258
+15  15D  020  -17  11.264
+15  15E  102  +01  6.326
+15  15F  081  +10  5.077
+19  19A  -  up  5.390
+19  19B  -  down  1.590
+19  19C  083  0  0.902
+19  19D  172  0  12.112  ; downstream to wall
+19  19E  357  0  6.513  ; far wall of sump pool
+15C  15C1  100  0  2.000  ; made up
+flags not splay
+
+data dimensions station left right up down
+#estimated from splay shots for the purposes of creating 3D model
+0AA  1.0  1.0  0.5  0.0
+0A  3.7  4.6  1.3  0.0
+1  6.2  7.0  5.0  1.0
+2  5.4  1.0  5.0  1.0
+3  3.9  0.0  5.0  1.0
+4  2.1  10.1  5.6  1.0
+
+data dimensions station left right up down
+#estimated from splay shots for the purpose of creating 3D model
+5D  8.6  4.6  1.0  2.0
+5  7.0  6.1  4.0  1.5
+6  7.9  7.1  1.4  2.5
+7  7.4  8.6  4.2  2.5
+8  11.0  9.3  0  11.5
+9  6.5  5.4  4.5  9.1
+10  1.6  4.4  12.1  8.5
+11  1.1  4.1  14.9  4.6
+12  4.4  2.7  8.2  2.2
+13  1.2  3.7  4.3  1.3
+14  1.5  3.7  4.8  1.0
+14B  0.0  2.0  4.8  1.0
+14D  0.5  0.5  4.0  2.8
+
+data dimensions station left right up down
+#estimated from splay shots for the purpose of creating 3D model
+12A  0  2.5  2.0  0.0
+14G  0.0  3.7  0.0  2.0
+14F  0.0  4.8  0.0  1.2
+
+data dimensions station left right up down
+#estimated from splay shots for the purpose of creating 3D model
+14G  1.0  1.2  0.0  2.0
+14F  2.0  1.2  0.0  1.2
+14A  1.9  0.2  0.6  0.6
+15  3.2  2.5  1.7  0.0
+16  2.0  0  1.5  0.0
+18  0.0  2.0  1.3  0.0  
+
+data dimensions station left right up down
+#estimated from splay shots for the purpose of creating 3D model
+15B  0  1.7  0.0  1.5
+15C  0  1.7  0.0  1.5
+15C1  0  1.7  0.0  1.5
+
+data dimensions station left right up down
+#estimated from splay shots for the purpose of creating 3D model
+15  1.5  0.0  1.2  0.7
+15A  0.0  2.4  0.7  5.0
+15B  0  3.2  0.0  5.7
+15C  2.5  0.0  0.0  5.8
+15D  0.5  0.5  5.7  0.0
+
+data dimensions station left right up down
+#estimated from splay shots for the purpose of creating 3D model
+19E  0.5  0.9  4.8  1.7
+19  1.4  0.0  5.4  2.4
+19D  1.2  0.9  5.8  2.0
+
+endcentreline
+
+endsurvey
+

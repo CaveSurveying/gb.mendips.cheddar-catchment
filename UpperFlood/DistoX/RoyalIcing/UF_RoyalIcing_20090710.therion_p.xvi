@@ -1,0 +1,9 @@
+set XVIgrids {1.0 m}
+set XVIstations {
+  {0.0 0.0 1.0}
+}
+set XVIshots {
+}
+set XVIsketchlines {
+}
+set XVIgrid {-19.6850393701 -19.6850393701 39.3700787402 0.0 0.0 39.3700787402 1 1}

@@ -1,0 +1,32 @@
+encoding  utf-8
+survey R11
+
+centreline
+cs OSGB:ST
+date 1973 11 21
+#Source WIS survey book 2 pp78/9
+
+data normal from to compass clino tape ignoreall
+units tape feet
+#calibrate compass +7.50
+calibrate compass -0.63
+#altered to allow for automatic mag dev correction
+
+512  524  126.5  4.66  19.4
+524  525  167.50  21.0  8.7
+525  526  081.50  37.33  8.5
+526  527  171.5  33.5  7.7
+527  528  -  up  16.7
+528  529  026.5  22.16  9.1
+529  530  137.00  3.33  11.7
+530  531  220.00  72.5  29.0
+531  532  074.00  -27.16  2.2
+532  533  207.00  5.25  9.2
+533  534  262.50  11.0  9.6
+#534 Top of stumpy stalagmite on west wall 3' below roof
+532  535  129.00  17.0  7.5
+535  536  005.00  49.0  34.0
+
+endcentreline
+endsurvey R11
+

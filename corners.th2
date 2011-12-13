@@ -1,0 +1,22 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 0 0 1600 1200
+##XTHERION## xth_me_area_zoom_to 100
+
+
+
+scrap corners -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+#-stations [bl tl br tr] -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+
+point 356.0 655.0 station:fixed -name tr  -context point ice-pillar
+
+point 245.0 553.0 label -text " "  -context point ice-pillar
+
+point 356.0 655.0 label -text " "  -context point ice-pillar
+
+point 245.0 553.0 station:fixed -name bl -context point ice-pillar
+
+endscrap
+
+

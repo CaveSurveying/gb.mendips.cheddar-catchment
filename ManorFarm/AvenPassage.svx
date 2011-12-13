@@ -1,0 +1,30 @@
+*BEGIN AvenPassage
+
+;Manor Farm Swallet Charterhouse, Mendip
+;Source Wille Stanton's Survey Book 2 page 80
+;Typed in by Graham Mullan November 2008
+;Albert's Eye and Stream Junction
+;WIS, Will, Terry, Brian.
+*COPYRIGHT 2008 UBSS
+*DATE 1974.06.05
+*CALIBRATE Compass +6.83
+
+*DATA NORMAL FROM TO COMPASS CLINO TAPE IGNOREALL
+;passage dimensions recorded but order not noted
+;passage dimensions not included in this file
+
+40	92	247	-14.16	4.58
+92	93	357	7	9.30
+93	94	287	19.33	6.88
+94	95	310	17.75	8.93
+95	96	227	27	2.42
+96	97	096	51.83	6.71
+97	98	040	34	1.76
+98	99	356	16.5	1.34
+99	100	313	10	20.50
+100	101	223	0	0.60
+101	102	320	4	6.40
+102	103	038	7	12.00
+
+
+*END AvenPassage

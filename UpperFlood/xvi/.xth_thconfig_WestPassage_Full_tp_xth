@@ -1,0 +1,11 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 158.32m (surface 0.00m, duplicated 9.40m)\nvertical range: 16.89m (from 40@RI.FullLRUD at 1.79m to 19@FullLRUD at -15.10m)\nnorth-south range: 27.92m (from 27@FullLRUD at 14.29m to 3@FullLRUD at -13.63m)\neast-west range: 100.38m (from 39@RI.FullLRUD at 7.08m to 6@FullLRUD at -93.30m)\nnumber of shots: 35\nnumber of stations: 37"
+xth_cp_data_tree_insert 13 1 1 FullLRUD FullLRUD "" "" "length: 158.32m (surface 0.00m, duplicated 9.40m)\nvertical range: 16.89m (from 40@RI.FullLRUD at 1.79m to 19@FullLRUD at -15.10m)\nnorth-south range: 27.92m (from 27@FullLRUD at 14.29m to 3@FullLRUD at -13.63m)\neast-west range: 100.38m (from 39@RI.FullLRUD at 7.08m to 6@FullLRUD at -93.30m)\nnumber of shots: 35\nnumber of stations: 37"
+xth_cp_data_tree_insert 16 13 2 RI RI.FullLRUD "" "" "length: 0.00m (surface 0.00m, duplicated 9.40m)\nvertical range: 2.39m (from 40@RI.FullLRUD at 1.79m to 39@RI.FullLRUD at -0.60m)\nnorth-south range: 1.98m (from 39@RI.FullLRUD at 0.31m to 40@RI.FullLRUD at -1.67m)\neast-west range: 7.08m (from 39@RI.FullLRUD at 7.08m to 42@RI.FullLRUD at 0.00m)\nnumber of shots: 3\nnumber of stations: 4"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 158 0

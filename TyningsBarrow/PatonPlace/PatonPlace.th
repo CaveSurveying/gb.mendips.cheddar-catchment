@@ -1,0 +1,123 @@
+encoding  utf-8
+survey PatonPlace
+
+input PatonPlace.th2
+
+map PatonPlaceM
+  PatonPlaceSPl1
+endmap
+centreline
+#Numbers measured from plan by A.Crow in 2010.
+#Conversion to therion Andrew Atkinson, May 2010.
+#See spreadsheet for more information.
+data cartesian station newline easting northing altitude
+units length feet
+17
+  3.67  0.52  3.23
+105
+  -1.13  3.38  0
+106
+  -5.08  9.46  0
+107
+  0.45  4.15  0
+107b      
+     
+
+
+data cartesian station newline easting northing altitude
+105
+  3.19  0.33  2.26
+105b
+  6.72  -1.18  0.49
+105c
+  5.41  1.46  0.46
+105d
+  7.24  0.75  0.34
+108
+  2.82  0.28  0.15
+114
+  2.07  4.33  1.16
+128
+  -5.08  8.52  1.71
+129
+  -7.75  15.57  6.68
+130
+  -6.07  10.06  4.15
+131
+  -11.66  19.14  8.81
+132
+  -5.55  0.7  3.41
+133
+  -5.31  5.74  2.41
+134
+  1.22  -6.86  -2.48
+135
+  6.35  -12.18  -2.48
+136
+  -0.05  -0.99  -4.61
+137
+  -1.46  -0.56  -4.61
+138
+  0.75  -1.32  -4.61
+139
+  -2.4  -0.37  -4.61
+140
+  13.77  -27.88  -4.61
+141
+  0.15  -1.65  -4.61
+14      
+
+
+data cartesian station newline easting northing altitude
+114
+  0.66  -0.80  0.43
+115
+  12.27  1.98  4.85
+116
+  -1.65  7.62  0
+122
+  2.12  2.35  2.71
+123
+  5.64  1.6  -0.15
+124
+  -0.28  5.36  1.86
+125
+  14.1  2.21  -0.88
+126
+  -14.1  -2.21  -0.88
+125
+  -2.4  -0.52  -0.88
+125b
+  -5.45  -6.44  -0.88
+127
+  0.37  -2.35  -0.88
+122      
+
+
+data cartesian station newline easting northing altitude
+
+116
+  3.34  -0.28  0
+117
+  1.22  1.32  0
+118
+  2.26  0.37  0
+119
+  1.79  -0.94  0
+120
+  1.51  0.23  0
+121
+
+data cartesian station newline easting northing altitude
+
+139
+  -9.89  19.55  0
+142      
+      
+    
+      
+     
+
+endcentreline
+endsurvey
+

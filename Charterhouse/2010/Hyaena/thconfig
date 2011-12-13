@@ -1,0 +1,29 @@
+encoding  utf-8
+source Hyaena.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o Hyaena.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o HyaenaEe.pdf
+
+export model -fmt survex -o Hyaenath.3d
+#Survex file showing centre line only
+
+#export model -fmt therion -o Hyaena.thm
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Hyaena_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+
+endlayout
+
+input ../../../common_layout.th

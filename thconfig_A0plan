@@ -1,0 +1,117 @@
+encoding  utf-8
+source CheddarCatchment.th
+cs OSGB:SN
+# Change name to the main therion file
+
+#Surface.Charterhouse needs to be present for generation of 3d grid (comment out unselect)
+#But unselected for lox, otherwise you get 2 grids
+#unselect Surface.Charterhouse
+
+select TyningsGSM@TyningsGS.CheddarCatchment
+select OldCaveM@OldCave.charter.CheddarCatchment
+select GBM@GB.CheddarCatchment
+select New_Charter_displaceM@charter.CheddarCatchment
+select ReadsGrottoM@ReadsGrotto.CheddarCatchment
+#select 2010bM@2010b.charter.CheddarCatchment
+select charter.CheddarCatchment
+
+
+#Surveys to output
+#-----------------
+
+#Produces plan of cave, on a single sheet
+export map -proj plan -layout local -o Outputs/Charterhouse_GB_systemA0.pdf
+#export map -proj plan -layout local -o Outputs/2010b.pdf
+
+
+layout local
+copy common
+
+
+#copy legend
+#map-image 2 3 sw Charterhouse_overview.pdf
+#map-image 60 70 sw Charterthouse_GB_Titlebox.pdf
+#surface bottom
+#surface-opacity 100
+#transparency off
+#debug on
+#debug first 
+#debug second
+#colour map-fg [0 50 50]
+colour map-fg [100]
+#colour map-fg map
+colour map-bg [100]
+
+
+
+#base-scale 1 500
+scale 1 1000
+
+#A3
+#scale 1 2750
+#base-scale 1 750
+
+#A4
+#scale 1 6000
+
+#rotate 270
+#symbol-hide group all
+#symbol-show line wall
+
+#symbol-hide group sections
+#symbol-hide line section
+symbol-hide point remark
+symbol-hide group cave-centreline
+
+symbol-hide point continuation
+
+#grid off
+map-header 70 90 off
+map-header-bg off
+statistics explo off
+statistics topo off
+statistics carto off
+
+map-comment "Drawn, using Therion, by Andrew Atkinson.<br>With thanks to all the other cavers past and present<br>that have made information available.<br>Survey UBSS/WCC<br>Copyright CC BY NC SA <br> <br>Spot heights in metres AOD"
+
+code metapost
+
+  #base 1:750 scale 1:2750 (A3 charterhouse,GB)
+  #fonts_setup(8,16,24,40,60)
+
+  #scale 1:1000 (A0 width charterhouse,GB)
+  fonts_setup(7,10,14,20,30)
+
+  #base 1:500 scale 1:2750 
+  #fonts_setup(8,20,26,40,60)
+
+endcode
+
+code tex-map
+    \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+    \def\maplayout{
+
+      \legendbox{60}{70}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/UBSS_survey/Charterhouse/Charterthouse_GB_Titlebox.pdf}}
+      \legendbox{2}{3}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/UBSS_survey/Charterhouse/Charterhouse_overview.pdf}}
+      \legendbox{32}{3}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/UBSS_survey/Charterhouse/Overview_Key.jpg}}
+      \legendbox{62}{73}{SW}{\northarrow}
+      \legendbox{65}{73}{SW}{\scalebar}
+    }
+
+endcode
+
+endlayout
+
+layout legend
+  code tex-map
+    \def\maplayout{
+      \legendbox{0}{100}{NW}{\northarrow\scalebar}
+      \legendbox{100}{100}{NW}{\scalebar}
+    }
+
+endcode            
+    
+endlayout
+
+#get the master layout settings
+input common_layout.th

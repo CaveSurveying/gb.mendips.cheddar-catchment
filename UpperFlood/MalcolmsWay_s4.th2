@@ -1,0 +1,62 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 14021.15 5735.42 21149.0316 14605.1327
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {15556.92 1 1.0} {10778.71 35@Leg1.MalcolmsWay} xvi/MalcolmsWay.xvi 0 {}
+
+
+
+scrap MalcolmsWay_s4 -scale [-128.0 -128.0 6618.1104 -128.0 0.0 0.0 171.35120416 0.0 m]
+
+point 19776.74 6728.39 station -name 1@Leg2.MalcolmsWay
+
+point 19823.51 6877.75 station -name 2@Leg2.MalcolmsWay
+
+point 19839.73 6935.97 station -name 3@Leg2.MalcolmsWay
+
+point 19896.04 7072.46 station -name 4@Leg2.MalcolmsWay
+
+point 19948.06 7161.22 station -name 5@Leg2.MalcolmsWay
+
+point 19939.71 7209.66 station -name 6@Leg2.MalcolmsWay
+
+point 20033.48 7284.34 station -name 7@Leg2.MalcolmsWay
+
+line wall
+  19781.0 6725.0
+  19789.0 6743.0 19828.0 6865.5 19832.5 6874.0
+  19837.0 6882.5 19850.0 6921.5 19854.0 6931.5
+  19858.0 6941.5 19886.5 7042.5 19890.5 7054.5
+  19894.5 7066.5 19898.0 7076.0 19910.5 7091.0
+  19923.0 7106.0 19954.0 7151.5 19956.5 7160.0
+  19959.0 7168.5 19953.5 7183.5 19962.5 7195.5
+  19971.5 7207.5 20025.0 7265.25 20029.5 7272.75
+  20034.0 7280.25 20033.71 7278.68 20033.48 7284.34
+  20033.25 7290.0 20033.35 7289.4 20029.25 7293.5
+  20026.75 7296.0 20024.5 7298.0 20022.0 7296.0
+  smooth off
+endline
+
+line arrow -head end
+  19654.0 6790.0
+  19756.0 6770.0
+endline
+
+point 19634.0 6794.0 label -text "Terminal 1" -scale s -align l
+
+line wall
+  20022.0 7296.0
+  20017.0 7284.0 19935.0 7227.0 19935.0 7213.0
+  19935.0 7199.0 19938.0 7179.0 19933.0 7165.0
+  19928.0 7151.0 19893.0 7105.0 19883.0 7079.0
+  19873.0 7053.0 19838.0 6955.0 19832.0 6940.0
+  19826.0 6925.0 19814.0 6902.0 19806.0 6884.0
+  19798.0 6866.0 19776.0 6748.0 19771.0 6735.0
+  smooth off
+  altitude .
+endline
+
+point 19761.0 6698.0 water-flow -orientation 200.9
+
+endscrap
+
+

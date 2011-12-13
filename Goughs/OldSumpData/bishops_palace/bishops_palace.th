@@ -1,0 +1,34 @@
+encoding  utf-8
+survey bishops_palace
+
+centreline
+
+date 2005.07.16
+#date taken from Somerset Sump Index
+
+cs OSGB:ST
+
+data normal from to length bearing gradient ignoreall
+bp0  bp1  1.1  130  -30
+bp1  bp2  5.9  170  +70
+bp2  bp3  6.3  261  -21
+bp3  bp4  7.0  255  +25
+bp4  bp5  13.6  178  -12
+bp5  bp6  12.5  192  +22
+bp6  bp7  5.9  150  +18
+bp7  bp8  6.3  260  +20
+bp8  bp9  10.2  120  +20
+bp9  bp10  14.5  175  +2
+bp10  bp11  10.3  195  0
+bp11  bp12  2.6  290  +25
+bp12  bp13  10.2  246  -28
+bp13  bp14  11.6  160  -35
+bp14  bp15  7.65  212  -25
+bp15  bp16  6.7  135  -35
+bp16  bp17  5.4  170  -25
+bp13  rt1  21.4  357  +12
+rt1  rt2  9.0  060  +10
+
+endcentreline
+endsurvey bishops_palace
+

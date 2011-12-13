@@ -1,0 +1,14 @@
+*BEGIN RhinoRift
+
+;Compilation File for all of Rhino Rift
+;Typed in by Graham Mullan October 2008
+
+*COPYRIGHT UBSS 2008
+
+*INCLUDE Rhino1.svx
+
+*INCLUDE Rhino2.svx
+
+*EQUATE Rhino1.19 Rhino2.19
+
+*END RhinoRift

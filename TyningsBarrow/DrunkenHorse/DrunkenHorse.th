@@ -1,0 +1,59 @@
+encoding  utf-8
+survey DrunkenHorse
+
+input DrunkenHorse.th2
+
+map DrunkenHorseM
+  DrunkenHorseSPl1
+endmap
+
+centreline
+#Numbers measured from plan by A.Crow in 2010.
+#Conversion to therion Andrew Atkinson, May 2010.
+#See spreadsheet for more information.
+data cartesian station newline easting northing altitude
+50a
+  -1.36  3.34  2.9
+63
+  -6.53  4.14  2.44
+64
+  -1.03  3.24  0.12
+65
+  -2.26  1.6  0.15
+66
+  -1.17  3.01  1.58
+67
+  0.89  4.19  2.8
+68
+  0.85  0.89  0.73
+69
+  3.01  7.71  0.15
+70
+  4.23  4.14  1.98
+71
+  22.24  12.75  5.27
+72a
+  0  0  3.14
+72b
+  0.8  8.74  0.98
+73
+  -0.47  2.45  0.73
+74
+  0.8  4.61  2.56
+75
+  -12.65  4.61  2.13
+76
+  -5.92  7.66  1.01
+77
+  -1.93  5.18  1.43
+78
+  -1.74  -0.33  1.13
+79
+  -1.37  13.35  10.39
+80      
+
+
+
+endcentreline
+endsurvey
+

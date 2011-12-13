@@ -1,0 +1,106 @@
+encoding  utf-8
+survey Other_Sites -namespace off
+centreline
+cs OSGB:ST
+
+#Information taken from MCRA, unless otherwise stated.
+
+#fix  #ST 
+#station  "" entrance
+
+
+fix BattsCombeQuarryPot 46250 55300 190 #ST 4625 5530 190
+station BattsCombeQuarryPot "Prob most destroyed" entrance
+fix BedStead 48550 54600 171 #ST 4855 5460 171
+station BedStead "" entrance
+fix BlackRockQuarry 48600 54660 192 #ST 4860 5466 192
+station BlackRockQuarry "" entrance
+fix BlackRockRift 48180 54630 158 #ST 4818 5463 158
+station BlackRockRift "" entrance
+#fix BoneHole 48050 54720 185 #ST 4805 5472 185
+#station BoneHole "" entrance
+#fix Boxs 46310 54430 93 #ST 4631 5443 93
+#station Boxs "" entrance
+fix BrockHole 47400 54330 215 #ST 4740 5433 215
+station BrockHole "" entrance
+fix Canyon 46980 54300 108 #ST 4698 5430 108
+station Canyon "" entrance
+fix Coxs 46460 53900 23 #ST 4646 5390 23
+station Coxs "" entrance
+#fix WarrenFarmSwallet 49360 54580 235
+#station WarrenFarmSwallet "" entrance
+fix Chedder1Feeder 46660 53890 27 #ST 4666 5389 27
+station Chedder1Feeder "" entrance
+fix Chedder2Rising 46610 53890 27 #ST 4661 5389 27
+station Chedder2Rising "" entrance
+fix ChelmsCombeShelter 46340 54470 111 #ST 4634 5447 111
+station ChelmsCombeShelter "Part destroyed" entrance
+fix ChelmsCombeQuarryCave 46270 54370 96 #ST 4627 5437 96
+station ChelmsCombeQuarryCave "" entrance
+fix CoopersHole 46820 54020 42 # ST 4682 5402 42
+station CoopersHole "" entrance
+fix FallingScree 47470 54330 234 #ST 4747 5433 234
+station FallingScree "" entrance
+#fix HangoverHole 48960 54820 206 #ST 4896 5482 206
+#station HangoverHole "" entrance
+#Now in seperate file
+fix HoneyHole 46950 54090 98 #ST 4695 5409 98
+station HoneyHole "" entrance
+fix LongwoodValleySink 48580 55480 207 #ST 4858 5548 207
+station LongwoodValleySink "" entrance
+fix NodsPot 47640 54900 236 #ST 4764 5490 236
+station NodsPot "" entrance
+fix PaveysCave 46430 53850 21 #ST 4643 5385 21
+station PaveysCave "" entrance
+fix PigsHole 47700 54550 133 #ST 4770 5455 133
+station PigsHole "" entrance
+fix PittardsCrawl 47540 54480 139 #ST 4754 5448 139
+station PittardsCrawl "" entrance
+fix PrideEvansAttic 46770 54090 97 #ST 4677 5409 97
+station PrideEvansAttic "" entrance
+fix PrideEvansHole 46810 54060 60 #ST 4681 5406 60
+station PrideEvansHole "" entrance
+fix ReynoldsRift 46300 54440 86 #ST 4630 5444 86
+station ReynoldsRift "" entrance
+fix ScallopedHole 47340 54380 113 #ST 4734 5438 113
+station ScallopedHole "" entrance
+fix SecondTier 47280 54260 163 #ST 4728 5426 153
+station SecondTier "" entrance
+fix SnabletsDig 47520 54350 215 #ST 4752 5450 215
+station SnabletsDig "" entrance
+fix SoldiersHole 46870 54000 87 #ST 4687 5400 87
+station SoldiersHole "" entrance
+fix SowsHole 47853 54567 139 #ST 4785 5456 139
+station SowsHole "" entrance
+fix SparryFissure 48020 54580 151 #ST 4802 5458 151
+station SparryFissure "" entrance
+fix SpiderHole 48060 54240 184 #ST 4806 5424 184
+station SpiderHole "" entrance
+fix SugerLoafRock 46900 54150 54 #ST 4690 5415 54
+station SugerLoafRock "" entrance
+fix SunHole 46730 54080 83 #ST 4673 5408 83
+station SunHole "" entrance
+fix  SwineHole 47380 54330 204 #ST 4738 5433 204
+station SwineHole "" entrance
+#fix TimberHole 48840 54830 189 #ST 4884 5483 241
+#station TimberHole "" entrance
+#Now in separate file 
+fix TyningsGateOchre1 46170 55660 247 #ST 4617 5566 247
+station TyningsGateOchre1 "" entrance
+fix TyningsGateOchre2 46250 55580 241 #ST 4625 5558 241 
+station TyningsGateOchre2 "" entrance
+fix TyningsGateOchre3 46110 55640 245 #ST 4611 5564 245 
+station TyningsGateOchre3 "" entrance
+fix Wallflower 47280 54270 128 #ST 4728 5427 128
+station Wallflower "" entrance
+#Cerberus Newsletter 10(4) 1980 Grid measured from plan height stated on elevation
+fix Whopper  46000 55600 220 #ST 460 556 220
+station Whopper "Prob Destoyed" entrance
+fix WhitebeamSlitter 47410 54330 215 #ST 4741 5433 215
+station WhitebeamSlitter "" entrance
+
+
+
+endcentreline
+endsurvey
+

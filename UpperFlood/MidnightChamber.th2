@@ -1,0 +1,66 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 986.9852 1392.6171
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {477.209 1 1.0} {1145.314 1} xvi/MidnightChamber.xvi 0 {}
+
+
+
+scrap MC_s1 -projection plan -scale [-128.0 -128.0 986.9852 -128.0 0.0 0.0 28.32062408 0.0 m]
+
+point 130.0 124.0 station -name 12@MidnightChamber
+
+point 221.499 196.274 station -name 11@MidnightChamber
+
+point 458.739 230.174 station -name 10@MidnightChamber
+
+point 653.0 192.0 station -name 9@MidnightChamber
+
+point 730.639 204.924 station -name 8@MidnightChamber
+
+point 723.619 393.514 station -name 7@MidnightChamber
+
+point 753.819 465.124 station -name 6@MidnightChamber
+
+point 690.0 644.0 station -name 5@MidnightChamber
+
+point 693.259 760.514 station -name 4@MidnightChamber
+
+point 648.589 968.294 station -name 3@MidnightChamber
+
+point 627.379 1053.764 station -name 2@MidnightChamber
+
+point 477.209 1145.314 station -name 1@MidnightChamber
+
+line wall
+  130.0 124.0
+  247.0 133.0
+  459.0 195.0
+  652.0 174.0
+  749.0 192.0
+  739.0 389.0
+  761.0 464.0
+  732.0 658.0
+  716.0 762.0
+  662.0 972.0
+  648.0 1068.0
+  495.0 1174.0
+endline
+
+line wall
+  477.209 1145.314
+  597.0 1017.0
+  623.0 962.0
+  664.0 756.0
+  690.0 644.0
+  721.0 465.0
+  708.0 397.0
+  700.0 221.0
+  653.0 192.0
+  460.0 278.0
+  210.0 220.0
+  118.0 146.0
+endline
+
+endscrap
+
+

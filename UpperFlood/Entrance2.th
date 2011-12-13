@@ -1,0 +1,78 @@
+encoding  utf-8
+survey Entrance2 -title "Upper Flood"
+
+  centreline
+   data normal from to tape compass clino
+   flags duplicate
+   
+   date 2007.03.23
+   team "Martin Rowe" instruments
+   team "Yvonne Rowe" notes
+   # mr reading and yr recording
+   instrument compass "rowe compass"
+   instrument clino "rowe clino"
+   instrument tape "rowe tape"
+   #calibration post to corner of fied  310
+   #calibration post to signpost    273
+   #calibration post to bend in road  217  
+   
+   declination -2.58 deg   #Allign to grid, Grid North +0.55 deg
+          1     2    2.87   -       DOWN  
+          2     3    4.24   153      -16  
+          3     4    2.2    -       DOWN 
+          4     5    5.54   091      -35  
+          5     6    5.34   087      -09  
+          6     7    2.35   007      -37  
+          7    a1    2.33   277      -10  
+          7     8   10.31   103      -07  
+          8     9    7.50   105      -02  
+          9    10    6.90   108      -12  
+         10    11    1.00   113      +18  
+         11    12    6.63   128      -06   
+   
+   
+   date 2007.05.04
+   team "Martin Rowe" instruments
+   team "Yvonne Rowe" notes
+   #mr reading and yr recording
+   instrument compass "rowe compass"
+   instrument clino "rowe clino"
+   instrument tape "rowe tape"
+   #calibration post to corner of fied   309
+   #calibration post to signpost    273
+   #calibration post to bend in road  217
+         12    13    5.68   142     -16  
+         13    14    3.2    148     -17  
+         14    15    1.56   160      -4  
+         15    16    2.36   175      -1  
+         16    17    5.26   228       0  
+         17    18    5.02   197      -2  
+         18    19    0.92   146      -6 
+          
+   date 2007.06.01
+   team "Martin Rowe" instruments
+   team "Yvonne Rowe" notes
+   #mr reading and yr recording
+   instrument compass "rowe compass"
+   instrument clino "rowe clino"
+   instrument tape "rowe tape"
+   #calibration post to corner of fied   309
+   #calibration post to signpost    273
+   #calibration post to bend in road  217
+         19    20    9.31   128      -3  
+         20    21    0.25   -        UP  
+         21    22    5.29   121      -2  
+         22    23    4.9    138      -6  
+         23    24    8.25   128      -3  
+         24    25    6.03   119       0  
+         25    26   11.64   112     -13  
+         26    27    0.25   -        UP
+         27    28    3.66   101      -8  
+         28    29    7.74   111     -14  
+         29    30    0.25   -        UP
+         30    31    9.55   104      -8  
+   
+   
+  endcentreline
+endsurvey
+

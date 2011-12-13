@@ -1,0 +1,13 @@
+encoding  utf-8
+source SP_2.th
+
+layout l1
+ 	scale 1 200 
+endlayout
+
+#export model -format survex -o SP_2.3d
+#export map -projection plan -o SP_2.pdf
+export map -projection plan -format xvi -layout l1 -o SP_2.xvi
+#export map -projection extended -format xvi -layout l1 -o SP_2_ex.xvi
+#export map -projection elevation -format xvi -layout l1 -o SP_2_el.xvi
+#export atlas -projection plan -o SP_2.pdf

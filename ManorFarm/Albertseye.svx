@@ -1,0 +1,36 @@
+*BEGIN Albertseye
+
+;Manor Farm Swallet Charterhouse, Mendip
+;Source Wille Stanton's Survey Book 2 page 77
+;Typed in by Graham Mullan November 2008
+;Albert's Eye and Stream Junction
+;WIS, Will, Terry, Tom.
+*COPYRIGHT 2008 UBSS
+*DATE 1973.10.31
+*CALIBRATE Compass +7.00
+
+*DATA NORMAL FROM TO COMPASS CLINO TAPE IGNOREALL
+;passage dimensions recorded but order not noted
+;passage dimensions not included in this file
+
+
+28	29	195	-28.66	9.95
+29	30	174	-21.83	5.50
+30	31	193	-32.83	14.94
+31	32	173.5	-15.00	3.96
+32	33	212	6.75	2.78
+33	34	193	-1.16	5.94
+34	35	199	-9.83	7.81
+35	36	218	-23.25	5.70
+36	37	199	-51	5.42
+37	38	252	-11	4.74
+38	39	275	-5.16	1.56
+39	40	184.66	5.33	1.97
+;40 is screw in left wall 0.5 m above start of false floor at neck level
+40	41	238.5	-19	4.35
+41	42	120	-35.66	13.17
+42	43	157.1	-8.66	5.50
+43	44	109.5	-19.5	9.09
+;44 is screw in left wall
+
+*END Albertseye

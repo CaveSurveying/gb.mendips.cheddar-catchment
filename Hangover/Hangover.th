@@ -1,0 +1,16 @@
+encoding  utf-8
+survey Hangover
+
+centreline
+cs OSGB:ST
+# fudge survey by GJM to show cave on output
+date 2010
+
+data normal from to tape compass clino ignoreall
+Hangover	2	3.93	023	-85.8
+
+station Hangover "" entrance
+fix Hangover   48960 54820 206
+
+endcentreline
+endsurvey Hangover

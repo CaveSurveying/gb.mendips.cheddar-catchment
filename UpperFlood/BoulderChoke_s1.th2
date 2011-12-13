@@ -1,0 +1,164 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -278.322 -319.359 780.0 1058.0939
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {-31.022 1 1.0} {810.789 gc13} xvi/BoulderChoke.xvi 0 {}
+
+
+
+scrap BoulderChoke_s1 -projection plan -scale [-128.0 -128.0 581.3533 -128.0 0.0 0.0 18.01757382 0.0 m]
+
+point 201.608 412.799 station -name 17@BoulderChoke
+
+point 198.048 472.919 station -name 16@BoulderChoke
+
+point 213.078 463.849 station -name 15@BoulderChoke
+
+point 206.158 515.869 station -name 14@BoulderChoke
+
+point 204.728 572.179 station -name 13@BoulderChoke
+
+point 176.328 567.879 station -name 11@BoulderChoke
+
+point 148.178 544.019 station -name 12@BoulderChoke
+
+point 180.388 599.139 station -name 10@BoulderChoke
+
+point 198.518 639.229 station -name 8@BoulderChoke
+
+point 141.018 604.389 station -name 9@BoulderChoke
+
+point 187.778 667.859 station -name 7@BoulderChoke
+
+point 182.538 702.219 station -name 6@BoulderChoke
+
+point 157.478 717.489 station -name 5@BoulderChoke
+
+point 123.118 723.929 station -name 4@BoulderChoke
+
+point 124.788 745.169 station -name 3@BoulderChoke
+
+point 90.188 758.529 station -name 2@BoulderChoke
+
+point 119.068 763.539 station -name 1@BoulderChoke
+
+point 647.0 487.0 label -text "Not Easy Squeeze" -scale s
+
+line arrow -head begin
+  205.75 467.0
+  356.0 489.25
+endline
+
+point 446.25 404.25 label -text "p3" -scale s
+
+point 277.75 403.75 rope -scale xl
+
+line wall
+  198.25 565.0
+  198.25 565.0 199.58 518.96 201.5 515.5
+  211.75 497.0 193.5 507.75 194.5 413.25
+  smooth off
+  200.75 368.0
+endline
+
+line wall -subtype blocks
+  187.778 667.859
+  188.25 655.25 189.79 642.72 189.5 641.25
+  188.0 633.75 183.75 614.75 182.5 611.75
+  181.25 608.75 174.16 573.26 176.328 567.879
+  178.5 562.5 198.25 570.0 198.25 565.0
+  smooth off
+endline
+
+line wall -reverse on
+  119.068 763.539
+  117.25 759.75 111.52 751.68 116.75 751.5
+  122.0 751.32 125.79 750.42 128.0 747.25
+  130.21 744.08 126.25 732.25 129.5 730.25
+  smooth off
+endline
+
+line rock-edge -close on -reverse on
+  200.0 563.25
+  202.5 563.25
+  203.25 550.5
+  200.75 550.0
+  200.0 563.25
+endline
+
+line rock-edge -close on
+  217.0 558.75
+  209.25 558.25
+  209.0 549.75
+  218.0 548.5
+  217.0 558.75
+endline
+
+line overhang -reverse on
+  200.25 372.5
+  200.25 372.5 207.0 373.75 210.5 379.75
+  smooth off
+  210.25 386.75 208.25 389.5 206.25 397.0
+  smooth off
+  206.75 406.0 208.0 403.0 212.25 400.25
+  smooth off
+  218.0 396.25 229.0 382.0 229.0 382.0
+  smooth off
+endline
+
+line wall -reverse on -subtype blocks
+  129.5 730.25
+  132.75 728.25 157.25 725.25 160.5 723.5
+  163.75 721.75 187.25 710.25 188.5 706.75
+  189.75 703.25 192.75 672.5 194.5 668.75
+  196.25 665.0 199.0 641.0 198.5 635.5
+  198.0 630.0 194.0 599.5 193.5 596.0
+  193.0 592.5 182.5 577.0 184.25 576.0
+  186.0 575.0 201.0 578.75 201.5 580.75
+  202.0 582.75 203.0 610.75 203.75 612.25
+  204.5 613.75 223.25 635.25 221.5 615.0
+  219.75 594.75 215.5 575.25 215.5 571.75
+  215.5 568.25 222.5 520.0 222.5 517.0
+  222.5 514.0 222.25 505.5 221.5 499.5
+  220.75 493.5 227.5 467.5 224.75 465.75
+  222.0 464.0 202.25 462.0 202.25 462.0
+  smooth off
+  202.25 462.0 200.25 445.25 202.75 439.5
+  smooth off
+  215.25 435.0 204.75 429.0 204.0 424.25
+  smooth off
+  218.0 424.0 228.75 386.0 230.25 383.5
+  231.75 381.0 200.75 368.0 200.75 368.0
+  smooth off
+endline
+
+line label -text "Acro Prop"
+  199.5 532.25
+  220.5 533.75
+endline
+
+line floor-step
+  202.25 462.0
+  202.75 472.25
+  198.048 472.919
+endline
+
+line wall
+  90.188 758.529
+  89.5 752.25 78.5 748.0 84.5 745.25
+  90.5 742.5 104.0 737.5 108.0 737.25
+  smooth off
+  111.75 750.0 118.25 725.75 122.25 722.25
+  smooth off
+endline
+
+line wall -subtype blocks
+  122.25 722.25
+  131.75 716.75 150.25 712.75 153.0 709.5
+  155.75 706.25 162.5 688.0 164.5 685.25
+  166.5 682.5 185.4 671.11 187.778 667.859
+  smooth off
+endline
+
+endscrap
+
+

@@ -1,0 +1,29 @@
+encoding  utf-8
+source Stream.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout common -o Stream.pdf
+#Produces plan of cave, on a single sheet
+
+export map -proj extended -layout local -o StreamEe.pdf
+
+export model -fmt survex -o Streamth.3d
+#Survex file showing centre line only
+
+#export model -fmt therion -o Stream.thm
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Stream_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+
+endlayout
+
+input ../../../common_layout.th

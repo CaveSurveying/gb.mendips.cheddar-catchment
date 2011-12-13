@@ -1,0 +1,29 @@
+encoding  utf-8
+source Waterwheel.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout mendip -o Waterwheel.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj plan -fmt kml -layout mendip -o Waterwheel.kml
+
+export model -fmt survex -o Waterwheelth.3d
+#Survex file showing centre line only
+
+#export model -o Waterwheel.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Waterwheel_Walls.3d
+#Survex file showing walls only
+
+layout mendip
+
+colour map-bg 90
+#colour map-fg scrap
+#debug on
+#debug scrap-names
+endlayout

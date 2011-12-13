@@ -1,0 +1,29 @@
+encoding  utf-8
+source PipeDream2.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o PipeDream2.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o PipeDream2Ee.pdf
+
+#export model -fmt survex -o PipeDream2th.3d
+#Survex file showing centre line only
+
+#export model -o PipeDream2.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o PipeDream2_Walls.3d
+#Survex file showing walls only
+
+layout local
+debug off
+scale 1 200
+symbol-hide group cave-centerline
+colour map-fg 100
+colour map-bg 90
+endlayout

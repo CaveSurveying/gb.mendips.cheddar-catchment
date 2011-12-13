@@ -1,0 +1,37 @@
+encoding  utf-8
+survey OldCave
+
+input Chiaroscuro/Chiaroscuro.th
+input Entrance/Entrance.th
+input Forbidden/Forbidden.th
+input Midsummer/Midsummer.th
+input ReadsInlet/ReadsInlet.th
+input 2ndInlet/2ndInlet.th
+
+equate 1.0@2ndInlet 1.18@Chiaroscuro
+equate 1.31@Entrance 1.0@ReadsInlet
+equate 1.37@Entrance 1.0@Midsummer
+equate 1.77@Entrance 1.0@Chiaroscuro
+equate 1.0@Forbidden 2.5@Midsummer
+
+
+map OldCaveM -title "Old Charterhouse"
+  ForbiddenM@Forbidden
+  MidsummerM@Midsummer
+  EntranceM@Entrance
+  ReadsInletM@ReadsInlet
+  2ndInletM@2ndInlet  
+  ChiaroscuroM@Chiaroscuro
+endmap
+
+join ChiaroscuroSPl1@Chiaroscuro 2ndInletSPl1@2ndInlet -smooth on
+join ChiaroscuroSPl2@Chiaroscuro EntranceSPl6@Entrance -smooth on
+join EntranceSPl3@Entrance ReadsInletSPl1@ReadsInlet -smooth on
+#EntranceSPl3 to MidsummerSPl1
+join l424-6925-6448@Entrance left1@Midsummer -smooth on
+join right1@Entrance right1@Midsummer -smooth on
+join EntranceSPl3@Entrance MidsummerSPl1@Midsummer -smooth on
+join ForbiddenSPl1@Forbidden MidsummerSPl1@Midsummer -smooth on
+
+endsurvey
+

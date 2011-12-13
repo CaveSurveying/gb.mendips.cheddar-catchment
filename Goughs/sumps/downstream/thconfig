@@ -1,0 +1,31 @@
+encoding  utf-8
+source downstream.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o downstream.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o downstreamEe.pdf
+
+#export model -fmt survex -o downstreamth.3d
+#Survex file showing centre line only
+
+#export model -o downstream.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o downstream_Walls.3d
+#Survex file showing walls only
+
+#export map -o downstream.xvi -format xvi
+#map for importing into th2 file
+
+layout local
+#copy common
+debug off
+map-header 0 0 off
+
+endlayout

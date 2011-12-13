@@ -1,0 +1,20 @@
+encoding  utf-8
+language en_UK
+source BH_Entrance.th
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 200 
+endlayout
+ 
+
+export model -format survex -o Maps/BH_Entrance.3d
+export model -format loch -o Maps/BH_Entrance.lox
+export map -projection plan -layout l1 -o Maps/BH_Entrance.pdf
+export map -projection extended -layout l1 -o Maps/BH_Entrance_ex.pdf
+export map -projection elevation -layout l1 -o Maps/BH_Entrance_el.pdf
+export map -projection plan -format xvi -layout l1 -o Maps/BH_Entrance.xvi
+export map -projection extended -format xvi -layout l1 -o Maps/BH_Entrance_ex.xvi
+export map -projection [elevation 90] -format xvi -layout l1 -o Maps/BH_Entrance_el90.xvi
+#export atlas -projection plan -layout l1 -o Maps/BH_Entrance.pdf

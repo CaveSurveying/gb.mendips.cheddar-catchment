@@ -1,0 +1,32 @@
+encoding  utf-8
+source CharterhouseWarren.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -o CharterhouseWarren.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o CharterhouseWarrenEe.pdf
+
+export model -fmt survex -o CharterhouseWarrenth.3d
+#Survex file showing centre line only
+
+export model -o CharterhouseWarren.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o CharterhouseWarren_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+scale 1 200
+symbol-hide group cave-centerline
+colour map-fg 100
+colour map-bg 90
+endlayout
+
+input ../common_layout.th

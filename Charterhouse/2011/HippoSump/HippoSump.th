@@ -1,0 +1,35 @@
+encoding  utf-8
+survey HippoSump
+
+input HippoSump.th2
+
+map HippoSumpM
+  HippoSumpSPl1
+endmap
+
+centreline
+  date 2011.07.30
+  
+  team "Duncan Price" notes
+   
+  explo-date 2011.07.30
+  explo-team "Duncan Price" 
+ 
+data normal from to compass tape clino
+X  0  -  1.5  down
+#station X is OverPot.1.1
+  
+data diving from to fromdepth todepth compass tape ignoreall
+0 1 0 -5 220 10
+1 2 -5 -7 180 10
+2 3 -7 -9 220 10
+
+data dimensions station left right up down
+1 1.5 0.5 0.7 0.7
+2 0.5 0.7 0.7 0.5
+3 0.5 0.5 1.0 0.0
+  
+  
+endcentreline
+endsurvey
+

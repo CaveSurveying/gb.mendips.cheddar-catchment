@@ -1,0 +1,52 @@
+*BEGIN Reads
+;Cave: read's Grotto
+;Survey Name: Survey 3
+;
+;Location: Charterhouse, Mendip
+;Country: England
+;People: Noel Blackwell, Joan Light
+;Date: Mar-June 1949
+
+;Calibration: data has already been corrected for mag var and comp error
+;Typed in by: Graham Mullan August 2008
+;Single sheet within UBSS G.B. data files
+;
+;
+*DATA Normal From to Length Bearing Gradient ignoreall
+*UNITS tape feet
+* ENTRANCE 1
+* FIX 1 reference 47750 56202 255
+;bodged to look right.
+
+2	1	6	331	12.5
+3	2	7	322.25	43
+4	3	13.5	353.5	18
+5	4	13.5	338	15.5
+5	6	4.75	183	-1
+7	6	4.75	312	-46.5
+7	7a	10.5	99.7	0
+7	8	7.25	182	34
+8	9	10.5	193.5	1.5
+10	9	11	303	-17.25
+9	12	12.25	65	31
+10	11	8.5	87	0
+11	12	12.5	318	0
+12	13	11	40.5	18.5
+
+; station right left floor roof in feet
+;1	0	3	0	1.5
+;2	2	3	0.25	2
+;3	2	2	0	5
+;4	3	2	4	4
+;5	1	1	1	1
+;6	0.5	1.5	0.5	1
+;7	2	-	3	4
+;8	2	10	2/6	1.5
+;9	2	"20"	2	3
+;10	3			3
+;11	2			3
+;12				3
+;13	2			4
+
+
+*END Reads

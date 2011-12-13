@@ -1,0 +1,12 @@
+Tynings Great Swallet
+SURVEY NAME: TheDig
+SURVEY DATE: 4 6 2004  COMMENT: surface legs from file Great_Swallet_no_surface.DAT: NOT CONTINUOUS SO WILL NOT RUN AS SINGLE FILE
+SURVEY TEAM: 
+Instruments Tony Boycott; Recording Jon Talling; Tape Graham Mullan
+DECLINATION:    0.00  FORMAT: DMMDLRUDLADN  CORRECTIONS:  0.00 0.00 0.00
+
+        FROM           TO   LENGTH  BEARING      INC     LEFT       UP     DOWN    RIGHT   FLAGS  COMMENTS
+
+     Thedig0      Thedig1    24.70    64.00   -41.00     0.00     0.00     0.00     0.00  #|PL#
+     Thedig1      Thedig2    42.09   152.00    -3.00     0.00     0.00     0.00     0.00  #|PL#
+     Thedig1      Thedig6    45.73   169.00    -1.00     0.00     0.00     0.00     0.00  #|PL#

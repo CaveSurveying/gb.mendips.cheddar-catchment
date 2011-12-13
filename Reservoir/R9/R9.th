@@ -1,0 +1,26 @@
+encoding  utf-8
+survey R9
+
+centreline
+cs OSGB:ST
+date 1970 02 27
+#Source WIS survey book 2 pp65/6
+
+data normal from to compass clino tape ignoreall
+units tape feet
+#calibrate compass +8.0
+calibrate compass -0.42
+#altered to allow for automatic mag dev correction
+
+488  499  322.16  13.25  5.0
+499  500  138.16  -4.66  17.9
+500  501  165.16  -16.16  40.3
+501  502  159.00  -8.66  11.8
+502  503  226.16  -26.5  28.7
+503  504  202.92  -19.25  15.8
+504  505  176.50  -16.5  16.7
+505  506  193.00  -14.83  10.9
+
+endcentreline
+endsurvey R9
+

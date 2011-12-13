@@ -1,0 +1,35 @@
+encoding  utf-8
+source 2010b.th
+# Change name to the main therion file
+
+#select 2010bM@2010b
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o 2010b.pdf
+#Produces plan of cave, on a single sheet
+
+export model -fmt survex -o 2010bth.3d
+#Survex file showing centre line only
+
+#export map -proj plan -fmt kml -layout googlemaps -o 2010b.kml
+
+#export map -proj plan -fmt svg -layout googlemaps -o 2010b.svg
+#export model -fmt esri -o 2010b.esri
+#export model -fmt vrml -o 2010b.vrml
+
+#export model -o 2010b.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o 2010b_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+scale 1 1000
+endlayout
+
+input ../../common_layout.th

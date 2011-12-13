@@ -1,0 +1,8 @@
+*begin charter
+
+*include up08/up08.svx
+*include lower/lower.svx
+
+*equate up08.52 lower.1
+
+*end charter

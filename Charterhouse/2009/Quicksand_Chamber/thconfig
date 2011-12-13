@@ -1,0 +1,29 @@
+encoding  utf-8
+source Quicksand_Chamber.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout common -o Quicksand_Chamber.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o Quicksand_ChamberEe.pdf
+
+#export model -fmt survex -o Quicksand_Chamberth.3d
+#Survex file showing centre line only
+
+#export model -fmt therion -o Quicksand_Chamber.thm
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Quicksand_Chamber_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug on
+
+endlayout
+
+input ../../../common_layout.th

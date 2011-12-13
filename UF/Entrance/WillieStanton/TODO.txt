@@ -1,0 +1,6 @@
+I've checked for typos - all OK
+Now comparing entrance location and std for fixes.  
+Note 1m error in WS' calcalations.  States "corrected" - strange.
+DONE: compare position based on WS 6" map survey with latest MCG fixes.
+
+571.37 773.51	237.36

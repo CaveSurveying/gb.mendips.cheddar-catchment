@@ -1,0 +1,25 @@
+encoding  utf-8
+  
+survey SP_2
+  centreline
+    team "Ben Cooper"   notes    # Note taker (PDA DELL)
+    team "Brian Snell"  instruments  # Instruments
+    team "Tim Francis"  dog
+    
+    instrument length  "DistoX"
+    instrument compass  "DistoX"
+    date 2010.12.04
+    data normal from to compass clino tape
+    extend right
+    flags duplicate
+	  1.5 1.6 205.02 -74.52 1.869
+	  1.6 - 205.34 -9.46 1.210
+	  1.6 - 261.19 -4.66 1.120
+	  1.6 - 316.53 -0.34 0.850
+	  1.6 - 15.72 7.09 1.830
+	  1.6 - 38.83 9.30 1.720
+	  1.6 1.7 232.51 -67.06 2.816
+    flags not duplicate
+  endcentreline  
+endsurvey
+

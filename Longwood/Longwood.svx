@@ -1,0 +1,12 @@
+*BEGIN Longwood
+
+;Compilation file to add renolds passage to Longwood
+
+*INCLUDE Longwood_old\Longwood_old.svx
+
+*INCLUDE Renolds\Renolds.svx
+
+*EQUATE Renolds.0 Longwood_old.LW-119
+
+*END Longwood
+

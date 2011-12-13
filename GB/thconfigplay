@@ -1,0 +1,19 @@
+encoding  utf-8
+source GBplay.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -o GB.pdf
+#Produces plan of cave, on a single sheet
+
+#export model -fmt survex -o GBth.3d
+#Survex file showing centre line only
+
+#export model -fmt therion -o GB.thm
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o GB_Walls.3d
+#Survex file showing walls only

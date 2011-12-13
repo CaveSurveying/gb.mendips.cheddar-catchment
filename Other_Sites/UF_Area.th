@@ -1,0 +1,12 @@
+encoding  utf-8
+survey UF_Area -namespace off
+centreline
+cs OSGB:ST
+#Information taken from MCRA, unless otherwise stated.
+
+#station  "" entrance
+
+endcentreline
+endsurvey
+
+

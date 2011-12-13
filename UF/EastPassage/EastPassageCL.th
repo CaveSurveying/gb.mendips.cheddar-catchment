@@ -1,0 +1,85 @@
+encoding  utf-8
+
+survey CL
+  centreline
+    units clino compass degree
+    units length centimeter
+#    calibrate length 0.095  # missing first 10cm - check?
+
+    team "Tim Francis"
+    team "Richard Carey"
+    date 2007.01.06
+    data normal from to length compass clino
+
+    #declination -3.964 deg  	# BGS at 2007.01.06 51.2987N 2.71038W 
+    #declination -3.077 deg  	# BGS at 2007.01.06 51.2987N 2.71038W 0.2km alt.  2010 Model.  Updated Nov 2011
+  				# http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html
+    declination -2.524 deg    	# Allign to grid, Grid North +0.5535 deg
+
+    sd length 1 centimeter
+    sd compass 1 degree
+    sd clino 1 degree
+
+    extend start E1
+    extend right
+    #		length	bearing	dip	Notes on first station per leg
+    flags duplicate
+      E1	E2	900	074	-9	#E1 is the large boulder at Royal Icing Junction
+      E2	E3	420	333	-21	#Right wall
+      E3	E4	970	094	-8	#Tip of rock above Richard's drip photo
+      E4	E5	1393	079	2	#Roof ridge above tape
+      E5	E6	864	127	8	#Left wall on mud
+      E6	E7	744	106	-1	#Boulder - oxbow starts on right
+      E7	E8	950	121	4	#Right wall, knee height
+      E8	E9	1031	083	5	
+      E9	E10	1030	126	19	#Spike, left wall
+      E10	E11	390	252	23	#Left wall, rocky climb
+      E11	E12	475	133	4	#Boulder at Zebra Aven - oxbow back in right
+      E12	E13	884	128	14	#The traverses
+      E13	E14	900	124	26	#The traverses
+      E14	E15	570	120	1	#The traverses
+      E15	E16	812	091	3	#The traverses
+      E16	E17	120	099	1	#Gour aven on right
+      E17	E18	840	110	-3	#Mud crawl
+      E18	E19	1525	135	-17	#Left wall, lip of pit
+      E19	E20	1000	129	-3	#Right wall
+      E20	E21	292	127	-1	#Right wall, narrow rift
+      E21	E22	260	261	2	#Descending tube, poor air
+      E22	E23	250	268	0	
+      E23	E24	250	227	-6	
+      E24	E25	255	241	-3	
+      E25	E26	566	311	-2	
+      E26	E27	507	158	-6	
+      E28	E27	556	089	4	#Low muddy squeeze, Left wall
+      E28	E29	347	215	-18	#Junction. Closes down at pool ahead
+      E29	E30	770	341	2	
+      E30	E31	1231	337	-1	#Right wall, sump pool
+      E31	E32	700	304	0	#Sump pool
+
+      E11	D12	475	133	4	#Boulder at Zebra Aven - oxbow back in right
+      D12	D13	884	128	14	#The traverses
+      D13	D14	900	124	26	#The traverses
+      D14	D15	570	120	1	#The traverses
+      D15	D16	812	091	3	#The traverses
+      D16	D17	120	099	1	#Gour aven on right
+      D17	D18	840	110	-3	#Mud crawl
+      D18	D19	1525	135	-17	#Left wall, lip of pit
+      D19	D20	1000	129	-3	#Right wall
+      D20	D21	292	127	-1	#Right wall, narrow rift
+      D21	D22	260	261	2	#Descending tube, poor air
+      D22	D23	250	268	0	
+      D23	D24	250	227	-6	
+      D24	D25	255	241	-3	
+     sd compass 10 degree			# suspect compass shot
+      D25	D26	566	311	-2	
+     sd compass 1 degree
+
+      D26	D27	507	158	-6	
+      D28	D27	556	089	4	#Low muddy squeeze, Left wall
+      D28	D29	347	215	-18	#Junction. Closes down at pool ahead
+      D29	D30	770	341	2	
+      D30	D31	1231	337	-1	#Right wall, sump pool
+      D31	D32	700	304	0	#Sump pool
+    flags not duplicate
+  endcentreline
+endsurvey #CL

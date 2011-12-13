@@ -1,0 +1,34 @@
+encoding  utf-8
+survey Skeleton
+
+#fudged file to include Duncan's dive observations
+
+centreline
+
+date 2011.03.11
+  team "Tony Boycott" notes
+  team "Graham Mullan" instruments
+  team "Amy Matthews" dog
+  team "Duncan Price" dog
+  instrument instruments Tony-distoX
+  
+
+data normal from to compass clino tape
+
+flags duplicate
+1.0	1.1	318.98	-33.38	4.164
+1.0	1.2	221.11	14.05	8.222
+1.2	1.3	309.44	9.54	5.152
+flags not duplicate
+1.1 2 - down  1
+
+data diving from fromdepth compass tape to todepth ignoreall
+
+2 0 017 11 3 -11
+3 -11  017 4 4 -11
+
+
+endcentreline
+endsurvey
+
+

@@ -1,0 +1,15 @@
+encoding  utf-8
+survey up08
+
+input up08.th2
+
+#import up08.3d -surveys use -cs OSGB:ST
+
+map up08M -title "up08<BR>Charterhouse"
+  up08ScP2
+break
+  up08ScP1
+endmap
+
+endsurvey
+

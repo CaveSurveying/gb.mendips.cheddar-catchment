@@ -1,0 +1,5 @@
+DONE Download Therion, Survex and PocketTopo
+DONE Set declination in PocketTopo and re-export the drawing (if that works?) It made no difference - Pocket Topo does not redraw the sketch
+! Find original survey notes for Trench Passage and Royal Icing and confirm dates.
+DONE Backup survey to raid 30/8/2011
+! Draw rest of Walk the Plank

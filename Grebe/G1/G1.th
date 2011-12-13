@@ -1,0 +1,26 @@
+encoding  utf-8
+survey G1
+
+centreline
+cs OSGB:ST
+date 1981 10 07
+
+data normal from to compass clino tape ignoreall
+declination 0 degree
+#added to override automatic date correction.
+calibrate compass +6.66
+station 169 "" entrance
+fix 169  50453 55510 230
+#169 is south corner of hole in lid of entrance shaft
+
+169  170  - down  2.26
+170  171  161.00  -30.00  3.84
+171  172  152.00  -14.50  1.83
+172  173  -  up  0.82
+173  174  -  down  4.24
+174  175  195.00  50.00  0.60
+175  176  155.00  8.33  4.34
+
+endcentreline
+endsurvey G1
+

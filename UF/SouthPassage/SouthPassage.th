@@ -1,0 +1,25 @@
+encoding  utf-8
+survey SouthPassage
+
+  equate RI 1.0@Disto 
+  equate RI d7@SouthPassageCL 
+
+  input SouthPassageCL.th
+  input SouthPassageDisto.th
+  
+  input SouthPassage_s1.th2
+  input SouthPassage_s2.th2
+  input SouthPassage_s3.th2
+  join wall_SPS3S wall_SPS2:14
+  join wall_SPS3N wall_SPS2:11
+  input SouthPassage_s4.th2
+
+  map SouthPassage_m1
+	SouthPassage_s1
+	SouthPassage_s3
+	break
+	SouthPassage_s2
+	SouthPassage_s4
+  endmap
+
+endsurvey

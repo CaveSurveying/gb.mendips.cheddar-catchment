@@ -1,0 +1,29 @@
+encoding  utf-8
+source Neverland.th
+
+layout lmap
+        color map-fg 75  
+ 	scale 1 200 
+ 	
+ 	symbol-colour area water [0 0 100]
+ 	symbol-colour area flowstone [10 90 10]
+endlayout
+
+layout lxvi # legacy scale of 1:165 to match drawings.
+        color map-fg 75  
+ 	scale 1 165 
+endlayout
+
+#select NeverlandCC@Neverland
+#select NeverlandDisto@Neverland
+#select NeverlandRopeClimb@Neverland
+select Neverland_m1@Neverland
+
+export model -format survex -o 0.Maps/Neverland.3d
+export model -format loch -o 0.Maps/Neverland.lox
+export map -projection plan -format pdf -layout lmap -o 0.Maps/NeverlandMap.pdf
+export map -projection extended -format pdf -layout lmap -o 0.Maps/Neverland_CLex.pdf
+export map -projection elevation -format pdf -layout lmap -o 0.Maps/Neverland_CLel.pdf
+export map -projection plan -format xvi -layout lxvi -o 0.Maps/Neverland.xvi
+export map -projection extended -format xvi -o 0.Maps/Neverland_ex.xvi
+export map -projection elevation -format xvi -o 0.Maps/Neverland_el.xvi

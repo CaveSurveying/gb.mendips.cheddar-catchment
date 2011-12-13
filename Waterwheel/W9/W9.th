@@ -1,0 +1,22 @@
+encoding  utf-8
+survey W9
+
+centreline
+date 1981 02 08
+
+data normal from to compass clino tape ignoreall
+declination 0 degree
+#added to override automatic date correction.
+calibrate compass +8.00
+
+154  155  -  down  6.82
+155  156  327.00  0.00  6.65
+155  157  -  up  2.06
+157  158  185.50  -18.75  6.38
+158  159  170.67  -5.83  10.56
+159  160  155.00  53.00  1.46
+160  161  176.83  -1.00  5.73
+
+endcentreline
+endsurvey
+

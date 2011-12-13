@@ -1,0 +1,24 @@
+encoding  utf-8
+survey G8
+
+centreline
+date 1990 06 06
+
+data normal from to compass clino tape ignoreall
+declination 0 degree
+#added to override automatic date correction.
+calibrate compass +5.50
+
+246  250  155.16  3.50  4.30
+250  251  126.00  -25.00  1.09
+251  252  -  down  0.41
+252  253  151.67  -7.50  5.64
+253  254  -  down  1.33
+254  255  147.50  -1.50  2.10
+255  256  161.00  7.00  1.12
+256  256a  135.00  0.00  3.00
+#leg added by GJM from survey notes
+
+endcentreline
+endsurvey G8
+

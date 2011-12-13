@@ -1,0 +1,14 @@
+encoding  utf-8
+survey Legend -title "Legend"
+
+   centreline 
+   cs EPSG:27700
+   #300000 100000 added to convert from OSGB ST to EPSG:27700
+
+     fix   L  350800 155600 230    # 100m LH point
+     fix   R  350900 155600 230    # 100m RH point
+     fix   N  350900 155610 230   # North Arrow
+   
+   endcentreline
+endsurvey
+

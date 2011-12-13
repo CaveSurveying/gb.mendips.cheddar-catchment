@@ -1,0 +1,21 @@
+encoding  utf-8
+survey W4
+
+centreline
+date 1979 09 17
+
+data normal from to compass clino tape ignoreall
+declination 0 degree
+#added to override automatic date correction.
+calibrate compass +7.00
+
+97  105  122.00  7.17  2.23
+105  106  141.00  27.00  2.82
+106  106a  141.00  27.00  4.00
+#leg added by GJM from WIS survey notes
+106  107  -  up  0.79
+105  108  64.00  0  4.00
+
+endcentreline
+endsurvey
+

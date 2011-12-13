@@ -1,0 +1,20 @@
+encoding  utf-8
+source BH_FirstPitch.th
+language en_UK
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 200
+endlayout
+ 
+
+export model -format survex -o Maps/BH_FirstPitch.3d
+export model -format loch -o Maps/BH_FirstPitch.lox
+export map -projection plan -layout l1 -o Maps/BH_FirstPitch.pdf
+export map -projection extended -layout l1 -o Maps/BH_FirstPitch_ex.pdf
+export map -projection [elevation 90] -layout l1 -o Maps/BH_FirstPitch_el90.pdf
+export map -projection plan -format xvi -layout l1 -o Maps/BH_FirstPitch.xvi
+export map -projection extended -format xvi -layout l1 -o Maps/BH_FirstPitch_ex.xvi
+#export map -projection elevation -format xvi -layout l1 -o Maps/BH_FirstPitch_el.xvi
+#export atlas -projection plan -layout l1 -o Maps/BH_FirstPitch.pdf

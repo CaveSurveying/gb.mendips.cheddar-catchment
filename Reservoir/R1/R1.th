@@ -1,0 +1,34 @@
+encoding  utf-8
+survey R1
+
+centreline
+cs OSGB:ST
+date 1951 12 28
+#Source WIS survey book 1 pp55/6
+
+data normal from to compass tape clino ignoreall
+units tape feet
+#calibrate compass +11.5
+calibrate compass +1.20
+#altered to allow for automatic mag dev correction
+
+fix H 47460 54470 128
+station H "Reservoir Hole" entrance
+
+H  I  184.16  15.0  -16.5
+I  J  208.50  7.3  -11.0
+J  K  201.50  24.3  -18.0
+K  L  194.00  16.8  -21.5
+L  M  185.00  17.3  -15.5
+M  N  199.00  41.7  -20.5
+N  O  198.00  13.8  14.0
+O  P  200.50  36.0  -12.5
+N  N1  -  0.7  up
+N1  Q  006.16  24.5  -22.5
+#Q  R  191.00  4.5  -6.0
+#R  S  293.00  34.2  -72.0
+#removed as passage has been backfilled
+
+endcentreline
+endsurvey
+

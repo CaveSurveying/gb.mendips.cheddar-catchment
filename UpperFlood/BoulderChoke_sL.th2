@@ -1,0 +1,78 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 581.3533 986.9852
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {-31.022 1 1.0} {810.789 gc13} xvi/BoulderChoke.xvi 0 {}
+
+
+
+scrap BoulderChoke_sL -projection plan -scale [-128.0 -128.0 581.3533 -128.0 0.0 0.0 18.01757382 0.0 m]
+
+point 201.858 412.549 station -name 17@BoulderChoke
+
+point 119.068 763.539 station -name 1@BoulderChoke
+
+point 87.75 713.75 label -text "3-D Squeeze" -scale s
+
+point 216.25 385.0 label -text "-3m"  -scale s
+
+point 262.75 380.0 label -text "Rope Climb" -scale s
+
+point 213.0 393.75 rope -scale l
+
+point 160.5 467.25 label -text "Not Easy Squeeze" -scale s
+
+line label -text "Climb Up Through Boulders" -scale s
+  182.75 644.5
+  173.25 612.25
+  168.0 570.0
+endline
+
+line label -text "Solid Wall" -scale s
+  193.75 547.5
+  196.0 521.25
+  197.25 503.5
+endline
+
+point 254.25 554.0 label -text "Ben's Boulder" -scale s
+
+#line label -text "Acro Prop"
+#  199.5 532.25
+#  220.5 533.75
+#endline
+
+
+point 345.5 283.0 label -orientation 297.4 -text "Acro Prop" -scale s
+
+point 255.5 269.5 label -orientation 60.0 -text "Rocking Stones" -scale s
+
+point 166.25 356.75 label -text "-2m" -scale s
+
+point 131.0 399.5 label -text "Stal Tube" -scale s
+
+point 139.75 368.0 label -text "Post Box" -scale s
+
+point 266.75 285.0 label -orientation 60 -text "Triangular Window" -scale s
+
+point 302.0 172.0 gradient -orientation 235.9 -scale l
+
+point 298.5 178.5 label -text "-7m" -scale s
+
+point 324.0 152.0 label -text "Zig-Zag" -scale s
+
+point 234.0 198.5 label -text "Tea-Time Alcove" -scale s
+
+point 334.0 182.0 label -text "Squeeze" -scale s
+
+point 398.5 159.0 label -text "Samaritans" -scale s
+
+point 452.5 78.5 label -text "Climb -5m" -scale s
+
+point 366.5 178.5 label -text "The" -scale s
+
+point 366.0 196.5 label -text "Call" -scale s
+
+point 334.0 194.0 label -text "Easy" -scale s
+
+endscrap
+
+

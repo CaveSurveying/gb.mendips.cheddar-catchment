@@ -1,0 +1,11 @@
+encoding  utf-8
+survey 2010b
+
+input Skeleton/Skeleton.th
+
+map 2010bM
+  SkeletonM@Skeleton
+endmap
+
+endsurvey
+

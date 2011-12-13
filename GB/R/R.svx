@@ -1,0 +1,21 @@
+*begin R
+;Data typed in by Christian Chourot 2008 file GB Data.xls
+;converted by Andrew Atkinson July 2008 GB Data ready for survex.xls
+;Original data at end commented out
+
+*fix	1	47560.4	56118.8	196.2912
+*fix	2	47563.7	56117.3	199.1868
+*fix	3	47567.2	56119.9	201.68616
+*fix	3a	47570.8	56121.9	203.6064
+*fix	3b	47566.7	56121.8	205.92288
+
+
+*data nosurvey station
+1
+2
+3
+3a
+3b
+
+
+*end R

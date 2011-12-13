@@ -1,0 +1,54 @@
+encoding  utf-8
+    survey CentreLineOnly
+	  centreline
+	    units clino compass degree
+	    units length meter
+            sd tape	0.05	meter 
+            sd clino	2	degree
+            sd compass	1	degree # Calibration problem with SAP for this survey
+
+	#    calibrate length 0.095  # missing first 10cm - check?
+	    #declination -3.13 deg   #3deg 8 min West @ 2006.09.17  51.2987N 2.71038W (NOAA)
+	    declination -2.58 deg   #Allign to grid, Grid North +0.55 deg
+	    team "Tim Francis"
+	    team "Dongwoo Park"
+	    date 2006.10.07
+
+	    extend start d8
+	    extend left	#Westerly!
+	    data normal from to length compass clino 
+	    #d8 is start of West Passage
+	    flags duplicate
+	    d8	d9	3.5	325	+1
+	    #d9  d9a	8	310	-25	# estimate for entrance to Neverland
+	    #d9a N1	2	220	0	# estimate to side wall fixed survey station at start of Neverland
+	    d9	d10	19.5	310	-25
+	    d10	d11	6.0	235	-35
+	    d11	d12	13.5	270	-12
+	    d12	d13	10.5	285	+3
+	    d13	d14	13.0	285	+2
+	    d14	d15	14.5	265	-3
+	    d15	d16	12.5	265	+1
+	    d16	d17	3.5	235	-2
+	    d17	d18	17.0	270	-3
+	    d18	d19	7.0	265	-8
+	    d19	d20	2.0	190	-2
+	    d20	d21	2.5	130	+2
+	    d21	d22	3.5	167	+3
+	    d22	d23	4.5	270	-3
+	    d23	d24	8.5	285	-1
+	    d24	d25	10.5	265	-3
+	    d25	d26	5.5	0	-5
+	    d26	d27	15.0	260	-2
+	    d27	d28	10.0	270	-2
+	    d28	d29	22.5	268	-2
+	    d29	d30	10.0	265	0
+	    d30	d31	21.0	270	-2
+	    d31	d32	14.0	275	-3
+	    d32	d33	5.0	200	-2
+	    d33	d34	6.0	160	-3
+	    d34	d35	3.15	215	+8
+	    flags not duplicate
+	  endcentreline
+    endsurvey
+

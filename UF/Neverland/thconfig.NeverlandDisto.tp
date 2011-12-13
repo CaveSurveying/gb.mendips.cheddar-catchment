@@ -1,0 +1,17 @@
+encoding  utf-8
+source NeverlandDisto.th
+
+layout l1
+        color map-fg 50  
+ 	scale 1 200
+endlayout
+ 
+
+export model -format survex -o 0.Maps/NeverlandDisto.3d
+export model -format loch -o 0.Maps/NeverlandDisto.lox
+export map -projection plan -format pdf -layout l1 -o 0.Maps/NeverlandDisto_CL.pdf
+export map -projection extended -format pdf -layout l1 -o 0.Maps/NeverlandDisto_CLex.pdf
+export map -projection elevation -format pdf -layout l1 -o 0.Maps/NeverlandDisto_CLel.pdf
+export map -projection plan -format xvi -layout l1 -o 0.Maps/NeverlandDisto.xvi
+export map -projection extended -format xvi -o 0.Maps/NeverlandDisto_ex.xvi
+export map -projection elevation -format xvi -o 0.Maps/NeverlandDisto_el.xvi

@@ -1,0 +1,184 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -87.435 -80.755 1331.0 1296.6979
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {159.865 1 1.0} {1049.393 gc13} xvi/BoulderChoke.xvi 0 {}
+
+
+
+scrap BoulderChoke_s2 -projection plan -scale [-128.0 -128.0 581.3533 -128.0 0.0 0.0 18.01757382 0.0 m]
+
+point 528.755 455.503 station -name 32@BoulderChoke
+
+point 519.205 489.863 station -name 31@BoulderChoke
+
+point 473.155 490.813 station -name 30@BoulderChoke
+
+point 457.175 462.653 station -name 29@BoulderChoke
+
+point 389.165 492.243 station -name 28@BoulderChoke
+
+point 386.545 508.713 station -name 27@BoulderChoke
+
+point 355.765 741.823 station -name 23@BoulderChoke
+
+point 446.435 704.363 station -name 22@BoulderChoke
+
+point 364.595 599.623 station -name 26@BoulderChoke
+
+point 350.275 623.003 station -name 25@BoulderChoke
+
+point 352.425 652.823 station -name 24@BoulderChoke
+
+point 401.815 689.333 station -name 21@BoulderChoke
+
+point 393.225 668.573 station -name 20@BoulderChoke
+
+point 416.0 619.0 station -name 19@BoulderChoke
+
+line pit -reverse on
+  512.0 476.0
+  512.0 476.0 532.5 460.5 538.5 451.0
+  smooth off
+  540.5 444.5 543.5 450.0 534.0 436.0
+  smooth off
+endline
+
+line wall
+  505.0 471.0
+  540.0 429.0
+endline
+
+line wall -subtype blocks
+  679.5 238.5
+  705.0 241.5 733.16 261.57 736.0 289.0
+  738.84 316.43 662.5 351.0 642.0 341.0
+  smooth off
+endline
+
+line wall
+  540.0 429.0
+  549.5 415.0 588.5 358.0 603.0 340.0
+  617.5 322.0 679.5 238.5 679.5 238.5
+  smooth off
+endline
+
+line rock-edge
+  558.5 443.5
+  557.0 442.5 540.5 446.5 540.5 446.5
+  smooth off
+endline
+
+line pit
+  642.0 341.0
+  629.5 332.5 621.0 325.5 623.5 313.5
+  smooth off
+endline
+
+point 1133.0 424.0 label -text "Call the Samaritans" -scale s
+
+line arrow -head begin
+  573.0 439.0
+  799.0 424.0
+endline
+
+line wall -reverse on -subtype blocks
+  547.0 473.5
+  559.5 472.5 581.5 476.5 558.5 443.5
+  smooth off
+  580.0 433.5 569.5 420.0 569.5 420.0
+  smooth off
+  569.5 420.0 588.0 421.0 591.5 407.0
+  smooth off
+  603.5 398.0 643.13 415.78 653.0 399.5
+  663.0 383.0 630.5 360.0 642.0 341.0
+  smooth off
+endline
+
+line wall -reverse on -subtype blocks
+  361.5 635.0
+  361.5 635.0 381.0 614.0 380.75 609.5
+  380.5 605.0 364.94 603.0 364.595 599.623
+  364.25 596.25 387.25 510.75 389.0 509.5
+  390.75 508.25 395.75 508.5 400.25 507.25
+  404.75 506.0 457.75 478.25 461.25 478.5
+  464.75 478.75 468.25 487.5 473.155 490.813
+  478.22 494.23 508.73 521.59 516.75 516.0
+  525.0 510.25 519.04 495.38 524.25 497.75
+  557.75 513.0 551.0 482.5 547.0 473.5
+  smooth off
+endline
+
+line wall
+  362.0 652.0
+  361.5 635.0
+endline
+
+line wall -reverse on -subtype blocks
+  381.25 647.25
+  378.73 649.44 362.0 652.0 362.0 652.0
+  smooth off
+endline
+
+line pit -reverse on
+  350.5 624.75
+  355.25 623.0
+  361.0 599.75
+  364.595 599.623
+endline
+
+line rock-edge -close on -reverse on
+  383.5 672.25
+  386.75 671.25 390.0 674.25 391.75 672.75
+  393.5 671.25 392.25 663.5 389.5 659.0
+  386.75 654.5 386.0 654.25 380.5 655.25
+  375.0 656.25 367.5 655.0 367.0 657.5
+  366.5 660.0 380.25 673.25 383.5 672.25
+endline
+
+line wall -subtype unsurveyed
+  381.25 647.25
+  384.5 638.0 449.5 549.5 449.5 549.5
+  smooth off
+endline
+
+line wall -subtype blocks
+  449.5 549.5
+  458.5 554.0 423.0 609.5 420.0 629.0
+  419.3 633.58 408.5 656.25 407.25 662.25
+  406.0 668.25 407.0 675.5 412.75 680.5
+  418.5 685.5 426.33 691.61 430.25 693.5
+  444.75 700.5 462.0 710.75 426.5 702.0
+  414.21 698.97 409.5 694.25 401.815 689.333
+  smooth off
+  396.75 685.5 392.5 698.75 388.25 703.0
+  384.0 707.25 367.96 730.39 364.25 734.0
+  354.5 743.5 351.5 747.0 359.5 730.25
+  362.63 723.7 374.5 699.75 372.5 694.5
+  370.5 689.25 358.25 679.75 352.75 658.25
+  smooth off
+endline
+
+line wall
+  353.0 662.25
+  352.75 652.71 351.0 642.25 350.5 632.0
+  350.0 621.75 350.0 604.75 350.5 596.0
+  351.0 587.25 371.75 511.25 372.25 506.0
+  372.75 500.75 400.84 485.19 405.25 482.25
+  411.25 478.25 413.5 471.25 417.5 463.25
+  421.5 455.25 430.81 439.79 438.0 442.75
+  446.5 446.25 448.6 465.81 457.175 462.653
+  smooth off
+endline
+
+line wall -subtype blocks
+  457.175 462.653
+  465.75 459.5 469.75 454.5 474.25 454.75
+  478.75 455.0 475.5 475.75 480.75 476.75
+  486.0 477.75 507.0 483.25 510.0 480.0
+  513.0 476.75 512.0 463.0 511.0 460.25
+  smooth off
+endline
+
+endscrap
+
+

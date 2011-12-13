@@ -1,0 +1,37 @@
+encoding  utf-8
+survey WestPassage -title "West Passage"
+
+  # Attach surveys together.  
+  #equate d11@CentreLineOnly 24@WP.Pony.FullLRUD
+  #input WestPassage.Centre.th
+
+  equate 2.0@ChuckleChoke 2.61@DistoX.FullLRUD
+  equate 6@WP_Rift  2.49@DistoX.FullLRUD   # Fixed station (Rift)
+
+  input WestPassage.Full.th
+  input WestPassage_s1.th2
+  input WestPassage_s2.th2
+  input WestPassage_s3.th2
+  input WestPassage_s4.th2
+  # join WestPassage_s2 	   WestPassage_s3 # This produces an error, and anyway is not required (s2 is higher level rift)
+  join WestPassage_s3 	   WestPassage_s4
+
+  input WestPassageRift_Pony.th
+  input ChuckleChoke/UF_ChuckleChoke.th
+  input ChuckleChoke/UF_ChuckleChoke_s1.th2
+
+  map WestPassage_m1 -title "West Passage"
+    WestPassage_s2
+    WestPassage_s1
+    WestPassage_s3
+    WestPassage_s4
+    break
+    ChuckleChoke_s1
+  endmap
+
+  map WestPassage_Rift_m1 -proj plan
+    WestPassage_s2
+  endmap
+
+endsurvey
+

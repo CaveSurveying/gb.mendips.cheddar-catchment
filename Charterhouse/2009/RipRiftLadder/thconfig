@@ -1,0 +1,30 @@
+encoding  utf-8
+source RipRiftLadder.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o RipRiftLadder.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o RipRiftLadderEe.pdf
+
+export model -fmt survex -o RipRiftLaddeth.3d
+#Survex file showing centre line only
+
+#export model -fmt therion -o RipRiftLadder.thm
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o RipRiftLadder_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+
+endlayout
+
+input ../../../common_layout.th

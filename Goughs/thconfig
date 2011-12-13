@@ -1,0 +1,37 @@
+encoding  utf-8
+
+source Goughs.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o Goughs.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj plan -fmt kml -layout mendip -o Goughs.kml
+
+export model -fmt survex -o Goughsth.3d
+#Survex file showing centre line only
+
+export model -o Goughs.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Goughs_Walls.3d
+#Survex file showing walls only
+
+select GoughsDispM@Goughs
+
+
+layout local
+
+copy common
+debug off
+map-header 0 0 off
+symbol-hide group centreline
+
+
+endlayout
+
+input ../common_layout.th

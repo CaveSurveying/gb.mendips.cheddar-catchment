@@ -1,0 +1,21 @@
+encoding  utf-8
+survey Long_Vall_Sink
+
+centreline
+cs OSGB:ST
+# fudge survey by GJM to show cave on output
+# estimated from sketch in WCC Journal 238 June 1993
+date 2010
+
+data normal from to tape compass clino ignoreall
+LVS  2  5.0  270  -45
+2	3	2.0	270	0
+3	4	3.0	-	up
+3	5	10.0	-	down
+5	6	5.0	270	-30
+
+station LVS "" entrance
+fix LVS   48580 55480 207
+
+endcentreline
+endsurvey Long_Vall_Sink

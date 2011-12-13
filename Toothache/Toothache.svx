@@ -1,0 +1,12 @@
+*BEGIN Toothache
+;fudge survey to include this site in the charterhouse model
+;made by Graham Mullan 23/02/2009
+
+*DATA NORMAL FROM TO LENGTH BEARING GRADIENT IGNOREALL
+
+1	2	10	-	down
+
+*FIX 1 reference 48580 55370 213
+*ENTRANCE 1
+
+*END Toothache

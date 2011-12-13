@@ -1,0 +1,26 @@
+encoding  utf-8
+survey R6
+
+centreline
+cs OSGB:ST
+date 1969 05 16
+#Source WIS survey book 2 pp63/4
+
+data normal from to compass clino tape ignoreall
+units tape feet
+#calibrate compass +8.16
+calibrate compass -0.33
+#altered to allow for automatic mag dev correction.
+
+464  465  -  down  10.5
+465  466  -  up  2.8
+466  467  273.33  -56.5  16.1
+467  468  335.50  -31.5  14.7
+468  469  309.83  -46.0  15.6
+469  470  326.50  13.0  9.4
+470  471  342.66  -4.5  5.3
+#471 drillmark on east wall 4' up 2' below roof
+
+endcentreline
+endsurvey R6
+

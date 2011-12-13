@@ -1,0 +1,199 @@
+encoding  utf-8
+survey Goughs
+
+input BatRoom/BatRoom.th
+input BeddingChamber/BeddingChamber.th
+input Blackcat/Blackcat.th
+input BoulderChamber/BoulderChamber.th
+input CableCrawl/CableCrawl.th
+input CastleHairyRing/CastleHairyRing.th
+input Damocles1/Damocles1.th
+input Damocles2/Damocles2.th
+input Damocles3/Damocles3.th
+input DireStraits/DireStraits.th
+input DSAven/DSAven.th
+input DucksDelight/DucksDelight.th
+input Entrance/Entrance.th
+input FarRift/FarRift.th
+input Fonts/Fonts.th
+input HeartbreakHill/HeartbreakHill.th
+input Improbable/Improbable.th
+input KingsSolomons/KingsSolomons.th
+input LloydHall/LloydHall.th
+input NathansAttic/NathansAttic.th
+input NathansDungeon/NathansDungeon.th
+input November/November.th
+input SandChamber/SandChamber.th
+input SandCrawl/SandCrawl.th
+input SideOx/SideOx.th
+input sumps/sumps.th
+input Surface/Surface.th
+input StPauls/StPauls.th
+input Tableaux/Tableaux.th
+input TheOxbow/TheOxbow.th
+input Tunnel/Tunnel.th
+input HeartbreakDig/HeartbreakDig.th
+input Skeleton/Skeleton.th
+input Cheeseroom/Cheeseroom.th
+input WetWitch/WetWitch.th
+
+equate 1.1@BatRoom 1.0@Entrance 
+equate 7.0@BeddingChamber 1.23@Tableaux
+equate 1.0@Blackcat 1.0@CastleHairyRing 1.17@Tableaux
+equate 3.13@BoulderChamber 6.21@Improbable
+equate 3.0@BoulderChamber 2.25@SandChamber
+equate 3.2@BoulderChamber 9.21@FarRift
+equate 3.3@BoulderChamber 2.6@SandChamber
+equate 3.4@BoulderChamber 2.4@SandChamber
+equate 3.8@BoulderChamber 2.9@SandChamber
+equate 3.29@BoulderChamber 2.11@SandChamber
+equate 1.24@Blackcat 2.0@SandChamber
+equate 1.27@Blackcat 2.16@SandChamber 1.0@SandCrawl
+equate 1.27@Blackcat 1.12@NathansAttic
+equate 1.31@Blackcat 1.31@CastleHairyRing 6.17@KingsSolomons
+equate 1.0@Damocles1 2.16@SandChamber
+equate 1.22@Damocles1 1.22@Damocles2
+equate 1.25@Damocles2 1.25@Damocles3
+equate 1.0@DireStraits 1.13@TheOxbow
+equate 1.4@DireStraits 0@upstream.sumps
+equate 1.0@DSAven 1.11@TheOxbow
+equate 1.0@DucksDelight 1.5@Fonts
+equate 1.8@Entrance 1.0@Fonts
+equate 1.17@Entrance 1.0@HeartbreakHill
+equate 1.30@Entrance 1.2@Surface
+equate 1.15@Entrance 1.38@TheOxbow
+equate 9.0@FarRift 2.11@SandChamber
+equate 9.8@FarRift 1.0@NathansAttic
+equate 9.13@FarRift 3.0@NathansDungeon
+equate 1.13@HeartbreakHill 1.0@Tableaux
+equate 1.4@HeartbreakHill 1.0@TheOxbow
+equate 1.12@HeartbreakHill 1.8@StPauls
+equate 1.9@HeartbreakHill 1.12@StPauls
+equate 6.8@Improbable 5.3@CableCrawl
+equate 5.0@Improbable 1.18@LloydHall
+#equate 6.0@KingsSolomons 1.12@Tableaux
+equate 8.0a@LloydHall 0@sump1b.sumps
+equate 1.23@November 1.23@Tableaux
+equate 4.5@November 5.0@CableCrawl
+equate 1.23@TheOxbow 1.0@Surface
+equate 1.34@TheOxbow 1.0@SideOx
+equate 1.24@Tableaux 1.0@StPauls
+equate 1.2@TheOxbow 1.0@HeartbreakDig
+equate 7.0@Tunnel 1.13@HeartbreakHill
+equate 7.4@Tunnel 1.4@StPauls
+equate 7.8@Tunnel 5.4@CableCrawl
+equate 1.2@Entrance 1.3@Skeleton
+equate 1.1@TheOxbow 1.0@Cheeseroom
+equate 1.2@TheOxbow 6.4@Cheeseroom
+equate 3.0@WetWitch 1.10@StPauls
+
+map GoughsM
+    GoughsUpperM
+    GoughsLowerM
+    BeddingChamberM@BeddingChamber
+endmap
+
+map GoughsDispM
+    GoughsUpperM
+    GoughsLowerM [0 -70 m] below
+    BeddingChamberM@BeddingChamber [-9 30 m] above
+    LLoydTopM [12 12 m] above
+endmap
+
+map LLoydTopM
+  Improbable1M@Improbable
+  LloydHallTopM@LloydHall
+endmap
+
+map GoughsUpperM
+  DSAvenM@DSAven
+  BatRoomM@BatRoom
+  NathansAtticM@NathansAttic
+  KingsSolomonsM@KingsSolomons
+  CastleHairyRingM@CastleHairyRing
+  BlackcatM@Blackcat
+  Damocles1M@Damocles1
+  Damocles2M@Damocles2
+  Damocles3M@Damocles3
+  DucksDelightM@DucksDelight
+  EntranceM@Entrance
+  FontsM@Fonts 
+  HeartbreakHillM@HeartbreakHill
+  TableauxM@Tableaux
+  LloydHallBottomM@LloydHall
+  TheOxbowM@TheOxbow
+  StPaulsM@StPauls
+  NovemberM@November
+  SandChamberM@SandChamber
+  SandCrawlM@SandCrawl
+  SideOxM@SideOx
+  HeartbreakDigM@HeartbreakDig
+  CheeseroomM@Cheeseroom
+  sumpsM@sumps
+  WetWitchM@WetWitch
+endmap
+
+map GoughsLowerM
+  FarRiftM@FarRift
+  CableCrawlM@CableCrawl
+  NathansDungeonM@NathansDungeon
+  Improbable2M@Improbable
+  BoulderChamberM@BoulderChamber
+  TunnelM@Tunnel  
+endmap
+
+
+#joins should be alphebetical, left to right, then top to bottom
+
+join BatRoomSPl1@BatRoom EntranceSPl1@Entrance -smooth on
+
+join BlackcatSPl1@Blackcat TableauxSPl1@Tableaux -smooth on
+join BlackcatSPl2@Blackcat Damocles1SPl1@Damocles1 -smooth on
+join BlackcatSPl2@Blackcat SandChamberSPl1@SandChamber -smooth on -count 3
+join BlackcatSPl2@Blackcat SandCrawlSPl1@SandCrawl -smooth on
+
+
+join BlackcatSPl2@Blackcat SandChamberSPl2@SandChamber -smooth on
+join BlackcatSPl4@Blackcat TableauxSPl1@Tableaux -smooth on
+join BoulderChamberSPl1@BoulderChamber FarRiftSPl1@FarRift -smooth on
+join BoulderChamberSPl1@BoulderChamber FarRiftSPl2@FarRift -smooth on
+join BoulderChamberSPl1@BoulderChamber ImprobableSPl2@Improbable  -smooth on
+join BoulderChamberSPl1@BoulderChamber SandChamberSPl3@SandChamber -smooth on
+
+join CableCrawlSPl1@CableCrawl  ImprobableSPl2@Improbable -smooth on
+join CableCrawlSPl1@CableCrawl TunnelSPl1@Tunnel -smooth on
+join CheeseroomSPl1@Cheeseroom HeartbreakHillSPl1@HeartbreakHill  -smooth on
+join CheeseroomSPl1@Cheeseroom TheOxbowSPl1@TheOxbow  -smooth on
+
+join EntranceSPl1@Entrance FontsSPl1@Fonts -smooth on
+join EntranceSPl1@Entrance HeartbreakHillSPl1@HeartbreakHill -smooth on
+join EntranceSPl1@Entrance TheOxbowSPl1@TheOxbow -smooth on
+
+join FarRiftSPl3@FarRift NathansDungeonSPl1@NathansDungeon -smooth on
+
+join HeartbreakHillSPl1@HeartbreakHill HeartbreakDigSPl1@HeartbreakDig -smooth on
+join HeartbreakHillSPl1@HeartbreakHill TunnelSPl1@Tunnel -smooth on
+
+join ImprobableSPl1@Improbable LloydHallSPl1@LloydHall -smooth on
+join ImprobableSPl1@Improbable TunnelSPl1@Tunnel -smooth on
+
+#Order of the next group, for some reason, of joins is important to make it join correctly
+join HeartbreakHillSPl1@HeartbreakHill TableauxSPl1@Tableaux -smooth on
+join StPaulsSPl2@StPauls TableauxSPl1@Tableaux -smooth on 
+join HeartbreakHillSPl1@HeartbreakHill StPaulsSPl1@StPauls -smooth on -count 3
+
+
+
+join HeartbreakHillSPl1@HeartbreakHill TheOxbowSPl1@TheOxbow -smooth on
+
+#join SandChamberSPl1@SandChamber Damocles1Sp1@Damocles1 -smooth on
+#join Damocles1SPl30@Damocles1 Damocles2SPl1@Damocles2 -smooth on
+join NovemberSPl2@November TableauxSPl1@Tableaux -smooth on
+join TheOxbowSPl1@TheOxbow SideOxSPl1@SideOx -smooth on
+
+join WetWitchSPl1@WetWitch StPaulsSPl1@StPauls -smooth on
+
+  
+
+endsurvey
+

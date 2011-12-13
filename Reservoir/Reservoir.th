@@ -1,0 +1,87 @@
+encoding  utf-8
+survey Reservoir
+
+input ChGorge/ChGorge.th
+
+input HappySnappers/HappySnappers.th
+input ResEnt/ResEnt.th
+
+input PottersHeaven/PottersHeaven.th
+equate 8.8@PottersHeaven 502@R9
+#this equate is only a guess
+
+input R1/R1.th
+input R2/R2.th
+equate Q@R1 Q@R2
+
+#input R3/R3.th
+#equate Q@R1 Q@R3
+#removed as passage has been backfilled
+
+input R4/R4.th
+equate 426@R2 426@R4
+
+input R5/R5.th
+equate 459@R4 459@R5
+
+input R6/R6.th
+equate 464@R5 464@R6 
+
+input R7/R7.th
+equate 471@R6 471@R7
+
+input R8/R8.th
+equate 486@R7 486@R8
+
+input R9/R9.th
+equate 488@R8 488@R9
+
+input R10/R10.th
+equate 481@R7 481@R10
+
+input R11/R11.th
+equate 512@R10 512@R11
+
+input R12/R12.th
+equate 534@R11 534@R12
+
+input R13/R13.th
+equate 553@R12 553@R13
+
+input Sleeper/Sleeper.th
+input TopDig/TopDig.th
+
+#Connection to the therionised data
+equate 471@R6 1.0@TopDig
+
+equate 1.0@TopDig 1.14@Sleeper
+equate 1.12@TopDig 1.0@HappySnappers
+equate 1.0@Sleeper 1.26@ResEnt
+equate 1.0@ResEnt 1.0@ChGorge
+
+#bodge to overcome the auto declination of therion
+#survey survex_format
+#import Reservoir.3d -surveys use -filter reservoir_hole -cs OSGB:ST
+#endsurvey
+#equate 471@survex_format 1.0@TopDig
+
+map ReservoirM -title "Reservoir Hole"
+  TopDigM@TopDig
+  R1@R1
+  R2@R2
+#  R3@R3
+  R4@R4
+  R5@R5
+  R6@R6
+  R7@R7
+  R8@R8
+  R9@R9
+  R10@R10
+  R11@R11
+  R12@R12
+  R13@R13
+#  survex_format
+endmap
+
+endsurvey
+

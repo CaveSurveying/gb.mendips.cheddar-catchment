@@ -1,0 +1,43 @@
+encoding  utf-8
+survey SplashPoolInlet
+
+input SplashPoolInlet.th2
+
+map SplashPoolInletM -title "Splash Pool Inlet"
+  SplashPoolInletSPl1
+endmap
+
+centreline
+
+  date 2010.09.18  
+  team "Andrew Atkinson" notes
+  team "Pete Moody" instruments
+  instrument instruments UBSS1-distoX
+  
+  explo-date 2010.09.18
+  explo-team "Alison Moody" 
+  explo-team "Pete Hann" 
+  explo-team "Pete Moody"
+  explo-team "John Cooper"
+  explo-team "Andrew Atkinson"
+  
+  data normal from to compass clino tape
+  extend right
+  1.1 1.0 5.48 18.97 5.001
+  1.1 - 71.76 74.68 1.742
+  1.1 - 22.79 17.83 4.165
+  1.1 - 262.89 24.85 0.552
+  1.1 - 95.32 27.29 1.311
+  1.1 - 81.57 -55.17 1.434
+  1.1 1.2 157.14 -49.09 3.184
+  1.2 - 103.76 3.47 2.165
+  1.2 - 135.77 1.77 1.780
+  1.2 - 296.04 4.99 1.484
+  1.2 - 226.85 69.34 2.926
+  1.2 - 213.36 35.30 4.406
+  1.2 - 169.08 -36.97 2.650
+  1.2 - 254.12 -39.62 1.513
+  1.2 1.3 241.50 -30.83 3.453
+endcentreline
+endsurvey
+

@@ -1,0 +1,29 @@
+encoding  utf-8
+source 2008.th
+# Change name to the main therion file
+
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o 2008.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o 2008Ee.pdf
+
+export model -fmt survex -o 2008th.3d
+#Survex file showing centre line only
+
+#export model -o 2008.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o 2008_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+endlayout
+
+input ../../common_layout.th

@@ -1,0 +1,59 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 3840.60043 4974.45931
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {480.32 1 1.0} {3629.92 1} xvi/Surface.xvi 0 {}
+
+
+
+scrap Surface_s1 -projection plan -scale [-128.0 -128.0 3840.60043 -128.0 0.0 0.0 100.802450922 0.0 m]
+
+point 2766.72 1464.57 dig -id Ring
+
+point 2771.5 1461.0 label -text "Ring" -scale xs
+
+point 2811.03 1767.72 station -name SYCAMORE@Surface
+
+point 2815.0 1763.75 label -text "Sycamore" -scale xs
+
+point 1783.47 1578.74 station -name CHARNEL@Surface
+
+point 1781.5 1564.96 station -name CharnelShaft@Surface
+
+point 1798.5 1570.0 label -text "ICBIN Charnel Shaft" -scale xs
+
+point 1681.1 2066.93 station -name BARWELL@Surface
+
+point 1679.75 2074.0 label -text "Barwell Shaft" -scale xs
+
+point 1673.23 2039.37 station -name HALF@Surface
+
+point 1649.61 2007.88 station -name Half-Penny@Surface
+
+point 1653.5 2023.5 label -text "Half-Penny Hole" -scale xs
+
+point 1488.19 2055.12 station -name LAMP@Surface
+
+point 1492.25 2055.0 label -text "Lamp" -scale xs
+
+point 1921.26 2165.36 station -name OIL@Surface
+
+point 1921.0 2173.0 label -text "Oil" -scale xs
+
+point 1425.2 2114.18 station -name M_M@Surface
+
+point 1425.0 2123.0 label -text "MM Mine" -scale xs
+
+#point 637.8 2448.82 station -name GREBE@Surface
+
+#point 637.0 2462.0 label -text "Grebe Swallet" -scale m
+
+#point 1072.87 2449.82 station -name Ent@Blackmoor
+
+point 1090.0 2449.0 label -text "Blackmoor Swallet" -scale m -align r
+
+#point 795.28 3000.0 station -name WATERWHEEL@Surface
+
+#point 795.0 3012.0 label -text "Waterwheel" -scale m
+
+endscrap
+

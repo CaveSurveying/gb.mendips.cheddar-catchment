@@ -1,0 +1,17 @@
+encoding  utf-8
+source ../WestPassage.Full.th
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 165 
+endlayout
+
+export model -format survex -o WestPassage.Full.3d
+export model -format loch -o WestPassage.Full.lox
+export map -projection plan -format pdf -layout l1 -o WestPassage.Full_CL.pdf
+export map -projection extended -format pdf -layout l1 -o WestPassage.Full_CLex.pdf
+export map -projection elevation -format pdf -layout l1 -o WestPassage.Full_CLel.pdf
+export map -projection plan -format xvi -o WestPassage.Full.xvi
+export map -projection extended -format xvi -o WestPassage.Full_ex.xvi
+export map -projection elevation -format xvi -o WestPassage.Full_el.xvi

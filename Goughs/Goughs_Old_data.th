@@ -1,0 +1,65 @@
+encoding  utf-8
+survey Goughs
+
+#Goughs Cave, Cheddar
+#Data from Willie Stanton's Survey Book 1 pp57-8 (I think)
+
+#Typed in by Graham Mullan June 2010
+
+centreline
+cs OSGB:ST 
+date 1952
+
+data normal from to compass clino tape ignoreall
+declination 0 degree
+#added to override automatic date correction.
+
+units tape feet
+calibrate compass +11.30
+
+station 1 "" entrance
+fix 1 46700 53910 32
+
+1  2  178:20  -8:15  48.4
+# 1 is 1' vertically above C of p13
+2  3  102:10  -4:10  36.4
+#3 is 2' vertically below mid centre bars of rails around Skeleton Pit
+3  4  121:30  -2:30  79.0
+4  5  157:45  -5:30  19.4
+#5 is on floor 2# vertically below BP of page 5 at base of Fonts.
+4  6  119:20  -1:30  59.5
+6  7  073:00  4:10  53.3
+7  8  083:40  5:30  89.3
+8  9  069:00  10:15  73.8
+9  H  201:00  -5:20  22.4
+#H is staion H of Page 1
+9  10  118:30  -0:45  162.5
+10  11  154:40  3:30  68.8
+#10 is just opposite the east end of Pixie Forest
+11  12  106:50  26:30  38.2
+#11 is 6' wst of foot of steps
+12  13  095:00  13:30  29.3
+#12 is on top step
+13  14  182:30  35:00  28.8
+#13 (5' east of J) is 3' north of bottom of 13 steps.
+14  15  110:30  18:10  35.7
+#15 is on top of big rock approx. L of p13
+
+
+15  a  161:00  -5:00  32.1
+a  b  -  up  49.2
+b  c  318:50  18:00  14.6
+c  d  208:50  -31:30  21.6
+d  e  230:20  -12:30  22.9
+e  f  247:30  -20:30  14.5
+f  g  350:30  8:00  9.9
+g  j  232:00  8:30  24
+15  h  289:30  -12:40  58.9
+h  i  177:10  4:20  23.3
+#i  j  183:50  39:20  
+
+
+
+endcentreline
+endsurvey Goughs
+

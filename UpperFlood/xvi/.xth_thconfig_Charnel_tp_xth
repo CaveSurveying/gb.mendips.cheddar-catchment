@@ -1,0 +1,8 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 31.51m (surface 0.00m, duplicated 0.00m)\nvertical range: 5.77m (from CH3@CharnelPassage at 5.77m to CH1@CharnelPassage at 0.00m)\nnorth-south range: 26.37m (from CH1@CharnelPassage at 0.00m to CH6@CharnelPassage at -26.37m)\neast-west range: 5.71m (from CH5@CharnelPassage at 3.56m to CH2@CharnelPassage at -2.15m)\nnumber of shots: 5\nnumber of stations: 6"
+xth_cp_data_tree_insert 9 1 1 CharnelPassage CharnelPassage "Charnel Passage" "Charnel Passage" "length: 31.51m (surface 0.00m, duplicated 0.00m)\nvertical range: 5.77m (from CH3@CharnelPassage at 5.77m to CH1@CharnelPassage at 0.00m)\nnorth-south range: 26.37m (from CH1@CharnelPassage at 0.00m to CH6@CharnelPassage at -26.37m)\neast-west range: 5.71m (from CH5@CharnelPassage at 3.56m to CH2@CharnelPassage at -2.15m)\nnumber of shots: 5\nnumber of stations: 6"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 32 0

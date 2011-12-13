@@ -1,0 +1,15 @@
+encoding  utf-8
+survey Longwood
+
+#input Longwood.th2
+
+#map Longwood
+#  LongwoodSPl1
+#endmap
+
+input Longwood_old/Longwood_old.th
+input Renolds/Renolds.th
+equate LW-119@Longwood_old 0@Renolds
+
+endsurvey
+

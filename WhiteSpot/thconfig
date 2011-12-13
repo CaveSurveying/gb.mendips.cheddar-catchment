@@ -1,0 +1,36 @@
+encoding  utf-8
+source WhiteSpot.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o WhiteSpot.pdf
+#Produces plan of cave, on a single sheet
+
+export map -proj extended -layout local -o WhiteSpotEe.pdf
+
+#export model -fmt survex -o WhiteSpotth.3d
+#Survex file showing centre line only
+
+#export model -o WhiteSpot.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o WhiteSpot_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+#map-header 100 100 ne
+#map-comment "Drawn in Therion by Andrew Atkinson<br>Creative Commons BY NC SA" 
+#colour map-bg 90 
+scale 1 150
+scale-bar 10 m
+symbol-hide group cave-centreline
+#colour map-fg scrap 
+#debug on 
+#debug scrap-names 
+transparency off
+layers off
+endlayout

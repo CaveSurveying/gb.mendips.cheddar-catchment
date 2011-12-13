@@ -1,0 +1,4 @@
+encoding  utf-8
+source temp.th
+
+export map -proj plan -o temp.pdf
