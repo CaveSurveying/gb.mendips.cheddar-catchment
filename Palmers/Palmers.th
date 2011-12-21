@@ -1,5 +1,5 @@
 encoding  utf-8
-survey Palmers
+survey Palmers -title "Palmer's Cave<br>Charterhouse on Mendip"
 
 input Palmers.th2
 input PalmersEe.th2
