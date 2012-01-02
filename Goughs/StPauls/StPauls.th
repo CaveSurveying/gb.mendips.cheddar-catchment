@@ -2,10 +2,15 @@ encoding  utf-8
 survey StPauls
 
 input StPauls.th2
+input StPaulsEe.th2
 
 map StPaulsM
   StPaulsSPl1
   StPaulsSPl2
+endmap
+
+map StPaulsME
+  StPaulsSEe1
 endmap
 
 centreline
@@ -28,6 +33,7 @@ centreline
  
   
   data normal from to compass clino tape
+  extend start 1.0
   extend right
   1.0 - 29.29 -36.76 2.164
   1.0 - 23.15 11.69 1.525
