@@ -27,7 +27,7 @@ centreline
 
 cs OSGB:ST
 
-fix 1.1 46810 56440 244 
+fix 1.1 46804 56447 244 
 station 1.1 "" entrance
 station 1.17 "" entrance
 
