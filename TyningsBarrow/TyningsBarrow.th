@@ -1,5 +1,5 @@
 encoding  utf-8
-survey TyningsBarrow
+survey TyningsBarrow -title "Tyning's Barrows Swallet<br>Charterhouse on Mendip"
 
 input Main/Main.th
 input Velcro/Velcro.th
@@ -11,7 +11,7 @@ equate 50a@Main 50a@DrunkenHorse
 equate 14@Main 14@PatonPlace
 equate 17@Main 17@PatonPlace
 
-map TyningsBarrowM -title "Tyning's Barrows Swallet"
+map TyningsBarrowM
   DrunkenHorseM@DrunkenHorse
   VelcroM@Velcro
   PatonPlaceM@PatonPlace
