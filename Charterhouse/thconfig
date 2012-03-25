@@ -1,4 +1,8 @@
 encoding  utf-8
+select RockNRoll.2008.Charterhouse
+select 100Fathom.2008.Charterhouse
+select Oxbow.2009.Charterhouse
+select Quicksand_Chamber.2009.Charterhouse
 source Charterhouse.th
 # Change name to the main therion file
 

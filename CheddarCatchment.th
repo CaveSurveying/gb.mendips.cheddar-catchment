@@ -11,7 +11,9 @@ input Box/Box.th
 
 input Charterhouse/Charterhouse.th
 
-input CharterhouseWarren/CharterhouseWarren.th 
+input CharterhouseWarren/CharterhouseWarren.th
+
+input ChelmsCombe/ChelmsCombe.th
 
 #corners is only needed for google maps mendip map
 input corners.th
@@ -44,6 +46,8 @@ input Palmers/Palmers.th
 #input Reads/Reads.th
 #replace old read with 2010 version
 input ReadsGrotto/ReadsGrotto.th
+
+input Reynolds/Reynolds.th
 
 input Reservoir/Reservoir.th
 

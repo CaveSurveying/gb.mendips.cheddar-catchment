@@ -15,7 +15,7 @@ export map -proj plan -layout local -o Goughs.pdf
 export model -fmt survex -o Goughsth.3d
 #Survex file showing centre line only
 
-export model -o Goughs.lox
+#export model -o Goughs.lox
 #3d therion model to be viewed in the therion viewer
 
 #export map -proj plan -o Goughs_Walls.3d
