@@ -19,13 +19,13 @@ fix 1.0  46270 54370 96
 
 ### TRIP COMMENT FROM POCKETTOPO ###
 #DistoX UBSS1: Calab: 0.29
-#Notes: Andrew Artkinson
-#Instruments: John Copper
+#Notes: Andrew Atkinson
+#Instruments: John Cooper
 #Dog: Alison Moody
 
   date 2012.03.24
   team "Andrew Atkinson" notes
-  team "John Copper" instruments
+  team "John Cooper" instruments
   team "Alison Moody" dog
 
 data normal from to tape compass clino ignoreall
@@ -217,13 +217,13 @@ centreline
 
 ### TRIP COMMENT FROM POCKETTOPO ###
 #DistoX UBSS1: Calab: 0.46
-#Notes: Andrew Artkinson
-#Instruments: John Copper
+#Notes: Andrew Atkinson
+#Instruments: John Cooper
 #Dog: Alison Moody
 
   date 2012.03.24
   team "Andrew Atkinson" notes
-  team "John Copper" instruments
+  team "John Cooper" instruments
   team "Alison Moody" dog
 
 data normal from to tape compass clino ignoreall
