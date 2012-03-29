@@ -7,10 +7,11 @@ cs OSGB:ST
 date 2010
 
 data normal from to tape compass clino ignoreall
-Toothache	2	10	-	down
+Toothache  2  20  -  down
+#depth reported as 20 m by diggers March 2012.
 
 station Toothache "" entrance
-fix Toothache	48580 55370 213
+fix Toothache  48580 55370 213
 
 #import Toothache.3d -surveys use -filter toothache -cs EPSG:27700 -calibrate [0 0 0 299912 99991 0]
 #Should be -calibrate [0 0 0 300000 100000 0]
