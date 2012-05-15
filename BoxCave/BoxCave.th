@@ -1,0 +1,106 @@
+encoding  utf-8
+survey BoxCave -title "Box Cave<br>Chelmbs Coombe Quarry"
+
+input BoxCave.th2
+
+centreline
+  date 2012.03.24
+  
+  team "Chris Caton"
+  team "Alan Gray"
+  team "Dave King"
+  
+cs OSGB:ST
+
+fix 0 46310 54430 93
+station 0 "Box Cave" entrance
+
+data normal from to tape compass clino ignoreall
+extend right
+
+0  01  3.241  173  -40
+01  02  2.461  112  -75
+02  03  4.371  135  -28
+03  04  2.923  173  -15
+04  05  3.709  168  -4
+04  04a  3.099  79  -24
+
+#From 02 to 04a is a small chamber that is entered by climbing down immediately on entering the cave.
+
+data dimensions station left right up down ignoreall
+
+0  0  0.746  0  0.808
+01  0.5  0  0.745  0.727
+02  1.086  0.430  0.713  0.1
+03  0  0.769  0.691  0.912
+04  1.171  0  1.22  0.5
+05  0  0  0  0.75
+04a  1.0  0.8  1.2  1.0
+
+data normal from to tape compass clino ignoreall
+extend right
+
+01  01a  2.522  181  +45
+01a  01b  4.575  179  +37
+01b  01c  2.678  108  +02
+01c  01d  7.372  125  -42
+01d  01e  8.712  139  -31
+01e  01f  2.784  227  +11
+01f  01g  3.867  216  -14
+01g  01h  2.317  229  -42
+01h  01i  2.548  211  -36
+
+01i  01j  4.086  182  -22
+01j  01k  6.17  207  -23
+        
+01j  02a  3.081  233  +2
+02a  02b  5.774  287  -14
+02b  02c  2.2  174  +6
+        
+01e  03a  6.618  358  -23
+03a  03b  4.553  42  -23
+03b  03c  3.684  52  -20
+        
+03a  04a  3.085  27  -32
+04a  04b  7.613  0  +83
+        
+04b  04c  8.0  3  +64
+04c  04d  8.817  -  up
+
+
+data dimensions station left right up down ignoreall
+
+01a  0.716  1.305  4.205  0.82  Main way on
+01b  1.93  0  7.8  1.025  Below higher gate entrance
+01c  0  1.861  2.661  1.416  Start of chain climb
+01d  2.708  2.183  6.14  0  Stal boss ½ way down slope
+01e  1.529  3.532  3.871  1.832  Stal column at rear of chamber
+01f  0.4  0.5  0  0.35  To squeeze
+01g  1.39  1.144  1.494  1.065  Chamber after squeeze
+01h  1.304  1.169  2.614  0.705  
+01i  1.539  0.673  1.894  0.3  Top of stal to right of chamber
+01j  0.4  0.9  0.4  0.4  In small tunnel
+01k  1.0  1.0  1.0  1.0  Closes down
+          
+02a  0.819  0  0.665  0.886  Off shoot passage
+02b  0.7  2.55  1.037  0.2  To small well decorated chamber
+02c  0.1  0.1  0.1  0.1  Closes down
+          
+03a  3.117  3.105  2.321  1.289  In chamber below high aven
+03b  1.194  3.69  0  1.315  Small low chamber
+03c  1.5  0  0.4  0.8  closes down
+
+
+data normal from to tape compass clino ignoreall
+
+01b  Gate  6.469  3  +65
+Gate  05a  4.305  183  -11
+
+data dimensions station left right up down ignoreall
+
+Gate  1.760  0.664  2.160  1.523  Concrete lintel above gate
+05a  0.3  1.597  1.5  2.0  End of upper entrance chamber
+
+endcentreline
+endsurvey
+
