@@ -11,7 +11,7 @@ centreline
   team "Dave King"
   
 cs OSGB:ST
-
+vthreshold 60 degree
 fix 0 46310 54430 93
 station 0 "Box Cave" entrance
 
@@ -65,7 +65,7 @@ extend right
 04a  04b  7.613  0  +83
         
 04b  04c  8.0  3  +64
-04c  04d  8.817  -  up
+04c  04d  8.817  -  up #was originally written as +90 but unlikely to have used a clino
 
 
 data dimensions station left right up down ignoreall
@@ -90,11 +90,16 @@ data dimensions station left right up down ignoreall
 03b  1.194  3.69  0  1.315  Small low chamber
 03c  1.5  0  0.4  0.8  closes down
 
-
 data normal from to tape compass clino ignoreall
 
 01b  Gate  6.469  3  +65
 Gate  05a  4.305  183  -11
+
+
+#Dimensions given as N (up) E (left) W (right) S down
+data dimensions station up left right  down ignoreall
+04b 2.55  0.625  0.703 0 Up aven on scaffolding
+04c 0.95  1.963 0 1.97  Aven wall above ladder
 
 data dimensions station left right up down ignoreall
 

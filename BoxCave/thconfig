@@ -11,10 +11,10 @@ source BoxCave.th
 
 #export map -proj extended -layout local -o BoxCaveEe.pdf
 
-#export model -fmt survex -o BoxCaveth.3d
+export model -fmt survex -o BoxCaveth.3d
 #Survex file showing centre line only
 
-#export model -o BoxCave.lox
+export model -o BoxCave.lox
 #3d therion model to be viewed in the therion viewer
 
 #export map -proj plan -o BoxCave_Walls.3d
@@ -28,5 +28,4 @@ layout local
 #copy common
 debug off
 map-header 0 0 off
-
 endlayout
