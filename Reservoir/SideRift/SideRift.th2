@@ -1,0 +1,30 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -165.951723692 -120.125984252 562.4892211898 1080.7559055115998
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {188.662449536 1 1.0} {158.74015748 1.7} PocketTopo/SideRift_p.xvi 0 {}
+
+
+
+scrap SideRiftSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SideRiftSPl2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SideRiftSX2.3 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SideRiftSX2.1 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+

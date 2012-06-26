@@ -3,7 +3,6 @@ source 2008.th
 # Change name to the main therion file
 
 
-
 #Surveys to output
 #-----------------
 
@@ -23,6 +22,7 @@ export model -fmt survex -o 2008th.3d
 
 layout local
 copy common
+map-header 0 0 off
 debug off
 endlayout
 

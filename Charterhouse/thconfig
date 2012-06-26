@@ -1,8 +1,5 @@
 encoding  utf-8
-select RockNRoll.2008.Charterhouse
-select 100Fathom.2008.Charterhouse
-select Oxbow.2009.Charterhouse
-select Quicksand_Chamber.2009.Charterhouse
+
 source Charterhouse.th
 # Change name to the main therion file
 
@@ -16,8 +13,11 @@ source Charterhouse.th
 #select 2010b.Charterhouse
 #select OldCave.Charterhouse
 
-select 2011M@Charterhouse
-select 2009M@2009.Charterhouse
+#select 2011M@Charterhouse
+#select 2009M@2009.Charterhouse
+select 100FathomM@100Fathom.2008.Charterhouse
+select TimeLineM@TimeLine.2008.Charterhouse
+select PortalPoolM@PortalPool.2009.Charterhouse
 
 
 #Surveys to output
@@ -42,7 +42,7 @@ layout local
 symbol-hide group cave-centreline
 copy common
 debug off
-
+map-header 0 0 off
 base-scale 1 500
 scale 1 1000
 endlayout

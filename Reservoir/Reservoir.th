@@ -48,6 +48,9 @@ equate 534@R11 534@R12
 input R13/R13.th
 equate 553@R12 553@R13
 
+input SideRift/SideRift.th
+equate 1.8@Sleeper 2.0@SideRift
+
 input Sleeper/Sleeper.th
 input TopDig/TopDig.th
 

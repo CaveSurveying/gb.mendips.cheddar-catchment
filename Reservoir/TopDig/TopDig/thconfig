@@ -1,0 +1,30 @@
+encoding  utf-8
+source TopDig.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout local -o TopDig.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o TopDigEe.pdf
+
+export model -fmt survex -o TopDigth.3d
+#Survex file showing centre line only
+
+#export model -o TopDig.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o TopDig_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+#symbol-hide group cave-centreline
+endlayout
+
+input ../../../common_layout.th

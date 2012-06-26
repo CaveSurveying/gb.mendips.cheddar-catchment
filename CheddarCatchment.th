@@ -9,6 +9,8 @@ input BoneHole/BoneHole.th
 
 input Box/Box.th
 
+input BoxCave/BoxCave.th
+
 input Charterhouse/Charterhouse.th
 
 input CharterhouseWarren/CharterhouseWarren.th

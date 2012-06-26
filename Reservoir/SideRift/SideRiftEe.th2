@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -178.71 -92.36 1072.29 554.17
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {163.242893781 1 1.0} {157.204724409 1.7} PocketTopo/SideRift_e.xvi 0 {}
+
+
+scrap SideRiftSEe1 -projection extended -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
