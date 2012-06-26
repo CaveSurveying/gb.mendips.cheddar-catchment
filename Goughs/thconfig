@@ -4,6 +4,7 @@ source Goughs.th
 # Change name to the main therion file
 
 
+
 #Surveys to output
 #-----------------
 
@@ -15,6 +16,7 @@ export map -proj plan -layout local -o Goughs.pdf
 export model -fmt survex -o Goughsth.3d
 #Survex file showing centre line only
 
+#export model -o Fonts.lox
 #export model -o Goughs.lox
 #3d therion model to be viewed in the therion viewer
 
@@ -28,7 +30,7 @@ layout local
 
 copy common
 debug off
-map-header 0 0 off
+map-header 0 0 nw
 symbol-hide group centreline
 
 

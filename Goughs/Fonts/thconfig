@@ -11,7 +11,7 @@ export map -proj plan -layout local -o Fonts.pdf
 
 #export map -proj extended -layout local -o FontsEe.pdf
 
-#export model -fmt survex -o Fontsth.3d
+export model -fmt survex -o Fontsth.3d
 #Survex file showing centre line only
 
 export model -o Fonts.lox
