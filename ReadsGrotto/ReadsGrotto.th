@@ -3,7 +3,7 @@ survey ReadsGrotto
 
 input ReadsGrotto.th2
 
-map ReadsGrottoM -title " Read's Grotto"
+map ReadsGrottoM -title "Read's Grotto"
   ReadsGrottoSPl1
 endmap
 

@@ -8,6 +8,9 @@ source Charterhouse.th
 #select 2008.charter
 
 
+select 2011aM@Charterhouse
+select 2011bM@Charterhouse
+
 
 #select 2010.Charterhouse
 #select 2010b.Charterhouse
@@ -15,9 +18,9 @@ source Charterhouse.th
 
 #select 2011M@Charterhouse
 #select 2009M@2009.Charterhouse
-select 100FathomM@100Fathom.2008.Charterhouse
-select TimeLineM@TimeLine.2008.Charterhouse
-select PortalPoolM@PortalPool.2009.Charterhouse
+#select 100FathomM@100Fathom.2008.Charterhouse
+#select TimeLineM@TimeLine.2008.Charterhouse
+#select PortalPoolM@PortalPool.2009.Charterhouse
 
 
 #Surveys to output

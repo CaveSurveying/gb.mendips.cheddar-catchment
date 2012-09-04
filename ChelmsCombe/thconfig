@@ -1,4 +1,5 @@
 encoding  utf-8
+select ChelmsCombe
 source ChelmsCombe.th
 # Change name to the main therion file
 

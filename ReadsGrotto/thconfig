@@ -12,19 +12,20 @@ export map -proj plan -layout local -o ReadsGrotto.pdf
 
 #export map -proj extended -layout local -o ReadsGrottoEe.pdf
 
-export model -fmt survex -o ReadsGrottoth.3d
+#export model -fmt survex -o ReadsGrottoth.3d
 #Survex file showing centre line only
 
-#export model -fmt therion -o ReadsGrotto.thm
+#export model -o ReadsGrotto.lox
 #3d therion model to be viewed in the therion viewer
 
 #export map -proj plan -o ReadsGrotto_Walls.3d
 #Survex file showing walls only
 
 layout local
-copy common
+symbol-hide group centreline
+#copy common
 scale 1 100
-map-header 0 0 off
+#map-header 0 0 off
 debug off
 endlayout
 

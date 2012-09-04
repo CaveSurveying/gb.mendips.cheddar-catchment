@@ -95,15 +95,6 @@ map CharterhouseM
   
 endmap
 
-map Charterhouse_exclude_2010M 
-  OldCaveM@OldCave
-#  lowerM@lower
-  #up08M@up08
-  2009M@2009
-  2008M@2008 
-endmap
-
-
 #Next set of maps are used to split displace Hall of Time from Hightime
 #Select Charter_displaceM to get the map
 map underHighTime
@@ -113,7 +104,7 @@ map underHighTime
   Time_SquareSPl1@Time_Square.2009
 endmap
 
-map New_Charter_displaceM
+map Charterhouse_displaceM
 #  lowerM@lower
   2008M@2008
   2010adispM@2010
