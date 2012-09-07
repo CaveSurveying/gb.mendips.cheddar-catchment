@@ -10,8 +10,8 @@ map sump3M
 centreline
 
 date 2011.05.07
-#team "John Volanthen" instruments
-#team "Chris Jewell" dog
+team "John Volanthen" instruments
+team "Chris Jewell" dog
 
 #file modified by lazy boy mapper fudge.pl
 #source file session-12.svx altered by an ofset of -25 degrees inserted between 180 and 359 degrees

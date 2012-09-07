@@ -20,7 +20,7 @@ centreline
 
   team "Andrew Atkinson" notes
   team "Clive Owen" instruments
-  team "Jon Williams" dog
+  team "John Williams" dog
   instrument instruments DistoX-UBSS1
 
 data normal from to tape compass clino ignoreall
