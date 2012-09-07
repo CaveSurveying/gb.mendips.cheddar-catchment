@@ -1,6 +1,12 @@
 encoding  utf-8
 survey sump2
 
+input sump2.th2
+
+map sump2M
+  sump2SPl1
+  endmap
+
 centreline
 
 date 2005.09.03

@@ -1,6 +1,12 @@
 encoding  utf-8
 survey sheppards_crook
 
+input sheppards_crook.th2
+
+map sheppards_crookM
+  sheppards_crookSPl1
+  endmap
+
 centreline
 
 date 2005.09.17
@@ -8,10 +14,11 @@ team "Jon Beal"
 team "Mike Thomas"
 
 data normal from to gradient bearing length ignoreall
-1	2	+4	102	10.5
-2	3	+10	068	14.5
-3	4	-8	164	4	; 4=dive line tie off
+1  2  +4  102  10.5
+2  3  +10  068  14.5
+3  4  -8  164  4  ; 4=dive line tie off
 
 endcentreline
 
 endsurvey
+
