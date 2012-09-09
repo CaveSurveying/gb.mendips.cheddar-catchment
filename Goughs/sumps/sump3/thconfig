@@ -14,7 +14,7 @@ export map -proj plan -layout local -o sump3.pdf
 #export model -fmt survex -o sump3th.3d
 #Survex file showing centre line only
 
-#export model -o sump3.lox
+export model -o sump3.lox
 #3d therion model to be viewed in the therion viewer
 
 #export map -proj plan -o sump3_Walls.3d
