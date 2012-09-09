@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 4478.385 2214.61
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {393.7 1 1.0} {728.35 0_00} sump3.xvi 0 {}
 
 
@@ -33,6 +33,7 @@ line wall
   636.0 388.0 560.0 404.0 520.0 448.0
   480.0 492.0 428.0 520.0 404.0 560.0
   380.0 600.0 352.0 660.0 348.0 680.0
+  smooth off
 endline
 
 line wall
@@ -68,6 +69,102 @@ line wall
 endline
 
 point 3976.38 1306.3 station -name 271_32
+
+point 3933.86 1323.82 station -name 268_77
+
+point 3819.29 1353.54 station -name 262_35
+
+point 3616.54 1425.98 station -name 251_25
+
+point 3537.6 1452.95 station -name 246_98
+
+point 3418.11 1491.53 station -name 240_52
+
+point 3204.92 1556.89 station -name 229_01
+
+point 3435.24 1484.45 station -name 241_46
+
+point 3363.98 1517.32 station -name 237_44
+
+point 3287.4 1532.68 station -name 233_42
+
+point 3856.1 1335.63 station -name 264_49
+
+point 3663.78 1409.64 station -name 253_80
+
+point 3318.31 1528.94 station -name 235_02
+
+point 3477.56 1470.86 station -name 243_74
+
+point 3073.82 1607.28 station -name 221_79
+
+point 2936.22 1644.29 station -name 214_28
+
+point 2601.97 1666.34 station -name 194_26
+
+point 2760.24 1703.35 station -name 204_57
+
+point 2524.21 1545.08 station -name 185_80
+
+point 2430.51 1387.79 station -name 175_36
+
+point 2373.82 1250.79 station -name 166_78
+
+point 2260.43 1113.38 station -name 157_17
+
+point 2091.34 951.97 station -name 144_58
+
+point 1903.74 849.01 station -name 133_16
+
+point 1753.35 768.9 station -name 124_16
+
+point 1634.65 689.57 station -name 116_79
+
+point 1422.05 578.74 station -name 104_05
+
+point 1255.91 500.2 station -name 94_26
+
+point 1169.69 466.93 station -name 89_44
+
+point 1084.84 417.12 station -name 84_08
+
+point 933.47 403.35 station -name 75_77
+
+point 423.62 632.87 station -name 26_67
+
+point 1694.88 725.2 station -name 120_41
+
+point 1487.8 611.61 station -name 107_94
+
+point 2555.71 1613.98 station -name 189_96
+
+point 2405.51 1316.53 station -name 170_93
+
+point 3146.06 1577.56 station -name 225_80
+
+point 2181.1 1036.22 station -name 151_41
+
+point 1565.55 652.56 station -name 112_63
+
+point 3762.99 1379.92 station -name 259_14
+
+point 3565.16 1444.88 station -name 248_45
+
+point 3241.54 1542.72 station -name 231_02
+
+point 2844.49 1680.9 station -name 209_12
+
+point 467.52 573.62 station -name 34_07
+
+point 1335.63 532.87 station -name 98_81
+
+point 1803.94 787.2 station -name 126_97
+
+point 2321.26 1175.59 station -name 161_83
+
+point 3385.83 1508.46 station -name 238_64
+
+point 2997.05 1627.56 station -name 217_63
 
 point 2666.73 1720.47 station -name 199_35
 
