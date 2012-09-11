@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 2529.57 2568.94
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {275.59 1 1.0} {275.59 0} sump1b.xvi 0 {}
 
 
@@ -29,7 +29,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -id l3-1882-1896
   2112.0 2080.0
   2064.0 2040.0 2116.0 2036.0 1972.0 1944.0
   1828.0 1852.0 1700.0 1880.0 1616.0 1816.0
@@ -50,7 +50,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -id l4-1698-2014
   604.0 1508.0
   700.0 1620.0 664.0 1688.0 728.0 1616.0
   792.0 1544.0 768.0 1480.0 836.0 1528.0
@@ -111,6 +111,24 @@ point 274.41 402.56 station -name 2
 point 267.32 334.64 station -name 1
 
 point 275.59 275.59 station -name 0
+
+area sump
+  l3-1882-1896
+  l30-2076-2116
+  l4-1698-2014
+  l31-312-290
+endarea
+
+line border -id l31-312-290
+  208.0 288.0
+  288.0 272.0
+  336.0 308.0
+endline
+
+line border -id l30-2076-2116
+  2008.0 2196.0
+  2112.0 2080.0
+endline
 
 endscrap
 
