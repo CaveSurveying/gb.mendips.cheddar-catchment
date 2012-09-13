@@ -3,6 +3,8 @@ survey Reservoir
 
 input ChGorge/ChGorge.th
 
+input GreatExpectations/GreatExpectations.th
+
 input HappySnappers/HappySnappers.th
 input ResEnt/ResEnt.th
 
@@ -54,9 +56,22 @@ equate 1.8@Sleeper 2.0@SideRift
 input Sleeper/Sleeper.th
 input TopDig/TopDig.th
 
+input ToplessAven/ToplessAven.th
+
+#####################
+#Temp needs removing
+
+input MadeUp/MadeUp.th
+equate 1.5@MadeUp 1.36@GreatExpectations
+
+#####################
+
+
 #Connection to the therionised data
 equate 471@R6 1.0@TopDig
 
+equate 4.21@TopDig 1.0@ToplessAven
+equate 1.15@ToplessAven 1.15@GreatExpectations
 equate 1.0@TopDig 1.14@Sleeper
 equate 1.12@TopDig 1.0@HappySnappers
 equate 1.0@Sleeper 1.26@ResEnt
@@ -69,7 +84,14 @@ equate 1.0@ResEnt 1.0@ChGorge
 #equate 471@survex_format 1.0@TopDig
 
 map ReservoirM -title "Reservoir Hole"
+  GreatExpectationsM@GreatExpectations
+  HappySnappersM@HappySnappers
+  PottersHeavenM@PottersHeaven
+  ResEntM@ResEnt
+  SideRiftM@SideRift
+  SleeperM@Sleeper
   TopDigM@TopDig
+  ToplessAvenM@ToplessAven
   R1@R1
   R2@R2
 #  R3@R3

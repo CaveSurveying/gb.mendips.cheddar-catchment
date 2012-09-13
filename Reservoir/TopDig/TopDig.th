@@ -5,8 +5,8 @@ input TopDig.th2
 #input TopDigEe.th2
 
 map TopDigM
-  TopDigScPl1
-  TopDigScPl2
+  TopDigSPl1
+# TopDigSPl2
 # TopDigSPl3
 endmap
 
