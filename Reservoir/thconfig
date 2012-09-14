@@ -24,7 +24,10 @@ export model  -o Reservoir.lox
 layout local
 copy common
 debug off
-map-header 0 0 off
+map-header 0 0 sw
+#scale-bar 50 m
+rotate -90
+
 endlayout
 
 input ../common_layout.th
