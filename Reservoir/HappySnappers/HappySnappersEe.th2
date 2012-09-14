@@ -1,0 +1,32 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -312.76 -165.34 1876.54 992.03
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {602.1198425199999 1 1.0} {547.923600212 1.4} PocketTopo/HappySnappers_e.xvi 0 {}
+
+
+
+scrap HappySnappersSEe1 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 194.94984251999995 826.093600212 station -name 1.7
+
+point 236.0098425199999 628.043600212 station -name 1.6
+
+point 738.0398425199999 909.3636002119999 station -name 1.9
+
+point 701.2998425199999 706.893600212 station -name 1.8
+
+point 527.0198425199999 542.673600212 station -name 1.5
+
+point 602.1198425199999 547.923600212 station -name 1.4
+
+point 716.94984252 505.063600212 station -name 1.3
+
+point 788.0998425199999 341.923600212 station -name 1.2
+
+point 1092.91984252 147.743600212 station -name 1.1
+
+point 1401.25984252 201.963600212 station -name 1.0
+
+endscrap
+
+
