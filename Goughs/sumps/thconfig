@@ -14,7 +14,7 @@ export map -proj plan -layout local -o sumps.pdf
 #export model -fmt survex -o sumpsth.3d
 #Survex file showing centre line only
 
-export model -o sumps.lox
+#export model -o sumps.lox
 #3d therion model to be viewed in the therion viewer
 
 #export map -proj plan -o sumps_Walls.3d
@@ -30,4 +30,4 @@ symbol-hide group centreline
 
 endlayout
 
-input common_layout.th
+input ../../common_layout.th
