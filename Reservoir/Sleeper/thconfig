@@ -11,7 +11,7 @@ export map -proj plan -layout local -o Sleeper.pdf
 
 #export map -proj extended -layout local -o SleeperEe.pdf
 
-export model -fmt survex -o Sleeperth.3d
+#export model -fmt survex -o Sleeperth.3d
 #Survex file showing centre line only
 
 #export model -o Sleeper.lox

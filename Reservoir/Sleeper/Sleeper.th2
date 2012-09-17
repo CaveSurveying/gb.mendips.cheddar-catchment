@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -95.71228205000014 -72.80314960699998 1348.5 1600.5196850384
-##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {945.2541888299999 1 1.0} {195.884173228 1.4} PocketTopo/Sleeper_p.xvi 0 {}
+##XTHERION## xth_me_area_adjust -95.71228205 -72.803149607 1351.0 1601.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {945.25418883 1 1.0} {195.884173228 1.4} PocketTopo/Sleeper_p.xvi 0 {}
 
 
 
@@ -219,6 +219,14 @@ endline
 
 point 945.2541888299999 195.884173228 station -name 1.4
 
+line section -direction both
+  420.0 772.0
+  516.0 800.0 680.0 853.0 766.0 880.0
+  smooth off
+endline
+
+point 126.0 653.0 section -scrap SleeperSX1.11
+
 endscrap
 
 
@@ -236,6 +244,26 @@ endscrap
 
 
 scrap SleeperSX1.11 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype debris
+  817.0 1009.0
+  936.0 1021.0
+endline
+
+line wall
+  936.0 1021.0
+  937.0 1040.0 928.0 1175.0 928.0 1187.0
+  928.0 1199.0 887.0 1303.0 884.0 1323.0
+  881.0 1343.0 827.0 1468.0 827.0 1468.0
+  smooth off
+  828.0 1344.0
+  828.0 1344.0 832.0 1272.0 832.0 1259.0
+  832.0 1246.0 818.0 1161.0 818.0 1144.0
+  818.0 1127.0 817.0 1009.0 817.0 1009.0
+  smooth off
+endline
+
+point 884.69418883 1044.56417323 station -name 1.11
 
 endscrap
 
