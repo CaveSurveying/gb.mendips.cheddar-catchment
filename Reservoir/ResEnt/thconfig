@@ -11,7 +11,7 @@ export map -proj plan -layout local -o ResEnt.pdf
 
 #export map -proj extended -layout local -o ResEntEe.pdf
 
-export model -fmt survex -o ResEntth.3d
+#export model -fmt survex -o ResEntth.3d
 #Survex file showing centre line only
 
 #export model -o ResEnt.lox
@@ -24,7 +24,7 @@ layout local
 copy common
 debug off
 map-header 0 0 off
-#symbol-hide group cave-centreline
+symbol-hide group cave-centreline
 endlayout
 
 input ../../common_layout.th
