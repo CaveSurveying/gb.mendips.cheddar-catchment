@@ -80,6 +80,7 @@ equate 1.0@Sleeper 1.26@ResEnt
 equate 1.7@Sleeper 2.0@SideRift
 equate 1.0@ResEnt 1.0@ChGorge
 
+join GreatExpectationsSPl1@GreatExpectations ToplessAvenSPl1@ToplessAven -smooth on
 join HappySnappersSPl1@HappySnappers TopDigSPl1@TopDig -smooth on
 join TopDigSPl1@TopDig ToplessAvenSPl1@ToplessAven -smooth on
 join SleeperSPl3@Sleeper TopDigSPl1@TopDig -smooth on
