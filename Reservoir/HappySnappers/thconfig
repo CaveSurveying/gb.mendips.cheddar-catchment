@@ -6,12 +6,12 @@ source HappySnappers.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o HappySnappers.pdf
+export map -proj plan -layout local -o HappySnappers.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o HappySnappersEe.pdf
 
-export model -fmt survex -o HappySnappersth.3d
+#export model -fmt survex -o HappySnappersth.3d
 #Survex file showing centre line only
 
 #export model -o HappySnappers.lox
@@ -24,7 +24,7 @@ layout local
 copy common
 debug off
 map-header 0 0 off
-#symbol-hide group cave-centreline
+symbol-hide group cave-centreline
 endlayout
 
 input ../../common_layout.th

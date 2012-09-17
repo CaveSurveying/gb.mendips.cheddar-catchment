@@ -147,12 +147,12 @@ centreline
 
 ### TRIP COMMENT FROM POCKETTOPO ###
 #Drawing: Andrew Atkinson
-#Instrument: Antony Boycott
+#Instrument: Tony Boycott
 #ubss1:0.31
 
   date 2012.05.29
   team "Andrew Atkinson" notes
-  team "Antony Boycott" instruments
+  team "Tony Boycott" instruments
 
 data normal from to tape compass clino ignoreall
 1.0  4.0  0.0  0.0  0.0  

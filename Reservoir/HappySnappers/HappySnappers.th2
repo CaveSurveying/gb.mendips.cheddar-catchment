@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -166.95538059999998 -86.07307851299998 561.4855642818 1452.0
+##XTHERION## xth_me_area_adjust -293.0 -86.073078513 561.485564282 1452.0
 ##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {150.32514612 1 1.0} {940.7224355689999 1.4} PocketTopo/HappySnappers_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {150.32514612 1 1.0} {940.722435569 1.4} PocketTopo/HappySnappers_p.xvi 0 {}
 
 
 
@@ -23,6 +23,7 @@ line wall
   132.5 741.0 136.5 723.0 136.0 709.5
   135.5 696.0 138.0 662.0 135.5 640.0
   133.0 618.0 138.5 561.0 138.0 545.5
+  smooth off
 endline
 
 line wall
@@ -64,11 +65,34 @@ point 51.03514612000001 1285.1624355689999 station -name 1.6
 
 point 70.34514612000001 1321.4024355689999 station -name 1.7
 
+point -162.5 484.5 section -scrap HappySnappersSX1.1
+
+line section -direction both
+  28.0 469.5
+  121.5 463.5 210.0 456.5 289.5 450.0
+endline
+
 endscrap
 
 
 
 scrap HappySnappersSX1.1 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  347.5 234.5
+  347.5 234.5 340.5 184.5 350.0 185.0
+  366.77 185.88 374.0 177.5 378.5 179.0
+  383.0 180.5 397.5 184.0 394.0 194.0
+  390.5 204.0 374.28 227.0 382.5 246.0
+  390.5 264.5 396.0 297.0 417.0 311.5
+  425.87 317.63 413.0 339.0 407.5 332.5
+  399.36 322.87 378.0 332.0 376.5 323.5
+  371.4 294.59 350.0 297.5 348.5 289.5
+  343.52 262.92 347.5 234.5 347.5 234.5
+  smooth off
+endline
+
+point 354.86514612 222.222435569 station -name 1.1
 
 endscrap
 

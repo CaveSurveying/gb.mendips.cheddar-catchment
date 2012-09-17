@@ -15,7 +15,7 @@ export map -proj plan -layout local -o Reservoir.pdf
 #export model -fmt survex -o Reservoirth.3d
 #Survex file showing centre line only
 
-export model  -o Reservoir.lox
+#export model  -o Reservoir.lox
 #3d therion model to be viewed in the therion viewer
 
 #export map -proj plan -o Reservoir_Walls.3d
@@ -27,6 +27,7 @@ debug off
 map-header 0 0 sw
 #scale-bar 50 m
 rotate -90
+symbol-hide group cave-centreline
 
 endlayout
 
