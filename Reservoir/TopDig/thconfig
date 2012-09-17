@@ -12,7 +12,7 @@ export map -proj plan -layout local -o TopDig.pdf
 
 #export map -proj extended -layout local -o TopDigEe.pdf
 
-export model -fmt survex -o TopDigth.3d
+#export model -fmt survex -o TopDigth.3d
 #Survex file showing centre line only
 
 #export model -o TopDig.lox

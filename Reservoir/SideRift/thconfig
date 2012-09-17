@@ -11,7 +11,7 @@ export map -proj plan -layout local -o SideRift.pdf
 
 #export map -proj extended -layout local -o SideRiftEe.pdf
 
-export model -fmt survex -o SideRiftth.3d
+#export model -fmt survex -o SideRiftth.3d
 #Survex file showing centre line only
 
 #export model -o SideRift.lox

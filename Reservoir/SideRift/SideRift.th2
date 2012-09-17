@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -165.951723692 -120.125984252 562.4892211898 1080.7559055115998
+##XTHERION## xth_me_area_adjust -165.951723692 -120.125984252 562.48922119 1080.75590551
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {188.662449536 1 1.0} {158.74015748 1.7} PocketTopo/SideRift_p.xvi 0 {}
 
@@ -83,6 +83,20 @@ point 188.662449536 158.74015748 station -name 2.0
 
 point 145.092449536 128.26015748 station -name 2.8
 
+point 342.5 335.0 section -scrap SideRiftSX2.1
+
+line section -direction end
+  148.5 270.0
+  148.5 270.0 203.0 294.0 279.0 327.0
+endline
+
+point 345.5 575.0 section -scrap SideRiftSX2.3
+
+line section -direction both
+  93.0 408.0
+  135.5 424.5 198.5 450.5 244.5 470.0
+endline
+
 endscrap
 
 
@@ -95,11 +109,63 @@ endscrap
 
 scrap SideRiftSX2.3 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -subtype debris
+  309.0 398.0
+  309.0 398.0 313.5 398.0 321.0 398.0
+  328.5 398.0 333.0 397.5 338.5 397.5
+  344.0 397.5 353.5 402.0 353.5 402.0
+  smooth off
+endline
+
+line wall
+  353.5 402.0
+  352.5 406.5 342.5 447.0 342.5 450.5
+  342.5 454.0 340.5 474.0 340.0 483.5
+  339.5 493.0 339.5 512.0 336.5 520.0
+  333.5 528.0 319.5 559.5 319.5 567.0
+  319.5 574.5 312.0 592.0 312.0 592.0
+  smooth off
+  312.0 592.0 305.5 596.5 304.5 588.0
+  303.5 579.5 311.5 541.0 312.5 533.0
+  313.5 525.0 316.0 499.5 316.5 487.5
+  317.0 475.5 316.0 454.5 314.0 442.0
+  312.0 429.5 309.0 398.0 309.0 398.0
+  smooth off
+endline
+
+point 339.212449536 414.96015748 station -name 2.3
+
 endscrap
 
 
 
 scrap SideRiftSX2.1 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  367.5 191.0
+  367.5 191.0 372.0 190.0 375.0 190.0
+  378.0 190.0 387.5 192.5 389.5 194.5
+  391.5 196.5 393.0 199.0 393.0 199.0
+  smooth off
+endline
+
+line wall
+  376.5 242.0
+  370.0 236.5 364.0 226.5 364.0 222.0
+  364.0 217.5 364.0 199.5 364.5 197.5
+  365.0 195.5 367.5 191.0 367.5 191.0
+  smooth off
+endline
+
+line wall -reverse on
+  376.5 242.0
+  384.0 236.0 387.5 238.0 390.5 231.0
+  393.5 224.0 393.5 213.5 393.5 210.5
+  393.5 207.5 393.0 199.0 393.0 199.0
+  smooth off
+endline
+
+point 366.142449536 218.03015748 station -name 2.1
 
 endscrap
 
