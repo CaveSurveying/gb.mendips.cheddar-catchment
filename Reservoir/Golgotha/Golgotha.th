@@ -6,7 +6,9 @@ input GolgothaEe.th2
 
 map GolgothaM
   GolgothaSPl1
+ break
   GolgothaSPl2
+ break
   GolgothaSPl3
   GolgothaSPl4
 endmap
