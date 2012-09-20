@@ -26,6 +26,8 @@ line wall
   smooth off
 endline
 
+point -132.0 1432.0 label -text "The<br>Silo"
+
 line wall
   210.0 546.5
   210.94 561.02 202.0 575.5 202.5 596.0
@@ -70,6 +72,7 @@ point -162.5 484.5 section -scrap HappySnappersSX1.1
 line section -direction both
   28.0 469.5
   121.5 463.5 210.0 456.5 289.5 450.0
+  smooth off
 endline
 
 endscrap

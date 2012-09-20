@@ -77,6 +77,15 @@ map-comment "Drawn, using Therion, by Andrew Atkinson.<br>With thanks to all the
 
 code metapost
 
+#####################################
+#Text sizes
+#xs: features such as sumps
+#s: point names such as rocks
+#m: normal names
+#l: major names
+#xl: Area/cave names
+#####################################
+
   #base 1:750 scale 1:2750 (A3 charterhouse,GB)
   #fonts_setup(8,16,24,40,60)
 

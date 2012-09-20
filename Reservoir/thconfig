@@ -2,10 +2,6 @@ encoding  utf-8
 source Reservoir.th
 # Change name to the main therion file
 
-
-
-
-
 #Surveys to output
 #-----------------
 
@@ -24,11 +20,10 @@ export model -fmt survex -o Reservoirth.3d
 layout local
 copy common
 debug off
-map-header 0 0 sw
+map-header 0 0 off
 #scale-bar 50 m
 rotate -90
-symbol-hide group cave-centreline
-
+#symbol-hide group cave-centreline
 endlayout
 
 input ../common_layout.th
