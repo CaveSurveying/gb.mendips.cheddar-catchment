@@ -12,27 +12,35 @@ point 560.0 4026.0 section -scrap WhiteSpotSX1.1
 line section -direction both
   370.0 4015.0
   291.0 3944.0 173.0 3829.0 38.0 3708.0
+  smooth off
 endline
 
-point 911.0 3444.0 section -scrap WhiteSpotSX1.3
+point -205.0 4109.0 label -scale xl -align tl -text "White Spot"
+
+point 13.0 4103.0 entrance -orientation 137.7 -scale xl
+
+point -36.0 3287.0 section -align l -scrap WhiteSpotSX1.3
 
 line section -direction both
   683.0 3412.0
   570.0 3381.0 376.0 3333.0 252.0 3300.0
+  smooth off
 endline
 
-point -83.0 2441.0 section -scrap WhiteSpotSX1.5
+point 8.0 2441.0 section -align l -scrap WhiteSpotSX1.5
 
 line section -direction both
   604.0 2338.0
   466.0 2364.0 302.0 2403.0 164.0 2431.0
+  smooth off
 endline
 
-point 733.0 1341.0 section -scrap WhiteSpotSX1.7
+point -85.0 1442.0 section -align l -scrap WhiteSpotSX1.7
 
 line section -direction both
   484.0 1406.0
   375.0 1417.0 179.0 1440.0 82.0 1448.0
+  smooth off
 endline
 
 line rock-border -close on
@@ -69,11 +77,13 @@ endline
 line wall -subtype unsurveyed
   452.0 932.0
   460.0 944.0 468.0 953.0 476.0 961.0
+  smooth off
 endline
 
 line wall -subtype unsurveyed
   474.0 970.0
   464.0 958.0 446.0 948.0 439.0 944.0
+  smooth off
 endline
 
 line border -subtype invisible
@@ -85,6 +95,7 @@ line border -subtype invisible
   439.0 944.0
   422.0 941.0 415.0 939.0 411.0 925.0
   407.0 911.0 415.0 908.0 444.0 891.0
+  smooth off
 endline
 
 line border
@@ -103,6 +114,7 @@ line border
   271.0 1926.0
   294.0 1925.0 297.0 1927.0 304.0 1947.0
   311.0 1967.0 310.18 2007.28 283.0 2010.0
+  smooth off
 endline
 
 line border
@@ -110,12 +122,14 @@ line border
   368.0 2723.0 383.0 2632.0 381.0 2593.0
   379.0 2554.0 373.0 2464.0 367.0 2438.0
   361.0 2412.0 341.0 2390.0 320.0 2364.0
+  smooth off
 endline
 
 line border
   487.0 2762.0
   479.0 2747.0 428.0 2626.0 427.0 2575.0
   426.0 2524.0 437.0 2401.0 441.0 2368.0
+  smooth off
 endline
 
 line border
@@ -126,44 +140,52 @@ line border
   391.0 3436.0 441.0 3394.0 450.0 3374.0
   459.0 3354.0 470.0 3352.0 456.0 3314.0
   442.0 3276.0 409.29 3209.56 403.0 3183.0
+  smooth off
 endline
 
 line floor-step
   294.0 3918.0
   277.0 3900.0 253.0 3844.0 227.0 3825.0
+  smooth off
 endline
 
 line floor-step
   427.0 2575.0
   402.0 2586.0 396.0 2597.0 381.0 2593.0
+  smooth off
 endline
 
 line floor-step
   361.0 1592.0
   331.0 1600.0 272.51 1615.0 263.0 1615.0
   249.0 1615.0 252.33 1613.12 230.0 1619.0
+  smooth off
 endline
 
 line floor-step
   343.0 1350.0
   303.0 1354.0 231.0 1363.0 194.0 1365.0
+  smooth off
 endline
 
 line floor-step
   317.0 1206.0
   277.0 1213.0 205.0 1209.0 182.0 1206.0
+  smooth off
 endline
 
 line pit
   270.0 1075.0
   234.0 1081.0 246.0 1087.0 218.0 1085.0
   190.0 1083.0 180.0 1081.0 162.0 1074.0
+  smooth off
 endline
 
 line pit -reverse on
   235.0 877.0
   209.0 873.0 179.0 862.0 166.0 864.0
   153.0 866.0 145.0 877.0 140.0 880.0
+  smooth off
 endline
 
 line wall
@@ -285,6 +307,7 @@ endline
 line overhang -reverse on
   254.0 954.0
   258.0 986.0 257.0 1029.0 261.0 1057.0
+  smooth off
 endline
 
 line wall
@@ -349,6 +372,7 @@ line wall
   907.0 1912.0 903.0 1892.0 904.0 1865.0
   905.0 1838.0 909.0 1808.0 907.0 1782.0
   905.0 1756.0 909.0 1712.0 907.0 1708.0
+  smooth off
 endline
 
 line wall
@@ -366,12 +390,14 @@ line wall
   1031.0 2640.0 1031.0 2680.0 1039.0 2712.0
   1047.0 2744.0 1039.0 2788.0 1044.0 2820.0
   1049.0 2852.0 1046.0 2885.0 1050.0 2900.0
+  smooth off
 endline
 
 line wall -subtype sand
   907.0 1708.0
   933.0 1703.0 975.0 1705.0 993.0 1703.0
   1011.0 1701.0 1059.0 1697.0 1067.0 1702.0
+  smooth off
 endline
 
 endscrap
@@ -399,6 +425,7 @@ line wall
   767.0 2687.0 766.0 2671.0 769.0 2649.0
   772.0 2627.0 780.0 2622.0 782.0 2612.0
   784.0 2602.0 795.0 2587.0 796.0 2583.0
+  smooth off
 endline
 
 line wall
@@ -416,12 +443,14 @@ line wall
   846.0 3400.0 850.0 3461.0 851.0 3489.0
   852.0 3517.0 849.0 3518.0 851.0 3541.0
   853.0 3564.0 850.0 3577.0 855.0 3590.0
+  smooth off
 endline
 
 line wall -subtype sand
   796.0 2583.0
   810.0 2571.0 809.0 2555.0 829.0 2557.0
   849.0 2559.0 856.0 2571.0 860.0 2583.0
+  smooth off
 endline
 
 endscrap
@@ -433,6 +462,7 @@ scrap WhiteSpotSX1.3 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 line wall -subtype sand
   724.0 3721.0
   741.0 3712.0 814.0 3711.0 831.0 3724.0
+  smooth off
 endline
 
 line wall
@@ -448,6 +478,7 @@ line wall
   744.0 3891.0 751.0 3872.0 744.0 3854.0
   737.0 3836.0 730.0 3782.0 729.0 3765.0
   728.0 3748.0 723.0 3733.0 724.0 3721.0
+  smooth off
 endline
 
 line wall
@@ -461,6 +492,7 @@ line wall
   911.0 4388.0 916.0 4406.0 927.0 4439.0
   938.0 4472.0 934.0 4507.0 945.0 4538.0
   956.0 4569.0 955.0 4580.0 961.0 4597.0
+  smooth off
 endline
 
 endscrap

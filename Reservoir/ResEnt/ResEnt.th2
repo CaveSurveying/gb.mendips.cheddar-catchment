@@ -86,6 +86,7 @@ point 233.93027852 2304.29141732 station -name 1.23
 line floor-step
   1007.0 3163.0
   991.0 3169.0 994.04 3169.26 981.52027852 3167.63141732
+  smooth off
 endline
 
 line wall
@@ -346,7 +347,9 @@ line floor-step -reverse on
   smooth off
 endline
 
-point 1007.0 3408.0 entrance -orientation 182.5
+point 391.0 3131.0 label -align t -scale xl -text "Reservoir<br>Hole"
+
+point 945.0 3406.0 entrance -orientation 166.7 -scale xl
 
 point 926.0 180.0 label -text "South<br>Passage"
 

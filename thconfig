@@ -7,14 +7,21 @@ source CheddarCatchment.th
 #But unselected for lox, otherwise you get 2 grids
 #unselect Surface.Charterhouse
 
-#select 2010bM@2010b.Charterhouse.CheddarCatchment
-
-#select DieselDuck_FirstPartM@DieselDuck.2009.Charterhouse.CheddarCatchment
-
-#select Stream_EndM@Stream.2009.charter.CheddarCatchment
-#select Quicksand_ChamberM@Quicksand_Chamber.2009.Charterhouse.CheddarCatchment
 
 
+
+select FrozenDeepM@FrozenDeep.Reservoir.CheddarCatchment
+select GolgothaM@Golgotha.Reservoir.CheddarCatchment
+select GreatExpectationsM@GreatExpectations.Reservoir.CheddarCatchment
+select HappySnappersM@HappySnappers.Reservoir.CheddarCatchment
+select PottersHeavenM@PottersHeaven.Reservoir.CheddarCatchment
+select PulsationAvenM@PulsationAven.Reservoir.CheddarCatchment
+select ResEntM@ResEnt.Reservoir.CheddarCatchment
+select SideRiftM@SideRift.Reservoir.CheddarCatchment
+select SleeperM@Sleeper.Reservoir.CheddarCatchment
+select TopDigM@TopDig.Reservoir.CheddarCatchment
+select ToplessAvenM@ToplessAven.Reservoir.CheddarCatchment
+#select WhiteSpotM@WhiteSpot.CheddarCatchment
 
 
 #Surveys to output
@@ -22,15 +29,17 @@ source CheddarCatchment.th
 
 #Produces plan of cave, on a single sheet
 #export map -proj plan -layout local -o Outputs/CheddarCatchment.pdf
-#export map -proj plan -layout local -o Outputs/Charterhouse_Skeleton_in_context.pdf
+export map -proj plan -layout local -o Outputs/Reservoir.pdf
 
 
 #export map -proj plan -fmt kml -layout googlemaps -o Outputs/CheddarCatchment.kml
 
-export model -fmt survex -o Outputs/CheddarCatchmentth.3d
+#export model -fmt survex -o Outputs/CheddarCatchmentth.3d
+#export model -fmt survex -o Outputs/Reservoir-WhiteSpot.3d
 #Survex file showing centre line only
 
-export model -o Outputs/CheddarCatchment.lox
+#export model -o Outputs/CheddarCatchment.lox
+#export model -o Outputs/Reservoir-Goughs-WhiteSpot.lox
 #3d therion model to be viewed in the therion viewer
 
 #export model -fmt vrml -o VRML/CheddarCatchment.wrl
@@ -51,6 +60,7 @@ copy common
 #map-image 100 100 ne Photos/Citadel.jpg
 #map-image 100 70 ne Photos/Portal_Pool.jpg
 #surface bottom
+rotate -90
 #surface-opacity 100
 #transparency off
 #debug on
@@ -62,7 +72,7 @@ copy common
 #colour map-bg [100]
 
 #base-scale 1 500
-scale 1 100
+scale 1 500
 
 #A3
 #scale 1 2750

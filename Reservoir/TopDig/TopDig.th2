@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -11.16216662 458.07368286 2296.0 7414.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1202.47128529 1 1.0} {6525.65885785 1.4} PocketTopo/TopDig_p.xvi 0 {}
 
 
@@ -548,7 +548,10 @@ endarea
 
 point 126.0 4735.0 label -scale l -text "Grand Gallery"
 
-point 1313.0 1077.0 label -scale l -text "Topless Aven"
+line label -scale l -text "Topless Aven"
+  944.0 1728.0
+  1528.0 680.0
+endline
 
 line border -id l133-1557-913 -close on -subtype invisible
   1653.0 747.0
