@@ -21,7 +21,7 @@ select SideRiftM@SideRift.Reservoir.CheddarCatchment
 select SleeperM@Sleeper.Reservoir.CheddarCatchment
 select TopDigM@TopDig.Reservoir.CheddarCatchment
 select ToplessAvenM@ToplessAven.Reservoir.CheddarCatchment
-#select WhiteSpotM@WhiteSpot.CheddarCatchment
+select WhiteSpotM@WhiteSpot.CheddarCatchment
 
 
 #Surveys to output
@@ -29,7 +29,7 @@ select ToplessAvenM@ToplessAven.Reservoir.CheddarCatchment
 
 #Produces plan of cave, on a single sheet
 #export map -proj plan -layout local -o Outputs/CheddarCatchment.pdf
-export map -proj plan -layout local -o Outputs/Reservoir.pdf
+export map -proj plan -layout local -o Outputs/Reservoir-WhiteSpot.pdf
 
 
 #export map -proj plan -fmt kml -layout googlemaps -o Outputs/CheddarCatchment.kml
