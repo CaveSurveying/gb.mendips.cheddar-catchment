@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1294.8 -491.47 7768.82 2948.84
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {2114.09448819 1 1.0} {751.239939003 1.15} PocketTopo/GreatExpectations_e.xvi 0 {}
+
+
+scrap GreatExpectationsSEe1 -projection extended -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
