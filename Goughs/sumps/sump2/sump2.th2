@@ -130,6 +130,8 @@ line border -id l30-2076-2116
   2112.0 2080.0
 endline
 
+point 686.0 1774.0 label -scale xl -text "Sump 2"
+
 endscrap
 
 

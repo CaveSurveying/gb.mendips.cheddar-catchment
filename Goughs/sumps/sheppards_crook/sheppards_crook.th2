@@ -70,11 +70,7 @@ line border -id l9-313-178 -close on
   516.0 68.0
 endline
 
-endscrap
-
-
-
-scrap scrap11 -scale [-128.0 -128.0 718.55 -128.0 0.0 0.0 21.50237 0.0 m]
+point 265.0 285.0 label -text Sheppard's<br>Crook" -scale xl -align l
 
 endscrap
 
