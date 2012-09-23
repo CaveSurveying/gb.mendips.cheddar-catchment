@@ -94,10 +94,11 @@ map GoughsM
 endmap
 
 map GoughsDispM
-    GoughsUpperM
-    GoughsLowerM [0 -70 m] below
+    BeddingChamberBoxM@BeddingChamber
     BeddingChamberM@BeddingChamber [-9 30 m] above
-    LLoydTopM [12 12 m] above
+ #   GoughsUpperM
+    GoughsLowerM [130 -30 m] below
+    LLoydTopM [25 10 m] above
 endmap
 
 map LLoydTopM
@@ -108,13 +109,13 @@ endmap
 map GoughsUpperM
   DSAvenM@DSAven
   BatRoomM@BatRoom
-  NathansAtticM@NathansAttic
   KingsSolomonsM@KingsSolomons
   CastleHairyRingM@CastleHairyRing
   BlackcatM@Blackcat
-  Damocles1M@Damocles1
-  Damocles2M@Damocles2
   Damocles3M@Damocles3
+  Damocles2M@Damocles2
+  Damocles1M@Damocles1
+  NathansAtticM@NathansAttic
   DucksDelightM@DucksDelight
   EntranceM@Entrance
   FontsM@Fonts 
@@ -122,6 +123,7 @@ map GoughsUpperM
   TableauxM@Tableaux
   LloydHallBottomM@LloydHall
   TheOxbowM@TheOxbow
+  DireStraitsM@DireStraits
   StPaulsM@StPauls
   NovemberM@November
   SandChamberM@SandChamber
@@ -129,8 +131,8 @@ map GoughsUpperM
   SideOxM@SideOx
   HeartbreakDigM@HeartbreakDig
   CheeseroomM@Cheeseroom
-  sumpsM@sumps
   WetWitchM@WetWitch
+  sumpsM@sumps
 endmap
 
 map GoughsLowerM

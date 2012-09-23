@@ -22,7 +22,7 @@ export model -o BeddingChamber.lox
 
 layout local
 copy common
-debug off
+debug on
 map-header 0 0 off
 #symbol-hide group cave-centreline
 endlayout

@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 71.60526050999988 118.37795275199983 3192.0 3681.4645669246
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust 60.0 118.37795275199983 3260.0 3681.4645669246
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {622.3377014499999 1 1.0} {2348.92181102 7.14} PocketTopo/BeddingChamber_p.xvi 0 {}
 
 
@@ -147,6 +147,20 @@ line wall -reverse on -outline in
   1823.5 1904.0 1740.0 1897.0 1726.0 1893.0
   smooth off
 endline
+
+line border -close on -clip off
+  208.0 864.0
+  3112.0 864.0
+  3112.0 3004.0
+  208.0 3004.0
+  208.0 864.0
+endline
+
+point 208.0 864.0 map-connection
+
+point 1620.0 3212.0 label -text "Bedding Chamber"
+
+point 3112.0 3004.0 map-connection
 
 line wall
   2431.5 2273.5
@@ -327,7 +341,25 @@ endline
 
 point 1889.9077014499999 1480.9318110200002 station -name 7.1
 
-point 2095.32770145 1955.6418110200002 station -name 7.3
+point 2095.32770145 1955.6418110199997 station -name 7.3
+
+endscrap
+
+
+
+scrap Box -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 769.95770145 2445.4818110200004 station -name 7.11
+
+point 2095.32770145 1955.6418110199997 station -name 7.3
+
+line border -close on -clip off
+  208.0 864.0
+  3112.0 864.0
+  3112.0 3004.0
+  208.0 3004.0
+  208.0 864.0
+endline
 
 endscrap
 

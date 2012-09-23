@@ -12,6 +12,10 @@ map BeddingChamberM
   BeddingChamberSPl3
 endmap
 
+map BeddingChamberBoxM
+  Box
+endmap
+
 equate 7.2 7.28
 
 centreline

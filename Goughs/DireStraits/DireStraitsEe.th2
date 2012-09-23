@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -101.17 -147.34 607.01 884.04
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {50.5840466901 1 1.0} {810.372106584 1.0} PocketTopo/DireStraits_e.xvi 0 {}
+
+
+scrap DireStraitsSEe1 -projection extended -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
