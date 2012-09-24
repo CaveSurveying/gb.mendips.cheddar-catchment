@@ -93,6 +93,7 @@ map GoughsM
     GoughsUpperM
     GoughsLowerM
     BeddingChamberM@BeddingChamber
+    sumpsM@sumps
 endmap
 
 map GoughsDispM
@@ -134,7 +135,6 @@ map GoughsUpperM
   HeartbreakDigM@HeartbreakDig
   CheeseroomM@Cheeseroom
   WetWitchM@WetWitch
-  sumpsM@sumps
 endmap
 
 map GoughsLowerM
