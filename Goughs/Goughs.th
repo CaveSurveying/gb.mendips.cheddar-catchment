@@ -18,6 +18,7 @@ input FarRift/FarRift.th
 input Fonts/Fonts.th
 input HeartbreakHill/HeartbreakHill.th
 input Improbable/Improbable.th
+input Improbable2/Improbable2.th
 input KingsSolomons/KingsSolomons.th
 input LloydHall/LloydHall.th
 input NathansAttic/NathansAttic.th
@@ -69,7 +70,8 @@ equate 1.13@HeartbreakHill 1.0@Tableaux
 equate 1.4@HeartbreakHill 1.0@TheOxbow
 equate 1.12@HeartbreakHill 1.8@StPauls
 equate 1.9@HeartbreakHill 1.12@StPauls
-equate 6.8@Improbable 5.3@CableCrawl
+equate 5.13@Improbable 6.0@Improbable2
+equate 6.8@Improbable2 5.3@CableCrawl
 equate 5.0@Improbable 1.18@LloydHall
 #equate 6.0@KingsSolomons 1.12@Tableaux
 equate 8.0a@LloydHall 0@sump1b.sumps
@@ -102,7 +104,7 @@ map GoughsDispM
 endmap
 
 map LLoydTopM
-  Improbable1M@Improbable
+  ImprobableM@Improbable
   LloydHallTopM@LloydHall
 endmap
 
@@ -139,7 +141,7 @@ map GoughsLowerM
   FarRiftM@FarRift
   CableCrawlM@CableCrawl
   NathansDungeonM@NathansDungeon
-  Improbable2M@Improbable
+  Improbable2M@Improbable2
   BoulderChamberM@BoulderChamber
   TunnelM@Tunnel  
 endmap
@@ -159,10 +161,10 @@ join BlackcatSPl2@Blackcat SandChamberSPl2@SandChamber -smooth on
 join BlackcatSPl4@Blackcat TableauxSPl1@Tableaux -smooth on
 join BoulderChamberSPl1@BoulderChamber FarRiftSPl1@FarRift -smooth on
 join BoulderChamberSPl1@BoulderChamber FarRiftSPl2@FarRift -smooth on
-join BoulderChamberSPl1@BoulderChamber ImprobableSPl2@Improbable  -smooth on
+join BoulderChamberSPl1@BoulderChamber Improbable2SPl1@Improbable2 -smooth on
 join BoulderChamberSPl1@BoulderChamber SandChamberSPl3@SandChamber -smooth on
 
-join CableCrawlSPl1@CableCrawl  ImprobableSPl2@Improbable -smooth on
+join CableCrawlSPl1@CableCrawl  Improbable2SPl1@Improbable2 -smooth on
 join CableCrawlSPl1@CableCrawl TunnelSPl1@Tunnel -smooth on
 join CheeseroomSPl1@Cheeseroom HeartbreakHillSPl1@HeartbreakHill  -smooth on
 join CheeseroomSPl1@Cheeseroom TheOxbowSPl1@TheOxbow  -smooth on

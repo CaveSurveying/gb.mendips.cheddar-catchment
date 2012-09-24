@@ -13,6 +13,7 @@ line border -id l21-406-392
   407.0 390.0 406.5 408.0 407.5 416.5
   408.5 425.0 405.5 439.0 408.5 448.0
   411.5 457.0 421.5 468.5 422.5 474.0
+  smooth off
 endline
 
 line overhang -reverse on
@@ -23,6 +24,7 @@ line overhang -reverse on
   406.5 509.0 404.0 493.0 403.0 487.0
   402.0 481.0 402.5 470.0 406.5 463.0
   410.5 456.0 417.5 449.5 417.0 443.0
+  smooth off
 endline
 
 line overhang
@@ -32,7 +34,10 @@ line overhang
   435.0 527.5 429.0 506.5 429.0 502.0
   429.0 496.5 422.5 479.5 422.5 474.0
   422.5 468.5 415.5 458.0 417.0 443.0
+  smooth off
 endline
+
+point 534.5 295.5 label -align r -text "Nathan's<br>Dungeon"
 
 area water
   l24-258-95
@@ -48,6 +53,7 @@ line border -id l25-405-426 -subtype invisible
   407.5 416.5
   404.0 426.0 404.0 438.0 399.0 436.5
   394.0 435.0 390.0 430.0 389.0 423.0
+  smooth off
 endline
 
 line border -id l24-258-95 -subtype invisible
@@ -55,6 +61,7 @@ line border -id l24-258-95 -subtype invisible
   319.5 75.5 296.5 64.0 279.0 73.5
   261.5 83.0 254.0 92.0 259.5 107.5
   265.0 123.0 262.5 129.5 270.5 141.5
+  smooth off
 endline
 
 line wall -id l23-295-162
@@ -62,6 +69,7 @@ line wall -id l23-295-162
   222.5 112.0 221.29 110.99 232.5 118.0
   244.5 125.5 260.0 131.5 270.5 141.5
   281.0 151.5 308.0 172.5 314.0 182.0
+  smooth off
 endline
 
 line wall -id l22-401-128
@@ -69,6 +77,7 @@ line wall -id l22-401-128
   403.0 127.0 356.5 96.0 341.5 84.5
   326.5 73.0 319.66 67.78 300.5 58.0
   277.0 46.0 281.0 50.0 260.5 42.5
+  smooth off
 endline
 
 line wall -id l2-412-208
@@ -135,6 +144,7 @@ line overhang
   445.312362205 588.5501574803
   450.5 589.0 433.31 588.05 424.5 589.0
   415.69 589.95 412.0 590.0 400.0 594.0
+  smooth off
 endline
 
 point 357.0 432.0 gradient -orientation 21.8 -scale xs

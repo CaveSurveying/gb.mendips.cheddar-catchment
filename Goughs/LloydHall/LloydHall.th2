@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 1309.1023622047242 1971.0236220472439
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {462.20188976377943 1 1.0} {587.8788188976378 1.0} PocketTopo/LlyodHall1th_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {473.7051968503937 1 1.0} {1739.7199999999998 1.10} PocketTopo/LloydHall2th_p.xvi 0 {}
 
@@ -12,6 +12,7 @@ line overhang -reverse on
   688.0 1408.0
   596.5 1427.0 567.0 1428.5 529.0 1435.0
   491.0 1441.5 436.0 1456.0 421.0 1455.5
+  smooth off
 endline
 
 line pit
@@ -19,6 +20,7 @@ line pit
   533.5 1305.0 523.5 1303.0 476.5 1321.5
   429.5 1340.0 403.5 1353.0 384.0 1365.5
   364.5 1378.0 332.0 1399.5 323.0 1410.5
+  smooth off
 endline
 
 line rock-edge
@@ -142,6 +144,7 @@ line border
   585.0 1192.0 591.0 1151.0 554.0 1163.0
   517.0 1175.0 484.0 1210.0 463.0 1241.0
   442.0 1272.0 385.0 1342.0 378.0 1355.0
+  smooth off
 endline
 
 line wall
@@ -166,6 +169,17 @@ line wall
   427.5 1144.0 432.5 1129.0 440.5 1108.5
   448.5 1088.0 469.0 1016.0 480.0 1007.0
   smooth off
+endline
+
+area sand
+  l76-8-1382
+endarea
+
+line border -id l76-8-1382 -close on -subtype invisible
+  398.0 1066.0
+  396.0 1146.0 356.0 1388.0 236.0 1382.0
+  116.0 1376.0 -100.0 1430.0 -92.0 1272.0
+  -73.88 914.18 400.0 986.0 398.0 1066.0
 endline
 
 line wall
@@ -222,18 +236,21 @@ line pit
   576.0 1734.0 584.5 1729.0 593.0 1720.0
   601.5 1711.0 594.0 1712.5 614.5 1700.0
   635.0 1687.5 669.0 1672.0 684.5 1660.0
+  smooth off
 endline
 
 line pit -reverse on
   525.0 1686.0
   511.0 1690.0 505.5 1690.0 486.0 1697.5
   466.5 1705.0 443.5 1719.5 428.5 1719.5
+  smooth off
 endline
 
 line overhang
   604.0 1510.5
   596.0 1506.5 588.0 1504.5 572.0 1507.5
   556.0 1510.5 543.0 1511.0 535.0 1516.0
+  smooth off
 endline
 
 line pit -reverse on
@@ -241,6 +258,7 @@ line pit -reverse on
   520.5 1524.0 525.5 1524.5 509.0 1535.0
   492.5 1545.5 484.5 1548.0 476.5 1549.5
   468.5 1551.0 459.5 1555.5 451.0 1553.0
+  smooth off
 endline
 
 line pit -reverse on
@@ -248,6 +266,7 @@ line pit -reverse on
   499.5 1486.5 511.5 1477.5 524.5 1461.0
   537.5 1444.5 559.0 1414.5 577.0 1394.5
   595.0 1374.5 651.0 1316.5 663.0 1302.0
+  smooth off
 endline
 
 line wall
@@ -406,6 +425,7 @@ line floor-step
   430.5 83.5
   446.0 83.0 455.0 88.0 467.0 101.0
   479.0 114.0 491.0 127.0 493.0 130.0
+  smooth off
 endline
 
 point 962.0 528.5 gradient -orientation 321.4 -scale xs
@@ -447,6 +467,7 @@ line overhang
   129.0 796.5
   106.0 837.0 106.0 819.0 96.0 865.0
   86.0 911.0 84.0 973.0 91.5 988.5
+  smooth off
 endline
 
 line overhang -reverse on
@@ -456,6 +477,7 @@ line overhang -reverse on
   352.0 682.0 346.0 703.0 305.0 709.0
   264.0 715.0 230.0 723.0 202.0 712.0
   174.0 701.0 153.0 703.0 141.0 696.5
+  smooth off
 endline
 
 line overhang -reverse on
@@ -465,6 +487,7 @@ line overhang -reverse on
   403.0 768.0 439.0 761.0 468.0 751.0
   497.0 741.0 500.0 730.0 534.0 711.0
   568.0 692.0 605.0 652.0 616.5 642.0
+  smooth off
 endline
 
 line border
@@ -474,6 +497,7 @@ line border
   408.0 873.0 348.0 903.0 321.0 910.0
   294.0 917.0 291.0 906.0 283.0 921.0
   275.0 936.0 287.0 960.0 290.0 961.0
+  smooth off
 endline
 
 line border
@@ -481,6 +505,7 @@ line border
   544.0 532.0 535.0 541.0 529.0 565.0
   523.0 589.0 518.0 590.0 530.0 606.0
   542.0 622.0 562.0 636.0 579.0 641.0
+  smooth off
 endline
 
 line border
@@ -495,6 +520,7 @@ line border
   514.0 314.0 514.0 372.0 526.0 393.0
   538.0 414.0 539.0 434.0 542.0 446.0
   545.0 458.0 557.0 507.0 558.5 509.0
+  smooth off
 endline
 
 line border -close on
@@ -504,6 +530,8 @@ line border -close on
   452.0 540.0
   336.0 179.0
 endline
+
+point 710.0 884.0 label -align tr -text "Lloyd<br>Hall"
 
 line wall
   1025.0 469.5
