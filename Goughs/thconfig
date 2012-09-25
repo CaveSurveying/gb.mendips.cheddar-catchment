@@ -11,7 +11,7 @@ export map -proj plan -layout local -o Goughs.pdf
 
 #export map -proj plan -fmt kml -layout mendip -o Goughs.kml
 
-export model -fmt survex -o Goughsth.3d
+#export model -fmt survex -o Goughsth.3d
 #Survex file showing centre line only
 
 #export model -o Fonts.lox
@@ -36,14 +36,24 @@ symbol-hide group centreline
 scale 1 500
 
 #for Andrew
+#code tex-map
+#   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+#    \def\maplayout{
+
+#      \legendbox{90}{101}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/CheddarCatchment/Goughs/GoughsOverview.pdf}}
+#      \legendbox{62}{73}{SW}{\northarrow}
+#     \legendbox{65}{73}{SW}{\scalebar}
+#   }
+	
+#for Graham
 code tex-map
     \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
     \def\maplayout{
 
-      \legendbox{90}{101}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/CheddarCatchment/Goughs/GoughsOverview.pdf}}
+      \legendbox{90}{101}{NE}{\loadpicture{C:/Users/Graham/Documents/Cave Survey data/Registry Repository/CheddarCatchment/Goughs/GoughsOverview.pdf}}
 #      \legendbox{62}{73}{SW}{\northarrow}
-#     \legendbox{65}{73}{SW}{\scalebar}
-    }
+#     \legendbox{65}{73}{SW}{\scalebar}	
+  }	
 
 code metapost
 
