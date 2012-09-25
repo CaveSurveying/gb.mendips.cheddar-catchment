@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -773.28 -393.21 4639.67 2359.26
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {624.995203832 1 1.0} {391.486761376 3.22} PocketTopo/HerbertsAttic_e.xvi 0 {}
+
+
+scrap HerbertsAtticSEe1 -projection extended -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

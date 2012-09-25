@@ -8,8 +8,9 @@ input FrozenDeep/FrozenDeep.th
 input GreatExpectations/GreatExpectations.th
 
 input Golgotha/Golgotha.th
-
+input HerbertsAttic/HerbertsAttic.th
 input HappySnappers/HappySnappers.th
+input SouthPassage/SouthPassage.th
 input ResEnt/ResEnt.th
 
 input PottersHeaven/PottersHeaven.th
@@ -67,12 +68,14 @@ equate 471@R6 1.0@TopDig
 
 equate 4.21@TopDig 1.0@ToplessAven
 equate 5.0@FrozenDeep 1.36@GreatExpectations
+equate 9.0@HerbertsAttic 3.22@Golgotha
 equate 7.0@PulsationAven 4.13@TopDig
 equate 7.8@PulsationAven 8.0@PottersHeaven
 equate 1.15@ToplessAven 1.15@GreatExpectations
 equate 1.3@ToplessAven 3.0@Golgotha
 equate 1.0@TopDig 1.14@Sleeper
 equate 1.12@TopDig 1.0@HappySnappers
+equate 1.11@ResEnt 8.0@SouthPassage
 equate 1.0@Sleeper 1.26@ResEnt
 equate 1.7@Sleeper 2.0@SideRift
 equate 1.0@ResEnt 1.0@ChGorge
@@ -93,6 +96,7 @@ join SleeperSPl3@Sleeper TopDigSPl1@TopDig -smooth on
 join SleeperSPl3@Sleeper SideRiftSPl1@SideRift -smooth on
 
 map ReservoirM -title "Reservoir Hole"
+  HerbertsAtticM@HerbertsAttic
   GolgothaM@Golgotha
   GreatExpectationsM@GreatExpectations
   FrozenDeepM@FrozenDeep
@@ -102,6 +106,7 @@ map ReservoirM -title "Reservoir Hole"
   ResEntM@ResEnt
   SideRiftM@SideRift
   SleeperM@Sleeper
+  SouthPassageM@SouthPassage
   TopDigM@TopDig
   ToplessAvenM@ToplessAven
   #MadeUpM@MadeUp

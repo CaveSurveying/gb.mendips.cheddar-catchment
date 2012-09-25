@@ -14,13 +14,16 @@ export model -fmt survex -o Reservoirth.3d
 #export model  -o Reservoir.lox
 #3d therion model to be viewed in the therion viewer
 
+#export model  -fmt dxf -o Reservoir.dxf
+#export model  -fmt esri -o Reservoir.esr
+
 #export map -proj plan -o Reservoir_Walls.3d
 #Survex file showing walls only
 
 layout local
 copy common
 debug off
-map-header 0 0 off
+map-header 0 0 sw
 #scale-bar 50 m
 rotate -90
 #symbol-hide group cave-centreline
