@@ -25,9 +25,9 @@ centreline
 
 data normal from to tape compass clino ignoreall
   extend right
-1.0  -  0.0  0.0  0.0  
-1.0  -  3.492  90.6  18.33  
-1.0  -  3.489  90.27  18.18  
+#Calibration check at AAs 
+#1.0  -  3.492  90.6  18.33  
+#1.0  -  3.489  90.27  18.18  
 #1.0  1.1  2.716  193.31  -19.37  
 #1.0  1.1  2.711  193.53  -19.29  
 #1.0  1.1  2.71  193.73  -19.12  

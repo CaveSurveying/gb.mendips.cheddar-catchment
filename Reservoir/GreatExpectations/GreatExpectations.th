@@ -25,6 +25,7 @@ centreline
 
 data normal from to tape compass clino ignoreall
   extend right
+#Calabration check in ToplessAven
 1.15  -  0.56  100.17  -12.32  temp
 1.15  -  0.51  93.52  39.46  
 1.15  -  0.44  153.64  79.44  

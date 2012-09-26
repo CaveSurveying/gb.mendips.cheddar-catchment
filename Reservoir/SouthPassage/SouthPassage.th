@@ -24,11 +24,15 @@ data normal from to tape compass clino ignoreall
 1.11  8.0  0.0  0.0  0.0  
 #Calibration check in AAs garden
 #8.0  -  3.352  87.31  23.54  
-#8.0  -  3.351  88.32  23.59  
+#8.0  -  3.351  88.32  23.59 
+#could not find 8.0 nv so took best guess, after using instruments to align with probable next station.
+#8.1 to  8.0  is thought to be the same as 1.12 to 1.11 in ResEnt
 #8.1  8.0  1.442  91.35  17.97  
 #8.1  8.0  1.456  91.6  18.03  
-#8.1  8.0  1.45  92.66  18.05  
+#8.1  8.0  1.45  92.66  18.05 
+flags duplicate 
 8.1  8.0  1.449  91.87  18.02  Calculated leg from 3 above
+flags not duplicate
 8.1  -  1.577  88.03  -60.9  
 8.1  -  1.442  100.83  -77.31  
 8.1  -  2.942  121.58  89.83  

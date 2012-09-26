@@ -26,7 +26,7 @@ centreline
 
 data normal from to tape compass clino ignoreall
   extend right
-1.0  -  0.0  0.0  0.0  
+#Calibration check as part of ResEnt.th
 1.0  -  1.94  350.78  9.04  
 1.0  -  2.355  23.69  6.04  
 1.0  -  1.953  188.04  3.25  

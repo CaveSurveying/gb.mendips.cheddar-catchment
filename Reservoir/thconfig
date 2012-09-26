@@ -26,7 +26,7 @@ debug off
 map-header 0 0 sw
 #scale-bar 50 m
 rotate -90
-#symbol-hide group cave-centreline
+symbol-hide group cave-centreline
 endlayout
 
 input ../common_layout.th

@@ -21,7 +21,8 @@ centreline
 
 data normal from to tape compass clino ignoreall
   extend right
-1.36  5.0  0.0  0.0  0.0  
+1.36  5.0  0.0  0.0  0.0
+#Calibration check win Plusation aven 
 5.0  -  1.085  279.04  -7.37  
 5.0  -  1.361  276.94  37.92  
 5.0  -  2.415  162.61  85.14  
