@@ -11,6 +11,7 @@ map ResEntM
 endmap
 
 centreline
+cs OSGB:ST
 
 ### TRIP COMMENT FROM POCKETTOPO ###
 #notes:Andrew Atkinson
@@ -24,6 +25,9 @@ centreline
   instrument instruments UBSS2-distoX
 
 data normal from to tape compass clino ignoreall
+
+fix 1.1 47460 54470 128
+station 1.1 "Reservoir Hole" entrance
   extend right
 #Calibration check at AAs 
 #1.0  -  3.492  90.6  18.33  
