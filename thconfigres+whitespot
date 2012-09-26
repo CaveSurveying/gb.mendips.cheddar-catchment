@@ -1,0 +1,118 @@
+encoding  utf-8
+source CheddarCatchment.th
+# Change name to the main therion file
+
+select ReservoirM@Reservoir.CheddarCatchment -map-level 1
+select WhiteSpotM@WhiteSpot.CheddarCatchment
+
+select Reservoir.CheddarCatchment
+select WhiteSpot.CheddarCatchment
+
+
+#Surveys to output
+#-----------------
+
+#Produces plan of cave, on a single sheet
+export map -proj plan -layout local -o Outputs/Reservoir-WhiteSpot.pdf
+
+export model -fmt survex -o Outputs/Reservoir-WhiteSpot.3d
+#Survex file showing centre line only
+
+export model -o Outputs/Reservoir-WhiteSpot.lox
+#3d therion model to be viewed in the therion viewer
+
+layout local
+copy common
+
+
+#copy legend
+#map-image 5 5 sw CharterhouseOverview.pdf
+#map-image 100 100 ne Photos/Citadel.jpg
+#map-image 100 70 ne Photos/Portal_Pool.jpg
+#surface bottom
+rotate -90
+#surface-opacity 100
+#transparency off
+#debug on
+#debug first 
+#debug second
+#colour map-fg [0 50 50]
+#colour map-fg [100]
+#colour map-fg map
+#colour map-bg [100]
+
+#base-scale 1 500
+scale 1 500
+
+#A3
+#scale 1 2750
+#base-scale 1 750
+
+#A4
+#scale 1 6000
+
+#rotate 270
+#symbol-hide group all
+#symbol-show line wall
+
+#symbol-hide group sections
+#symbol-hide line section
+symbol-hide point remark
+symbol-hide group cave-centreline
+#symbol-hide point gradient
+#symbol-hide point air-draught
+#symbol-show area water
+#symbol-show point entrance
+#symbol-hide point label
+#symbol-hide line label
+#symbol-show line floor-step
+#symbol-show line pit
+#symbol-show line ceiling-step
+#symbol-show line overhang
+#symbol-show line border
+#symbol-show special north-arrow
+#symbol-show special scale-bar
+
+#grid off
+map-header 0 0 nw
+map-header-bg off
+statistics explo off
+statistics topo all
+statistics carto all
+
+map-comment "Drawn using Therion<br>by Andrew Atkinson and Graham Mullan.<br>With thanks to all the other cavers past and present<br>that have made information available.<br>Copyright CC BY NC SA <br> <br>Spot heights in metres OD"
+code metapost
+
+#base 1:750 scale 1:2750 (A3 charterhouse,GB)
+#fonts_setup(8,16,24,40,60)
+
+#scale 1:1000 (A0 width charterhouse,GB)
+fonts_setup(7,10,14,20,30)
+
+#base 1:500 scale 1:2750 
+#fonts_setup(8,20,26,40,60)
+
+endcode
+
+endlayout
+
+layout legend
+code tex-map
+    \def\maplayout{
+      \legendbox{70}{90}{NW}{
+      \northarrow
+      \bigskip 
+      \scalebar
+      \bigskip
+      \the\comment
+      }      
+    }
+  
+endcode
+
+code metapost            
+    
+endlayout
+
+#get the master layout settings
+input common_layout.th

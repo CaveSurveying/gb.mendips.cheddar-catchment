@@ -96,8 +96,13 @@ join SleeperSPl3@Sleeper TopDigSPl1@TopDig -smooth on
 join SleeperSPl3@Sleeper SideRiftSPl1@SideRift -smooth on
 join TopDigSPl1@TopDig ToplessAvenSPl1@ToplessAven -smooth on
 
+map FrozenDeepSplaysM -proj plan
+  FrozenDeep
+  FrozenDeepM@FrozenDeep
+endmap
 
-map ReservoirM -title "Reservoir Hole"
+map ReservoirM -title "Reservoir Hole" -proj plan
+  FrozenDeep
   HerbertsAtticM@HerbertsAttic
   GolgothaM@Golgotha
   GreatExpectationsM@GreatExpectations
