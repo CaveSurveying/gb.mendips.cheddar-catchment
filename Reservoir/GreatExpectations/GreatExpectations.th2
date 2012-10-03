@@ -65,7 +65,7 @@ endline
 line wall
 endline
 
-point 784.0 1768.0 label -text "Resurrection"
+point 2088.0 1488.0 label -align br -text "Resurrection"
 
 point 2828.0 4140.0 label -text "Hard Times"
 
@@ -1155,23 +1155,23 @@ point 2562.0 3054.0 section -scrap GreatExpectationsSX1.30
 
 line section -direction both
   2231.0 3145.0
-  2098.0 3184.0 1893.0 3249.0 1732.0 3297.0
+  2098.0 3184.0 1884.0 3251.0 1772.0 3288.0
   smooth off
 endline
 
 point 2560.0 2534.0 section -scrap GreatExpectationsSX1.32
 
 line section -reverse on -direction both
-  1697.0 2797.0
-  1823.5 2753.42 2050.0 2677.0 2176.0 2632.0
+  1732.0 2792.0
+  1819.0 2759.0 2050.0 2677.0 2176.0 2632.0
   smooth off
 endline
 
 point 3424.0 1684.0 section -scrap GreatExpectationsSX1.34
 
-line section -reverse on -direction both
-  1040.0 2316.0
-  1368.0 2236.0 2160.0 2028.0 2424.0 1960.0
+line section -reverse on -direction begin
+  1408.0 2269.0
+  1436.0 2261.0 2160.0 2028.0 2424.0 1960.0
   smooth off
 endline
 

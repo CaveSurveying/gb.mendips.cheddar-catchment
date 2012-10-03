@@ -10,6 +10,7 @@ input GreatExpectations/GreatExpectations.th
 input Golgotha/Golgotha.th
 input HerbertsAttic/HerbertsAttic.th
 input HappySnappers/HappySnappers.th
+input JillsSlither/JillsSlither.th
 input SouthPassage/SouthPassage.th
 input ResEnt/ResEnt.th
 
@@ -69,6 +70,7 @@ input ToplessAven/ToplessAven.th
 equate 4.21@TopDig 1.0@ToplessAven
 equate 5.0@FrozenDeep 1.36@GreatExpectations
 equate 9.0@HerbertsAttic 3.22@Golgotha
+equate 7.8@PulsationAven 10.0@JillsSlither
 equate 7.0@PulsationAven 4.13@TopDig
 equate 7.8@PulsationAven 8.0@PottersHeaven
 equate 1.15@ToplessAven 1.15@GreatExpectations
@@ -82,7 +84,7 @@ equate 1.0@ResEnt 1.0@ChGorge
 
 #############################
 #Fake join need removing
-join PulsationAvenSPl1@PulsationAven PottersHeavenSPl1@PottersHeaven -smooth on
+#join PulsationAvenSPl1@PulsationAven PottersHeavenSPl1@PottersHeaven -smooth on
 #############################
 
 
@@ -90,6 +92,8 @@ join FrozenDeepSPl1@FrozenDeep GreatExpectationsSPl2@GreatExpectations  -smooth 
 join GreatExpectationsSPl1@GreatExpectations ToplessAvenSPl1@ToplessAven -smooth on
 join GolgothaSPl4@Golgotha ToplessAvenSPl1@ToplessAven -smooth on
 join HappySnappersSPl1@HappySnappers TopDigSPl1@TopDig -smooth on
+join JillsSlitherSPl1@JillsSlither PottersHeavenSPl1@PottersHeaven -smooth on
+join JillsSlitherSPl1@JillsSlither PulsationAvenSPl1@PulsationAven -smooth on
 join PulsationAvenSPl1@PulsationAven TopDigSPl1@TopDig  -smooth on
 join ResEntSPl1@ResEnt SouthPassageSPl1@SouthPassage -smooth on
 join SleeperSPl3@Sleeper TopDigSPl1@TopDig -smooth on
@@ -108,6 +112,7 @@ map ReservoirM -title "Reservoir Hole" -proj plan
   GreatExpectationsM@GreatExpectations
   FrozenDeepM@FrozenDeep
   HappySnappersM@HappySnappers
+  JillsSlitherM@JillsSlither
   PulsationAvenM@PulsationAven
   PottersHeavenM@PottersHeaven
   ResEntM@ResEnt

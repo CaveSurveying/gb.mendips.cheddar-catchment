@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -777.07 -359.84 4662.45 2159.06
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {600.681224677 1 1.0} {1453.1496063 8.0} PocketTopo/JillsSlither_e.xvi 0 {}
+
+
+scrap JillsSlitherSEe1 -projection extended -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

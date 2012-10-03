@@ -6,16 +6,13 @@ source Reservoir.th
 #-----------------
 
 
-select FrozenDeepSplaysM@Reservoir
-
-
 export map -proj plan -layout local -o Reservoir.pdf
 #Produces plan of cave, on a single sheet
 
 export model -fmt survex -o Reservoirth.3d
 #Survex file showing centre line only
 
-export model  -o Reservoir.lox
+#export model  -o Reservoir.lox
 #3d therion model to be viewed in the therion viewer
 
 #export model  -fmt dxf -o Reservoir.dxf
@@ -27,11 +24,10 @@ export model  -o Reservoir.lox
 layout local
 copy common
 debug off
-map-header 0 0 nw
+map-header 0 0 ne
 #scale-bar 50 m
-scale 1 500
 rotate -90
-#symbol-hide group cave-centreline
+symbol-hide group cave-centreline
 endlayout
 
 input ../common_layout.th

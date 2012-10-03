@@ -597,6 +597,8 @@ line border -id l56-441-1658
   smooth off
 endline
 
+point 347.0 817.0 fixed-ladder
+
 line wall
   347.0 1650.0
   336.0 1625.0 318.0 1567.0 308.0 1551.0
