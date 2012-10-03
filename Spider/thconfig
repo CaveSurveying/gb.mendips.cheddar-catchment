@@ -24,7 +24,7 @@ layout local
 copy common
 debug off
 symbol-hide group centreline
-map-header 0 0 off
+map-header 0 0 ne
 
 scale 1 200
 transparency off

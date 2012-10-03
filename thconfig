@@ -7,21 +7,19 @@ source CheddarCatchment.th
 #But unselected for lox, otherwise you get 2 grids
 #unselect Surface.Charterhouse
 
+#unselect corners.CheddarCatchment
+select ReservoirM@Reservoir.CheddarCatchment -map-level 2
+select WhiteSpotM@WhiteSpot.CheddarCatchment 
+select GoughsM@Goughs.CheddarCatchment -map-level 2
+
+select Reservoir.CheddarCatchment
+select WhiteSpot.CheddarCatchment
+select Goughs.CheddarCatchment
 
 
 
-select FrozenDeepM@FrozenDeep.Reservoir.CheddarCatchment
-select GolgothaM@Golgotha.Reservoir.CheddarCatchment
-select GreatExpectationsM@GreatExpectations.Reservoir.CheddarCatchment
-select HappySnappersM@HappySnappers.Reservoir.CheddarCatchment
-select PottersHeavenM@PottersHeaven.Reservoir.CheddarCatchment
-select PulsationAvenM@PulsationAven.Reservoir.CheddarCatchment
-select ResEntM@ResEnt.Reservoir.CheddarCatchment
-select SideRiftM@SideRift.Reservoir.CheddarCatchment
-select SleeperM@Sleeper.Reservoir.CheddarCatchment
-select TopDigM@TopDig.Reservoir.CheddarCatchment
-select ToplessAvenM@ToplessAven.Reservoir.CheddarCatchment
-select WhiteSpotM@WhiteSpot.CheddarCatchment
+
+
 
 
 #Surveys to output
@@ -29,17 +27,19 @@ select WhiteSpotM@WhiteSpot.CheddarCatchment
 
 #Produces plan of cave, on a single sheet
 #export map -proj plan -layout local -o Outputs/CheddarCatchment.pdf
-export map -proj plan -layout local -o Outputs/Reservoir-WhiteSpot.pdf
+export map -proj plan -layout local -o Outputs/GoughsReservoirWhiteSpot.pdf
+
 
 
 #export map -proj plan -fmt kml -layout googlemaps -o Outputs/CheddarCatchment.kml
 
 #export model -fmt survex -o Outputs/CheddarCatchmentth.3d
-#export model -fmt survex -o Outputs/Reservoir-WhiteSpot.3d
+#export model -fmt survex -o Outputs/GoughsReservoirWhiteSpot.3d
+
 #Survex file showing centre line only
 
 #export model -o Outputs/CheddarCatchment.lox
-#export model -o Outputs/Reservoir-Goughs-WhiteSpot.lox
+
 #3d therion model to be viewed in the therion viewer
 
 #export model -fmt vrml -o VRML/CheddarCatchment.wrl
@@ -60,7 +60,7 @@ copy common
 #map-image 100 100 ne Photos/Citadel.jpg
 #map-image 100 70 ne Photos/Portal_Pool.jpg
 #surface bottom
-rotate -90
+#rotate -90
 #surface-opacity 100
 #transparency off
 #debug on
@@ -72,7 +72,7 @@ rotate -90
 #colour map-bg [100]
 
 #base-scale 1 500
-scale 1 500
+scale 1 1000
 
 #A3
 #scale 1 2750
@@ -85,7 +85,7 @@ scale 1 500
 #symbol-hide group all
 #symbol-show line wall
 
-#symbol-hide group sections
+symbol-hide group sections
 #symbol-hide line section
 symbol-hide point remark
 symbol-hide group cave-centreline
@@ -104,7 +104,7 @@ symbol-hide group cave-centreline
 #symbol-show special scale-bar
 
 grid off
-map-header 70 90 off
+map-header 100 0 se
 map-header-bg off
 statistics explo off
 statistics topo off

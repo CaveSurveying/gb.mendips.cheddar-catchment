@@ -12,7 +12,7 @@ export map -proj plan -layout local -o Reservoir.pdf
 export model -fmt survex -o Reservoirth.3d
 #Survex file showing centre line only
 
-#export model  -o Reservoir.lox
+export model  -o Reservoir.lox
 #3d therion model to be viewed in the therion viewer
 
 #export model  -fmt dxf -o Reservoir.dxf

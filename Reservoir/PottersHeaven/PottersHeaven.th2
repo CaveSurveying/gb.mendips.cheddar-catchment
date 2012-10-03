@@ -681,7 +681,7 @@ line section -reverse on -direction both
   smooth off
 endline
 
-line label -scale l -text "Potters Heaven"
+line label -scale l -text "Potter's Heaven"
   1136.0 4423.0
   1272.0 4253.0 1540.0 3352.0 1547.0 3111.0
   1553.94 2872.07 1358.0 1416.0 1379.0 1312.0
