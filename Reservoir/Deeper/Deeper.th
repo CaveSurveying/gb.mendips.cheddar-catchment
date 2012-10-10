@@ -3,7 +3,7 @@ survey Deeper
 
 input Deeper.th2
 input DeeperEe.th2
-#input DeeperE90.th2
+input DeeperE90.th2
 
 map DeeperM
   DeeperSP1
@@ -16,10 +16,10 @@ map DeeperME
 endmap
 
 
-#map DeeperE90
-# DeeperSE90_1
-#  DeeperSE90_2
-#endmap
+map DeeperE90
+ DeeperSE90_1
+  DeeperSE90_2
+endmap
 
 centreline
 
