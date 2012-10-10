@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -362.91 -576.85 2177.44 3461.1
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1754.68166568 1 1.0} {2902.20472441 5.12} PocketTopo/Deeper_p.xvi 0 {}
+
+
+scrap DeeperSP1 -projection plan -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap DeeperSP2 -projection plan -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap DeeperSPX11.22 -projection none -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap DeeperSPX11.20 -projection none -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

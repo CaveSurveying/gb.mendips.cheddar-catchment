@@ -1,0 +1,18 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 40.35268867070005 10.187374390000059 2816.0377280403 2549.6519413187
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1296.6089331429998 1 1.0} {318.15539781000007 11.18} PocketTopo/Deeper_E90.xvi 0 {}
+
+
+
+scrap DeeperSE90_1 -projection elevation 90 -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap DeeperSE90_2 -projection elevation 90 -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
