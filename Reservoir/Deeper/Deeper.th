@@ -7,6 +7,7 @@ input DeeperE90.th2
 
 map DeeperM
   DeeperSP1
+ break
   DeeperSP2
 endmap
 
