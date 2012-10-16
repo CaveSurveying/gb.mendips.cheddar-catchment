@@ -1,0 +1,108 @@
+encoding  utf-8
+survey DingleyDell
+
+input DingleyDell.th2
+input DingleyDellEe.th2
+input DingleyDellE90.th2
+
+map DingleyDellM
+  DingleyDellSP1
+endmap
+
+
+map DingleyDellME
+  DingleyDellSE1
+endmap
+
+
+map DingleyDellE90
+  DingleyDellSE90_1
+endmap
+
+centreline
+
+copyright 2012 "CC BY SA NC"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#DistoX-ubss1 0.27
+#Notes:Andrew Atkinson
+#DistoX: Alison Moody
+
+  date 2012.10.16
+
+  team "Andrew Atkinson" notes
+  team "Alison Moody" instruments
+
+  explo-date 2012.10.04
+  explo-team "Andrew Atkinson"
+  explo-team "Alison Moody"
+  explo-team "Nigle"
+
+data normal from to tape compass clino ignoreall
+  extend right
+11.23  12.0  0.0  0.0  0.0  
+12.0  -  0.583  4.2  23.31  
+12.0  -  0.552  3.04  40.49  
+12.0  -  0.264  7.99  68.23  
+12.0  -  0.911  38.44  12.0  
+12.0  -  0.715  103.64  3.44  
+#12.0  12.1  1.32  73.36  -30.56  
+#12.0  12.1  1.318  73.02  -30.46  
+#12.0  12.1  1.322  74.53  -29.78  
+12.0  12.1  1.32  73.64  -30.27  Calculated leg from 3 above
+12.1  -  4.935  358.03  23.12  
+12.1  -  2.837  41.76  41.51  
+12.1  -  1.026  57.27  16.28  
+12.1  -  1.476  82.19  11.21  
+12.1  -  2.316  186.3  17.86  
+12.1  -  9.41  351.73  68.88  
+12.1  -  10.16  320.39  85.64  
+12.1  -  7.612  181.58  77.77  
+#12.1  12.2  1.638  134.26  25.97  
+#12.1  12.2  1.624  134.63  25.71  
+#12.1  12.2  1.639  134.15  26.0  
+12.1  12.2  1.634  134.35  25.89  Calculated leg from 3 above
+12.2  -  0.465  75.55  -4.25  
+12.2  -  1.203  158.66  61.68  
+12.2  -  1.897  53.57  -68.32  
+12.2  -  1.721  251.83  -81.11  
+12.2  -  1.97  240.18  9.2  
+12.2  -  5.122  209.4  86.75  
+12.2  -  9.406  180.62  72.57  
+#12.2  12.3  1.766  165.1  2.68  
+#12.2  12.3  1.767  164.87  2.64  
+#12.2  12.3  1.766  164.88  2.5  
+12.2  12.3  1.766  164.95  2.61  Calculated leg from 3 above
+12.3  -  0.333  272.22  61.57  bolt
+12.3  -  0.522  230.1  -79.12  
+12.3  -  0.277  273.0  -10.1  
+12.3  -  0.549  218.2  4.24  
+12.3  -  0.463  154.87  13.35  
+#12.4  12.3  3.452  16.13  29.15  
+#12.4  12.3  3.457  16.46  29.15  
+#12.4  12.3  3.45  15.98  29.22  
+12.4  12.3  3.453  16.19  29.17  Calculated leg from 3 above
+12.4  -  0.975  36.22  -81.01  nv temp
+12.4  -  1.76  77.71  -30.34  
+12.4  -  8.809  34.87  83.91  
+12.4  -  7.094  174.2  71.75  
+12.4  -  7.874  175.03  62.3  
+12.4  -  8.365  93.15  85.0  
+12.4  -  2.944  0.55  24.88  
+12.4  -  2.111  157.26  -5.76  
+12.4  -  1.552  32.45  -13.67  
+#12.4  12.5  3.931  166.81  -39.55  
+#12.4  12.5  3.941  166.94  -39.57  
+#12.4  12.5  3.912  166.82  -39.46  
+12.4  12.5  3.928  166.86  -39.52  Calculated leg from 3 above
+12.4  -  3.585  163.65  -46.36  
+12.4  -  4.84  11.62  57.49 
+
+ ##Made up leg for sump
+ 
+ 12.4 12.5  8 165 -42 made up leg
+  
+    
+endcentreline
+endsurvey
+

@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -263.75 -266.7 1582.5 1600.19
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {289.203154251 1 1.0} {721.53827041 11.23} PocketTopo/DingleyDell_e.xvi 0 {}
+
+
+scrap DingleyDellSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

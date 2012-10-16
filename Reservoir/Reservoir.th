@@ -3,6 +3,7 @@ survey Reservoir
 
 input ChGorge/ChGorge.th
 input Deeper/Deeper.th
+input DingleyDell/DingleyDell.th
 input FrozenDeep/FrozenDeep.th
 
 input GreatExpectations/GreatExpectations.th
@@ -67,7 +68,8 @@ input ToplessAven/ToplessAven.th
 #Connection to the therionised data
 #equate 471@R6 1.0@TopDig
 
-equate 11.0@Deeper 5.12@FrozenDeep 
+equate 11.0@Deeper 5.12@FrozenDeep
+equate 11.23@Deeper  12.0@DingleyDell
 equate 4.21@TopDig 1.0@ToplessAven
 equate 5.0@FrozenDeep 1.36@GreatExpectations
 equate 9.0@HerbertsAttic 3.22@Golgotha
