@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -383.58 -132.51 2301.51 795.04
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {203.13260953 1 1.0} {532.430531832 1.11} PocketTopo/SouthPassage_E90.xvi 0 {}
+
+
+scrap SouthPassageSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SouthPassageSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SouthPassageSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

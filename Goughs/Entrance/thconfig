@@ -11,6 +11,8 @@ export map -proj plan -layout local -o Entrance.pdf
 
 #export map -proj extended -layout local -o EntranceEe.pdf
 
+export map -proj [elevation 0] -layout local -o EntranceE0.pdf
+
 export model -fmt survex -o Entranceth.3d
 #Survex file showing centre line only
 

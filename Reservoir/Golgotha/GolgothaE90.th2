@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -910.42 -916.87 5462.5 5501.23
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {746.063639159 1 1.0} {494.279894633 1.3} PocketTopo/Golgotha_E90.xvi 0 {}
+
+
+scrap GolgothaSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap GolgothaSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap GolgothaSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

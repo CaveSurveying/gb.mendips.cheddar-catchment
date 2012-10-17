@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -685.51 -282.41 4113.08 1694.44
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {409.326926505 1 1.0} {1399.54161547 8.0} PocketTopo/JillsSlither_E90.xvi 0 {}
+
+
+scrap JillsSlitherSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap JillsSlitherSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap JillsSlitherSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

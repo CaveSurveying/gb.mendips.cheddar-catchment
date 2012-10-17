@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -605.94 -369.13 3635.67 2214.77
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {302.972304056 1 1.0} {1943.72785397 1.0} PocketTopo/ResEnt_E90.xvi 0 {}
+
+
+scrap ResEntSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap ResEntSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap ResEntSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

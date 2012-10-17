@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -157.9 -61.22 947.4 367.32
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {826.498494001 1 1.0} {121.481353043 1.7} PocketTopo/SideRift_E90.xvi 0 {}
+
+
+scrap SideRiftSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SideRiftSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SideRiftSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

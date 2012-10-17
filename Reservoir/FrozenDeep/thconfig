@@ -1,4 +1,3 @@
-encoding  utf-8
 source FrozenDeep.th
 # Change name to the main therion file
 
@@ -6,10 +5,12 @@ source FrozenDeep.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o FrozenDeep.pdf
+#export map -proj plan -layout local -o FrozenDeep.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o FrozenDeepEe.pdf
+
+#export map -proj [elevation 90] -layout local -o FrozenDeepE90.pdf
 
 export model -fmt survex -o FrozenDeepth.3d
 #Survex file showing centre line only
@@ -23,11 +24,8 @@ export model -fmt survex -o FrozenDeepth.3d
 layout local
 copy common
 debug off
-map-header 0 0 off
+map-header 0 0 nw
 #symbol-hide group cave-centreline
-#symbol-show group centreline
-#grid-size 1 1 1 m
-#grid-coords off
 endlayout
 
-input ../../common_layout.th
+input ##LAYOUT##

@@ -15,7 +15,7 @@ map DingleyDellME
 endmap
 
 
-map DingleyDellE90
+map DingleyDellME90 -proj [elevation 90]
   DingleyDellSE90_1
 endmap
 

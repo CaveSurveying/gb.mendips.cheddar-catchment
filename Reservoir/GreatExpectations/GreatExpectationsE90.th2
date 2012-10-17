@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1212.1 -491.47 7272.57 2948.84
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1904.21337769 1 1.0} {751.239939003 1.15} PocketTopo/GreatExpectations_E90.xvi 0 {}
+
+
+scrap GreatExpectationsSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap GreatExpectationsSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap GreatExpectationsSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

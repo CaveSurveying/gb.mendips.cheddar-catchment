@@ -1,4 +1,3 @@
-encoding  utf-8
 source HappySnappers.th
 # Change name to the main therion file
 
@@ -6,12 +5,14 @@ source HappySnappers.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o HappySnappers.pdf
+#export map -proj plan -layout local -o HappySnappers.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o HappySnappersEe.pdf
 
-#export model -fmt survex -o HappySnappersth.3d
+#export map -proj [elevation 90] -layout local -o HappySnappersE90.pdf
+
+export model -fmt survex -o HappySnappersth.3d
 #Survex file showing centre line only
 
 #export model -o HappySnappers.lox
@@ -23,8 +24,8 @@ export map -proj plan -layout local -o HappySnappers.pdf
 layout local
 copy common
 debug off
-map-header 0 0 off
-symbol-hide group cave-centreline
+map-header 0 0 nw
+#symbol-hide group cave-centreline
 endlayout
 
-input ../../common_layout.th
+input ##LAYOUT##

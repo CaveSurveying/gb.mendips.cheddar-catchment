@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -572.24 -96.66 3433.43 579.95
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {369.48959389 1 1.0} {265.369818416 1.0} PocketTopo/ToplessAven_E90.xvi 0 {}
+
+
+scrap ToplessAvenSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap ToplessAvenSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap ToplessAvenSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

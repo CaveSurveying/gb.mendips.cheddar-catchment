@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -442.93 -365.75 2657.61 2194.48
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {376.224491421 1 1.0} {1224.6643926 4.13} PocketTopo/PulsationAven_E90.xvi 0 {}
+
+
+scrap PulsationAvenSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap PulsationAvenSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap PulsationAvenSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

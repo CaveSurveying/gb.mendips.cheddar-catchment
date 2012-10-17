@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1294.55 -706.53 7767.29 4239.19
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1078.015827 1 1.0} {3443.0647705 1.36} PocketTopo/FrozenDeep_E90.xvi 0 {}
+
+
+scrap FrozenDeepSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap FrozenDeepSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap FrozenDeepSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

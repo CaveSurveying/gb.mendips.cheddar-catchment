@@ -1,4 +1,3 @@
-encoding  utf-8
 source PulsationAven.th
 # Change name to the main therion file
 
@@ -10,6 +9,8 @@ source PulsationAven.th
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o PulsationAvenEe.pdf
+
+#export map -proj [elevation 90] -layout local -o PulsationAvenE90.pdf
 
 export model -fmt survex -o PulsationAventh.3d
 #Survex file showing centre line only
@@ -23,8 +24,8 @@ export model -fmt survex -o PulsationAventh.3d
 layout local
 copy common
 debug off
-map-header 0 0 off
+map-header 0 0 nw
 #symbol-hide group cave-centreline
 endlayout
 
-input ../../common_layout.th
+input ##LAYOUT##

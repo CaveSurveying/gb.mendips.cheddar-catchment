@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -568.93 -387.5 3413.57 2324.98
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {350.314244639 1 1.0} {360.066236232 3.22} PocketTopo/HerbertsAttic_E90.xvi 0 {}
+
+
+scrap HerbertsAtticSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap HerbertsAtticSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap HerbertsAtticSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

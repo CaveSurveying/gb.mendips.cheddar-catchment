@@ -1,4 +1,3 @@
-encoding  utf-8
 source GreatExpectations.th
 # Change name to the main therion file
 
@@ -6,15 +5,17 @@ source GreatExpectations.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o GreatExpectations.pdf
+#export map -proj plan -layout local -o GreatExpectations.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o GreatExpectationsEe.pdf
 
+#export map -proj [elevation 90] -layout local -o GreatExpectationsE90.pdf
+
 export model -fmt survex -o GreatExpectationsth.3d
 #Survex file showing centre line only
 
-export model -o GreatExpectations.lox
+#export model -o GreatExpectations.lox
 #3d therion model to be viewed in the therion viewer
 
 #export map -proj plan -o GreatExpectations_Walls.3d
@@ -23,13 +24,8 @@ export model -o GreatExpectations.lox
 layout local
 copy common
 debug off
-map-header 0 0 off
+map-header 0 0 nw
 #symbol-hide group cave-centreline
-
-code mpost
-
-
-
 endlayout
 
-input ../../common_layout.th
+input ##LAYOUT##

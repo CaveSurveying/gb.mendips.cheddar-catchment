@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -240.15 -165.34 1440.88 992.03
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1280.66913175 1 1.0} {201.963600212 1.0} PocketTopo/HappySnappers_E90.xvi 0 {}
+
+
+scrap HappySnappersSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap HappySnappersSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap HappySnappersSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

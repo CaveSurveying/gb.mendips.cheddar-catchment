@@ -11,6 +11,8 @@ source DingleyDell.th
 
 #export map -proj extended -layout local -o DingleyDellEe.pdf
 
+export map -proj [elevation 90] -layout local -o DingleyDellE90.pdf
+
 export model -fmt survex -o DingleyDellth.3d
 #Survex file showing centre line only
 

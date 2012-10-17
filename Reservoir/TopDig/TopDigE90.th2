@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1328.45 -411.67 7970.7 2470.04
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1431.25287648 1 1.0} {1874.67013544 1.0} PocketTopo/TopDig_E90.xvi 0 {}
+
+
+scrap TopDigSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap TopDigSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap TopDigSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

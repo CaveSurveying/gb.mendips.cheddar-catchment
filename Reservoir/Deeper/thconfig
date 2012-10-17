@@ -1,4 +1,3 @@
-encoding  utf-8
 source Deeper.th
 # Change name to the main therion file
 
@@ -6,12 +5,14 @@ source Deeper.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o Deeper.pdf
+#export map -proj plan -layout local -o Deeper.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o DeeperEe.pdf
 
-#export model -fmt survex -o Deeperth.3d
+#export map -proj [elevation 90] -layout local -o DeeperE90.pdf
+
+export model -fmt survex -o Deeperth.3d
 #Survex file showing centre line only
 
 #export model -o Deeper.lox
@@ -23,8 +24,8 @@ export map -proj plan -layout local -o Deeper.pdf
 layout local
 copy common
 debug off
-map-header 0 0 off
+map-header 0 0 nw
 #symbol-hide group cave-centreline
 endlayout
 
-input ../../common_layout.th
+input ##LAYOUT##

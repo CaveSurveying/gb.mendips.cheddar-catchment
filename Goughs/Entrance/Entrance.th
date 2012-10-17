@@ -2,9 +2,14 @@ encoding  utf-8
 survey Entrance
 
 input Entrance.th2
+input EntranceE0.th2
 
 map EntranceM
   EntranceSPl1
+endmap
+
+map EntranceME0 -proj [elevation 0]
+  EntranceSE0_1
 endmap
 
 equate 1.0 1.28
