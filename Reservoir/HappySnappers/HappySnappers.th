@@ -3,9 +3,14 @@ survey HappySnappers
 
 input HappySnappers.th2
 input HappySnappersEe.th2
+input HappySnappersE90.th2
 
 map HappySnappersM
   HappySnappersSPl1
+endmap
+
+map HappySnappersME90 -proj [elevation 90]
+  HappySnappersSE90_1
 endmap
 
 centreline
@@ -23,9 +28,9 @@ centreline
 
 data normal from to tape compass clino ignoreall
   extend right
-1.0  -  0.0  0.0  0.0  
-1.0  -  3.482  90.46  18.64  
-1.0  -  3.489  90.65  18.36  
+#Calibration check at AAs 
+#1.0  -  3.482  90.46  18.64  
+#1.0  -  3.489  90.65  18.36  
 1.0  -  0.916  301.31  76.11  
 1.0  -  0.902  295.41  28.38  
 1.0  -  1.615  304.54  -69.74  

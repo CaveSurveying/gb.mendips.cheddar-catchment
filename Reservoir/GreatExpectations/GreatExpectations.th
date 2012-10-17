@@ -3,11 +3,16 @@ survey GreatExpectations
 
 input GreatExpectations.th2
 input GreatExpectationsEe.th2
+input GreatExpectationsE90.th2
 
 map GreatExpectationsM
   GreatExpectationsSPl2
  break
   GreatExpectationsSPl1
+endmap
+
+map GreatExpectationsME90 -proj [elevation 90]
+  GreatExpectationsSE90_1
 endmap
 
 centreline

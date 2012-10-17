@@ -3,9 +3,14 @@ survey JillsSlither
 
 input JillsSlither.th2
 input JillsSlitherEe.th2
+input JillsSlitherE90.th2
 
 map JillsSlitherM
   JillsSlitherSPl1
+endmap
+
+map JillsSlitherME90 -proj [elevation 90]
+  JillsSlitherSE90_1
 endmap
 
 centreline

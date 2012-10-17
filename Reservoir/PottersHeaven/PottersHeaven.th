@@ -2,9 +2,14 @@ encoding  utf-8
 survey PottersHeaven
 
 input PottersHeaven.th2
+input PottersHeavenE90.th2
 
 map PottersHeavenM
   PottersHeavenSPl1
+endmap
+
+map PottersHeavenME90 -proj [elevation 90]
+  PottersHeavenSE90_1
 endmap
 
 centreline

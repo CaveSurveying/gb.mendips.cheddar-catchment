@@ -3,11 +3,18 @@ survey TopDig
 
 input TopDig.th2
 #input TopDigEe.th2
+input TopDigE90.th2
 
 map TopDigM
   TopDigSPl1
 # TopDigSPl2
 # TopDigSPl3
+endmap
+
+map TopDigME90 -proj [elevation 90]
+  TopDigSE90_1
+  TopDigSE90_2
+  TopDigSE90_3
 endmap
 
 centreline

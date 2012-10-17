@@ -3,9 +3,14 @@ survey HerbertsAttic
 
 input HerbertsAttic.th2
 input HerbertsAtticEe.th2
+input HerbertsAtticE90.th2
 
 map HerbertsAtticM
   HerbertsAtticSPl1
+endmap
+
+map HerbertsAtticME90 -proj [elevation 90]
+  HerbertsAtticSE90_1
 endmap
 
 centreline

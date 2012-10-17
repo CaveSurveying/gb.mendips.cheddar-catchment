@@ -3,10 +3,15 @@ survey ToplessAven
 
 input ToplessAven.th2
 input ToplessAvenEe.th2
+input ToplessAvenE90.th2
 
 map ToplessAvenM
   ToplessAvenSPl1
-  endmap
+endmap
+  
+map ToplessAvenME90 -proj [elevation 90]
+  ToplessAvenSE90_1
+endmap
 
 centreline
 

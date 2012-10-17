@@ -3,12 +3,17 @@ survey Sleeper
 
 input Sleeper.th2
 input SleeperEe.th2
+input SleeperE90.th2
 
 map SleeperM
   SleeperSPl1
   SleeperSPl2
   SleeperSPl3
   SleeperSPl4
+endmap
+
+map SleeperME90 -proj [elevation 90]
+  SleeperSE90_1
 endmap
 
 centreline

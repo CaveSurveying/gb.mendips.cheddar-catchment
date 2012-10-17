@@ -3,9 +3,14 @@ survey SouthPassage
 
 input SouthPassage.th2
 input SouthPassageEe.th2
+input SouthPassageE90.th2
 
 map SouthPassageM
   SouthPassageSPl1
+endmap
+
+map SouthPassageME90 -proj [elevation 90]
+  SouthPassageSE90_1
 endmap
 
 centreline

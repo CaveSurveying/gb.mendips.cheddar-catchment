@@ -1,3 +1,4 @@
+encoding  utf-8
 source HerbertsAttic.th
 # Change name to the main therion file
 
@@ -10,7 +11,7 @@ source HerbertsAttic.th
 
 #export map -proj extended -layout local -o HerbertsAtticEe.pdf
 
-#export map -proj [elevation 90] -layout local -o HerbertsAtticE90.pdf
+export map -proj [elevation 90] -layout local -o HerbertsAtticE90.pdf
 
 export model -fmt survex -o HerbertsAtticth.3d
 #Survex file showing centre line only
@@ -28,4 +29,4 @@ map-header 0 0 nw
 #symbol-hide group cave-centreline
 endlayout
 
-input ##LAYOUT##
+input ../../common_layout.th

@@ -85,11 +85,6 @@ equate 1.0@Sleeper 1.26@ResEnt
 equate 1.7@Sleeper 2.0@SideRift
 equate 1.0@ResEnt 1.0@ChGorge
 
-#############################
-#Fake join need removing
-#join PulsationAvenSPl1@PulsationAven PottersHeavenSPl1@PottersHeaven -smooth on
-#############################
-
 join DeeperSP1@Deeper FrozenDeepSPl1@FrozenDeep -smooth on
 join FrozenDeepSPl1@FrozenDeep GreatExpectationsSPl2@GreatExpectations  -smooth on
 join GreatExpectationsSPl1@GreatExpectations ToplessAvenSPl1@ToplessAven -smooth on
@@ -138,6 +133,21 @@ map ReservoirM -title "Reservoir Hole" -proj plan
 #  R12@R12
 #  R13@R13
 #  survex_format
+endmap
+
+map ReservoirME90 -proj [elevation 90]
+  GreatExpectationsME90@GreatExpectations
+  HerbertsAtticME90@HerbertsAttic
+  GolgothaME90@Golgotha
+  ToplessAvenME90@ToplessAven
+  ResEntME90@ResEnt
+  SouthPassageME90@SouthPassage
+  SleeperME90@Sleeper
+  SideRiftME90@SideRift
+  PottersHeavenME90@PottersHeaven
+  PulsationAvenME90@PulsationAven
+  TopDigME90@TopDig
+  HappySnappersME90@HappySnappers 
 endmap
 
 endsurvey

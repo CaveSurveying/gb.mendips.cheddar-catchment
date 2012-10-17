@@ -3,9 +3,14 @@ survey PulsationAven
 
 input PulsationAven.th2
 input PulsationAvenEe.th2
+input PulsationAvenE90.th2
 
 map PulsationAvenM
   PulsationAvenSPl1
+endmap
+
+map PulsationAvenME90 -proj [elevation 90]
+  PulsationAvenSE90_1
 endmap
 
 centreline

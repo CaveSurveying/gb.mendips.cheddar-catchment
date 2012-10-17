@@ -28,4 +28,4 @@ map-header 0 0 nw
 #symbol-hide group cave-centreline
 endlayout
 
-input ##LAYOUT##
+input ../../common_layout.th

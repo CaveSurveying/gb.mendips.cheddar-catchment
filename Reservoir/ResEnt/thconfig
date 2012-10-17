@@ -1,3 +1,4 @@
+encoding  utf-8
 source ResEnt.th
 # Change name to the main therion file
 
@@ -10,7 +11,7 @@ source ResEnt.th
 
 #export map -proj extended -layout local -o ResEntEe.pdf
 
-#export map -proj [elevation 90] -layout local -o ResEntE90.pdf
+export map -proj [elevation 90] -layout local -o ResEntE90.pdf
 
 export model -fmt survex -o ResEntth.3d
 #Survex file showing centre line only
@@ -24,8 +25,8 @@ export model -fmt survex -o ResEntth.3d
 layout local
 copy common
 debug off
-map-header 0 0 nw
+map-header 0 0 ne
 #symbol-hide group cave-centreline
 endlayout
 
-input ##LAYOUT##
+input ../../common_layout.th

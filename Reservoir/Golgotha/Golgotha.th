@@ -3,6 +3,7 @@ survey Golgotha
 
 input Golgotha.th2
 input GolgothaEe.th2
+input GolgothaE90.th2
 
 map GolgothaM
   GolgothaSPl1
@@ -11,6 +12,10 @@ map GolgothaM
  break
   GolgothaSPl3
   GolgothaSPl4
+endmap
+
+map GolgothaME90 -proj [elevation 90]
+  GolgothaSE90_1
 endmap
 
 centreline

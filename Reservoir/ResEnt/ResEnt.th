@@ -3,11 +3,20 @@ survey ResEnt
 
 input ResEnt.th2
 input ResEntEe.th2
+input ResEntE90.th2
 
 map ResEntM
   ResEntSPl1
  break
   ResEntSPl2
+endmap
+
+map ResEntME90 -proj [elevation 90]
+  ResEntSE90_3
+ break
+  ResEntSE90_2
+ break
+  ResEntSE90_1
 endmap
 
 centreline

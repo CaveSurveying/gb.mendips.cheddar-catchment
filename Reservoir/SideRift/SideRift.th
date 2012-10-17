@@ -3,10 +3,15 @@ survey SideRift
 
 input SideRift.th2
 input SideRiftEe.th2
+input SideRiftE90.th2
 
 map SideRiftM
   SideRiftSPl1
   SideRiftSPl2
+endmap
+
+map SideRiftME90 -proj [elevation 90]
+  SideRiftSE90_1
 endmap
 
 equate 2.0 2.9
