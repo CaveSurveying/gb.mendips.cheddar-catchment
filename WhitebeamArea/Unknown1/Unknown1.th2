@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -118.13 -83.43 708.76 500.6
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {106.385826772 1 1.0} {225.653543307 1.13} PocketTopo/Unknown1_p.xvi 0 {}
+
+
+scrap Unknown1SP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Unknown1SP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Unknown1SPX3.1 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

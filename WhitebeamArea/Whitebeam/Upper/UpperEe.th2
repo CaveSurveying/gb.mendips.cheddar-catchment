@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -268.1 -151.43 1608.61 908.6
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {170.192749809 1 1.0} {75.7165354331 5.4} PocketTopo/Upper_e.xvi 0 {}
+
+
+scrap UpperSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap UpperSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

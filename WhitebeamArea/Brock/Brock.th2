@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -85.98 -190.39 515.91 1142.36
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {151.968503937 1 1.0} {1027.87401575 1.4} PocketTopo/Brock_p.xvi 0 {}
+
+
+scrap BrockSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrockSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

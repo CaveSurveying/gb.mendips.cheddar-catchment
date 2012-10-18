@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -226.8 -83.13 1360.78 498.78
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {117.865413851 1 1.0} {41.5651707532 5.4} PocketTopo/Upper_E90.xvi 0 {}
+
+
+scrap UpperSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap UpperSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

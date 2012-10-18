@@ -1,0 +1,11 @@
+encoding  utf-8
+survey Whitebeam
+
+input Entrance/Entrance.th
+input Lower/Lower.th
+input Upper/Upper.th
+
+equate 4.11@Entrance 5.0@Lower
+equate 5.4@Lower 6.0@Upper
+
+endsurvey

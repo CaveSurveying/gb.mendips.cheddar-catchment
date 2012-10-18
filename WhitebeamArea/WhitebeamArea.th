@@ -1,0 +1,16 @@
+encoding  utf-8
+survey WhitebeamArea
+
+input Brock/Brock.th
+input Surface/Surface.th
+input SwineHole/SwineHole.th
+input Unknown1/Unknown1.th
+input Whitebeam/Whitebeam.th
+
+equate 4.0@Entrance.Whitebeam 1.0@Surface 
+equate 7.0@Brock 1.4@Surface
+equate 1.9@Surface 2.0@SwineHole
+equate 3.0@Unknown1 1.13@Surface
+
+endsurvey
+

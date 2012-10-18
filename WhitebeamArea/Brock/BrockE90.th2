@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -186.23 -57.0 1117.39 341.99
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {93.1158246768 1 1.0} {140.325407505 1.4} PocketTopo/Brock_E90.xvi 0 {}
+
+
+scrap BrockSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrockSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

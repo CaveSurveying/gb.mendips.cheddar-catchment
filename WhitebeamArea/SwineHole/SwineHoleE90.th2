@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -131.44 -108.4 788.67 650.39
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {76.9693742284 1 1.0} {183.387819749 1.9} PocketTopo/SwineHole_E90.xvi 0 {}
+
+
+scrap SwineHoleSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SwineHoleSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
