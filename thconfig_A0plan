@@ -8,13 +8,10 @@ cs OSGB:SN
 #unselect Surface.Charterhouse
 
 select TyningsGSM@TyningsGS.CheddarCatchment
-select OldCaveM@OldCave.Charterhouse.CheddarCatchment
 select GBM@GB.CheddarCatchment
-select New_Charter_displaceM@Charterhouse.CheddarCatchment
+select Charterhouse_displaceM@Charterhouse.CheddarCatchment
 select ReadsGrottoM@ReadsGrotto.CheddarCatchment
-#select 2010bM@2010b.Charterhouse.CheddarCatchment
-select Charterhouse.CheddarCatchment
-
+select OldCaveM@OldCave.Charterhouse.CheddarCatchment
 
 
 #Surveys to output
@@ -28,6 +25,9 @@ export map -proj plan -layout local -o Outputs/Charterhouse_GB_systemA0.pdf
 layout local
 copy common
 
+#map-image 60 70 sw Charterthouse_GB_Titlebox.pdf
+map-image 2 3 sw Charterhouse_overview.pdf
+#map-image 32 3 sw Overview_Key.jpg
 
 #copy legend
 #map-image 2 3 sw Charterhouse_overview.pdf
@@ -97,15 +97,14 @@ code metapost
 
 endcode
 
-
 #for Andrew
 code tex-map
     \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
     \def\maplayout{
 
-      \legendbox{60}{70}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/CheddarCatchment/Charterthouse_GB_Titlebox.pdf}}
-      \legendbox{2}{3}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/CheddarCatchment/Charterhouse_overview.pdf}}
-      \legendbox{32}{3}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/CheddarCatchment/Overview_Key.jpg}}
+#      \legendbox{60}{70}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/CheddarCatchment/Charterthouse_GB_Titlebox.pdf}}
+#     \legendbox{2}{3}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/CheddarCatchment/Charterhouse_overview.pdf}}
+#      \legendbox{32}{3}{SW}{\loadpicture{/media/data/Andrew/Caving/Surveys/CheddarCatchment/Overview_Key.jpg}}
       \legendbox{62}{73}{SW}{\northarrow}
       \legendbox{65}{73}{SW}{\scalebar}
     }

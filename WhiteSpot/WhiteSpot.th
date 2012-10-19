@@ -3,6 +3,7 @@ survey WhiteSpot -title "White Spot Cave"
 
 input WhiteSpot.th2
 input WhiteSpotEe.th2
+input WhiteSpotE90.th2
 
 map WhiteSpotM
   WhiteSpotSPl1
@@ -10,6 +11,10 @@ endmap
 
 map WhiteSpotEeM
   WhiteSpotSEe1
+endmap
+
+map WhiteSpotEeME90 -proj [elevation 90]
+  WhiteSpotSE90_1
 endmap
 
 centreline

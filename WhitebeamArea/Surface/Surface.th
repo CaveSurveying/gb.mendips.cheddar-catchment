@@ -1,7 +1,7 @@
 encoding  utf-8
 survey Surface
 
-centreline
+centreline -cs OSGB:ST
 
 copyright 2012 "CC BY SA NC"
 
@@ -18,12 +18,15 @@ copyright 2012 "CC BY SA NC"
   team "Clive Owen" instruments
   team "Tony Boycott" instruments
 
+  fix 1.12 47427 54377 226
+
 data normal from to tape compass clino ignoreall
  flags surface
   extend right
-1.0  -  0.0  0.0  0.0  
-1.0  -  3.345  86.8  23.74  
-1.0  -  3.341  86.33  24.03  
+1.0  -  0.0  0.0  0.0
+#Calabration check at AAs  
+#1.0  -  3.345  86.8  23.74  
+#1.0  -  3.341  86.33  24.03  
 #1.1  1.0  10.487  173.48  33.91  
 #1.1  1.0  10.513  173.51  33.92  
 #1.1  1.0  10.487  173.48  33.85  

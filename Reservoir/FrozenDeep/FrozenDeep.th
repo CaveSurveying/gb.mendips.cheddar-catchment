@@ -3,9 +3,16 @@ survey FrozenDeep
 
 input FrozenDeep.th2
 input FrozenDeepEe.th2
+input FrozenDeepE90.th2
 
 map FrozenDeepM
   FrozenDeepSPl1
+endmap
+
+map FrozenDeepME90 -proj [elevation 90]
+  FrozenDeepSE90_1
+ break
+  FrozenDeepSE90_2
 endmap
 
 centreline

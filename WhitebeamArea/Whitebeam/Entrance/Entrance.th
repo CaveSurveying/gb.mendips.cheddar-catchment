@@ -36,6 +36,8 @@ copyright 2012 "CC BY SA NC"
   team "Clive Owen" instruments
   team "Tony Boycott" instruments
 
+ station 4.0 "" entrance
+
 data normal from to tape compass clino ignoreall
   extend right
 1.0  4.0  0.0  0.0  0.0  
@@ -114,10 +116,8 @@ data normal from to tape compass clino ignoreall
 4.9  -  0.542  76.71  -29.17  
 4.9  -  0.667  11.02  67.91  
 4.9  4.10  2.286  155.69  -4.07  
-4.5  -  0.0  0.0  0.0  
-4.5  -  2.351  347.39  -23.02  
-4.5  -  2.345  346.88  -21.86  
-4.5  -  2.348  167.72  21.48  
+4.5  -  0.0  0.0  0.0
+
 
 ### TRIP COMMENT FROM POCKETTOPO ###
 #DistoX-ubss1 0.88
@@ -125,7 +125,10 @@ data normal from to tape compass clino ignoreall
 #DistoX: Alison Moody
 # Dogs:Tony Boycott , Clive Owen
 
-
+#Calabration check in cave after new batteries  
+#4.5  -  2.351  347.39  -23.02  
+#4.5  -  2.345  346.88  -21.86  
+#4.5  -  2.348  167.72  21.48  
 4.5  -  1.536  170.84  -3.06  
 4.3  -  0.0  0.0  0.0  
 #4.3  4.11  0.824  356.38  -75.96  

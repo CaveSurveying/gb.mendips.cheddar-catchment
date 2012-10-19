@@ -8,12 +8,21 @@ select WhiteSpotM@WhiteSpot.CheddarCatchment
 select Reservoir.CheddarCatchment -map-level 2
 select WhiteSpot.CheddarCatchment
 
+select ReservoirME90@Reservoir.CheddarCatchment -map-level 1
+select WhiteSpotEeME90@WhiteSpot.CheddarCatchment
+
 
 #Surveys to output
 #-----------------
 
+###############
+#Projection needs to come first as it is used in the plan
+###############
+#Produces Projection of cave, on a single sheet
+export map -proj [elevation 90] -layout Projected -o Outputs/Reservoir-WhiteSpotE90.pdf
+
 #Produces plan of cave, on a single sheet
-export map -proj plan -layout local -o Outputs/Reservoir-WhiteSpot.pdf
+export map -proj plan -layout plan -o Outputs/Reservoir-WhiteSpot.pdf
 
 #export model -fmt survex -o Outputs/Reservoir-WhiteSpot.3d
 #Survex file showing centre line only
@@ -21,14 +30,25 @@ export map -proj plan -layout local -o Outputs/Reservoir-WhiteSpot.pdf
 #export model -o Outputs/Reservoir-WhiteSpot.lox
 #3d therion model to be viewed in the therion viewer
 
+layout plan
+copy local
+map-header 0 0 off
+
+map-image 0 100 sw Outputs/Reservoir-WhiteSpotE90.pdf
+endlayout
+
+layout Projected
+copy local
+map-header 0 0 sw
+endlayout
+
+
 layout local
 copy common
+copy legend
 
 doc-title "Reservoir Hole and Whitespot Cave"
-#copy legend
-#map-image 5 5 sw CharterhouseOverview.pdf
-#map-image 100 100 ne Photos/Citadel.jpg
-#map-image 100 70 ne Photos/Portal_Pool.jpg
+
 #surface bottom
 rotate -90
 #surface-opacity 100
@@ -77,10 +97,12 @@ symbol-hide group cave-centreline
 map-header 0 0 nw
 map-header-bg off
 statistics explo off
-statistics topo all
-statistics carto all
+statistics topo off
+statistics carto off
+statistics topo-length off
+statistics explo-length off
 
-map-comment "Drawn using Therion<br>by Andrew Atkinson and Graham Mullan.<br>With thanks to all the other cavers past and present<br>who have made information available.<br>Copyright CC BY NC SA <br> <br>Spot heights in metres OD"
+map-comment "Drawn using Therion<br>by Andrew Atkinson and Graham Mullan.<br>With thanks to all the other cavers past and present<br>who have made information available.<br>Copyright CC BY NC SA<br>Raw data available at http://cave-registry.org.uk/<br> <br>Spot heights in metres OD"
 code metapost
 
 #base 1:750 scale 1:2750 (A3 charterhouse,GB)
@@ -98,19 +120,18 @@ endlayout
 
 layout legend
 code tex-map
-    \def\maplayout{
-      \legendbox{70}{90}{NW}{
-      \northarrow
-      \bigskip 
-      \scalebar
-      \bigskip
-      \the\comment
-      }      
-    }
+  \cavename{Reservoir Hole and White Spot Cave}
+#    \def\maplayout{
+ #     \legendbox{70}{90}{NW}{
+ #     \northarrow
+ #     \bigskip 
+ #     \scalebar
+  #    \bigskip
+   #   \the\comment
+   #   }      
+   # }
   
-endcode
-
-code metapost            
+endcode          
     
 endlayout
 

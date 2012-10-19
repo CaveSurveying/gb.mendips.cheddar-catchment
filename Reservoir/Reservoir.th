@@ -119,6 +119,8 @@ map ReservoirM -title "Reservoir Hole" -proj plan
   SouthPassageM@SouthPassage
   TopDigM@TopDig
   ToplessAvenM@ToplessAven
+  DeeperM@Deeper
+  DingleyDellM@DingleyDell
 #  R1@R1
 #  R2@R2
 #  R3@R3
@@ -144,10 +146,14 @@ map ReservoirME90 -proj [elevation 90]
   SouthPassageME90@SouthPassage
   SleeperME90@Sleeper
   SideRiftME90@SideRift
+  JillsSlitherME90@JillsSlither
   PottersHeavenME90@PottersHeaven
   PulsationAvenME90@PulsationAven
   TopDigME90@TopDig
-  HappySnappersME90@HappySnappers 
+  HappySnappersME90@HappySnappers
+  FrozenDeepME90@FrozenDeep
+  DeeperME90@Deeper
+  DingleyDellME90@DingleyDell
 endmap
 
 endsurvey
