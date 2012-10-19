@@ -17,9 +17,12 @@ map DeeperME
 endmap
 
 
-map DeeperME90
+map DeeperME90 -proj [elevation 90]
  DeeperSE90_1
-  DeeperSE90_2
+break
+ DeeperSE90_2
+break
+ DeeperSE90_3
 endmap
 
 centreline

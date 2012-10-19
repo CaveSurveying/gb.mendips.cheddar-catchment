@@ -1,3 +1,4 @@
+encoding  utf-8
 source Deeper.th
 # Change name to the main therion file
 
@@ -10,7 +11,7 @@ source Deeper.th
 
 #export map -proj extended -layout local -o DeeperEe.pdf
 
-#export map -proj [elevation 90] -layout local -o DeeperE90.pdf
+export map -proj [elevation 90] -layout local -o DeeperE90.pdf
 
 export model -fmt survex -o Deeperth.3d
 #Survex file showing centre line only

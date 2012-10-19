@@ -32,20 +32,38 @@ export map -proj plan -layout plan -o Outputs/Reservoir-WhiteSpot.pdf
 
 layout plan
 copy local
-map-header 0 0 off
+map-image 100 100 se Outputs/Reservoir-WhiteSpotE90.pdf
+map-header 0 100 se
 
-map-image 0 100 sw Outputs/Reservoir-WhiteSpotE90.pdf
+code tex-map
+  \cavename={\size[30]  Reservoir Hole\medskip \size[18] and\medskip\size[30] White Spot Cave}
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+   #\def\maplayout{
+    #\legendbox{0}{100}{sw}{\loadpicture{/media/data/Andrew/Caving/Surveys/CheddarCatchment/Outputs/Reservoir-WhiteSpotE90.pdf}}
+      #\legendbox{0}{100}{sw}{
+      #\the\cavename
+      #\northarrow
+      #\bigskip 
+     # \scalebar
+    #  \bigskip
+    #  \the\comment
+      #\bigskip
+     # \the\cavelength
+   #  }      
+ #   }
+endcode  
+
 endlayout
 
 layout Projected
 copy local
-map-header 0 0 sw
+#map-header 0 0 se
 endlayout
 
 
 layout local
 copy common
-copy legend
 
 doc-title "Reservoir Hole and Whitespot Cave"
 
@@ -94,15 +112,20 @@ symbol-hide group cave-centreline
 #symbol-show special scale-bar
 
 #grid off
-map-header 0 0 nw
-map-header-bg off
+map-header 50 70 off
+map-header-bg on
 statistics explo off
 statistics topo off
-statistics carto off
-statistics topo-length off
-statistics explo-length off
 
-map-comment "Drawn using Therion<br>by Andrew Atkinson and Graham Mullan.<br>With thanks to all the other cavers past and present<br>who have made information available.<br>Copyright CC BY NC SA<br>Raw data available at http://cave-registry.org.uk/<br> <br>Spot heights in metres OD"
+map-comment "Drawn using Therion<br>\
+by Andrew Atkinson and Graham Mullan.<br>\
+With thanks to all the other cavers past and present<br>\
+who have made information available.<br>\
+Copyright CC BY NC SA<br>\
+Data available at http://cave-registry.org.uk/<br>\
+<br>\
+Heights in metres OD"
+
 code metapost
 
 #base 1:750 scale 1:2750 (A3 charterhouse,GB)
@@ -112,26 +135,7 @@ code metapost
 fonts_setup(7,10,14,20,30)
 
 #base 1:500 scale 1:2750 
-#fonts_setup(8,20,26,40,60)
-
-endcode
-
-endlayout
-
-layout legend
-code tex-map
-  \cavename{Reservoir Hole and White Spot Cave}
-#    \def\maplayout{
- #     \legendbox{70}{90}{NW}{
- #     \northarrow
- #     \bigskip 
- #     \scalebar
-  #    \bigskip
-   #   \the\comment
-   #   }      
-   # }
-  
-endcode          
+#fonts_setup(8,20,26,40,60)      
     
 endlayout
 
