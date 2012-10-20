@@ -1,20 +1,70 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -118.13 -83.43 708.76 500.6
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {106.385826772 1 1.0} {225.653543307 1.13} PocketTopo/Unknown1_p.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {606.125826772 1 1.0} {52.04354330699999 3.2} PocketTopo/Unknown1_p.xvi 0 {}
 
 
-scrap Unknown1SP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap Unknown1SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  639.5 63.0
+  624.5 60.5 617.0 65.5 601.5 68.0
+  586.0 70.5 534.81 95.19 517.5 102.5
+  495.0 112.0 464.5 126.5 446.5 133.0
+  428.5 139.5 345.0 170.5 336.5 171.5
+  328.0 172.5 237.0 196.0 219.5 203.0
+  202.0 210.0 156.5 213.5 151.0 219.5
+  145.5 225.5 147.0 231.0 142.0 241.5
+endline
+
+line wall
+  95.0 197.0
+  106.0 197.0 107.5 192.0 119.5 192.5
+  131.5 193.0 175.0 187.0 186.5 181.0
+  198.0 175.0 322.0 141.0 331.5 139.5
+  341.0 138.0 406.0 117.5 416.5 113.5
+  427.0 109.5 487.5 83.5 500.0 81.0
+  512.5 78.5 556.5 58.5 570.5 55.0
+  584.5 51.5 594.5 48.5 605.0 47.0
+  615.5 45.5 619.5 38.5 630.5 41.0
+endline
+
+point 606.125826772 52.04354330699999 station -name 3.2
+
+line section -direction both
+  349.0 207.0
+  339.0 178.0 324.5 133.5 316.0 107.5
+endline
+
+point 343.5 229.5 section -scrap Unknown1SX3.1
+
+point 327.14582677199996 163.623543307 station -name 3.1
+
+point 106.385826772 225.653543307 station -name 3.0
 
 endscrap
 
 
-scrap Unknown1SP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap Unknown1SP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap Unknown1SPX3.1 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap Unknown1SPX3.1 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  255.5 326.0
+  257.0 319.0 249.5 313.5 257.0 313.5
+  264.5 313.5 269.0 313.0 274.0 317.0
+  279.0 321.0 281.5 331.0 286.5 339.0
+  291.5 347.0 299.5 355.0 293.0 358.5
+  286.5 362.0 281.0 367.0 276.0 363.0
+  271.0 359.0 264.0 347.5 261.5 343.5
+  259.0 339.5 254.0 333.0 255.5 326.0
+endline
 
 endscrap
 
