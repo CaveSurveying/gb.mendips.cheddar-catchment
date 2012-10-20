@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -910.42 -916.87 5462.5 5501.23
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {2853.553639159 1 1.0} {2665.849894633 3.18} PocketTopo/Golgotha_E90.xvi 0 {}
+##XTHERION## xth_me_image_insert {2853.55363916 1 1.0} {2665.84989463 3.18} PocketTopo/Golgotha_E90.xvi 0 {}
 
 
 
@@ -156,6 +156,7 @@ line wall -subtype blocks
   4164.0 4037.0 4234.0 4131.0 4257.0 4170.0
   4280.0 4209.0 4309.0 4298.0 4324.0 4347.0
   4339.0 4396.0 4404.0 4461.0 4449.0 4472.0
+  smooth off
 endline
 
 line wall -subtype debris
@@ -238,6 +239,8 @@ point 748.893639159 1097.3398946329999 station -name 3.3
 point 897.083639159 728.7398946330001 station -name 3.1
 
 point 746.063639159 494.279894633 station -name 3.0
+
+point 1795.0 4947.0 label -scale l -text "Golgotha"
 
 endscrap
 

@@ -1,3 +1,4 @@
+encoding  utf-8
 source HappySnappers.th
 # Change name to the main therion file
 
@@ -10,9 +11,9 @@ source HappySnappers.th
 
 #export map -proj extended -layout local -o HappySnappersEe.pdf
 
-#export map -proj [elevation 90] -layout local -o HappySnappersE90.pdf
+export map -proj [elevation 90] -layout local -o HappySnappersE90.pdf
 
-export model -fmt survex -o HappySnappersth.3d
+#export model -fmt survex -o HappySnappersth.3d
 #Survex file showing centre line only
 
 #export model -o HappySnappers.lox

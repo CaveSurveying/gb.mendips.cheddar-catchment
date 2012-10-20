@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust 431.98510561399996 46.09651665999991 7380.8984914395 2450.0
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {1420.13287648 1 1.0} {1812.2601354399999 1.4} PocketTopo/TopDig_E90.xvi 0 {}
+##XTHERION## xth_me_image_insert {1420.13287648 1 1.0} {1812.26013544 1.4} PocketTopo/TopDig_E90.xvi 0 {}
 
 
 
@@ -26,6 +26,7 @@ endline
 line floor-step
   1102.0 1728.0
   1089.5 1730.0 1047.0 1727.0 1037.0 1720.5
+  smooth off
 endline
 
 line wall
@@ -56,6 +57,7 @@ line wall
   1548.0 1696.0 1336.0 1638.0 1304.0 1640.0
   1272.0 1642.0 1112.0 1702.0 1102.0 1728.0
   1092.0 1754.0 1091.5 1832.0 1089.5 1846.0
+  smooth off
 endline
 
 line wall
@@ -234,6 +236,10 @@ point 1328.47287648 1856.5301354399999 station -name 4.2
 point 1365.65287648 1855.38013544 station -name 4.1
 
 point 1405.75287648 1921.67013544 station -name 4.0
+
+point 2370.0 488.0 label -scale l -text "Grand Gallery"
+
+point 5678.0 2378.0 label -scale l -text "Topless Aven"
 
 endscrap
 

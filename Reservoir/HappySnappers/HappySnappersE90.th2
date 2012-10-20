@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -240.15 -165.34 1440.88 992.03
+##XTHERION## xth_me_area_adjust -91.0 -124.071015747 1458.0 1102.0
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {500.74913174999995 1 1.0} {547.923600212 1.4} PocketTopo/HappySnappers_E90.xvi 0 {}
+##XTHERION## xth_me_image_insert {500.74913175 1 1.0} {547.923600212 1.4} PocketTopo/HappySnappers_E90.xvi 0 {}
 
 
 
@@ -37,6 +37,7 @@ endline
 line floor-step
   1324.0 103.0
   1300.0 107.0 1267.0 107.0 1250.0 99.0
+  smooth off
 endline
 
 line wall
@@ -83,6 +84,8 @@ point 671.0591317499999 341.923600212 station -name 1.2
 point 974.57913175 147.743600212 station -name 1.1
 
 point 1280.66913175 201.963600212 station -name 1.0
+
+point 119.0 239.0 label -scale m -text "The Silo"
 
 endscrap
 

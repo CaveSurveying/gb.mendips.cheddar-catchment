@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -14.947774374099993 -145.0 2378.0 824.1747123157
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {199.59260953 1 1.0} {497.13053183200003 8.1} PocketTopo/SouthPassage_E90.xvi 0 {}
+##XTHERION## xth_me_image_insert {199.59260953 1 1.0} {497.130531832 8.1} PocketTopo/SouthPassage_E90.xvi 0 {}
 
 
 
@@ -85,6 +85,8 @@ point 836.11260953 510.330531832 station -name 8.4
 point 575.18260953 556.730531832 station -name 8.3
 
 point 374.65260953 461.29053183200006 station -name 8.2
+
+point 979.0 -11.0 label -scale m -text "South<br>Passage
 
 endscrap
 
