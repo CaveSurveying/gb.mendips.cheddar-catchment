@@ -5,66 +5,45 @@ input ChGorge/ChGorge.th
 input Deeper/Deeper.th
 input DingleyDell/DingleyDell.th
 input FrozenDeep/FrozenDeep.th
-
 input GreatExpectations/GreatExpectations.th
-
 input Golgotha/Golgotha.th
 input HerbertsAttic/HerbertsAttic.th
 input HappySnappers/HappySnappers.th
 input JillsSlither/JillsSlither.th
 input SouthPassage/SouthPassage.th
 input ResEnt/ResEnt.th
-
 input PottersHeaven/PottersHeaven.th
-
 input PulsationAven/PulsationAven.th
-
 #input R1/R1.th
 #input R2/R2.th
 #equate Q@R1 Q@R2
-
 #input R3/R3.th
 #equate Q@R1 Q@R3
 #removed as passage has been backfilled
-
 #input R4/R4.th
 #equate 426@R2 426@R4
-
 #input R5/R5.th
 #equate 459@R4 459@R5
-
 #input R6/R6.th
 #equate 464@R5 464@R6 
-
 #input R7/R7.th
 #equate 471@R6 471@R7
-
 #input R8/R8.th
 #equate 486@R7 486@R8
-
 #input R9/R9.th
 #equate 488@R8 488@R9
-
 #input R10/R10.th
 #equate 481@R7 481@R10
-
 #input R11/R11.th
 #equate 512@R10 512@R11
-
 #input R12/R12.th
 #equate 534@R11 534@R12
-
 #input R13/R13.th
 #equate 553@R12 553@R13
-
 input SideRift/SideRift.th
-
 input Sleeper/Sleeper.th
 input TopDig/TopDig.th
-
 input ToplessAven/ToplessAven.th
-
-
 #Connection to the therionised data
 #equate 471@R6 1.0@TopDig
 
@@ -85,6 +64,8 @@ equate 1.0@Sleeper 1.26@ResEnt
 equate 1.7@Sleeper 2.0@SideRift
 equate 1.0@ResEnt 1.0@ChGorge
 
+#Plan joins
+##########################################
 join DeeperSP1@Deeper FrozenDeepSPl1@FrozenDeep -smooth on
 join FrozenDeepSPl1@FrozenDeep GreatExpectationsSPl2@GreatExpectations  -smooth on
 join GreatExpectationsSPl1@GreatExpectations ToplessAvenSPl1@ToplessAven -smooth on
@@ -97,6 +78,16 @@ join ResEntSPl1@ResEnt SouthPassageSPl1@SouthPassage -smooth on
 join SleeperSPl3@Sleeper TopDigSPl1@TopDig -smooth on
 join SleeperSPl3@Sleeper SideRiftSPl1@SideRift -smooth on
 join TopDigSPl1@TopDig ToplessAvenSPl1@ToplessAven -smooth on
+
+#Projected Elevation joins (E90)
+##########################################
+join HappySnappersSE90_1@HappySnappers  TopDigSE90_1@TopDig -smooth on
+join PulsationAvenSE90_1@PulsationAven TopDigSE90_1@TopDig -smooth on 
+join ResEntSE90_2@ResEnt SouthPassageSE90_1@SouthPassage -smooth on
+join ResEntSE90_3@ResEnt SleeperSE90_1@Sleeper -smooth on
+join SideRiftSE90_1@SideRift SleeperSE90_1@Sleeper -smooth on -count 2
+join SleeperSE90_1@Sleeper  TopDigSE90_3@TopDig -smooth on 
+join  TopDigSE90_1@TopDig ToplessAvenSE90_1@ToplessAven -smooth on 
 
 map FrozenDeepSplaysM -proj plan
   FrozenDeep
@@ -112,6 +103,7 @@ map ReservoirM -title "Reservoir Hole" -proj plan
   HappySnappersM@HappySnappers
   JillsSlitherM@JillsSlither
   PulsationAvenM@PulsationAven
+ break
   PottersHeavenM@PottersHeaven
   ResEntM@ResEnt
   SideRiftM@SideRift

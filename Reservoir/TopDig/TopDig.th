@@ -13,7 +13,9 @@ endmap
 
 map TopDigME90 -proj [elevation 90]
   TopDigSE90_1
+ break
   TopDigSE90_2
+ break
   TopDigSE90_3
 endmap
 
