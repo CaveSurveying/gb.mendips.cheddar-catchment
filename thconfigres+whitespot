@@ -31,7 +31,7 @@ export map -proj plan -layout plan -o Outputs/Reservoir-WhiteSpot.pdf
 
 layout plan
 copy local
-map-image 100 100 se Outputs/Reservoir-WhiteSpotE90.pdf
+map-image -2 100 sw Outputs/Reservoir-WhiteSpotE90.pdf
 map-image 100 -5 ne Outputs/Res_Goughs_overview.pdf
 map-header 0 -10 nw
 
