@@ -1,0 +1,83 @@
+encoding  utf-8
+source CheddarCatchment.th
+# Change name to the main therion file
+
+#Surface.Charterhouse needs to be present for generation of 3d grid (comment out unselect)
+#But unselected for lox, otherwise you get 2 grids
+#unselect Surface.Charterhouse
+
+select GoughsM@Goughs.CheddarCatchment
+select WhiteSpotM@WhiteSpot.CheddarCatchment
+select ReservoirM@Reservoir.CheddarCatchment
+
+
+#Surveys to output
+#-----------------
+
+#Produces plan of cave, on a single sheet
+export map -proj plan -layout local -o Outputs/Res_Goughs_overview.pdf
+
+
+#export model -fmt survex -o OutputsRes_Goughs_overviewth.3d
+#Survex file showing centre line only
+
+#export model -o Outputs/Res_Goughs_overview.lox
+#3d therion model to be viewed in the therion viewer
+
+layout local
+copy common
+#copy legend
+
+surface bottom
+surface-opacity 100
+transparency off
+#debug on
+#debug first 
+#debug second
+#colour map-fg [0 50 50]
+#colour map-fg [100]
+colour map-fg map
+#colour map-bg [100]
+
+#base-scale 1 500
+scale 1 4000
+
+#A3
+#scale 1 2750
+#base-scale 1 750
+
+#A4
+#scale 1 6000
+
+#smaller than A5 
+#scale 1 10000
+
+#rotate 270
+symbol-hide group all
+symbol-show line wall
+
+
+grid off
+map-header 100 100 off
+map-header-bg off
+statistics explo off
+statistics topo off
+statistics carto off
+scale-bar 500 m
+code tex-map
+  \cavename={\size[60]  Reservoir Hole \size[30] and\size[60] White Spot Cave}
+  \def\maplayout{
+    \legendbox{0}{90}{nw}{
+      \scalebar
+      \bigskip 
+      \northarrow
+    }
+  }
+endcode
+
+endlayout
+           
+
+
+#get the master layout settings
+input common_layout.th
