@@ -2,15 +2,14 @@ encoding  utf-8
 source CheddarCatchment.th
 # Change name to the main therion file
 
-select ReservoirM@Reservoir.CheddarCatchment -map-level 1
 select WhiteSpotM@WhiteSpot.CheddarCatchment
+select ReservoirM@Reservoir.CheddarCatchment -map-level 1
 
 select Reservoir.CheddarCatchment -map-level 2
 select WhiteSpot.CheddarCatchment
 
-select ReservoirME90@Reservoir.CheddarCatchment -map-level 1
 select WhiteSpotEeME90@WhiteSpot.CheddarCatchment
-
+select ReservoirME90@Reservoir.CheddarCatchment -map-level 1
 
 #Surveys to output
 #-----------------
@@ -33,6 +32,7 @@ export map -proj plan -layout plan -o Outputs/Reservoir-WhiteSpot.pdf
 layout plan
 copy local
 map-image 100 100 se Outputs/Reservoir-WhiteSpotE90.pdf
+map-image 100 0 ne Outputs/Res_Goughs_overview.pdf
 map-header 0 100 se
 
 code tex-map
@@ -114,6 +114,7 @@ symbol-hide group cave-centreline
 #grid off
 map-header 50 70 off
 map-header-bg on
+colour map-fg map
 statistics explo off
 statistics topo off
 

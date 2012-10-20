@@ -81,7 +81,14 @@ join TopDigSPl1@TopDig ToplessAvenSPl1@ToplessAven -smooth on
 
 #Projected Elevation joins (E90)
 ##########################################
+join DeeperSE90_2@Deeper FrozenDeepSE90_1@FrozenDeep -smooth on
+join FrozenDeepSE90_1@FrozenDeep GreatExpectationsSE90_1@GreatExpectations -smooth on
+join GolgothaSE90_1@Golgotha HerbertsAtticSE90_1@HerbertsAttic -smooth on
+join GolgothaSE90_1@Golgotha ToplessAvenSE90_1@ToplessAven -smooth on
+join GreatExpectationsSE90_1@GreatExpectations ToplessAvenSE90_1@ToplessAven -smooth on
 join HappySnappersSE90_1@HappySnappers  TopDigSE90_1@TopDig -smooth on
+join JillsSlitherSE90_1@JillsSlither PottersHeavenSE90_1@PottersHeaven
+join JillsSlitherSE90_1@JillsSlither PulsationAvenSE90_1@PulsationAven -smooth on
 join PulsationAvenSE90_1@PulsationAven TopDigSE90_1@TopDig -smooth on 
 join ResEntSE90_2@ResEnt SouthPassageSE90_1@SouthPassage -smooth on
 join ResEntSE90_3@ResEnt SleeperSE90_1@Sleeper -smooth on
@@ -102,6 +109,7 @@ map ReservoirM -title "Reservoir Hole" -proj plan
   FrozenDeepM@FrozenDeep
   HappySnappersM@HappySnappers
   JillsSlitherM@JillsSlither
+ break
   PulsationAvenM@PulsationAven
  break
   PottersHeavenM@PottersHeaven

@@ -30,6 +30,7 @@ map-header 0 0 ne
 #scale-bar 50 m
 rotate -90
 symbol-hide group cave-centreline
+colour map-fg map
 endlayout
 
 input ../common_layout.th

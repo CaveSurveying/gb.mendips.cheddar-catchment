@@ -11,8 +11,6 @@ endmap
 
 map FrozenDeepME90 -proj [elevation 90]
   FrozenDeepSE90_1
- break
-  FrozenDeepSE90_2
 endmap
 
 centreline
