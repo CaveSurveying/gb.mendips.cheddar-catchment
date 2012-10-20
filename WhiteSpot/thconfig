@@ -6,10 +6,12 @@ source WhiteSpot.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o WhiteSpot.pdf
+#export map -proj plan -layout local -o WhiteSpot.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj extended -layout local -o WhiteSpotEe.pdf
+#export map -proj extended -layout local -o WhiteSpotEe.pdf
+
+export map -proj [elevation 90] -layout local -o WhiteSpotE90.pdf
 
 #export model -fmt survex -o WhiteSpotth.3d
 #Survex file showing centre line only
@@ -21,7 +23,7 @@ export map -proj extended -layout local -o WhiteSpotEe.pdf
 #Survex file showing walls only
 
 layout local
-copy common
+#copy common
 #map-header 100 100 ne
 #map-comment "Drawn in Therion by Andrew Atkinson<br>Creative Commons BY NC SA" 
 #colour map-bg 90 
