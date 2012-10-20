@@ -73,7 +73,14 @@ statistics explo off
 statistics topo off
 statistics carto off
 
-map-comment "Drawn, using Therion, by Andrew Atkinson.<br>With thanks to all the other cavers past and present<br>that have made information available.<br>Survey UBSS/WCC<br>Copyright CC BY NC SA <br> <br>Spot heights in metres AOD"
+map-comment "Drawn, using Therion, by Andrew Atkinson.<br>\
+Survey UBSS/WCC<br>\
+With thanks to all the other cavers past and present<br>\
+that have made information available.<br>\
+Grade UISv1 6-4-BDEF<br>\
+Copyright 2010-2012 CC BY NC SA <br>\
+ <br>\
+ Spot heights in metres AOD"
 
 code metapost
 

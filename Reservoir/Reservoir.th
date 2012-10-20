@@ -67,6 +67,7 @@ equate 1.0@ResEnt 1.0@ChGorge
 #Plan joins
 ##########################################
 join DeeperSP1@Deeper FrozenDeepSPl1@FrozenDeep -smooth on
+join DeeperSP2@Deeper DingleyDellSP1@DingleyDell -smooth on
 join FrozenDeepSPl1@FrozenDeep GreatExpectationsSPl2@GreatExpectations  -smooth on
 join GreatExpectationsSPl1@GreatExpectations ToplessAvenSPl1@ToplessAven -smooth on
 join GolgothaSPl4@Golgotha ToplessAvenSPl1@ToplessAven -smooth on
