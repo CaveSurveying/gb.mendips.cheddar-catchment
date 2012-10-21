@@ -2,9 +2,14 @@ encoding  utf-8
 survey CableCrawl
 
 input CableCrawl.th2
+input CableCrawlE0.th2
 
 map CableCrawlM
   CableCrawlSPl1
+endmap
+
+map CableCrawlME0 -proj [elevation 90]
+  CableCrawlSE0_1
 endmap
 
 centreline

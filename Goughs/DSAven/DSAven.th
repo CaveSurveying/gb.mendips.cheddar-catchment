@@ -2,11 +2,16 @@ encoding  utf-8
 survey DSAven
 
 input DSAven.th2
+input DSAvenE0.th2
 
 map DSAvenM
   DSAvenSPl2
  break
   DSAvenSPl1
+endmap
+
+map DSAvenME0 -proj [elevation 90]
+  DSAvenSE0_1
 endmap
 
 centreline

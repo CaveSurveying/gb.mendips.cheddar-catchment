@@ -5,6 +5,7 @@ equate 1.0 1.34
 equate 1.28 1.33
 
 input Blackcat.th2
+input BlackcatE0.th2
 
 map BlackcatM
   BlackcatSPl3
@@ -13,6 +14,10 @@ map BlackcatM
   BlackcatSPl1
  break
   BlackcatSPl2
+endmap
+
+map BlackcatME0 -proj [elevation 90]
+  BlackcatSE0_1
 endmap
 
 centreline

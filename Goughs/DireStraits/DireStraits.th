@@ -2,10 +2,14 @@ encoding  utf-8
 survey DireStraits
 
 input DireStraits.th2
-input DireStraitsEe.th2
+input DireStraitsE0.th2
 
 map DireStraitsM
   DireStraitsSPl1
+endmap
+
+map DireStraitsME0 -proj [elevation 90]
+  DireStraitsSE0_1
 endmap
 
 centreline

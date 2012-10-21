@@ -3,13 +3,16 @@ survey Damocles3
 
 input Damocles3.th2
 input Damocles3Ee.th2
+input Damocles3E0.th2
 
 map Damocles3M
   Damocles3SPl1
   Damocles3SPl2
 endmap
 
-
+map Damocles3ME0 -proj [elevation 90]
+  Damocles3SE0_1
+endmap
 
 centreline
   date 2011.11.14

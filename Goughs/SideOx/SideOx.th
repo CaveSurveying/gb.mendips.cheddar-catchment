@@ -2,9 +2,14 @@ encoding  utf-8
 survey SideOx
 
 input SideOx.th2
+input SideOxE0.th2
 
 map SideOxM
   SideOxSPl1
+endmap
+
+map SideOxME0 -proj [elevation 90]
+  SideOxSE0_1
 endmap
 
 centreline

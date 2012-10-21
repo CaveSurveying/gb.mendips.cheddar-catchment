@@ -2,9 +2,14 @@ encoding  utf-8
 survey BoulderChamber
 
 input BoulderChamber.th2
+input BoulderChamberE0.th2
 
 map BoulderChamberM
   BoulderChamberSPl1
+endmap
+
+map BoulderChamberME0 -proj [elevation 90]
+  BoulderChamberSE0_1
 endmap
 
 equate 3.2 3.15 3.22

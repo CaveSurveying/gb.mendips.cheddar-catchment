@@ -2,10 +2,17 @@ encoding  utf-8
 survey CastleHairyRing
 
 input CastleHairyRing.th2
+input CastleHairyRingE0.th2
 
 map CastleHairyRingM
   CastleHairyRingSPl1
 endmap
+
+map CastleHairyRingME0 -proj [elevation 90]
+  CastleHairyRingSE0_1
+endmap
+
+centreline
 
 centreline
   date 2011.10.24

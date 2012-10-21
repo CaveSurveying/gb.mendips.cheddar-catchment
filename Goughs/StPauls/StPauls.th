@@ -3,6 +3,7 @@ survey StPauls
 
 input StPauls.th2
 input StPaulsEe.th2
+input StPaulsE0.th2
 
 map StPaulsM
   StPaulsSPl1
@@ -11,6 +12,10 @@ endmap
 
 map StPaulsME
   StPaulsSEe1
+endmap
+
+map StPaulsME0 -proj [elevation 90]
+  StPaulsSE0_1
 endmap
 
 centreline

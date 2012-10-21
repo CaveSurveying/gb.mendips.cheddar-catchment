@@ -2,10 +2,15 @@ encoding  utf-8
 survey HeartbreakHill
 
 input HeartbreakHill.th2
+input HeartbreakHillE0.th2
 
 map HeartbreakHillM
   HeartbreakHillSPl1
   #HeartbreakHillSPl2 removed as has magnetic distortion - redone with total station
+endmap
+
+map HeartbreakHillME0 -proj [elevation 90]
+  HeartbreakHillSE0_1
 endmap
 
 equate 1.0 1.31

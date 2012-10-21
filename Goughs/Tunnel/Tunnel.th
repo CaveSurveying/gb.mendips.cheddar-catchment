@@ -2,9 +2,14 @@ encoding  utf-8
 survey Tunnel
 
 input Tunnel.th2
+input TunnelE0.th2
 
 map TunnelM
   TunnelSPl1
+endmap
+
+map TunnelME0 -proj [elevation 90]
+  TunnelSE0_1
 endmap
 
 centreline

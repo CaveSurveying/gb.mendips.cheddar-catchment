@@ -2,9 +2,14 @@ encoding  utf-8
 survey HeartbreakDig
 
 input HeartbreakDig.th2
+input HeartbreakDigE0.th2
 
 map HeartbreakDigM
     HeartbreakDigSPl1
+endmap
+
+map HeartbreakDigME0 -proj [elevation 90]
+  HeartbreakDigSE0_1
 endmap
 
 centreline

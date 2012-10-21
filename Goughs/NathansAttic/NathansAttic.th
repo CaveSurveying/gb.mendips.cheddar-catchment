@@ -2,11 +2,15 @@ encoding  utf-8
 survey NathansAttic
 
 input NathansAttic.th2
+input NathansAtticE0.th2
 
 map NathansAtticM
   NathansAtticSPl1
 endmap
 
+map NathansAtticME0 -proj [elevation 90]
+  NathansAtticSE0_1
+endmap
 
 centreline
   date 2011.10.20

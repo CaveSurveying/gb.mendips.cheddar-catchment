@@ -2,12 +2,17 @@ encoding  utf-8
 survey FarRift
 
 input FarRift.th2
+input FarRiftE0.th2
 
 map FarRiftM
   FarRiftSPl1
  break
   FarRiftSPl2
   FarRiftSPl3
+endmap
+
+map FarRiftME0 -proj [elevation 90]
+  FarRiftSE0_1
 endmap
 
 centreline

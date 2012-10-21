@@ -2,9 +2,14 @@ encoding  utf-8
 survey BatRoom
 
 input BatRoom.th2
+input BatRoomE0.th2
 
 map BatRoomM
   BatRoomSPl1
+endmap
+
+map BatRoomME0 -proj [elevation 90]
+  BatRoomSE0_1
 endmap
 
 centreline

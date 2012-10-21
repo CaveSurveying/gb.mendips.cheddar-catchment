@@ -3,6 +3,12 @@ survey Skeleton
 
 #fudged file to include Duncan's dive observations
 
+input SkeletonE0.th2
+
+map SkeletonME0 -proj [elevation 90]
+  SkeletonSE0_1
+endmap
+
 centreline
 
 date 2011.03.11
@@ -16,9 +22,9 @@ date 2011.03.11
 data normal from to compass clino tape
 
 flags duplicate
-1.0	1.1	318.98	-33.38	4.164
-1.0	1.2	221.11	14.05	8.222
-1.2	1.3	309.44	9.54	5.152
+1.0  1.1  318.98  -33.38  4.164
+1.0  1.2  221.11  14.05  8.222
+1.2  1.3  309.44  9.54  5.152
 flags not duplicate
 1.1 2 - down  1
 
@@ -30,5 +36,4 @@ data diving from fromdepth compass tape to todepth ignoreall
 
 endcentreline
 endsurvey
-
 

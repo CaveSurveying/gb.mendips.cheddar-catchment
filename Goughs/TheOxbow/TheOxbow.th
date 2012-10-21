@@ -2,10 +2,15 @@ encoding  utf-8
 survey TheOxbow
 
 input TheOxbow.th2
+input TheOxbowE0.th2
 
 map TheOxbowM
   TheOxbowSPl1
   TheOxbowSPl2
+endmap
+
+map TheOxbowME0 -proj [elevation 90]
+  TheOxbowSE0_1
 endmap
 
 centreline

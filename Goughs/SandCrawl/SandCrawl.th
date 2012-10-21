@@ -2,9 +2,14 @@ encoding  utf-8
 survey SandCrawl
 
 input SandCrawl.th2
+input SandCrawlE0.th2
 
 map SandCrawlM
   SandCrawlSPl1
+endmap
+
+map SandCrawlME0 -proj [elevation 90]
+  SandCrawlSE0_1
 endmap
 
 centreline

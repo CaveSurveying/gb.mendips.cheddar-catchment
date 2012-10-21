@@ -2,9 +2,14 @@ encoding  utf-8
 survey WetWitch
 
 input WetWitch.th2
+input WetWitchE0.th2
 
 map WetWitchM
   WetWitchSPl1
+endmap
+
+map WetWitchME0 -proj [elevation 90]
+  WetWitchSE0_1
 endmap
 
 centreline

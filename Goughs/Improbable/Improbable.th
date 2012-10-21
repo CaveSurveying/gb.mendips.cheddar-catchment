@@ -2,11 +2,15 @@ encoding  utf-8
 survey Improbable
 
 input Improbable.th2
+input ImprobableE0.th2
 
 map ImprobableM
   ImprobableSPl1
 endmap
 
+map ImprobableME0 -proj [elevation 90]
+  ImprobableSE0_1
+endmap
 
 centreline
   date 2011.09.15

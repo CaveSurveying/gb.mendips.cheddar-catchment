@@ -2,9 +2,14 @@ encoding  utf-8
 survey Tableaux
 
 input Tableaux.th2
+input TableauxE0.th2
 
 map TableauxM
   TableauxSPl1
+endmap
+
+map TableauxME0 -proj [elevation 90]
+  TableauxSE0_1
 endmap
 
 centreline

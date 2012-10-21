@@ -3,9 +3,14 @@ survey Improbable2
 
 input Improbable2.th2
 input Improbable2Ee.th2
+input Improbable2E0.th2
 
 map Improbable2M
   Improbable2SPl1
+endmap
+
+map Improbable2ME0 -proj [elevation 90]
+  Improbable2SE0_1
 endmap
 
 centreline

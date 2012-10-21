@@ -2,11 +2,16 @@ encoding  utf-8
 survey November
 
 input November.th2
+input NovemberE0.th2
 
 map NovemberM
   NovemberSPl2
  break
   NovemberSPl1
+endmap
+
+map NovemberME0 -proj [elevation 90]
+  NovemberSE0_1
 endmap
 
 centreline

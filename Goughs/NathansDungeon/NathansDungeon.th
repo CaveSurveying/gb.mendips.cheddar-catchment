@@ -3,11 +3,16 @@ survey NathansDungeon
 
 input NathansDungeon.th2
 input NathansDungeonEe.th2
+input NathansDungeonE0.th2
 
 map NathansDungeonM
   NathansDungeonSPl2
  break
   NathansDungeonSPl1
+endmap
+
+map NathansDungeonME0 -proj [elevation 90]
+  NathansDungeonSE0_1
 endmap
 
 centreline

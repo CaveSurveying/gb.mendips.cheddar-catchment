@@ -2,9 +2,14 @@ encoding  utf-8
 survey Damocles2
 
 input Damocles2.th2
+input Damocles2E0.th2
 
 map Damocles2M
     Damocles2SPl1    
+endmap
+
+map Damocles2ME0 -proj [elevation 90]
+  Damocles2SE0_1
 endmap
 
 centreline

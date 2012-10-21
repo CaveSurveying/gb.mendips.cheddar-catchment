@@ -2,9 +2,14 @@ encoding  utf-8
 survey KingsSolomons
 
 input KingsSolomons.th2
+input KingsSolomonsE0.th2
 
 map KingsSolomonsM
   KingsSolomonsSPl1
+endmap
+
+map KingsSolomonsME0 -proj [elevation 90]
+  KingsSolomonsSE0_1
 endmap
 
 centreline

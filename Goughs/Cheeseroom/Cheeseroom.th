@@ -2,9 +2,14 @@ encoding  utf-8
 survey Cheeseroom
 
 input Cheeseroom.th2
+input CheeseroomE0.th2
 
 map CheeseroomM
     CheeseroomSPl1
+endmap
+
+map CheeseroomME0 -proj [elevation 90]
+  CheeseroomSE0_1
 endmap
 
 centreline

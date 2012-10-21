@@ -2,7 +2,7 @@ encoding  utf-8
 survey BeddingChamber
 
 input BeddingChamber.th2
-#input BeddingChamberEe.th2
+input BeddingChamberE0.th2
 
 map BeddingChamberM
   BeddingChamberSPl1
@@ -14,6 +14,10 @@ endmap
 
 map BeddingChamberBoxM
   Box
+endmap
+
+map BeddingChamberME0 -proj [elevation 90]
+  BeddingChamberSE0_1
 endmap
 
 equate 7.2 7.28
