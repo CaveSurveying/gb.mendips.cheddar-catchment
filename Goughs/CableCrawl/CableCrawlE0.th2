@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -243.51 -48.01 1461.08 288.08
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1069.60473849 1 1.0} {202.330180108 4.5} PocketTopo/CableCrawl_E0.xvi 0 {}
+
+
+scrap CableCrawlSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CableCrawlSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CableCrawlSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

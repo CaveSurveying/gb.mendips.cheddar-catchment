@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -690.01 -350.17 4140.04 2101.02
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {618.529554132 1 1.0} {181.568562145 1.0} PocketTopo/Cheeseroom_E0.xvi 0 {}
+
+
+scrap CheeseroomSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CheeseroomSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CheeseroomSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

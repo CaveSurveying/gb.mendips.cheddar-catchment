@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -317.65 -350.03 1905.91 2100.19
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {438.797582965 1 1.0} {816.530590324 1.23} PocketTopo/November_E0.xvi 0 {}
+
+
+scrap NovemberSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap NovemberSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap NovemberSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

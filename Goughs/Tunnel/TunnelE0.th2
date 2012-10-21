@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -500.17 -118.58 3001.04 711.46
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {281.442955985 1 1.0} {124.767450887 1.13} PocketTopo/Tunnel_E0.xvi 0 {}
+
+
+scrap TunnelSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap TunnelSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap TunnelSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1555.68 -176.33 9334.07 1058.0
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {8296.1463903 1 1.0} {514.3627545 1.0} PocketTopo/TheOxbow_E0.xvi 0 {}
+
+
+scrap TheOxbowSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap TheOxbowSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap TheOxbowSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

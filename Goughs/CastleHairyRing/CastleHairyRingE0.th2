@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -246.57 -156.48 1479.45 938.9
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {494.481698285 1 1.0} {386.839789539 1.0} PocketTopo/CastleHairyRing_E0.xvi 0 {}
+
+
+scrap CastleHairyRingSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CastleHairyRingSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CastleHairyRingSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

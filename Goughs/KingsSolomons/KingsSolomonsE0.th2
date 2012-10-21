@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -544.25 -350.03 3265.48 2100.19
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1326.64245496 1 1.0} {958.57702032 1.12} PocketTopo/KingsSolomons_E0.xvi 0 {}
+
+
+scrap KingsSolomonsSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap KingsSolomonsSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap KingsSolomonsSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

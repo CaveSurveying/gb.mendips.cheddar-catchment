@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -324.26 -312.24 1945.53 1873.42
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {394.217471424 1 1.0} {969.120510348 9.0} PocketTopo/FarRift_E0.xvi 0 {}
+
+
+scrap FarRiftSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap FarRiftSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap FarRiftSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

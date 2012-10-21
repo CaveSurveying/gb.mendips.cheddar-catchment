@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -762.48 -320.08 4574.88 1920.48
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {418.550845929 1 1.0} {588.19076144 1.0} PocketTopo/Blackcat_E0.xvi 0 {}
+
+
+scrap BlackcatSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BlackcatSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BlackcatSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

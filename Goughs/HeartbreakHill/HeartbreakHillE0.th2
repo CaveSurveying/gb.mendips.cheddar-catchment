@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1772.38 -278.51 10634.29 1671.06
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {886.191160372 1 1.0} {238.063013724 1.0} PocketTopo/HeartbreakHill_E0.xvi 0 {}
+
+
+scrap HeartbreakHillSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap HeartbreakHillSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap HeartbreakHillSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

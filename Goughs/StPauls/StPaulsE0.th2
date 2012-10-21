@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -848.92 -247.59 5093.53 1485.54
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {4602.27489707 1 1.0} {828.865990102 1.0} PocketTopo/StPauls_E0.xvi 0 {}
+
+
+scrap StPaulsSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap StPaulsSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap StPaulsSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
