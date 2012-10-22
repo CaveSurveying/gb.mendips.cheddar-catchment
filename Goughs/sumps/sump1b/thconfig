@@ -23,6 +23,9 @@ source sump1b.th
 export map -o sump1b.xvi -format xvi
 #map for importing into th2 file
 
+export map -proj [elevation 0] -o sump1bE0.xvi -format xvi
+#map for importing into th2 file
+
 layout local
 #copy common
 debug off

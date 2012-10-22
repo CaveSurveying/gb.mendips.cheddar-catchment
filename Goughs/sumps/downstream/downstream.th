@@ -2,10 +2,15 @@ encoding  utf-8
 survey downstream
 
 input downstream.th2
+input downstreamE0.th2
 
 map downstreamM
   downstreamSPl1
   endmap
+  
+map downstreamE0M
+  dowmstreamSE0_1
+  endmap  
 
 centreline
   date 2011.01.08

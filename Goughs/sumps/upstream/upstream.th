@@ -2,9 +2,14 @@ encoding  utf-8
 survey upstream
 
 input upstream.th2
+input upstreamE0.th2
 
 map upstreamM
   upstreamSPl1
+  endmap
+  
+map upstreamE0M
+  upstreamSE0_1
   endmap
 
 centreline

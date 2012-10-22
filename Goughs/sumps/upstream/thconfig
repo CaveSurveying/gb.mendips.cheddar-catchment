@@ -23,6 +23,9 @@ source upstream.th
 export map -o upstream.xvi -format xvi
 #map for importing into th2 file
 
+export map -proj [elevation 0] -o upstreamE0.xvi -format xvi
+#map for importing into th2 file
+
 
 layout local
 #copy common

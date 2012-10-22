@@ -6,7 +6,7 @@ source downstream.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o downstream.pdf
+#export map -proj plan -layout local -o downstream.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o downstreamEe.pdf
@@ -21,6 +21,9 @@ export map -proj plan -layout local -o downstream.pdf
 #Survex file showing walls only
 
 #export map -o downstream.xvi -format xvi
+#map for importing into th2 file
+
+export map -proj [elevation 0] -o downstreamE0.xvi -format xvi
 #map for importing into th2 file
 
 layout local
