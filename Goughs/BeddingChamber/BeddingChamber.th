@@ -16,7 +16,7 @@ map BeddingChamberBoxM
   Box
 endmap
 
-map BeddingChamberME0 -proj [elevation 90]
+map BeddingChamberME0 -proj [elevation 0]
   BeddingChamberSE0_1
 endmap
 

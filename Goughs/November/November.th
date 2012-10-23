@@ -10,7 +10,7 @@ map NovemberM
   NovemberSPl1
 endmap
 
-map NovemberME0 -proj [elevation 90]
+map NovemberME0 -proj [elevation 0]
   NovemberSE0_1
 endmap
 

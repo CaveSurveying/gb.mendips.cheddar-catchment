@@ -14,7 +14,7 @@ map Damocles1M
     Damocles1SPl30
 endmap
 
-map Damocles1ME0 -proj [elevation 90]
+map Damocles1ME0 -proj [elevation 0]
   Damocles1SE0_1
 endmap
 

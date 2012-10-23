@@ -9,7 +9,7 @@ map HeartbreakHillM
   #HeartbreakHillSPl2 removed as has magnetic distortion - redone with total station
 endmap
 
-map HeartbreakHillME0 -proj [elevation 90]
+map HeartbreakHillME0 -proj [elevation 0]
   HeartbreakHillSE0_1
 endmap
 

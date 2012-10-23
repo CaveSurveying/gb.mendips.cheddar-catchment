@@ -11,7 +11,7 @@ map NathansDungeonM
   NathansDungeonSPl1
 endmap
 
-map NathansDungeonME0 -proj [elevation 90]
+map NathansDungeonME0 -proj [elevation 0]
   NathansDungeonSE0_1
 endmap
 

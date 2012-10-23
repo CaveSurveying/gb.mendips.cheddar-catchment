@@ -8,7 +8,7 @@ map TableauxM
   TableauxSPl1
 endmap
 
-map TableauxME0 -proj [elevation 90]
+map TableauxME0 -proj [elevation 0]
   TableauxSE0_1
 endmap
 

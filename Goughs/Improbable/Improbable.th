@@ -8,7 +8,7 @@ map ImprobableM
   ImprobableSPl1
 endmap
 
-map ImprobableME0 -proj [elevation 90]
+map ImprobableME0 -proj [elevation 0]
   ImprobableSE0_1
 endmap
 

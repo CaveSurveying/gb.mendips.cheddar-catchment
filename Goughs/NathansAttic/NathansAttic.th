@@ -8,7 +8,7 @@ map NathansAtticM
   NathansAtticSPl1
 endmap
 
-map NathansAtticME0 -proj [elevation 90]
+map NathansAtticME0 -proj [elevation 0]
   NathansAtticSE0_1
 endmap
 

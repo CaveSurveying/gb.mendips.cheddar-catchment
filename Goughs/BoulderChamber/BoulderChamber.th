@@ -8,7 +8,7 @@ map BoulderChamberM
   BoulderChamberSPl1
 endmap
 
-map BoulderChamberME0 -proj [elevation 90]
+map BoulderChamberME0 -proj [elevation 0]
   BoulderChamberSE0_1
 endmap
 

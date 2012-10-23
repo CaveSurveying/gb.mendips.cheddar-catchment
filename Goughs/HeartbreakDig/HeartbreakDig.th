@@ -8,7 +8,7 @@ map HeartbreakDigM
     HeartbreakDigSPl1
 endmap
 
-map HeartbreakDigME0 -proj [elevation 90]
+map HeartbreakDigME0 -proj [elevation 0]
   HeartbreakDigSE0_1
 endmap
 

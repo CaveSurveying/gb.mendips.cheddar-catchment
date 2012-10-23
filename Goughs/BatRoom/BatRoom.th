@@ -8,7 +8,7 @@ map BatRoomM
   BatRoomSPl1
 endmap
 
-map BatRoomME0 -proj [elevation 90]
+map BatRoomME0 -proj [elevation 0]
   BatRoomSE0_1
 endmap
 

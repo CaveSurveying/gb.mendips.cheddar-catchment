@@ -14,7 +14,7 @@ map StPaulsME
   StPaulsSEe1
 endmap
 
-map StPaulsME0 -proj [elevation 90]
+map StPaulsME0 -proj [elevation 0]
   StPaulsSE0_1
 endmap
 

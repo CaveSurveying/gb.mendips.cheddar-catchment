@@ -16,7 +16,7 @@ map BlackcatM
   BlackcatSPl2
 endmap
 
-map BlackcatME0 -proj [elevation 90]
+map BlackcatME0 -proj [elevation 0]
   BlackcatSE0_1
 endmap
 

@@ -10,7 +10,7 @@ map DucksDelightM
   DucksDelightSPl1
 endmap
 
-map DucksDelightME0 -proj [elevation 90]
+map DucksDelightME0 -proj [elevation 0]
   DucksDelightSE0_1
 endmap
 

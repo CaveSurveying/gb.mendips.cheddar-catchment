@@ -9,7 +9,7 @@ map TheOxbowM
   TheOxbowSPl2
 endmap
 
-map TheOxbowME0 -proj [elevation 90]
+map TheOxbowME0 -proj [elevation 0]
   TheOxbowSE0_1
 endmap
 

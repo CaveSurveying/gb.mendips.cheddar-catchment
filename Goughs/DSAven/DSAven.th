@@ -10,7 +10,7 @@ map DSAvenM
   DSAvenSPl1
 endmap
 
-map DSAvenME0 -proj [elevation 90]
+map DSAvenME0 -proj [elevation 0]
   DSAvenSE0_1
 endmap
 

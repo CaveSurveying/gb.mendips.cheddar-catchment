@@ -8,7 +8,7 @@ map SandCrawlM
   SandCrawlSPl1
 endmap
 
-map SandCrawlME0 -proj [elevation 90]
+map SandCrawlME0 -proj [elevation 0]
   SandCrawlSE0_1
 endmap
 

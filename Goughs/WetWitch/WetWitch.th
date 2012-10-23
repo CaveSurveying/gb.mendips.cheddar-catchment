@@ -8,7 +8,7 @@ map WetWitchM
   WetWitchSPl1
 endmap
 
-map WetWitchME0 -proj [elevation 90]
+map WetWitchME0 -proj [elevation 0]
   WetWitchSE0_1
 endmap
 

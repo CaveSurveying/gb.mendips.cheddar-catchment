@@ -10,7 +10,7 @@ map Damocles3M
   Damocles3SPl2
 endmap
 
-map Damocles3ME0 -proj [elevation 90]
+map Damocles3ME0 -proj [elevation 0]
   Damocles3SE0_1
 endmap
 

@@ -8,7 +8,7 @@ map CheeseroomM
     CheeseroomSPl1
 endmap
 
-map CheeseroomME0 -proj [elevation 90]
+map CheeseroomME0 -proj [elevation 0]
   CheeseroomSE0_1
 endmap
 

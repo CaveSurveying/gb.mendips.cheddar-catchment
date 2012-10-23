@@ -11,7 +11,7 @@ map FarRiftM
   FarRiftSPl3
 endmap
 
-map FarRiftME0 -proj [elevation 90]
+map FarRiftME0 -proj [elevation 0]
   FarRiftSE0_1
 endmap
 

@@ -8,7 +8,7 @@ map DireStraitsM
   DireStraitsSPl1
 endmap
 
-map DireStraitsME0 -proj [elevation 90]
+map DireStraitsME0 -proj [elevation 0]
   DireStraitsSE0_1
 endmap
 

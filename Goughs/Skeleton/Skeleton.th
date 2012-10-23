@@ -5,7 +5,7 @@ survey Skeleton
 
 input SkeletonE0.th2
 
-map SkeletonME0 -proj [elevation 90]
+map SkeletonME0 -proj [elevation 0]
   SkeletonSE0_1
 endmap
 

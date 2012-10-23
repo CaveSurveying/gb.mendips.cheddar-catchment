@@ -8,7 +8,7 @@ map Damocles2M
     Damocles2SPl1    
 endmap
 
-map Damocles2ME0 -proj [elevation 90]
+map Damocles2ME0 -proj [elevation 0]
   Damocles2SE0_1
 endmap
 

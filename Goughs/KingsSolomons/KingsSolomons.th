@@ -8,7 +8,7 @@ map KingsSolomonsM
   KingsSolomonsSPl1
 endmap
 
-map KingsSolomonsME0 -proj [elevation 90]
+map KingsSolomonsME0 -proj [elevation 0]
   KingsSolomonsSE0_1
 endmap
 

@@ -8,7 +8,7 @@ map CableCrawlM
   CableCrawlSPl1
 endmap
 
-map CableCrawlME0 -proj [elevation 90]
+map CableCrawlME0 -proj [elevation 0]
   CableCrawlSE0_1
 endmap
 

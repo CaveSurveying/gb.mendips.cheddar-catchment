@@ -8,11 +8,9 @@ map CastleHairyRingM
   CastleHairyRingSPl1
 endmap
 
-map CastleHairyRingME0 -proj [elevation 90]
+map CastleHairyRingME0 -proj [elevation 0]
   CastleHairyRingSE0_1
 endmap
-
-centreline
 
 centreline
   date 2011.10.24

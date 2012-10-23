@@ -8,7 +8,7 @@ map SideOxM
   SideOxSPl1
 endmap
 
-map SideOxME0 -proj [elevation 90]
+map SideOxME0 -proj [elevation 0]
   SideOxSE0_1
 endmap
 
