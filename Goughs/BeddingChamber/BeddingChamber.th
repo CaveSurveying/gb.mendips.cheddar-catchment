@@ -18,6 +18,8 @@ endmap
 
 map BeddingChamberME0 -proj [elevation 0]
   BeddingChamberSE0_1
+  BeddingChamberSE0_2
+  BeddingChamberSE0_3
 endmap
 
 equate 7.2 7.28
