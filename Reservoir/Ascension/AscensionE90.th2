@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -2550.55 -977.65 15303.32 5865.92
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {2017.54683684 1 1.0} {4146.79190128 1.0} PocketTopo/Ascension_E90.xvi 0 {}
+
+
+scrap AscensionSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap AscensionSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

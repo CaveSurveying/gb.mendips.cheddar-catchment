@@ -1,0 +1,72 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 222.8947926699998 1075.0970566000005 4888.343611566799 14244.4828833692
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {4318.27046196 1 1.0} {12513.1253393 1.4} PocketTopo/Ascension_p.xvi 0 {}
+
+
+
+scrap AscensionSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap AscensionSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap AscensionSPX1.28 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap AscensionSPX1.26 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap AscensionSPX1.23 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap AscensionSPX1.21 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap AscensionSPX1.20 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap AscensionSPX1.16 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap AscensionSPX1.12 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap AscensionSPX1.10 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap AscensionSPX1.3 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+

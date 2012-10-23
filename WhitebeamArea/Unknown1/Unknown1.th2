@@ -16,6 +16,7 @@ line wall
   328.0 172.5 237.0 196.0 219.5 203.0
   202.0 210.0 156.5 213.5 151.0 219.5
   145.5 225.5 147.0 231.0 142.0 241.5
+  smooth off
 endline
 
 line wall
@@ -28,6 +29,7 @@ line wall
   512.5 78.5 556.5 58.5 570.5 55.0
   584.5 51.5 594.5 48.5 605.0 47.0
   615.5 45.5 619.5 38.5 630.5 41.0
+  smooth off
 endline
 
 point 606.125826772 52.04354330699999 station -name 3.2
@@ -35,9 +37,10 @@ point 606.125826772 52.04354330699999 station -name 3.2
 line section -direction both
   349.0 207.0
   339.0 178.0 324.5 133.5 316.0 107.5
+  smooth off
 endline
 
-point 343.5 229.5 section -scrap Unknown1SX3.1
+point 343.5 229.5 section -scrap Unknown1SPX3.1
 
 point 327.14582677199996 163.623543307 station -name 3.1
 

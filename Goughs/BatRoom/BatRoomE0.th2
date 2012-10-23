@@ -1,20 +1,42 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -197.38 -22.33 1184.29 133.95
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {357.930080362 1 1.0} {102.888510148 1.0} PocketTopo/BatRoom_E0.xvi 0 {}
+##XTHERION## xth_me_area_adjust -197.38 -22.33 1184.29 233.67000000000002
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {795.510080362 1 1.0} {64.138510148 1.4} PocketTopo/BatRoom_E0.xvi 0 {}
 
 
-scrap BatRoomSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
-endscrap
+scrap BatRoomSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -subtype sand
+  513.5 24.5
+  530.5 25.5 581.5 23.0 601.0 26.0
+  620.5 29.0 680.0 28.5 693.0 30.0
+  706.0 31.5 716.5 38.0 724.0 37.0
+  731.5 36.0 769.0 25.5 785.0 28.5
+  801.0 31.5 853.0 35.5 873.5 40.0
+  894.0 44.5 940.5 56.0 947.5 57.0
+  966.47 59.71 1040.5 63.5 1091.0 70.5
+endline
 
-scrap BatRoomSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+line wall -reverse on
+  502.5 158.5
+  505.5 142.0 522.5 129.5 531.5 126.5
+  540.5 123.5 567.0 124.5 581.5 122.5
+  596.0 120.5 619.5 101.5 636.0 101.0
+  652.5 100.5 714.0 91.0 725.0 94.0
+  736.0 97.0 766.0 104.5 771.0 104.0
+  776.0 103.5 841.5 104.02 848.5 103.5
+  862.0 102.5 905.5 97.5 924.0 95.5
+  942.5 93.5 1021.0 95.5 1035.5 95.5
+  1050.0 95.5 1087.5 92.0 1090.5 88.5
+  1093.5 85.0 1093.5 75.0 1091.0 70.5
+endline
 
-endscrap
+point 1085.600080362 72.82851014799999 station -name 1.6
 
+point 795.510080362 64.138510148 station -name 1.4
 
-scrap BatRoomSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+point 608.960080362 45.088510148 station -name 1.2
 
 endscrap
 

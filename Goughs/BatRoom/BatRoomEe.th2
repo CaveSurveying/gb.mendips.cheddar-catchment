@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -286.77 -66.14 1720.63 396.85
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {143.385826772 1 1.0} {254.330708661 1.0} PocketTopo/BatRoom_e.xvi 0 {}
+
+
+scrap BatRoomSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BatRoomSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

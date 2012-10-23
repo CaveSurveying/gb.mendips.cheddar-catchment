@@ -1,6 +1,8 @@
 encoding  utf-8
 survey Reservoir
 
+
+input Ascension/Ascension.th
 input ChGorge/ChGorge.th
 input Deeper/Deeper.th
 input DingleyDell/DingleyDell.th
@@ -47,6 +49,7 @@ input ToplessAven/ToplessAven.th
 #Connection to the therionised data
 #equate 471@R6 1.0@TopDig
 
+equate 1.35@Ascension 5.15@FrozenDeep
 equate 11.0@Deeper 5.12@FrozenDeep
 equate 11.23@Deeper  12.0@DingleyDell
 equate 4.21@TopDig 1.0@ToplessAven

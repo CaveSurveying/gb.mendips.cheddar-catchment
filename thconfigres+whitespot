@@ -23,7 +23,7 @@ export map -proj [elevation 90] -layout Projected -o Outputs/Reservoir-WhiteSpot
 #Produces plan of cave, on a single sheet
 export map -proj plan -layout plan -o Outputs/Reservoir-WhiteSpot.pdf
 
-#export model -fmt survex -o Outputs/Reservoir-WhiteSpot.3d
+export model -fmt survex -o Outputs/Reservoir-WhiteSpot.3d
 #Survex file showing centre line only
 
 #export model -o Outputs/Reservoir-WhiteSpot.lox
