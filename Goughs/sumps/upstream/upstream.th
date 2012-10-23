@@ -8,7 +8,7 @@ map upstreamM
   upstreamSPl1
   endmap
   
-map upstreamE0M
+map upstreamME0 -proj [elevation 0]
   upstreamSE0_1
   endmap
 

@@ -70,7 +70,7 @@ area sump
   l29-2707-427
 endarea
 
-line border -id l29-2707-427 -subtype invisible
+line border -id l29-2707-427 -reverse on -subtype invisible
   2695.67 470.468
   2713.0 405.0
 endline

@@ -2,14 +2,16 @@ encoding  utf-8
 survey sump1b
 
 input sump1b.th2
-input sumb1bE0.th2
+input sump1bE0.th2
 
 map sump1bM
   sump1bSPl1
   endmap
   
-map sump1bE0M
+map sump1bME0 -proj [elevation 0]
   sump1bSE0_1
+  sump1bSE0_2
+  sump1bSE0_3
   endmap  
 
 centreline

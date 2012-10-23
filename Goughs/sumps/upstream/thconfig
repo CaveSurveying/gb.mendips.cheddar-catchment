@@ -9,6 +9,8 @@ source upstream.th
 #export map -proj plan -layout local -o upstream.pdf
 #Produces plan of cave, on a single sheet
 
+export map -proj [elevation 0] -layout local -o upstreamE0.pdf
+
 #export map -proj extended -layout local -o upstreamEe.pdf
 
 #export model -fmt survex -o upstreamth.3d

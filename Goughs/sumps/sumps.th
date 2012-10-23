@@ -32,5 +32,14 @@ join bishops_palaceSPl1@bishops_palace sump2SPl1@sump2 -smooth on
 join sump2SPl1@sump2 sheppards_crookSPl1@sheppards_crook -smooth on
 join sheppards_crookSPl1@sheppards_crook sump3SPl1@sump3 -smooth on
 
+map sumpsME0 -proj [elevation 0]
+  downstreamME0@downstream
+  upstreamME0@upstream
+  sump1bME0@sump1b
+endmap
+
+join downstreamSE0_1@downstream upstreamSE0_1@upstream -smooth on
+join upstreamSE0_1@upstream sump1bSE0_1@sump1b -smooth on   
+
 endsurvey
 

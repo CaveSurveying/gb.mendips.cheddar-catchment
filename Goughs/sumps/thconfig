@@ -6,8 +6,10 @@ source sumps.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o sumps.pdf
+#export map -proj plan -layout local -o sumps.pdf
 #Produces plan of cave, on a single sheet
+
+export map -proj [elevation 0] -layout local -o sumpsE0.pdf
 
 #export map -proj extended -layout local -o sumpsEe.pdf
 

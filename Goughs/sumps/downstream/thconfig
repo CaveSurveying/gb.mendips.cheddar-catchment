@@ -11,6 +11,8 @@ source downstream.th
 
 #export map -proj extended -layout local -o downstreamEe.pdf
 
+export map -proj [elevation 0] -layout local -o downstreamE0.pdf
+
 #export model -fmt survex -o downstreamth.3d
 #Survex file showing centre line only
 
@@ -23,7 +25,7 @@ source downstream.th
 #export map -o downstream.xvi -format xvi
 #map for importing into th2 file
 
-export map -proj [elevation 0] -o downstreamE0.xvi -format xvi
+#export map -proj [elevation 0] -o downstreamE0.xvi -format xvi
 #map for importing into th2 file
 
 layout local

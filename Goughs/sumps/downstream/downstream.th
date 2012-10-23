@@ -8,8 +8,8 @@ map downstreamM
   downstreamSPl1
   endmap
   
-map downstreamE0M
-  dowmstreamSE0_1
+map downstreamME0 -proj [elevation 0]
+  downstreamSE0_1
   endmap  
 
 centreline
