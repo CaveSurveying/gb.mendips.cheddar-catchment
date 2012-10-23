@@ -16,12 +16,12 @@ area sump
   l47-281-327
 endarea
 
-line border -id l47-281-327
+line border -id l47-281-327 -visibility off
   293.0 328.0
   265.0 326.0
 endline
 
-line border -id l46-1587-445
+line border -id l46-1587-445 -visibility off
   1592.0 446.0
   1575.0 449.0
 endline
