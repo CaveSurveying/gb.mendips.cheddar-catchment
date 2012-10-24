@@ -7,67 +7,68 @@ encoding  utf-8
 
 scrap AscensionSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 2106.0 4724.0 section -scrap AscensionSPX1.28 -align l
+point 2384.0 5200.0 section -scrap AscensionSPX1.28 -align tr
 
 line section -direction both
   2076.0 4658.0
   2044.0 4554.0 1972.0 4302.0 1950.0 4226.0
+  smooth off
 endline
 
-point 1236.0 5202.0 section -scrap AscensionSPX1.26 -align l
+point 1430.0 5398.0 section -scrap AscensionSPX1.26 -align tr
 
 line section -direction both
   1108.0 5206.0
   1062.0 5114.0 900.0 4766.0 852.0 4662.0
+  smooth off
 endline
 
-point 618.0 6057.0 section -scrap AscensionSPX1.23 -align t
+point 550.0 6081.0 section -scrap AscensionSPX1.23 -align l
 
 line section -id l180-790-6008 -direction both
   1074.0 5887.0
   1000.0 5924.0 759.0 6022.0 690.0 6050.0
+  smooth off
 endline
 
-point 955.0 6887.0 section -scrap AscensionSPX1.21 -align t
+point 875.0 6907.0 section -scrap AscensionSPX1.21 -align l
 
 line section -direction both
   1433.0 6672.0
   1343.0 6727.0 1106.0 6847.0 1030.0 6885.0
+  smooth off
 endline
 
-point 1267.0 7502.0 section -scrap AscensionSPX1.20 -align t
+point 1233.0 7536.0 section -scrap AscensionSPX1.20 -align l
 
 line section -direction both
   1649.0 7287.0
   1596.0 7325.0 1401.0 7471.0 1339.0 7513.0
+  smooth off
 endline
 
-point 2104.0 8794.0 section -scrap AscensionSPX1.16 -align t
+point 2054.0 8836.0 section -scrap AscensionSPX1.16 -align l
 
 line section -direction both
   2315.0 8690.0
   2274.0 8719.0 2189.0 8775.0 2147.0 8800.0
+  smooth off
 endline
 
-point 3152.0 10881.0 section -scrap AscensionSPX1.12 -align t
+point 3180.0 11081.0 section -scrap AscensionSPX1.12 -align l
 
 line section -direction both
   3470.0 10728.0
   3421.0 10766.0 3286.0 10859.0 3239.0 10888.0
+  smooth off
 endline
 
-point 3674.0 11828.0 section -scrap AscensionSPX1.10 -align t
-
-line section -direction both
-  4033.0 11682.0
-  3962.0 11723.0 3826.0 11787.0 3760.0 11815.0
-endline
-
-point 4071.0 12801.0 section -scrap AscensionSPX1.3 -align t
+point 4267.0 12269.0 section -scrap AscensionSPX1.3 -align br
 
 line section -direction both
   4607.0 12681.0
   4509.0 12709.0 4251.0 12776.0 4170.0 12796.0
+  smooth off
 endline
 
 point 885.0 5823.0 gradient -orientation 10.8
@@ -121,6 +122,7 @@ line border
   1449.0 4500.0 1427.0 4514.0 1429.0 4529.0
   1431.0 4544.0 1428.0 4571.0 1439.0 4583.0
   1450.0 4595.0 1462.0 4607.0 1468.0 4609.0
+  smooth off
 endline
 
 line ceiling-step
@@ -1109,6 +1111,7 @@ line border -id l126-1156-6158 -subtype invisible
   1070.0 5198.0 1014.0 5336.0 1024.0 5402.0
   1034.0 5468.0 1058.0 5630.0 1076.0 5694.0
   1094.0 5758.0 1184.0 6256.0 1158.0 6273.0
+  smooth off
 endline
 
 line rock-edge
@@ -1152,6 +1155,7 @@ endline
 line border -id l121-2298-4468 -subtype invisible
   2242.0 4450.0
   2256.0 4458.0 2292.0 4473.0 2316.0 4473.0
+  smooth off
 endline
 
 line border -id l120-2470-4230 -close on -subtype invisible
@@ -1317,6 +1321,7 @@ line wall
   1448.0 4099.0 1419.0 4096.0 1416.0 4087.0
   1413.0 4078.0 1411.0 4064.0 1412.0 4056.0
   1413.0 4048.0 1414.0 4014.0 1417.0 4008.0
+  smooth off
 endline
 
 endscrap
@@ -1368,6 +1373,7 @@ line wall
   1064.0 5380.0 1067.0 5351.0 1068.0 5339.0
   1069.0 5327.0 1073.0 5302.0 1075.0 5293.0
   1077.0 5284.0 1082.0 5263.0 1093.0 5259.0
+  smooth off
 endline
 
 line wall -subtype debris
@@ -1406,6 +1412,7 @@ line wall
   1455.0 5939.0 1446.0 5836.0 1453.0 5826.0
   1460.0 5816.0 1511.0 5819.0 1518.0 5804.0
   1525.0 5789.0 1503.0 5695.0 1500.0 5684.0
+  smooth off
 endline
 
 line wall
@@ -1415,6 +1422,7 @@ line wall
   1691.0 6127.0 1709.0 6226.0 1711.0 6250.0
   1713.0 6274.0 1722.0 6386.0 1725.0 6413.0
   1728.0 6440.0 1726.0 6458.0 1725.0 6468.0
+  smooth off
 endline
 
 endscrap
@@ -1447,6 +1455,7 @@ line wall
   715.0 7224.0 731.0 7191.0 732.0 7169.0
   733.0 7147.0 721.0 7127.0 714.0 7108.0
   707.0 7089.0 696.0 7046.0 693.0 7031.0
+  smooth off
 endline
 
 endscrap
@@ -1459,6 +1468,7 @@ line wall -subtype debris
   1118.0 7909.0
   1136.0 7905.0 1172.0 7903.0 1187.0 7905.0
   1202.0 7907.0 1314.0 7920.0 1318.0 7919.0
+  smooth off
 endline
 
 line wall
@@ -1473,6 +1483,7 @@ line wall
   1134.0 8145.0 1128.0 8094.0 1127.0 8077.0
   1126.0 8060.0 1116.0 8005.0 1116.0 7983.0
   1116.0 7961.0 1118.0 7922.0 1118.0 7909.0
+  smooth off
 endline
 
 line wall
@@ -1488,6 +1499,7 @@ line wall
   1304.0 8847.0 1273.0 8942.0 1270.0 8963.0
   1267.0 8984.0 1261.0 9048.0 1263.0 9064.0
   1265.0 9080.0 1262.0 9096.0 1262.0 9113.0
+  smooth off
 endline
 
 endscrap
@@ -1516,6 +1528,7 @@ line wall
   2030.0 9079.0 2032.0 9055.0 2028.0 9039.0
   2024.0 9023.0 2022.0 9007.0 2025.0 8991.0
   2028.0 8975.0 2031.0 8937.0 2033.0 8931.0
+  smooth off
 endline
 
 line wall
@@ -1531,6 +1544,7 @@ line wall
   2107.0 10021.0 2112.0 10144.0 2116.0 10172.0
   2120.0 10200.0 2120.0 10236.0 2123.0 10255.0
   2126.0 10274.0 2124.0 10378.0 2117.0 10413.0
+  smooth off
 endline
 
 endscrap
@@ -1551,6 +1565,7 @@ line wall
   2526.0 11061.0 2526.0 10980.0 2514.0 10963.0
   2502.0 10946.0 2464.0 10928.0 2452.0 10912.0
   2440.0 10896.0 2416.0 10865.0 2418.0 10832.0
+  smooth off
 endline
 
 line wall
@@ -1563,12 +1578,14 @@ line wall
   2641.0 11782.0 2651.0 11865.0 2651.0 11900.0
   2651.0 11935.0 2650.0 12081.0 2650.0 12121.0
   2650.0 12161.0 2647.0 12372.0 2646.0 12408.0
+  smooth off
 endline
 
 line wall -subtype debris
   2418.0 10832.0
   2449.0 10827.0 2497.0 10809.0 2509.0 10811.0
   2521.0 10813.0 2539.0 10824.0 2553.0 10823.0
+  smooth off
 endline
 
 endscrap
@@ -1581,6 +1598,7 @@ line wall -subtype debris
   3149.0 11753.0
   3166.0 11730.0 3165.0 11700.0 3189.0 11696.0
   3213.0 11692.0 3248.0 11664.0 3258.0 11667.0
+  smooth off
 endline
 
 line wall
@@ -1595,6 +1613,7 @@ line wall
   3206.0 11998.0 3167.0 11909.0 3171.0 11893.0
   3175.0 11877.0 3168.0 11835.0 3164.0 11814.0
   3160.0 11793.0 3151.0 11770.0 3149.0 11753.0
+  smooth off
 endline
 
 line wall
@@ -1609,6 +1628,7 @@ line wall
   3356.0 12617.0 3371.0 12707.0 3373.0 12725.0
   3375.0 12743.0 3394.0 12843.0 3393.0 12874.0
   3392.0 12905.0 3396.0 12992.0 3397.0 13015.0
+  smooth off
 endline
 
 endscrap
@@ -1628,6 +1648,7 @@ line wall
   3760.0 13459.0 3750.0 13378.0 3752.0 13337.0
   3754.0 13296.0 3753.0 13239.0 3753.0 13231.0
   3753.0 13223.0 3739.0 13174.0 3751.0 13149.0
+  smooth off
 endline
 
 line wall
@@ -1640,6 +1661,7 @@ line wall
   3989.0 13700.0 3998.0 13771.0 3996.0 13794.0
   3994.0 13817.0 3986.0 13961.0 3983.0 13983.0
   3980.0 14005.0 3982.0 14074.0 3979.0 14095.0
+  smooth off
 endline
 
 line wall -subtype debris

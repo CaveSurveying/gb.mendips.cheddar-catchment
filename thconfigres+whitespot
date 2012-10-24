@@ -46,6 +46,8 @@ Data available at http://cave-registry.org.uk/<br>\
 <br>\
 Heights in metres OD"
 
+colour-legend off
+
 code tex-map
   \cavename={\size[30]  Reservoir Hole\medskip \size[18] and\medskip\size[30] White Spot Cave}
     \cavelength={} %empty
