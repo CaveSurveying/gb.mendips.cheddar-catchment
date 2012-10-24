@@ -6,12 +6,12 @@ source Ascension.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o Ascension.pdf
+export map -proj plan -layout local -o Ascension.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o AscensionEe.pdf
 
-#export map -proj [elevation 90] -layout local -o AscensionE90.pdf
+export map -proj [elevation 90] -layout local -o AscensionE90.pdf
 
 export model -fmt survex -o Ascensionth.3d
 #Survex file showing centre line only

@@ -7,6 +7,7 @@ input AscensionE90.th2
 
 map AscensionM
   AscensionSP1
+ break
   AscensionSP2
 endmap
 

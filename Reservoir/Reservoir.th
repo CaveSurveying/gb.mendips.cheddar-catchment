@@ -106,6 +106,7 @@ map FrozenDeepSplaysM -proj plan
 endmap
 
 map ReservoirM -title "Reservoir Hole" -proj plan
+  AscensionM@Ascension
   FrozenDeep
   HerbertsAtticM@HerbertsAttic
   GolgothaM@Golgotha
@@ -142,10 +143,10 @@ map ReservoirM -title "Reservoir Hole" -proj plan
 endmap
 
 map ReservoirME90 -proj [elevation 90]
+  AscensionME90@Ascension
   GreatExpectationsME90@GreatExpectations
   HerbertsAtticME90@HerbertsAttic
   GolgothaME90@Golgotha
-  ToplessAvenME90@ToplessAven
   ResEntME90@ResEnt
   SouthPassageME90@SouthPassage
   SleeperME90@Sleeper
@@ -153,6 +154,7 @@ map ReservoirME90 -proj [elevation 90]
   JillsSlitherME90@JillsSlither
   PottersHeavenME90@PottersHeaven
   PulsationAvenME90@PulsationAven
+  ToplessAvenME90@ToplessAven
   TopDigME90@TopDig
   HappySnappersME90@HappySnappers
   FrozenDeepME90@FrozenDeep
