@@ -86,7 +86,7 @@ point 575.18260953 556.730531832 station -name 8.3
 
 point 374.65260953 461.29053183200006 station -name 8.2
 
-point 979.0 -11.0 label -scale m -text "South<br>Passage
+point 1201.0 281.0 label -scale m -text "South<br>Passage" -align bl
 
 endscrap
 

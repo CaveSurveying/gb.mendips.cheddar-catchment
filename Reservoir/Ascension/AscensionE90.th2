@@ -82,7 +82,7 @@ line wall -close on -outline in
   7204.0 2836.0 7192.0 2896.0 7188.0 2976.0
 endline
 
-line wall -outline none
+line ceiling-step -reverse on
   9934.0 3238.0
   9848.0 3212.0 9764.0 3204.0 9660.0 3216.0
   9556.0 3228.0 9452.0 3288.0 9308.0 3328.0
