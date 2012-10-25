@@ -15,7 +15,7 @@ select ReservoirM@Reservoir.CheddarCatchment
 #-----------------
 
 #Produces plan of cave, on a single sheet
-export map -proj plan -layout local -o Outputs/Res_Goughs_overview.pdf
+#export map -proj plan -layout local -o Outputs/Res_Goughs_overview.pdf
 
 
 #export model -fmt survex -o OutputsRes_Goughs_overviewth.3d
@@ -23,6 +23,8 @@ export map -proj plan -layout local -o Outputs/Res_Goughs_overview.pdf
 
 #export model -o Outputs/Res_Goughs_overview.lox
 #3d therion model to be viewed in the therion viewer
+
+export map -proj plan -fmt kml -layout mendip -o Outputs/Res_Goughs_overview.kml
 
 layout local
 copy common

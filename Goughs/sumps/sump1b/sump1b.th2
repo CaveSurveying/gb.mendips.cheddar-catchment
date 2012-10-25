@@ -15,7 +15,7 @@ area sump
   l3-289-441
 endarea
 
-line border -id l50-1458-1911 -subtype invisible
+line border -id l50-1458-1911 -reverse on -subtype invisible
   1429.0 1933.0
   1561.0 1835.0
 endline
@@ -84,7 +84,7 @@ line border -close on -subtype invisible
   1429.0 1933.0
 endline
 
-line border -id l48-243-325 -subtype invisible
+line border -id l48-243-325 -reverse on -subtype invisible
   224.0 263.0
   270.0 402.0
 endline
