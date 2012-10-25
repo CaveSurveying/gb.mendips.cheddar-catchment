@@ -24,8 +24,13 @@ select ReservoirM@Reservoir.CheddarCatchment
 #export model -o Outputs/Res_Goughs_overview.lox
 #3d therion model to be viewed in the therion viewer
 
+<<<<<<< .mine
+export map -o Outputs/Res_Goughs_overview.kml
+
+=======
 export map -proj plan -fmt kml -layout mendip -o Outputs/Res_Goughs_overview.kml
 
+>>>>>>> .r101
 layout local
 copy common
 #copy legend

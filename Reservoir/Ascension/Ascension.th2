@@ -87,7 +87,11 @@ area sand
   l120-2470-4230
 endarea
 
-line border -close on -subtype invisible
+area water
+  l22-1792-4566
+endarea
+
+line border -id l22-1792-4566 -close on -subtype invisible
   1851.0 4515.0
   1856.73 4503.54 1840.0 4492.0 1823.0 4493.0
   1806.0 4494.0 1787.0 4506.0 1780.0 4503.0
