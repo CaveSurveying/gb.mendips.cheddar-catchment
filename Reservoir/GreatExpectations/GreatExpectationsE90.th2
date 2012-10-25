@@ -314,13 +314,13 @@ point 914.75337769 1240.309939003 station -name 1.22
 
 point 719.22337769 1455.819939003 station -name 1.23
 
-point 6743.0 2940.0 label -scale m -text "WISh you<br>were here"
+point 6801.0 2482.0 label -scale m -text "WISh you<br>were here" -align tr
 
-point 5053.0 2920.0 label -scale m -text "Resurrection"
+point 4784.0 1546.0 label -scale m -align l -text "Resurrection"
 
 point 3047.0 954.0 label -scale m -text "Hard Times"
 
-point 1237.0 1976.0 label -scale m -text "Great Expectations"
+point 928.0 1681.0 label -scale m -text "Great<br>Expectations" -align tl
 
 endscrap
 

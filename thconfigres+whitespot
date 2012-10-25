@@ -32,12 +32,17 @@ export model -fmt survex -o Outputs/Reservoir-WhiteSpot.3d
 layout plan
 copy local
 map-image -2 100 sw Outputs/Reservoir-WhiteSpotE90.pdf
-map-image 100 -5 ne Outputs/Res_Goughs_overview.pdf
-map-header 0 -10 nw
+map-image 100 -20 ne Outputs/Res_Goughs_overview.pdf
+map-header 0 -20 nw
 
-map-comment "Drawn using Therion<br>\
+map-comment "Reservoir                             WhiteSpot<br>\
+Length: 1467.14m                      Length: 59.90m<br>\
+ Depth:  119.31m                       Depth: 32.57m<br>\
+<br>\
+<br>\
+Drawn using Therion<br>\
 by Andrew Atkinson and Graham Mullan.<br>\
-Survey UBSS and BEC<br>\
+Survey Tuesday Diggers and UBSS<br>\
 With thanks to all the other cavers past and present<br>\
 who have made information available.<br>\
 Grade UISv1 6-4-BDEF<br>\
@@ -52,6 +57,8 @@ code tex-map
   \cavename={\size[30]  Reservoir Hole\medskip \size[18] and\medskip\size[30] White Spot Cave}
     \cavelength={} %empty
     \cavedepth={}  %empty
+    \colorlegendfalse
+
    #\def\maplayout{
     #\legendbox{0}{100}{sw}{\loadpicture{/media/data/Andrew/Caving/Surveys/CheddarCatchment/Outputs/Reservoir-WhiteSpotE90.pdf}}
       #\legendbox{0}{100}{sw}{
@@ -110,7 +117,7 @@ map-header 50 70 off
 map-header-bg on
 colour map-fg map
 statistics explo off
-statistics topo off
+statistics topo all
 
 code metapost
 

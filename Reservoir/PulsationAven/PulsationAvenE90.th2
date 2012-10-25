@@ -90,7 +90,7 @@ point 579.464491421 1064.5743926 station -name 7.1
 
 point 376.224491421 1224.6643926 station -name 7.0
 
-point 2564.0 1440.0 label -scale l -text "Pulsation<br>Aven"
+point 628.0 832.0 label -scale l -text "Pulsation<br>Aven" -align bl
 
 endscrap
 
