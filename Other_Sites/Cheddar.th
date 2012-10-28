@@ -21,8 +21,8 @@ station BlackRockRift "" entrance
 #station BoneHole "" entrance
 #fix Boxs 46310 54430 93 #ST 4631 5443 93
 #station Boxs "" entrance
-fix BrockHole 47400 54330 215 #ST 4740 5433 215
-station BrockHole "" entrance
+#fix BrockHole 47400 54330 215 #ST 4740 5433 215
+#station BrockHole "" entrance
 fix Canyon 46980 54300 108 #ST 4698 5430 108
 station Canyon "" entrance
 fix Coxs 46460 53900 23 #ST 4646 5390 23
@@ -80,8 +80,8 @@ fix SugerLoafRock 46900 54150 54 #ST 4690 5415 54
 station SugerLoafRock "" entrance
 fix SunHole 46730 54080 83 #ST 4673 5408 83
 station SunHole "" entrance
-fix  SwineHole 47380 54330 204 #ST 4738 5433 204
-station SwineHole "" entrance
+#fix  SwineHole 47380 54330 204 #ST 4738 5433 204
+#station SwineHole "" entrance
 #fix TimberHole 48840 54830 189 #ST 4884 5483 241
 #station TimberHole "" entrance
 #Now in separate file 
@@ -96,8 +96,8 @@ station Wallflower "" entrance
 #Cerberus Newsletter 10(4) 1980 Grid measured from plan height stated on elevation
 fix Whopper  46000 55600 220 #ST 460 556 220
 station Whopper "Prob Destoyed" entrance
-fix WhitebeamSlitter 47410 54330 215 #ST 4741 5433 215
-station WhitebeamSlitter "" entrance
+#fix WhitebeamSlitter 47410 54330 215 #ST 4741 5433 215
+#station WhitebeamSlitter "" entrance
 
 
 

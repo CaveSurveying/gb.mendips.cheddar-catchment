@@ -18,7 +18,11 @@ copyright 2012 "CC BY SA NC"
   team "Clive Owen" instruments
   team "Tony Boycott" instruments
 
-  fix 1.12 47427 54377 226
+#  fix 1.12 47427 54377 226
+# Ali's GPS 2012.10.18
+
+  fix 1.0 47412 54338 214
+# calculated by GJM from WIS drawing 2012.10.26  
 
 data normal from to tape compass clino ignoreall
  flags surface
