@@ -1,20 +1,62 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -317.65 -350.03 1905.91 2100.19
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {438.797582965 1 1.0} {816.530590324 1.23} PocketTopo/November_E0.xvi 0 {}
+##XTHERION## xth_me_image_insert {1655.52758297 1 1.0} {175.010590324 4.5} PocketTopo/November_E0.xvi 0 {}
 
 
-scrap NovemberSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap NovemberSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  408.0 980.0
+  416.0 948.0 412.0 916.0 414.0 884.0
+  416.0 852.0 428.0 800.0 400.0 788.0
+  372.0 776.0 338.0 772.0 292.0 774.0
+endline
+
+line wall
+  1722.0 490.0
+  1690.0 482.0 1484.0 410.0 1434.0 412.0
+  1384.0 414.0 1196.0 488.0 1142.0 504.0
+  1088.0 520.0 974.0 584.0 924.0 594.0
+  874.0 604.0 746.0 646.0 730.0 656.0
+  714.0 666.0 728.0 766.0 718.0 830.0
+endline
+
+line wall
+  306.0 636.0
+  334.0 644.0 462.0 624.0 494.0 622.0
+  526.0 620.0 690.0 586.0 726.0 570.0
+  762.0 554.0 868.0 414.0 912.0 402.0
+  956.0 390.0 1090.0 358.0 1122.0 342.0
+  1154.0 326.0 1610.0 164.0 1660.0 160.0
+endline
+
+point 438.797582965 816.530590324 station -name 1.23
+
+point 308.417582965 716.860590324 station -name 4.6
+
+point 487.897582965 684.820590324 station -name 4.1
+
+point 717.937582965 641.080590324 station -name 4.2
+
+point 889.677582965 443.410590324 station -name 4.3
+
+point 1107.47758297 409.910590324 station -name 4.4
+
+point 1655.52758296 175.010590324 station -name 4.5
 
 endscrap
 
 
-scrap NovemberSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap NovemberSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap NovemberSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap NovemberSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

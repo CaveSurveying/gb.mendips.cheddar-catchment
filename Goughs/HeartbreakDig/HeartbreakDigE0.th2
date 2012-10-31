@@ -1,20 +1,69 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -476.98 -110.5 2861.86 663.03
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {345.671113308 1 1.0} {607.775639582 1.0} PocketTopo/HeartbreakDig_E0.xvi 0 {}
+##XTHERION## xth_me_image_insert {1254.81111331 1 1.0} {262.475639582 1.4} PocketTopo/HeartbreakDig_E0.xvi 0 {}
 
 
-scrap HeartbreakDigSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap HeartbreakDigSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  2622.0 96.0
+  2602.0 90.0 2542.0 82.0 2526.0 80.0
+  2510.0 78.0 2330.0 130.0 2316.0 136.0
+  2302.0 142.0 2236.0 226.0 2214.0 238.0
+  2192.0 250.0 2036.0 244.0 2004.0 248.0
+  1972.0 252.0 1770.0 268.0 1728.0 270.0
+  1686.0 272.0 1354.0 288.0 1294.0 290.0
+  1234.0 292.0 1002.0 324.0 964.0 328.0
+  926.0 332.0 760.0 344.0 718.0 356.0
+  676.0 368.0 450.0 424.0 426.0 462.0
+endline
+
+line wall
+  365.521113308 435.255639582
+  396.0 416.0 622.0 296.0 656.0 288.0
+  690.0 280.0 728.0 234.0 748.0 224.0
+  768.0 214.0 760.0 204.0 788.0 200.0
+  816.0 196.0 1194.0 224.0 1254.0 226.0
+  1314.0 228.0 1660.0 230.0 1694.0 226.0
+  1728.0 222.0 1958.0 206.0 1996.0 204.0
+  2034.0 202.0 2080.0 168.0 2102.0 164.0
+  2124.0 160.0 2140.0 166.0 2154.0 162.0
+  2168.0 158.0 2278.0 92.0 2306.0 84.0
+  2334.0 76.0 2498.0 40.0 2518.0 44.0
+  2538.0 48.0 2606.0 62.0 2624.0 66.0
+endline
+
+point 365.521113308 435.255639582 station -name 1.1
+
+point 697.761113308 325.525639582 station -name 1.2
+
+point 978.091113308 263.105639582 station -name 1.3
+
+point 1254.81111331 262.475639582 station -name 1.4
+
+point 1690.93111331 248.995639582 station -name 1.5
+
+point 1994.27111331 230.475639582 station -name 1.6
+
+point 2150.81111331 222.215639582 station -name 1.7
+
+point 2304.04111331 122.015639582 station -name 1.8
+
+point 2516.29111331 58.915639582 station -name 1.9
 
 endscrap
 
 
-scrap HeartbreakDigSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap HeartbreakDigSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap HeartbreakDigSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap HeartbreakDigSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

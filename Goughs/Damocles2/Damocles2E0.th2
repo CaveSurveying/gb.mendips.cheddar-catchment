@@ -1,20 +1,52 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -51.96 -61.16 311.73 366.97
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {63.3901968449 1 1.0} {80.1969665218 1.23} PocketTopo/Damocles2_E0.xvi 0 {}
 
 
-scrap Damocles2SE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap Damocles2SE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  135.0 279.0
+  140.0 271.0 148.0 256.0 144.0 251.0
+  140.0 246.0 135.0 256.0 126.0 245.0
+  117.0 234.0 102.0 234.0 99.0 220.0
+  96.0 206.0 76.78 89.39 63.3901968449 80.1969665218
+  50.0 71.0 27.0 56.0 20.0 51.0
+endline
+
+line wall
+  42.0 19.0
+  47.0 33.0 57.0 35.0 68.0 49.0
+  79.0 63.0 86.0 67.0 91.0 77.0
+  96.0 87.0 148.0 189.0 157.0 199.0
+  166.0 209.0 210.0 235.0 207.0 246.0
+  204.0 257.0 189.0 259.0 200.0 267.0
+  211.0 275.0 272.0 271.0 281.0 278.0
+  290.0 285.0 277.0 303.0 265.0 308.0
+  253.0 313.0 173.0 339.0 166.0 339.0
+endline
+
+point 154.590196845 298.456966522 station -name 1.25
+
+point 143.730196845 219.376966522 station -name 1.24
+
+point 63.3901968449 80.1969665218 station -name 1.23
+
+point 25.9801968449 30.5769665218 station -name 1.22
 
 endscrap
 
 
-scrap Damocles2SE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap Damocles2SE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap Damocles2SE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap Damocles2SE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
