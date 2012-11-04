@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -205.65 -80.98 1233.92 485.86
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {102.826758665 1 1.0} {220.902135943 1.0} PocketTopo/Skeleton_e.xvi 0 {}
+
+
+scrap SkeletonSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SkeletonSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -722.66 -211.81 4335.95 1270.87
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {3202.97060325 1 1.0} {472.047244094 1.0} PocketTopo/NathansAttic_e.xvi 0 {}
+
+
+scrap NathansAtticSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap NathansAtticSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

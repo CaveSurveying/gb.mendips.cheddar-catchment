@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -72.63 -92.98 435.8 557.85
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {36.316264032 1 1.0} {176.229069676 1.10} PocketTopo/WetWitch_e.xvi 0 {}
+
+
+scrap WetWitchSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap WetWitchSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

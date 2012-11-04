@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -708.94 -148.03 4253.65 888.19
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {354.470797837 1 1.0} {668.503937008 1.0} PocketTopo/HeartbreakDig_e.xvi 0 {}
+
+
+scrap HeartbreakDigSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap HeartbreakDigSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

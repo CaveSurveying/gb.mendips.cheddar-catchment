@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -802.36 -434.65 4814.17 2607.87
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {436.614173228 1 1.0} {374.803149606 1.0} PocketTopo/Damocles1_e.xvi 0 {}
+
+
+scrap Damocles1SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Damocles1SE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

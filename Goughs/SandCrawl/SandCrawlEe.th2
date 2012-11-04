@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -430.39 -117.48 2582.36 704.88
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {215.196850394 1 1.0} {369.763779528 1.0} PocketTopo/SandCrawl_e.xvi 0 {}
+
+
+scrap SandCrawlSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SandCrawlSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

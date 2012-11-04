@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -107.85 -251.34 647.09 1508.03
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {531.089931735 1 1.0} {142.204724409 1.0} PocketTopo/DSAven_e.xvi 0 {}
+
+
+scrap DSAvenSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap DSAvenSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

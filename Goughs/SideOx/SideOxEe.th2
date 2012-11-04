@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -225.11 -75.83 1350.63 454.96
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {181.265095255 1 1.0} {258.779527559 1.0} PocketTopo/SideOx_e.xvi 0 {}
+
+
+scrap SideOxSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SideOxSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

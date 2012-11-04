@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -396.53 -281.1 2379.2 1686.61
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1742.00080023 1 1.0} {519.291338583 1.0} PocketTopo/DucksDelight_e.xvi 0 {}
+
+
+scrap DucksDelightSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap DucksDelightSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

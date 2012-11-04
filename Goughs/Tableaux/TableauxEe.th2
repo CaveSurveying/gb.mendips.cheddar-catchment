@@ -1,6 +1,16 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 7293.35433071 1860.28346457
-##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {39.3700787401 1 1.0} {73.3858267717 1.0} PocketTopo/Tableauxth_e.xvi 0 {}
+##XTHERION## xth_me_area_adjust -1396.59 -343.51 8379.51 2061.04
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {698.292888975 1 1.0} {205.712608147 1.0} PocketTopo/Tableaux_e.xvi 0 {}
+
+
+scrap TableauxSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap TableauxSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
 
 

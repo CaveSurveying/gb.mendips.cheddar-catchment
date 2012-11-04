@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -517.7 -159.58 3106.19 957.47
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {487.660716185 1 1.0} {559.569408328 1.18} PocketTopo/Improbable_e.xvi 0 {}
+
+
+scrap ImprobableSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap ImprobableSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
