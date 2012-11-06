@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -402.57 -633.45 2415.44 3800.69
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {201.286910079 1 1.0} {3483.96591675 1.0} PocketTopo/ToHole_p.xvi 0 {}
+
+
+scrap ToHoleSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

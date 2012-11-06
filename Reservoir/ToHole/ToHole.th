@@ -1,0 +1,48 @@
+survey ToHole
+
+input ToHole.th2
+input ToHoleEe.th2
+input ToHoleE90.th2
+
+map ToHoleM
+	ToHoleSP1
+endmap
+
+map ToHoleME
+	ToHoleSE1
+endmap
+
+map ToHoleME90 -proj [elevation 90]
+	ToHoleSE90_1
+endmap
+centreline
+
+copyright 2012 "CC BY SA NC"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#DistoX-ubss1 0.29
+#Notes:Andrew Atkinson
+#DistoX: Alison Moody
+#Dog: Clive Owen
+# Dogs:Tony Boycott , Clive Owen
+
+	date 2012.10.31
+
+	team "Andrew Atkinson" notes
+	team "Alison Moody" instruments
+	team "Clive Owen" instruments
+	team "Tony Boycott" instruments
+
+data normal from to tape compass clino ignoreall
+  extend right
+1.0	-	0.0	0.0	0.0	
+#1.0	1.1	54.468	147.54	28.95	
+#1.0	1.1	54.44	147.39	29.05	
+#1.0	1.1	54.433	147.68	28.95	
+1.0	1.1	54.447	147.54	28.99	Calculated leg from 3 above
+#1.0	1.2	44.509	169.77	23.46	
+#1.0	1.2	44.528	169.87	23.36	
+#1.0	1.2	44.544	169.99	23.42	
+1.0	1.2	44.527	169.87	23.41	Calculated leg from 3 above
+endcentreline
+endsurvey
