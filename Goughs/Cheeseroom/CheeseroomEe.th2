@@ -1,15 +1,17 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -971.26 -387.01 5827.56 2322.05
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {1040.7480315 1 1.0} {291.929133858 1.0} PocketTopo/Cheeseroom_e.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {2219.8280315 1 1.0} {647.909133858 1.4} PocketTopo/Cheeseroom_e.xvi 0 {}
 
 
-scrap CheeseroomSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap CheeseroomSE1 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap CheeseroomSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap CheeseroomSE2 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

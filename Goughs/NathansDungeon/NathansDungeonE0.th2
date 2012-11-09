@@ -1,20 +1,63 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -57.73 -141.27 346.4 847.61
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {28.8668614321 1 1.0} {121.973124506 9.13} PocketTopo/NathansDungeon_E0.xvi 0 {}
 
 
-scrap NathansDungeonSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap NathansDungeonSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  60.0 775.0
+  88.0 744.0 165.0 544.0 171.0 525.0
+  177.0 506.0 180.0 455.0 185.0 444.0
+  190.0 433.0 263.0 201.0 260.0 193.0
+  257.0 185.0 237.0 174.0 231.0 170.0
+  225.0 166.0 216.0 156.0 215.0 151.0
+  214.0 146.0 215.0 124.0 213.0 118.0
+  211.0 112.0 222.0 86.0 214.0 86.0
+  206.0 86.0 189.0 91.0 172.0 95.0
+  155.0 99.0 143.0 103.0 131.0 107.0
+endline
+
+line wall
+  126.0 76.0
+  146.0 76.0 161.0 79.0 169.0 77.0
+  177.0 75.0 192.0 66.0 200.0 62.0
+  208.0 58.0 247.0 60.0 252.0 69.0
+  257.0 78.0 247.0 77.0 250.0 87.0
+  253.0 97.0 260.0 145.0 260.0 145.0
+  smooth off
+  260.0 145.0 264.0 153.0 269.0 158.0
+  274.0 163.0 281.0 180.0 282.0 185.0
+  283.0 190.0 318.0 439.0 325.0 457.0
+  332.0 475.0 323.0 524.0 323.0 535.0
+  323.0 546.0 291.0 746.0 297.0 769.0
+endline
+
+point 160.626861432 776.973124506 station -name 3.7
+
+point 269.506861432 440.873124506 station -name 3.5
+
+point 273.076861432 185.563124506 station -name 3.4
+
+point 231.986861432 150.633124506 station -name 3.3
+
+point 220.0 92.0 station -name 3.2
+
+point 218.906861432 79.953124506 station -name 3.1
 
 endscrap
 
 
-scrap NathansDungeonSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap NathansDungeonSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap NathansDungeonSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap NathansDungeonSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

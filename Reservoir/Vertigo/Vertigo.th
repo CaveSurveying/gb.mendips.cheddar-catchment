@@ -1,21 +1,21 @@
 encoding  utf-8
 survey Vertigo
 
-input Vertigo.th2
-input VertigoEe.th2
-input VertigoE90.th2
+#input Vertigo.th2
+#input VertigoEe.th2
+#input VertigoE90.th2
 
-map VertigoM
-  VertigoSP1
-endmap
+#map VertigoM
+#  VertigoSP1
+#endmap
 
-map VertigoME
-  VertigoSE1
-endmap
+#map VertigoME
+#  VertigoSE1
+#endmap
 
-map VertigoME90 -proj [elevation 90]
-  VertigoSE90_1
-endmap
+#map VertigoME90 -proj [elevation 90]
+#  VertigoSE90_1
+#endmap
 centreline
 
 copyright 2012 "CC BY SA NC"

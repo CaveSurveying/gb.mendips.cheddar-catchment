@@ -1,20 +1,38 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -90.91 -147.34 545.45 884.04
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {261.618720812 1 1.0} {810.372106584 1.0} PocketTopo/DireStraits_E0.xvi 0 {}
+##XTHERION## xth_me_image_insert {79.378720812 1 1.0} {168.472106584 1.4} PocketTopo/DireStraits_E0.xvi 0 {}
 
 
-scrap DireStraitsSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
-endscrap
+scrap DireStraitsSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall
+  44.0 70.0
+  86.0 98.0 142.0 178.0 162.0 214.0
+  182.0 250.0 274.0 408.0 300.0 424.0
+  326.0 440.0 334.0 544.0 346.0 564.0
+  358.0 584.0 380.0 642.0 418.0 660.0
+  456.0 678.0 546.0 734.0 524.0 746.0
+  502.0 758.0 386.0 738.0 352.0 736.0
+  318.0 734.0 295.24 810.74 261.618720812 810.372106584
+  228.0 810.0 258.0 756.0 260.0 718.0
+  262.0 680.0 266.0 510.0 236.0 474.0
+  206.0 438.0 160.0 324.0 142.0 300.0
+  124.0 276.0 72.0 200.0 60.0 182.0
+  48.0 164.0 20.0 130.0 8.0 124.0
+  smooth off
+endline
 
-scrap DireStraitsSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+point 499.998720812 745.182106584 station -name 1.2
 
-endscrap
+point 261.618720812 810.372106584 station -name 1.0
 
+point 306.428720812 714.322106584 station -name 1.1
 
-scrap DireStraitsSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+point 267.878720812 480.962106584 station -name 1.3
+
+point 79.378720812 168.472106584 station -name 1.4
 
 endscrap
 

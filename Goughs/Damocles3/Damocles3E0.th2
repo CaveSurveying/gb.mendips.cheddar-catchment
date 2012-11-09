@@ -43,6 +43,7 @@ line wall
   136.0 276.0 126.0 256.0 126.0 244.0
   126.0 232.0 142.0 214.0 132.0 208.0
   122.0 202.0 106.0 200.0 90.0 184.0
+  smooth off
 endline
 
 point 723.325176168 1015.60714574 station -name 1.36
@@ -68,18 +69,6 @@ point 138.655176168 230.417145737 station -name 1.27
 point 218.355176168 148.587145737 station -name 1.26
 
 point 96.4651761684 143.317145737 station -name 1.25
-
-endscrap
-
-
-
-scrap Damocles3SE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap Damocles3SE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

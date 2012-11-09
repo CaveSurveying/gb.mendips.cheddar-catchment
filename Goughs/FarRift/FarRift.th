@@ -13,6 +13,7 @@ endmap
 
 map FarRiftME0 -proj [elevation 0]
   FarRiftSE0_1
+  FarRiftSE0_2
 endmap
 
 centreline

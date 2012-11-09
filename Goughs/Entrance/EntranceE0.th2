@@ -49,6 +49,7 @@ line wall
   2228.0 872.0 2152.0 918.0 2116.0 944.0
   2080.0 970.0 1942.0 1136.0 1918.0 1182.0
   1894.0 1228.0 1848.0 1338.0 1848.0 1382.0
+  smooth off
 endline
 
 line wall
@@ -58,6 +59,7 @@ line wall
   8030.0 620.0 7482.0 658.0 7460.0 694.0
   7438.0 730.0 7396.0 1156.0 7396.0 1180.0
   7396.0 1204.0 7382.0 1434.0 7382.0 1472.0
+  smooth off
 endline
 
 line wall
@@ -94,6 +96,7 @@ line wall
   8158.0 390.0 8314.0 410.0 8354.0 420.0
   8394.0 430.0 8674.0 450.0 8720.0 452.0
   8766.0 454.0 8818.0 446.0 8842.0 448.0
+  smooth off
 endline
 
 point 8760.08727057 551.38039132 station -name 1.17
@@ -125,18 +128,6 @@ point 2799.10727057 628.31039132 station -name 1.2
 point 2336.30727057 649.41039132 station -name 1.1
 
 point 2179.66727057 545.12039132 station -name 1.0
-
-endscrap
-
-
-
-scrap EntranceSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap EntranceSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

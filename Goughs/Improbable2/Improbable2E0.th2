@@ -71,8 +71,6 @@ line wall
   smooth off
 endline
 
-point 430.577611421 705.227600152 station -name 5.13
-
 point 550.137611421 627.007600152 station -name 6.1
 
 point 668.737611421 589.477600152 station -name 6.2
@@ -116,5 +114,4 @@ point 2852.55761142 213.907600152 station -name 6.20
 point 2991.09761142 277.007600152 station -name 6.21
 
 endscrap
-
 

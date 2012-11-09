@@ -1,21 +1,37 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -246.57 -156.48 1479.45 938.9
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {494.481698285 1 1.0} {386.839789539 1.0} PocketTopo/CastleHairyRing_E0.xvi 0 {}
+##XTHERION## xth_me_image_insert {858.491698285 1 1.0} {607.499789539 1.4} PocketTopo/CastleHairyRing_E0.xvi 0 {}
 
 
-scrap CastleHairyRingSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap CastleHairyRingSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+
+line wall
+  500.0 528.0
+  500.0 612.0 488.0 652.0 504.0 708.0
+  520.0 764.0 554.0 790.0 588.0 846.0
+  622.0 902.0 690.0 920.0 734.0 926.0
+  778.0 932.0 764.0 854.0 822.0 822.0
+  880.0 790.0 960.0 780.0 992.0 774.0
+  1024.0 768.0 1026.0 746.0 1054.0 784.0
+  1082.0 822.0 1070.0 878.0 1110.0 894.0
+  1150.0 910.0 1220.0 906.0 1258.0 912.0
+  1296.0 918.0 1342.0 936.0 1388.0 890.0
+  1434.0 844.0 1434.0 808.0 1454.0 754.0
+endline
+
+line wall
+  780.0 442.0
+  774.0 530.0 765.38 667.76 781.691698285 661.879789539
+  798.0 656.0 1010.0 634.0 1034.0 616.0
+  1058.0 598.0 1060.0 566.0 1070.0 512.0
+endline
+
+point 1039.60169829 728.009789539 station -name 1.2
+
+point 781.691698285 661.879789539 station -name 1.1
+
 
 endscrap
-
-
-scrap CastleHairyRingSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
-
-endscrap
-
-
-scrap CastleHairyRingSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
-
-endscrap
-
-

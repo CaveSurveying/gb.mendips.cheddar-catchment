@@ -18,6 +18,10 @@ endmap
 
 map BlackcatME0 -proj [elevation 0]
   BlackcatSE0_1
+  BlackcatSE0_2
+  BlackcatSE0_3
+  BlackcatSE0_4
+  BlackcatSE0_5
 endmap
 
 centreline

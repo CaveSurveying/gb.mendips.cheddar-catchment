@@ -18,6 +18,7 @@ line wall
   1234.0 292.0 1002.0 324.0 964.0 328.0
   926.0 332.0 760.0 344.0 718.0 356.0
   676.0 368.0 450.0 424.0 426.0 462.0
+  smooth off
 endline
 
 line wall
@@ -33,6 +34,7 @@ line wall
   2168.0 158.0 2278.0 92.0 2306.0 84.0
   2334.0 76.0 2498.0 40.0 2518.0 44.0
   2538.0 48.0 2606.0 62.0 2624.0 66.0
+  smooth off
 endline
 
 point 365.521113308 435.255639582 station -name 1.1
@@ -52,18 +54,6 @@ point 2150.81111331 222.215639582 station -name 1.7
 point 2304.04111331 122.015639582 station -name 1.8
 
 point 2516.29111331 58.915639582 station -name 1.9
-
-endscrap
-
-
-
-scrap HeartbreakDigSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap HeartbreakDigSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

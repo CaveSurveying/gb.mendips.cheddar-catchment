@@ -9,9 +9,11 @@ source Goughs.th
 #export map -proj plan -layout local -o Goughs.pdf
 #Produces plan of cave, on a single sheet
 
+export map -proj [elevation 0] -layout local -o GoughsE000.pdf
+
 #export map -proj plan -fmt kml -layout mendip -o Goughs.kml
 
-export model -fmt survex -o Goughsth.3d
+#export model -fmt survex -o Goughsth.3d
 #Survex file showing centre line only
 
 #export model -o Fonts.lox
@@ -32,7 +34,7 @@ layout local
 copy common
 debug off
 map-header 0 100 sw
-symbol-hide group centreline
+#symbol-hide group centreline
 scale 1 500
 
 #for Andrew
@@ -46,14 +48,14 @@ scale 1 500
 #   }
 	
 #for Graham
-code tex-map
-    \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
-    \def\maplayout{
-
-      \legendbox{90}{101}{NE}{\loadpicture{C:/Users/Graham/Documents/Cave Survey data/Registry Repository/CheddarCatchment/Goughs/GoughsOverview.pdf}}
+#code tex-map
+#    \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+#    \def\maplayout{
+#
+#      \legendbox{90}{101}{NE}{\loadpicture{C:/Users/Graham/Documents/Cave Survey data/Registry Repository/CheddarCatchment/Goughs/GoughsOverview.pdf}}
 #      \legendbox{62}{73}{SW}{\northarrow}
 #     \legendbox{65}{73}{SW}{\scalebar}	
-  }	
+#  }	
 
 code metapost
 

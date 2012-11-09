@@ -16,6 +16,7 @@ endmap
 
 map Damocles1ME0 -proj [elevation 0]
   Damocles1SE0_1
+  Damocles1SE0_2
 endmap
 
 centreline

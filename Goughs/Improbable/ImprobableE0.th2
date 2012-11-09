@@ -72,20 +72,9 @@ point 706.125874126 153.690343695 station -name 5.12
 
 point 565.245874126 352.700343695 station -name 5.1
 
-point 222.905874126 556.770343695 station -name 1.18
 
 endscrap
 
 
-
-scrap ImprobableSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap ImprobableSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
 
 

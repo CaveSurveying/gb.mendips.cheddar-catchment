@@ -1,20 +1,60 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -102.64 -74.36 615.81 446.15
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {515.649035387 1 1.0} {253.92727522 1.0} PocketTopo/SideOx_E0.xvi 0 {}
 
 
-scrap SideOxSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap SideOxSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  212.0 36.0
+  221.0 53.0 218.0 70.0 235.0 77.0
+  252.0 84.0 368.0 118.0 392.0 122.0
+  416.0 126.0 462.0 147.0 475.0 159.0
+  488.0 171.0 516.0 193.0 507.0 199.0
+  498.0 205.0 467.0 194.0 460.0 197.0
+  453.0 200.0 450.0 210.0 462.0 212.0
+  474.0 214.0 540.0 213.0 564.0 215.0
+endline
+
+line wall
+  570.0 279.0
+  548.0 279.0 477.0 271.0 457.0 278.0
+  437.0 285.0 423.0 395.0 412.0 405.0
+  401.0 415.0 351.0 301.0 329.0 292.0
+  307.0 283.0 276.0 306.0 258.0 301.0
+  240.0 296.0 272.0 260.0 287.0 255.0
+  302.0 250.0 384.0 205.0 392.0 200.0
+  400.0 195.0 397.0 167.0 359.0 157.0
+  321.0 147.0 252.0 131.0 234.0 125.0
+  216.0 119.0 135.0 83.0 127.0 74.0
+  119.0 65.0 73.0 56.0 55.0 42.0
+endline
+
+point 159.959035387 41.17727522 station -name 2.5
+
+point 164.729035387 73.72727522 station -name 2.4
+
+point 245.429035387 94.41727522 station -name 2.3
+
+point 445.319035387 153.74727522 station -name 2.2
+
+point 363.159035387 244.34727522 station -name 2.1
+
+point 515.649035387 253.92727522 station -name 2.0
 
 endscrap
 
 
-scrap SideOxSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap SideOxSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap SideOxSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap SideOxSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
