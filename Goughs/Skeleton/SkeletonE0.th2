@@ -4,17 +4,8 @@ encoding  utf-8
 ##XTHERION## xth_me_image_insert {794.170949678 1 1.0} {220.902135943 1.0} PocketTopo/Skeleton_E0.xvi 0 {}
 
 
-scrap SkeletonSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
-endscrap
-
-
-scrap SkeletonSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
-
-endscrap
-
-
-scrap SkeletonSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+scrap SkeletonSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

@@ -40,15 +40,3 @@ point 278.752331148 333.809069676 station -name 3.2
 endscrap
 
 
-
-scrap WetWitchSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap WetWitchSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-

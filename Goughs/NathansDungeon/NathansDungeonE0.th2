@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -57.73 -141.27 346.4 847.61
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {28.8668614321 1 1.0} {121.973124506 9.13} PocketTopo/NathansDungeon_E0.xvi 0 {}
+##XTHERION## xth_me_image_insert {28.866861432099995 1 1.0} {121.973124506 9.13} PocketTopo/NathansDungeon_E0.xvi 0 {}
 
 
 
@@ -18,6 +18,7 @@ line wall
   211.0 112.0 222.0 86.0 214.0 86.0
   206.0 86.0 189.0 91.0 172.0 95.0
   155.0 99.0 143.0 103.0 131.0 107.0
+  smooth off
 endline
 
 line wall
@@ -33,6 +34,7 @@ line wall
   283.0 190.0 318.0 439.0 325.0 457.0
   332.0 475.0 323.0 524.0 323.0 535.0
   323.0 546.0 291.0 746.0 297.0 769.0
+  smooth off
 endline
 
 point 160.626861432 776.973124506 station -name 3.7
@@ -46,18 +48,6 @@ point 231.986861432 150.633124506 station -name 3.3
 point 220.0 92.0 station -name 3.2
 
 point 218.906861432 79.953124506 station -name 3.1
-
-endscrap
-
-
-
-scrap NathansDungeonSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap NathansDungeonSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

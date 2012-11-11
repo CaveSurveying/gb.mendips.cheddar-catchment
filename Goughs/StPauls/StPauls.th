@@ -16,6 +16,7 @@ endmap
 
 map StPaulsME0 -proj [elevation 0]
   StPaulsSE0_1
+  StPaulsSE0_2
 endmap
 
 centreline

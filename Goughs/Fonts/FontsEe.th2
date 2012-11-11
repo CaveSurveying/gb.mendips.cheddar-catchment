@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1106.13 -526.93 6636.8 3161.57
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {781.369741016 1 1.0} {393.385826772 1.0} PocketTopo/Fonts_e.xvi 0 {}
+
+
+scrap FontsSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap FontsSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
