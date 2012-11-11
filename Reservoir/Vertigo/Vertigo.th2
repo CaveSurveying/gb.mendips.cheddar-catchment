@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -285.04 -314.93 1710.24 1889.6
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {906.299212598 1 1.0} {467.168399981 1.0} PocketTopo/Vertigo_p.xvi 0 {}
+
+
+scrap VertigoSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap VertigoSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap VertigoSPX1.4 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap VertigoSPX1.1 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

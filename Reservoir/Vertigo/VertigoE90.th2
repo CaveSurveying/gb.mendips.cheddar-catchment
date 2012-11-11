@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -260.92 -246.2 1565.54 1477.23
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1344.40532368 1 1.0} {696.423132465 1.0} PocketTopo/Vertigo_E90.xvi 0 {}
+
+
+scrap VertigoSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap VertigoSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
