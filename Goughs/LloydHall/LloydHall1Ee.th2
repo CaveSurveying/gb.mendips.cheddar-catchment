@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -408.17 -308.66 2449.05 1851.97
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1223.77225708 1 1.0} {366.929133858 1.0} PocketTopo/LloydHall1_e.xvi 0 {}
+
+
+scrap LloydHall1SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap LloydHall1SE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

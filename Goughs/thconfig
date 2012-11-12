@@ -25,16 +25,23 @@ export map -proj [elevation 0] -layout local -o GoughsE000.pdf
 select GoughsDispM@Goughs
 select GoughsUpperM@Goughs -map-level 1
 
-
-
+select GoughsME0@Goughs -map-level 1
 
 layout local
 
 copy common
 debug off
 map-header 0 100 sw
+colour map-fg map
+colour-legend off
 #symbol-hide group centreline
 scale 1 500
+
+code tex-map
+  \cavename={\size[30]  Gough's Cave\medskip}
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse
 
 #for Andrew
 #code tex-map

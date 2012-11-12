@@ -2,18 +2,30 @@ encoding  utf-8
 survey LloydHall
 
 input LloydHall.th2
+input LloydHall1E0.th2
+input LloydHall2E0.th2
 
-map LloydHallTopM
+
+map LloydHallTopM -proj plan
   LloydHallSPl1
  break
   LloydHallSPl2
 endmap
  
-map LloydHallBottomM
+map LloydHallBottomM -proj plan
   LloydHallSPl3
  break
   LloydHallSPl4
 endmap
+
+map LloydHallME0 -proj [elevation 0]
+  LloydHall1SE0_1
+  LloydHall1SE0_2
+  LloydHall2SE0_1
+  LloydHall2SE0_2
+endmap
+
+join LloydHall1SE0_2 LloydHall2SE0_1 -smooth on -count 2
 
 equate 1.4 1.13
 equate 8.3 1.5

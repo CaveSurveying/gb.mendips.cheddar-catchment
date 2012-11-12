@@ -10,6 +10,9 @@ endmap
 
 map TableauxME0 -proj [elevation 0]
   TableauxSE0_1
+  TableauxSE0_2
+  TableauxSE0_3
+  TableauxSE0_4
 endmap
 
 centreline

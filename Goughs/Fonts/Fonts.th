@@ -2,6 +2,7 @@ encoding  utf-8
 survey Fonts
 
 input Fonts.th2
+input FontsE0.th2
 
 map FontsM
   FontsSPl1
@@ -15,6 +16,10 @@ endmap
 
 join FontsSPl2 FontsSPl3 -smooth on
 
+map FontsME0 -proj [elevation 0]
+  FontsSE0_1
+  FontsSE0_2
+endmap
 
 equate 1.37 1.39
 

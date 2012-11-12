@@ -12,6 +12,8 @@ endmap
 map TheOxbowME0 -proj [elevation 0]
   TheOxbowSE0_1
   TheOxbowSE0_2
+ break
+  TheOxbowSE0_3
 endmap
 
 centreline

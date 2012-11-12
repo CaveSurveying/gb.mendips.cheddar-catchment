@@ -6,10 +6,11 @@ source LloydHall.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o LloydHall.pdf
+#export map -proj plan -layout local -o LloydHall.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o LloydHallEe.pdf
+export map -proj [elevation 0] -layout local -o LloydHallE0.pdf
 
 export model -fmt survex -o LloydHallth.3d
 #Survex file showing centre line only

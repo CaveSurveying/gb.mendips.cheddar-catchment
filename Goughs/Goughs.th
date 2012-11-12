@@ -1,6 +1,176 @@
 encoding  utf-8
 survey Goughs
 
+##############################################
+#                                                                                                                             #
+# Plan maps and joins                                                                                           #
+#                                                                                                                             #
+##############################################
+
+
+map GoughsM
+    GoughsUpperM
+    GoughsLowerM
+    BeddingChamberM@BeddingChamber
+    sumpsM@sumps
+endmap
+
+map GoughsDispM
+    BeddingChamberBoxM@BeddingChamber
+    BeddingChamberM@BeddingChamber [-9 30 m] above
+ #   GoughsUpperM
+    GoughsLowerM [130 -30 m] below
+    LLoydTopM [25 10 m] above
+endmap
+
+map LLoydTopM
+  ImprobableM@Improbable
+  LloydHallTopM@LloydHall
+endmap
+
+map GoughsUpperM
+  DSAvenM@DSAven
+  BatRoomM@BatRoom
+  KingsSolomonsM@KingsSolomons
+  CastleHairyRingM@CastleHairyRing
+  BlackcatM@Blackcat
+  Damocles3M@Damocles3
+  Damocles2M@Damocles2
+  Damocles1M@Damocles1
+  NathansAtticM@NathansAttic
+  DucksDelightM@DucksDelight
+  EntranceM@Entrance
+  FontsM@Fonts 
+  HeartbreakHillM@HeartbreakHill
+  TableauxM@Tableaux
+  LloydHallBottomM@LloydHall
+  TheOxbowM@TheOxbow
+  DireStraitsM@DireStraits
+  StPaulsM@StPauls
+  NovemberM@November
+  SandChamberM@SandChamber
+  SandCrawlM@SandCrawl
+  SideOxM@SideOx
+  HeartbreakDigM@HeartbreakDig
+  CheeseroomM@Cheeseroom
+  WetWitchM@WetWitch
+endmap
+
+map GoughsLowerM
+  FarRiftM@FarRift
+  CableCrawlM@CableCrawl
+  NathansDungeonM@NathansDungeon
+  Improbable2M@Improbable2
+  BoulderChamberM@BoulderChamber
+  TunnelM@Tunnel  
+endmap
+
+
+#joins should be alphebetical, left to right, then top to bottom
+
+join BatRoomSPl1@BatRoom EntranceSPl1@Entrance -smooth on
+join BlackcatSPl1@Blackcat TableauxSPl1@Tableaux -smooth on
+join BlackcatSPl2@Blackcat Damocles1SPl1@Damocles1 -smooth on
+join BlackcatSPl2@Blackcat SandChamberSPl1@SandChamber -smooth on -count 3
+join BlackcatSPl2@Blackcat SandCrawlSPl1@SandCrawl -smooth on
+
+
+join BlackcatSPl2@Blackcat SandChamberSPl2@SandChamber -smooth on
+join BlackcatSPl4@Blackcat TableauxSPl1@Tableaux -smooth on
+join BoulderChamberSPl1@BoulderChamber FarRiftSPl1@FarRift -smooth on
+join BoulderChamberSPl1@BoulderChamber FarRiftSPl2@FarRift -smooth on
+join BoulderChamberSPl1@BoulderChamber Improbable2SPl1@Improbable2 -smooth on
+join BoulderChamberSPl1@BoulderChamber SandChamberSPl3@SandChamber -smooth on
+
+join CableCrawlSPl1@CableCrawl  Improbable2SPl1@Improbable2 -smooth on
+join CableCrawlSPl1@CableCrawl TunnelSPl1@Tunnel -smooth on
+join CheeseroomSPl1@Cheeseroom HeartbreakHillSPl1@HeartbreakHill  -smooth on
+join CheeseroomSPl1@Cheeseroom TheOxbowSPl1@TheOxbow  -smooth on
+
+join EntranceSPl1@Entrance FontsSPl1@Fonts -smooth on
+join EntranceSPl1@Entrance HeartbreakHillSPl1@HeartbreakHill -smooth on
+join EntranceSPl1@Entrance TheOxbowSPl1@TheOxbow -smooth on
+
+join FarRiftSPl3@FarRift NathansDungeonSPl1@NathansDungeon -smooth on
+
+join HeartbreakHillSPl1@HeartbreakHill HeartbreakDigSPl1@HeartbreakDig -smooth on
+join HeartbreakHillSPl1@HeartbreakHill TunnelSPl1@Tunnel -smooth on
+
+join ImprobableSPl1@Improbable LloydHallSPl1@LloydHall -smooth on
+join ImprobableSPl1@Improbable TunnelSPl1@Tunnel -smooth on
+
+#Order of the next group, for some reason, of joins is important to make it join correctly
+join HeartbreakHillSPl1@HeartbreakHill TableauxSPl1@Tableaux -smooth on
+join StPaulsSPl2@StPauls TableauxSPl1@Tableaux -smooth on 
+join HeartbreakHillSPl1@HeartbreakHill StPaulsSPl1@StPauls -smooth on -count 3
+
+
+
+join HeartbreakHillSPl1@HeartbreakHill TheOxbowSPl1@TheOxbow -smooth on
+
+#join SandChamberSPl1@SandChamber Damocles1Sp1@Damocles1 -smooth on
+#join Damocles1SPl30@Damocles1 Damocles2SPl1@Damocles2 -smooth on
+join NovemberSPl2@November TableauxSPl1@Tableaux -smooth on
+join TheOxbowSPl1@TheOxbow SideOxSPl1@SideOx -smooth on
+
+join WetWitchSPl1@WetWitch StPaulsSPl1@StPauls -smooth on
+
+##############################################
+#                                                                                                                             #
+# Projected elevation  maps and joins                                                                 #
+#                                                                                                                             #
+############################################## 
+
+map GoughsME0 -proj [elevation 0]
+  DSAvenME0@DSAven
+  BatRoomME0@BatRoom
+  KingsSolomonsME0@KingsSolomons
+  CastleHairyRingME0@CastleHairyRing
+  BlackcatME0@Blackcat
+  Damocles3ME0@Damocles3
+  Damocles2ME0@Damocles2
+  Damocles1ME0@Damocles1
+  NathansAtticME0@NathansAttic
+  DucksDelightME0@DucksDelight
+  EntranceME0@Entrance
+  FontsME0@Fonts 
+  HeartbreakHillME0@HeartbreakHill
+  TableauxME0@Tableaux
+  LloydHallME0@LloydHall
+  TheOxbowME0@TheOxbow
+  DireStraitsME0@DireStraits
+  StPaulsME0@StPauls
+  NovemberME0@November
+#  SandChamberME0@SandChamber
+  SandCrawlME0@SandCrawl
+  SideOxME0@SideOx
+  HeartbreakDigME0@HeartbreakDig
+  CheeseroomME0@Cheeseroom
+  WetWitchME0@WetWitch
+  FarRiftME0@FarRift
+  CableCrawlME0@CableCrawl
+  NathansDungeonME0@NathansDungeon
+  Improbable2ME0@Improbable2
+  BoulderChamberME0@BoulderChamber
+  TunnelME0@Tunnel
+  BeddingChamberME0@BeddingChamber
+  sumpsME0@sumps
+endmap 
+
+join DucksDelightSE0_1@DucksDelight FontsSE0_1@Fonts -smooth on
+join DucksDelightSE0_1@DucksDelight FontsSE0_2@Fonts -smooth on
+#join DSAvenSE0_1@DSAven TheOxbowSE0_3@TheOxbow -smooth on
+join EntranceSE0_1@Entrance FontsSE0_2@Fonts -smooth on
+### breaks the join due to joining other scrap so reconnecting
+#join TheOxbowSE0_2@TheOxbow  TheOxbowSE0_3@TheOxbow -smooth on
+
+
+##############################################
+#                                                                                                                             #
+# File imput and equates                                                                                     #
+#                                                                                                                             #
+##############################################
+
 input BatRoom/BatRoom.th
 input BeddingChamber/BeddingChamber.th
 input Blackcat/Blackcat.th
@@ -88,116 +258,6 @@ equate 1.2@Entrance 1.3@Skeleton
 equate 1.1@TheOxbow 1.0@Cheeseroom
 equate 1.2@TheOxbow 6.4@Cheeseroom
 equate 3.0@WetWitch 1.10@StPauls
-
-map GoughsM
-    GoughsUpperM
-    GoughsLowerM
-    BeddingChamberM@BeddingChamber
-    sumpsM@sumps
-endmap
-
-map GoughsDispM
-    BeddingChamberBoxM@BeddingChamber
-    BeddingChamberM@BeddingChamber [-9 30 m] above
- #   GoughsUpperM
-    GoughsLowerM [130 -30 m] below
-    LLoydTopM [25 10 m] above
-endmap
-
-map LLoydTopM
-  ImprobableM@Improbable
-  LloydHallTopM@LloydHall
-endmap
-
-map GoughsUpperM
-  DSAvenM@DSAven
-  BatRoomM@BatRoom
-  KingsSolomonsM@KingsSolomons
-  CastleHairyRingM@CastleHairyRing
-  BlackcatM@Blackcat
-  Damocles3M@Damocles3
-  Damocles2M@Damocles2
-  Damocles1M@Damocles1
-  NathansAtticM@NathansAttic
-  DucksDelightM@DucksDelight
-  EntranceM@Entrance
-  FontsM@Fonts 
-  HeartbreakHillM@HeartbreakHill
-  TableauxM@Tableaux
-  LloydHallBottomM@LloydHall
-  TheOxbowM@TheOxbow
-  DireStraitsM@DireStraits
-  StPaulsM@StPauls
-  NovemberM@November
-  SandChamberM@SandChamber
-  SandCrawlM@SandCrawl
-  SideOxM@SideOx
-  HeartbreakDigM@HeartbreakDig
-  CheeseroomM@Cheeseroom
-  WetWitchM@WetWitch
-endmap
-
-map GoughsLowerM
-  FarRiftM@FarRift
-  CableCrawlM@CableCrawl
-  NathansDungeonM@NathansDungeon
-  Improbable2M@Improbable2
-  BoulderChamberM@BoulderChamber
-  TunnelM@Tunnel  
-endmap
-
-
-#joins should be alphebetical, left to right, then top to bottom
-
-join BatRoomSPl1@BatRoom EntranceSPl1@Entrance -smooth on
-
-join BlackcatSPl1@Blackcat TableauxSPl1@Tableaux -smooth on
-join BlackcatSPl2@Blackcat Damocles1SPl1@Damocles1 -smooth on
-join BlackcatSPl2@Blackcat SandChamberSPl1@SandChamber -smooth on -count 3
-join BlackcatSPl2@Blackcat SandCrawlSPl1@SandCrawl -smooth on
-
-
-join BlackcatSPl2@Blackcat SandChamberSPl2@SandChamber -smooth on
-join BlackcatSPl4@Blackcat TableauxSPl1@Tableaux -smooth on
-join BoulderChamberSPl1@BoulderChamber FarRiftSPl1@FarRift -smooth on
-join BoulderChamberSPl1@BoulderChamber FarRiftSPl2@FarRift -smooth on
-join BoulderChamberSPl1@BoulderChamber Improbable2SPl1@Improbable2 -smooth on
-join BoulderChamberSPl1@BoulderChamber SandChamberSPl3@SandChamber -smooth on
-
-join CableCrawlSPl1@CableCrawl  Improbable2SPl1@Improbable2 -smooth on
-join CableCrawlSPl1@CableCrawl TunnelSPl1@Tunnel -smooth on
-join CheeseroomSPl1@Cheeseroom HeartbreakHillSPl1@HeartbreakHill  -smooth on
-join CheeseroomSPl1@Cheeseroom TheOxbowSPl1@TheOxbow  -smooth on
-
-join EntranceSPl1@Entrance FontsSPl1@Fonts -smooth on
-join EntranceSPl1@Entrance HeartbreakHillSPl1@HeartbreakHill -smooth on
-join EntranceSPl1@Entrance TheOxbowSPl1@TheOxbow -smooth on
-
-join FarRiftSPl3@FarRift NathansDungeonSPl1@NathansDungeon -smooth on
-
-join HeartbreakHillSPl1@HeartbreakHill HeartbreakDigSPl1@HeartbreakDig -smooth on
-join HeartbreakHillSPl1@HeartbreakHill TunnelSPl1@Tunnel -smooth on
-
-join ImprobableSPl1@Improbable LloydHallSPl1@LloydHall -smooth on
-join ImprobableSPl1@Improbable TunnelSPl1@Tunnel -smooth on
-
-#Order of the next group, for some reason, of joins is important to make it join correctly
-join HeartbreakHillSPl1@HeartbreakHill TableauxSPl1@Tableaux -smooth on
-join StPaulsSPl2@StPauls TableauxSPl1@Tableaux -smooth on 
-join HeartbreakHillSPl1@HeartbreakHill StPaulsSPl1@StPauls -smooth on -count 3
-
-
-
-join HeartbreakHillSPl1@HeartbreakHill TheOxbowSPl1@TheOxbow -smooth on
-
-#join SandChamberSPl1@SandChamber Damocles1Sp1@Damocles1 -smooth on
-#join Damocles1SPl30@Damocles1 Damocles2SPl1@Damocles2 -smooth on
-join NovemberSPl2@November TableauxSPl1@Tableaux -smooth on
-join TheOxbowSPl1@TheOxbow SideOxSPl1@SideOx -smooth on
-
-join WetWitchSPl1@WetWitch StPaulsSPl1@StPauls -smooth on
-
-  
 
 endsurvey
 
