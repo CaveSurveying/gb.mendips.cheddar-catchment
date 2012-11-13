@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -834.81 -344.59 5008.85 2067.52
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {4247.97403874 1 1.0} {423.767178493 1.0} PocketTopo/UnderGorge_E90.xvi 0 {}
+
+
+scrap UnderGorgeSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap UnderGorgeSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap UnderGorgeSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap UnderGorgeSE90_4 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

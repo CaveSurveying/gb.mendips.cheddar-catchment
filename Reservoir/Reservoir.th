@@ -47,12 +47,14 @@ input Sleeper/Sleeper.th
 input TopDig/TopDig.th
 input ToHole/ToHole.th
 input ToplessAven/ToplessAven.th
+input UnderGorge/UnderGorge.th
 input Vertigo/Vertigo.th
 #Connection to the therionised data
 #equate 471@R6 1.0@TopDig
 
 equate 1.6@ChGorge 1.0@ToHole
 
+equate 1.0@Ascension 1.6@UnderGorge
 equate 1.27@Ascension 1.7@Vertigo
 equate 1.35@Ascension 5.15@FrozenDeep
 equate 11.0@Deeper 5.12@FrozenDeep

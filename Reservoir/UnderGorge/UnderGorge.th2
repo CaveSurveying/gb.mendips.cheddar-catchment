@@ -1,0 +1,36 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -286.62 -881.73 1719.73 5290.39
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {355.909238435 1 1.0} {821.968503937 1.0} PocketTopo/UnderGorge_p.xvi 0 {}
+
+
+scrap UnderGorgeSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap UnderGorgeSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap UnderGorgeSPX1.21 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap UnderGorgeSPX1.14 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap UnderGorgeSPX1.11 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap UnderGorgeSPX1.10 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

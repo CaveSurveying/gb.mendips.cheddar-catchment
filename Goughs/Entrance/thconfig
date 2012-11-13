@@ -24,7 +24,7 @@ export model -fmt survex -o Entranceth.3d
 
 layout local
 copy common
-debug off
+debug on
 map-header 0 0 off
 endlayout
 

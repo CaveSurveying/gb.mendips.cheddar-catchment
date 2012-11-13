@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1085.25 -422.05 6511.5 2532.28
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {835.53809884 1 1.0} {503.937007874 1.0} PocketTopo/UnderGorge_e.xvi 0 {}
+
+
+scrap UnderGorgeSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap UnderGorgeSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
