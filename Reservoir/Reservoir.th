@@ -7,6 +7,7 @@ input ChGorge/ChGorge.th
 input Deeper/Deeper.th
 input DingleyDell/DingleyDell.th
 input FrozenDeep/FrozenDeep.th
+solve
 input GreatExpectations/GreatExpectations.th
 input Golgotha/Golgotha.th
 input HerbertsAttic/HerbertsAttic.th
