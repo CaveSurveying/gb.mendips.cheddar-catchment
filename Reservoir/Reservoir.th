@@ -114,6 +114,7 @@ endmap
 
 map ReservoirM -title "Reservoir Hole" -proj plan
   AscensionM@Ascension
+  VertigoM@Vertigo
   FrozenDeep
   HerbertsAtticM@HerbertsAttic
   GolgothaM@Golgotha
@@ -133,6 +134,7 @@ map ReservoirM -title "Reservoir Hole" -proj plan
   ToplessAvenM@ToplessAven
   DeeperM@Deeper
   DingleyDellM@DingleyDell
+  UnderGorgeM@UnderGorge
 #  R1@R1
 #  R2@R2
 #  R3@R3

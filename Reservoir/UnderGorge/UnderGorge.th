@@ -7,7 +7,6 @@ input UnderGorgeE90.th2
 
 map UnderGorgeM
   UnderGorgeSP1
-  UnderGorgeSP2
 endmap
 
 map UnderGorgeME
