@@ -76,6 +76,8 @@ equate 1.0@ResEnt 1.0@ChGorge
 
 #Plan joins
 ##########################################
+join AscensionSP1@Ascension VertigoSP1@Vertigo -smooth on
+join AscensionSP1@Ascension UnderGorgeSP1@UnderGorge -smooth on
 join DeeperSP1@Deeper FrozenDeepSPl1@FrozenDeep -smooth on
 join DeeperSP2@Deeper DingleyDellSP1@DingleyDell -smooth on
 join FrozenDeepSPl1@FrozenDeep GreatExpectationsSPl2@GreatExpectations  -smooth on
@@ -92,6 +94,7 @@ join TopDigSPl1@TopDig ToplessAvenSPl1@ToplessAven -smooth on
 
 #Projected Elevation joins (E90)
 ##########################################
+
 join DeeperSE90_2@Deeper FrozenDeepSE90_1@FrozenDeep -smooth on
 join FrozenDeepSE90_1@FrozenDeep GreatExpectationsSE90_1@GreatExpectations -smooth on
 join GolgothaSE90_1@Golgotha HerbertsAtticSE90_1@HerbertsAttic -smooth on
@@ -152,7 +155,9 @@ map ReservoirM -title "Reservoir Hole" -proj plan
 endmap
 
 map ReservoirME90 -proj [elevation 90]
+  UnderGorgeME90@UnderGorge
   AscensionME90@Ascension
+  VertigoME90@Vertigo
   GreatExpectationsME90@GreatExpectations
   HerbertsAtticME90@HerbertsAttic
   GolgothaME90@Golgotha
