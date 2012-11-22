@@ -18,7 +18,7 @@ endmap
 equate 1.10@Entrance 2.0@Hazelnut
 
 #Plan joins
-join EntranceSPl2@Entrance HazelnutSPl1@Hazelnut
+join EntranceSPl2@Entrance HazelnutSPl1@Hazelnut -smooth on
 
 #Elevation joins
 
