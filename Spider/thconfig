@@ -6,30 +6,114 @@ source Spider.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o Spider_No_tran.pdf
+###############
+#projection needs to come first as it is used in the plan
+###############
+export map -proj extended -layout Projected -o SpiderEe.pdf
+#Produces projection of cave on a single sheet
+
+export map -proj plan -layout plan -o Spider.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj extended -layout local -o SpiderEe_No_tran.pdf
-
-export model -fmt survex -o Spiderth.3d
+#export model -fmt survex -o Spiderth.3d
 #Survex file showing centre line only
 
 #export model -o Spider.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o Spider_Walls.3d
-#Survex file showing walls only
+layout plan
+copy local
 
-layout local
-copy common
-debug off
-symbol-hide group centreline
-map-header 0 0 ne
 
-scale 1 200
-transparency off
-layers off
+
+map-image -90 100 ne SpiderEe.pdf
+map-header 0 -20 nw
+
+map-comment "Length 94.95 m (surveyed)<br>\
+Depth 56.18 m (surveyed)<br>\
+<br>\
+Drawn using Therion<br>\
+by Andrew Atkinson and Graham Mullan.<br>\
+Survey Andrew Atkinson, Peter Hann and Adrian Vanderplank<br>\
+<br>\
+Grade UISv1 6-4-BDEF<br>\
+Copyright 2011-12 CC BY NC SA<br>\
+Data available at http://cave-registry.org.uk/<br>\
+<br>\
+Heights in metres OD"
+
+scale-bar 25 metres
+
+colour-legend off
+
+code tex-map
+  \cavename={\size [40] Spider Hole} 
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse
+    
+endcode    
 
 endlayout
 
+layout Projected
+copy local
+#map-header 50 100 off
+
+symbol-hide special north-arrow
+symbol-hide special scale-bar
+#legend-width 20 cm 
+
+#code tex-map
+#  \cavename={\size[40]  Spider Hole}
+# \cavelength={} %empty
+#  \cavedepth={}  %empty
+#  \def\maplayout{
+#    \legendbox{0}{95}{s}{
+#      \the\cavename
+#    }
+#  }
+endcode
+endlayout
+
+layout local
+copy common
+doc-title "Spider Hole"
+#rotate -90
+grid-size 20 20 10 metres
+
+#base-scale 1 500
+scale 1 250
+
+#A3
+#scale 1 2750
+#base-scale 1 750
+
+#A4
+#scale 1 6000
+
+symbol-hide point remark
+symbol-hide group cave-centreline
+
+#grid off
+map-header 50 70 off
+map-header-bg on
+
+statistics explo off
+statistics topo off
+
+code metapost
+
+#base 1:750 scale 1:2750 (A3 charterhouse,GB)
+#fonts_setup(8,16,24,40,60)
+
+#scale 1:1000 (A0 width charterhouse,GB)
+fonts_setup(7,10,14,20,30)
+
+#base 1:500 scale 1:2750 
+#fonts_setup(8,20,26,40,60)      
+    
+endlayout
+
+#get the master layout settings
 input ../common_layout.th

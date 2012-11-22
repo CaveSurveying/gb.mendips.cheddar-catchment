@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 2882.0 4044.0
-##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {2637.8730708661415 1 1.0} {3513.148267716535 2.0} PocketTopo/Hazelnutth_e.xvi 0 {}
+##XTHERION## xth_me_area_adjust -128.0 -740.0 2896.0 4060.0
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {2637.87307087 1 1.0} {3513.14826772 2.0} PocketTopo/Hazelnutth_e.xvi 0 {}
 
 
 
@@ -21,6 +21,7 @@ line wall -subtype debris
   1767.0 2381.0 1748.0 2376.0 1766.0 2425.0
   1784.0 2474.0 1777.0 2490.0 1781.0 2534.0
   1785.0 2578.0 1766.0 2600.0 1783.0 2632.0
+  smooth off
 endline
 
 line wall -subtype debris
@@ -118,6 +119,7 @@ line overhang
   1123.0 2028.0 1094.0 2014.0 1063.0 2015.0
   1032.0 2016.0 999.0 2008.0 977.0 2009.0
   955.0 2010.0 940.0 2012.0 902.0 2011.0
+  smooth off
 endline
 
 line wall -subtype debris
@@ -146,6 +148,33 @@ line wall -subtype unsurveyed
 endline
 
 line wall -subtype debris
+endline
+
+line wall -subtype presumed
+  1000.0 -592.0
+  1008.0 -212.0
+  1196.0 -196.0
+  1232.0 64.0
+endline
+
+point 1800.0 -312.0 label -scale m -text "shaft in boulders<br>digging in progress"
+
+point 1660.0 1416.0 label -scale m -text "Nut Pitch"
+
+point 2292.0 2364.0 label -scale m -text "Hazel Pitch"
+
+point 88.0 3860.0 label -scale l -text "Extended Elevation"
+
+point 1340.0 3620.0 label -scale m -text "Hazelnut Rift
+
+line wall -subtype presumed
+  1092.0 116.0
+  1096.0 -92.0
+  872.0 -108.0
+  876.0 -584.0
+endline
+
+line wall -subtype debris
   51.0 682.0
   72.0 672.0 91.0 670.0 127.0 652.0
   163.0 634.0 187.0 620.0 227.0 604.0
@@ -158,9 +187,12 @@ line wall -subtype debris
   738.0 403.0 820.0 367.0 853.0 354.0
   886.0 341.0 896.0 355.0 919.0 335.0
   942.0 315.0 992.0 286.0 1010.0 241.0
-  1028.0 196.0 1045.0 156.0 1078.0 124.0
-  1111.0 92.0 1128.0 55.0 1158.0 64.0
-  1188.0 73.0 1191.0 69.0 1234.0 91.0
+  1028.0 196.0 1059.0 148.0 1092.0 116.0
+  smooth off
+endline
+
+line wall -subtype debris
+  1234.0 91.0
   1277.0 113.0 1334.0 160.0 1342.0 166.0
   1350.0 172.0 1396.0 205.0 1434.0 245.0
   1472.0 285.0 1496.0 299.0 1543.0 369.0
