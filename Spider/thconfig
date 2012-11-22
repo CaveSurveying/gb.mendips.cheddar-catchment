@@ -29,14 +29,16 @@ copy local
 map-image -90 100 ne SpiderEe.pdf
 map-header 0 -20 nw
 
-map-comment "Length 94.95 m (surveyed)<br>\
+map-comment "Cheddar Gorge, Somerset<br>\
+<br>\
+Length 94.95 m (surveyed)<br>\
 Depth 56.18 m (surveyed)<br>\
 <br>\
 Drawn using Therion<br>\
 by Andrew Atkinson and Graham Mullan.<br>\
-Survey Andrew Atkinson, Peter Hann and Adrian Vanderplank<br>\
+Survey by Andrew Atkinson, Peter Hann and Adrian Vanderplank<br>\
 <br>\
-Grade UISv1 6-4-BDEF<br>\
+Grade UISv1 6-4-EF<br>\
 Copyright 2011-12 CC BY NC SA<br>\
 Data available at http://cave-registry.org.uk/<br>\
 <br>\
