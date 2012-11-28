@@ -1,0 +1,61 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -221.57 -754.72 1329.45 4528.35
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {614.724409449 1 1.0} {610.433070866 1.0} PocketTopo/BoneDig_p.xvi 0 {}
+
+
+scrap BoneDigSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoneDigSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoneDigSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoneDigSP4 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoneDigSPX1.37 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoneDigSPX1.27 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoneDigSPX1.24 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoneDigSPX1.13 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoneDigSPX1.8 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoneDigSPX1.5 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoneDigSPX1.1 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

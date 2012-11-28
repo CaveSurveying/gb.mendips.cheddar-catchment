@@ -1,15 +1,58 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -260.92 -246.2 1565.54 1477.23
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {1344.40532368 1 1.0} {696.423132465 1.0} PocketTopo/Vertigo_E90.xvi 0 {}
+##XTHERION## xth_me_image_insert {549.39532368 1 1.0} {567.203132465 1.4} PocketTopo/Vertigo_E90.xvi 0 {}
 
 
-scrap VertigoSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
-endscrap
+scrap VertigoSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -subtype presumed
+  1554.0 1112.0
+  1478.0 1154.0 1448.0 1328.0 1410.0 1330.0
+  1372.0 1332.0 1226.0 1336.0 1160.0 1350.0
+  1094.0 1364.0 890.0 1368.0 832.0 1360.0
+  774.0 1352.0 710.0 1240.0 652.0 1226.0
+  594.0 1212.0 372.0 1176.0 340.0 1168.0
+  308.0 1160.0 132.0 990.0 78.0 954.0
+endline
 
-scrap VertigoSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+line overhang -reverse on
+  908.0 572.0
+  930.0 570.0 1022.0 542.0 1042.0 540.0
+  1062.0 538.0 1192.0 514.0 1234.0 522.0
+  1276.0 530.0 1346.0 596.0 1384.0 602.0
+  1422.0 608.0 1440.0 596.0 1478.0 600.0
+endline
+
+line wall -subtype presumed
+  1114.0 256.0
+  1140.0 254.0 1260.0 252.0 1302.0 256.0
+  1344.0 260.0 1430.0 256.0 1450.0 258.0
+endline
+
+line wall
+  268.0 110.0
+  278.0 148.0 258.0 150.0 296.0 188.0
+  334.0 226.0 452.0 384.0 540.0 380.0
+  628.0 376.0 762.0 366.0 798.0 356.0
+  834.0 346.0 874.0 344.0 898.0 338.0
+  922.0 332.0 1074.0 258.0 1114.0 256.0
+endline
+
+point 1344.40532368 696.423132465 station -name 1.0
+
+point 1231.0553236800001 617.573132465 station -name 1.1
+
+point 937.01532368 623.7331324649999 station -name 1.2
+
+point 790.57532368 679.943132465 station -name 1.3
+
+point 549.39532368 567.203132465 station -name 1.4
+
+point 289.71532368 276.44313246499996 station -name 1.5
+
+point 224.8353236800001 123.10313246499993 station -name 1.6
 
 endscrap
 
