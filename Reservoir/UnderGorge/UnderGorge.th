@@ -17,8 +17,9 @@ endmap
 map UnderGorgeME90 -proj [elevation 90]
   UnderGorgeSE90_1
   UnderGorgeSE90_2
-  UnderGorgeSE90_3
   UnderGorgeSE90_4
+  UnderGorgeSE90_3
+  
 endmap
 centreline
 
