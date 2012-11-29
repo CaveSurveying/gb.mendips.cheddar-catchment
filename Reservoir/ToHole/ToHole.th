@@ -17,6 +17,7 @@ copyright 2012 "CC BY SA NC"
 
 data normal from to tape compass clino ignoreall
   extend right
+flags surface
 1.0  -  0.0  0.0  0.0  
 #1.0  1.1  54.468  147.54  28.95  
 #1.0  1.1  54.44  147.39  29.05  
@@ -26,6 +27,8 @@ data normal from to tape compass clino ignoreall
 #1.0  1.2  44.528  169.87  23.36  
 #1.0  1.2  44.544  169.99  23.42  
 1.0  1.2  44.527  169.87  23.41  Calculated leg from 3 above
+flags not surface
+
 endcentreline
 endsurvey
 
