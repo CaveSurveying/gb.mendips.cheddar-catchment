@@ -1,0 +1,56 @@
+encoding  utf-8
+
+survey BZA_CL -title "BZA Centreline only"  # MCG Suunto Compass and clino survey
+  centreline
+    units clino compass degree
+    units length centimeter
+#    calibrate length 0.095  # missing first 10cm - check?
+
+    team "Tim Francis"
+    team "Richard Carey"
+    date 2007.01.06
+    data normal from to length compass clino
+
+    #declination -3.964 deg  	# BGS at 2007.01.06 51.2987N 2.71038W 
+    #declination -3.077 deg  	# BGS at 2007.01.06 51.2987N 2.71038W 0.2km alt.  2010 Model.  Updated Nov 2011
+  				# http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html
+    declination -2.524 deg    	# Allign to grid, Grid North +0.5535 deg
+
+    sd length 1 centimeter
+    sd compass 1 degree
+    sd clino 1 degree
+
+    extend start D12
+    extend right
+    #		length	bearing	dip	Notes on first station per leg
+    flags duplicate
+	
+	  # Copy E survey from D11, name it D to use in correcting dodgy Muddy Tube survey
+	  # Break survey here to avoid false loops
+		# E11	D12	475	133	4	#Boulder at Zebra Aven - oxbow back in right	
+      D12	D13	884	128	14	#The traverses
+      D13	D14	900	124	26	#The traverses
+      D14	D15	570	120	1	#The traverses
+      D15	D16	812	091	3	#The traverses
+      D16	D17	120	099	1	#Gour aven on right
+      D17	D18	840	110	-3	#Mud crawl
+      D18	D19	1525	135	-17	#Left wall, lip of pit
+      D19	D20	1000	129	-3	#Right wall
+      D20	D21	292	127	-1	#Right wall, narrow rift
+      D21	D22	260	261	2	#Descending tube, poor air
+      D22	D23	250	268	0	
+      D23	D24	250	227	-6	
+      D24	D25	255	241	-3	
+     sd compass 10 degree			# suspect compass shot
+      D25	D26	566	311	-2	
+     sd compass 1 degree
+
+      D26	D27	507	158	-6	
+      D28	D27	556	089	4	#Low muddy squeeze, Left wall
+      D28	D29	347	215	-18	#Junction. Closes down at pool ahead
+      D29	D30	770	341	2	
+      D30	D31	1231	337	-1	#Right wall, sump pool
+      D31	D32	700	304	0	#Sump pool
+    flags not duplicate
+  endcentreline
+endsurvey #BZA_CL

@@ -1,0 +1,25 @@
+encoding  utf-8
+language en_UK
+source AwolAven.th
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 100 
+endlayout
+
+layout l2
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 100
+ 	survey-level 1 
+endlayout
+
+export model -format survex -o 0.Maps/AwolAven.3d
+export model -format loch -o 0.Maps/AwolAven.lox
+export map -projection plan -layout l1 -o 0.Maps/AwolAven_survey.pdf
+export map -projection extended -layout l2 -o 0.Maps/AwolAven_surveyEx.pdf
+export map -projection plan -format xvi -layout l1 -o 0.Maps/AwolAven.xvi
+export map -projection extended -format xvi -layout l1 -o 0.Maps/AwolAven_ex.xvi
+export map -projection [elevation 128] -format xvi -layout l2 -o 0.Maps/AwolAven_el128.xvi
+#export atlas -projection plan -layout l1 -o 0.Maps/AwolAven.pdf

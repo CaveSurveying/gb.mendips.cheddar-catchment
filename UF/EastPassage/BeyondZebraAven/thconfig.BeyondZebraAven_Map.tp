@@ -1,0 +1,12 @@
+encoding  utf-8
+language en_UK
+source BeyondZebraAven.th
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 200 
+endlayout
+
+select BeyondZebraAven_map@BeyondZebraAven
+export map -projection plan -layout l1 -o 0.Maps/BeyondZebraAven_Map.pdf

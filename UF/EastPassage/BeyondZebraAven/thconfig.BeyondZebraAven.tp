@@ -1,0 +1,25 @@
+encoding  utf-8
+language en_UK
+source BeyondZebraAven.th
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 200
+endlayout
+
+layout l165
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 165
+endlayout
+
+
+export model -format survex -o 0.Maps/BeyondZebraAven.3d
+export model -format loch -o 0.Maps/BeyondZebraAven.lox
+export map -projection plan -layout l1 -o 0.Maps/BeyondZebraAven.pdf
+export map -projection plan -format xvi -layout l1 -o 0.Maps/BeyondZebraAven.xvi
+export map -projection plan -format xvi -layout l165 -o 0.Maps/BeyondZebraAven_165.xvi
+export map -projection extended -format xvi -layout l1 -o 0.Maps/BeyondZebraAven_ex.xvi
+export map -projection elevation -format xvi -layout l1 -o 0.Maps/BeyondZebraAven_el.xvi
+#export atlas -projection plan -layout l1 -o 0.Maps/BeyondZebraAven.pdf

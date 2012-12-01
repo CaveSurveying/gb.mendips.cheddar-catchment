@@ -1,115 +1,41 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 266.31 -340.71 3809.705 1942.845
-##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {1536.05 0 1.02329299228} {1421.15 E6@EastPassage} 0.Maps/EastPassage.xvi 0 {}
+##XTHERION## xth_me_area_adjust -214.0 -507.0 3955.1548 2254.3735
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {1274.06 1 1.0} {1649.16 E6@EP_CL.EastPassage} 0.Maps/EastPassage165.xvi 0 {}
 
 
 
-scrap EastPassage_s1 -stations [53@EP.Pony 20@BeyondZebraAven.Pony 61@BeyondZebraAven.Pony ] -scale [-128.0 -128.0 557.4926 -128.0 0.0 0.0 17.41151204 0.0 m]
+scrap EastPassage_s1 -stations [10@EP_Pony 11@EP_Pony 22d@EP_Pony 49@EP_Pony 4b@DeepPoolTube 49@BZA_Pony.BeyondZebraAven] -scale [-128.0 -128.0 557.4926 -128.0 0.0 0.0 17.41151204 0.0 m]
 
-point 3000.48 890.7 station -id BZA_44 -name 44@BeyondZebraAven.Pony
+point 1967.79 1388.43 station -name 20@BZA_Pony.BeyondZebraAven
 
-point 2598.67 728.21 station -id BZA_70 -name 70@BeyondZebraAven.Pony
+point 1595.25 1311.75 station -id EP_19 -name 19@EP_Pony
 
-point 2785.74 588.63 station -id BZA_69 -name 69@BeyondZebraAven.Pony
+point 1531.76 1385.2 station -id EP_18 -name 18@EP_Pony
 
-point 2814.61 436.39 station -id BZA_68 -name 68@BeyondZebraAven.Pony
+point 1456.0 1425.0 station -id EP_17 -name 17@EP_Pony
 
-point 2848.73 350.26 station -id BZA_67 -name 67@BeyondZebraAven.Pony
+point 1386.0 1509.0 station -id EP_16 -name 16@EP_Pony
 
-point 2749.47 369.35 station -id BZA_66 -name 66@BeyondZebraAven.Pony
+point 1357.1 1567.02 station -id EP_15 -name 15@EP_Pony
 
-point 2860.42 296.33 station -id BZA_65 -name 65@BeyondZebraAven.Pony
+point 1272.4 1647.19 station -id EP_14 -name 14@EP_Pony
 
-point 2906.0 37.21 station -id BZA_62 -name 62@BeyondZebraAven.Pony
+point 1184.83 1753.14 station -id EP_ -name 13@EP_Pony
 
-point 2904.56 190.87 station -id BZA_61 -name 61@BeyondZebraAven.Pony
+point 1024.01 1692.77 station -id EP_12 -name 12@EP_Pony
 
-point 2917.93 244.32 station -id BZA_60 -name 60@BeyondZebraAven.Pony
+point 761.0 1425.0 station -id EP_9 -name 9@EP_Pony
 
-point 2977.58 172.02 station -id BZA_63 -name 63@BeyondZebraAven.Pony
+point 838.0 1421.0 station -id EP_8 -name 8@EP_Pony
 
-point 2969.94 274.38 station -id BZA_58 -name 58@BeyondZebraAven.Pony
+point 832.64 1482.32 station -id EP_7 -name 7@EP_Pony
 
-point 3084.0 283.93 station -id BZA_57 -name 57@BeyondZebraAven.Pony
+point 828.35 1578.71 station -id EP_6 -name 6@EP_Pony
 
-point 3109.05 297.53 station -id BZA_56 -name 56@BeyondZebraAven.Pony
+point 775.62 1655.31 station -id EP_5 -name 5@EP_Pony
 
-point 3079.46 313.27 station -id BZA_55 -name 55@BeyondZebraAven.Pony
-
-point 3057.51 394.16 station -id BZA_54 -name 54@BeyondZebraAven.Pony
-
-point 3109.53 410.63 station -id BZA_53 -name 53@BeyondZebraAven.Pony
-
-point 3192.08 392.01 station -id BZA_52 -name 52@BeyondZebraAven.Pony
-
-point 3270.11 420.89 station -id BZA_51 -name 51@BeyondZebraAven.Pony
-
-point 3326.66 467.41 station -id BZA_50 -name 50@BeyondZebraAven.Pony
-
-point 3432.6 480.06 station -id BZA_48 -name 48@BeyondZebraAven.Pony
-
-point 3323.08 559.99 station -id BZA_47 -name 47@BeyondZebraAven.Pony
-
-point 3119.79 682.64 station -id BZA_46 -name 46@BeyondZebraAven.Pony
-
-point 3042.48 822.7 station -id BZA_45 -name 45@BeyondZebraAven.Pony
-
-point 2901.46 934.37 station -id BZA_43 -name 43@BeyondZebraAven.Pony
-
-point 2745.41 843.7 station -id BZA_41 -name 41@BeyondZebraAven.Pony
-
-point 2715.35 978.99 station -id BZA_42 -name 42@BeyondZebraAven.Pony
-
-point 2540.93 909.31 station -id BZA_36 -name 36@BeyondZebraAven.Pony
-
-point 2598.43 861.11 station -id BZA_29 -name 29@BeyondZebraAven.Pony
-
-point 2523.03 942.0 station -id BZA_27 -name 27@BeyondZebraAven.Pony
-
-point 2514.2 976.36 station -id BZA_26 -name 26@BeyondZebraAven.Pony
-
-point 2673.12 776.89 station -id BZA_31 -name 31@BeyondZebraAven.Pony
-
-point 2448.59 1040.55 station -name 25@BeyondZebraAven.Pony
-
-point 2279.89 1133.84 station -name 23@BeyondZebraAven.Pony
-
-point 2398.0 1068.46 station -name 24@BeyondZebraAven.Pony
-
-point 2215.95 1174.17 station -name 22@BeyondZebraAven.Pony
-
-point 2143.41 1262.45 station -name 21@BeyondZebraAven.Pony
-
-point 1967.79 1388.43 station -name 20@BeyondZebraAven.Pony
-
-point 1595.25 1311.75 station -id EP_19 -name 19@EP.Pony
-
-point 1531.76 1385.2 station -id EP_18 -name 18@EP.Pony
-
-point 1456.0 1425.0 station -id EP_17 -name 17@EP.Pony
-
-point 1386.0 1509.0 station -id EP_16 -name 16@EP.Pony
-
-point 1357.1 1567.02 station -id EP_15 -name 15@EP.Pony
-
-point 1272.4 1647.19 station -id EP_14 -name 14@EP.Pony
-
-point 1184.83 1753.14 station -id EP_ -name 13@EP.Pony
-
-point 1024.01 1692.77 station -id EP_12 -name 12@EP.Pony
-
-point 761.0 1425.0 station -id EP_9 -name 9@EP.Pony
-
-point 838.0 1421.0 station -id EP_8 -name 8@EP.Pony
-
-point 832.64 1482.32 station -id EP_7 -name 7@EP.Pony
-
-point 828.35 1578.71 station -id EP_6 -name 6@EP.Pony
-
-point 775.62 1655.31 station -id EP_5 -name 5@EP.Pony
-
-point 589.74 1703.27 station -id EP_4 -name 4@EP.Pony
+point 588.64 1705.33 station -id EP_4 -name 4@EP_Pony
 
 line pit -reverse on
   1612.5 1314.0
@@ -139,13 +65,13 @@ line wall -outline in
   1999.5 1426.5 1950.0 1455.0 1940.5 1461.5
   1931.0 1468.0 1881.5 1513.0 1868.5 1517.5
   1855.5 1522.0 1673.5 1502.0 1665.0 1499.5
-  1658.13 1497.48 1730.48 1473.28 1739.0 1467.0
+  1658.13 1497.48 1690.02 1489.37 1698.54 1483.09
   smooth off
 endline
 
 line wall -reverse on -outline in
-  1732.0 1454.5
-  1723.21 1455.67 1640.0 1497.5 1622.0 1485.0
+  1693.5 1469.5
+  1684.71 1470.67 1640.0 1497.5 1622.0 1485.0
   1604.0 1472.5 1596.61 1468.52 1590.0 1471.0
   1562.0 1481.5 1516.0 1536.5 1510.0 1543.0
   1504.0 1549.5 1424.0 1610.0 1414.0 1612.0
@@ -162,6 +88,10 @@ point 777.0 1288.0 dig
 
 point 693.0 1477.0 dig
 
+point 622.0 1674.5 dig
+
+point 1469.5 770.5 label -text "H4x0r<br><right>Tube" -scale m -align l
+
 point 1319.5 1012.0 dig
 
 line arrow -head end
@@ -173,8 +103,6 @@ point 2210.0 750.0 label -text "Aven" -scale xs -align r
 
 point 1647.0 1095.0 label -orientation 48.0 -text "Aven" -scale xs -align r
 
-point 2739.0 1358.0 label -text "East Passage" -scale l -align r
-
 line arrow -head begin
   1755.0 1128.0
   1817.0 1059.0
@@ -182,75 +110,69 @@ endline
 
 point 1809.0 1036.0 label -orientation 50 -text "13/06/2008" -scale xs -align r
 
-line chimney -close on
-  2028.0 1346.0
-  2017.0 1334.0 2101.0 1266.0 2110.0 1276.0
-  2119.0 1286.0 2039.0 1358.0 2028.0 1346.0
-endline
+point 2468.87 346.44 station -name 35@EP_Pony
 
-point 2468.87 346.44 station -name 35@EP.Pony
+point 2098.79 580.51 station -name 36@EP_Pony
 
-point 2098.79 580.51 station -name 36@EP.Pony
+point 2262.16 472.15 station -name 34@EP_Pony
 
-point 2262.16 472.15 station -name 34@EP.Pony
+point 2242.33 556.28 station -name 33@EP_Pony
 
-point 2242.33 556.28 station -name 33@EP.Pony
+point 2220.0 613.5 station -name 32@EP_Pony
 
-point 2220.0 613.5 station -name 32@EP.Pony
+point 2186.26 669.86 station -name 31@EP_Pony
 
-point 2186.26 669.86 station -name 31@EP.Pony
+point 2128.99 724.26 station -name 30@EP_Pony
 
-point 2128.99 724.26 station -name 30@EP.Pony
+point 2051.73 858.45 station -name 29@EP_Pony
 
-point 2051.73 858.45 station -name 29@EP.Pony
+point 1957.44 965.49 station -name 28@EP_Pony
 
-point 1957.44 965.49 station -name 28@EP.Pony
+point 1905.5 1053.0 station -name 27@EP_Pony
 
-point 1905.5 1053.0 station -name 27@EP.Pony
+point 1790.65 1144.21 station -name 26@EP_Pony
 
-point 1790.65 1144.21 station -name 26@EP.Pony
+point 1720.02 1159.72 station -name 24@EP_Pony
 
-point 1720.02 1159.72 station -name 24@EP.Pony
+point 2109.06 1545.49 station -name 51@EP_Pony
 
-point 2109.06 1545.49 station -name 51@EP.Pony
+point 1986.9 1617.31 station -name 50@EP_Pony
 
-point 1986.9 1617.31 station -name 50@EP.Pony
+point 1628.02 1489.37 station -id EP_EP_53 -name 53@EP_Pony
 
-point 1628.02 1489.37 station -id EP_EP_53 -name 53@EP.Pony
+point 1721.0 1557.5 station -id EP_FLRUD52 -name 52@EP_Pony
 
-point 1721.0 1557.5 station -id EP_FLRUD52 -name 52@EP.Pony
+point 1929.15 1612.54 station -name 48@EP_Pony
 
-point 1929.15 1612.54 station -name 48@EP.Pony
+point 1864.01 1521.15 station -id EP_EP_47 -name 47@EP_Pony
 
-point 1864.01 1521.15 station -id EP_EP_47 -name 47@EP.Pony
+point 1957.07 1492.04 station -name 46@EP_Pony
 
-point 1957.07 1492.04 station -name 46@EP.Pony
+point 2246.5 1474.86 station -name 45@EP_Pony
 
-point 2246.5 1474.86 station -name 45@EP.Pony
+point 2069.0 1365.5 station -name 44@EP_Pony
 
-point 2069.0 1365.5 station -name 44@EP.Pony
+point 2075.18 1411.15 station -name 43@EP_Pony
 
-point 2075.18 1411.15 station -name 43@EP.Pony
+point 2048.22 1351.74 station -name 42@EP_Pony
 
-point 2048.22 1351.74 station -name 42@EP.Pony
+point 1992.5 1306.0 station -name 41@EP_Pony
 
-point 1992.5 1306.0 station -name 41@EP.Pony
+point 1899.2 1318.4 station -name 40@EP_Pony
 
-point 1899.2 1318.4 station -name 40@EP.Pony
+point 1783.01 1361.34 station -name 39@EP_Pony
 
-point 1783.01 1361.34 station -name 39@EP.Pony
+point 1389.42 1018.65 station -name 22d@EP_Pony -visibility off
 
-point 1389.42 1018.65 station -name 22d@EP.Pony -visibility off
+point 1665.38 1321.97 station -name 38@EP_Pony
 
-point 1665.38 1321.97 station -name 38@EP.Pony
+point 1732.67 1267.09 station -name 37@EP_Pony
 
-point 1732.67 1267.09 station -name 37@EP.Pony
+point 1670.5 1175.0 station -name 23@EP_Pony
 
-point 1670.5 1175.0 station -name 23@EP.Pony
+point 1596.0 1270.5 station -name 21@EP_Pony
 
-point 1596.0 1270.5 station -name 21@EP.Pony
-
-point 1636.0 1270.0 station -name 20@EP.Pony
+point 1636.0 1270.0 station -name 20@EP_Pony
 
 line wall -close on -outline in
   1663.5 1205.0
@@ -327,7 +249,14 @@ line wall -reverse on
   1888.5 1539.5 1949.5 1496.5 1961.0 1489.0
   1972.5 1481.5 2050.5 1431.5 2062.5 1422.0
   2074.5 1412.5 2097.5 1402.5 2120.5 1411.5
-  2143.5 1420.5 2295.5 1509.5 2295.5 1509.5
+  smooth off
+endline
+
+line wall -reverse on -subtype unsurveyed
+  2120.5 1411.5
+  2143.5 1420.5 2278.38 1515.01 2303.0 1517.0
+  altitude .
+  2319.32 1518.32 2390.0 1448.0 2398.5 1434.0
   smooth off
 endline
 
@@ -351,7 +280,7 @@ line arrow -head begin
   2048.0 1465.0
 endline
 
-point 2329.0 1522.0 dig -scale s
+point 2426.0 1395.5 dig -scale s
 
 line arrow -head begin
   2081.0 1422.0
@@ -377,33 +306,20 @@ line pit
   smooth off
 endline
 
+line wall -reverse on -subtype unsurveyed
+  2390.5 1427.5
+  2380.5 1435.5 2317.5 1502.78 2305.0 1500.0
+  2287.0 1496.0 2164.5 1418.5 2129.5 1393.5
+  smooth off
+endline
+
 line wall -reverse on
-  2305.0 1500.0
-  altitude .
-  2305.0 1500.0 2164.5 1418.5 2129.5 1393.5
+  2129.5 1393.5
   2117.05 1384.61 2132.46 1369.12 2122.5 1357.5
   2119.5 1354.0 2099.22 1344.59 2069.0 1365.5
   2066.5 1367.23 2059.5 1368.5 2055.0 1359.5
-  2050.5 1350.5 2047.5 1353.5 2051.0 1345.5
+  2050.5 1350.5 2029.0 1337.0 2032.5 1329.0
   smooth off
-  2051.0 1345.5 2143.25 1288.0 2158.0 1278.5
-  2175.87 1266.99 2218.0 1204.5 2232.0 1194.5
-  2246.0 1184.5 2283.5 1150.0 2291.5 1145.0
-  2299.5 1140.0 2386.0 1076.5 2403.0 1066.5
-  2403.61 1066.14 2447.5 1055.0 2454.5 1049.0
-  2461.5 1043.0 2526.5 992.0 2530.5 992.0
-  2534.5 992.0 2703.48 1008.66 2710.5 1008.5
-  altitude .
-  2732.0 1008.0 2781.0 995.5 2788.0 992.5
-  smooth off
-  2788.0 992.5 2897.0 965.0 2909.0 958.0
-  2921.0 951.0 3058.5 848.0 3067.0 837.5
-  3075.5 827.0 3109.5 700.0 3117.0 691.0
-  3124.5 682.0 3279.0 593.0 3291.5 585.5
-  3304.0 578.0 3436.91 493.87 3439.5 490.5
-  3444.5 484.0 3517.0 387.5 3522.0 380.0
-  smooth off
-  altitude .
 endline
 
 line wall -close on -outline in
@@ -428,12 +344,12 @@ line pit -reverse on
 endline
 
 line wall -id wall_EPs1_NW -reverse on
-  589.74 1703.27
-  615.74 1702.77 760.5 1703.5 774.5 1706.0
-  788.5 1708.5 1000.5 1753.5 1012.5 1753.0
-  1024.5 1752.5 1188.5 1755.0 1196.5 1747.0
+  588.64 1705.33
+  614.64 1704.83 746.71 1701.12 774.5 1706.0
+  811.5 1712.5 1000.5 1753.5 1012.5 1753.0
+  1024.5 1752.5 1171.0 1779.0 1194.0 1747.5
   altitude .
-  1204.5 1739.0 1272.5 1682.0 1288.0 1675.5
+  1200.66 1738.38 1272.5 1682.0 1288.0 1675.5
   1303.5 1669.0 1354.5 1669.5 1369.0 1677.0
   smooth off
   1369.0 1677.0 1435.0 1720.5 1438.0 1724.25
@@ -453,179 +369,17 @@ line pit
   1634.0 1267.25
 endline
 
-line wall
-  2909.0 -12.0
-  2912.0 -3.5 2938.5 173.5 2945.5 171.0
-  2974.56 160.62 3000.0 167.0 2977.5 188.0
-  2955.0 209.0 2935.5 202.0 2936.0 204.5
-  2936.5 207.0 2967.0 272.0 2969.5 273.0
-  2972.0 274.0 3082.97 259.03 3091.5 259.5
-  3100.5 260.0 3126.5 255.5 3106.0 304.5
-  3085.5 353.5 3077.66 373.49 3085.0 379.0
-  3093.0 385.0 3111.5 390.75 3117.5 390.5
-  3122.74 390.28 3178.5 385.5 3197.5 388.5
-  3216.5 391.5 3259.0 395.5 3277.5 410.0
-  3296.0 424.5 3318.25 462.75 3325.75 465.5
-  3333.25 468.25 3367.0 465.75 3376.25 467.25
-  3386.43 468.9 3426.0 479.0 3434.0 477.5
-  3442.0 476.0 3512.0 380.5 3516.0 374.0
-  smooth off
-endline
-
-line wall -close on -outline in
-  2874.0 341.75
-  2871.75 338.5 2897.25 306.75 2898.75 304.0
-  2900.25 301.25 2911.0 246.0 2915.5 245.25
-  2920.0 244.5 2956.25 283.75 2952.5 287.0
-  2948.75 290.25 2876.25 345.0 2874.0 341.75
-endline
-
-area sump
-  l105-2886-24
-endarea
-
-line border -id l105-2886-24 -close on -clip on
-  2879.75 37.0
-  2880.25 36.25 2878.0 -11.0 2878.0 -11.0
-  smooth off
-  2909.0 -12.0
-  2915.5 37.25
-  2915.5 37.25 2879.61 37.21 2879.75 37.0
-endline
-
-line border -id l100-2904-86 -close on -clip on
-  2871.5 73.0
-  2877.75 79.25 2898.0 97.0 2903.25 87.75
-  2908.5 78.5 2916.0 55.75 2917.0 51.25
-  2918.0 46.75 2915.5 37.25 2915.5 37.25
-  smooth off
-  2879.75 37.0
-  2879.75 37.0 2865.25 66.75 2871.5 73.0
-endline
-
-area water
-  l135-2779-589
-  l89-2762-641
-endarea
-
-line border -id l135-2779-589
-  2741.5 593.5
-  2760.0 587.5 2793.0 572.5 2784.0 619.5
-  smooth off
-endline
-
-line arrow -head end
-  3184.0 283.0
-  3206.0 369.0
-endline
-
-line arrow -head end
-  3165.0 276.0
-  3110.0 326.0
-endline
-
-point 3178.0 252.0 label -text "Liquid mud tube" -scale xs -align r
-
-line arrow -head end
-  2741.0 483.0
-  2790.0 476.0
-endline
-
-line arrow -head end
-  2645.0 621.0
-  2666.0 647.0
-endline
-
-line arrow -head end
-  2581.0 793.0
-  2622.0 805.0
-endline
-
-point 2552.0 788.0 label -text "Crystal<br>Pool" -scale xs -align l
-
-point 2544.0 304.0 water-flow -orientation 295.5 -subtype intermittent
-
-line arrow -head end
-  2445.0 959.0
-  2505.0 929.0
-endline
-
-point 2425.0 965.0 label -text "c5" -scale xs -align l
+point 2513.5 364.5 water-flow -orientation 295.5 -subtype intermittent -scale l
 
 line wall
 endline
 
-point 2714.0 483.0 label -text "Blind aven" -scale xs -align l
-
-point 2638.0 586.0 label -text "3m deep<br>pool" -scale xs -align l
-
-line wall -id l89-2762-641
-  2678.5 781.0
-  altitude .
-  2674.0 789.5 2645.5 847.0 2640.0 850.0
-  2634.5 853.0 2606.0 859.5 2602.0 863.0
-  2598.0 866.5 2606.0 868.5 2603.5 872.5
-  2601.0 876.5 2523.5 968.0 2517.5 973.0
-  2511.5 978.0 2712.0 889.5 2717.5 883.0
-  2723.0 876.5 2733.0 851.0 2737.0 847.0
-  2743.64 840.36 2751.5 839.0 2745.5 852.0
-  altitude .
-  2739.5 865.0 2727.0 893.5 2722.5 898.0
-  2718.0 902.5 2656.0 946.5 2656.0 946.5
-  smooth off
-  2656.0 946.5 2708.21 958.98 2718.0 958.0
-  2723.0 957.5 2884.5 912.0 2893.5 904.5
-  2902.5 897.0 2983.5 865.0 2990.0 860.0
-  2996.5 855.0 3035.5 826.0 3041.5 819.0
-  3047.5 812.0 3096.0 674.0 3104.0 667.5
-  smooth off
-  3104.0 667.5 3291.0 575.0 3290.0 571.0
-  3289.0 567.0 3286.0 545.5 3286.5 538.0
-  3287.0 530.5 3299.5 529.5 3301.5 537.5
-  3303.5 545.5 3306.5 561.5 3306.5 561.5
-  smooth off
-  3306.5 561.5 3373.0 522.5 3378.5 518.5
-  3384.0 514.5 3408.0 503.0 3404.0 499.0
-  3400.0 495.0 3325.0 495.0 3315.0 490.0
-  3305.0 485.0 3271.0 418.5 3266.0 418.5
-  3261.0 418.5 3198.5 414.5 3190.5 414.5
-  3182.5 414.5 3109.0 411.0 3104.0 411.0
-  3099.0 411.0 3048.5 417.5 3042.0 405.0
-  3035.5 392.5 3070.0 329.0 3073.5 322.5
-  3077.0 316.0 3089.94 299.17 3091.5 294.5
-  3093.0 290.0 3085.5 283.0 3072.5 284.5
-  3059.5 286.0 2995.0 289.5 2983.5 296.0
-  2972.0 302.5 2887.5 356.0 2884.0 358.0
-  2880.5 360.0 2860.5 363.0 2856.0 367.5
-  2851.5 372.0 2823.5 435.0 2821.5 439.0
-  2819.5 443.0 2789.0 584.0 2784.5 590.5
-  2780.0 597.0 2729.0 719.5 2709.5 727.0
-  2690.0 734.5 2606.0 736.0 2600.0 732.5
-  2594.0 729.0 2591.0 719.5 2602.0 709.0
-  altitude .
-  2613.0 698.5 2770.5 588.5 2774.0 583.5
-  2777.5 578.5 2813.5 436.5 2815.5 431.5
-  2817.5 426.5 2844.5 350.5 2849.0 345.5
-  2853.5 340.5 2872.5 306.0 2872.5 306.0
-  smooth off
-  2872.5 306.0 2867.0 304.0 2861.0 307.5
-  2855.0 311.0 2772.5 363.5 2762.75 367.25
-  2745.53 373.87 2742.21 368.1 2757.5 352.25
-  altitude .
-  2771.25 338.0 2845.5 289.25 2856.5 285.25
-  2867.5 281.25 2877.5 286.5 2879.5 282.5
-  2881.5 278.5 2899.0 214.5 2901.5 197.0
-  2904.0 179.5 2896.0 183.5 2878.0 158.5
-  2860.0 133.5 2885.25 13.25 2882.0 -8.0
-  smooth off
-endline
-
 line arrow -head end
-  2046.0 550.0
-  2058.0 582.0
+  1971.5 604.0
+  2042.0 602.0
 endline
 
-point 2042.5 538.0 label -text "Fault breccia" -scale xs -align l
+point 1946.5 604.5 label -text "Fault breccia" -scale xs -align l
 
 line rock-edge -close on
   2090.0 590.0
@@ -708,9 +462,7 @@ point 715.0 1498.0 label -text "?" -scale xs
 
 point 801.0 1314.0 label -text "?" -scale xs
 
-point 2894.0 -35.0 label -text "s" -scale xs
-
-point 2506.5 324.5 label -text "s" -scale xs
+point 2449.0 293.5 label -text "Sump (not passable)" -scale xs -align l
 
 line border -id l150-2476-356 -close on -reverse on
   2458.0 334.0
@@ -726,14 +478,14 @@ line wall -id l148-2473-339
   2087.5 578.5 2243.5 474.0 2255.5 465.0
   2267.5 456.0 2427.5 368.0 2426.5 364.5
   2422.12 349.17 2425.0 352.0 2437.5 358.0
-  2437.97 358.23 2475.5 338.0 2475.5 338.0
+  2437.97 358.23 2480.5 334.0 2480.5 334.0
   smooth off
 endline
 
-line wall -id l149-2479-347
-  2481.5 345.0
+line wall
+  2488.0 342.5
+  2471.5 355.0 2284.0 473.0 2275.5 479.0
   altitude .
-  2465.0 357.5 2284.0 473.0 2275.5 479.0
   2267.0 485.0 2261.5 479.0 2259.5 499.0
   2257.5 519.0 2258.0 550.0 2253.5 558.5
   2249.0 567.0 2217.0 620.5 2212.5 629.0
@@ -759,26 +511,16 @@ line wall -id l149-2479-347
   1925.79 1293.21 1924.0 1307.5 1941.0 1288.0
   1963.22 1262.51 1949.0 1322.0 1965.5 1293.5
   smooth off
-  1971.5 1288.0 1983.0 1294.0 1986.0 1297.0
-  1997.07 1308.07 2015.53 1325.23 2026.0 1320.0
-  2040.0 1313.0 2211.41 1175.58 2224.5 1167.0
-  2257.96 1145.08 2289.24 1128.27 2296.0 1122.0
-  2303.0 1115.5 2387.5 1051.5 2395.0 1049.0
-  2402.5 1046.5 2447.0 1040.5 2450.0 1038.5
-  2453.0 1036.5 2507.5 946.0 2515.5 937.5
-  2523.5 929.0 2581.0 875.5 2586.5 869.5
-  2592.0 863.5 2615.7 839.9 2625.5 835.0
-  2626.5 834.5 2614.0 834.0 2618.5 827.5
-  2623.0 821.0 2658.5 779.5 2668.0 773.0
+  1971.5 1288.0 1996.76 1306.25 2000.0 1303.5
   smooth off
 endline
 
 line arrow -head begin
   1465.0 1594.0
-  1588.0 1763.0
+  1632.0 1839.5
 endline
 
-point 1599.0 1778.0 label -text "'Deep' Pool" -scale s -align r
+point 1656.0 1888.5 label -text "'Deep' Pool" -scale s -align l
 
 point 1432.0 1139.0 label -orientation 46 -text "R i f t" -scale m -align l
 
@@ -799,14 +541,7 @@ endline
 line wall
 endline
 
-point 2230.0 414.0 label -orientation 31.3 -text "Cross Rift" -scale s
-
-line arrow -head begin
-  2062.0 1315.0
-  2206.0 1327.0
-endline
-
-point 2225.0 1327.0 label -text "Zebra Aven" -scale s -align r
+point 2232.5 413.0 label -text "Cross Rift" -scale m -align l
 
 endscrap
 

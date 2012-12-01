@@ -1,0 +1,19 @@
+encoding  utf-8
+language en_UK
+source CrossRift2.th
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 200 
+endlayout
+
+select CrossRift2
+
+export model -format survex -o 0.Maps/MuddyHell.3d
+export model -format loch -o 0.Maps/MuddyHell.lox
+export map -projection plan -layout l1 -o 0.Maps/MuddyHell_survey.pdf
+export map -projection plan -format xvi -layout l1 -o 0.Maps/MuddyHell.xvi
+export map -projection extended -format xvi -layout l1 -o 0.Maps/MuddyHell_ex.xvi
+export map -projection [elevation 128] -format xvi -layout l1 -o 0.Maps/MuddyHell_el128.xvi
+#export atlas -projection plan -layout l1 -o 0.Maps/MuddyHell.pdf

@@ -1,6 +1,6 @@
 encoding  utf-8
 
-source UpperFlood
+source EastPassage
 
 layout l500	# 1:500 Map
 	scale 1 500
@@ -36,5 +36,5 @@ layout l500	# 1:500 Map
    endcode
 endlayout
  
-select WestPassage_m1@UpperFlood # Detailed labels
-export map -projection plan -layout l500 -o UF_WestPassage.pdf
+select EastPassage_map@EastPassage
+export map -projection plan -layout l500 -o 0.Maps/EastPassage_map.pdf

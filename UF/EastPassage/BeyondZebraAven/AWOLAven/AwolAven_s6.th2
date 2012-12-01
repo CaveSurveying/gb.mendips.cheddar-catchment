@@ -1,0 +1,32 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 1075.5 482.330708662
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {748.740157481 1 1.0} {131.102362205 1.0} PocketTopo2/aw2_p0.xvi 0 {}
+
+
+
+scrap AwolAven_s6 -scale [-128.0 -128.0 1033.51181103 -128.0 0.0 0.0 29.5024000002 0.0 m]
+
+line arrow -head end
+  905.0 77.5
+  802.5 80.0
+endline
+
+point 945.0 78.25 label -text "Aven 4m (too tight)" -scale xs -align r
+
+line wall -close on
+  746.5 131.0
+  734.84 124.4 779.75 46.25 781.5 45.5
+  altitude .
+  783.25 44.75 787.25 44.25 785.25 49.5
+  783.25 54.75 767.5 107.25 765.25 110.5
+  763.0 113.75 759.75 138.5 746.5 131.0
+endline
+
+point 749.880157481 107.012362205 station -name 1.1@AwolAven2
+
+point 748.740157481 131.102362205 station -name 1.0@AwolAven2
+
+endscrap
+
+

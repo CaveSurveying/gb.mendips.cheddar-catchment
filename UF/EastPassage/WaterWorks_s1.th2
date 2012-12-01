@@ -1,17 +1,19 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 4136.5976 2585.6521
-##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {524.93 1 1.0} {1885.0 E1@EastPassage} 0.Maps/EastPassage.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {1525.73 1 1.0} {1990.71 E6@EP_CL.EastPassage} 0.Maps/EastPassage.xvi 0 {}
 
 
 
 scrap WaterWorks_s1 -scale [-128.0 -128.0 557.4926 -128.0 0.0 0.0 17.41151204 0.0 m]
 
-point 2116.2 1962.78 station -name 50@EP.Pony
+point 2116.2 1962.78 station -name 50@EP_Pony
 
-point 2238.6 1890.96 station -name 51@EP.Pony
+point 2238.6 1890.96 station -name 51@EP_Pony
 
-point 2290.0 1980.5 label -text "The Waterworks" -scale s -align r
+point 2262.0 2008.5 label -text "The Waterworks" -scale m -align r
+
+point 2490.0 1737.0 label -text "S" -scale xs
 
 line wall -subtype unsurveyed
   2231.5 1880.5
@@ -26,7 +28,9 @@ endline
 line wall -reverse on -subtype unsurveyed
   2238.6 1890.96
   2246.5 1886.0 2443.5 1771.0 2453.0 1765.5
+  smooth off
 endline
 
 endscrap
+
 

@@ -1,0 +1,52 @@
+encoding  utf-8
+
+survey DownUnder # Poor SAP calibration, reflected in compass SD
+    centreline
+      units clino compass degree
+      units length meter
+      instrument length  "Ben's Bosch DLE50 laser rangefinder"
+      instrument compass  "Ben's SAP #7"
+
+      team "Ben Cooper"
+      team "Mike Richardson"
+      date 2008.01.10
+      #declination -2.924 deg    # BGS at 2008.06.13 51.2987N -2.71038W 0.2km 2010 Model.  Updated Nov 2011
+          # http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html
+      declination -2.371 deg      # Allign to grid, Grid North +0.5535 deg      
+      
+      sd length 0.5 centimeter
+      sd compass 1 degree
+      sd clino 0.5 degree
+      flags approx # Poor SAP calibration, reflected in compass SD
+      
+      data normal \
+      from to  length  compass  clino  left  right  up  down    # Start is 53@FullLRUD
+
+      53 5  2.08  084  +32  [1.8 0] [0 0.6] [0.5 ] [0.5 ]    # 5 Est LRUD
+      #6 5  1.58  296  -35  0  0.6  0.6  0.4    # 6 LRUD in direction of survey, not back bearing
+      5 6  1.58  116  +35  0  0.6  0.6  0.4    # 6 with LRUD correct in direction of survey
+      6 7  2.42  117  +10  0.2  0.5  1.0  0.6    # 7 in LH corner.  Way on above and to right
+      7 8  3.82  217  -06  [0 1.0] [0.5 0] [0.1 0.4] [0.8 0.1]  # 7-8
+      8 9  1.86  133  +04  [0 0] [0.5 0.8] [0.4 1] [0.1 0.3]  # 8-9
+      9 10  5.3  206  -01  [0.6 1.2] [0.3 0.3] 0.2 0.2    # 9-10  10 Est LRUD  10 Diggable (Hilti)
+      9 11  3.3  049  +32  [0 0.2] [0.5 0.2] [1 0.5] [0.3 0.2]  # 9-11  11 Est LRUD
+      data normal \
+      from to  length  compass  clino
+      flags duplicate
+      9 12  0.87  041  +47            # 12 is part way along 9-11, to a x-rift
+      flags not duplicate
+      data normal \
+      from to  length  compass  clino  left  right  up  down
+      12 13  4.5  148  +36  [0 0.2] [0.2 0] [1 0.5] [0.5 1]    # 12-13 all LRUD are estimates
+      
+      8 14  1.33  225  +18  [0.6 0] [0.2 0.5] [0.4 4.8] [0.2 0.3]  # 14 with 5m aven above
+    station 14 "Aven" continuation attr aven "5" attr name "MT14"
+    
+      14 15  3.3  312  +51  0.2  0.2  0  0    # 15 est LRUD.  Diggable?
+      
+      7 16  1.21  099  +75  [0.2 0]  [0.5 0.2] [1.0 0.7] [0.6 0.4]  # 16 into rift behind and above #7
+      16 17   2.0  173  +09  0.2  0.2  1  0.5    # 17 Est LRUD
+      
+    endcentreline
+endsurvey
+

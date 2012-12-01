@@ -1,0 +1,62 @@
+encoding  utf-8
+survey BeyondZebraAven -title "East Passage BZA"
+
+centreline
+  # Export stations
+  equate START         START@BZA_Pony
+
+  # Join surveys
+  equate 1.18@AwolAven1.AwolAven    1.18@BZA_DistoX
+  equate 1.1@CrossRift2        61@BZA_Pony
+
+  # Jan-2012 DistoX survey re-used some existing stations.  Let's try to tie them in.
+  equate 1.19@BZA_DistoX     44@BZA_Pony
+  equate 1.24@BZA_DistoX    39@BZA_Pony
+  #equate 1.30@BZA_DistoX    24@BZA_Pony  # , an original station mark on South wall
+  # - possibly 24@EP, except 24 is recorded as a North wall.  
+  # - possibly D14@CL, but clino data suggests CL took high-level route.  Conundrum.  
+  #let's try 25 and 28, whose vertical allignment and LRDUD agree.
+  equate 1.28@BZA_DistoX    25@BZA_Pony  # , an original station mark on South wall
+  equate 1.35@BZA_DistoX    20@BZA_Pony
+
+  # Let's try to rescue something from the fauly BeyondZebraAven survey, but equating it to the Tim/Richard survey
+  # Take a copy of the Tim/Richard survey from E12 to E32, and call it D12 to D32, and use that
+  #equate D16@BZA_CL      42@BZA_Pony # approx Y-junction
+  equate D21@BZA_CL           48@BZA_Pony # approx Tube to muddy crawl
+  equate D26@BZA_CL           54@BZA_Pony # approx Tube sharp bend
+  equate D32@BZA_CL           70@BZA_Pony # approx Tube sharp bend
+  equate 60@BZA_Pony      1.0@CrossRift2 # Resurveyed existing stations.
+endcentreline
+
+  input BZA_Pony.th
+  input BZA_DistoX.th
+  input BZA_CL.th
+  
+  input CrossRift2/CrossRift2.th
+  input CrossRift2/CrossRift2.th2
+
+  input AWOLAven/AwolAven.th
+  
+  input BeyondZebraAven_s1_165.th2
+  input BeyondZebraAven_s2_165.th2  # Liquid Mud Tube
+  input BeyondZebraAven_s3.th2    # Crystal Pool Aven
+
+  map BeyondZebraAven_map
+    AwolAven_m1@AwolAven
+    break
+    BZA_m1
+    LowerEastPassage_m1 [65 -40 m] below
+  endmap
+
+  map BZA_m1
+    BeyondZebraAven_s3
+    break
+    BeyondZebraAven_s1
+  endmap
+  
+  map LowerEastPassage_m1
+    BeyondZebraAven_s2
+    CrossRift2_s1
+  endmap
+endsurvey
+

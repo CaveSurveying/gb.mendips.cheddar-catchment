@@ -1,28 +1,45 @@
 encoding  utf-8
 survey EastPassage -title "East Passage"
 
-  equate E6@CL       14@EP.Pony
-
-  # Let's try to rescue something from the fauly BeyondZebraAcen survey, but equating it to the Tim/Richard survey
-  # Take a copy of the Tim/Richard survey from E11 to E32, and call it D11 to D32, and use that
-  equate D16@CL       42@BeyondZebraAven.Pony # approx Y-junction
-  equate D21@CL       48@BeyondZebraAven.Pony # approx Tube to muddy crawl
-  equate D26@CL       54@BeyondZebraAven.Pony # approx Tube sharp bend
-  equate D32@CL       70@BeyondZebraAven.Pony # approx Tube sharp bend
+  equate E6@EP_CL         14@EP_Pony
+  equate 53@DeepPoolTube        53@EP_Pony       
+  equate 2@DeepPoolTube          54@EP_Pony       
+  equate 53@DownUnder          53@EP_Pony       
+  equate START@BeyondZebraAven  41@EP_Pony
+  
+  # Close loop between Muddy Hell and Rift Series
+  equate 35s@EP_Pony  1.11@CrossRift2.BeyondZebraAven
 
   input EastPassageCL.th
   input EastPassagePony.th
-  
-  input EastPassage_s1.th2
-  input EastPassage_s2.th2
-  input WaterWorks_s1.th2
+  input DeepPoolTube.th
+  input DownUnder.th
+  input BeyondZebraAven/BeyondZebraAven.th
 
-  map EastPassage_m1 -title "East Passage"
-     EastPassage_s2
-     EastPassage_s1
-     break
-     WaterWorks_s1
+  input EastPassage_s1.th2
+  input WaterWorks_s1.th2
+  join EastPassage_s1 BeyondZebraAven_s1@BeyondZebraAven
+  
+  input DownUnder.th2
+
+  map EastPassage_map
+    EastPassage_m1a
+    EastPassage_m1b
+    DownUnder_m1 [40 40] below
+  endmap
+  
+  map EastPassage_m1a -title "East Passage"
+    EastPassage_s1
+    break
+    WaterWorks_s1
   endmap
 
+  map EastPassage_m1b
+    BeyondZebraAven_map@BeyondZebraAven
+  endmap
+  
+  map DownUnder_m1
+    DownUnder_s1
+  endmap
 endsurvey
 

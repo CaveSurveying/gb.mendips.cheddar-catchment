@@ -1,0 +1,255 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -293.718 -246.968 749.684 1268.8752
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {70.498 1 1.0} {38.514 1.18@AwolAven} 0.Maps/AwolAven_el128.xvi 0 {}
+
+
+
+scrap AwolAven_El128_s1 -projection [elevation 128] -scale [-128.0 -128.0 442.96 -128.0 0.0 0.0 14.502384 0.0 m]
+
+line wall -subtype unsurveyed
+  41.5 33.25
+  44.75 33.5 50.25 33.5 52.5 32.0
+  54.26 30.83 57.0 5.75 59.75 6.25
+  smooth off
+  61.75 6.0 64.5 29.5 66.5 31.75
+  68.26 33.73 67.5 34.25 71.75 33.5
+  smooth off
+endline
+
+line wall
+  157.25 217.75
+  158.0 214.25 161.25 213.5 162.5 212.0
+  163.75 210.5 160.75 150.5 162.25 146.25
+  163.75 142.0 174.0 130.0 174.25 128.75
+  174.64 126.79 175.0 119.75 175.0 119.75
+  smooth off
+  175.0 119.75 135.0 119.25 131.25 121.75
+  127.5 124.25 120.25 127.0 118.75 127.0
+  117.25 127.0 102.0 136.75 97.75 138.25
+  93.5 139.75 57.75 147.0 56.5 150.75
+  56.07 152.03 52.0 222.0 52.5 223.25
+  smooth off
+endline
+
+line wall
+  26.0 520.5
+  altitude .
+  26.25 516.5 30.5 478.25 30.0 473.0
+  29.5 467.75 28.85 454.96 26.798 452.104
+  24.75 449.25 21.0 447.0 20.0 444.5
+  19.0 442.0 31.25 441.25 38.25 441.75
+  45.25 442.25 46.0 444.5 52.5 445.0
+  59.0 445.5 75.0 446.75 78.0 446.75
+  81.0 446.75 100.5 449.25 102.25 449.75
+  104.0 450.25 122.0 449.5 125.25 449.75
+  128.5 450.0 142.0 450.25 148.75 450.0
+  155.5 449.75 168.25 450.5 169.25 450.25
+  170.25 450.0 176.65 373.82 174.5 360.25
+  172.0 344.5 152.21 291.93 153.75 276.5
+  154.25 271.5 156.75 219.0 157.25 217.75
+  smooth off
+endline
+
+line wall
+  183.678 548.754
+  183.0 534.0 184.25 505.75 184.0 500.5
+  183.75 495.25 178.25 462.75 175.25 461.5
+  172.25 460.25 143.0 455.5 138.25 456.0
+  133.5 456.5 101.25 457.25 97.0 456.25
+  92.75 455.25 88.0 453.5 86.0 453.5
+  84.0 453.5 42.25 448.25 43.0 449.5
+  43.75 450.75 36.5 471.5 37.75 472.5
+  39.0 473.5 49.5 484.5 49.25 486.0
+  49.0 487.5 38.0 492.5 37.25 497.25
+  36.5 502.0 31.25 516.25 31.0 520.5
+  smooth off
+endline
+
+line wall
+  71.75 33.5
+  72.25 41.0 63.0 102.25 59.5 136.0
+  59.18 139.04 73.0 132.0 82.0 127.5
+  91.0 123.0 101.5 122.75 108.0 119.75
+  114.5 116.75 160.83 109.35 168.0 109.25
+  185.5 109.0 185.25 110.25 189.0 111.75
+  smooth off
+  altitude .
+  188.62 119.26 182.5 132.5 182.0 140.0
+  181.5 147.5 170.25 199.75 170.25 199.75
+  smooth off
+  170.25 199.75 181.25 206.5 188.25 206.5
+  195.25 206.5 196.0 204.75 200.0 206.25
+  204.0 207.75 209.5 218.5 210.25 219.5
+  211.0 220.5 221.25 218.75 223.75 218.0
+  226.25 217.25 250.75 218.5 250.75 218.5
+  smooth off
+  250.75 218.5 283.75 216.75 284.0 215.0
+  284.25 213.25 279.53 190.56 282.5 190.0
+  altitude .
+  285.47 189.44 295.5 216.25 295.0 217.75
+  294.5 219.25 293.75 255.75 291.25 256.0
+  289.52 256.17 289.75 230.25 289.75 228.5
+  289.75 226.75 286.75 224.75 284.75 224.5
+  282.75 224.25 248.5 227.5 246.75 227.5
+  245.0 227.5 232.25 229.0 229.75 229.25
+  227.25 229.5 216.0 231.0 216.0 231.0
+  smooth off
+  216.0 231.0 223.25 255.5 222.0 255.5
+  220.75 255.5 212.0 229.25 210.0 229.25
+  208.0 229.25 201.5 228.75 200.25 228.75
+  199.0 228.75 197.75 240.5 196.0 240.5
+  194.25 240.5 194.75 219.0 193.5 220.25
+  192.25 221.5 175.74 218.31 174.25 221.5
+  172.76 224.69 175.25 242.75 175.25 242.75
+  smooth off
+  175.25 242.75 180.75 334.0 182.25 339.5
+  183.75 345.0 186.25 374.25 188.5 384.0
+  190.75 393.75 193.0 438.5 193.25 444.75
+  193.5 451.0 186.5 510.5 189.5 548.5
+  smooth off
+  altitude .
+endline
+
+point 27.188 518.044 station -name 1.0@AwolAven2
+
+point 36.048 472.184 station -name 1.1@AwolAven2
+
+point 26.798 452.104 station -name 1.4@AwolAven2
+
+point 38.658 445.994 station -name 1.3@AwolAven2
+
+point 43.718 448.164 station -name 1.5@AwolAven2
+
+point 100.618 449.934 station -name 1.6@AwolAven2
+
+point 105.018 452.294 station -name 1.7@AwolAven2
+
+point 147.318 452.294 station -name 1.8@AwolAven2
+
+point 172.618 453.474 station -name 1.9@AwolAven2
+
+point 183.678 548.754 station -name 1.10u@AwolAven2
+
+point 191.198 445.214 station -name 1.10@AwolAven2
+
+point 176.348 360.764 station -name 1.11@AwolAven2
+
+point 282.978 191.664 station -name 1.0@AwolAven1
+
+point 293.468 218.634 station -name 1.1@AwolAven1
+
+point 241.998 219.624 station -name 1.2@AwolAven1
+
+point 211.358 227.884 station -name 1.3@AwolAven1
+
+point 195.008 219.814 station -name 1.4@AwolAven1
+
+point 161.338 276.514 station -name 1.12@AwolAven2
+
+point 175.548 204.264 station -name 1.13@AwolAven2
+
+point 175.528 219.424 station -name 1.14@AwolAven2
+
+point 167.298 219.034 station -name 1.7@AwolAven1
+
+point 167.168 144.034 station -name 1.9@AwolAven1
+
+point 178.398 131.034 station -name 1.10@AwolAven1
+
+point 174.438 114.304 station -name 1.11@AwolAven1
+
+point 129.438 120.604 station -name 1.12@AwolAven1
+
+point 116.288 125.524 station -name 1.13@AwolAven1
+
+point 95.628 129.264 station -name 1.15@AwolAven1
+
+point 70.5 420.5 label -text "07/01/2012" -scale m -align l
+
+point -8.0 471.75 label -text "AWOL 3" -scale l -align l
+
+point 227.5 294.25 label -text "AWOL 2" -scale l -align r
+
+point 282.75 167.0 label -text "'Crystal Pool' rift" -scale m -align r
+
+point 200.0 520.25 label -text "<left>Aven 5m<br>(too tight)" -scale m -align r
+
+point 200.0 353.25 label -text "c12" -scale m -align r
+
+point 191.0 169.0 label -text "c5" -scale m -align r
+
+point 26.0 549.75 label -text "Aven 4m<br><centre>(too tight)" -scale m
+
+point 336.0 -40.0 label -text "218-degrees" -scale m -align r
+
+point 287.0 -1.5 label -text "128-degrees" -scale m
+
+point 235.5 -39.5 label -text "38-degrees" -scale m -align l
+
+line arrow -head end -scale xl
+  287.0 -39.5
+  287.0 -21.0
+endline
+
+line arrow -head both -scale xl
+  247.5 -40.0
+  327.5 -40.0
+endline
+
+point 30.25 -0.25 label -text "East Passage" -scale xl -align l
+
+point 9.0 196.0 label -text "AWOL 1" -scale l -align l
+
+point 30.75 255.25 label -text "<right>Aven c5<br>03/11/2011" -scale m -align l
+
+line section -reverse on -direction both
+  89.5 470.5
+  89.5 461.0 89.5 440.0 89.5 420.5
+endline
+
+point 109.5 97.0 label -text "20/12/2011" -scale m -align r
+
+line section -direction both
+  89.5 157.5
+  89.5 146.5 89.5 118.0 89.0 96.5
+endline
+
+line section -reverse on -direction both
+  79.5 58.0
+  72.0 58.0 40.5 59.0 30.0 58.5
+endline
+
+point 16.25 71.75 label -text "<right>Ladder c6<br>03/11/2011" -scale m -align l
+
+point 55.158 149.144 station -name 1.16@AwolAven1
+
+point 50.5 132.75 station -name 1.17@AwolAven1
+
+point 70.498 38.514 station -name 1.18@AwolAven1
+
+line wall -subtype presumed
+  44.5 223.0
+  43.0 246.0 40.5 271.5 44.5 271.0
+  48.5 270.5 50.5 249.0 52.5 223.25
+  smooth off
+endline
+
+line ceiling-step
+  53.0 87.5
+  53.0 87.5 59.25 90.0 66.25 87.25
+  smooth off
+endline
+
+line wall -reverse on
+  41.5 33.25
+  altitude .
+  41.5 37.25 41.13 42.18 40.75 47.25
+  40.37 52.32 35.83 80.63 53.0 87.5
+  54.25 88.0 44.5 215.0 44.5 223.0
+  smooth off
+endline
+
+endscrap
+
+

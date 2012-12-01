@@ -1,0 +1,49 @@
+encoding  utf-8
+survey AwolAven
+
+	# export station
+	equate 1.18		1.18@AwolAven1
+	
+	# Join Awol1 and Awol2
+	equate 1.6@AwolAven1 1.14@AwolAven2
+	
+	#mark 1.6@AwolAven1 painted
+
+	input AwolAven1.th
+	input AwolAven2.th
+	
+	input AwolAven_s1.th2
+	input AwolAven_s2.th2
+	input AwolAven_s3.th2
+	input AwolAven_s4.th2
+	input AwolAven_s5.th2
+	input AwolAven_s6.th2
+	
+	input AwolAven_El_s1.th2
+	
+	map AwolAven_m1
+		AwolAven_s6
+		break
+		AwolAven_s5
+		break
+		AwolAven_s4
+		break
+		AwolAven_s3
+		break
+		AwolAven_s2
+		break
+		AwolAven_s1
+	endmap
+	
+	map AwolAvenEl_map
+		AwolAven_El128_s1
+	endmap
+
+endsurvey # AWOL Aven
+
+
+
+
+
+
+

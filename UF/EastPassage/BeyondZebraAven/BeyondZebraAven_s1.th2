@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 1742.17 1683.115
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {236.225 1 1.0} {1259.842 START@BeyondZebraAven} 0.Maps/BeyondZebraAven.xvi 0 {}
+
+
+
+scrap BeyondZebraAven_s1 -scale [-128.0 -128.0 557.4926 -128.0 0.0 0.0 21.104863079 0.0 m]
+
+point 412.595 1109.842 station -name 1.34@BZA_DistoX.BeyondZebraAven
+
+point 211.815 1325.792 station -name 20@BZA_Pony.BeyondZebraAven
+
+endscrap
+
+

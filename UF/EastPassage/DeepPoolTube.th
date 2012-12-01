@@ -1,0 +1,38 @@
+encoding  utf-8
+
+survey DeepPoolTube # Poor SAP calibration, reflected in compass SD
+    centreline
+      units clino compass degree
+      units length meter
+      instrument length  "Ben's Bosch DLE50 laser rangefinder"
+      instrument compass  "Ben's SAP #7 - now repaired with replacement transistor"
+
+      sd length 0.5 centimeter
+      sd compass 1 degree
+      sd clino 0.5 degree
+
+      team "Ben Cooper"
+      team "Mike Richardson"
+      date 2008.01.10
+      #declination -2.924 deg    # BGS at 2008.06.13 51.2987N -2.71038W 0.2km 2010 Model.  Updated Nov 2011
+          # http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html
+      declination -2.371 deg      # Allign to grid, Grid North +0.5535 deg      
+      
+      data normal \
+      from to  length  compass  clino  left  right  up  down    
+
+      flags approx # Poor SAP calibration, reflected in compass SD
+      flags duplicate
+      53 2  4.93  326  +2  [2.3 2.7] [2.1 0] [0.6 1.2] [1.0 1.0]  # 2 Above Deep Pool
+      2 3  9.76  296  +20  0  1.2  0.3  0.6    # 3 Start of Tube
+      flags not duplicate
+   
+      #3 4  4.85  067  +19  0.6  0  0.3  0.5    # 4 At end of tube in x-rift
+      3 4a  4.55  067  +19  0.6  0  0.3  0.5    # 4a Estimated start of x-rift
+      4a 4  0.3  067  +19  [1.5 1.5] [1.8 1.8] [3.2 3.2] [0.5 0.5]  # 4 far wall of x-rift
+      4 4b  2.3  067  +19  [0.6 0.6] [0 0] [0.3 0] [0.6 0]    # 4b Est. compass & clino.  Diggable
+    station 4b "Mud filled tube, diggable" dig continuation attr name "DPT4"
+    
+    endcentreline
+endsurvey
+    

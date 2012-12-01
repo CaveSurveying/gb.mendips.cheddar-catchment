@@ -1,0 +1,14 @@
+encoding  utf-8
+language en_UK
+source AwolAven.th
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 200 
+ 	map-comment "Elevation viewed facing 128-degrees"
+endlayout
+
+select AwolAvenEl_map@AwolAven
+
+export map -projection [elevation 128] -layout l1 -o 0.Maps/AwolAven_el128.pdf
