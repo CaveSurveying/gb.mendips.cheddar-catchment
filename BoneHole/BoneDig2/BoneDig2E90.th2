@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -181.36 -290.7 1088.14 1744.21
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {370.886978297 1 1.0} {1575.976745 1.29} PocketTopo/BoneDig2_E90.xvi 0 {}
+
+
+scrap BoneDig2SE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoneDig2SE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoneDig2SE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoneDig2SE90_4 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

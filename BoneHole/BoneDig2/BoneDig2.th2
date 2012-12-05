@@ -1,0 +1,30 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -87.45 -186.18 524.69 1117.1
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {342.81519685 1 1.0} {346.150359652 2.9} PocketTopo/BoneDig2_p.xvi 0 {}
+
+
+
+scrap BoneDig2SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap BoneDig2SP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap BoneDig2SP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap BoneDig2SP4 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
