@@ -1,0 +1,33 @@
+encoding  utf-8
+survey sheet_2
+
+#sourced from Trevor Hughes archive
+
+centreline
+
+  date 1991.07.28
+  team "T. Hughes"
+  team "S. Redwood"
+  team "M Simms"
+  
+  data normal from to tape clino compass
+  27  40  8.35  down  -
+  40  41  4.30  26  118
+  41  42  2.1 -4  127
+  42  43  5.5 -8  027
+  
+  27  27a 6.50  down  -
+  
+  40  40a 4.80  0 210
+  
+  41  41a 4.3 22  218
+  
+  42  42a 5.9 down  -  
+  
+endcentreline
+endsurvey
+
+
+
+
+

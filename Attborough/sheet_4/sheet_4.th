@@ -1,0 +1,42 @@
+encoding  utf-8
+survey sheet_4
+
+#sourced from Trevor Hughes archive
+
+centreline
+  date 1995.01.04
+  calibrate compass +1
+  
+  team "T. Hughes"
+  team "C. Duberry"
+  
+  
+  data normal from to tape compass clino
+#inlet series
+  5g  70  1.2 047 -4
+  70  71  3.40  039 -26
+  71  72  2.0 055 -10
+  72  73  3.1 168 8
+  73  74  3.2 246 10
+  74  75  1.7 212 -22
+  75  76  3.0 219 35
+  76  77  3.7 245 41
+  77  78  7.3 181 18
+  78  79  2.85  114 3
+  79  80  5.15  010 -28
+  
+  data dimensions station left right up down
+  
+  70  0.8 0.6 1.0 1.0
+  71  0 0.5 0.1 0.6
+  72  0 1 0 0.6
+  73  0 0.8 0.3 0.6
+  74  0.8 0.8 0.3 0.6
+  75  0.6 0 0.2 0.1
+  76  4.2 0.8 0.6 0.3
+  77  1.8 0.8 0.6 0.3
+  78  1 1 0.1 0.8
+  79  0.9 2.0 0.6 0
+    
+endcentreline
+endsurvey

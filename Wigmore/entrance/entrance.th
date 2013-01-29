@@ -1,0 +1,23 @@
+encoding  utf-8
+survey entrance
+
+#fudged as original data not available
+#lengths arbitraryish depth is about right
+
+centreline
+
+cs OSGB:ST
+
+fix 1 55710 52560 265
+station 1 "Wigmore Swallet" entrance
+
+data normal from to tape compass clino
+  1 2 10 - down
+  2 3 12 020 0
+  3 4 10  - down
+  4 5 20  200  -6.5
+
+endcentreline
+endsurvey
+
+

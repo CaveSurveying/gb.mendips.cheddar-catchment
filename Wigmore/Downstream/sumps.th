@@ -1,0 +1,46 @@
+encoding  utf-8
+survey sumps
+
+#sourced from Trevor Hughes archive
+#modified for computing by Graham Mullan
+
+centreline
+
+  date 1992.12.12
+  team "M. McDonald"
+  team "R. White"
+  
+   data normal from to tape compass clino
+   
+   sd compass 10 degrees
+   sd tape 1 m
+   
+   1  2 0.9 - down
+   2  3 3.0 90  0
+   #above two legs invented by GJM from comments on sheet 3
+   3  4 22  90  0
+   #above is sump 1
+   4  5 18  90  0
+   #above is Wigmore 2
+   5  6 5 90  0
+   #above is sump 2
+   6  7 10  90  0
+   #above is Wigmore 3
+   7  8 6 85  0
+   #above is sump 3
+   8  9 24  80  0
+   #above is Wigmore 4
+   9  10  15  80  0
+   #above is sump 4
+   10 11  10  80  0
+   #above is Wigmore 5
+   11 12  20  80  0
+   #above is sump 5
+   12 13  50  85  0
+   #above is Wigmore 6
+   13 14  4 85  0
+   #above is sump 6       
+        
+endcentreline
+endsurvey 
+

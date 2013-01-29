@@ -1,0 +1,20 @@
+encoding  utf-8
+survey Attborough -title "Attborough Swallet"
+
+input sheet_1/sheet_1.th
+input sheet_2/sheet_2.th
+input sheet_3/sheet_3.th
+input sheet_4/sheet_4.th
+input sheet_5/sheet_5.th
+
+equate 5g@sheet_1 5g@sheet_2
+equate 16@sheet_1 16@sheet_2
+equate 1@sheet_1 1@sheet_2
+equate 21@sheet_2 21@sheet_3
+equate 16@sheet_1 16@sheet_3
+equate 5g@sheet_1 5g@sheet_4
+equate 3@sheet_1 3@sheet_5
+equate 72@sheet_4 72@sheet_5
+
+endsurvey
+

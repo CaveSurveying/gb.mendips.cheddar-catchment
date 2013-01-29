@@ -7,8 +7,30 @@ cs OSGB:ST
 
 #station  "" entrance
 
-fix Wigmore 55710 52560 265
-station Wigmore "" entrance
+fix AllEights 55960 52910 282
+station AllEights "All Eights Mineshaft" entrance
+
+fix BoweryCorner 53130 52540 265
+station BoweryCorner "Bowery Corner Swallet" entrance
+
+fix HisLordship 56010 51890 254
+station HisLordship "His Lordship's Hole" entrance
+
+fix HomeClose 56035 52466 268
+station HomeClose "Home Close Hole" entrance
+
+fix LongWrangle 57650 51880 221
+station LongWrangle "Long Wrangle Swallet" entrance
+
+fix Pinetree 51950 55770 243
+station Pinetree "Pinetree Pot" entrance
+
+fix TorHole 57410 52030 210
+station TorHole "Tor Hole Swallet" entrance
+
+#fix Wigmore 55710 52560 265
+#station Wigmore "" entrance
+#now in separate file
 
 
 endcentreline

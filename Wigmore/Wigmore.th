@@ -1,0 +1,22 @@
+encoding  utf-8
+survey Wigmore
+
+input entrance/entrance.th
+input sheet_1/sheet_1.th
+input sheet_2/sheet_2.th
+input sheet_3/sheet_3.th
+input sheet_4/sheet_4.th
+input Downstream/sumps.th
+input Downstream/Vindication.th
+input YoungBloods/YoungBloods.th
+
+equate 5@entrance 1@sheet_1
+equate 27@sheet_1 27@sheet_2 
+equate 43@sheet_2 43@sheet_3
+equate 64@sheet_3 64@sheet_4
+equate 55@sheet_3 1@sumps
+equate 14@sumps 29@Vindication
+equate 19a@Vindication 1@YoungBloods
+
+endsurvey
+
