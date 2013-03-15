@@ -157,12 +157,44 @@ map GoughsME0 -proj [elevation 0]
   sumpsME0@sumps
 endmap 
 
+join BlackcatSE0_2@Blackcat KingsSolomonsSE0_1@KingsSolomons -smooth on
+join BlackcatSE0_2@Blackcat TableauxSE0_1@Tableaux -smooth on
+join BeddingChamberSE0_1@BeddingChamber TableauxSE0_3@Tableaux -smooth on
+join BoulderChamberSE0_1@BoulderChamber Improbable2SE0_1@Improbable2 -smooth on
+
+join CableCrawlSE0_1@CableCrawl TunnelSE0_1@Tunnel -smooth on
+join CheeseroomSE0_1@Cheeseroom HeartbreakHillSE0_1@HeartbreakHill  -smooth on
+join CheeseroomSE0_1@Cheeseroom TheOxbowSE0_1@TheOxbow -smooth on
+#join TheOxbowSE0_1@TheOxbow TheOxbowSE0_4@TheOxbow  -smooth on
+
+join DireStraitsSE0_1@DireStraits  upstreamSE0_1@upstream.sumps -smooth on
 join DucksDelightSE0_1@DucksDelight FontsSE0_1@Fonts -smooth on
 join DucksDelightSE0_1@DucksDelight FontsSE0_2@Fonts -smooth on
 #join DSAvenSE0_1@DSAven TheOxbowSE0_3@TheOxbow -smooth on
+
 join EntranceSE0_1@Entrance FontsSE0_2@Fonts -smooth on
+join EntranceSE0_1@Entrance HeartbreakHillSE0_1@HeartbreakHill -smooth on
+
+join HeartbreakHillSE0_1@HeartbreakHill HeartbreakDigSE0_1@HeartbreakDig -smooth on
+join floor@HeartbreakHill:6 floor1@StPauls:0 -smooth on
+join roof1@HeartbreakHill:3 floor1@StPauls:end -smooth on
+join roof2@HeartbreakHill:21 floor2@StPauls:0 roof1@Tunnel:end -smooth on
+join roof1@HeartbreakHill:9 roof@StPauls:end -smooth on
+join roof2@HeartbreakHill:0 roof1@Tableaux:end -smooth on
+join floor@HeartbreakHill:end floor1@Tableaux:0 -smooth on
+#join roof2@HeartbreakHill:21 roof1@Tunnel:end -smooth on
+join floor@HeartbreakHill:10 floor1@Tunnel:0  -smooth on
+join HeartbreakHillSE0_1@HeartbreakHill TheOxbowSE0_1@TheOxbow -smooth on
+
+join KingsSolomonsSE0_1@KingsSolomons TableauxSE0_2@Tableaux -smooth on
+
+join SideOxSE0_1@SideOx TheOxbowSE0_1@TheOxbow -smooth on
+join StPaulsSE0_1@StPauls TableauxSE0_3@Tableaux -smooth on
+join StPaulsSE0_2@StPauls TunnelSE0_1@Tunnel -smooth on
+
 ### breaks the join due to joining other scrap so reconnecting
 #join TheOxbowSE0_2@TheOxbow  TheOxbowSE0_3@TheOxbow -smooth on
+
 
 
 ##############################################

@@ -6,7 +6,7 @@ input upstreamE0.th2
 
 map upstreamM
   upstreamSPl1
-  endmap
+endmap
   
 map upstreamME0 -proj [elevation 0]
   upstreamSE0_1
