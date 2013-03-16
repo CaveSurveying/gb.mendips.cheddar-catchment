@@ -23,10 +23,18 @@ equate 4@sheppards_crook 0_00@sump3
 #                                                                                                                             #
 ##############################################
 
-map sumpsM
+map allSumpsM
+  ShowCaveSumpsM
+  FarSumpsM
+endmap
+
+map ShowCaveSumpsM
   downstreamM@downstream
   upstreamM@upstream
   sump1bM@sump1b
+endmap
+
+map FarSumpsM
   bishops_palaceM@bishops_palace 
   sump2M@sump2
   sheppards_crookM@sheppards_crook 
@@ -34,6 +42,7 @@ map sumpsM
 endmap
 
 join downstreamSPl1@downstream upstreamSPl1@upstream -smooth on
+join sump1bSPl1@sump1b upstreamSPl1@upstream -smooth on
 join sump1bSPl1@sump1b bishops_palaceSPl1@bishops_palace -smooth on
 join bishops_palaceSPl1@bishops_palace sump2SPl1@sump2 -smooth on
 join sump2SPl1@sump2 sheppards_crookSPl1@sheppards_crook -smooth on
@@ -45,7 +54,7 @@ join sheppards_crookSPl1@sheppards_crook sump3SPl1@sump3 -smooth on
 #                                                                                                                             #
 ############################################## 
 
-map sumpsME0 -proj [elevation 0]
+map ShowCaveSumpsME0 -proj [elevation 0]
   downstreamME0@downstream
   upstreamME0@upstream
   sump1bME0@sump1b

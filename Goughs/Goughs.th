@@ -12,14 +12,13 @@ map GoughsM
     GoughsUpperM
     GoughsLowerM
     BeddingChamberM@BeddingChamber
-    sumpsM@sumps
 endmap
 
 map GoughsDispM
     BeddingChamberBoxM@BeddingChamber
     BeddingChamberM@BeddingChamber [-9 30 m] above
  #   GoughsUpperM
-    GoughsLowerM [130 -30 m] below
+    GoughsLowerM [0 -70 m] below
     LLoydTopM [25 10 m] above
 endmap
 
@@ -161,7 +160,7 @@ map GoughsME0 -proj [elevation 0]
   BoulderChamberME0@BoulderChamber
   TunnelME0@Tunnel
   BeddingChamberME0@BeddingChamber
-  sumpsME0@sumps
+  ShowCaveSumpsME0@sumps
 endmap 
 
 join roof1@Blackcat:2 roof1@CastleHairyRing:0 -smooth on

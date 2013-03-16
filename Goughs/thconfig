@@ -2,18 +2,20 @@ encoding  utf-8
 source Goughs.th
 # Change name to the main therion file
 
-select SandCrawl.Goughs
-select SandChamber.Goughs
-select Blackcat.Goughs
-
 
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o Goughs.pdf
+#Projected Elevation has to be produced first for combined to work
+export map -proj [elevation 0] -layout local -o GoughsE000.pdf
+
+#Plan and elevation on same sheet
+export map -proj plan -layout combined -o Goughs_combined.pdf
+
+#export map -proj plan -layout plan -o Goughs.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj [elevation 0] -layout local -o GoughsE000.pdf
+
 
 #export map -proj plan -fmt kml -layout mendip -o Goughs.kml
 
@@ -28,17 +30,31 @@ export model -fmt survex -o Goughsth.3d
 
 select GoughsDispM@Goughs
 select GoughsUpperM@Goughs -map-level 1
+select ShowCaveSumpsM@sumps.Goughs
 
 select GoughsME0@Goughs -map-level 1
+
+
+
+layout combined
+copy local
+map-image -1 105 sw GoughsE000.pdf
+map-header 0 0 sw
+endlayout
+
+layout plan
+copy local
+map-header 0 0 sw
+endlayout
 
 layout local
 
 copy common
 debug off
-map-header 0 100 sw
+map-header 0 0 off
 colour map-fg map
 colour-legend off
-#symbol-hide group centreline
+symbol-hide group centreline
 scale 1 500
 
 code tex-map
