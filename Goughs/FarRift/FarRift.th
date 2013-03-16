@@ -11,9 +11,13 @@ map FarRiftM
   FarRiftSPl3
 endmap
 
-map FarRiftME0 -proj [elevation 0]
+map FarRiftME0_1 -proj [elevation 0]
   FarRiftSE0_1
   FarRiftSE0_2
+endmap
+
+map FarRiftME0_2 -proj [elevation 0]
+  FarRiftSE0_3
 endmap
 
 centreline

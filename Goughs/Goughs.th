@@ -121,12 +121,18 @@ join WetWitchSPl1@WetWitch StPaulsSPl1@StPauls -smooth on
 #                                                                                                                             #
 ############################################## 
 
+map NathansDungeon_allME0  -proj [elevation 0]
+  NathansDungeonME0@NathansDungeon
+  FarRiftME0_2@FarRift
+endmap
+
 map GoughsME0 -proj [elevation 0]
   DSAvenME0@DSAven
   BatRoomME0@BatRoom
   KingsSolomonsME0@KingsSolomons
   CastleHairyRingME0@CastleHairyRing
-  BlackcatME0@Blackcat
+  BlackcatSouthME0@Blackcat
+  BlackcatNorthME0@Blackcat
   Damocles3ME0@Damocles3
   Damocles2ME0@Damocles2
   Damocles1ME0@Damocles1
@@ -147,9 +153,9 @@ map GoughsME0 -proj [elevation 0]
   HeartbreakDigME0@HeartbreakDig
   CheeseroomME0@Cheeseroom
   WetWitchME0@WetWitch
-  FarRiftME0@FarRift
+  FarRiftME0_1@FarRift
   CableCrawlME0@CableCrawl
-  NathansDungeonME0@NathansDungeon
+  NathansDungeon_allME0
   Improbable2ME0@Improbable2
   BoulderChamberME0@BoulderChamber
   TunnelME0@Tunnel
@@ -157,23 +163,34 @@ map GoughsME0 -proj [elevation 0]
   sumpsME0@sumps
 endmap 
 
+join roof1@Blackcat:2 roof1@CastleHairyRing:0 -smooth on
+join roof2@Blackcat:end floor1@Blackcat:0 floor1@CastleHairyRing:0 -smooth on
+join roof2@Blackcat:2 floor1@CastleHairyRing:end -smooth on
+join roof3@Blackcat:4 roof1@CastleHairyRing:end -smooth on
 join BlackcatSE0_2@Blackcat KingsSolomonsSE0_1@KingsSolomons -smooth on
 join BlackcatSE0_2@Blackcat TableauxSE0_1@Tableaux -smooth on
 join BeddingChamberSE0_1@BeddingChamber TableauxSE0_3@Tableaux -smooth on
 join BoulderChamberSE0_1@BoulderChamber Improbable2SE0_1@Improbable2 -smooth on
+join BoulderChamberSE0_1@BoulderChamber FarRiftSE0_2@FarRift -smooth on
 
+join CableCrawlSE0_1@CableCrawl Improbable2SE0_1@Improbable2 -smooth on
+join CableCrawlSE0_1@CableCrawl NovemberSE0_1@November -smooth on
 join CableCrawlSE0_1@CableCrawl TunnelSE0_1@Tunnel -smooth on
 join CheeseroomSE0_1@Cheeseroom HeartbreakHillSE0_1@HeartbreakHill  -smooth on
-join CheeseroomSE0_1@Cheeseroom TheOxbowSE0_1@TheOxbow -smooth on
-#join TheOxbowSE0_1@TheOxbow TheOxbowSE0_4@TheOxbow  -smooth on
+join roof1@Cheeseroom:end roof1@TheOxbow:0 -smooth on
+join floor1@Cheeseroom:0 roof2@TheOxbow:end -smooth on
 
 join DireStraitsSE0_1@DireStraits  upstreamSE0_1@upstream.sumps -smooth on
 join DucksDelightSE0_1@DucksDelight FontsSE0_1@Fonts -smooth on
 join DucksDelightSE0_1@DucksDelight FontsSE0_2@Fonts -smooth on
-#join DSAvenSE0_1@DSAven TheOxbowSE0_3@TheOxbow -smooth on
+join 1@DSAven:0 right1@TheOxbow:end -smooth on
+join 1@DSAven:end left1@TheOxbow:0 -smooth on
 
 join EntranceSE0_1@Entrance FontsSE0_2@Fonts -smooth on
 join EntranceSE0_1@Entrance HeartbreakHillSE0_1@HeartbreakHill -smooth on
+
+join FarRiftSE0_3@FarRift NathansDungeonSE0_1@NathansDungeon -smooth on
+join FarRiftSE0_2@FarRift NathansAtticSE0_1@NathansAttic -smooth on
 
 join HeartbreakHillSE0_1@HeartbreakHill HeartbreakDigSE0_1@HeartbreakDig -smooth on
 join floor@HeartbreakHill:6 floor1@StPauls:0 -smooth on

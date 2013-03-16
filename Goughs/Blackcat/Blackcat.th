@@ -4,6 +4,9 @@ survey Blackcat
 equate 1.0 1.34
 equate 1.28 1.33
 
+join roof3:0 roof4:0 roof5:end -smooth on
+join floor1:end pillar1:end -smooth on
+
 input Blackcat.th2
 input BlackcatE0.th2
 
@@ -16,9 +19,12 @@ map BlackcatM
   BlackcatSPl2
 endmap
 
-map BlackcatME0 -proj [elevation 0]
+map BlackcatSouthME0 -proj [elevation 0]
   BlackcatSE0_1
   BlackcatSE0_2
+endmap
+  
+map BlackcatNorthME0 -proj [elevation 0]
   BlackcatSE0_3
   BlackcatSE0_4
   BlackcatSE0_5
