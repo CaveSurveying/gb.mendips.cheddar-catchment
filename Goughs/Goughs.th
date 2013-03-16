@@ -142,7 +142,6 @@ map GoughsME0 -proj [elevation 0]
   FontsME0@Fonts 
   HeartbreakHillME0@HeartbreakHill
   TableauxME0@Tableaux
-  LloydHallME0@LloydHall
   TheOxbowME0@TheOxbow
   DireStraitsME0@DireStraits
   StPaulsME0@StPauls
@@ -157,6 +156,8 @@ map GoughsME0 -proj [elevation 0]
   CableCrawlME0@CableCrawl
   NathansDungeon_allME0
   Improbable2ME0@Improbable2
+  ImprobableME0@Improbable
+  LloydHallME0@LloydHall
   BoulderChamberME0@BoulderChamber
   TunnelME0@Tunnel
   BeddingChamberME0@BeddingChamber
@@ -168,6 +169,7 @@ join roof2@Blackcat:end floor1@Blackcat:0 floor1@CastleHairyRing:0 -smooth on
 join roof2@Blackcat:2 floor1@CastleHairyRing:end -smooth on
 join roof3@Blackcat:4 roof1@CastleHairyRing:end -smooth on
 join BlackcatSE0_2@Blackcat KingsSolomonsSE0_1@KingsSolomons -smooth on
+join BlackcatSE0_1@Blackcat NathansAtticSE0_1@NathansAttic -smooth on
 join BlackcatSE0_2@Blackcat TableauxSE0_1@Tableaux -smooth on
 join BeddingChamberSE0_1@BeddingChamber TableauxSE0_3@Tableaux -smooth on
 join BoulderChamberSE0_1@BoulderChamber Improbable2SE0_1@Improbable2 -smooth on
@@ -180,6 +182,9 @@ join CheeseroomSE0_1@Cheeseroom HeartbreakHillSE0_1@HeartbreakHill  -smooth on
 join roof1@Cheeseroom:end roof1@TheOxbow:0 -smooth on
 join floor1@Cheeseroom:0 roof2@TheOxbow:end -smooth on
 
+join Damocles1SE0_2@Damocles1 Damocles2SE0_1@Damocles2 -smooth on
+join wall1@Damocles2:1 wall1@Damocles3:0 -smooth on
+join wall1@Damocles2:3 wall1@Damocles3:end -smooth on
 join DireStraitsSE0_1@DireStraits  upstreamSE0_1@upstream.sumps -smooth on
 join DucksDelightSE0_1@DucksDelight FontsSE0_1@Fonts -smooth on
 join DucksDelightSE0_1@DucksDelight FontsSE0_2@Fonts -smooth on
@@ -203,14 +208,17 @@ join floor@HeartbreakHill:end floor1@Tableaux:0 -smooth on
 join floor@HeartbreakHill:10 floor1@Tunnel:0  -smooth on
 join HeartbreakHillSE0_1@HeartbreakHill TheOxbowSE0_1@TheOxbow -smooth on
 
+join ImprobableSE0_1@Improbable Improbable2SE0_1@Improbable2 -smooth on
+join roof1@Improbable:end roof1@LloydHall:10 -smooth on
+join floor1@Improbable:0 floor1@LloydHall:3 -smooth on
+
 join KingsSolomonsSE0_1@KingsSolomons TableauxSE0_2@Tableaux -smooth on
+
+join upstreamSE0_1@upstream.sumps LloydHall1SE0_2@LloydHall -smooth on
 
 join SideOxSE0_1@SideOx TheOxbowSE0_1@TheOxbow -smooth on
 join StPaulsSE0_1@StPauls TableauxSE0_3@Tableaux -smooth on
 join StPaulsSE0_2@StPauls TunnelSE0_1@Tunnel -smooth on
-
-### breaks the join due to joining other scrap so reconnecting
-#join TheOxbowSE0_2@TheOxbow  TheOxbowSE0_3@TheOxbow -smooth on
 
 
 

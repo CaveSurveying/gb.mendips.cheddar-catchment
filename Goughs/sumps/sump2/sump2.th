@@ -13,6 +13,10 @@ date 2005.09.03
 team "Jon Beal"
 team "Mike Thomas"
 
+sd compass 5 degrees
+sd depth 0.05 m
+sd tape 0.5 m
+
 data diving from fromdepth compass tape to todepth ignoreall
 
 0  +1.1  352  3.3  1  -0.2  ; 0=belay point

@@ -2,6 +2,10 @@ encoding  utf-8
 source Goughs.th
 # Change name to the main therion file
 
+select SandCrawl.Goughs
+select SandChamber.Goughs
+select Blackcat.Goughs
+
 
 #Surveys to output
 #-----------------
@@ -13,7 +17,7 @@ export map -proj [elevation 0] -layout local -o GoughsE000.pdf
 
 #export map -proj plan -fmt kml -layout mendip -o Goughs.kml
 
-#export model -fmt survex -o Goughsth.3d
+export model -fmt survex -o Goughsth.3d
 #Survex file showing centre line only
 
 #export model -o Goughs.lox

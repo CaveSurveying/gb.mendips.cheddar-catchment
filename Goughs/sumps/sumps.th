@@ -1,6 +1,7 @@
 encoding  utf-8
 survey sumps
 
+
 input downstream/downstream.th
 input upstream/upstream.th
 input sump1b/sump1b.th
@@ -15,6 +16,12 @@ equate 137@sump1b 0@bishops_palace
 equate 19@bishops_palace 0@sump2
 equate 23@sump2 1@sheppards_crook
 equate 4@sheppards_crook 0_00@sump3
+
+##############################################
+#                                                                                                                             #
+# Plan maps and joins                                                                                           #
+#                                                                                                                             #
+##############################################
 
 map sumpsM
   downstreamM@downstream
@@ -31,6 +38,12 @@ join sump1bSPl1@sump1b bishops_palaceSPl1@bishops_palace -smooth on
 join bishops_palaceSPl1@bishops_palace sump2SPl1@sump2 -smooth on
 join sump2SPl1@sump2 sheppards_crookSPl1@sheppards_crook -smooth on
 join sheppards_crookSPl1@sheppards_crook sump3SPl1@sump3 -smooth on
+
+##############################################
+#                                                                                                                             #
+# Projected elevation  maps and joins                                                                 #
+#                                                                                                                             #
+############################################## 
 
 map sumpsME0 -proj [elevation 0]
   downstreamME0@downstream

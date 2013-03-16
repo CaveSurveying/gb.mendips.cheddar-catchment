@@ -25,6 +25,11 @@ team "Chris Jewell" dog
 instrument compass "Lazy Boy sump mapper v2"
 instrument clino "Lazy Boy sump mapper  v2"
 
+sd compass 5 degrees
+sd depth 0.05 m
+sd tape 0.5 m
+
+
 data diving from fromdepth to todepth compass tape
           
 0_00  0.0  10_00  -10.0  161  10.00

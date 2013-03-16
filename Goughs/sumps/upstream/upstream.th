@@ -20,6 +20,7 @@ data diving from fromdepth to todepth compass tape ignoreall
 
 sd compass 5 degrees
 sd depth 0.05 m
+sd tape 0.5 m
                 
 0  4  4.5  0  240  4.5  ; 4.5=water surface (4 m below bolt belay on 22/12/10 and 4.5m from start of line, bearing accurate)
 4.5  0  17  -12.5  240  12.5  ; 17=lip of shaft compass bearing made up, depth changed to 12.5 from original 13.3 to make shaft vertical 

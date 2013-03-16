@@ -23,6 +23,7 @@ data diving from fromdepth to todepth compass tape ignoreall
 
 sd compass 5 degrees
 sd depth 0.05 m
+sd tape 0.5 m
 
 #some legs have been modified to allow for a compilation error
 #original data is still in Survex file
