@@ -2,12 +2,20 @@ encoding  utf-8
 survey SandChamber
 
 input SandChamber.th2
+input SandChamberE0.th2
 
 map SandChamberM
   SandChamberSPl1
   SandChamberSPl2
  break 
   SandChamberSPl3
+endmap
+
+map SandChamberME0
+  SandChamberSE0_2
+#redraw in bolder chamber as it is part of the same chamber so is clearer
+# break
+#  SandChamberSE0_1
 endmap
 
 centreline

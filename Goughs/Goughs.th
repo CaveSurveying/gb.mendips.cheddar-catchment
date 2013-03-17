@@ -145,19 +145,19 @@ map GoughsME0 -proj [elevation 0]
   DireStraitsME0@DireStraits
   StPaulsME0@StPauls
   NovemberME0@November
-#  SandChamberME0@SandChamber
+  SandChamberME0@SandChamber
   SandCrawlME0@SandCrawl
   SideOxME0@SideOx
   HeartbreakDigME0@HeartbreakDig
   CheeseroomME0@Cheeseroom
   WetWitchME0@WetWitch
-  FarRiftME0_1@FarRift
   CableCrawlME0@CableCrawl
   NathansDungeon_allME0
   Improbable2ME0@Improbable2
   ImprobableME0@Improbable
   LloydHallME0@LloydHall
   BoulderChamberME0@BoulderChamber
+  FarRiftME0_1@FarRift
   TunnelME0@Tunnel
   BeddingChamberME0@BeddingChamber
   ShowCaveSumpsME0@sumps
@@ -167,12 +167,19 @@ join roof1@Blackcat:2 roof1@CastleHairyRing:0 -smooth on
 join roof2@Blackcat:end floor1@Blackcat:0 floor1@CastleHairyRing:0 -smooth on
 join roof2@Blackcat:2 floor1@CastleHairyRing:end -smooth on
 join roof3@Blackcat:4 roof1@CastleHairyRing:end -smooth on
+join BlackcatSE0_1@Blackcat BoulderChamberSE0_1@BoulderChamber -smooth on
 join BlackcatSE0_2@Blackcat KingsSolomonsSE0_1@KingsSolomons -smooth on
 join BlackcatSE0_1@Blackcat NathansAtticSE0_1@NathansAttic -smooth on
+join BlackcatSE0_1@Blackcat SandChamberSE0_2@SandChamber -smooth on
+join roof5@Blackcat:4 roof1@SandCrawl:0 -smooth on
+join floor3@Blackcat:4 floor1@SandCrawl:end -smooth on
 join BlackcatSE0_2@Blackcat TableauxSE0_1@Tableaux -smooth on
 join BeddingChamberSE0_1@BeddingChamber TableauxSE0_3@Tableaux -smooth on
 join BoulderChamberSE0_1@BoulderChamber Improbable2SE0_1@Improbable2 -smooth on
 join BoulderChamberSE0_1@BoulderChamber FarRiftSE0_2@FarRift -smooth on
+join roof1@BoulderChamber:3 wall1@FarRift:end -smooth on
+join pillar1@BoulderChamber:7 wall1@FarRift:0 -smooth on
+join BoulderChamberSE0_1@BoulderChamber SandChamberSE0_2@SandChamber -smooth on
 
 join CableCrawlSE0_1@CableCrawl Improbable2SE0_1@Improbable2 -smooth on
 join CableCrawlSE0_1@CableCrawl NovemberSE0_1@November -smooth on

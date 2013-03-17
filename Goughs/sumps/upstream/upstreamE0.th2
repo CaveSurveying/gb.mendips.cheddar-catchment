@@ -14,13 +14,15 @@ endline
 
 line border -id l31-267-533 -visibility off
   280.5 531.5
-  241.0 531.5
+  240.0 531.5
+  adjust horizontal
 endline
 
 line wall
   2723.5 470.25
   2717.0 485.5 2718.3 496.45 2723.5 501.0
   2731.5 508.0 2742.25 516.0 2746.25 523.0
+  smooth off
 endline
 
 line border -id l30-2567-520 -visibility off
