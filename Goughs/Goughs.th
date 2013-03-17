@@ -126,19 +126,20 @@ map NathansDungeon_allME0  -proj [elevation 0]
 endmap
 
 map GoughsME0 -proj [elevation 0]
+  FontsME0@Fonts 
   DSAvenME0@DSAven
-  BatRoomME0@BatRoom
   KingsSolomonsME0@KingsSolomons
   CastleHairyRingME0@CastleHairyRing
   BlackcatSouthME0@Blackcat
   BlackcatNorthME0@Blackcat
+  NathansAtticME0@NathansAttic
   Damocles3ME0@Damocles3
   Damocles2ME0@Damocles2
   Damocles1ME0@Damocles1
-  NathansAtticME0@NathansAttic
   DucksDelightME0@DucksDelight
   EntranceME0@Entrance
-  FontsME0@Fonts 
+  SkeletonME0@Skeleton
+  BatRoomME0@BatRoom
   HeartbreakHillME0@HeartbreakHill
   TableauxME0@Tableaux
   TheOxbowME0@TheOxbow
@@ -163,6 +164,7 @@ map GoughsME0 -proj [elevation 0]
   ShowCaveSumpsME0@sumps
 endmap 
 
+join roof1@BatRoom:0 roof1@Entrance:19 -smooth on
 join roof1@Blackcat:2 roof1@CastleHairyRing:0 -smooth on
 join roof2@Blackcat:end floor1@Blackcat:0 floor1@CastleHairyRing:0 -smooth on
 join roof2@Blackcat:2 floor1@CastleHairyRing:end -smooth on
@@ -240,6 +242,7 @@ input Blackcat/Blackcat.th
 input BoulderChamber/BoulderChamber.th
 input CableCrawl/CableCrawl.th
 input CastleHairyRing/CastleHairyRing.th
+input Cheeseroom/Cheeseroom.th
 input Damocles1/Damocles1.th
 input Damocles2/Damocles2.th
 input Damocles3/Damocles3.th
@@ -250,6 +253,7 @@ input Entrance/Entrance.th
 input FarRift/FarRift.th
 input Fonts/Fonts.th
 input HeartbreakHill/HeartbreakHill.th
+input HeartbreakDig/HeartbreakDig.th
 input Improbable/Improbable.th
 input Improbable2/Improbable2.th
 input KingsSolomons/KingsSolomons.th
@@ -260,15 +264,13 @@ input November/November.th
 input SandChamber/SandChamber.th
 input SandCrawl/SandCrawl.th
 input SideOx/SideOx.th
+input Skeleton/Skeleton.th
 input sumps/sumps.th
 input Surface/Surface.th
 input StPauls/StPauls.th
 input Tableaux/Tableaux.th
 input TheOxbow/TheOxbow.th
 input Tunnel/Tunnel.th
-input HeartbreakDig/HeartbreakDig.th
-input Skeleton/Skeleton.th
-input Cheeseroom/Cheeseroom.th
 input WetWitch/WetWitch.th
 
 equate 1.1@BatRoom 1.0@Entrance 

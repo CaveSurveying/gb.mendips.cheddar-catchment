@@ -9,7 +9,7 @@ source Skeleton.th
 #export map -proj plan -layout local -o Skeleton.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o Skeletone.pdf
+export map -proj [elevation 0]-layout local -o SkeletoneE0.pdf
 
 export model -fmt survex -o Skeletonth.3d
 #Survex file showing centre line only
@@ -22,7 +22,7 @@ export model -fmt survex -o Skeletonth.3d
 
 layout local
 copy common
-debug off
+debug on
 map-header 0 0 off
 endlayout
 
