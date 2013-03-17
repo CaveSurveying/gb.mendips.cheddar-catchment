@@ -31,15 +31,12 @@ export model -fmt survex -o Goughsth.3d
 select GoughsDispM@Goughs
 select GoughsUpperM@Goughs -map-level 1
 select ShowCaveSumpsM@sumps.Goughs
-
 select GoughsME0@Goughs -map-level 1
-
-
 
 layout combined
 copy local
-map-image -1 105 sw GoughsE000.pdf
-map-header 0 0 sw
+map-image -1 0 nw GoughsE000.pdf
+map-header 0 100 nw
 endlayout
 
 layout plan
@@ -48,13 +45,13 @@ map-header 0 0 sw
 endlayout
 
 layout local
-
 copy common
 debug off
 map-header 0 0 off
 colour map-fg map
 colour-legend off
 symbol-hide group centreline
+grid-size 100 100 20 m
 scale 1 500
 
 code tex-map
