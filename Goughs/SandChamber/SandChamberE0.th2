@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -417.92 -296.39 2507.5 1778.32
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {319.760782399 1 1.0} {1305.76499479 2.0} PocketTopo/SandChamber_E0.xvi 0 {}
+
+
+scrap SandChamberSE0_1 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SandChamberSE0_2 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SandChamberSE0_3 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SandChamberSE0_4 -projection [elevation 0] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
