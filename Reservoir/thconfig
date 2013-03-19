@@ -11,7 +11,7 @@ source Reservoir.th
 export map -proj plan -layout local -o Reservoir.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj [elevation 90] -layout local -o ReservoirE90.pdf
+export map -proj [elevation 90] -layout local -o ReservoirE90.pdf
 
 export model -fmt survex -o Reservoirth.3d
 #Survex file showing centre line only
