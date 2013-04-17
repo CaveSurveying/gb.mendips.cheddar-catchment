@@ -10,6 +10,8 @@ scrap TunnelSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 line wall
 endline
 
+point 264.0 912.0 map-connection
+
 line wall
   448.0 692.0
   404.0 682.0 362.0 662.0 362.0 662.0

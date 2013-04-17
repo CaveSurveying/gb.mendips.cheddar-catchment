@@ -151,6 +151,8 @@ point 357.0 432.0 gradient -orientation 21.8 -scale xs
 
 point 450.5 424.0 gradient -orientation 357.6 -scale xs
 
+point 492.0 426.0 map-connection
+
 line wall -close on
   323.0 397.0
   328.0 376.0 331.0 381.0 343.0 375.0

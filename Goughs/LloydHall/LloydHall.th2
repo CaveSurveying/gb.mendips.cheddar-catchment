@@ -287,6 +287,8 @@ line wall
   smooth off
 endline
 
+point 554.0 1792.0 map-connection
+
 line wall
   527.0 1506.5
   528.0 1510.5 534.5 1513.0 532.0 1506.0

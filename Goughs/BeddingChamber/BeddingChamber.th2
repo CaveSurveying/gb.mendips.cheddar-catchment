@@ -171,19 +171,11 @@ line wall -id l12-1900-1918 -reverse on -outline in
   smooth off
 endline
 
-line border -close on -clip off
-  208.0 864.0
-  3112.0 864.0
-  3112.0 3004.0
-  208.0 3004.0
-  208.0 864.0
-endline
-
-point 208.0 864.0 map-connection
+point 1360.0 1436.0 map-connection
 
 point 1620.0 3212.0 label -text "Bedding Chamber"
 
-point 3112.0 3004.0 map-connection
+point 2962.0 2358.0 map-connection
 
 line border -id l66-1896-2088
   1946.0 2206.0
@@ -404,6 +396,7 @@ line border -id l107-1778-2370 -subtype invisible
   1144.0 2512.0 1120.0 2502.0 1098.0 2436.0
   1076.0 2370.0 1074.0 2264.0 1068.0 2212.0
   1062.0 2160.0 1092.0 2005.0 1094.0 1999.5
+  smooth off
 endline
 
 line wall -outline none -subtype debris
@@ -464,6 +457,7 @@ line border -id l100-2010-1598 -subtype invisible
   2011.0 1476.0 2022.0 1518.0 2014.0 1584.0
   2006.0 1650.0 2010.0 1743.0 1984.0 1795.0
   1958.0 1847.0 1936.5 1945.5 1899.5 1935.5
+  smooth off
 endline
 
 line border -id l50-1184-1474 -subtype invisible
@@ -764,14 +758,6 @@ scrap Box -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 point 769.95770145 2445.4818110200004 station -name 7.11
 
 point 2095.32770145 1955.6418110199997 station -name 7.3
-
-line border -close on -clip off
-  208.0 864.0
-  3112.0 864.0
-  3112.0 3004.0
-  208.0 3004.0
-  208.0 864.0
-endline
 
 endscrap
 
