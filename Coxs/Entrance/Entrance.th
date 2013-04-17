@@ -7,7 +7,6 @@ input EntranceE90.th2
 
 map EntranceM
   EntranceSP1
-  EntranceSP2
 endmap
 
 #map EntranceME
@@ -20,6 +19,9 @@ map EntranceME90 -proj [elevation 90]
   EntranceSE90_2
 endmap
 centreline
+cs OSGB:ST
+fix 1.2 46460 53900 23 #ST 4646 5390 23
+station 1.2 "" entrance
 
 copyright 2013 "CC BY SA NC"
 

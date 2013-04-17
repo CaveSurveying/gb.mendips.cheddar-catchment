@@ -8,7 +8,7 @@ input Upper/Upper.th
 equate 4.11@Entrance 5.0@Lower
 equate 5.4@Lower 6.0@Upper
 
-map WhitebeamM -title Whitebeam
+map WhitebeamM -title "Whitebeam Slither Cave"
   EntranceM@Entrance
   LowerM@Lower
   UpperM@Upper

@@ -17,8 +17,6 @@ equate 1.8 1.24
 equate 1.15 1.21
 equate 1.19 1.22
 
-
-
 centreline
   cs OSGB:ST
   station 1.0 "" entrance

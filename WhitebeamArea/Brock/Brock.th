@@ -5,7 +5,7 @@ input Brock.th2
 input BrockEe.th2
 input BrockE90.th2
 
-map BrockM
+map BrockM -title "Brock Hole"
   BrockSP1
 endmap
 

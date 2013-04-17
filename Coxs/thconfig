@@ -1,0 +1,69 @@
+encoding  utf-8
+source Coxs.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+
+#export map -proj [elevation 0] -layout local -o CoxsE000.pdf
+
+#Plan and elevation on same sheet
+export map -proj plan -layout local -o Coxs.pdf
+
+
+#export map -proj plan -fmt kml -layout mendip -o Coxs.kml
+
+#export model -fmt survex -o Coxsth.3d
+#Survex file showing centre line only
+
+#export model -o Coxs.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj local -o Coxs_Walls.3d
+#Survex file showing walls only
+
+
+
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+colour map-fg map
+colour-legend off
+symbol-hide group centreline
+
+
+
+#A1 (for combined)
+scale 1 500
+
+	
+
+code metapost
+
+#####################################
+#Text sizes
+#xs: features such as sumps
+#s: point names such as rocks
+#m: normal names
+#l: major names
+#xl: Area/cave names
+#####################################
+
+  #base 1:750 scale 1:2750 (A3 charterhouse,GB)
+  #fonts_setup(8,16,24,40,60)
+
+  #scale 1:1000 (A0 width charterhouse,GB)
+  #fonts_setup(7,10,14,20,30)
+
+  #base 1:500 scale 1:2750 
+  #fonts_setup(8,20,26,40,60)
+
+endcode
+
+endlayout
+
+input ../common_layout.th

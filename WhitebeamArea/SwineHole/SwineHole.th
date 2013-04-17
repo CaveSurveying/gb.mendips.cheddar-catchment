@@ -5,7 +5,7 @@ input SwineHole.th2
 input SwineHoleEe.th2
 input SwineHoleE90.th2
 
-map SwineHoleM
+map SwineHoleM -title "Swine Hole"
   SwineHoleSP1
   SwineHoleSP2
 endmap

@@ -1,0 +1,11 @@
+encoding  utf-8
+survey Coxs
+
+input Entrance/Entrance.th
+
+map Coxs -title "Cox's Cave"
+  EntranceM@Entrance
+endmap
+
+endsurvey
+

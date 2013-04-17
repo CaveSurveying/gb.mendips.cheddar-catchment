@@ -25,8 +25,8 @@ station BlackRockRift "" entrance
 #station BrockHole "" entrance
 fix Canyon 46980 54300 108 #ST 4698 5430 108
 station Canyon "" entrance
-fix Coxs 46460 53900 23 #ST 4646 5390 23
-station Coxs "" entrance
+#fix Coxs 46460 53900 23 #ST 4646 5390 23
+#station Coxs "" entrance
 #fix WarrenFarmSwallet 49360 54580 235
 #station WarrenFarmSwallet "" entrance
 fix Chedder1Feeder 46660 53890 27 #ST 4666 5389 27

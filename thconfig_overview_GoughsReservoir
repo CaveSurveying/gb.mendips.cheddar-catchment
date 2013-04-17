@@ -10,6 +10,12 @@ select GoughsM@Goughs.CheddarCatchment
 select allSumpsM@sumps.Goughs.CheddarCatchment
 select WhiteSpotM@WhiteSpot.CheddarCatchment
 select ReservoirM@Reservoir.CheddarCatchment
+select BrockM@Brock.WhitebeamArea.CheddarCatchment
+select Coxs@Coxs.CheddarCatchment
+select WhitebeamM@Whitebeam.WhitebeamArea.CheddarCatchment
+select SwineHoleM@SwineHole.WhitebeamArea.CheddarCatchment
+select Unknown1M@Unknown1.WhitebeamArea.CheddarCatchment
+
 
 
 #Surveys to output
@@ -53,12 +59,12 @@ scale-bar 500 m
 #map-comment "The google copyright statement!!!!"
 code tex-map
   \def\maplayout{
-    \legendbox{0}{80}{nw}{
-     \scalebar
-     \bigskip
+    \legendbox{60}{0}{nw}{
      \northarrow
+     \bigskip
+     \scalebar
    }
-       \legendbox{60}{0}{sw}{
+       \legendbox{0}{30}{sw}{
     \formattedlegend 
     }
   }
