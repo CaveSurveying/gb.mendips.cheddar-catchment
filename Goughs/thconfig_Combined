@@ -1,0 +1,117 @@
+encoding  utf-8
+source Goughs.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#Projected Elevation has to be produced first for combined to work
+export map -proj [elevation 0] -layout elev -o GoughsE000.pdf
+
+#Plan and elevation on same sheet
+export map -proj plan -layout combined -o Goughs_combined.pdf
+
+#export map -proj plan -layout plan -o Goughs.pdf
+#Produces plan of cave, on a single sheet
+
+
+
+#export map -proj plan -fmt kml -layout mendip -o Goughs.kml
+
+#export model -fmt survex -o Goughsth.3d
+#Survex file showing centre line only
+
+#export model -o Goughs.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Goughs_Walls.3d
+#Survex file showing walls only
+
+select GoughsDispM@Goughs
+select GoughsUpperM@Goughs -map-level 1
+select ShowCaveSumpsM@sumps.Goughs
+select GoughsME0@Goughs -map-level 1
+
+layout elev
+copy local
+colour map-bg transparent
+endlayout
+
+layout combined
+copy local
+map-image -1 0 nw GoughsE000.pdf
+map-image 0 -65 nw ../Outputs/Res_Goughs_overview.pdf
+map-header 0 100 nw
+endlayout
+
+layout plan
+copy local
+map-header 0 0 sw
+endlayout
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+colour map-fg map
+colour-legend off
+symbol-hide group centreline
+grid-size 100 100 20 m
+
+
+#A1 (for combined)
+scale 1 500
+
+
+code tex-map
+  \cavename={\size[50]  Gough's Cave\medskip}
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse
+
+#for Andrew
+#code tex-map
+#   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+#    \def\maplayout{
+
+#      \legendbox{90}{101}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/CheddarCatchment/Goughs/GoughsOverview.pdf}}
+#      \legendbox{62}{73}{SW}{\northarrow}
+#     \legendbox{65}{73}{SW}{\scalebar}
+#   }
+	
+#for Graham
+#code tex-map
+#    \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+#    \def\maplayout{
+#
+#      \legendbox{90}{101}{NE}{\loadpicture{C:/Users/Graham/Documents/Cave Survey data/Registry Repository/CheddarCatchment/Goughs/GoughsOverview.pdf}}
+#      \legendbox{62}{73}{SW}{\northarrow}
+#     \legendbox{65}{73}{SW}{\scalebar}	
+#  }	
+
+code metapost
+
+#####################################
+#Text sizes
+#xs: features such as sumps
+#s: point names such as rocks
+#m: normal names
+#l: major names
+#xl: Area/cave names
+#####################################
+
+  #base 1:750 scale 1:2750 (A3 charterhouse,GB)
+  #fonts_setup(8,16,24,40,60)
+
+  #scale 1:1000 (A0 width charterhouse,GB)
+  fonts_setup(7,10,14,20,30)
+
+  #base 1:500 scale 1:2750 
+  #fonts_setup(8,20,26,40,60)
+
+endcode
+
+endlayout
+
+input ../common_layout.th

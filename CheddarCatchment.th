@@ -20,7 +20,7 @@ input CharterhouseWarren/CharterhouseWarren.th
 input ChelmsCombe/ChelmsCombe.th
 
 #corners is only needed for google maps mendip map
-input corners.th
+#input corners.th
 
 input GB/GB.th
 
@@ -32,7 +32,7 @@ input Great_Oones/Great_Oones.th
 
 #input "Great Swallet/Great_Swallet.th" 
 
-input Largesurface/Largesurface.th
+#input Largesurface/Largesurface.th
 
 input Long_Hole/Long_Hole.th
 
@@ -64,7 +64,7 @@ input Sayes_Hole/Sayes_Hole.th
 
 input Spider/Spider.th
 
-#input Surface/Surface.th
+input Surface/Surface.th
 
 input Hangover/Hangover.th
 

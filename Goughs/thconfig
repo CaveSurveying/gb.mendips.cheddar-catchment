@@ -7,19 +7,19 @@ source Goughs.th
 #-----------------
 
 #Projected Elevation has to be produced first for combined to work
-export map -proj [elevation 0] -layout local -o GoughsE000.pdf
+export map -proj [elevation 0] -layout elev -o GoughsE000.pdf
 
 #Plan and elevation on same sheet
-#export map -proj plan -layout combined -o Goughs_combined.pdf
+export map -proj plan -layout combined -o Goughs_combined.pdf
 
-export map -proj plan -layout plan -o Goughs.pdf
+#export map -proj plan -layout plan -o Goughs.pdf
 #Produces plan of cave, on a single sheet
 
 
 
 #export map -proj plan -fmt kml -layout mendip -o Goughs.kml
 
-export model -fmt survex -o Goughsth.3d
+#export model -fmt survex -o Goughsth.3d
 #Survex file showing centre line only
 
 #export model -o Goughs.lox
@@ -32,6 +32,11 @@ select GoughsDispM@Goughs
 select GoughsUpperM@Goughs -map-level 1
 select ShowCaveSumpsM@sumps.Goughs
 select GoughsME0@Goughs -map-level 1
+
+layout elev
+copy local
+colour map-bg transparent
+endlayout
 
 layout combined
 copy local
