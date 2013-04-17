@@ -1,0 +1,78 @@
+encoding  utf-8
+source Goughs.th
+# Change name to the main therion file
+
+#Surveys to output
+#-----------------
+
+#Projected Elevation has to be produced first for combined to work
+export map -proj [elevation 0] -layout elev -o GoughsE000A5.pdf
+
+export map -proj plan -layout plan -o GoughsA5.pdf
+#Produces plan of cave, on a single sheet
+
+select GoughsDispM@Goughs
+select GoughsUpperM@Goughs -map-level 1
+select ShowCaveSumpsM@sumps.Goughs
+select GoughsME0@Goughs -map-level 1
+
+layout plan
+copy local
+map-header 0 0 sw
+
+code tex-map
+  \cavename={\size[30]  Gough's Cave\medskip}
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse
+
+endcode
+endlayout
+
+layout elev
+copy local
+map-header 0 100 nw
+
+code tex-map
+  \cavename={}
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse
+
+endcode
+endlayout
+
+layout local
+copy common
+debug off
+map-header-bg off
+colour map-fg map
+colour map-bg transparent
+legend off
+symbol-hide group centreline
+grid off
+scale 1 1500
+statistics explo off
+statistics topo off
+statistics carto off
+
+code metapost
+
+#####################################
+#Text sizes
+#xs: features such as sumps
+#s: point names such as rocks
+#m: normal names
+#l: major names
+#xl: Area/cave names
+#####################################
+
+
+  # scale 1:1500 
+  fonts_setup(5,6,7,9,12)
+
+endcode
+
+endlayout
+
+input ../common_layout.th
