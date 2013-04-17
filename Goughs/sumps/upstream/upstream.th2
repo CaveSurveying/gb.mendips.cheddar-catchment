@@ -56,6 +56,7 @@ line wall -id l2-388-397
   2530.0 304.0 2528.0 304.0 2548.0 309.0
   2568.0 314.0 2556.0 311.0 2578.0 321.0
   2592.68 327.67 2604.0 337.0 2620.0 346.0
+  smooth off
 endline
 
 area sump
@@ -164,7 +165,7 @@ point 299.41 452.168 station -name 17
 
 point 334.65 472.438 station -name 0
 
-point 1594.0 1063.0 label -align c -scale xl -text "Upstream Sump 1a"
+point 1594.0 1063.0 label -align c -scale l -text "Upstream Sump 1a"
 
 endscrap
 
