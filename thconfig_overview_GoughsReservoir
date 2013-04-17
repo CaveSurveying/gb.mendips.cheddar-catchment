@@ -10,11 +10,11 @@ select GoughsM@Goughs.CheddarCatchment
 select allSumpsM@sumps.Goughs.CheddarCatchment
 select WhiteSpotM@WhiteSpot.CheddarCatchment
 select ReservoirM@Reservoir.CheddarCatchment
-select BrockM@Brock.WhitebeamArea.CheddarCatchment
+#select BrockM@Brock.WhitebeamArea.CheddarCatchment
 select Coxs@Coxs.CheddarCatchment
-select WhitebeamM@Whitebeam.WhitebeamArea.CheddarCatchment
-select SwineHoleM@SwineHole.WhitebeamArea.CheddarCatchment
-select Unknown1M@Unknown1.WhitebeamArea.CheddarCatchment
+#select WhitebeamM@Whitebeam.WhitebeamArea.CheddarCatchment
+#select SwineHoleM@SwineHole.WhitebeamArea.CheddarCatchment
+#select Unknown1M@Unknown1.WhitebeamArea.CheddarCatchment
 
 
 
@@ -58,11 +58,15 @@ statistics carto off
 scale-bar 500 m
 #map-comment "The google copyright statement!!!!"
 code tex-map
+\comment={\copyright The google copyright statement!!!!}{}
   \def\maplayout{
     \legendbox{60}{0}{nw}{
      \northarrow
      \bigskip
      \scalebar
+     }
+     \legendbox{0}{0}{nw}{\bigskip
+     \the\comment
    }
        \legendbox{0}{30}{sw}{
     \formattedlegend 
