@@ -6,7 +6,7 @@ source Whitebeam.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o Whitebeam.pdf
+export map -proj plan -layout local -o Whitebeam.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o WhitebeamEe.pdf
@@ -25,7 +25,7 @@ export model -fmt survex -o Whitebeamth.3d
 layout local
 copy common
 debug off
-map-header 0 0 nw
+map-header 0 0 off
 #symbol-hide group cave-centreline
 endlayout
 

@@ -6,7 +6,7 @@ source Lower.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o Lower.pdf
+export map -proj plan -layout local -o Lower.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o LowerEe.pdf

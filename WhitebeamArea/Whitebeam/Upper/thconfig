@@ -6,7 +6,7 @@ source Upper.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o Upper.pdf
+export map -proj plan -layout local -o Upper.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o UpperEe.pdf

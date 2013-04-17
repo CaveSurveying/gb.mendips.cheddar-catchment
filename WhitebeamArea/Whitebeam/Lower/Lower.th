@@ -7,7 +7,6 @@ input LowerE90.th2
 
 map LowerM
   LowerSP1
-  LowerSP2
 endmap
 
 map LowerME

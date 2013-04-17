@@ -5,7 +5,7 @@ input WhiteSpot.th2
 input WhiteSpotEe.th2
 input WhiteSpotE90.th2
 
-map WhiteSpotM
+map WhiteSpotM -title "Whitespot Cave"
   WhiteSpotSPl1
 endmap
 

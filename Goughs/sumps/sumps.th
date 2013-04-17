@@ -23,7 +23,7 @@ equate 4@sheppards_crook 0_00@sump3
 #                                                                                                                             #
 ##############################################
 
-map allSumpsM
+map allSumpsM -title "Gough's Sumps"
   ShowCaveSumpsM
   FarSumpsM
 endmap

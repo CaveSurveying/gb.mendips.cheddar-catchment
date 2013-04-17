@@ -44,25 +44,26 @@ symbol-hide group all
 symbol-show line wall
 
 grid off
-map-header 100 100 off
+map-header 0 80 nw
 map-header-bg off
 statistics explo off
 statistics topo off
 statistics carto off
 scale-bar 500 m
+#map-comment "The google copyright statement!!!!"
 code tex-map
   \def\maplayout{
     \legendbox{0}{80}{nw}{
-      \scalebar
-      \bigskip 
-      \northarrow
+     \scalebar
+     \bigskip
+     \northarrow
+   }
+       \legendbox{60}{0}{sw}{
+    \formattedlegend 
     }
   }
 endcode
-
 endlayout
-           
-
 
 #get the master layout settings
 input common_layout.th

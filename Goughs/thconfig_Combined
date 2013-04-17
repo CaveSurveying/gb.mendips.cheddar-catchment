@@ -5,19 +5,16 @@ source Goughs.th
 
 #Surveys to output
 #-----------------
+#Plan has to be produced first for combined to work
 
-#Projected Elevation has to be produced first for combined to work
+export map -proj plan -layout plan -o Goughs.pdf
+#Produces plan of cave, on a single sheet
+
 export map -proj [elevation 0] -layout elev -o GoughsE000.pdf
 
 #Plan and elevation on same sheet
-export map -proj plan -layout combined -o Goughs_combined.pdf
+export map -proj [elevation 0] -layout combined -o Goughs_combined.pdf
 
-#export map -proj plan -layout plan -o Goughs.pdf
-#Produces plan of cave, on a single sheet
-
-
-
-#export map -proj plan -fmt kml -layout mendip -o Goughs.kml
 
 #export model -fmt survex -o Goughsth.3d
 #Survex file showing centre line only
@@ -35,19 +32,32 @@ select GoughsME0@Goughs -map-level 1
 
 layout elev
 copy local
-colour map-bg transparent
+#colour map-bg transparent
+
 endlayout
 
 layout combined
 copy local
-map-image -1 0 nw GoughsE000.pdf
-map-image 0 -65 nw ../Outputs/Res_Goughs_overview.pdf
-map-header 0 100 nw
+map-image -2 100 sw Goughs.pdf
+map-image 0 -5 nw ../Outputs/Res_Goughs_overview.pdf
+map-header 100 -5 ne
+map-comment "Drawn, using Therion, by Andrew Atkinson.<br>\
+Survey UBSS<br>\
+With thanks to all the other cavers past and present<br>\
+that have made information available.<br>\
+Grade UISv1 6-4-BDEF<br>\
+Copyright 2010-2012 CC BY NC SA <br>\
+ <br>\
+ Spot heights in metres AOD"
 endlayout
 
 layout plan
 copy local
-map-header 0 0 sw
+code tex-map
+  \def\maplayout{
+    \legendbox{5}{90}{SW}{\northarrow}
+  }
+endcode
 endlayout
 
 layout local
@@ -65,10 +75,11 @@ scale 1 500
 
 
 code tex-map
-  \cavename={\size[50]  Gough's Cave\medskip}
-    \cavelength={} %empty
-    \cavedepth={}  %empty
+  \cavename={\size[50]  Gough's Cave\medskip\size[20] upto and including sump 1b}
+   # \cavelength={} %empty
+   #\cavedepth={}  %empty
     \colorlegendfalse
+
 
 #for Andrew
 #code tex-map
