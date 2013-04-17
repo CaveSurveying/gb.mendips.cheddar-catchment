@@ -18,7 +18,7 @@ map GoughsDispM
     BeddingChamberBoxM@BeddingChamber
     BeddingChamberM@BeddingChamber [-9 30 m] above
  #   GoughsUpperM
-    GoughsLowerM [0 -70 m] below
+    GoughsLowerM [0 -80 m] below
     LLoydTopM [25 10 m] above
 endmap
 

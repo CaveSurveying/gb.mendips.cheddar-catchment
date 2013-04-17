@@ -20,13 +20,14 @@ line arrow
   524.0 310.5
 endline
 
-point 681.5 442.0 label -align tr -text " Dire<br>Straits
+point 616.5 468.5 label -align tr -text " Dire<br>Straits
 
 point 396.5 179.5 gradient -orientation 219.3
 
 line pit
   464.5 205.5
   462.5 214.5 448.5 244.0 440.0 244.5
+  smooth off
 endline
 
 line pit
@@ -34,17 +35,20 @@ line pit
   379.5 84.5 380.5 98.5 384.5 107.0
   388.5 115.5 394.5 128.0 402.5 138.5
   410.5 149.0 444.0 173.0 450.0 175.5
+  smooth off
 endline
 
 line pit
   390.5 237.0
   389.0 225.5 382.0 205.0 373.0 194.5
   364.0 184.0 343.0 167.5 338.0 165.0
+  smooth off
 endline
 
 line pit
   170.0 70.5
   168.5 83.0 161.5 100.5 126.5 92.0
+  smooth off
 endline
 
 line wall -close on

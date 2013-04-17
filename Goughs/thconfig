@@ -10,9 +10,9 @@ source Goughs.th
 export map -proj [elevation 0] -layout local -o GoughsE000.pdf
 
 #Plan and elevation on same sheet
-export map -proj plan -layout combined -o Goughs_combined.pdf
+#export map -proj plan -layout combined -o Goughs_combined.pdf
 
-#export map -proj plan -layout plan -o Goughs.pdf
+export map -proj plan -layout plan -o Goughs.pdf
 #Produces plan of cave, on a single sheet
 
 
@@ -52,10 +52,14 @@ colour map-fg map
 colour-legend off
 symbol-hide group centreline
 grid-size 100 100 20 m
+
+
+#A1 (for combined)
 scale 1 500
 
+
 code tex-map
-  \cavename={\size[30]  Gough's Cave\medskip}
+  \cavename={\size[16]  Gough's Cave\medskip}
     \cavelength={} %empty
     \cavedepth={}  %empty
     \colorlegendfalse

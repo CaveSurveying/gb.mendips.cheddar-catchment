@@ -823,7 +823,7 @@ line overhang -reverse on
   smooth off
 endline
 
-point 1309.0 2089.0 label -align bl -text "Heartbreak<br>Hill"
+point 1309.0 1897.0 label -align bl -text "Heartbreak<br>Hill"
 
 area sand
   l108-1864-3872
@@ -840,6 +840,7 @@ line border -id l109-2184-3828 -subtype invisible
   2531.0 3630.0
   2516.0 3752.0 2564.0 3864.0 2460.0 3904.0
   2356.0 3944.0 2218.0 3862.0 2181.0 3849.0
+  smooth off
 endline
 
 line border -id l108-1864-3872 -subtype invisible
