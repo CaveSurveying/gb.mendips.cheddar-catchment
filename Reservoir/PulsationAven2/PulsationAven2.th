@@ -1,0 +1,85 @@
+encoding  utf-8
+survey PulsationAven2
+
+input PulsationAven2.th2
+input PulsationAven2Ee.th2
+input PulsationAven2E0.th2
+
+map PulsationAven2M
+  PulsationAven2SP2
+ break
+  PulsationAven2SP1
+endmap
+
+map PulsationAven2ME
+  PulsationAven2SE1
+  PulsationAven2SE2
+endmap
+
+map PulsationAven2ME0 -proj [elevation 0]
+  PulsationAven2SE0_1
+  PulsationAven2SE0_2
+endmap
+centreline
+
+copyright 2013 "CC BY SA NC"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#DistoX-ubss1 0.24
+#Notes:Andrew Atkinson
+#DistoX: Clive Owen
+
+  date 2013.04.18
+
+  team "Andrew Atkinson" notes
+  team "Clive Owen" instruments
+
+equate 14.0 14.5
+
+data normal from to tape compass clino ignoreall
+  extend right
+#Calibration in ToplessClimb
+#14.0  14.1  4.535  307.55  46.08  
+#14.0  14.1  4.545  307.44  46.07  
+#14.0  14.1  4.552  307.71  46.13  
+14.0  14.1  4.544  307.56  46.09  Calculated leg from 3 above
+14.1  -  0.325  78.92  3.09  nv lhs
+14.1  -  2.073  40.17  -82.48  
+14.1  -  0.661  162.61  74.3  
+#14.1  14.2  5.031  349.03  21.48  
+#14.1  14.2  5.049  348.28  21.49  
+#14.1  14.2  5.05  348.65  21.44  
+14.1  14.2  5.043  348.65  21.47  Calculated leg from 3 above
+14.2  -  2.736  176.72  -13.62  nv rock on floor
+14.2  -  2.323  161.02  -13.67  
+14.2  -  0.824  203.3  -56.79  
+14.2  -  1.092  348.35  40.73  
+14.2  -  0.569  255.25  8.65  
+14.2  -  0.746  68.22  22.27  
+14.2  -  3.478  340.27  50.98  
+14.2  -  4.358  233.11  86.18  
+  extend left
+#14.3  14.2  6.45  333.36  -39.77  
+#14.3  14.2  6.455  333.56  -39.8  
+#14.3  14.2  6.451  333.52  -39.82  
+14.3  14.2  6.452  333.48  -39.79  Calculated leg from 3 above
+14.3  -  0.598  62.24  -0.63  nv rhw
+14.3  -  1.805  338.49  -64.43  
+14.3  -  8.894  37.71  87.27  
+14.3  -  3.438  328.86  -47.94  
+14.3  -  5.171  136.66  -48.89  
+#14.3  14.4  5.615  151.79  -2.57  
+#14.3  14.4  5.61  152.0  -2.38  
+#14.3  14.4  5.615  151.79  -2.5  
+14.3  14.4  5.613  151.86  -2.48  Calculated leg from 3 above
+  extend right
+14.3  -  0.0  0.0  0.0  
+  extend left
+#14.3  14.5  9.593  147.68  -74.76  
+#14.3  14.5  9.599  147.75  -74.8  
+#14.3  14.5  9.605  147.77  -74.86  
+14.3  14.5  9.599  147.73  -74.8  Calculated leg from 3 above
+14.5  -  0.0  0.0  0.0  14.0 
+endcentreline
+endsurvey
+

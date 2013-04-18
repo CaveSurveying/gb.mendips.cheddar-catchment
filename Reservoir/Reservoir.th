@@ -16,6 +16,7 @@ input SouthPassage/SouthPassage.th
 input ResEnt/ResEnt.th
 input PottersHeaven/PottersHeaven.th
 input PulsationAven/PulsationAven.th
+input PulsationAven2/PulsationAven2.th
 #input R1/R1.th
 #input R2/R2.th
 #equate Q@R1 Q@R2
@@ -67,6 +68,7 @@ equate 9.0@HerbertsAttic 3.22@Golgotha
 equate 7.8@PulsationAven 10.0@JillsSlither
 equate 7.0@PulsationAven 4.13@TopDig
 equate 7.8@PulsationAven 8.0@PottersHeaven
+equate 7.2@PulsationAven 14.0@PulsationAven2
 equate 1.15@ToplessAven 1.15@GreatExpectations
 equate 1.3@ToplessAven 3.0@Golgotha
 equate 1.0@TopDig 1.14@Sleeper
