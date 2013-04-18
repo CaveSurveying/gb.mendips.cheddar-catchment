@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -472.11 -209.61 2832.64 1257.64
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {789.497644097 1 1.0} {872.519685039 1.0} PocketTopo/Coopers_e.xvi 0 {}
+
+
+scrap CoopersSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CoopersSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

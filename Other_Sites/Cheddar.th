@@ -37,8 +37,8 @@ fix ChelmsCombeShelter 46340 54470 111 #ST 4634 5447 111
 station ChelmsCombeShelter "Part destroyed" entrance
 fix ChelmsCombeQuarryCave 46270 54370 96 #ST 4627 5437 96
 station ChelmsCombeQuarryCave "" entrance
-fix CoopersHole 46820 54020 42 # ST 4682 5402 42
-station CoopersHole "" entrance
+#fix CoopersHole 46820 54020 42 # ST 4682 5402 42
+#station CoopersHole "" entrance
 fix FallingScree 47470 54330 234 #ST 4747 5433 234
 station FallingScree "" entrance
 #fix HangoverHole 48960 54820 206 #ST 4896 5482 206

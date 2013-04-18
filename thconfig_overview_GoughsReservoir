@@ -11,6 +11,7 @@ select allSumpsM@sumps.Goughs.CheddarCatchment
 select WhiteSpotM@WhiteSpot.CheddarCatchment
 select ReservoirM@Reservoir.CheddarCatchment
 #select BrockM@Brock.WhitebeamArea.CheddarCatchment
+select CoopersM@Coopers.CheddarCatchment
 select Coxs@Coxs.CheddarCatchment
 #select WhitebeamM@Whitebeam.WhitebeamArea.CheddarCatchment
 #select SwineHoleM@SwineHole.WhitebeamArea.CheddarCatchment
