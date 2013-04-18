@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -375.69 -290.41 2254.15 1742.46
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {221.578895516 1 1.0} {145.204724409 4.21} PocketTopo/ToplessClimb_e.xvi 0 {}
+
+
+scrap ToplessClimbSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap ToplessClimbSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
