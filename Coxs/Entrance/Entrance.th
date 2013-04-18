@@ -45,7 +45,7 @@ data normal from to tape compass clino ignoreall
 
 #################################################
 #Data as recorded on paper (except where noted) by tony Boycott
-
+flags surface
 1.0  1.1  1.56  -  up  0 is steel pin in tarmac, first 4X marking  
 #Tony's notes, azi and bearing swapped, but as this is the DistoX leg, it must be the corrected version
 #1.1  1.2  38.463  87:52  90:22  2 is Coxs Entrance
@@ -61,6 +61,7 @@ data normal from to tape compass clino ignoreall
 #1.2  -  1.271  69:11  321:27
 1.2  -  1.271  69:11  -38:33
 1.2  1.4  1.55  -  down  to nail in pavement
+flags not surface
 1.2  1.5  11.360  152:40  2:02
 #1.5  -  3.327  325:35  332:05
 1.5  -  3.327  325:35  -27:55
