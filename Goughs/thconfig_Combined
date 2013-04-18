@@ -43,12 +43,14 @@ map-image 0 -5 nw ../Outputs/Res_Goughs_overview.pdf
 map-header 100 -5 ne
 map-comment "Drawn, using Therion, by Andrew Atkinson.<br>\
 Survey UBSS<br>\
+Data available at cave-registry.org.uk<br>\
+Models and updated surveys available at ubss.org.uk/cave_survey_archive.php<br>\
 With thanks to all the other cavers past and present<br>\
 that have made information available.<br>\
 Grade UISv1 6-4-BEF<br>\
 Copyright 2010-2012 CC BY NC SA <br>\
  <br>\
- Spot heights in metres AOD"
+Spot heights in metres AOD"
 endlayout
 
 layout plan

@@ -55,23 +55,32 @@ map-header-bg off
 statistics explo off
 statistics topo off
 statistics carto off
+#symbol-color special north-arrow [0 100 100]
+#symbol-colour special scale-bar [0 100 100]
 scale-bar 500 m
-#map-comment "The google copyright statement!!!!"
+
 code tex-map
-\comment={\copyright The google copyright statement!!!!}{}
+
+\comment={\color[100 100 100]\copyright The google copyright statement!!!!}{}
+#\legendtextcolor={\color[100 100 100]}
+#\legendtitle{\color[100 100 100]Key}{}
   \def\maplayout{
-    \legendbox{60}{0}{nw}{
-     \northarrow
+    \legendbox{60}{10}{nw}{
+    
+    \northarrow
      \bigskip
      \scalebar
-     }
-     \legendbox{0}{0}{nw}{\bigskip
+ # \bigskip
+  # \bigskip
+ #\the\comment
+    }
+     \legendbox{0}{0}{nw}{
      \the\comment
    }
-       \legendbox{0}{30}{sw}{
-    \formattedlegend 
+      \legendbox{0}{30}{sw}{
+     \formattedlegend
     }
-  }
+ }
 endcode
 endlayout
 
