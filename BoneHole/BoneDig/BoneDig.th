@@ -7,9 +7,12 @@ input BoneDigE90.th2
 
 map BoneDigM
   BoneDigSP1
-  BoneDigSP2
+ break
   BoneDigSP3
+ break
   BoneDigSP4
+ break
+  BoneDigSP2
 endmap
 
 map BoneDigME

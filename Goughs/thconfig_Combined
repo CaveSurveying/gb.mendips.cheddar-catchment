@@ -83,25 +83,7 @@ code tex-map
     \colorlegendfalse
 
 
-#for Andrew
-#code tex-map
-#   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
-#    \def\maplayout{
-
-#      \legendbox{90}{101}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/CheddarCatchment/Goughs/GoughsOverview.pdf}}
-#      \legendbox{62}{73}{SW}{\northarrow}
-#     \legendbox{65}{73}{SW}{\scalebar}
-#   }
 	
-#for Graham
-#code tex-map
-#    \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
-#    \def\maplayout{
-#
-#      \legendbox{90}{101}{NE}{\loadpicture{C:/Users/Graham/Documents/Cave Survey data/Registry Repository/CheddarCatchment/Goughs/GoughsOverview.pdf}}
-#      \legendbox{62}{73}{SW}{\northarrow}
-#     \legendbox{65}{73}{SW}{\scalebar}	
-#  }	
 
 code metapost
 
@@ -118,10 +100,10 @@ code metapost
   #fonts_setup(8,16,24,40,60)
 
   #scale 1:1000 (A0 width charterhouse,GB)
-  fonts_setup(7,10,14,20,30)
+  #fonts_setup(7,10,14,20,30)
 
   #base 1:500 scale 1:2750 
-  #fonts_setup(8,20,26,40,60)
+  fonts_setup(8,20,26,40,60)
 
 endcode
 
