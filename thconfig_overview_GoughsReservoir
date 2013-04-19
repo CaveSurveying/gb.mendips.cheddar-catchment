@@ -59,25 +59,26 @@ statistics carto off
 #symbol-color special north-arrow [0 100 100]
 #symbol-colour special scale-bar [0 100 100]
 scale-bar 500 m
+legend-width 2 cm
 
 code tex-map
 
 \comment={\color[100 100 100]\copyright The google copyright statement!!!!}{}
 #\legendtextcolor={\color[100 100 100]}
 #\legendtitle{\color[100 100 100]Key}{}
+#\legendwidth=2cm
   \def\maplayout{
-    \legendbox{60}{10}{nw}{
-    
+    \legendbox{60}{10}{nw}{  
     \northarrow
      \bigskip
      \scalebar
- # \bigskip
-  # \bigskip
- #\the\comment
+  \bigskip
+   \bigskip
+ \the\comment
     }
-     \legendbox{0}{0}{nw}{
-     \the\comment
-   }
+   #  \legendbox{0}{0}{nw}{
+   #  \the\comment
+  # }
       \legendbox{0}{30}{sw}{
      \formattedlegend
     }

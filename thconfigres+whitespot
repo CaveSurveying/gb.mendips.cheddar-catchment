@@ -1,3 +1,4 @@
+encoding  utf-8
 source CheddarCatchment.th
 # Change name to the main therion file
 
@@ -21,6 +22,7 @@ export map -proj [elevation 90] -layout Projected -o Outputs/Reservoir-WhiteSpot
 
 #Produces plan of cave, on a single sheet
 export map -proj plan -layout plan -o Outputs/Reservoir-WhiteSpot.pdf
+export map -proj plan -layout inverse -o Outputs/Reservoir-WhiteSpotInverse.pdf
 
 export model -fmt survex -o Outputs/Reservoir-WhiteSpot.3d
 #Survex file showing centre line only
@@ -93,6 +95,17 @@ code tex-map
   }
 endcode
 endlayout
+
+layout inverse
+copy local
+
+colour map-bg [0 0 0]
+symbol-colour group all [100 100 100]
+#put water back to blue
+symbol-colour point water [0 0 100]
+
+endlayout
+
 
 layout local
 copy common
