@@ -95,6 +95,8 @@ join ResEntSPl1@ResEnt SouthPassageSPl1@SouthPassage -smooth on
 join SleeperSPl3@Sleeper TopDigSPl1@TopDig -smooth on
 join SleeperSPl3@Sleeper SideRiftSPl1@SideRift -smooth on
 join TopDigSPl1@TopDig ToplessAvenSPl1@ToplessAven -smooth on
+join right1@TopDig:join wall1@ToplessClimb:0 -smooth on
+join left1@TopDig:join wall1@ToplessClimb:end -smooth on
 
 #Projected Elevation joins (E90)
 ##########################################
