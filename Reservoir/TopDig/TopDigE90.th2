@@ -7,6 +7,8 @@ encoding  utf-8
 
 scrap TopDigSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 5496.0 1802.0 label -scale l -align tl -text "Topless Aven"
+
 line wall
   5310.0 332.0
   5352.0 370.0 5470.0 380.0 5508.0 386.0
@@ -66,6 +68,7 @@ line wall
   6940.0 1796.0 6864.0 1824.0 6817.0 1864.0
   6770.0 1904.0 6647.48 1916.81 6590.0 1956.0
   6546.0 1986.0 6476.0 2026.0 6376.0 2018.0
+  smooth off
 endline
 
 line wall
@@ -240,8 +243,6 @@ point 1365.65287648 1855.38013544 station -name 4.1
 point 1405.75287648 1921.67013544 station -name 4.0
 
 point 2370.0 488.0 label -scale l -text "Grand Gallery"
-
-point 5178.0 1920.0 label -scale l -text "Topless Aven"
 
 endscrap
 

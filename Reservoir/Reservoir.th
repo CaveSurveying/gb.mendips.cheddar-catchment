@@ -90,6 +90,7 @@ join GolgothaSPl4@Golgotha ToplessAvenSPl1@ToplessAven -smooth on
 join HappySnappersSPl1@HappySnappers TopDigSPl1@TopDig -smooth on
 join JillsSlitherSPl1@JillsSlither PottersHeavenSPl1@PottersHeaven -smooth on
 join JillsSlitherSPl1@JillsSlither PulsationAvenSPl1@PulsationAven -smooth on
+join PulsationAvenSPl1@PulsationAven PulsationAven2SP1@PulsationAven2  -smooth on
 join PulsationAvenSPl1@PulsationAven TopDigSPl1@TopDig  -smooth on
 join ResEntSPl1@ResEnt SouthPassageSPl1@SouthPassage -smooth on
 join SleeperSPl3@Sleeper TopDigSPl1@TopDig -smooth on
@@ -109,6 +110,7 @@ join GreatExpectationsSE90_1@GreatExpectations ToplessAvenSE90_1@ToplessAven -sm
 join HappySnappersSE90_1@HappySnappers  TopDigSE90_1@TopDig -smooth on
 join JillsSlitherSE90_1@JillsSlither PottersHeavenSE90_1@PottersHeaven
 join JillsSlitherSE90_1@JillsSlither PulsationAvenSE90_1@PulsationAven -smooth on
+join PulsationAvenSE90_1@PulsationAven PulsationAven2SE90_1@PulsationAven2 -smooth on -count 2
 join PulsationAvenSE90_1@PulsationAven TopDigSE90_1@TopDig -smooth on 
 join ResEntSE90_2@ResEnt SouthPassageSE90_1@SouthPassage -smooth on
 join ResEntSE90_3@ResEnt SleeperSE90_1@Sleeper -smooth on
@@ -135,6 +137,7 @@ map ReservoirM -title "Reservoir Hole" -proj plan
   HappySnappersM@HappySnappers
   JillsSlitherM@JillsSlither
  break
+  PulsationAven2M@PulsationAven2
   PulsationAvenM@PulsationAven
  break
   PottersHeavenM@PottersHeaven
@@ -146,7 +149,6 @@ map ReservoirM -title "Reservoir Hole" -proj plan
   ToplessAvenM@ToplessAven
   DeeperM@Deeper
   DingleyDellM@DingleyDell
-  UnderGorgeM@UnderGorge
 #  R1@R1
 #  R2@R2
 #  R3@R3
@@ -177,6 +179,7 @@ map ReservoirME90 -proj [elevation 90]
   JillsSlitherME90@JillsSlither
   PottersHeavenME90@PottersHeaven
   PulsationAvenME90@PulsationAven
+  PulsationAven2ME90@PulsationAven2
   ToplessClimbME90@ToplessClimb
   ToplessAvenME90@ToplessAven
   TopDigME90@TopDig
