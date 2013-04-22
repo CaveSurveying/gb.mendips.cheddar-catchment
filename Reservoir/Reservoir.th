@@ -111,8 +111,10 @@ join PulsationAvenSE90_1@PulsationAven TopDigSE90_1@TopDig -smooth on
 join ResEntSE90_2@ResEnt SouthPassageSE90_1@SouthPassage -smooth on
 join ResEntSE90_3@ResEnt SleeperSE90_1@Sleeper -smooth on
 join SideRiftSE90_1@SideRift SleeperSE90_1@Sleeper -smooth on -count 2
-join SleeperSE90_1@Sleeper  TopDigSE90_3@TopDig -smooth on 
-join  TopDigSE90_1@TopDig ToplessAvenSE90_1@ToplessAven -smooth on 
+join SleeperSE90_1@Sleeper  TopDigSE90_3@TopDig -smooth on
+join  ToplessClimbSE90_1@ToplessClimb TopDigSE90_1@TopDig -smooth on 
+join  TopDigSE90_1@TopDig ToplessAvenSE90_1@ToplessAven -smooth on
+
 
 map FrozenDeepSplaysM -proj plan
   FrozenDeep
@@ -173,6 +175,7 @@ map ReservoirME90 -proj [elevation 90]
   JillsSlitherME90@JillsSlither
   PottersHeavenME90@PottersHeaven
   PulsationAvenME90@PulsationAven
+  ToplessClimbME90@ToplessClimb
   ToplessAvenME90@ToplessAven
   TopDigME90@TopDig
   HappySnappersME90@HappySnappers

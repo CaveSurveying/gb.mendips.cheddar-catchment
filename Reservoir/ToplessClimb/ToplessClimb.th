@@ -3,10 +3,11 @@ survey ToplessClimb
 
 input ToplessClimb.th2
 input ToplessClimbEe.th2
-input ToplessClimbE0.th2
+input ToplessClimbE90.th2
 
 map ToplessClimbM
   ToplessClimbSP1
+ break
   ToplessClimbSP2
 endmap
 
@@ -15,9 +16,8 @@ map ToplessClimbME
   ToplessClimbSE2
 endmap
 
-map ToplessClimbME0 -proj [elevation 0]
-  ToplessClimbSE0_1
-  ToplessClimbSE0_2
+map ToplessClimbME90 -proj [elevation 90]
+  ToplessClimbSE90_1
 endmap
 centreline
 

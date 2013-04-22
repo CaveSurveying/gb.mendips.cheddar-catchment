@@ -11,7 +11,7 @@ export map -proj plan -layout local -o ToplessClimb.pdf
 
 #export map -proj extended -layout local -o ToplessClimbEe.pdf
 
-#export map -proj [elevation 90] -layout local -o ToplessClimbE90.pdf
+export map -proj [elevation 90] -layout local -o ToplessClimbE90.pdf
 
 export model -fmt survex -o ToplessClimbth.3d
 #Survex file showing centre line only
