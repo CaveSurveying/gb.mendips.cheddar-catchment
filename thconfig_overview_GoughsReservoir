@@ -63,10 +63,10 @@ legend-width 2 cm
 
 code tex-map
 
-\comment={\color[100 100 100]\copyright The google copyright statement!!!! Now i really do need to make this really long tio see what happens}{}
+\comment={\color[100 100 100]Base map data \copyright 2013 Google. Image \copyright 2013 Getmapping plc.}{}
 #\legendtextcolor={\color[100 100 100]}
 #\legendtitle{\color[100 100 100]Key}{}
-  \legendwidth=8 cm
+  \legendwidth=10 cm
   
   \def\maplayout{
     \legendbox{60}{10}{nw}{ 
