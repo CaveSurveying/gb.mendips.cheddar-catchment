@@ -63,12 +63,14 @@ legend-width 2 cm
 
 code tex-map
 
-\comment={\color[100 100 100]\copyright The google copyright statement!!!!}{}
+\comment={\color[100 100 100]\copyright The google copyright statement!!!! Now i really do need to make this really long tio see what happens}{}
 #\legendtextcolor={\color[100 100 100]}
 #\legendtitle{\color[100 100 100]Key}{}
-#\legendwidth=2cm
+  \legendwidth=8 cm
+  
   \def\maplayout{
-    \legendbox{60}{10}{nw}{  
+    \legendbox{60}{10}{nw}{ 
+    \hsize=\legendwidth 
     \northarrow
      \bigskip
      \scalebar

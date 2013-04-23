@@ -42,12 +42,10 @@ data normal from to tape compass clino ignoreall
 #13.0  -  3.345  87.05  24.03  
 #13.0  -  3.337  87.21  23.81  
 #
-flags duplicate
 #13.1  13.0  14.684  158.2  -19.4  
 #13.1  13.0  14.683  157.97  -19.39  
 #13.1  13.0  14.674  157.77  -19.5  
 13.1  13.0  14.68  157.98  -19.43  Calculated leg from 3 above
-flags not duplicate
 13.1  -  1.084  107.4  78.72  stalmite on ledge nv
 13.1  -  0.707  113.11  -79.65  
 13.1  -  2.559  58.75  30.32  
