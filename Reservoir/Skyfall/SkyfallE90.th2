@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -571.45 -773.02 3428.7 4638.11
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {298.448288169 1 1.0} {597.206831868 5.14} PocketTopo/Skyfall_E90.xvi 0 {}
+
+
+scrap SkyfallSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SkyfallSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SkyfallSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SkyfallSE90_4 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

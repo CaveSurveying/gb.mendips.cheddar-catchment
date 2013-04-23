@@ -1,0 +1,42 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -112.78476725500002 124.00028614999974 1166.8372799888998 3765.8270578028996
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {589.841689438 1 1.0} {589.1476089799999 16.13} PocketTopo/Skyfall_p.xvi 0 {}
+
+
+
+scrap SkyfallSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SkyfallSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SkyfallSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SkyfallSP4 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SkyfallSPX16.4 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SkyfallSPX16.1 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
