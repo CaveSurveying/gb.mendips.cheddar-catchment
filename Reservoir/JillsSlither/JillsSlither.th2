@@ -688,9 +688,9 @@ line section -direction both
   smooth off
 endline
 
-point 399.0 1033.5 label -align bl -scale l -text "Jill's<br>Slither"
+point 501.5 815.5 label -align bl -scale l -text "Jill's<br>Slither"
 
-point 681.5 526.5 section -scrap "JillsSlitherSX10.13"
+point 682.0 527.0 section -scrap "JillsSlitherSX10.13"
 
 line section -direction both
   957.0 577.5

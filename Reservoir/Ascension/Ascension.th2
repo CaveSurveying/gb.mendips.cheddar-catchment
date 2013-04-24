@@ -47,7 +47,9 @@ line section -direction both
   smooth off
 endline
 
-point 2054.0 8836.0 section -scrap AscensionSPX1.16 -align l
+point 2466.0 9486.0 label -align tl -scale l -text "High<br>Country"
+
+point 1998.0 8790.0 section -scrap AscensionSPX1.16 -align tl
 
 line section -direction both
   2315.0 8690.0
@@ -697,6 +699,7 @@ line wall
   1256.0 4478.0 1280.0 4486.0 1291.0 4491.0
   1302.0 4496.0 1343.0 4509.0 1351.0 4511.0
   1359.0 4513.0 1396.0 4542.0 1414.0 4526.0
+  smooth off
 endline
 
 line wall
