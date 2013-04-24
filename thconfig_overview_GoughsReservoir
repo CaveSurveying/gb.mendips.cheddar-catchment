@@ -63,7 +63,8 @@ legend-width 2 cm
 
 code tex-map
 
-\comment={\color[100 100 100]Base map data \copyright 2013 Google. Image \copyright 2013 Getmapping plc.}{}
+\comment={\color[100 100 100]Base map data \copyright\thinspace 2013 Google.\
+ Image \copyright\thinspace 2013 Getmapping plc.}{}
 #\legendtextcolor={\color[100 100 100]}
 #\legendtitle{\color[100 100 100]Key}{}
   \legendwidth=10 cm
