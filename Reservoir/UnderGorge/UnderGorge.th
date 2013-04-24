@@ -16,8 +16,11 @@ endmap
 
 map UnderGorgeME90 -proj [elevation 90]
   UnderGorgeSE90_1
+ break
   UnderGorgeSE90_2
+ break
   UnderGorgeSE90_4
+ break
   UnderGorgeSE90_3
   
 endmap

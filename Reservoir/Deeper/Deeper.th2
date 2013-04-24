@@ -443,7 +443,7 @@ endscrap
 
 scrap DeeperSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 736.5 1005.5 section -align l -scrap DeeperSX11.22
+point 754.0 865.0 section -align l -scrap DeeperSX11.22
 
 point 965.5 1795.5 section -align r -scrap DeeperSX11.20
 

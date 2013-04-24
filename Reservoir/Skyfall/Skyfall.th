@@ -6,10 +6,13 @@ input SkyfallEe.th2
 input SkyfallE90.th2
 
 map SkyfallM
-  SkyfallSP1
-  SkyfallSP2
-  SkyfallSP3
   SkyfallSP4
+ break
+  SkyfallSP3
+ break
+  SkyfallSP2
+ break
+  SkyfallSP1
 endmap
 
 map SkyfallME

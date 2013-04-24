@@ -87,6 +87,7 @@ join AscensionSP1@Ascension UnderGorgeSP1@UnderGorge -smooth on
 join DeeperSP1@Deeper FrozenDeepSPl1@FrozenDeep -smooth on
 join DeeperSP2@Deeper DingleyDellSP1@DingleyDell -smooth on
 join FrozenDeepSPl1@FrozenDeep GreatExpectationsSPl2@GreatExpectations  -smooth on
+join FrozenDeepSPl1@FrozenDeep SkyfallSP1@Skyfall  -smooth on
 join GreatExpectationsSPl1@GreatExpectations ToplessAvenSPl1@ToplessAven -smooth on
 join GolgothaSPl4@Golgotha ToplessAvenSPl1@ToplessAven -smooth on
 join HappySnappersSPl1@HappySnappers TopDigSPl1@TopDig -smooth on
@@ -104,8 +105,11 @@ join left1@TopDig:join wall1@ToplessClimb:end -smooth on
 #Projected Elevation joins (E90)
 ##########################################
 
+join AscensionSE90_1@Ascension UnderGorgeSE90_3@UnderGorge -smooth on
+join AscensionSE90_1@Ascension VertigoSE90_1@Vertigo #-smooth on
 join DeeperSE90_2@Deeper FrozenDeepSE90_1@FrozenDeep -smooth on
 join FrozenDeepSE90_1@FrozenDeep GreatExpectationsSE90_1@GreatExpectations -smooth on
+join SkyfallPath@FrozenDeep:0 floor1@Skyfall -smooth on
 join GolgothaSE90_1@Golgotha HerbertsAtticSE90_1@HerbertsAttic -smooth on
 join GolgothaSE90_1@Golgotha ToplessAvenSE90_1@ToplessAven -smooth on
 join GreatExpectationsSE90_1@GreatExpectations ToplessAvenSE90_1@ToplessAven -smooth on
@@ -128,9 +132,10 @@ map FrozenDeepSplaysM -proj plan
 endmap
 
 map ReservoirM -title "Reservoir Hole" -proj plan
-  AscensionM@Ascension
   VertigoM@Vertigo
+  AscensionM@Ascension
   UnderGorgeM@UnderGorge
+  SkyfallM@Skyfall
   FrozenDeep
   HerbertsAtticM@HerbertsAttic
   GolgothaM@Golgotha
@@ -168,9 +173,10 @@ map ReservoirM -title "Reservoir Hole" -proj plan
 endmap
 
 map ReservoirME90 -proj [elevation 90]
+  VertigoME90@Vertigo
   UnderGorgeME90@UnderGorge
   AscensionME90@Ascension
-  VertigoME90@Vertigo
+  SkyfallME90@Skyfall
   GreatExpectationsME90@GreatExpectations
   HerbertsAtticME90@HerbertsAttic
   GolgothaME90@Golgotha

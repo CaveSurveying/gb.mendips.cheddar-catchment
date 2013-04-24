@@ -213,7 +213,7 @@ point 121.20874015749999 1149.2270078699999 station -name 12.1
 
 point 35.0787401575 1123.93700787 station -name 12.0
 
-point 427.0 1082.0 label -scale m -text "Dingley Dell"
+point 454.0 1249.0 label -scale m -text "Dingley Dell"
 
 endscrap
 

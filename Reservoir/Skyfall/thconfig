@@ -11,7 +11,7 @@ source Skyfall.th
 
 #export map -proj extended -layout local -o SkyfallEe.pdf
 
-#export map -proj [elevation 90] -layout local -o SkyfallE90.pdf
+export map -proj [elevation 90] -layout local -o SkyfallE90.pdf
 
 export model -fmt survex -o Skyfallth.3d
 #Survex file showing centre line only
