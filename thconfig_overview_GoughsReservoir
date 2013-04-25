@@ -86,6 +86,47 @@ code tex-map
      \formattedlegend
     }
  }
+
+endcode
+
+code metapost
+#redefine colour of scale and north arrow in metatex to overcome colour-assign bug
+
+def s_northarrow (expr rot) =
+  drawoptions(withcolor  white);
+  T:=identity scaled 0.7 rotated -rot;
+  thdraw (-.5cm,-1cm)--(0,1.5cm)--(.5cm,-1cm)--(0,-.5cm)--cycle;
+  thfill (-.5cm,-1cm)--(0,1.5cm)--(0,-.5cm)--cycle;
+enddef;
+
+    def s_scalebar (expr l, units, txt) =
+    drawoptions(withcolor  white);
+    begingroup
+      interim warningcheck:=0;
+      tmpl:=l / Scale * cm * units / 2;
+      tmpx:=l / Scale * cm * units / 5;
+      tmph:=5bp; % bar height
+    endgroup;
+    pickup PenC;
+#Adjusted to make lines not stick out: 0.25*u/10,0 is half thickness of PenC
+    draw (-tmpl+0.25*u/10,0)--(tmpl-0.25*u/10,0);
+    draw (tmpl-0.25*u/10,-tmph)--(-tmpl+0.25*u/10,-tmph);
+    p:=(0,0)--(tmpx,0)--(tmpx,-tmph)--(0,-tmph)--cycle;
+    for i:=-2.5 step 2 until 2:
+      fill p shifted (i * tmpx,0);
+
+    endfor;
+    begingroup
+      interim labeloffset:=3.5bp;
+      for i:=0 step (l/5) until (l-1):
+        tmpx:=tmpl * (i * 2 / l - 1);
+        label.top(thTEX(decimal (i)),(tmpx,0));
+      endfor;
+      label.top(thTEX(decimal (l) & "\thinspace" & txt),(tmpl,0));
+#      label.bot(thTEX("Original Scale = 1 : " & decimal (Scale*100)),(0,-tmph));
+    endgroup;
+  enddef;
+ 
 endcode
 endlayout
 
