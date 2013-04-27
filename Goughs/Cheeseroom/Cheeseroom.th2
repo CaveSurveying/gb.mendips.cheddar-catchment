@@ -228,11 +228,11 @@ line wall
 endline
 
 line arrow
-  1164.0 2432.0
+  1356.0 2764.0
   1920.0 1288.0
 endline
 
-point 1108.0 2492.0 label -align tl -text "Cheese<br>Room"
+point 1500.0 2828.0 label -align tl -text "Cheese<br>Room"
 
 area sand
   l27-2948-2388

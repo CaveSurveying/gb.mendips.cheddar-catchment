@@ -56,7 +56,7 @@ area flowstone
   l85-1680-1135
 endarea
 
-point 2058.0 1102.0 label -align br -text "King<br>Solomon's<br>Temple"
+point 186.0 928.0 label -align br -text "King<br>Solomon's<br>Temple"
 
 area flowstone
   l86-1766-1063

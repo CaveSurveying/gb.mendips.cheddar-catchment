@@ -2,7 +2,7 @@ encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 2411.46456693 6167.7480315
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {265.039370079 1 1.0} {4077.55905512 1.0} Fonts-end/Fonts-endth_p.xvi 0 {}
-##XTHERION## xth_me_image_insert {93.22763779500002 1 1.0} {5977.77905512 1.1} Fontsbackupa/Fontsback1ath_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {93.227637795 1 1.0} {5977.77905512 1.1} Fontsbackupa/Fontsback1ath_p.xvi 0 {}
 
 
 
@@ -1050,7 +1050,7 @@ endline
 
 point 1746.5 1164.0 gradient -orientation 135.2
 
-point 1271.0 963.0 label -align tl  -scale l -text "The<br>Fonts"
+point 1271.0 963.0 label -align tl  -scale m -text "The<br>Fonts"
 
 area clay
   l142-1831-895

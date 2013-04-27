@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 1919.335 2273.665
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {295.27700000000004 1 1.0} {354.3299999999999 0} sump1b.xvi 0 {}
+##XTHERION## xth_me_image_insert {295.277 1 1.0} {354.33 0} sump1b.xvi 0 {}
 
 
 
@@ -231,7 +231,7 @@ point 317.917 315.16 station -name 8
 
 point 295.277 354.33 station -name 0
 
-point 1633.0 1417.0 label -align r -scale l -text "Sump 1b"
+point 1555.0 1417.0 label -align r -scale m -text "Sump 1b"
 
 endscrap
 

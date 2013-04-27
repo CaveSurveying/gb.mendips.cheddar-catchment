@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -160.422927744 -179.37795275599998 772.5 532.5
 ##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {80.24165309199998 1 1.0} {40.55393700800002 1.4} PocketTopo/DireStraits_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {80.241653092 1 1.0} {40.553937008 1.4} PocketTopo/DireStraits_p.xvi 0 {}
 
 
 
@@ -20,7 +20,7 @@ line arrow
   524.0 310.5
 endline
 
-point 616.5 468.5 label -align tr -text " Dire<br>Straits
+point 408.5 520.0 label -align tr -text " Dire<br>Straits
 
 point 396.5 179.5 gradient -orientation 219.3
 

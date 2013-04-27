@@ -823,7 +823,7 @@ line overhang -reverse on
   smooth off
 endline
 
-point 1309.0 1897.0 label -align bl -text "Heartbreak<br>Hill"
+point 1341.0 1501.0 label -align bl -text "Heartbreak<br>Hill"
 
 area sand
   l108-1864-3872

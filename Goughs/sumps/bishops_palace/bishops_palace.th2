@@ -265,9 +265,9 @@ line pit -id l37-830-2051
   831.0 2021.0
 endline
 
-point 78.0 1534.0 label -scale xl -align l -text "Bishop's<br>Palace"
+point 78.0 1534.0 label -scale m-align l -text "Bishop's<br>Palace"
 
-point 1062.0 1949.0 label -scale m -align r -text "The Duck Ponds"
+point 1062.0 1949.0 label -scale s -align r -text "The Duck Ponds"
 
 endscrap
 

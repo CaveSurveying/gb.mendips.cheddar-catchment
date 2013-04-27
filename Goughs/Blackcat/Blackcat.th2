@@ -685,7 +685,7 @@ endline
 
 point 4052.0 600.0 label -align br -text "Sand<br>Chamber"
 
-point 3068.0 -116.0 label -align b -text "Mushroon<br>Chamber"
+point 3068.0 -116.0 label -align b -text "Mushroom<br>Chamber"
 
 line wall
   2070.0 677.0
@@ -1455,12 +1455,12 @@ line border -id l181-620-3708 -close on
 endline
 
 line arrow
-  1336.0 -0.0
+  1072.0 20.0
   60.0 1408.0
 endline
 
 line arrow
-  1336.0 -0.0
+  1072.0 20.0
   908.0 2008.0
 endline
 
@@ -1556,7 +1556,7 @@ line overhang -reverse on
   smooth off
 endline
 
-point 1236.0 -116.0 label -align br -text "Blackcat<br>Chamber"
+point 612.0 -108.0 label -align br -text "Blackcat<br>Chamber"
 
 line overhang
   1235.0 2164.0

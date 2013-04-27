@@ -6,12 +6,12 @@ source sump1b.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o sump1b.pdf
+export map -proj plan -layout local -o sump1b.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o sump1bEe.pdf
 
-export map -proj [elevation 0] -layout local -o sump1bE0.pdf
+#export map -proj [elevation 0] -layout local -o sump1bE0.pdf
 
 #export model -fmt survex -o sump1bth.3d
 #Survex file showing centre line only

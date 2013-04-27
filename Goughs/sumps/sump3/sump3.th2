@@ -224,7 +224,7 @@ line rock-border -close on -reverse on
   3950.0 1380.0 4016.97 1379.9 4016.0 1376.5
 endline
 
-point 1694.0 492.5 label -text "Sump 3" -scale xl -align r
+point 1694.0 492.5 label -text "Sump 3" -scale m -align r
 
 endscrap
 

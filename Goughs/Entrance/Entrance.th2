@@ -655,7 +655,14 @@ line wall
   smooth off
 endline
 
-point 3364.0 1024.0 label -align bl -text "Skeleton Pit"
+point 1968.0 1730.0 label -align l -text "Main Entrance"
+
+line arrow
+  1556.0 1960.0
+  3028.0 2552.0
+endline
+
+point 3624.0 868.0 label -align bl -text "Skeleton Pit"
 
 line arrow
   3476.0 1096.0
