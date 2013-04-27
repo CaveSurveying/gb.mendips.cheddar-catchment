@@ -862,7 +862,7 @@ line arrow
   322.5 1460.0
 endline
 
-point 180.5 1690.0 label -align tl -scale s -text "April<br>Fool's<br>Squeeze"
+point 180.5 1690.0 label -scale s -align tl  -text "April<br>Fool's<br>Squeeze"
 
 area sand
   l114-202-1389
