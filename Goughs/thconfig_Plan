@@ -1,0 +1,86 @@
+encoding  utf-8
+source Goughs.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o Goughs_Plan.pdf
+#Produces plan of cave, on a single sheet
+
+#select GoughsM@Goughs
+select allSumpsM@sumps.Goughs
+select GoughsDispM@Goughs
+select GoughsUpperM@Goughs -map-level 1
+select GoughsME0@Goughs -map-level 1
+
+layout local
+
+copy common
+debug off
+
+#map-image 0 -5 nw ../Outputs/Res_Goughs_overview.pdf
+map-header 90 60 ne
+map-comment "Drawn, using Therion, by Andrew Atkinson and Graham Mullan.<br>\
+Survey UBSS and CDG.<br>\
+Data available at www.cave-registry.org.uk<br>\
+Models and updated surveys available at www.ubss.org.uk<br>\
+With thanks to all the other cavers past and<br>\
+present that have made information available.<br>\
+Grade UISv1 6-4-BEF<br>\
+Copyright 2010-2013 CC BY NC SA <br>\
+ <br>\
+ 
+colour map-fg map
+colour-legend off
+symbol-hide group centreline
+grid-size 100 100 20 m
+grid-coords border
+
+
+#A1 (for plan)
+scale 1 500
+
+
+code tex-map
+  \cavename={\size[70] Gough's Cave\medskip\size[40]Cheddar Gorge, Somerset.}
+   # \cavelength={} %empty
+   #\cavedepth={}  %empty
+   \legendtextsize={\size[25]}
+    \colorlegendfalse
+    \legendwidth=30 cm
+
+
+	
+
+code metapost
+
+#####################################
+#Text sizes
+#xs: features such as sumps
+#s: point names such as rocks
+#m: normal names
+#l: major names
+#xl: Area/cave names
+#####################################
+
+  #base 1:750 scale 1:2750 (A3 charterhouse,GB)
+  #fonts_setup(8,16,24,40,60)
+
+  #scale 1:1000 (A0 width charterhouse,GB)
+  #fonts_setup(7,10,14,20,30)
+
+  #base 1:500 scale 1:2750 
+  fonts_setup(8,20,26,40,60)
+
+endcode
+
+
+
+
+endlayout
+
+
+
+input ../common_layout.th

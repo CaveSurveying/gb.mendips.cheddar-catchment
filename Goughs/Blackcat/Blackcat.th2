@@ -1556,7 +1556,7 @@ line overhang -reverse on
   smooth off
 endline
 
-point 612.0 -108.0 label -align br -text "Blackcat<br>Chamber"
+point 612.0 -108.0 label -align br -text "Black Cat<br>Chamber"
 
 line overhang
   1235.0 2164.0
