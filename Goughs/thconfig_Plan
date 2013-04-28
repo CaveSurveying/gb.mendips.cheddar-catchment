@@ -28,7 +28,7 @@ Data available at www.cave-registry.org.uk<br>\
 Models and updated surveys available at www.ubss.org.uk<br>\
 With thanks to all the other cavers past and<br>\
 present that have made information available.<br>\
-Grade UISv1 6-4-BEF<br>\
+Grade UISv1 6-4-BEF\\_<br>\
 Copyright 2010-2013 CC BY NC SA <br>\
  <br>\
  
@@ -56,6 +56,8 @@ code tex-map
 
 code metapost
 
+
+
 #####################################
 #Text sizes
 #xs: features such as sumps
@@ -75,10 +77,7 @@ code metapost
   fonts_setup(8,20,26,40,60)
 
 endcode
-
-
-
-
+symbol-assign special north-arrow UIS
 endlayout
 
 
