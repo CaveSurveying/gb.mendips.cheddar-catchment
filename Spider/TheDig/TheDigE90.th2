@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -126.14 -304.11 756.82 1824.66
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {155.670407713 1 1.0} {1672.60526198 2.9} PocketTopo/TheDig_E90.xvi 0 {}
+
+
+scrap TheDigSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap TheDigSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap TheDigSE90_3 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap TheDigSE90_4 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

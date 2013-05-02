@@ -1,0 +1,31 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -77.95 -129.51 467.72 777.07
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {325.275590551 1 1.0} {604.362204724 2.9} PocketTopo/TheDig_p.xvi 0 {}
+
+
+scrap TheDigSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap TheDigSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap TheDigSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap TheDigSP4 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap TheDigSPX3.3 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

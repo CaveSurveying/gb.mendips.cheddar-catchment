@@ -77,7 +77,7 @@ code metapost
   fonts_setup(8,20,26,40,60)
 
 endcode
-symbol-assign special north-arrow UIS
+
 endlayout
 
 

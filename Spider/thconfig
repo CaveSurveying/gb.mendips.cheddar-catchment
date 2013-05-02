@@ -9,13 +9,13 @@ source Spider.th
 ###############
 #projection needs to come first as it is used in the plan
 ###############
-export map -proj extended -layout Projected -o SpiderEe.pdf
+#export map -proj extended -layout Projected -o SpiderEe.pdf
 #Produces projection of cave on a single sheet
 
-export map -proj plan -layout plan -o Spider.pdf
+#export map -proj plan -layout plan -o Spider.pdf
 #Produces plan of cave, on a single sheet
 
-#export model -fmt survex -o Spiderth.3d
+export model -fmt survex -o Spiderth.3d
 #Survex file showing centre line only
 
 #export model -o Spider.lox
