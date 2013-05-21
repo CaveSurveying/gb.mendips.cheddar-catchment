@@ -9,10 +9,10 @@ source Spider.th
 ###############
 #projection needs to come first as it is used in the plan
 ###############
-#export map -proj extended -layout Projected -o SpiderEe.pdf
+export map -proj extended -layout Projected -o SpiderEe.pdf
 #Produces projection of cave on a single sheet
 
-#export map -proj plan -layout plan -o Spider.pdf
+export map -proj plan -layout plan -o Spider.pdf
 #Produces plan of cave, on a single sheet
 
 export model -fmt survex -o Spiderth.3d
@@ -31,12 +31,13 @@ map-header 0 -20 nw
 
 map-comment "Cheddar Gorge, Somerset<br>\
 <br>\
-Length 94.95 m (surveyed)<br>\
-Depth 56.18 m (surveyed)<br>\
+Length 113.88 m (surveyed)<br>\
+Depth 71.08 m (surveyed)<br>\
 <br>\
 Drawn using Therion<br>\
 by Andrew Atkinson and Graham Mullan.<br>\
-Survey by Andrew Atkinson, Peter Hann and Adrian Vanderplank<br>\
+Survey by Andrew Atkinson, Peter Hann,<br>\
+Adrian Vanderplank and Simon Flower<br>\
 <br>\
 Grade UISv1 6-4-EF<br>\
 Copyright 2011-12 CC BY NC SA<br>\

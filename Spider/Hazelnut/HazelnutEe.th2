@@ -151,10 +151,6 @@ line wall -subtype debris
 endline
 
 line wall -subtype presumed
-  1000.0 -592.0
-  1008.0 -212.0
-  1196.0 -196.0
-  1232.0 64.0
 endline
 
 point 1800.0 -312.0 label -scale m -text "shaft in boulders<br>digging in progress"
@@ -168,10 +164,6 @@ point 88.0 3860.0 label -scale l -text "Extended Elevation"
 point 1340.0 3620.0 label -scale m -text "Hazelnut Rift
 
 line wall -subtype presumed
-  1092.0 116.0
-  1096.0 -92.0
-  872.0 -108.0
-  876.0 -584.0
 endline
 
 line wall -subtype debris

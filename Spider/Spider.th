@@ -14,6 +14,7 @@ endmap
 map SpiderEeM
   EntranceEeM@Entrance
   HazelnutEeM@Hazelnut
+  TheDigMEe@TheDig
 endmap
 
 equate 1.10@Entrance 2.0@Hazelnut
@@ -24,6 +25,7 @@ join EntranceSPl2@Entrance HazelnutSPl1@Hazelnut -smooth on
 
 
 #Elevation joins
+join HazelnutSEe1@Hazelnut TheDigSEe1@TheDig -smooth on
 
 endsurvey
 

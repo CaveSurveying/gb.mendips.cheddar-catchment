@@ -9,7 +9,7 @@ source TheDig.th
 #export map -proj plan -layout local -o TheDig.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o TheDigEe.pdf
+export map -proj extended -layout local -o TheDigEe.pdf
 
 #export map -proj [elevation 90] -layout local -o TheDigE90.pdf
 

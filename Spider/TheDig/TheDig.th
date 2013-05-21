@@ -3,6 +3,7 @@ survey TheDig
 
 input TheDig.th2
 input TheDigE90.th2
+input theDigEe.th2
 
 map TheDigM
   TheDigSP1
@@ -17,6 +18,11 @@ map TheDigME90 -proj [elevation 90]
   TheDigSE90_3
   TheDigSE90_4
 endmap
+
+map TheDigMEe -proj [extended]
+  TheDigSEe1
+endmap
+  
 centreline
 
 copyright 2013 "CC BY SA NC"
