@@ -1,4 +1,5 @@
 encoding  utf-8
+
 source CheddarCatchment.th
 # Change name to the main therion file
 #select ReadsGrottoM@ReadsGrotto.CheddarCatchment
@@ -8,7 +9,8 @@ source CheddarCatchment.th
 #unselect Surface.Charterhouse
 
 #unselect corners.CheddarCatchment
-
+select LongHole.CheddarCatchment
+select Long_Hole.CheddarCatchment
 
 #Surveys to output
 #-----------------
@@ -26,7 +28,7 @@ export model -fmt survex -o Outputs/CheddarCatchmentth.3d
 
 #Survex file showing centre line only
 
-export model -o Outputs/CheddarCatchment.lox
+#export model -o Outputs/CheddarCatchment.lox
 
 #3d therion model to be viewed in the therion viewer
 

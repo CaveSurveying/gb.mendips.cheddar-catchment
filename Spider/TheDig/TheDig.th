@@ -3,7 +3,7 @@ survey TheDig
 
 input TheDig.th2
 input TheDigE90.th2
-input theDigEe.th2
+input TheDigEe.th2
 
 map TheDigM
   TheDigSP1

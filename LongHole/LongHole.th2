@@ -1,0 +1,120 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 673.1102362180001 269.71653543 9826.748031491901 5407.606299208601
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {2620.23110236 1 1.0} {1725.9592125999998 1.4} PocketTopo/LongHole_p.xvi 0 {}
+
+
+
+scrap LongHoleSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSP4 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSP5 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSP6 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSPX1.60 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSPX1.56 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSPX1.51 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSPX1.49 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSPX1.46 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSPX1.44 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSPX1.32 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSPX1.25 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSPX1.16 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSPX1.14 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSPX1.10 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSPX1.4 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap LongHoleSPX1.3 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
