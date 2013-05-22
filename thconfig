@@ -1,6 +1,5 @@
 encoding  utf-8
-select Reservoir.CheddarCatchment
-select Reservoir.CheddarCatchment
+
 
 source CheddarCatchment.th
 # Change name to the main therion file
@@ -11,6 +10,8 @@ source CheddarCatchment.th
 #unselect Surface.Charterhouse
 
 #unselect corners.CheddarCatchment
+select LongHole.CheddarCatchment
+select Long_Hole.CheddarCatchment
 
 
 

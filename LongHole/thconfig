@@ -6,7 +6,7 @@ source LongHole.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o LongHole.pdf
+export map -proj plan -layout local -o LongHole.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o LongHoleEe.pdf
