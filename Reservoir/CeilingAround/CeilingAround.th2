@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -307.4 -434.13 1844.41 2604.79
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1018.66141732 1 1.0} {1018.95537653 1.25} PocketTopo/CeilingAround_p.xvi 0 {}
+
+
+scrap CeilingAroundSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CeilingAroundSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CeilingAroundSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CeilingAroundSPX2.17 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

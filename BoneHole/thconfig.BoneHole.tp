@@ -1,6 +1,7 @@
 encoding  utf-8
 language en_UK
 source BoneHole.th
+select BH_FirstPitch.BoneHole
 
 layout lcommon
 	scale-bar 10 m

@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -431.75 -575.11 2590.49 3450.67
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1584.64086368 1 1.0} {2063.88436302 1.25} PocketTopo/CeilingAround_E90.xvi 0 {}
+
+
+scrap CeilingAroundSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

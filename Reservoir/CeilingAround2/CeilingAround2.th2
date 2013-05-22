@@ -1,0 +1,51 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -528.35 -592.72 3170.08 3556.3
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {2624.01574803 1 1.0} {1887.41497779 1.0} PocketTopo/CeilingAround2_p.xvi 0 {}
+
+
+scrap CeilingAround2SP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CeilingAround2SP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CeilingAround2SP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CeilingAround2SPX1.22 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CeilingAround2SPX1.20 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CeilingAround2SPX1.14 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CeilingAround2SPX1.7 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CeilingAround2SPX1.5 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CeilingAround2SPX1.2 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
