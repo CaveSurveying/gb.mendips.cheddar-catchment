@@ -7,8 +7,8 @@ input CeilingAround2E90.th2
 
 map CeilingAround2M
   CeilingAround2SP1
+ break
   CeilingAround2SP2
-  CeilingAround2SP3
 endmap
 
 map CeilingAround2ME
@@ -206,10 +206,12 @@ data normal from to tape compass clino ignoreall
 #1.14  1.15  11.612  12.73  27.61  
 1.14  1.15  11.618  12.65  27.69  Calculated leg from 3 above
   extend left
+  flags duplicate
 #1.14  1.16  3.273  100.83  -13.36  
 #1.14  1.16  3.272  100.9  -13.53  
 #1.14  1.16  3.273  100.78  -13.46  
 1.14  1.16  3.273  100.84  -13.45  Calculated leg from 3 above
+  flags not duplicate
 1.16  -  3.153  178.23  -28.89  
 1.16  -  3.233  204.47  -29.05  
 1.16  -  3.04  346.49  10.68  

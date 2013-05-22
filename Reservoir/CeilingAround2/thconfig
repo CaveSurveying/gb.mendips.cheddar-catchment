@@ -6,7 +6,7 @@ source CeilingAround2.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o CeilingAround2.pdf
+export map -proj plan -layout local -o CeilingAround2.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o CeilingAround2Ee.pdf

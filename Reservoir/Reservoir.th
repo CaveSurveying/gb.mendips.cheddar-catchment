@@ -86,8 +86,11 @@ equate 1.0@ResEnt 1.0@ChGorge
 
 #Plan joins
 ##########################################
+join AscensionSP1@Ascension CeilingAroundSP1@CeilingAround -smooth on
 join AscensionSP1@Ascension VertigoSP1@Vertigo -smooth on
 join AscensionSP1@Ascension UnderGorgeSP1@UnderGorge -smooth on
+join CeilingAroundSP2@CeilingAround CeilingAround2SP1@CeilingAround2 -smooth on
+join CeilingAroundSP1@CeilingAround VertigoSP1@Vertigo -smooth on
 join DeeperSP1@Deeper FrozenDeepSPl1@FrozenDeep -smooth on
 join DeeperSP2@Deeper DingleyDellSP1@DingleyDell -smooth on
 join FrozenDeepSPl1@FrozenDeep GreatExpectationsSPl2@GreatExpectations  -smooth on
@@ -137,6 +140,8 @@ endmap
 
 map ReservoirM -title "Reservoir Hole" -proj plan
   VertigoM@Vertigo
+  CeilingAround@CeilingAround
+  CeilingAround2@CeilingAround
   AscensionM@Ascension
   UnderGorgeM@UnderGorge
   SkyfallM@Skyfall
