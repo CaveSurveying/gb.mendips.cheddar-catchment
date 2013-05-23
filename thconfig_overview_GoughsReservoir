@@ -93,7 +93,7 @@ endcode
 code metapost
 #redefine colour of scale and north arrow in metatex to overcome colour-assign bug
 
-def s_northarrow (expr rot) =
+def s_northarrow_CHED (expr rot) =
   drawoptions(withcolor  white);
   T:=identity scaled 0.7 rotated -rot;
   thdraw (-.5cm,-1cm)--(0,1.5cm)--(.5cm,-1cm)--(0,-.5cm)--cycle;

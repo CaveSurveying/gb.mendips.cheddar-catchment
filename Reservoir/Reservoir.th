@@ -140,8 +140,8 @@ endmap
 
 map ReservoirM -title "Reservoir Hole" -proj plan
   VertigoM@Vertigo
-  CeilingAround@CeilingAround
-  CeilingAround2@CeilingAround
+  CeilingAround2M@CeilingAround2
+  CeilingAroundM@CeilingAround
   AscensionM@Ascension
   UnderGorgeM@UnderGorge
   SkyfallM@Skyfall
