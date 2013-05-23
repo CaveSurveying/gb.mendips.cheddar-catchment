@@ -3,7 +3,7 @@ survey LongHole
 
 input LongHole.th2
 
-map LongHoleM
+map LongHoleM -title "Long Hole"
   LongHoleSP1
  break
   LongHoleSP2

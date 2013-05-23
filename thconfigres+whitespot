@@ -39,7 +39,7 @@ map-image 100 -20 ne Outputs/Res_Goughs_overview.pdf
 map-header 0 -20 nw
 
 map-comment "Reservoir                             WhiteSpot<br>\
-Length: 1735.27m                      Length: 59.90m<br>\
+Length: 1949.81m                      Length: 59.90m<br>\
  Depth:  123.29m                       Depth: 32.57m<br>\
 <br>\
 <br>\
@@ -114,12 +114,7 @@ doc-title "Reservoir Hole and Whitespot Cave"
 rotate -90
 grid-size 50 50 25 metres
 
-symbol-hide area blocks
-symbol-hide area debris
-symbol-hide line rock-border
-symbol-hide line rock-edge
-symbol-hide point section
-symbol-hide line section
+
  
 
 #base-scale 1 500

@@ -11,11 +11,10 @@ source Reservoir.th
 #select FrozenDeepSplaysM@Reservoir
 #export map -proj plan -layout local -o TFD.pdf
 
-#export map -proj plan -layout local -o Reservoir.pdf
+export map -proj plan -layout local -o Reservoir.pdf
 #Produces plan of cave, on a single sheet
 
-select CeilingAround2M@CeilingAround2.Reservoir
-select CeilingAround2M@CeilingAround2.Reservoir
+
 #export map -proj [elevation 90] -layout local -o ReservoirE90.pdf
 
 export model -fmt survex -o Reservoirth.3d
