@@ -79,7 +79,7 @@ data normal from to tape compass clino ignoreall
 5.4  -  1.456  22.19  31.64  
 #5.4  5.5  10.812  8.2  30.0  
 #5.4  5.5  10.487  8.33  29.73  
-5.4  5.5  10.649  8.27  29.87  Calculated leg from 2 above
+#5.4  5.5  10.649  8.27  29.87  Calculated leg from 2 above
 5.4  -  0.0  0.0  0.0  
 #5.6  5.3  11.306  46.71  24.12  
 #5.6  5.3  11.304  46.64  24.14  

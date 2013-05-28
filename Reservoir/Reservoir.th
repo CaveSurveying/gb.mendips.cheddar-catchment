@@ -54,6 +54,7 @@ input ToplessAven/ToplessAven.th
 input ToplessClimb/ToplessClimb.th
 input UnderGorge/UnderGorge.th
 input Vertigo/Vertigo.th
+input WISh/WISh.th
 #Connection to the therionised data
 #equate 471@R6 1.0@TopDig
 
@@ -70,6 +71,8 @@ equate 13.0@ToplessClimb 4.21@TopDig
 equate 4.21@TopDig 1.0@ToplessAven
 equate 5.0@FrozenDeep 1.36@GreatExpectations
 equate 5.14@FrozenDeep 16.0@Skyfall
+equate 5.0@FrozenDeep 17.0@WISh
+equate 5.4@FrozenDeep 17.12@WISh
 equate 9.0@HerbertsAttic 3.22@Golgotha
 equate 7.8@PulsationAven 10.0@JillsSlither
 equate 7.0@PulsationAven 4.13@TopDig
@@ -165,6 +168,7 @@ map ReservoirM -title "Reservoir Hole" -proj plan
   ToplessAvenM@ToplessAven
   DeeperM@Deeper
   DingleyDellM@DingleyDell
+  WIShM@WISh
 #  R1@R1
 #  R2@R2
 #  R3@R3

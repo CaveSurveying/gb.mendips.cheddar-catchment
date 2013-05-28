@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -306.79 -290.4 1840.77 1742.41
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {471.954320141 1 1.0} {1489.6158379 5.0} PocketTopo/WISh_E90.xvi 0 {}
+
+
+scrap WIShSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
