@@ -303,8 +303,6 @@ endline
 
 point 7714.1911023600005 3381.4392126000002 station -name 1.40
 
-point 7882.59110236 2790.4992125999997 station -name 1.39
-
 point 7836.861102360001 2822.7592126 station -name 1.38
 
 point 7807.1911023600005 2882.0092126 station -name 1.37
@@ -754,5 +752,4 @@ endscrap
 scrap LongHoleSPX1.3 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
-
 

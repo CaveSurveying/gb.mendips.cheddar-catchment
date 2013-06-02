@@ -10,8 +10,10 @@ source CheddarCatchment.th
 #unselect Surface.Charterhouse
 
 #unselect corners.CheddarCatchment
-select LongHole.CheddarCatchment
-select Long_Hole.CheddarCatchment
+
+
+
+
 
 
 

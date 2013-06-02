@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -2097.19 -625.94 12583.17 3755.63
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1214.09657064 1 1.0} {2619.83015382 1.0} PocketTopo/GreatOones_e.xvi 0 {}
+
+
+scrap GreatOonesSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap GreatOonesSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap GreatOonesSE3 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

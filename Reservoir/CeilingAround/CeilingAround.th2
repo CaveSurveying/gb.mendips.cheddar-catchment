@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -53.03937008199989 10.32545527000002 1856.5039370043 2549.7900221987
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {974.67141732 1 1.0} {982.81537653 2.9} PocketTopo/CeilingAround_p.xvi 0 {}
 
 
@@ -90,6 +90,7 @@ line wall
   602.0 2088.0 576.0 2108.0 570.0 2116.0
   564.0 2124.0 558.0 2137.0 560.0 2149.0
   562.0 2161.0 564.61 2205.82 569.0 2238.0
+  smooth off
 endline
 
 point 974.67141732 982.81537653 station -name 2.9
@@ -226,6 +227,7 @@ line pit -reverse on
   449.0 2101.0 418.0 2116.0 399.0 2120.0
   380.0 2124.0 359.16 2137.83 349.08141732 2139.91537653
   339.0 2142.0 309.0 2141.0 302.0 2145.0
+  smooth off
 endline
 
 line wall

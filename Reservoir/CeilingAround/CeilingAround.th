@@ -16,6 +16,7 @@ map CeilingAroundME
   CeilingAroundSE2
   CeilingAroundSE3
 endmap
+
 centreline
 
 copyright 2013 "CC BY SA NC"
@@ -26,12 +27,12 @@ copyright 2013 "CC BY SA NC"
 #DistoX: Clive Owen
 #Dog: 
 
-  date 2013.04.30
+  date 2013.04.12-13
 
   team "Andrew Atkinson" notes
   team "Clive Owen" instruments
 
-  explo-date 2013.05.01
+  explo-date 2013-17
   explo-team "Andrew Atkinson"
   explo-team "Clive Owen"
 

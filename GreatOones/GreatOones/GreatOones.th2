@@ -1,0 +1,84 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 456.63734634699995 369.2125984300004 7405.5507321725 6451.9842519722
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1777.2038806819999 1 1.0} {5521.708267720001 1.4} PocketTopo/GreatOones_p.xvi 0 {}
+
+
+
+scrap GreatOonesSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap GreatOonesSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap GreatOonesSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap GreatOonesSPX1.63 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap GreatOonesSPX1.57 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap GreatOonesSPX1.54 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap GreatOonesSPX1.47 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap GreatOonesSPX1.44 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap GreatOonesSPX1.42 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap GreatOonesSPX1.37 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap GreatOonesSPX1.10 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap GreatOonesSPX1.6 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap GreatOonesSPX1.4 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
