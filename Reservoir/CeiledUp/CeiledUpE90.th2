@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -705.6 -869.48 4233.62 5216.9
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {673.83626053 1 1.0} {4782.16031293 1.0} PocketTopo/CeiledUp_E90.xvi 0 {}
+
+
+scrap CeiledUpSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CeiledUpSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

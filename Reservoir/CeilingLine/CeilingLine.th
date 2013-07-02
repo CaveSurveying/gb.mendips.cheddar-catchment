@@ -1,0 +1,84 @@
+encoding  utf-8
+survey CeilingLine
+
+input CeilingLine.th2
+input CeilingLineE90.th2
+
+map CeilingLineM
+  CeilingLineSP1
+endmap
+centreline
+
+copyright 2013 "CC BY SA NC"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#DistoX-ubss1 0.28
+#Notes:Andrew Atkinson
+#DistoX: Clive Owen
+#Dog: 
+
+  date 2013.07.02
+
+  team "Andrew Atkinson" notes
+  team "Clive Owen" instruments
+
+  explo-date 2013.05.28
+  explo-team "Andrew Atkinson"
+  explo-team "Clive Owen"
+
+data normal from to tape compass clino ignoreall
+  extend right
+#5.7  19.0  0.0  0.0  0.0 
+#Calabration check at AAs 
+#19.0  -  3.044  95.53  31.29  
+#19.0  -  3.051  95.6  31.46 
+  flags duplicate
+#19.0  19.1  9.995  267.95  -18.1  
+#19.0  19.1  9.994  268.06  -17.94  
+#19.0  19.1  9.995  267.94  -17.98  
+19.0  19.1  9.995  267.98  -18.0  Calculated leg from 3 above
+19.1  -  0.0  0.0  0.0  boulder that has been moved, temp
+#19.2  19.1  4.656  89.94  29.5  
+#19.2  19.1  4.654  90.05  29.4  
+#19.2  19.1  4.665  89.6  29.84  
+19.2  19.1  4.658  89.86  29.58  Calculated leg from 3 above
+19.2  -  0.0  0.0  0.0  temp nv by little ladder
+  flags not duplicate
+#19.3  19.2  9.47  63.57  -76.07  
+#19.3  19.2  9.472  63.07  -76.04  
+#19.3  19.2  9.472  63.25  -76.14  
+19.3  19.2  9.471  63.3  -76.09  Calculated leg from 3 above
+19.3  -  9.861  189.53  -10.01  nv calcite flow as rift opens into chamber
+19.3  -  8.643  353.93  14.14  
+19.3  -  1.219  281.44  6.37  
+19.3  -  0.363  93.47  -13.68  
+19.3  -  7.01  198.36  -5.91  
+19.3  -  3.598  204.71  -4.18  
+19.3  -  2.045  220.48  -1.77  
+19.3  -  2.432  328.97  11.3  
+19.3  -  5.123  347.83  12.43  
+#19.4  19.3  15.478  78.05  -84.46  
+#19.4  19.3  15.47  79.48  -84.52  
+#19.4  19.3  15.467  79.1  -84.53  
+19.4  19.3  15.472  78.88  -84.51  Calculated leg from 3 above
+19.4  -  0.578  96.69  2.91  
+19.4  -  10.125  6.76  4.28  
+19.4  -  1.893  181.08  9.15  
+19.4  -  6.785  12.75  5.78  
+19.4  -  3.733  17.61  6.5  
+19.4  -  1.039  34.85  13.85  
+19.4  -  1.028  161.71  9.33  
+#19.5  19.4  9.445  323.53  -81.45  
+#19.5  19.4  9.438  323.53  -81.47  
+#19.5  19.4  9.45  323.95  -81.5  
+19.5  19.4  9.444  323.67  -81.47  Calculated leg from 3 above
+  flags duplicate
+19.5  -  0.0  0.0  0.0  point of bridge boulder
+#19.5  19.6  2.738  255.35  8.29  
+#19.5  19.6  2.737  255.15  8.22  
+#19.5  19.6  2.737  255.32  8.28  
+19.5  19.6  2.737  255.27  8.26  Calculated leg from 3 above
+  flags not duplicate
+endcentreline
+endsurvey
+

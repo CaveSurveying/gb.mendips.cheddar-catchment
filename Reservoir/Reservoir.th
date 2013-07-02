@@ -3,8 +3,10 @@ survey Reservoir
 
 
 input Ascension/Ascension.th
+input CeiledUp/CeiledUp.th
 input CeilingAround/CeilingAround.th
 input CeilingAround2/CeilingAround2.th
+input CeilingLine/CeilingLine.th
 input ChGorge/ChGorge.th
 input Deeper/Deeper.th
 input DingleyDell/DingleyDell.th
@@ -63,8 +65,11 @@ equate 1.6@ChGorge 1.0@ToHole
 equate 1.0@Ascension 1.6@UnderGorge
 equate 1.27@Ascension 1.7@Vertigo
 equate 1.35@Ascension 5.15@FrozenDeep
+equate 1.8@CeiledUp 1.0@CeilingAround2
 equate 2.0@CeilingAround 1.25@CeilingAround2
+equate 1.20@CeilingAround2 19.0@CeilingLine 
 equate 2.21@CeilingAround 1.0@Vertigo
+equate 19.0@CeilingLine 5.7@FrozenDeep
 equate 11.0@Deeper 5.12@FrozenDeep
 equate 11.23@Deeper  12.0@DingleyDell
 equate 13.0@ToplessClimb 4.21@TopDig 

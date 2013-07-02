@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -125.43 -711.37 752.6 4268.23
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {106.417322835 1 1.0} {3591.51288141 1.0} PocketTopo/CeiledUp_p.xvi 0 {}
+
+
+scrap CeiledUpSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CeiledUpSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CeiledUpSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
