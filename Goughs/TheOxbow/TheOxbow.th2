@@ -1412,8 +1412,7 @@ endscrap
 
 
 
-scrap 
-TheOxbowSX1.5 -projection none -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
+scrap TheOxbowSX1.5 -projection none -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
 
 line rock-border -close on
   6658.0 609.0
