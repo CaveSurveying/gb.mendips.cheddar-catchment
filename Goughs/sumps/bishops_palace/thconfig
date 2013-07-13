@@ -6,10 +6,11 @@ source bishops_palace.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o bishops_palace.pdf
+#export map -proj plan -layout local -o bishops_palace.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o bishops_palaceEe.pdf
+export map -proj [elevation 270] -layout local -o bishops_palaceE270.pdf
+#Produces elevation of cave, on a single sheet
 
 #export model -fmt survex -o bishops_palaceth.3d
 #Survex file showing centre line only
@@ -21,6 +22,9 @@ export map -proj plan -layout local -o bishops_palace.pdf
 #Survex file showing walls only
 
 #export map -o bishops_palace.xvi -format xvi
+#map for importing into th2 file
+
+export map -proj [elevation 270] -o bishops_palaceE270.xvi -format xvi
 #map for importing into th2 file
 
 layout local

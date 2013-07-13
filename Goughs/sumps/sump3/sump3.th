@@ -2,9 +2,14 @@ encoding  utf-8
 survey sump3
 
 input sump3.th2
+input sump3E0.th2
 
 map sump3M
   sump3SPl1
+  endmap
+  
+map sump3E0M
+  sump3SE01
   endmap
 
 centreline

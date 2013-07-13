@@ -2,9 +2,14 @@ encoding  utf-8
 survey sheppards_crook
 
 input sheppards_crook.th2
+input sheppards_crookE270.th2
 
 map sheppards_crookM
   sheppards_crookSPl1
+  endmap
+  
+map sheppards_crookE270M -proj [elevation 270]
+  sheppards_crookSE2701
   endmap
 
 centreline

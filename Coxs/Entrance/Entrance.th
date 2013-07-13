@@ -20,7 +20,12 @@ map EntranceME90 -proj [elevation 90]
 endmap
 centreline
 cs OSGB:ST
-fix 1.2 46460 53900 23 #ST 4646 5390 23
+#fix 1.2 46460 53900 23 #ST 4646 5390 23
+#superceded by dGPS data
+
+fix 1.0 46642.241 53915.696 24.457
+#dGPS 2013.07.12
+
 station 1.2 "" entrance
 
 copyright 2013 "CC BY SA NC"

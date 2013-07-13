@@ -6,6 +6,12 @@ input sump2.th2
 map sump2M
   sump2SPl1
   endmap
+  
+input sump2E270.th2
+
+map sump2E270M -proj [elevation 270]
+  sump2SE2701
+  endmap  
 
 centreline
 

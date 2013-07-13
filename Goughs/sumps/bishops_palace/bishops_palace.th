@@ -2,10 +2,15 @@ encoding  utf-8
 survey bishops_palace
 
 input bishops_palace.th2
+input bishops_palaceE270.th2
 
 map bishops_palaceM
   bishops_palaceSPl1
 endmap
+
+map bishops_palaceE270M -proj [elevation 270]
+   bishops_palaceSE2701
+endmap   
 
 centreline
 
