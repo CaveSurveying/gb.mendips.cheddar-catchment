@@ -9,7 +9,9 @@ source sheppards_crook.th
 #export map -proj plan -layout local -o sheppards_crook.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj [elevation 270] -layout local -o sheppards_crookE270.pdf
+#export map -proj [elevation 270] -layout local -o sheppards_crookE270.pdf
+
+export map -proj [elevation 0] -layout local -o sheppards_crookE0.pdf
 
 #export model -fmt survex -o sheppards_crookth.3d
 #Survex file showing centre line only
@@ -24,6 +26,9 @@ export map -proj [elevation 270] -layout local -o sheppards_crookE270.pdf
 #map for importing into th2 file
 
 #export map -proj [elevation 270] -o sheppards_crookE270.xvi -format xvi
+#map for importing into th2 file
+
+#export map -proj [elevation 0] -o sheppards_crookE0.xvi
 #map for importing into th2 file
 
 layout local

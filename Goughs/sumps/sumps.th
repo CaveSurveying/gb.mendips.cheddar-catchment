@@ -41,13 +41,6 @@ map FarSumpsM
   sump3M@sump3
 endmap
 
-map sump2plusM -proj [elevation 270]
-  bishops_palaceE270M@bishops_palace
-  sump2E270M@sump2
-  sheppards_crookE270M@sheppards_crook
-endmap  
-  
-
 
 join downstreamSPl1@downstream upstreamSPl1@upstream -smooth on
 join sump1bSPl1@sump1b upstreamSPl1@upstream -smooth on
@@ -69,7 +62,18 @@ map ShowCaveSumpsME0 -proj [elevation 0]
 endmap
 
 join downstreamSE0_1@downstream upstreamSE0_1@upstream -smooth on
-join upstreamSE0_1@upstream sump1bSE0_1@sump1b -smooth on   
+join upstreamSE0_1@upstream sump1bSE0_1@sump1b -smooth on  
+
+map sump2plusE270M -proj [elevation 270]
+  bishops_palaceE270M@bishops_palace
+  sump2E270M@sump2
+  sheppards_crookE270M@sheppards_crook
+endmap
+
+map sump3plusE0M -proj [elevation 0]
+  sump3E0M@sump3
+  sheppards_crookE0M@sheppards_crook
+endmap
 
 endsurvey
 
