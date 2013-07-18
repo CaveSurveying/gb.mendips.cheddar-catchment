@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -96.98 -167.33 581.86 1003.98
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {432.467103191 1 1.0} {216.191861639 2.5} PocketTopo/BrokenFinger_E90.xvi 0 {}
+
+
+scrap BrokenFingerSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
