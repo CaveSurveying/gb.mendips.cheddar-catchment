@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -895.43 -145.51 5372.57 873.07
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {491.808256891 1 1.0} {674.330871869 1.0} PocketTopo/BoweryCorner_e.xvi 0 {}
+
+
+scrap BoweryCornerSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
