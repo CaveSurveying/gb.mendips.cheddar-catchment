@@ -1,0 +1,18 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -117.03553620000002 77.57554287999983 1083.8463535636 3246.9613696510996
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {217.514448023 1 1.0} {1259.48506612 1.4} PocketTopo/WIShICouldFly_p.xvi 0 {}
+
+
+
+scrap WIShICouldFlySP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap WIShICouldFlySPX1.3 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+

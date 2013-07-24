@@ -58,6 +58,7 @@ input ToplessClimb/ToplessClimb.th
 input UnderGorge/UnderGorge.th
 input Vertigo/Vertigo.th
 input WISh/WISh.th
+input WIShICouldFly/WIShICouldFly.th
 #Connection to the therionised data
 #equate 471@R6 1.0@TopDig
 
@@ -93,6 +94,15 @@ equate 1.11@ResEnt 8.0@SouthPassage
 equate 1.0@Sleeper 1.26@ResEnt
 equate 1.7@Sleeper 2.0@SideRift
 equate 1.0@ResEnt 1.0@ChGorge
+equate 1.10@WIShICouldFly 17.0@WISh
+
+centreline
+data nosurvey from to
+flags duplicate
+1.5@WIShICouldFly 5.3@FrozenDeep
+flags not duplicate
+endcentreline
+
 
 #Plan joins
 ##########################################
