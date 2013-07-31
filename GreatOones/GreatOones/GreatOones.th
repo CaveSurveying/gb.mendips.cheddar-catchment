@@ -28,10 +28,11 @@ station 1.0 "Great Oones Hole" entrance
 #quick and dirty EGNOS not enabled
 #fix 1.71  46805 53973 93
 
-#Horizontal fix from Tony Boycott;s gps on 30.07.2013 EGNOS enabled
+#Horizontal fix from Tony Boycott's gps on 30.07.2013 EGNOS enabled
+#Garmin Oregon 450; Software Version 6.10
 #Vertical fix average of two levelling traverses by WIS
 #First was 304.9' (92.93 m) Second 307.6' (93.75 m)
-#station 1.71 will be within 0.25 0.5 m vertically
+#station 1.71 will be within 0.25 - 0.5 m vertically
 fix 1.71 46805 53944 93
  
 
