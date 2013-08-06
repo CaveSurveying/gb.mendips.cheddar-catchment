@@ -5,6 +5,8 @@ input WIShICouldFly.th2
 input WIShICouldFlyE90.th2
 
 map WIShICouldFlyM
+  WIShICouldFlySP2
+ break
   WIShICouldFlySP1
 endmap
 

@@ -11,10 +11,10 @@ map CeilingAroundM
   CeilingAroundSP2
 endmap
 
-map CeilingAroundME
-  CeilingAroundSE1
-  CeilingAroundSE2
-  CeilingAroundSE3
+map CeilingAroundME90
+  CeilingAroundSE90_1
+ break
+  CeilingAroundSE90_2
 endmap
 
 centreline

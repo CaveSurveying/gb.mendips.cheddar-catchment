@@ -1,11 +1,23 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -140.56754349000005 -158.25165954099998 824.0938738327 648.9294428211
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {66.17103084900003 1 1.0} {533.374872076 3.2} PocketTopo/BrokenFinger_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {66.171030849 1 1.0} {533.374872076 3.2} PocketTopo/BrokenFinger_p.xvi 0 {}
 
 
 
 scrap BrokenFingerSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  200.0 310.0
+  168.0 344.0 126.0 464.0 110.0 492.0
+  94.0 520.0 72.0 558.0 62.0 552.0
+  52.0 546.0 60.0 482.0 68.0 450.0
+  76.0 418.0 126.0 310.0 132.0 288.0
+endline
+
+point 66.171030849 533.374872076 station -name 3.2
+
+point 207.641030849 149.064872076 station -name 3.1
 
 endscrap
 

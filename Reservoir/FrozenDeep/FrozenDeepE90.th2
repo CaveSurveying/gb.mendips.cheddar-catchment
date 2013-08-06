@@ -10,16 +10,24 @@ scrap FrozenDeepSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4 0 0 10
 line wall
   5060.0 1244.0
   5076.0 1316.0 5096.0 1328.0 5056.0 1396.0
+endline
+
+line ceiling-step -outline out
+  5056.0 1396.0
   5016.0 1464.0 4804.0 1672.0 4748.0 1696.0
   4692.0 1720.0 4456.0 1748.0 4372.0 1784.0
   4288.0 1820.0 4252.0 1772.0 4220.0 1940.0
   smooth off
 endline
 
-line wall
+line ceiling-step -outline out
   2176.0 2288.0
-  1836.0 2412.0 1556.0 2432.0 1520.0 2360.0
-  1484.0 2288.0 1472.0 2332.0 1412.0 2264.0
+  1836.0 2412.0 1572.0 2440.0 1536.0 2368.0
+endline
+
+line wall
+  1536.0 2368.0
+  1500.0 2296.0 1472.0 2332.0 1412.0 2264.0
   1352.0 2196.0 1264.0 1988.0 1216.0 1960.0
   1168.0 1932.0 888.0 1932.0 848.0 1900.0
   808.0 1868.0 852.0 1784.0 836.0 1708.0
@@ -123,6 +131,7 @@ line wall -id SkyfallPath -outline none -subtype debris
   3028.0 1176.0 2956.0 1164.0 2920.0 1152.0
   2884.0 1140.0 2808.0 1136.0 2752.0 1136.0
   2696.0 1136.0 2524.18 1172.0 2480.0 1172.0
+  smooth off
 endline
 
 line wall -outline none -subtype debris
@@ -188,7 +197,7 @@ line wall -subtype debris
   smooth off
 endline
 
-line wall -outline none
+line ceiling-step -reverse on
   2176.0 2288.0
   2248.0 2300.0 2448.0 2232.0 2564.0 2224.0
   2680.0 2216.0 2856.0 2216.0 2956.0 2228.0

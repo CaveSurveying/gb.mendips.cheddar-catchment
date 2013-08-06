@@ -11,7 +11,7 @@ export map -proj plan -layout local -o CeilingAround2.pdf
 
 #export map -proj extended -layout local -o CeilingAround2Ee.pdf
 
-#export map -proj [elevation 15] -layout local -o CeilingAround2E90.pdf
+export map -proj [elevation 90] -layout local -o CeilingAround2E90.pdf
 
 export model -fmt survex -o CeilingAround2th.3d
 #Survex file showing centre line only

@@ -11,7 +11,7 @@ export map -proj plan -layout local -o CeilingAround.pdf
 
 #export map -proj extended -layout local -o CeilingAroundEe.pdf
 
-#export map -proj [elevation 15] -layout local -o CeilingAroundE90.pdf
+export map -proj [elevation 90] -layout local -o CeilingAroundE90.pdf
 
 export model -fmt survex -o CeilingAroundth.3d
 #Survex file showing centre line only
@@ -27,7 +27,7 @@ copy common
 debug off
 map-header 0 0 off
 symbol-hide group cave-centreline
-symbol-colour line wall [100 0 1]
+#symbol-colour line wall [100 0 1]
 endlayout
 
 input ../../common_layout.th

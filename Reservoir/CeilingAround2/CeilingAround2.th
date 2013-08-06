@@ -11,11 +11,20 @@ map CeilingAround2M
   CeilingAround2SP2
 endmap
 
-map CeilingAround2ME
-  CeilingAround2SE1
-  CeilingAround2SE2
-  CeilingAround2SE3
+map CeilingAround2ME90
+  CeilingAround2SE90_1
+ break
+  CeilingAround2SE90_2
+ break
+  CeilingAround2SE90_3
+ break
+  CeilingAround2SE90_4
+ break
+  CeilingAround2SE90_5
+ break
+  CeilingAround2SE90_6
 endmap
+
 centreline
 
 copyright 2013 "CC BY SA NC"
