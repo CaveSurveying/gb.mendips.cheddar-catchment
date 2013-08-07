@@ -6,6 +6,7 @@ source CheddarCatchment.th
 #But unselected for lox, otherwise you get 2 grids
 #unselect Surface.Charterhouse
 
+select GreatOonesM@GreatOones.CheddarCatchment
 select LongHoleM@LongHole.CheddarCatchment
 select GoughsM@Goughs.CheddarCatchment
 select allSumpsM@sumps.Goughs.CheddarCatchment

@@ -39,8 +39,8 @@ map-image 100 -20 ne Outputs/Res_Goughs_overview.pdf
 map-header 0 -20 nw
 
 map-comment "Reservoir                             WhiteSpot<br>\
-Length: 1949.81m                      Length: 59.90m<br>\
- Depth:  123.29m                       Depth: 32.57m<br>\
+Length: 2196.06m                      Length: 59.90m<br>\
+ Depth:  131.09m                       Depth: 32.57m<br>\
 <br>\
 <br>\
 Drawn using Therion<br>\
