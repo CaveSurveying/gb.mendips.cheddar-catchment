@@ -6,8 +6,14 @@ input GreatOones.th2
 map GreatOonesM
   GreatOonesSP1
   GreatOonesSP2
-  GreatOonesSP3
+#  GreatOonesSP3
 endmap
+
+input GreatOonesEe.th2
+
+map GreatOonesEeM
+  GreatOonesSE1
+endmap  
 
 centreline
 cs OSGB:ST 
