@@ -134,12 +134,20 @@ join left1@TopDig:join wall1@ToplessClimb:end -smooth on
 
 join AscensionSE90_1@Ascension UnderGorgeSE90_3@UnderGorge -smooth on
 join AscensionSE90_1@Ascension VertigoSE90_1@Vertigo #-smooth on
+join AscensionSE90_1@Ascension CeilingAroundSE90_1@CeilingAround -smooth on
+join CeiledUpSE90_1@CeiledUp CeilingAround2SE90_6@CeilingAround2 -smooth on
+join CeilingAroundSE90_1@CeilingAround CeilingAround2SE90_1@CeilingAround2 -smooth on
+join CeilingAroundSE90_2@CeilingAround CeilingAround2SE90_2@CeilingAround2 -smooth on
+join CeilingAround2SE90_6@CeilingAround2 CeiledUpSE90_1@CeiledUp -smooth on -count 2
+join CeilingAround2SE90_6@CeilingAround2 FrozenDeepSE90_1@FrozenDeep -smooth on
 join CeilingAroundSE90_1@CeilingAround VertigoSE90_1@Vertigo -smooth on
 join DeeperSE90_2@Deeper FrozenDeepSE90_1@FrozenDeep -smooth on
 join FrozenDeepSE90_1@FrozenDeep GreatExpectationsSE90_1@GreatExpectations -smooth on
+join FrozenDeepSE90_1@FrozenDeep WIShICouldFlySE90_1@WIShICouldFly -smooth on
 join SkyfallPath@FrozenDeep:0 floor1@Skyfall -smooth on
 join GolgothaSE90_1@Golgotha HerbertsAtticSE90_1@HerbertsAttic -smooth on
 join GolgothaSE90_1@Golgotha ToplessAvenSE90_1@ToplessAven -smooth on
+join GreatExpectationsSE90_1@GreatExpectations WIShICouldFlySE90_1@WIShICouldFly  -smooth on
 join GreatExpectationsSE90_1@GreatExpectations ToplessAvenSE90_1@ToplessAven -smooth on
 join HappySnappersSE90_1@HappySnappers  TopDigSE90_1@TopDig -smooth on
 join JillsSlitherSE90_1@JillsSlither PottersHeavenSE90_1@PottersHeaven
@@ -207,13 +215,14 @@ map ReservoirM -title "Reservoir Hole" -proj plan
 endmap
 
 map ReservoirME90 -proj [elevation 90]
+  AscensionME90@Ascension
+  SkyfallME90@Skyfall
   VertigoME90@Vertigo
   CeilingAroundME90@CeilingAround
  break
- CeilingAround2ME90@CeilingAround2
+  CeilingAround2ME90@CeilingAround2
+  CeiledUpME90@CeiledUp
   UnderGorgeME90@UnderGorge
-  AscensionME90@Ascension
-  SkyfallME90@Skyfall
   GreatExpectationsME90@GreatExpectations
   HerbertsAtticME90@HerbertsAttic
   GolgothaME90@Golgotha
@@ -232,6 +241,7 @@ map ReservoirME90 -proj [elevation 90]
   FrozenDeepME90@FrozenDeep
   DeeperME90@Deeper
   DingleyDellME90@DingleyDell
+  WIShICouldFlyME90@WIShICouldFly
 endmap
 
 endsurvey
