@@ -9,9 +9,9 @@ source GreatOones.th
 #export map -proj plan -layout local -o GreatOones.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj extended -layout local -o GreatOonesEe.pdf
+#export map -proj extended -layout local -o GreatOonesEe.pdf
 
-#export map -proj [elevation 15] -layout local -o GreatOonesE90.pdf
+export map -proj [elevation 15] -layout local -o GreatOonesE15.pdf
 
 #export model -fmt survex -o GreatOonesth.3d
 #Survex file showing centre line only
@@ -22,9 +22,14 @@ export map -proj extended -layout local -o GreatOonesEe.pdf
 #export map -proj plan -o GreatOones_Walls.3d
 #Survex file showing walls only
 
+#export map -proj [elevation 15] -o GreatOonesE15.xvi
+#map for importing into th2 file
+
 layout local
 copy common
 debug off
+scale 1 1000
+base-scale 1 200
 map-header 0 0 off
 #symbol-hide group cave-centreline
 endlayout
