@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 2470.515 1289.415
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {280.26 1 1.0} {786.019 1.0} PocketTopo/GreatOonesE15.xvi 0 {}
 
 
@@ -279,8 +279,6 @@ point 1534.45 747.839 station -name 1.43
 point 1477.11 732.879 station -name 1.42
 
 point 1356.42 728.349 station -name 1.41
-
-point 1358.0 707.0 station -name 1.36
 
 point 1345.55 722.049 station -name 1.35
 
