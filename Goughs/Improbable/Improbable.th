@@ -3,6 +3,16 @@ survey Improbable
 
 input Improbable.th2
 input ImprobableE0.th2
+input XSection.th2
+
+map XSectionM
+  XSectionSP
+endmap
+
+map ImprobableXM
+  XSectionM [-40 0 m] none
+  ImprobableM
+endmap
 
 map ImprobableM
   ImprobableSPl1

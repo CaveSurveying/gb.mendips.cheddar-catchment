@@ -3,6 +3,16 @@ survey DucksDelight
 
 input DucksDelight.th2
 input DucksDelightE0.th2
+input XSection.th2
+
+map XSectionM
+  XSectionSP
+endmap
+
+map DucksDelightXM
+  XSectionM [-80 -35 m] none
+  DucksDelightM
+endmap
 
 map DucksDelightM
   DucksDelightSPl2

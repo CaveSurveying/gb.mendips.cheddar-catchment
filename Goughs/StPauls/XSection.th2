@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 0 0 1600 1200
+##XTHERION## xth_me_area_zoom_to 100
+
+scrap XSectionSP -projection plan -scale [-128.0 -128.0 4458.70866142 -128.0 0.0 0.0 116.5024 0.0 m]
+
+point 0.0 0.0 station -name 1.1
+
+point 20.0 20.0 section -scrap "StPaulsSX1.1" -align tr
+
+endscrap

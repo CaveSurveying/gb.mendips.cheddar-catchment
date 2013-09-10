@@ -375,9 +375,6 @@ line u -subtype rail
 endline
 
 line wall
-endline
-
-line wall
   2929.0 2419.0
   3024.0 2342.0
   3010.0 2327.0

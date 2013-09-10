@@ -3,10 +3,20 @@ survey TheOxbow
 
 input TheOxbow.th2
 input TheOxbowE0.th2
+input XSection.th2
+
+map XSectionM
+  XSectionSP
+endmap
 
 map TheOxbowM
   TheOxbowSPl1
   TheOxbowSPl2
+endmap
+
+map TheOxbowXM
+  TheOxbowM
+  XSectionM [-125 -115 m] none
 endmap
 
 map TheOxbowME0 -proj [elevation 0]

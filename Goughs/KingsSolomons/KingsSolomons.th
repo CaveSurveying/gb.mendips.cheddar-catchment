@@ -3,6 +3,16 @@ survey KingsSolomons
 
 input KingsSolomons.th2
 input KingsSolomonsE0.th2
+input XSection.th2
+
+map XSectionM
+  XSectionSP
+endmap
+
+map KingsSolomonsXM
+  XSectionM [-90 -65 m] none
+  KingsSolomonsM
+endmap
 
 map KingsSolomonsM
   KingsSolomonsSPl1

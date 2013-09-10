@@ -1,0 +1,13 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 0 0 1600 1200
+##XTHERION## xth_me_area_zoom_to 100
+
+scrap XSectionSP -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 0.0 0.0 station -name 7.12
+
+point 20.0 20.0 section -scrap "BeddingChamberSX7.12" -align tr
+
+point 170.7 20.0 section -scrap "BeddingChamberSX7.9" -align tr
+
+endscrap

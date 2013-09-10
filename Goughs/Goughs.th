@@ -23,33 +23,33 @@ map GoughsDispM
 endmap
 
 map LLoydTopM
-  ImprobableM@Improbable
+  ImprobableXM@Improbable
   LloydHallTopM@LloydHall
 endmap
 
 map GoughsUpperM
   DSAvenM@DSAven
-  BatRoomM@BatRoom
-  KingsSolomonsM@KingsSolomons
+  BatRoomXM@BatRoom
+  KingsSolomonsXM@KingsSolomons
   CastleHairyRingM@CastleHairyRing
   BlackcatM@Blackcat
   Damocles3M@Damocles3
   Damocles2M@Damocles2
   Damocles1M@Damocles1
   NathansAtticM@NathansAttic
-  DucksDelightM@DucksDelight
-  EntranceM@Entrance
+  DucksDelightXM@DucksDelight
+  EntranceXM@Entrance
   FontsM@Fonts 
-  HeartbreakHillM@HeartbreakHill
+  HeartbreakHillXM@HeartbreakHill
   TableauxM@Tableaux
   LloydHallBottomM@LloydHall
-  TheOxbowM@TheOxbow
+  TheOxbowXM@TheOxbow
   DireStraitsM@DireStraits
-  StPaulsM@StPauls
-  NovemberM@November
+  StPaulsXM@StPauls
+  NovemberXM@November
   SandChamberM@SandChamber
   SandCrawlM@SandCrawl
-  SideOxM@SideOx
+  SideOxXM@SideOx
   HeartbreakDigM@HeartbreakDig
   CheeseroomM@Cheeseroom
   WetWitchM@WetWitch
@@ -61,7 +61,7 @@ map GoughsLowerM
   NathansDungeonM@NathansDungeon
   Improbable2M@Improbable2
   BoulderChamberM@BoulderChamber
-  TunnelM@Tunnel  
+  TunnelXM@Tunnel  
 endmap
 
 

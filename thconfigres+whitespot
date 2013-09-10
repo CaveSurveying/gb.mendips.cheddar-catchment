@@ -114,8 +114,12 @@ doc-title "Reservoir Hole and Whitespot Cave"
 rotate -90
 grid-size 50 50 25 metres
 
+symbol-hide area debris
+symbol-hide area blocks
+symbol-hide area sand
+symbol-hide area flowstone
+symbol-hide group sections
 
- 
 
 #base-scale 1 500
 scale 1 500

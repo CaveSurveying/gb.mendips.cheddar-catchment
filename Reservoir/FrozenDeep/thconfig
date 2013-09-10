@@ -1,3 +1,4 @@
+encoding  utf-8
 source FrozenDeep.th
 # Change name to the main therion file
 
@@ -25,7 +26,7 @@ layout local
 copy common
 debug off
 map-header 0 0 nw
-#symbol-hide group cave-centreline
+symbol-hide group cave-centreline
 endlayout
 
 input ../../common_layout.th

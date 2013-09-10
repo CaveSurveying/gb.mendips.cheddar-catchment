@@ -25,6 +25,10 @@ copyright 2013 "CC BY SA NC"
 
   team "Andrew Atkinson" notes
   team "Alison Moody" instruments
+  
+  explo-date 2013-07.02
+  explo-team "Andrew Atkinson"
+  explo-team "Clive Owen"
 
 data normal from to tape compass clino ignoreall
   extend right

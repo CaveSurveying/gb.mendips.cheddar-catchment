@@ -3,6 +3,17 @@ survey BeddingChamber
 
 input BeddingChamber.th2
 input BeddingChamberE0.th2
+input XSection.th2
+
+map XSectionM
+  XSectionSP
+endmap
+
+map BeddingChamberXM
+  XSectionM [0 40 m] none
+  BeddingChamberM
+endmap
+
 
 map BeddingChamberM
   BeddingChamberSPl1

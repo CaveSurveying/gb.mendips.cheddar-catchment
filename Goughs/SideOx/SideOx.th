@@ -3,6 +3,16 @@ survey SideOx
 
 input SideOx.th2
 input SideOxE0.th2
+input XSection.th2
+
+map XSectionM
+  XSectionSP
+endmap
+
+map SideOxXM
+  XSectionM [-10 0 m] none
+  SideOxM
+endmap
 
 map SideOxM
   SideOxSPl1

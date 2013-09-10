@@ -3,6 +3,16 @@ survey Tunnel
 
 input Tunnel.th2
 input TunnelE0.th2
+input XSection.th2
+
+map XSectionM
+  XSectionSP
+endmap
+
+map TunnelXM
+  XSectionM [-40 -30 m] none
+  TunnelM
+endmap
 
 map TunnelM
   TunnelSPl1

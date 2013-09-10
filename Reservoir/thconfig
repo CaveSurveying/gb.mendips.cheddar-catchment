@@ -8,8 +8,9 @@ source Reservoir.th
 #Surveys to output
 #-----------------
 
-#select FrozenDeepSplaysM@Reservoir
-#export map -proj plan -layout local -o TFD.pdf
+select FrozenDeepSplaysM@Reservoir
+export map -proj plan -layout local -o TFD.svg
+export map -proj plan -layout local -o TFD.pdf
 
 #export map -proj plan -layout local -o Reservoir.pdf
 #Produces plan of cave, on a single sheet
@@ -33,13 +34,13 @@ layout local
 copy common
 debug off
 map-header 0 0 off
-#scale-bar 50 m
+scale 1 5000
 rotate -90
-#symbol-hide group all
-#symbol-show group cave-centreline
-#symbol-show line wall
-#colour map-fg map
-color map-fg map
+symbol-hide group all
+symbol-show group cave-centreline
+symbol-show line wall
+grid off
+color map-fg [0 100 0]
 endlayout
 
 input ../common_layout.th

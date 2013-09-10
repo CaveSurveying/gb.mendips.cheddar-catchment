@@ -3,9 +3,20 @@ survey Entrance
 
 input Entrance.th2
 input EntranceE0.th2
+input XSection.th2
+
+map XSectionM
+  XSectionSP
+endmap
+  
 
 map EntranceM
   EntranceSPl1
+endmap
+
+map EntranceXM
+  EntranceM
+  XSectionM [-30 -95 m] none
 endmap
 
 map EntranceME0 -proj [elevation 0]

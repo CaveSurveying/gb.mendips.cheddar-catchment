@@ -24,15 +24,16 @@ copyright 2012 "CC BY SA NC"
 #DistoX-ubss1 0.29
 #Notes:Andrew Atkinson
 #DistoX: Alison Moody
-#Dog: Clive Owen
-# Dogs:Tony Boycott , Clive Owen
+
 
   date 2012.11.06
 
   team "Andrew Atkinson" notes
   team "Alison Moody" instruments
-  team "Clive Owen" instruments
-  team "Tony Boycott" instruments
+  
+  explo-date 2012.11.06
+  explo-team "Andrew Atkinson"
+  explo-team "Alison Moody"
 
 data normal from to tape compass clino ignoreall
   extend right

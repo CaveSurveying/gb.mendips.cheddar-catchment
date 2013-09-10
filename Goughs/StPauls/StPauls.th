@@ -4,6 +4,16 @@ survey StPauls
 input StPauls.th2
 input StPaulsEe.th2
 input StPaulsE0.th2
+input XSection.th2
+
+map XSectionM
+  XSectionSP
+endmap
+
+map StPaulsXM
+  XSectionM [-100 -95 m] none
+  StPaulsM
+endmap
 
 map StPaulsM
   StPaulsSPl1

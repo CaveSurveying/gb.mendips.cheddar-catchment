@@ -4,6 +4,11 @@ survey LloydHall
 input LloydHall.th2
 input LloydHall1E0.th2
 input LloydHall2E0.th2
+input XSection.th2
+
+map XSectionM
+  XSectionSP
+endmap
 
 
 map LloydHallTopM -proj plan
