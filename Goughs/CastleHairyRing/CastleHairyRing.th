@@ -10,7 +10,7 @@ map XSectionM
 endmap
 
 map CastleHairyRingXM
-  XSectionM [0 -60 m] none
+  XSectionM [-65 -40 m] none
   CastleHairyRingM
 endmap
 

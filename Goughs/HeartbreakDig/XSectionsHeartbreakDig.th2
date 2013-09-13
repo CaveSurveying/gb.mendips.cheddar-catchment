@@ -4,10 +4,14 @@ encoding  utf-8
 
 scrap XSectionSP -projection plan -scale [-128.0 -128.0 2726.42519685 -128.0 0.0 0.0 72.5024 0.0 m]
 
-point 0.0 0.0 station -name 1.4
+point 0.0 0.0 station -name 1.2
 
-point 40.0 40.0 section -scrap "HeartbreakDigSX1.4" -align tr
+point 40.0 40.0 section -scrap "HeartbreakDigSX1.2" -align tr
 
-point 415.6 40.0 section -scrap "HeartbreakDigSX1.5" -align tr
+point 520.0 40.0 section -scrap "HeartbreakDigSX1.4" -align tr
+
+point 895.6 40.0 section -scrap "HeartbreakDigSX1.5" -align tr
+
+point 1171.4 40.0 section -scrap "HeartbreakDigSX1.8" -align tr
 
 endscrap
