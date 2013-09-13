@@ -7,6 +7,8 @@ encoding  utf-8
 
 scrap BatRoomSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 729.5 527.5 label -text "a1" -align tr -attr scrapname BatroomSPl1.4 -context line section
+
 line section
   697.0 508.5
   726.5 445.0 801.0 292.0 836.0 218.5
