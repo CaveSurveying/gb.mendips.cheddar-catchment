@@ -3,6 +3,16 @@ survey CastleHairyRing
 
 input CastleHairyRing.th2
 input CastleHairyRingE0.th2
+input XSectionsCastleHairyRing.th2
+
+map XSectionM
+  XSectionSP
+endmap
+
+map CastleHairyRingXM
+  XSectionM [0 -60 m] none
+  CastleHairyRingM
+endmap
 
 map CastleHairyRingM
   CastleHairyRingSPl1

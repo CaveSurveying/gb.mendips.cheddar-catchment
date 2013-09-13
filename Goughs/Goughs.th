@@ -31,7 +31,7 @@ map GoughsUpperM
   DSAvenM@DSAven
   BatRoomXM@BatRoom
   KingsSolomonsXM@KingsSolomons
-  CastleHairyRingM@CastleHairyRing
+  CastleHairyRingXM@CastleHairyRing
   BlackcatM@Blackcat
   Damocles3M@Damocles3
   Damocles2M@Damocles2
@@ -50,13 +50,13 @@ map GoughsUpperM
   SandChamberM@SandChamber
   SandCrawlM@SandCrawl
   SideOxXM@SideOx
-  HeartbreakDigM@HeartbreakDig
+  HeartbreakDigXM@HeartbreakDig
   CheeseroomM@Cheeseroom
   WetWitchM@WetWitch
 endmap
 
 map GoughsLowerM
-  FarRiftM@FarRift
+  FarRiftXM@FarRift
   CableCrawlM@CableCrawl
   NathansDungeonM@NathansDungeon
   Improbable2M@Improbable2

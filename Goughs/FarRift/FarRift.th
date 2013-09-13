@@ -3,6 +3,16 @@ survey FarRift
 
 input FarRift.th2
 input FarRiftE0.th2
+input XSectionsFarRift.th2
+
+map XSectionM
+  XSectionSP
+endmap
+
+map FarRiftXM
+  XSectionM [0 -60 m] none
+  FarRiftM
+endmap
 
 map FarRiftM
   FarRiftSPl1

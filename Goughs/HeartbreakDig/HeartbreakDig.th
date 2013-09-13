@@ -3,6 +3,16 @@ survey HeartbreakDig
 
 input HeartbreakDig.th2
 input HeartbreakDigE0.th2
+input XSectionsHeartbreakDig.th2
+
+map XSectionM
+  XSectionSP
+endmap
+
+map HeartbreakDigXM
+  XSectionM [0 -60 m] none
+  HeartbreakDigM
+endmap
 
 map HeartbreakDigM
     HeartbreakDigSPl1
