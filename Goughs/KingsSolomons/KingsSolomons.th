@@ -3,7 +3,7 @@ survey KingsSolomons
 
 input KingsSolomons.th2
 input KingsSolomonsE0.th2
-input XSection.th2
+input XSectionsKingsSolomons.th2
 
 map XSectionM
   XSectionSP

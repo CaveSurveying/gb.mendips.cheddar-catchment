@@ -3,7 +3,7 @@ survey DucksDelight
 
 input DucksDelight.th2
 input DucksDelightE0.th2
-input XSection.th2
+input XSectionsDucksDelight.th2
 
 map XSectionM
   XSectionSP

@@ -3,7 +3,7 @@ survey SideOx
 
 input SideOx.th2
 input SideOxE0.th2
-input XSection.th2
+input XSectionsSideOx.th2
 
 map XSectionM
   XSectionSP

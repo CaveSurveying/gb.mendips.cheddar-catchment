@@ -3,7 +3,7 @@ survey BeddingChamber
 
 input BeddingChamber.th2
 input BeddingChamberE0.th2
-input XSection.th2
+input XSectionsBeddingChamber.th2
 
 map XSectionM
   XSectionSP

@@ -3,14 +3,14 @@ survey BatRoom
 
 input BatRoom.th2
 input BatRoomE0.th2
-input XSection.th2
+input XSectionsBatRoom.th2
 
 map XSectionM
   XSectionSP
 endmap
 
 map BatRoomXM
-  XSectionM
+  XSectionM [0 -60 m] none
   BatRoomM
 endmap
 

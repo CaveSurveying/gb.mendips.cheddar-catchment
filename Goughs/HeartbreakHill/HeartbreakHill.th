@@ -3,7 +3,7 @@ survey HeartbreakHill
 
 input HeartbreakHill.th2
 input HeartbreakHillE0.th2
-input XSection.th2
+input XSectionsHeartbreakHill.th2
 
 map XSectionM
   XSectionSP

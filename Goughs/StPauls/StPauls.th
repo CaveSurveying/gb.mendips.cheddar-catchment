@@ -4,7 +4,7 @@ survey StPauls
 input StPauls.th2
 input StPaulsEe.th2
 input StPaulsE0.th2
-input XSection.th2
+input XSectionsStPauls.th2
 
 map XSectionM
   XSectionSP

@@ -3,7 +3,7 @@ survey Tunnel
 
 input Tunnel.th2
 input TunnelE0.th2
-input XSection.th2
+input XSectionsTunnel.th2
 
 map XSectionM
   XSectionSP

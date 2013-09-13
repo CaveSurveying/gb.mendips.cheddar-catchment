@@ -3,7 +3,7 @@ survey TheOxbow
 
 input TheOxbow.th2
 input TheOxbowE0.th2
-input XSection.th2
+input XSectionsTheOxbow.th2
 
 map XSectionM
   XSectionSP

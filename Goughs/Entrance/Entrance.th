@@ -3,7 +3,7 @@ survey Entrance
 
 input Entrance.th2
 input EntranceE0.th2
-input XSection.th2
+input XSectionsEntrance.th2
 
 map XSectionM
   XSectionSP

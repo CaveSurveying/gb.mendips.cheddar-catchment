@@ -3,7 +3,7 @@ survey Improbable
 
 input Improbable.th2
 input ImprobableE0.th2
-input XSection.th2
+input XSectionsImprobable.th2
 
 map XSectionM
   XSectionSP
