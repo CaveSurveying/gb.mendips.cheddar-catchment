@@ -7,16 +7,20 @@ survey Goughs
 #                                                                                                                             #
 ##############################################
 
-
+#This map is used for putting all the cave together in the right
+#places, used for overview and the like
 map GoughsM -title "Gough's Cave"
     GoughsUpperM
     GoughsLowerM
     BeddingChamberM@BeddingChamber
+    #Not sure why LLoydHallTopM is not in this????
 endmap
 
+#This map is to make a readable plan
+#The thconfig file needs to also select GoughsUpperM
 map GoughsDispM
     BeddingChamberBoxM@BeddingChamber
-    BeddingChamberM@BeddingChamber [-9 30 m] above
+    BeddingChamberXM@BeddingChamber [-9 30 m] above
  #   GoughsUpperM
     GoughsLowerM [0 -80 m] below
     LLoydTopM [25 10 m] above
@@ -39,7 +43,7 @@ map GoughsUpperM
   NathansAtticXM@NathansAttic
   DucksDelightXM@DucksDelight
   EntranceXM@Entrance
-  FontsM@Fonts 
+  FontsXM@Fonts 
   HeartbreakHillXM@HeartbreakHill
   TableauxM@Tableaux
   LloydHallBottomM@LloydHall

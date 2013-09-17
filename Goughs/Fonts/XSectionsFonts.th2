@@ -1,0 +1,37 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 0 0 1600 1200
+##XTHERION## xth_me_area_zoom_to 100
+
+scrap XSectionSP -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 0.0 0.0 station -name 1.2
+
+point 240.0 40.0 section -scrap "FontsSPX1.34" -align t
+
+point 240.0 0.0 label -text "fo1" -align b -scale s
+
+point 720.0 40.0 section -scrap "FontsSPX1.25" -align t
+
+point 720.0 0.0 label -text "fo2" -align b -scale s
+
+point 1200.0 40.0 section -scrap "FontsSPX1.18" -align t
+
+point 1200.0 0.0 label -text "fo3" -align b -scale s
+
+point 1680.0 40.0 section -scrap "FontsSPX1.13" -align t
+
+point 1680.0 0.0 label -text "fo4" -align b -scale s
+
+point 2160.0 40.0 section -scrap "FontsSPX1.11" -align t
+
+point 2160.0 0.0 label -text "fo5" -align b -scale s
+
+point 2640.0 40.0 section -scrap "FontsSPX1.7" -align t
+
+point 2640.0 0.0 label -text "fo6" -align b -scale s
+
+point 3120.0 40.0 section -scrap "FontsSPX1.6" -align t
+
+point 3120.0 0.0 label -text "fo7" -align b -scale s
+
+endscrap

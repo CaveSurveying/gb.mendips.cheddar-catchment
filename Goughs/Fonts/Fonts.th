@@ -3,6 +3,16 @@ survey Fonts
 
 input Fonts.th2
 input FontsE0.th2
+input XSectionsFonts.th2
+
+map XSectionM
+  XSectionSP
+endmap
+
+map FontsXM
+  XSectionM [0 -60 m] none
+  FontsM
+endmap
 
 map FontsM
   FontsSPl1
