@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 1831.5 1886.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -128.0 -128.0 1834.0 1888.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {303.149606299 1 1.0} {787.795275591 9.0} PocketTopo/FarRiftth_p.xvi 0 {}
 
 
@@ -1015,25 +1015,21 @@ line wall
   smooth off
 endline
 
-line section -close on -direction both
+line section -direction both
   324.0 1516.0
   324.0 1516.0 413.0 1382.0 446.0 1328.0
   smooth off
-  446.0 1328.0 346.0 1484.0 324.0 1516.0
-  smooth off
 endline
 
-line section -close on -reverse on -direction both
+line section -reverse on -direction both
   842.0 1262.0
   842.0 1262.0 665.0 1118.0 612.0 1080.0
-  smooth off
-  612.0 1080.0 790.0 1220.0 842.0 1262.0
   smooth off
 endline
 
 line section -reverse on -direction both
   986.0 879.0
-  1034.0 923.0 1142.0 1031.0 1182.0 1070.0
+  1031.0 924.0 1140.0 1033.0 1182.0 1070.0
   smooth off
 endline
 
@@ -1186,11 +1182,9 @@ endscrap
 
 scrap FarRiftSPl3 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-line section -close on -reverse on -direction both
+line section -reverse on -direction both
   1398.0 1053.0
   1398.0 1053.0 1471.0 905.0 1497.0 850.0
-  smooth off
-  1497.0 850.0 1419.0 1011.0 1398.0 1053.0
   smooth off
 endline
 
@@ -1350,4 +1344,5 @@ endline
 point 1342.5196063 1140.94527559 station -name 9.13
 
 endscrap
+
 

@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 1939.0236220472439 1904.0
+##XTHERION## xth_me_area_adjust -127.999999998 -128.000000004 2014.0 1904.0
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1538.18897638 1 1.0} {1202.67716535 1.0} PocketTopo/NathansAtticth_p.xvi 0 {}
 
@@ -7,17 +7,15 @@ encoding  utf-8
 
 scrap NathansAtticSPl1 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-line section -close on -direction both
+line section -direction both
   982.0 816.0
-  982.0 816.0 1025.0 686.0 1044.0 623.0
-  smooth off
-  1044.0 623.0 1000.0 765.0 982.0 816.0
+  982.0 816.0 1026.0 684.0 1044.0 623.0
   smooth off
 endline
 
 line section -reverse on -direction both
   1398.0 905.0
-  1418.0 869.0 1466.0 788.0 1490.0 744.0
+  1418.0 869.0 1469.0 781.0 1490.0 744.0
   smooth off
 endline
 

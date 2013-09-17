@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 4476.0 3120.1259842514
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -409.0 -128.0 4493.0 3165.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {4286.61417323 1 1.0} {46.4566929134 1.0} PocketTopo/StPaulsth_p.xvi 0 {}
 
 
@@ -316,6 +316,12 @@ endscrap
 
 
 scrap StPaulsSPl2 -projection plan -scale [-128.0 -128.0 4458.70866142 -128.0 0.0 0.0 116.5024 0.0 m]
+
+line section -direction both
+  3710.0 533.0
+  3792.55 598.57 3948.0 723.0 4031.0 788.0
+  smooth off
+endline
 
 line wall
   4329.0 165.0

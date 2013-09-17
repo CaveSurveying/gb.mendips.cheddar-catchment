@@ -1,11 +1,35 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 8002.01574803 2764.0
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_adjust -128.0 -128.0 8002.01574803 2866.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {7655.90551181 1 1.0} {948.976377952 1.0} PocketTopo/TheOxbowth_p.xvi 0 {}
 
 
 
 scrap TheOxbowSPl1 -projection plan -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
+
+line section -reverse on -direction both
+  5447.0 1525.0
+  5486.0 1420.0 5598.0 1097.0 5645.0 966.0
+  smooth off
+endline
+
+line section -direction both
+  4978.0 569.0
+  4915.0 633.0 4721.0 827.0 4654.0 892.0
+  smooth off
+endline
+
+line section -direction both
+  5472.0 2007.0
+  5544.0 2066.0 5731.0 2228.0 5819.0 2302.0
+  smooth off
+endline
+
+line section -direction both
+  5126.0 2124.0
+  5189.0 2202.0 5290.0 2337.0 5339.0 2403.0
+  smooth off
+endline
 
 line border
   6602.0 1017.0
@@ -1172,6 +1196,18 @@ endscrap
 
 
 scrap TheOxbowSPl2 -projection plan -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
+
+line section -reverse on -direction both
+  4842.0 2574.0
+  4821.0 2473.0 4764.0 2198.0 4737.0 2082.0
+  smooth off
+endline
+
+line section -reverse on -direction both
+  3082.0 2727.0
+  3064.0 2632.0 2997.0 2311.0 2972.0 2199.0
+  smooth off
+endline
 
 point 784.0 2368.0 label -align tl -text "Milk<br>Cave"
 
