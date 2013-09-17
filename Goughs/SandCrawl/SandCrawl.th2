@@ -31,7 +31,7 @@ line section -direction both
   smooth off
 endline
 
-line section -reverse on -direction left
+line section -reverse on -direction begin
   839.0 259.0
   847.0 231.0 906.0 68.0 927.0 1.0
   smooth off
@@ -360,5 +360,4 @@ endline
 point 479.91984252 1304.33055118 station -name 1.8
 
 endscrap
-
 

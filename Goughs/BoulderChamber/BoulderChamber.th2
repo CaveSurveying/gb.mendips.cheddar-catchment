@@ -1,11 +1,39 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 1939.02362205 2253.98425197
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -135.0 -245.0 2027.0 2287.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1672.7548031500005 1 1.0} {630.15976378 3.0} PocketTopo/BoulderChamberth_p.xvi 0 {}
 
 
 
 scrap BoulderChamberSPl1 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
+
+point 561.0 1117.0 label -text "bo4" -align tr -attr scrapname BoulderChamberSPX3.11 -context line section -scale xs
+
+line section -direction begin
+  537.0 1109.0
+  515.0 1115.0 460.0 1135.0 455.0 1137.0
+endline
+
+point 678.0 325.0 label -text "bo2" -align bl -attr scrapname BoulderChamberSPX3.17 -context line section -scale xs
+
+line section -direction both
+  1029.0 370.0
+  977.0 361.0 786.0 319.0 717.0 305.0
+endline
+
+point 1174.0 1975.0 label -text "bo1" -align br -attr scrapname BoulderChamberSPX3.28 -context line section -scale xs
+
+line section -direction both
+  908.0 2039.0
+  970.0 2032.0 1088.0 2026.0 1134.0 2022.0
+endline
+
+point 250.0 690.0 label -text "bo3" -align br -attr scrapname BoulderChamberSPX3.13 -context line section -scale xs
+
+line section -direction both
+  196.0 706.0
+  170.0 793.0 130.0 974.0 110.0 1058.0
+endline
 
 point 1086.0 -112.0 label -text "Boulder Chamber"
 
@@ -79,6 +107,13 @@ line rock-edge
   916.0 953.0
   923.0 973.0
   910.0 981.0
+endline
+
+point 815.0 1578.0 label -text "bo5" -align tr -attr scrapname BoulderChamberSPX3.5 -context line section -scale xs
+
+line section -direction begin
+  744.0 1336.0
+  781.0 1381.0 829.0 1452.0 861.0 1498.0
 endline
 
 line rock-border -close on
@@ -1058,6 +1093,109 @@ line border -id l122-438-1866 -close on
   188.0 1550.0 0.0 1454.0 -2.0 1270.0
   -4.0 1086.0 -6.0 904.0 38.0 762.0
   82.0 620.0 136.0 416.0 276.0 302.0
+endline
+
+endscrap
+
+
+
+scrap BoulderChamberSPX3.28 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  1175.0 2143.0
+  1168.0 2123.0 1167.0 2114.0 1168.0 2090.0
+  1169.0 2066.0 1167.0 2033.0 1173.0 2016.0
+  1179.0 1999.0 1191.0 1974.0 1195.0 1962.0
+  1199.0 1950.0 1204.0 1932.0 1207.0 1921.0
+  1210.0 1910.0 1218.0 1908.0 1224.0 1905.0
+  1230.0 1902.0 1221.0 1884.0 1228.0 1877.0
+  1235.0 1870.0 1235.0 1866.0 1243.0 1872.0
+  1251.0 1878.0 1254.0 1887.0 1256.0 1904.0
+  1258.0 1921.0 1254.0 1927.0 1254.0 1939.0
+  1254.0 1951.0 1250.0 1983.0 1242.0 2004.0
+  1234.0 2025.0 1222.0 2063.0 1211.0 2076.0
+  1200.0 2089.0 1199.0 2116.0 1192.0 2121.0
+  1185.0 2126.0 1190.0 2131.0 1175.0 2143.0
+  smooth off
+endline
+
+endscrap
+
+
+
+scrap BoulderChamberSPX3.17 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype sand
+  511.0 278.0
+  510.0 268.0 522.0 263.0 534.0 262.0
+  546.0 261.0 573.0 255.0 583.0 255.0
+  593.0 255.0 652.0 259.0 651.0 262.0
+endline
+
+line wall
+  651.0 262.0
+  637.0 266.0 615.0 275.0 598.0 277.0
+  581.0 279.0 575.0 277.0 562.0 281.0
+  549.0 285.0 520.0 287.0 511.0 278.0
+endline
+
+endscrap
+
+
+
+scrap BoulderChamberSPX3.13 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  156.0 1147.0
+  144.0 1147.0 135.0 1144.0 121.0 1141.0
+  107.0 1138.0 95.0 1135.0 95.0 1129.0
+  95.0 1123.0 101.0 1114.0 105.0 1113.0
+  109.0 1112.0 116.0 1122.0 118.0 1117.0
+  120.0 1112.0 124.0 1099.0 129.0 1092.0
+  134.0 1085.0 147.0 1067.0 156.0 1069.0
+  165.0 1071.0 178.0 1075.0 188.0 1077.0
+  198.0 1079.0 214.0 1084.0 221.0 1089.0
+  228.0 1094.0 238.0 1100.0 230.0 1105.0
+  222.0 1110.0 218.0 1113.0 206.0 1118.0
+  194.0 1123.0 183.0 1134.0 177.0 1137.0
+  171.0 1140.0 168.0 1147.0 156.0 1147.0
+endline
+
+endscrap
+
+
+
+scrap BoulderChamberSPX3.11 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  357.0 1433.0
+  354.0 1428.0 355.0 1413.0 355.0 1413.0
+  smooth off
+  355.0 1413.0 352.0 1401.0 357.0 1398.0
+  362.0 1395.0 386.0 1395.0 392.0 1397.0
+  398.0 1399.0 409.0 1401.0 409.0 1401.0
+  smooth off
+  409.0 1401.0 406.0 1431.0 400.0 1427.0
+  394.0 1423.0 387.0 1426.0 382.0 1427.0
+  377.0 1428.0 360.0 1438.0 357.0 1433.0
+endline
+
+endscrap
+
+
+
+scrap BoulderChamberSPX3.5 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  1374.0 1632.0
+  1363.59 1632.87 1360.0 1625.0 1354.0 1617.0
+  1348.0 1609.0 1347.0 1594.0 1336.0 1588.0
+  1325.0 1582.0 1318.0 1574.0 1324.0 1565.0
+  1330.0 1556.0 1342.0 1540.0 1352.0 1543.0
+  1362.0 1546.0 1370.0 1538.0 1376.0 1553.0
+  1382.0 1568.0 1388.0 1578.0 1384.0 1588.0
+  1380.0 1598.0 1377.0 1613.0 1378.0 1617.0
+  1379.0 1621.0 1386.0 1631.0 1374.0 1632.0
 endline
 
 endscrap

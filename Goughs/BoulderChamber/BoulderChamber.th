@@ -3,6 +3,16 @@ survey BoulderChamber
 
 input BoulderChamber.th2
 input BoulderChamberE0.th2
+input XSectionsBoulderChamber.th2
+
+map XSectionM
+  XSectionSP
+endmap
+
+map BoulderChamberXM
+  XSectionM [-70 -20 m] none
+  BoulderChamberM
+endmap
 
 map BoulderChamberM
   BoulderChamberSPl1
