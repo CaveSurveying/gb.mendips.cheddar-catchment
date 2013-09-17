@@ -1,11 +1,17 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -137.129818722 -102.173228346 906.271756081 1256.18897637
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {537.326874191 1 1.0} {928.188976378 1.0} PocketTopo/SideOx_p.xvi 0 {}
 
 
 
 scrap SideOxSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line section -reverse on -direction both
+  424.0 1030.0
+  465.0 979.0 574.0 841.0 614.0 793.0
+  smooth off
+endline
 
 area sand
   l15-591-536
