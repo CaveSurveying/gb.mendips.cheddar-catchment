@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 2726.42519685 2736.0
+##XTHERION## xth_me_area_adjust -128.0 -128.0 2874.0 2742.0
 ##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {251.968503937 1 1.0} {2603.1496063 1.0} PocketTopo/HeartbreakDigth_p.xvi 0 {}
 
@@ -7,27 +7,21 @@ encoding  utf-8
 
 scrap HeartbreakDigSPl1 -projection plan -scale [-128.0 -128.0 2726.42519685 -128.0 0.0 0.0 72.5024 0.0 m]
 
-line section -close on -reverse on -direction both
-  728.0 1622.0
-  728.0 1622.0 524.0 1294.0 438.0 1160.0
-  smooth off
-  438.0 1160.0 664.0 1526.0 728.0 1622.0
+line section -direction both
+  438.0 1160.0
+  438.0 1160.0 668.0 1530.0 728.0 1622.0
   smooth off
 endline
 
-line section -close on -reverse on -direction both
+line section -reverse on -direction both
   1354.0 1340.0
-  1354.0 1340.0 1104.0 1000.0 1040.0 918.0
-  smooth off
-  1040.0 918.0 1294.0 1254.0 1354.0 1340.0
+  1354.0 1340.0 1100.0 998.0 1040.0 918.0
   smooth off
 endline
 
-line section -close on -reverse on -direction both
+line section -reverse on -direction both
   1686.0 992.0
-  1686.0 992.0 1524.0 768.0 1468.0 694.0
-  smooth off
-  1468.0 694.0 1640.0 922.0 1686.0 992.0
+  1686.0 992.0 1518.0 766.0 1468.0 694.0
   smooth off
 endline
 
