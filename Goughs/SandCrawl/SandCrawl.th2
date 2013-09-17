@@ -9,31 +9,31 @@ scrap SandCrawlSPl1 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line section -direction both
   150.0 1223.0
-  204.0 1253.0 342.0 1326.0 403.0 1360.0
+  204.0 1253.0 339.0 1328.0 403.0 1360.0
   smooth off
 endline
 
 line section -direction both
   156.0 1078.0
-  226.94 1113.12 386.0 1192.0 457.0 1227.0
+  226.94 1113.12 393.0 1196.0 457.0 1227.0
   smooth off
 endline
 
 line section -direction both
   393.0 700.0
-  483.0 742.0 579.0 785.0 657.0 823.0
+  483.0 741.0 579.0 785.0 657.0 823.0
   smooth off
 endline
 
 line section -direction both
   634.0 185.0
-  670.29 201.83 763.71 245.17 800.0 262.0
+  670.29 201.83 764.0 247.0 800.0 262.0
   smooth off
 endline
 
-line section -reverse on -direction both
-  832.0 280.0
-  842.0 249.0 906.0 68.0 927.0 1.0
+line section -reverse on -direction left
+  839.0 259.0
+  847.0 231.0 906.0 68.0 927.0 1.0
   smooth off
 endline
 
