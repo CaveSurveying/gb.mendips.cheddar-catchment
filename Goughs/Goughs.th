@@ -36,7 +36,7 @@ map GoughsUpperM
   Damocles3M@Damocles3
   Damocles2M@Damocles2
   Damocles1M@Damocles1
-  NathansAtticM@NathansAttic
+  NathansAtticXM@NathansAttic
   DucksDelightXM@DucksDelight
   EntranceXM@Entrance
   FontsM@Fonts 
@@ -48,7 +48,7 @@ map GoughsUpperM
   StPaulsXM@StPauls
   NovemberXM@November
   SandChamberM@SandChamber
-  SandCrawlM@SandCrawl
+  SandCrawlXM@SandCrawl
   SideOxXM@SideOx
   HeartbreakDigXM@HeartbreakDig
   CheeseroomM@Cheeseroom
@@ -59,7 +59,7 @@ map GoughsLowerM
   FarRiftXM@FarRift
   CableCrawlM@CableCrawl
   NathansDungeonM@NathansDungeon
-  Improbable2M@Improbable2
+  Improbable2XM@Improbable2
   BoulderChamberM@BoulderChamber
   TunnelXM@Tunnel  
 endmap

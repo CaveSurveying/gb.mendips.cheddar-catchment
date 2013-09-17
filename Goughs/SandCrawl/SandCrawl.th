@@ -3,6 +3,17 @@ survey SandCrawl
 
 input SandCrawl.th2
 input SandCrawlE0.th2
+input XSectionsSandCrawl.th2
+
+map XSectionM
+  XSectionSP
+endmap
+
+map SandCrawlXM
+  XSectionM [-70 -20 m] none
+  SandCrawlM
+endmap
+
 
 map SandCrawlM
   SandCrawlSPl1

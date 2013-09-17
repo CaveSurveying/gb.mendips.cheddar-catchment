@@ -3,6 +3,16 @@ survey NathansAttic
 
 input NathansAttic.th2
 input NathansAtticE0.th2
+input XSectionsNathansAttic.th2
+
+map XSectionM
+  XSectionSP
+endmap
+
+map NathansAtticXM
+  XSectionM [-70 -20 m] none
+  NathansAtticM
+endmap
 
 map NathansAtticM
   NathansAtticSPl1

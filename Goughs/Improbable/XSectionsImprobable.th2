@@ -6,10 +6,10 @@ scrap XSectionSP -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 point 0.0 0.0 station -name 5.11
 
-point 40.0 40.0 section -scrap "ImprobableSX5.2" -align tr
+point 240.0 40.0 section -scrap "ImprobableSX5.2" -align t
 
-point 223.2 40.0 section -scrap "ImprobableSX5.6" -align tr
+point 720.0 40.0 section -scrap "ImprobableSX5.6" -align t
 
-point 357.0 40.0 section -scrap "ImprobableSX5.10" -align tr
+point 1200.0 40.0 section -scrap "ImprobableSX5.10" -align t
 
 endscrap

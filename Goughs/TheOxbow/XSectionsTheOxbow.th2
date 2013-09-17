@@ -6,20 +6,20 @@ scrap XSectionSP -projection plan -scale [-128.0 -128.0 8002.01574803 -128.0 0.0
 
 point 0.0 0.0 station -name 1.16
 
-point 40.0 40.0 section -scrap "TheOxbowSX1.1" -align tr
+point 315.0 40.0 section -scrap "TheOxbowSX1.1" -align t
 
-point 670.0 40.0 section -scrap "TheOxbowSX1.5" -align tr
+point 870.0 40.0 section -scrap "TheOxbowSX1.5" -align t
 
-point 1072.0 40.0 section -scrap "TheOxbowSX1.24" -align tr
+point 1350.0 40.0 section -scrap "TheOxbowSX1.24" -align t
 
-point 1412.0 40.0 section -scrap "TheOxbowSX1.15" -align tr
+point 1830.0 40.0 section -scrap "TheOxbowSX1.15" -align t
 
-point 1642.0 40.0 section -scrap "TheOxbowSX1.16" -align tr
+point 2310.0 40.0 section -scrap "TheOxbowSX1.16" -align t
 
-point 1818.4 40.0 section -scrap "TheOxbowSX1.17" -align tr
+point 2790.0 40.0 section -scrap "TheOxbowSX1.17" -align t
 
-point 2123.9 40.0 section -scrap "TheOxbowSX1.19" -align tr
+point 3270.0 40.0 section -scrap "TheOxbowSX1.19" -align t
 
-point 2442.4 40.0 section -scrap "TheOxbowSX1.32" -align tr
+point 3750.0 40.0 section -scrap "TheOxbowSX1.32" -align t
 
 endscrap
