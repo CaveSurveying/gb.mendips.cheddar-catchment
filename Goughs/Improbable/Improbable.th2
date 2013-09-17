@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -127.99999999997317 -127.99999999629914 2054.0 1545.32283464937
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {85.9070866142 1 1.0} {1241.41314961 1.18} PocketTopo/Improbableth_p.xvi 0 {}
 
 
@@ -296,6 +296,26 @@ point 569.0570866141732 1215.273149606299 station -name 5.12
 point 428.18708661417315 1090.713149606299 station -name 5.1
 
 point 85.90708661417318 1241.413149606299 station -name 5.0
+
+line section -close on -reverse on -direction both
+  1778.0 451.0
+  1778.0 451.0 1642.0 354.0 1581.0 313.0
+  smooth off
+  1581.0 313.0 1716.0 406.0 1778.0 451.0
+  smooth off
+endline
+
+line section -direction both
+  1580.0 647.0
+  1518.0 604.0 1417.0 545.0 1347.0 500.0
+  smooth off
+endline
+
+line section -direction both
+  1188.0 952.0
+  1159.0 890.0 1100.0 750.0 1065.0 678.0
+  smooth off
+endline
 
 endscrap
 

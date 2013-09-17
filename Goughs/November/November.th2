@@ -1,11 +1,17 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -43.83464566600014 -87.944881889 1944.4488189006 1433.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1677.27330709 1 1.0} {349.21480315 4.5} PocketTopo/November_p.xvi 0 {}
 
 
 
 scrap NovemberSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line section
+  1239.0 1001.0
+  1197.0 889.0 1065.0 537.0 1013.0 411.0
+  smooth off
+endline
 
 line pit -reverse on -outline in -clip off
   1593.0 314.0
@@ -471,7 +477,7 @@ line wall -id l52-442-776
   451.0 733.0 455.0 735.0 455.0 715.0
   455.0 695.0 456.0 645.0 452.0 604.0
   448.0 563.0 455.0 515.0 455.0 490.0
-  455.0 465.0 464.54 416.57 460.54330708999987 392.57480315000004
+  455.0 465.0 464.54 416.57 460.54330709 392.57480315
   456.54 368.57 437.0 304.0 433.0 288.0
   smooth off
 endline

@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap HeartbreakDigSPl1 -projection plan -scale [-128.0 -128.0 2726.42519685 -128.0 0.0 0.0 72.5024 0.0 m]
 
-line section -close on -reverse on
+line section -close on -reverse on -direction both
   728.0 1622.0
   728.0 1622.0 524.0 1294.0 438.0 1160.0
   smooth off
@@ -15,7 +15,7 @@ line section -close on -reverse on
   smooth off
 endline
 
-line section -close on -reverse on
+line section -close on -reverse on -direction both
   1354.0 1340.0
   1354.0 1340.0 1104.0 1000.0 1040.0 918.0
   smooth off
@@ -23,7 +23,7 @@ line section -close on -reverse on
   smooth off
 endline
 
-line section -close on -reverse on
+line section -close on -reverse on -direction both
   1686.0 992.0
   1686.0 992.0 1524.0 768.0 1468.0 694.0
   smooth off
@@ -31,12 +31,11 @@ line section -close on -reverse on
   smooth off
 endline
 
-line section
+line section -direction both
   2274.5 525.0
   2230.0 477.0 2167.0 406.0 2131.0 367.5
   smooth off
 endline
-
 
 point 2200.0 138.0 label -align bl -scale s -text "Heartbreak<br>Hill dig"
 
@@ -205,6 +204,7 @@ point 1154.32850394 551.9696063 station -name 1.5
 endscrap
 
 
+
 scrap HeartbreakDigSX1.8 -projection none -scale [-128.0 -128.0 2726.42519685 -128.0 0.0 0.0 72.5024 0.0 m]
 
 line wall -close on
@@ -217,4 +217,5 @@ endline
 point 2429.91850394 662.9896063 station -name 1.8
 
 endscrap
+
 

@@ -857,7 +857,7 @@ line label -text "Far Rift"
   1068.5 1260.5
 endline
 
-line arrow
+line arrow -direction both
   188.0 1677.0
   322.5 1460.0
 endline
@@ -1015,7 +1015,7 @@ line wall
   smooth off
 endline
 
-line section -close on
+line section -close on -direction both
   324.0 1516.0
   324.0 1516.0 413.0 1382.0 446.0 1328.0
   smooth off
@@ -1023,7 +1023,7 @@ line section -close on
   smooth off
 endline
 
-line section -close on -reverse on
+line section -close on -reverse on -direction both
   842.0 1262.0
   842.0 1262.0 665.0 1118.0 612.0 1080.0
   smooth off
@@ -1031,7 +1031,7 @@ line section -close on -reverse on
   smooth off
 endline
 
-line section -reverse on
+line section -reverse on -direction both
   986.0 879.0
   1034.0 923.0 1142.0 1031.0 1182.0 1070.0
   smooth off
@@ -1186,7 +1186,7 @@ endscrap
 
 scrap FarRiftSPl3 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-line section -close on -reverse on
+line section -close on -reverse on -direction both
   1398.0 1053.0
   1398.0 1053.0 1471.0 905.0 1497.0 850.0
   smooth off
