@@ -25,7 +25,7 @@ line section -reverse on -direction both
   smooth off
 endline
 
-line section -direction both
+line section -reverse on -direction both
   1166.0 3987.0
   1028.0 3946.0 642.0 3836.0 500.0 3798.0
   smooth off

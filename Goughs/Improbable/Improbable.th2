@@ -297,7 +297,7 @@ point 428.18708661417315 1090.713149606299 station -name 5.1
 
 point 85.90708661417318 1241.413149606299 station -name 5.0
 
-line section -reverse on -direction both
+line section -direction both
   1778.0 451.0
   1778.0 451.0 1644.0 357.0 1581.0 313.0
   smooth off

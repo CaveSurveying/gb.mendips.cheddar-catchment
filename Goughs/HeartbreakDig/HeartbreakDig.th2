@@ -7,19 +7,19 @@ encoding  utf-8
 
 scrap HeartbreakDigSPl1 -projection plan -scale [-128.0 -128.0 2726.42519685 -128.0 0.0 0.0 72.5024 0.0 m]
 
-line section -direction both
+line section -reverse on -direction both
   438.0 1160.0
   438.0 1160.0 668.0 1530.0 728.0 1622.0
   smooth off
 endline
 
-line section -reverse on -direction both
+line section -direction both
   1354.0 1340.0
   1354.0 1340.0 1100.0 998.0 1040.0 918.0
   smooth off
 endline
 
-line section -reverse on -direction both
+line section -direction both
   1686.0 992.0
   1686.0 992.0 1518.0 766.0 1468.0 694.0
   smooth off
