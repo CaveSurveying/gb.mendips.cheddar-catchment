@@ -4,7 +4,7 @@ encoding  utf-8
 
 scrap XSectionSP -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-point 0.0 0.0 station -name 1.15
+point 0.0 0.0 station -name 1.14
 
 point 40.0 40.0 section -scrap "LloydHallSX1.15" -align tr
 

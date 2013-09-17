@@ -1,0 +1,41 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 0 0 1600 1200
+##XTHERION## xth_me_area_zoom_to 100
+
+scrap XSectionSP -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 0.0 0.0 station -name 1.30
+
+point 240.0 40.0 section -scrap "BlackcatSPX1.30" -align t
+
+point 240.0 0.0 label -text "bc0" -align b -scale s
+
+point 794.0 40.0 section -scrap "BlackcatSPX1.23" -align t
+
+point 794.0 0.0 label -text "bc1" -align b -scale s
+
+point 1391.0 40.0 section -scrap "BlackcatSPX1.20" -align t
+
+point 1391.0 0.0 label -text "bc2" -align b -scale s
+
+point 1914.0 40.0 section -scrap "BlackcatSPX1.18" -align t
+
+point 1914.0 0.0 label -text "bc3" -align b -scale s
+
+point 2394.0 40.0 section -scrap "BlackcatSPX1.11" -align t
+
+point 2394.0 0.0 label -text "bc4" -align b -scale s
+
+point 2874.0 40.0 section -scrap "BlackcatSPX1.9" -align t
+
+point 2874.0 0.0 label -text "bc5" -align b -scale s
+
+point 3354.0 40.0 section -scrap "BlackcatSPX1.8" -align t
+
+point 3354.0 0.0 label -text "bc6" -align b -scale s
+
+point 3870.0 40.0 section -scrap "BlackcatSPX1.2" -align t
+
+point 3870.0 0.0 label -text "bc7" -align b -scale s
+
+endscrap
