@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -127.99999999983464 1321.32283464937 3198.8661417324483 4648.1889763816525
+##XTHERION## xth_me_area_adjust -128.0 1268.0 3298.0 4698.0
 ##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {476.061417323 1 1.0} {4370.19314961 6.0} PocketTopo/Improbable2th_p.xvi 0 {}
 
@@ -7,27 +7,21 @@ encoding  utf-8
 
 scrap Improbable2SPl1 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-line section -close on -reverse on -direction both
+line section -reverse on -direction both
   1599.0 2405.0
-  1599.0 2405.0 1423.0 2279.0 1332.0 2217.0
-  smooth off
-  1332.0 2217.0 1523.0 2350.0 1599.0 2405.0
+  1599.0 2405.0 1418.0 2276.0 1332.0 2217.0
   smooth off
 endline
 
-line section -close on -reverse on -direction both
+line section -reverse on -direction both
   1371.0 2708.0
-  1371.0 2708.0 1211.0 2517.0 1150.0 2447.0
-  smooth off
-  1150.0 2447.0 1322.0 2647.0 1371.0 2708.0
+  1371.0 2708.0 1212.0 2518.0 1150.0 2447.0
   smooth off
 endline
 
-line section -close on -reverse on -direction both
+line section -reverse on -direction both
   438.0 3521.0
   438.0 3521.0 320.0 2981.0 291.0 2860.0
-  smooth off
-  291.0 2860.0 409.0 3381.0 438.0 3521.0
   smooth off
 endline
 
