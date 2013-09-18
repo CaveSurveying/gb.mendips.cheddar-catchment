@@ -6,12 +6,20 @@ scrap XSectionSP -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 point 0.0 0.0 station -name 9.17
 
-point 240.0 40.0 section -scrap "FarRiftSX9.3" -align t
+point 240.0 240.0 section -scrap "FarRiftSX9.3" -align t
 
-point 720.0 40.0 section -scrap "FarRiftSX9.7" -align t
+point 240.0 100.0 label -text "fr1" -align c -scale s
 
-point 1200.0 40.0 section -scrap "FarRiftSX9.10" -align t
+point 720.0 240.0 section -scrap "FarRiftSX9.7" -align t
 
-point 1680.0 40.0 section -scrap "FarRiftSX9.13" -align t
+point 720.0 100.0 label -text "fr2 " -align c -scale s
+
+point 1200.0 240.0 section -scrap "FarRiftSX9.10" -align t
+
+point 1200.0 100.0 label -text "fr3" -align c -scale s
+
+point 1680.0 240.0 section -scrap "FarRiftSX9.13" -align t
+
+point 1680.0 100.0 label -text "fr4 " -align c -scale s
 
 endscrap

@@ -10,7 +10,7 @@ map XSectionM
 endmap
 
 map FontsXM
-  XSectionM [0 -60 m] none
+  XSectionM [-110 -60 m] none
   FontsM
 endmap
 

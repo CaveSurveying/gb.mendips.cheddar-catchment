@@ -10,7 +10,7 @@ map XSectionM
 endmap
 
 map BatRoomXM
-  XSectionM [0 -60 m] none
+  XSectionM [-60 -50 m] none
   BatRoomM
 endmap
 

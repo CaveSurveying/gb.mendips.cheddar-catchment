@@ -16,7 +16,7 @@ endmap
 
 map TheOxbowXM
   TheOxbowM
-  XSectionM [-125 -115 m] none
+  XSectionM [-110 -90 m] none
 endmap
 
 map TheOxbowME0 -proj [elevation 0]

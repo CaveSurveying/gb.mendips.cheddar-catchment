@@ -11,7 +11,7 @@ map XSectionM
 endmap
 
 map StPaulsXM
-  XSectionM [-100 -95 m] none
+  XSectionM [-90 -55 m] none
   StPaulsM
 endmap
 

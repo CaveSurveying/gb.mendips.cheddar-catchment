@@ -10,7 +10,7 @@ map XSectionM
 endmap
 
 map FarRiftXM
-  XSectionM [-70 -20 m] none
+  XSectionM [-75 -31 m] none
   FarRiftM
 endmap
 

@@ -10,7 +10,7 @@ map XSectionM
 endmap
 
 map DucksDelightXM
-  XSectionM [-80 -35 m] none
+  XSectionM [-40 -85 m] none
   DucksDelightM
 endmap
 

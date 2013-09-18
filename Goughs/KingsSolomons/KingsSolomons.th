@@ -10,7 +10,7 @@ map XSectionM
 endmap
 
 map KingsSolomonsXM
-  XSectionM [-90 -65 m] none
+  XSectionM [-90 -75 m] none
   KingsSolomonsM
 endmap
 
