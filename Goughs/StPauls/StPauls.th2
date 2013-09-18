@@ -317,6 +317,8 @@ endscrap
 
 scrap StPaulsSPl2 -projection plan -scale [-128.0 -128.0 4458.70866142 -128.0 0.0 0.0 116.5024 0.0 m]
 
+point 4138.0 849.0 label -text "stp1" -align b -attr scrapname StPaulsSX1.1 -context line section -scale xs
+
 line section -direction both
   3710.0 533.0
   3792.55 598.57 3948.0 723.0 4031.0 788.0

@@ -1,13 +1,15 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -43.83464566600014 -87.944881889 1944.4488189006 1433.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -102.0 -100.0 2088.0 1470.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {1677.27330709 1 1.0} {349.21480315 4.5} PocketTopo/November_p.xvi 0 {}
 
 
 
 scrap NovemberSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line section
+point 1252.0 1110.0 label -text "nov1" -align b -attr scrapname NovemberSx4.4 -context line section -scale xs
+
+line section -direction both
   1239.0 1001.0
   1197.0 889.0 1065.0 537.0 1013.0 411.0
   smooth off

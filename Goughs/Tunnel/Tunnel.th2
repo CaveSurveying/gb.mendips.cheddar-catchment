@@ -7,6 +7,10 @@ encoding  utf-8
 
 scrap TunnelSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 806.0 388.0 label -text "t2" -align b -attr scrapname TunnelSX7.1 -context line section -scale xs
+
+point 1502.0 406.0 label -text "t1" -align b -attr scrapname TunnelSX7.5 -context line section -scale xs
+
 line section -direction both
   1416.0 1140.0
   1434.0 1008.0 1488.0 658.0 1510.0 500.0

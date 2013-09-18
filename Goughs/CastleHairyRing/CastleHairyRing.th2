@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 1466.5826771653542 2096.503937007874
+##XTHERION## xth_me_area_adjust -128.0 -128.000000003 1466.58267717 2158.0
 ##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {410.551181102 1 1.0} {1326.77165354 1.0} PocketTopo/CastleHairyRingth_p.xvi 0 {}
 
@@ -7,11 +7,11 @@ encoding  utf-8
 
 scrap CastleHairyRingSPl1 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-line section -close on -reverse on
+point 226.0 540.0 label -text "chr1" -align b -attr scrapname CastleHairyRingSX1.1 -context line section -scale xs
+
+line section -direction both
   358.0 653.0
-  358.0 653.0 930.0 989.0 1038.0 1052.0
-  smooth off
-  1038.0 1052.0 489.0 729.0 358.0 653.0
+  480.0 724.0 930.0 989.0 1038.0 1052.0
   smooth off
 endline
 

@@ -1,11 +1,21 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 1387.8425196850392 1624.062992125984
+##XTHERION## xth_me_area_adjust -153.0 -198.0 1387.84251969 1723.0
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1271.25984252 1 1.0} {275.590551181 1.0} PocketTopo/SandCrawlth_p.xvi 0 {}
 
 
 
 scrap SandCrawlSPl1 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
+
+point 536.0 1432.0 label -text "sc5" -align b -attr scrapname SandCrawlSX1.8 -context line section -scale xs
+
+point 596.0 1289.0 label -text "sc4" -align b -attr scrapname SandCrawlSX1.7 -context line section -scale xs
+
+point 751.0 888.0 label -text "sc3" -align b -attr scrapname SandCrawlSX1.4 -context line section -scale xs
+
+point 871.0 408.0 label -text "sc2" -align b -attr scrapname SandCrawlSX1.2 -context line section -scale xs
+
+point 943.0 -65.0 label -text "sc1" -align b -attr scrapname SandCrawlSX1.1 -context line section -scale xs
 
 line section -direction both
   150.0 1223.0
@@ -32,8 +42,8 @@ line section -direction both
 endline
 
 line section -reverse on -direction begin
-  839.0 259.0
-  847.0 231.0 906.0 68.0 927.0 1.0
+  843.0 246.0
+  843.0 246.0 910.0 54.0 927.0 1.0
   smooth off
 endline
 
@@ -360,4 +370,5 @@ endline
 point 479.91984252 1304.33055118 station -name 1.8
 
 endscrap
+
 

@@ -7,6 +7,24 @@ encoding  utf-8
 
 scrap Improbable2SPl1 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
+point 1788.0 2452.0 label -text "imp2-6" -align b -attr scrapname Improbable2SX6.13 -context line section -scale xs
+
+point 1544.0 2794.0 label -text "imp2-5" -align b -attr scrapname Improbable2SX6.11 -context line section -scale xs
+
+point 154.0 3550.0 label -text "imp2-4" -align b -attr scrapname Improbable2SX6.8 -context line section -scale xs
+
+point 1200.0 3356.0 label -text "imp2-3" -align b -attr scrapname Improbable2SX6.5 -context line section -scale xs
+
+point 324.0 3812.0 label -text "imp2-2" -align b -attr scrapname Improbable2SX6.3 -context line section -scale xs
+
+point 472.0 4038.0 label -text "imp2-1" -align b -attr scrapname Improbable2SX6.2 -context line section -scale xs
+
+line section -direction end
+  480.0 3620.0
+  480.0 3620.0 1056.0 3494.0 1196.0 3464.0
+  smooth off
+endline
+
 line section -reverse on -direction both
   1599.0 2405.0
   1536.0 2358.0 1412.0 2276.0 1332.0 2217.0
@@ -15,7 +33,7 @@ endline
 
 line section -reverse on -direction both
   1371.0 2708.0
-  1371.0 2708.0 1210.0 2516.0 1150.0 2447.0
+  1322.0 2654.0 1210.0 2516.0 1150.0 2447.0
   smooth off
 endline
 
@@ -129,7 +147,7 @@ line wall
   smooth off
 endline
 
-point 1172.0 3728.0 label -align r -text "Improbable<br>Rift"
+point 1180.0 3806.0 label -align r -text "Improbable<br>Rift"
 
 area sand
   l89-1812-2188

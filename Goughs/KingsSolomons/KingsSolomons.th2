@@ -1,11 +1,43 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 109.03937007000013 54.94488189000003 3605.0 2988.1102362202
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust 48.0 54.94488189 3672.0 2988.11023622
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {1795.62204724 1 1.0} {1764.99212598 1.12} PocketTopo/KingsSolomons_p.xvi 0 {}
 
 
 
 scrap KingsSolomonsSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 554.0 1328.0 label -text "ks4" -align b -attr scrapname KingsSolomonsSX6.4 -context line section -scale xs
+
+point 642.0 2068.0 label -text "ks3" -align b -attr scrapname KingsSolomonsSX6.8 -context line section -scale xs
+
+point 2300.0 1864.0 label -text "ks2 "-align b -attr scrapname KingsSolomonsSX6.11 -context line section -scale xs
+
+point 3216.0 1908.0 label -text "ks1" -align b -attr scrapname KingsSolomonsSX6.14 -context line section -scale xs
+
+line section -direction begin
+  2614.0 2306.0
+  2774.0 2184.0 2976.0 2022.0 3110.0 1932.0
+  smooth off
+endline
+
+line section -direction both
+  2262.0 1742.0
+  2275.62 1660.1 2330.0 1337.0 2343.0 1255.0
+  smooth off
+endline
+
+line section -direction both
+  711.0 1329.0
+  844.0 1384.0 1294.0 1580.0 1367.0 1613.0
+  smooth off
+endline
+
+line section -direction both
+  734.0 2088.0
+  790.0 2074.0 920.0 2036.0 1030.0 2004.0
+  smooth off
+endline
 
 line flowstone -id l85-1680-1135
   1520.0 1062.0

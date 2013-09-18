@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 9104.37795275 4773.66929134
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -128.0 -128.0 9104.37795275 4824.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {153.543307086 1 1.0} {2529.60629921 1.0} PocketTopo/HeartbreakHillth_p.xvi 0 {}
 
 
@@ -179,8 +179,8 @@ line wall
   1726.0 3687.0 1733.0 3664.0 1719.0 3649.0
   1705.0 3634.0 1702.0 3606.0 1668.0 3594.0
   1634.0 3582.0 1622.0 3564.0 1599.0 3562.0
-  1576.0 3560.0 1557.0 3555.0 1547.0 3551.0
-  1537.0 3547.0 1515.0 3505.0 1488.0 3492.0
+  1576.0 3560.0 1572.0 3552.0 1547.0 3551.0
+  1536.24 3550.57 1515.0 3505.0 1488.0 3492.0
   1461.0 3479.0 1408.0 3436.0 1374.0 3430.0
   smooth off
 endline
@@ -901,6 +901,44 @@ line u -id l84-2577-3131 -subtype rail
 endline
 
 point 153.543307086 2529.60629921 station -name 1.0
+
+line section
+endline
+
+line section
+endline
+
+line section -direction both
+  7140.0 2108.0
+  6976.0 1896.0 6596.0 1376.0 6380.0 1100.0
+  smooth off
+endline
+
+line section -direction both
+  5032.0 3256.0
+  4944.0 3028.0 4716.0 2484.0 4592.0 2228.0
+  smooth off
+endline
+
+line section -direction both
+  3272.0 3924.0
+  3168.0 3652.0 2888.0 2900.0 2796.0 2660.0
+  smooth off
+endline
+
+point 2800.0 2492.0 label -text "hh2" -align b -attr scrapname HeartbreakHillSX1.7 -context line section -scale xs
+
+point 6384.0 932.0 label -text "hh4" -align b -attr scrapname HeartbreakHillSX1.17 -context line section -scale xs
+
+point 4420.0 2196.0 label -text "hh3" -align b -attr scrapname HeartbreakHillSX1.10 -context line section -scale xs
+
+point 2020.0 2584.0 label -text "hh1" -align b -attr scrapname HeartbreakHillSX1.3 -context line section -scale xs
+
+line section -direction both
+  1484.0 3840.0
+  1532.0 3624.0 1760.0 2776.0 1816.0 2564.0
+  smooth off
+endline
 
 endscrap
 
