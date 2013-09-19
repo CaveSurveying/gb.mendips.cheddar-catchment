@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 8002.01574803 2866.0
+##XTHERION## xth_me_area_adjust -128.0 -128.0 8002.01574803 3000.0
 ##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {7655.90551181 1 1.0} {948.976377952 1.0} PocketTopo/TheOxbowth_p.xvi 0 {}
 
@@ -7,15 +7,43 @@ encoding  utf-8
 
 scrap TheOxbowSPl1 -projection plan -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
 
+point 4760.0 974.0 label -text "o8" -align b -attr scrapname TheOxbowSX1.32 -context line section -scale xs
+
+point 5228.0 1480.0 label -text "o7" -align b -attr scrapname TheOxbowSX1.24 -context line section -scale xs
+
+point 3090.0 2862.0 label -text "o6" -align b -attr scrapname TheOxbowSX1.19 -context line section -scale xs
+
+point 4854.0 2716.0 label -text "o5" -align b -attr scrapname TheOxbowSX1.17 -context line section -scale xs
+
+point 5340.0 2570.0 label -text "o4" -align b -attr scrapname TheOxbowSX1.16 -context line section -scale xs
+
+point 5802.0 2510.0 label -text "o3" -align b -attr scrapname TheOxbowSX1.15 -context line section -scale xs
+
+point 6224.0 736.0 label -text "o2" -align b -attr scrapname TheOxbowSX1.5 -context line section -scale xs
+
+point 6870.0 672.0 label -text "o1" -align b -attr scrapname TheOxbowSX1.1 -context line section -scale xs
+
+line section -direction both
+  7076.0 728.0
+  7100.79 911.89 7196.0 1612.0 7220.0 1796.0
+  smooth off
+endline
+
+line section -reverse on -direction both
+  6336.0 1660.0
+  6316.0 1504.0 6260.0 1056.0 6240.0 876.0
+  smooth off
+endline
+
 line section -reverse on -direction both
   5447.0 1525.0
   5486.0 1420.0 5598.0 1097.0 5645.0 966.0
   smooth off
 endline
 
-line section -direction both
+line section -direction end
   4978.0 569.0
-  4915.0 633.0 4721.0 827.0 4654.0 892.0
+  4927.0 622.0 4721.0 827.0 4654.0 892.0
   smooth off
 endline
 
@@ -798,7 +826,7 @@ line rock-border -close on
   5175.0 936.0
 endline
 
-point 5028.0 1144.0 label -align l -text "    Lower<br>Oxbow"
+point 4568.0 1140.0 label -align l -text "    Lower<br>Oxbow"
 
 area sand
   l132-6928-1816
@@ -1475,26 +1503,6 @@ endscrap
 
 
 
-scrap TheOxbowSX1.24 -projection none -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
-
-line wall -close on
-  6329.0 1809.0
-  6329.0 1809.0 6397.0 1856.0 6404.0 1866.0
-  6411.0 1876.0 6425.0 1884.0 6409.0 1887.0
-  6393.0 1890.0 6362.0 1892.0 6346.0 1885.0
-  6330.0 1878.0 6270.0 1861.0 6264.0 1861.0
-  6258.0 1861.0 6241.0 1854.0 6223.0 1848.0
-  6205.0 1842.0 6165.0 1814.0 6165.0 1814.0
-  smooth off
-  6165.0 1814.0 6228.0 1803.0 6238.0 1808.0
-  6263.18 1820.59 6329.0 1809.0 6329.0 1809.0
-  smooth off
-endline
-
-endscrap
-
-
-
 scrap TheOxbowSX1.15 -projection none -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
 
 line wall -close on
@@ -1598,6 +1606,26 @@ line wall -close on
   3114.0 1925.5 3087.0 1909.0 3075.0 1905.0
   3063.0 1901.0 3008.5 1884.0 2991.0 1888.0
   2973.5 1892.0 2949.5 1887.0 2949.5 1887.0
+  smooth off
+endline
+
+endscrap
+
+
+
+scrap TheOxbowSX1.24 -projection none -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
+
+line wall -close on
+  6329.0 1809.0
+  6329.0 1809.0 6397.0 1856.0 6404.0 1866.0
+  6411.0 1876.0 6425.0 1884.0 6409.0 1887.0
+  6393.0 1890.0 6362.0 1892.0 6346.0 1885.0
+  6330.0 1878.0 6270.0 1861.0 6264.0 1861.0
+  6258.0 1861.0 6241.0 1854.0 6223.0 1848.0
+  6205.0 1842.0 6165.0 1814.0 6165.0 1814.0
+  smooth off
+  6165.0 1814.0 6228.0 1803.0 6238.0 1808.0
+  6263.18 1820.59 6329.0 1809.0 6329.0 1809.0
   smooth off
 endline
 
