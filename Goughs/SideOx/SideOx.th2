@@ -7,19 +7,19 @@ encoding  utf-8
 
 scrap SideOxSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 313.0 1155.0 label -text "b2" -align b -attr scrapname SideOxSX2.0 -context line section -scale xs
+point 265.0 1151.0 label -text "b2" -align b -attr scrapname SideOxSX2.0 -context line section -scale xs
 
-point 428.0 206.0 label -text "b1" -align b -attr scrapname SideOxSX2.3 -context line section -scale xs
+point 396.0 241.0 label -text "b1" -align b -attr scrapname SideOxSX2.3 -context line section -scale xs
 
 line section -reverse on -direction both
-  131.0 563.0
-  190.11 488.09 289.0 363.0 348.0 288.0
+  98.0 609.0
+  190.0 491.0 289.0 363.0 348.0 288.0
   smooth off
 endline
 
 line section -reverse on -direction both
   397.0 1072.0
-  456.0 992.0 574.0 841.0 614.0 793.0
+  456.0 992.0 595.0 820.0 624.0 782.0
   smooth off
 endline
 

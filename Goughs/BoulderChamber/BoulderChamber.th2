@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -135.0 -245.0 2027.0 2287.0
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {1672.7548031500005 1 1.0} {630.15976378 3.0} PocketTopo/BoulderChamberth_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {1672.75480315 1 1.0} {630.15976378 3.0} PocketTopo/BoulderChamberth_p.xvi 0 {}
 
 
 
@@ -12,27 +12,31 @@ point 561.0 1117.0 label -text "t4" -align tr -attr scrapname BoulderChamberSPX3
 line section -direction begin
   537.0 1109.0
   515.0 1115.0 460.0 1135.0 455.0 1137.0
+  smooth off
 endline
 
 point 678.0 325.0 label -text "t2" -align bl -attr scrapname BoulderChamberSPX3.17 -context line section -scale xs
 
 line section -direction both
   1029.0 370.0
-  977.0 361.0 786.0 319.0 717.0 305.0
+  991.0 364.0 786.0 319.0 717.0 305.0
+  smooth off
 endline
 
-point 1174.0 1975.0 label -text "t1" -align br -attr scrapname BoulderChamberSPX3.28 -context line section -scale xs
+point 1144.0 1955.0 label -text "t1" -align br -attr scrapname BoulderChamberSPX3.28 -context line section -scale xs
 
 line section -direction both
-  908.0 2039.0
-  970.0 2032.0 1088.0 2026.0 1134.0 2022.0
+  885.0 2043.0
+  947.0 2036.0 1088.0 2026.0 1134.0 2022.0
+  smooth off
 endline
 
-point 250.0 690.0 label -text "t3" -align br -attr scrapname BoulderChamberSPX3.13 -context line section -scale xs
+point 239.0 685.0 label -text "t3" -align br -attr scrapname BoulderChamberSPX3.13 -context line section -scale xs
 
 line section -direction both
   196.0 706.0
-  170.0 793.0 130.0 974.0 110.0 1058.0
+  178.0 777.0 128.0 987.0 110.0 1058.0
+  smooth off
 endline
 
 point 1086.0 -112.0 label -text "Boulder Chamber"
@@ -109,11 +113,12 @@ line rock-edge
   910.0 981.0
 endline
 
-point 815.0 1578.0 label -text "t5" -align tr -attr scrapname BoulderChamberSPX3.5 -context line section -scale xs
+point 839.0 1593.0 label -text "t5" -align tr -attr scrapname BoulderChamberSPX3.5 -context line section -scale xs
 
-line section -direction begin
+line section -direction end
   744.0 1336.0
   781.0 1381.0 829.0 1452.0 861.0 1498.0
+  smooth off
 endline
 
 line rock-border -close on
@@ -1130,6 +1135,7 @@ line wall -subtype sand
   510.0 268.0 522.0 263.0 534.0 262.0
   546.0 261.0 573.0 255.0 583.0 255.0
   593.0 255.0 652.0 259.0 651.0 262.0
+  smooth off
 endline
 
 line wall
@@ -1137,6 +1143,7 @@ line wall
   637.0 266.0 615.0 275.0 598.0 277.0
   581.0 279.0 575.0 277.0 562.0 281.0
   549.0 285.0 520.0 287.0 511.0 278.0
+  smooth off
 endline
 
 endscrap
