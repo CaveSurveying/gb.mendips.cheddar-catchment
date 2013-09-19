@@ -10,7 +10,7 @@ map XSectionM
 endmap
 
 map NovemberXM
-  XSectionM [-40 0 m] none
+  XSectionM [-60 -50 m] none
   NovemberM
 endmap
 

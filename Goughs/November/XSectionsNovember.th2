@@ -8,4 +8,6 @@ point 0.0 0.0 station -name 4.5
 
 point 240.0 240.0 section -scrap "NovemberSX4.4" -align t
 
+point 240.0 100.0 label -text "i1" -align c -scale s
+
 endscrap
