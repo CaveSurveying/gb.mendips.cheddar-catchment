@@ -26,8 +26,8 @@ endline
 point 1144.0 1955.0 label -text "t1" -align br -attr scrapname BoulderChamberSPX3.28 -context line section -scale xs
 
 line section -direction both
-  885.0 2043.0
-  947.0 2036.0 1088.0 2026.0 1134.0 2022.0
+  741.0 2058.0
+  892.0 2044.0 1088.0 2026.0 1134.0 2022.0
   smooth off
 endline
 

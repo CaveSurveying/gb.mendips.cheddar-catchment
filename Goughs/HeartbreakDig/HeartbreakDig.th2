@@ -13,7 +13,7 @@ point 1760.0 1110.0 label -text "g3" -align b -attr scrapname HeartbreakDigSX1.5
 
 point 1442.0 1448.0 label -text "g2" -align b -attr scrapname HeartbreakDigSX1.4 -context line section -scale xs
 
-point 778.0 1730.0 label -text "g1" -align b -attr scrapname HeartbreakDigSX1.2 -context line section -scale xs
+point 792.0 1750.0 label -text "g1" -align b -attr scrapname HeartbreakDigSX1.2 -context line section -scale xs
 
 line section -reverse on -direction both
   438.0 1160.0

@@ -15,9 +15,9 @@ point 236.0 3568.0 label -text "s4" -align b -attr scrapname Improbable2SX6.8 -c
 
 point 1200.0 3356.0 label -text "s3" -align b -attr scrapname Improbable2SX6.5 -context line section -scale xs
 
-point 378.0 3810.0 label -text "s2" -align b -attr scrapname Improbable2SX6.3 -context line section -scale xs
+point 412.0 3778.0 label -text "s2" -align b -attr scrapname Improbable2SX6.3 -context line section -scale xs
 
-point 522.0 4006.0 label -text "s1" -align b -attr scrapname Improbable2SX6.2 -context line section -scale xs
+point 554.0 4004.0 label -text "s1" -align b -attr scrapname Improbable2SX6.2 -context line section -scale xs
 
 line section -direction end
   480.0 3620.0
@@ -147,7 +147,7 @@ line wall
   smooth off
 endline
 
-point 1184.0 3888.0 label -align r -text "Improbable<br>Rift"
+point 1248.0 4050.0 label -align r -text "Improbable<br>Rift"
 
 area sand
   l89-1812-2188
