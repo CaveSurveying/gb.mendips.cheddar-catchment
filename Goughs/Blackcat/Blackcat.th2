@@ -8,7 +8,7 @@ encoding  utf-8
 
 scrap BlackcatSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 1612.0 672.0 label -text "bc0" -align b -attr scrapname BlackcatSPX1.30 -context line section -scale xs
+point 1612.0 672.0 label -text "j1" -align b -attr scrapname BlackcatSPX1.30 -context line section -scale xs
 
 line section -direction both
   1616.0 772.0
@@ -444,7 +444,7 @@ endscrap
 
 scrap BlackcatSPl2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 3688.0 556.0 label -text "bc1" -align tr -attr scrapname BlackcatSPX1.23 -context line section -scale xs
+point 3688.0 556.0 label -text "j2" -align tr -attr scrapname BlackcatSPX1.23 -context line section -scale xs
 
 line section -reverse on -direction both
   3696.0 648.0
@@ -458,9 +458,9 @@ line section -reverse on -direction both
   smooth off
 endline
 
-point 2544.0 2180.0 label -text "bc2" -align tr -attr scrapname BlackcatSPX1.20 -context line section -scale xs
+point 2544.0 2180.0 label -text "j3" -align tr -attr scrapname BlackcatSPX1.20 -context line section -scale xs
 
-point 2252.0 2556.0 label -text "bc3" -align tr -attr scrapname BlackcatSPX1.18 -context line section -scale xs
+point 2252.0 2556.0 label -text "j4" -align tr -attr scrapname BlackcatSPX1.18 -context line section -scale xs
 
 line section -direction both
   2192.0 2464.0
@@ -1472,9 +1472,9 @@ line section -direction both
   smooth off
 endline
 
-point 648.0 3096.0 label -text "bc4" -align tl -attr scrapname BlackcatSPX1.11 -context line section -scale xs
+point 648.0 3096.0 label -text "j5" -align tl -attr scrapname BlackcatSPX1.11 -context line section -scale xs
 
-point 1872.0 3656.0 label -text "bc6" -align tl -attr scrapname BlackcatSPX1.8 -context line section -scale xs
+point 1872.0 3656.0 label -text "j7" -align tl -attr scrapname BlackcatSPX1.8 -context line section -scale xs
 
 line section -direction both
   1304.0 3848.0
@@ -1488,7 +1488,7 @@ line section -reverse on -direction both
   smooth off
 endline
 
-point 760.0 3468.0 label -text "bc5" -align tl -attr scrapname BlackcatSPX1.9 -context line section -scale xs
+point 760.0 3468.0 label -text "j6" -align tl -attr scrapname BlackcatSPX1.9 -context line section -scale xs
 
 line section -reverse on -direction both
   1748.0 3336.0
@@ -1496,7 +1496,7 @@ line section -reverse on -direction both
   smooth off
 endline
 
-point 316.0 2900.0 label -text "bc7" -align tl -attr scrapname BlackcatSPX1.2 -context line section -scale xs
+point 316.0 2900.0 label -text "j8" -align tl -attr scrapname BlackcatSPX1.2 -context line section -scale xs
 
 area sand
   l181-620-3708

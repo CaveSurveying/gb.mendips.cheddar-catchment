@@ -1028,13 +1028,13 @@ line section -direction both
   smooth off
 endline
 
-point 1419.0 1085.0 label -text "fr4 " -align b -attr scrapname FarRiftSX9.13 -context line section -scale xs
+point 1419.0 1085.0 label -text "u4 " -align b -attr scrapname FarRiftSX9.13 -context line section -scale xs
 
-point 987.0 820.0 label -text "fr3" -align b -attr scrapname FarRiftSX9.10 -context line section -scale xs
+point 987.0 820.0 label -text "u3" -align b -attr scrapname FarRiftSX9.10 -context line section -scale xs
 
-point 613.0 1031.0 label -text "fr2 " -align b -attr scrapname FarRiftSX9.7 -context line section -scale xs
+point 613.0 1031.0 label -text "u2 " -align b -attr scrapname FarRiftSX9.7 -context line section -scale xs
 
-point 256.0 1511.0 label -text "fr1" -align b -attr scrapname FarRiftSX9.3 -context line section -scale xs
+point 256.0 1511.0 label -text "u1" -align b -attr scrapname FarRiftSX9.3 -context line section -scale xs
 
 endscrap
 

@@ -7,19 +7,19 @@ encoding  utf-8
 
 scrap EntranceSPl1 -projection plan -scale [-128.0 -128.0 10206.7401575 -128.0 0.0 0.0 262.502400001 0.0 m]
 
-point 8508.0 1816.0 label -text "e6" -align b -attr scrapname EntranceSX1.15 -context line section -scale xs
+point 8508.0 1816.0 label -text "f6" -align b -attr scrapname EntranceSX1.15 -context line section -scale xs
 
-point 8820.0 1576.0 label -text "e7" -align b -attr scrapname EntranceSX1.16 -context line section -scale xs
+point 8820.0 1576.0 label -text "f7" -align b -attr scrapname EntranceSX1.16 -context line section -scale xs
 
-point 8432.0 4.0 label -text "e5" -align b -attr scrapname EntranceSX1.12 -context line section -scale xs
+point 8432.0 4.0 label -text "f5" -align b -attr scrapname EntranceSX1.12 -context line section -scale xs
 
-point 7512.0 1616.0 label -text "e4" -align b -attr scrapname EntranceSX1.11 -context line section -scale xs
+point 7512.0 1616.0 label -text "f4" -align b -attr scrapname EntranceSX1.11 -context line section -scale xs
 
-point 6604.0 1580.0 label -text "e3" -align b -attr scrapname EntranceSX1.7 -context line section -scale xs
+point 6604.0 1580.0 label -text "f3" -align b -attr scrapname EntranceSX1.7 -context line section -scale xs
 
-point 5120.0 2040.0 label -text "e2" -align b -attr scrapname EntranceSX1.5 -context line section -scale xs
+point 5120.0 2040.0 label -text "f2" -align b -attr scrapname EntranceSX1.5 -context line section -scale xs
 
-point 4116.0 2396.0 label -text "e1" -align b -attr scrapname EntranceSX1.2 -context line section -scale xs
+point 4116.0 2396.0 label -text "f1" -align b -attr scrapname EntranceSX1.2 -context line section -scale xs
 
 line section -direction both
   8856.0 1420.0

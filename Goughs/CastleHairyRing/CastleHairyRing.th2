@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap CastleHairyRingSPl1 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-point 226.0 540.0 label -text "chr1" -align b -attr scrapname CastleHairyRingSX1.1 -context line section -scale xs
+point 226.0 540.0 label -text "k1" -align b -attr scrapname CastleHairyRingSX1.1 -context line section -scale xs
 
 line section -direction both
   358.0 653.0

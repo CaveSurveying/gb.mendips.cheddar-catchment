@@ -7,9 +7,9 @@ encoding  utf-8
 
 scrap NathansAtticSPl1 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-point 884.0 1006.0 label -text "na2" -align b -attr scrapname NathansAtticSX1.5 -context line section -scale xs
+point 884.0 1006.0 label -text "n2" -align b -attr scrapname NathansAtticSX1.5 -context line section -scale xs
 
-point 1578.0 708.0 label -text "na1" -align b -attr scrapname NathansAtticSX1.3 -context line section -scale xs
+point 1578.0 708.0 label -text "n1" -align b -attr scrapname NathansAtticSX1.3 -context line section -scale xs
 
 line section -reverse on -direction both
   942.0 908.0

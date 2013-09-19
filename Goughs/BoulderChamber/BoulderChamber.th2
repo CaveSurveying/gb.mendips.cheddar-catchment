@@ -7,28 +7,28 @@ encoding  utf-8
 
 scrap BoulderChamberSPl1 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-point 561.0 1117.0 label -text "bo4" -align tr -attr scrapname BoulderChamberSPX3.11 -context line section -scale xs
+point 561.0 1117.0 label -text "t4" -align tr -attr scrapname BoulderChamberSPX3.11 -context line section -scale xs
 
 line section -direction begin
   537.0 1109.0
   515.0 1115.0 460.0 1135.0 455.0 1137.0
 endline
 
-point 678.0 325.0 label -text "bo2" -align bl -attr scrapname BoulderChamberSPX3.17 -context line section -scale xs
+point 678.0 325.0 label -text "t2" -align bl -attr scrapname BoulderChamberSPX3.17 -context line section -scale xs
 
 line section -direction both
   1029.0 370.0
   977.0 361.0 786.0 319.0 717.0 305.0
 endline
 
-point 1174.0 1975.0 label -text "bo1" -align br -attr scrapname BoulderChamberSPX3.28 -context line section -scale xs
+point 1174.0 1975.0 label -text "t1" -align br -attr scrapname BoulderChamberSPX3.28 -context line section -scale xs
 
 line section -direction both
   908.0 2039.0
   970.0 2032.0 1088.0 2026.0 1134.0 2022.0
 endline
 
-point 250.0 690.0 label -text "bo3" -align br -attr scrapname BoulderChamberSPX3.13 -context line section -scale xs
+point 250.0 690.0 label -text "t3" -align br -attr scrapname BoulderChamberSPX3.13 -context line section -scale xs
 
 line section -direction both
   196.0 706.0
@@ -109,7 +109,7 @@ line rock-edge
   910.0 981.0
 endline
 
-point 815.0 1578.0 label -text "bo5" -align tr -attr scrapname BoulderChamberSPX3.5 -context line section -scale xs
+point 815.0 1578.0 label -text "t5" -align tr -attr scrapname BoulderChamberSPX3.5 -context line section -scale xs
 
 line section -direction begin
   744.0 1336.0

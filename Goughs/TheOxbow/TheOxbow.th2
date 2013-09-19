@@ -7,21 +7,21 @@ encoding  utf-8
 
 scrap TheOxbowSPl1 -projection plan -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
 
-point 4760.0 974.0 label -text "o8" -align b -attr scrapname TheOxbowSX1.32 -context line section -scale xs
+point 4760.0 974.0 label -text "d8" -align b -attr scrapname TheOxbowSX1.32 -context line section -scale xs
 
-point 5228.0 1480.0 label -text "o7" -align b -attr scrapname TheOxbowSX1.24 -context line section -scale xs
+point 5228.0 1480.0 label -text "d7" -align b -attr scrapname TheOxbowSX1.24 -context line section -scale xs
 
-point 3090.0 2862.0 label -text "o6" -align b -attr scrapname TheOxbowSX1.19 -context line section -scale xs
+point 3090.0 2862.0 label -text "d6" -align b -attr scrapname TheOxbowSX1.19 -context line section -scale xs
 
-point 4854.0 2716.0 label -text "o5" -align b -attr scrapname TheOxbowSX1.17 -context line section -scale xs
+point 4854.0 2716.0 label -text "d5" -align b -attr scrapname TheOxbowSX1.17 -context line section -scale xs
 
-point 5340.0 2570.0 label -text "o4" -align b -attr scrapname TheOxbowSX1.16 -context line section -scale xs
+point 5340.0 2570.0 label -text "d4" -align b -attr scrapname TheOxbowSX1.16 -context line section -scale xs
 
-point 5802.0 2510.0 label -text "o3" -align b -attr scrapname TheOxbowSX1.15 -context line section -scale xs
+point 5802.0 2510.0 label -text "d3" -align b -attr scrapname TheOxbowSX1.15 -context line section -scale xs
 
-point 6224.0 736.0 label -text "o2" -align b -attr scrapname TheOxbowSX1.5 -context line section -scale xs
+point 6224.0 736.0 label -text "d2" -align b -attr scrapname TheOxbowSX1.5 -context line section -scale xs
 
-point 6870.0 672.0 label -text "o1" -align b -attr scrapname TheOxbowSX1.1 -context line section -scale xs
+point 6870.0 672.0 label -text "d1" -align b -attr scrapname TheOxbowSX1.1 -context line section -scale xs
 
 line section -direction both
   7076.0 728.0

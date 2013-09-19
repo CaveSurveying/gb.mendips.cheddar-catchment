@@ -7,13 +7,13 @@ encoding  utf-8
 
 scrap HeartbreakDigSPl1 -projection plan -scale [-128.0 -128.0 2726.42519685 -128.0 0.0 0.0 72.5024 0.0 m]
 
-point 2340.0 598.0 label -text "hd4" -align b -attr scrapname HeartbreakDigSX1.8 -context line section -scale xs
+point 2340.0 598.0 label -text "g4" -align b -attr scrapname HeartbreakDigSX1.8 -context line section -scale xs
 
-point 1746.0 1076.0 label -text "hd3" -align b -attr scrapname HeartbreakDigSX1.5 -context line section -scale xs
+point 1746.0 1076.0 label -text "g3" -align b -attr scrapname HeartbreakDigSX1.5 -context line section -scale xs
 
-point 1420.0 1416.0 label -text "hd2" -align b -attr scrapname HeartbreakDigSX1.4 -context line section -scale xs
+point 1420.0 1416.0 label -text "g2" -align b -attr scrapname HeartbreakDigSX1.4 -context line section -scale xs
 
-point 748.0 1704.0 label -text "hd1" -align b -attr scrapname HeartbreakDigSX1.2 -context line section -scale xs
+point 748.0 1704.0 label -text "g1" -align b -attr scrapname HeartbreakDigSX1.2 -context line section -scale xs
 
 line section -reverse on -direction both
   438.0 1160.0

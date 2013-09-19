@@ -7,15 +7,15 @@ encoding  utf-8
 
 scrap SandCrawlSPl1 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-point 536.0 1432.0 label -text "sc5" -align b -attr scrapname SandCrawlSX1.8 -context line section -scale xs
+point 536.0 1432.0 label -text "p5" -align b -attr scrapname SandCrawlSX1.8 -context line section -scale xs
 
-point 596.0 1289.0 label -text "sc4" -align b -attr scrapname SandCrawlSX1.7 -context line section -scale xs
+point 596.0 1289.0 label -text "p4" -align b -attr scrapname SandCrawlSX1.7 -context line section -scale xs
 
-point 751.0 888.0 label -text "sc3" -align b -attr scrapname SandCrawlSX1.4 -context line section -scale xs
+point 751.0 888.0 label -text "p3" -align b -attr scrapname SandCrawlSX1.4 -context line section -scale xs
 
-point 871.0 408.0 label -text "sc2" -align b -attr scrapname SandCrawlSX1.2 -context line section -scale xs
+point 871.0 408.0 label -text "p2" -align b -attr scrapname SandCrawlSX1.2 -context line section -scale xs
 
-point 943.0 -65.0 label -text "sc1" -align b -attr scrapname SandCrawlSX1.1 -context line section -scale xs
+point 943.0 -65.0 label -text "p1" -align b -attr scrapname SandCrawlSX1.1 -context line section -scale xs
 
 line section -direction both
   150.0 1223.0
