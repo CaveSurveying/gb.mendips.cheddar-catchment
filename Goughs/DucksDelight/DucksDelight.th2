@@ -1,11 +1,21 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 1309.1023622 1309.1023622
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -129.25 -128.0 1309.1023622 1348.5
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {982.677165354 1 1.0} {123.622047244 1.0} PocketTopo/DucksDelightth_p.xvi 0 {}
 
 
 
 scrap DucksDelightSPl1 -projection plan -scale [-128.0 -128.0 1309.1023622 -128.0 0.0 0.0 36.5023999999 0.0 m]
+
+point 157.75 1181.0 label -text "dd2" -align b -attr scrapname DucksDelightSX1.8 -context line section -scale xs
+
+point 0.0 646.5 label -text "dd1" -align b -attr scrapname DucksDelightSX1.4 -context line section -scale xs
+
+line section -reverse on -direction end
+  138.5 652.25
+  186.75 661.5 336.5 689.5 367.5 694.75
+  smooth off
+endline
 
 point 127.327165354 991.812047244 station -name 1.7
 
@@ -396,6 +406,12 @@ endscrap
 
 
 scrap DucksDelightSPl2 -projection plan -scale [-128.0 -128.0 1309.1023622 -128.0 0.0 0.0 36.5023999999 0.0 m]
+
+line section -reverse on -direction end
+  366.5 1030.5
+  336.5 985.5 258.0 862.0 258.0 862.0
+  smooth off
+endline
 
 area debris
   l56-363-779
