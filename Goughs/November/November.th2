@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap NovemberSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 1252.0 1110.0 label -text "i1" -align b -attr scrapname NovemberSx4.4 -context line section -scale xs
+point 1252.0 1110.0 label -text "i1" -align b -attr scrapname NovemberSX4.4 -context line section -scale xs
 
 line section -direction both
   1239.0 1001.0
