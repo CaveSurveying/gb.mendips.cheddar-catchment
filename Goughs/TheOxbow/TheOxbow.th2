@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 8002.01574803 3000.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {7655.90551181 1 1.0} {948.976377952 1.0} PocketTopo/TheOxbowth_p.xvi 0 {}
 
 
@@ -31,19 +31,19 @@ endline
 
 line section -reverse on -direction both
   6336.0 1660.0
-  6316.0 1504.0 6260.0 1056.0 6240.0 876.0
+  6316.0 1504.0 6212.0 1064.0 6192.0 884.0
   smooth off
 endline
 
 line section -reverse on -direction both
-  5447.0 1525.0
-  5486.0 1420.0 5598.0 1097.0 5645.0 966.0
+  5420.0 1528.0
+  5459.0 1423.0 5598.0 1097.0 5645.0 966.0
   smooth off
 endline
 
 line section -direction end
   4978.0 569.0
-  4927.0 622.0 4721.0 827.0 4654.0 892.0
+  4927.0 622.0 4712.0 840.0 4672.0 880.0
   smooth off
 endline
 
@@ -54,8 +54,8 @@ line section -direction both
 endline
 
 line section -direction both
-  5126.0 2124.0
-  5189.0 2202.0 5290.0 2337.0 5339.0 2403.0
+  5172.0 2100.0
+  5235.0 2178.0 5275.0 2370.0 5324.0 2436.0
   smooth off
 endline
 
@@ -1227,13 +1227,13 @@ scrap TheOxbowSPl2 -projection plan -scale [-128.0 -128.0 8002.01574803 -128.0 0
 
 line section -reverse on -direction both
   4842.0 2574.0
-  4821.0 2473.0 4764.0 2198.0 4737.0 2082.0
+  4821.0 2473.0 4811.0 2196.0 4784.0 2080.0
   smooth off
 endline
 
 line section -reverse on -direction both
   3082.0 2727.0
-  3064.0 2632.0 2997.0 2311.0 2972.0 2199.0
+  3064.0 2632.0 3049.0 2304.0 3024.0 2192.0
   smooth off
 endline
 

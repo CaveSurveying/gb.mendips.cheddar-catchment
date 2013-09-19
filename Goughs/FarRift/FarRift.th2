@@ -1010,31 +1010,31 @@ line wall
   smooth off
 endline
 
+line section -direction begin
+  222.0 1620.0
+  326.0 1477.0 403.0 1382.0 441.0 1321.0
+  smooth off
+endline
+
 line section -direction both
-  284.0 1576.0
-  337.0 1495.0 446.0 1328.0 446.0 1328.0
+  864.0 1278.0
+  796.0 1226.0 664.0 1131.0 620.0 1096.0
   smooth off
 endline
 
 line section -reverse on -direction both
-  842.0 1262.0
-  795.0 1225.0 649.0 1118.0 575.0 1064.0
-  smooth off
-endline
-
-line section -direction both
   873.0 814.0
   982.0 900.0 1160.0 1047.0 1182.0 1070.0
   smooth off
 endline
 
-point 1446.0 1143.0 label -text "u4 " -align b -attr scrapname FarRiftSX9.13 -context line section -scale xs
+point 1402.0 1137.0 label -text "u4 " -align tr -attr scrapname FarRiftSX9.13 -context line section -scale xs
 
-point 987.0 820.0 label -text "u3" -align b -attr scrapname FarRiftSX9.10 -context line section -scale xs
+point 851.0 801.0 label -text "u3" -align l -attr scrapname FarRiftSX9.10 -context line section -scale xs
 
-point 613.0 1025.0 label -text "u2 " -align b -attr scrapname FarRiftSX9.7 -context line section -scale xs
+point 613.0 1025.0 label -text "u2 " -align l -attr scrapname FarRiftSX9.7 -context line section -scale xs
 
-point 247.0 1522.0 label -text "u1" -align b -attr scrapname FarRiftSX9.3 -context line section -scale xs
+point 198.0 1580.0 label -text "u1" -align bl -attr scrapname FarRiftSX9.3 -context line section -scale xs
 
 endscrap
 
@@ -1185,7 +1185,7 @@ endscrap
 
 scrap FarRiftSPl3 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-line section -reverse on -direction both
+line section -direction both
   1392.0 1071.0
   1409.0 1036.0 1471.0 905.0 1497.0 850.0
   smooth off

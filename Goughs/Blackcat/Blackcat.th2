@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -249.0 4296.0 11840.5354331
-##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {324.094488189 1 1.0} {6116.12598425 1.0} PocketTopo/Blackcatth_p.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {324.094488189 1 1.0} {10006.3937008 1.0} PocketTopo/Blackcatth_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {324.094488189 1 1.0} {10006.3937008 1.0} PocketTopo/Blackcatth_p.xvi 0 {}
 
 
@@ -10,9 +10,9 @@ scrap BlackcatSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 point 1612.0 672.0 label -text "j1" -align b -attr scrapname BlackcatSPX1.30 -context line section -scale xs
 
-line section -direction both
+line section -direction begin
   1616.0 772.0
-  1688.0 860.0 1844.0 1192.0 1908.0 1276.0
+  1688.0 860.0 1840.0 1192.0 1880.0 1256.0
   smooth off
 endline
 
@@ -458,9 +458,9 @@ line section -reverse on -direction both
   smooth off
 endline
 
-point 2547.0 2101.0 label -text "j3" -align tr -attr scrapname BlackcatSPX1.20 -context line section -scale xs
+point 1703.0 1561.0 label -text "j3" -align tl -attr scrapname BlackcatSPX1.20 -context line section -scale xs
 
-point 2252.0 2556.0 label -text "j4" -align tr -attr scrapname BlackcatSPX1.18 -context line section -scale xs
+point 2032.0 2512.0 label -text "j4" -align tr -attr scrapname BlackcatSPX1.18 -context line section -scale xs
 
 line section -direction both
   2192.0 2464.0
@@ -1496,7 +1496,7 @@ line section -reverse on -direction both
   smooth off
 endline
 
-point 401.0 2898.0 label -text "j8" -align tl -attr scrapname BlackcatSPX1.2 -context line section -scale xs
+point 481.0 2878.0 label -text "j8" -align bl -attr scrapname BlackcatSPX1.2 -context line section -scale xs
 
 area sand
   l181-620-3708
@@ -1521,7 +1521,7 @@ endline
 
 line arrow
   1072.0 20.0
-  60.0 1408.0
+  28.0 1392.0
 endline
 
 line arrow

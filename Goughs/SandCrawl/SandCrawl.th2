@@ -7,13 +7,13 @@ encoding  utf-8
 
 scrap SandCrawlSPl1 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-point 536.0 1432.0 label -text "p5" -align b -attr scrapname SandCrawlSX1.8 -context line section -scale xs
+point 439.0 1384.0 label -text "p5" -align tr -attr scrapname SandCrawlSX1.8 -context line section -scale xs
 
-point 596.0 1289.0 label -text "p4" -align b -attr scrapname SandCrawlSX1.7 -context line section -scale xs
+point 513.0 1228.0 label -text "p4" -align tr -attr scrapname SandCrawlSX1.7 -context line section -scale xs
 
-point 751.0 888.0 label -text "p3" -align b -attr scrapname SandCrawlSX1.4 -context line section -scale xs
+point 688.0 847.0 label -text "p3" -align tr -attr scrapname SandCrawlSX1.4 -context line section -scale xs
 
-point 871.0 408.0 label -text "p2" -align b -attr scrapname SandCrawlSX1.2 -context line section -scale xs
+point 630.0 224.0 label -text "p2" -align tl -attr scrapname SandCrawlSX1.2 -context line section -scale xs
 
 point 943.0 -65.0 label -text "p1" -align b -attr scrapname SandCrawlSX1.1 -context line section -scale xs
 
@@ -30,8 +30,8 @@ line section -direction both
 endline
 
 line section -direction both
-  393.0 700.0
-  483.0 741.0 579.0 785.0 657.0 823.0
+  376.0 696.0
+  478.0 742.0 579.0 785.0 657.0 823.0
   smooth off
 endline
 
@@ -42,8 +42,8 @@ line section -direction both
 endline
 
 line section -reverse on -direction begin
-  843.0 246.0
-  843.0 246.0 910.0 54.0 927.0 1.0
+  834.0 274.0
+  846.0 243.0 910.0 54.0 927.0 1.0
   smooth off
 endline
 

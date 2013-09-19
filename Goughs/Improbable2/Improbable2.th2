@@ -13,25 +13,25 @@ point 1502.0 2752.0 label -text "s5" -align b -attr scrapname Improbable2SX6.11 
 
 point 236.0 3568.0 label -text "s4" -align b -attr scrapname Improbable2SX6.8 -context line section -scale xs
 
-point 1200.0 3356.0 label -text "s3" -align b -attr scrapname Improbable2SX6.5 -context line section -scale xs
+point 1260.0 3462.0 label -text "s3" -align r -attr scrapname Improbable2SX6.5 -context line section -scale xs
 
-point 412.0 3778.0 label -text "s2" -align b -attr scrapname Improbable2SX6.3 -context line section -scale xs
+point 458.0 3800.0 label -text "s2" -align tl -attr scrapname Improbable2SX6.3 -context line section -scale xs
 
 point 554.0 4004.0 label -text "s1" -align b -attr scrapname Improbable2SX6.2 -context line section -scale xs
 
-line section -direction end
+line section -reverse on -direction begin
   480.0 3620.0
-  480.0 3620.0 1056.0 3494.0 1196.0 3464.0
+  590.0 3596.0 1056.0 3494.0 1196.0 3464.0
   smooth off
 endline
 
-line section -reverse on -direction both
+line section -direction both
   1599.0 2405.0
   1536.0 2358.0 1412.0 2276.0 1332.0 2217.0
   smooth off
 endline
 
-line section -reverse on -direction both
+line section -direction both
   1371.0 2708.0
   1322.0 2654.0 1210.0 2516.0 1150.0 2447.0
   smooth off
@@ -43,15 +43,15 @@ line section -reverse on -direction both
   smooth off
 endline
 
-line section -reverse on -direction both
+line section -direction begin
   1166.0 3987.0
   1028.0 3946.0 642.0 3836.0 500.0 3798.0
   smooth off
 endline
 
-line section -reverse on -direction both
-  783.0 4169.0
-  783.0 4169.0 678.0 4070.0 642.0 4040.0
+line section -direction end
+  758.0 4196.0
+  738.0 4176.0 646.0 4098.0 610.0 4068.0
   smooth off
 endline
 

@@ -501,9 +501,9 @@ endline
 
 point 1447.5 1207.5 label -text "e3" -align tl -attr scrapname FontsSPX1.18 -context line section -scale xs
 
-line section -reverse on -direction both
-  1567.0 1103.5
-  1568.0 1101.5 1527.5 1159.5 1506.0 1190.0
+line section -direction end
+  1573.0 1087.0
+  1563.0 1102.0 1524.0 1158.0 1506.0 1190.0
   smooth off
 endline
 

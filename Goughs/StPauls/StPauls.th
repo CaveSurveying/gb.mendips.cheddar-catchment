@@ -11,7 +11,7 @@ map XSectionM
 endmap
 
 map StPaulsXM
-  XSectionM [-5400 -6780 cm] none
+  XSectionM [-5400 -6690 cm] none
   StPaulsM
 endmap
 
