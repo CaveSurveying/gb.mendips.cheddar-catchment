@@ -20,7 +20,7 @@ endmap
 #The thconfig file needs to also select GoughsUpperM
 map GoughsDispM
     BeddingChamberBoxM@BeddingChamber
-    BeddingChamberXM@BeddingChamber [-9 30 m] above
+    BeddingChamberM@BeddingChamber [-9 30 m] above
  #   GoughsUpperM
     GoughsLowerM [0 -80 m] below
     LLoydTopM [25 10 m] above
