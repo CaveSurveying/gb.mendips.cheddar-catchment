@@ -8,6 +8,6 @@ point 0.0 0.0 station -name 1.1
 
 point 296.9 240.0 section -scrap "CastleHairyRingSX1.1" -align t
 
-point 296.9 100.0 label -text "chr1" -align c -scale s
+point 296.9 100.0 label -text "k1" -align c -scale s
 
 endscrap
