@@ -11,7 +11,7 @@ map XSectionM
 endmap
 
 map Improbable2XM
-  XSectionM [-130 -22 m] none
+  XSectionM [-14600 -3160 cm] none
   Improbable2M
 endmap
 

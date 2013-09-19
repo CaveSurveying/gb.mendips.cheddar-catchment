@@ -16,7 +16,7 @@ endmap
 
 map EntranceXM
   EntranceM
-  XSectionM [-95 -90 m] none
+  XSectionM [-9200 -11500 cm] none
 endmap
 
 map EntranceME0 -proj [elevation 0]

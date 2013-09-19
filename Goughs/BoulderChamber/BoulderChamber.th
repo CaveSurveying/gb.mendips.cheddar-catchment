@@ -10,7 +10,7 @@ map XSectionM
 endmap
 
 map BoulderChamberXM
-  XSectionM [-105 -28 m] none
+  XSectionM [-11900 -3680 cm] none
   BoulderChamberM
 endmap
 

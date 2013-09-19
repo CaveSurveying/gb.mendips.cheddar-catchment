@@ -10,7 +10,7 @@ map XSectionM
 endmap
 
 map BeddingChamberXM
-  XSectionM [30 -160 m] none
+  XSectionM [10 -170 m] none
   BeddingChamberM
 endmap
 

@@ -10,7 +10,7 @@ map XSectionM
 endmap
 
 map HeartbreakHillXM
-  XSectionM [-80 -80 m] none
+  XSectionM [-9200 -9450 cm] none
   HeartbreakHillM
 endmap
 

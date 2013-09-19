@@ -10,7 +10,7 @@ map XSectionM
 endmap
 
 map NathansAtticXM
-  XSectionM [-123 -92 m] none
+  XSectionM [-136 -105 m] none
   NathansAtticM
 endmap
 

@@ -10,7 +10,7 @@ map XSectionM
 endmap
 
 map SideOxXM
-  XSectionM [-10 -110 m] none
+  XSectionM [-9000 -6030 cm] none
   SideOxM
 endmap
 

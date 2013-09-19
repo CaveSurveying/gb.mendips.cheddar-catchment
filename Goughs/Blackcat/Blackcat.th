@@ -15,7 +15,7 @@ map XSectionM
 endmap
 
 map BlackcatXM
-  XSectionM [-130 -30 m] none
+  XSectionM [-143 -44 m] none
   BlackcatM
 endmap
 
