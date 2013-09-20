@@ -28,6 +28,11 @@ map BlackcatM
   BlackcatSPl2
 endmap
 
+map BlackcatME0 -proj [elevation 0]
+  BlackcatSouthME0
+  BlackcatNorthME0
+endmap
+
 map BlackcatSouthME0 -proj [elevation 0]
   BlackcatSE0_1
   BlackcatSE0_2

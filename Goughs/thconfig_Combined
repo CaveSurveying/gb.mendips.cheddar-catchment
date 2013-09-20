@@ -25,10 +25,16 @@ export map -proj [elevation 0] -layout combined -o Goughs_combined.pdf
 #export map -proj plan -o Goughs_Walls.3d
 #Survex file showing walls only
 
-select GoughsDispM@Goughs
+
 select GoughsUpperM@Goughs -map-level 1
+select GoughsDispM@Goughs
 select ShowCaveSumpsM@sumps.Goughs
+
 select GoughsME0@Goughs -map-level 1
+select GoughsDispME0@Goughs
+select ShowCaveSumpsME0@sumps.Goughs
+
+
 
 layout elev
 copy local

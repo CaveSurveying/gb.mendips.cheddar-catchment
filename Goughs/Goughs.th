@@ -19,9 +19,8 @@ endmap
 #This map is to make a readable plan
 #The thconfig file needs to also select GoughsUpperM
 map GoughsDispM
-    BeddingChamberBoxM@BeddingChamber
+    #BeddingChamberBoxM@BeddingChamber
     BeddingChamberM@BeddingChamber [-9 30 m] above
- #   GoughsUpperM
     GoughsLowerM [0 -80 m] below
     LLoydTopM [25 10 m] above
 endmap
@@ -32,18 +31,18 @@ map LLoydTopM
 endmap
 
 map GoughsUpperM
+  DucksDelightXM@DucksDelight
+  FontsXM@Fonts
   DSAvenM@DSAven
-  BatRoomXM@BatRoom
   KingsSolomonsXM@KingsSolomons
+  BatRoomXM@BatRoom
   CastleHairyRingXM@CastleHairyRing
+  NathansAtticXM@NathansAttic
   BlackcatXM@Blackcat
   Damocles3M@Damocles3
   Damocles2M@Damocles2
   Damocles1M@Damocles1
-  NathansAtticXM@NathansAttic
-  DucksDelightXM@DucksDelight
   EntranceXM@Entrance
-  FontsXM@Fonts 
   HeartbreakHillXM@HeartbreakHill
   TableauxM@Tableaux
   LloydHallBottomM@LloydHall
@@ -55,6 +54,7 @@ map GoughsUpperM
   SandCrawlXM@SandCrawl
   SideOxXM@SideOx
   HeartbreakDigXM@HeartbreakDig
+  BatRoomXM@BatRoom
   CheeseroomM@Cheeseroom
   WetWitchM@WetWitch
 endmap
@@ -65,7 +65,7 @@ map GoughsLowerM
   NathansDungeonM@NathansDungeon
   Improbable2XM@Improbable2
   BoulderChamberXM@BoulderChamber
-  TunnelXM@Tunnel  
+  TunnelXM@Tunnel
 endmap
 
 
@@ -104,7 +104,7 @@ join ImprobableSPl1@Improbable TunnelSPl1@Tunnel -smooth on
 
 #Order of the next group, for some reason, of joins is important to make it join correctly
 join HeartbreakHillSPl1@HeartbreakHill TableauxSPl1@Tableaux -smooth on
-join StPaulsSPl2@StPauls TableauxSPl1@Tableaux -smooth on 
+join StPaulsSPl2@StPauls TableauxSPl1@Tableaux -smooth on
 join HeartbreakHillSPl1@HeartbreakHill StPaulsSPl1@StPauls -smooth on -count 3
 
 
@@ -122,30 +122,42 @@ join WetWitchSPl1@WetWitch StPaulsSPl1@StPauls -smooth on
 #                                                                                                                             #
 # Projected elevation  maps and joins                                                                 #
 #                                                                                                                             #
-############################################## 
+##############################################
 
 map NathansDungeon_allME0  -proj [elevation 0]
   NathansDungeonME0@NathansDungeon
   FarRiftME0_2@FarRift
 endmap
 
+map GoughsDispME0
+    #BeddingChamberBoxM@BeddingChamber
+    BeddingChamberME0@BeddingChamber
+    GoughsLowerME0
+    LLoydTopME0
+endmap
+
+map LLoydTopME0
+  ImprobableME0@Improbable
+  LloydHallTopME0@LloydHall
+endmap
+
 map GoughsME0 -proj [elevation 0]
-  FontsME0@Fonts 
+  DucksDelightME0@DucksDelight
+  FontsME0@Fonts
   DSAvenME0@DSAven
   KingsSolomonsME0@KingsSolomons
   CastleHairyRingME0@CastleHairyRing
-  BlackcatSouthME0@Blackcat
-  BlackcatNorthME0@Blackcat
   NathansAtticME0@NathansAttic
+  BlackcatME0@Blackcat
+  #BlackcatSouthME0@Blackcat
+  #BlackcatNorthME0@Blackcat
   Damocles3ME0@Damocles3
   Damocles2ME0@Damocles2
   Damocles1ME0@Damocles1
-  DucksDelightME0@DucksDelight
   EntranceME0@Entrance
-  SkeletonME0@Skeleton
-  BatRoomME0@BatRoom
   HeartbreakHillME0@HeartbreakHill
   TableauxME0@Tableaux
+  LloydHallBottomME0@LloydHall
   TheOxbowME0@TheOxbow
   DireStraitsME0@DireStraits
   StPaulsME0@StPauls
@@ -154,19 +166,30 @@ map GoughsME0 -proj [elevation 0]
   SandCrawlME0@SandCrawl
   SideOxME0@SideOx
   HeartbreakDigME0@HeartbreakDig
+  BatRoomME0@BatRoom
   CheeseroomME0@Cheeseroom
   WetWitchME0@WetWitch
-  CableCrawlME0@CableCrawl
-  NathansDungeon_allME0
-  Improbable2ME0@Improbable2
-  ImprobableME0@Improbable
-  LloydHallME0@LloydHall
-  BoulderChamberME0@BoulderChamber
+  SkeletonME0@Skeleton
+  #CableCrawlME0@CableCrawl
+  #NathansDungeon_allME0
+  #Improbable2ME0@Improbable2
+  #ImprobableME0@Improbable
+  #LloydHallME0@LloydHall
+  #BoulderChamberME0@BoulderChamber
+  #FarRiftME0_1@FarRift
+  #TunnelME0@Tunnel
+  #BeddingChamberME0@BeddingChamber
+  #ShowCaveSumpsME0@sumps
+endmap
+
+map GoughsLowerME0
   FarRiftME0_1@FarRift
+  CableCrawlME0@CableCrawl
+  NathansDungeonME0@NathansDungeon
+  Improbable2ME0@Improbable2
+  BoulderChamberME0@BoulderChamber
   TunnelME0@Tunnel
-  BeddingChamberME0@BeddingChamber
-  ShowCaveSumpsME0@sumps
-endmap 
+endmap
 
 join roof1@BatRoom:0 roof1@Entrance:19 -smooth on
 join roof1@Blackcat:2 roof1@CastleHairyRing:0 -smooth on
@@ -277,7 +300,7 @@ input TheOxbow/TheOxbow.th
 input Tunnel/Tunnel.th
 input WetWitch/WetWitch.th
 
-equate 1.1@BatRoom 1.0@Entrance 
+equate 1.1@BatRoom 1.0@Entrance
 equate 7.0@BeddingChamber 1.23@Tableaux
 equate 1.0@Blackcat 1.0@CastleHairyRing 1.17@Tableaux
 equate 3.13@BoulderChamber 6.21@Improbable
