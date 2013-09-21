@@ -405,7 +405,7 @@ endscrap
 
 
 
-scrap DucksDelightSPl2 -projection plan -scale [-128.0 -128.0 1309.1023622 -128.0 0.0 0.0 36.5023999999 0.0 m]
+scrap DucksDelightSPl2 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line section -reverse on -direction end
   366.5 1030.5
@@ -462,7 +462,7 @@ endscrap
 
 
 
-scrap DucksDelightSX1.4 -projection none -scale [-128.0 -128.0 1309.1023622 -128.0 0.0 0.0 36.5023999999 0.0 m]
+scrap DucksDelightSX1.4 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line rock-border -close on
   90.0 423.5
@@ -504,7 +504,7 @@ endscrap
 
 
 
-scrap DucksDelightSX1.8 -projection none -scale [-128.0 -128.0 1309.1023622 -128.0 0.0 0.0 36.5023999999 0.0 m]
+scrap DucksDelightSX1.8 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall -close on
   236.75 1217.0

@@ -6,8 +6,8 @@ scrap XSectionSP -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 point 0.0 0.0 station -name 4.5
 
-point 240.0 290.0 section -scrap "NovemberSX4.4" -align t
+point 240.0 440.0 section -scrap "NovemberSX4.4" -align t
 
-point 240.0 100.0 label -text "i1" -align c -scale s
+point 240.0 200.0 label -text "i1" -align c -scale s
 
 endscrap

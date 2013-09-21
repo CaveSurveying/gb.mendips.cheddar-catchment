@@ -1434,7 +1434,7 @@ endscrap
 
 
 
-scrap TheOxbowSX1.1 -projection none -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
+scrap TheOxbowSX1.1 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line rock-border -close on
   6852.0 486.0
@@ -1476,9 +1476,9 @@ endscrap
 
 
 
-scrap TheOxbowSX1.5 -projection none -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
+scrap TheOxbowSX1.5 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-line rock-border -close on
+line wall -close on
   6658.0 609.0
   6646.0 610.0 6624.0 603.0 6598.0 584.0
   6572.0 565.0 6559.0 547.0 6533.0 537.0
@@ -1503,7 +1503,7 @@ endscrap
 
 
 
-scrap TheOxbowSX1.15 -projection none -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
+scrap TheOxbowSX1.15 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall -close on
   5928.0 2279.5
@@ -1534,7 +1534,7 @@ endscrap
 
 
 
-scrap TheOxbowSX1.16 -projection none -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
+scrap TheOxbowSX1.16 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall -close on
   5347.5 2018.25
@@ -1584,7 +1584,7 @@ endscrap
 
 
 
-scrap TheOxbowSX1.19 -projection none -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
+scrap TheOxbowSX1.19 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall -close on
   2949.5 1887.0
@@ -1613,7 +1613,7 @@ endscrap
 
 
 
-scrap TheOxbowSX1.24 -projection none -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
+scrap TheOxbowSX1.24 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall -close on
   6329.0 1809.0
@@ -1633,7 +1633,7 @@ endscrap
 
 
 
-scrap TheOxbowSX1.32 -projection none -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
+scrap TheOxbowSX1.32 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall -close on
   5151.5 1383.5

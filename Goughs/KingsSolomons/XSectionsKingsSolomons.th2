@@ -6,20 +6,20 @@ scrap XSectionSP -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 point 0.0 0.0 station -name 6.10
 
-point 240.0 240.0 section -scrap "KingsSolomonsSX6.14" -align t
+point 240.0 440.0 section -scrap "KingsSolomonsSX6.14" -align t
 
-point 240.0 100.0 label -text "m1" -align c -scale s
+point 240.0 200.0 label -text "m1" -align c -scale s
 
-point 720.0 240.0 section -scrap "KingsSolomonsSX6.11" -align t
+point 720.0 440.0 section -scrap "KingsSolomonsSX6.11" -align t
 
-point 720.0 100.0 label -text "m2 " -align c -scale s
+point 720.0 200.0 label -text "m2 " -align c -scale s
 
-point 1200.0 240.0 section -scrap "KingsSolomonsSX6.8" -align t
+point 1200.0 440.0 section -scrap "KingsSolomonsSX6.8" -align t
 
-point 1200.0 100.0 label -text "m3" -align c -scale s
+point 1200.0 200.0 label -text "m3" -align c -scale s
 
-point 1713.5 240.0 section -scrap "KingsSolomonsSX6.4" -align t
+point 1713.5 440.0 section -scrap "KingsSolomonsSX6.4" -align t
 
-point 1713.5 100.0 label -text "m4" -align c -scale s
+point 1713.5 200.0 label -text "m4" -align c -scale s
 
 endscrap

@@ -944,7 +944,7 @@ endscrap
 
 
 
-scrap HeartbreakHillSX1.3 -projection none -scale [-128.0 -128.0 9104.37795275 -128.0 0.0 0.0 234.5024 0.0 m]
+scrap HeartbreakHillSX1.3 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line u -subtype rail
   1362.0 1811.0
@@ -976,7 +976,7 @@ endscrap
 
 
 
-scrap HeartbreakHillSX1.7 -projection none -scale [-128.0 -128.0 9104.37795275 -128.0 0.0 0.0 234.5024 0.0 m]
+scrap HeartbreakHillSX1.7 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall
   2602.0 4514.0
@@ -1004,7 +1004,7 @@ endscrap
 
 
 
-scrap HeartbreakHillSX1.10 -projection none -scale [-128.0 -128.0 9104.37795275 -128.0 0.0 0.0 234.5024 0.0 m]
+scrap HeartbreakHillSX1.10 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall
   4580.0 1900.0
@@ -1031,7 +1031,7 @@ endscrap
 
 
 
-scrap HeartbreakHillSX1.17 -projection none -scale [-128.0 -128.0 9104.37795275 -128.0 0.0 0.0 234.5024 0.0 m]
+scrap HeartbreakHillSX1.17 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall -close on
   5858.0 1734.0

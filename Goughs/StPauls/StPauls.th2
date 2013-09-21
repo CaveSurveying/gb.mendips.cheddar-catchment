@@ -361,7 +361,7 @@ endscrap
 
 
 
-scrap StPaulsSX1.1 -projection none -scale [-128.0 -128.0 4458.70866142 -128.0 0.0 0.0 116.5024 0.0 m]
+scrap StPaulsSX1.1 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall -close on
   4353.0 566.0

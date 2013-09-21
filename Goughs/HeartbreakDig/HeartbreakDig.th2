@@ -151,7 +151,7 @@ endscrap
 
 
 
-scrap HeartbreakDigSX1.2 -projection none -scale [-128.0 -128.0 2726.42519685 -128.0 0.0 0.0 72.5024 0.0 m]
+scrap HeartbreakDigSX1.2 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall -close on
   1415.0 1672.0
@@ -170,7 +170,7 @@ endscrap
 
 
 
-scrap HeartbreakDigSX1.4 -projection none -scale [-128.0 -128.0 2726.42519685 -128.0 0.0 0.0 72.5024 0.0 m]
+scrap HeartbreakDigSX1.4 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall -close on
   1788.0 1210.0
@@ -187,7 +187,7 @@ endscrap
 
 
 
-scrap HeartbreakDigSX1.5 -projection none -scale [-128.0 -128.0 2726.42519685 -128.0 0.0 0.0 72.5024 0.0 m]
+scrap HeartbreakDigSX1.5 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall -close on
   1073.0 532.75
@@ -207,7 +207,7 @@ endscrap
 
 
 
-scrap HeartbreakDigSX1.8 -projection none -scale [-128.0 -128.0 2726.42519685 -128.0 0.0 0.0 72.5024 0.0 m]
+scrap HeartbreakDigSX1.8 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall -close on
   2320.5 702.0
