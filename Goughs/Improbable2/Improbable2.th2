@@ -147,7 +147,7 @@ line wall
   smooth off
 endline
 
-point 1248.0 4050.0 label -align r -text "Improbable<br>Rift"
+point 1244.0 4224.0 label -align r -text "Improbable<br>Rift"
 
 area sand
   l89-1812-2188
