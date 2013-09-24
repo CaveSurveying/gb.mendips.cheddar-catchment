@@ -81,7 +81,7 @@ grid-size 100 100 20 m
 
 #A1 (for combined)
 scale 1 500
-
+#base-scale 1 500
 
 code tex-map
   \cavename={\size[50] Gough's Cave\medskip\size[20] up to and including Sump 1b}

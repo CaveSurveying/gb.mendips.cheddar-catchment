@@ -26,12 +26,12 @@ point 2697.8 440.0 section -scrap "EntranceSX1.12" -align t
 
 point 2697.8 200.0 label -text "f5" -align c -scale s
 
-point 3177.8 440.0 section -scrap "EntranceSX1.15" -align t
+point 3186.5 440.0 section -scrap "EntranceSX1.16" -align t
 
-point 3177.8 200.0 label -text "f6" -align c -scale s
+point 3186.5 200.0 label -text "f6" -align c -scale s
 
-point 3766.5 440.0 section -scrap "EntranceSX1.16" -align t
+point 3675.1 440.0 section -scrap "EntranceSX1.15" -align t
 
-point 3766.5 200.0 label -text "f7" -align c -scale s
+point 3675.1 200.0 label -text "f7" -align c -scale s
 
 endscrap

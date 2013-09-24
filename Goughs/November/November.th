@@ -10,7 +10,7 @@ map XSectionM
 endmap
 
 map NovemberXM
-  XSectionM [-6000 -5450 cm] none
+  XSectionM [-8700 -5990 cm] none
   NovemberM
 endmap
 

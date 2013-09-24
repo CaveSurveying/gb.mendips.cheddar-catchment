@@ -7,9 +7,9 @@ encoding  utf-8
 
 scrap EntranceSPl1 -projection plan -scale [-128.0 -128.0 10206.7401575 -128.0 0.0 0.0 262.502400001 0.0 m]
 
-point 8556.0 1524.0 label -text "f6" -align b -attr scrapname EntranceSX1.15 -context line section -scale xs
+point 8556.0 1524.0 label -text "f7" -align b -attr scrapname EntranceSX1.15 -context line section -scale xs
 
-point 8820.0 1576.0 label -text "f7" -align b -attr scrapname EntranceSX1.16 -context line section -scale xs
+point 8820.0 1576.0 label -text "f6" -align b -attr scrapname EntranceSX1.16 -context line section -scale xs
 
 point 8356.0 60.0 label -text "f5" -align b -attr scrapname EntranceSX1.12 -context line section -scale xs
 
@@ -900,27 +900,6 @@ endscrap
 
 
 
-scrap EntranceSX1.15 -projection none -scale [-128.0 -128.0 10206.7401575 -128.0 0.0 0.0 262.502400001 0.0 m]
-
-line wall -close on
-  7772.0 1824.0
-  7756.0 1800.0 7708.0 1788.0 7712.0 1760.0
-  7716.0 1732.0 7796.0 1712.0 7836.0 1712.0
-  7876.0 1712.0 7952.0 1664.0 7944.0 1748.0
-  7936.0 1832.0 7912.0 2028.0 7896.0 2076.0
-  7880.0 2124.0 7800.0 2376.0 7800.0 2456.0
-  7800.0 2552.08 7768.0 2692.0 7724.0 2804.0
-  smooth off
-  7680.0 2732.0 7640.62 2645.19 7656.0 2576.0
-  7664.0 2540.0 7672.0 2416.0 7664.0 2368.0
-  7656.0 2320.0 7716.0 2084.0 7720.0 2068.0
-  7724.0 2052.0 7788.0 1848.0 7772.0 1824.0
-endline
-
-endscrap
-
-
-
 scrap EntranceSX1.16 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
 line wall -close on
@@ -934,6 +913,27 @@ line wall -close on
   8424.89 2327.04 8388.0 2380.0 8376.0 2392.0
   8364.0 2404.0 8323.85 2433.92 8308.0 2440.0
   8282.41 2449.81 8252.7 2413.89 8248.34787401 2440.94559055
+endline
+
+endscrap
+
+
+
+scrap EntranceSX1.15 -projection none -scale [-128.0 -128.0 10206.7401575 -128.0 0.0 0.0 262.502400001 0.0 m]
+
+line wall -close on
+  7772.0 1824.0
+  7756.0 1800.0 7708.0 1788.0 7712.0 1760.0
+  7716.0 1732.0 7796.0 1712.0 7836.0 1712.0
+  7898.1 1712.0 7948.0 1708.0 7944.0 1748.0
+  7935.6 1831.98 7912.0 2028.0 7896.0 2076.0
+  7880.0 2124.0 7800.0 2376.0 7800.0 2456.0
+  7800.0 2552.08 7764.0 2684.0 7720.0 2796.0
+  smooth off
+  7676.0 2724.0 7641.15 2645.31 7656.0 2576.0
+  7668.0 2520.0 7672.0 2424.0 7664.0 2368.0
+  7657.12 2319.84 7716.0 2084.0 7720.0 2068.0
+  7724.0 2052.0 7788.0 1848.0 7772.0 1824.0
 endline
 
 endscrap

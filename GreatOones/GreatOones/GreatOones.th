@@ -3,7 +3,7 @@ survey GreatOones
 
 input GreatOones.th2
 
-map GreatOonesM
+map GreatOonesM -title "Great Oone's"
   GreatOonesSP2
  break
   GreatOonesSP1

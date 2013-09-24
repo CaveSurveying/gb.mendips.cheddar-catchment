@@ -9,7 +9,7 @@ survey Great_Oones
 
 input Great_Oones.th2
 
-map Great_OonesM
+map Great_OonesM -title "Great Oone's"
   Great_OonesSPl1
 endmap
 

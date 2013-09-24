@@ -10,7 +10,7 @@ map XSectionM
 endmap
 
 map HeartbreakDigXM
-  XSectionM [-4750 -4200 cm] none
+  XSectionM [-4750 -4600 cm] none
   HeartbreakDigM
 endmap
 
