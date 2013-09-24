@@ -9,6 +9,7 @@ map SpiderM
   EntranceM@Entrance
  break
   HazelnutM@Hazelnut
+  TheDigM@TheDig
 endmap
 
 map SpiderEeM

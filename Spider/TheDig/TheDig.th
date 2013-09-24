@@ -7,8 +7,11 @@ input TheDigEe.th2
 
 map TheDigM
   TheDigSP1
+ break
   TheDigSP2
+ break
   TheDigSP3
+ break
   TheDigSP4
 endmap
 
