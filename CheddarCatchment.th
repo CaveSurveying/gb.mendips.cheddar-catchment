@@ -40,7 +40,7 @@ input GreatOones/GreatOones/GreatOones.th
 
 #input Largesurface/Largesurface.th
 
-input Long_Hole/Long_Hole.th
+#input Long_Hole/Long_Hole.th
 input LongHole/LongHole.th
 
 input Longwood/Longwood.th 
@@ -67,7 +67,7 @@ input Reservoir/Reservoir.th
 #replaced Willie's Rhinorift survey with Phil's which has more cave included
 input RRift/RRift.th
 
-input Sayes_Hole/Sayes_Hole.th
+input SayesHole/Sayes/Sayes.th
 
 input Spider/Spider.th
 
