@@ -1,0 +1,10 @@
+encoding  utf-8
+survey GoughsOld
+
+input NurseryEntrance/NurseryEntrance.th
+input Concert/Concert.th
+
+equate 9@NurseryEntrance 10@Concert
+
+endsurvey
+

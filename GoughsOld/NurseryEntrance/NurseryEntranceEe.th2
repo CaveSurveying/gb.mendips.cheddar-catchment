@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -220.3 -237.19 1321.83 1423.13
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {341.71085619 1 1.0} {1181.4051949 0} PocketTopo/NurseryEntrance_e.xvi 0 {}
+
+
+scrap NurseryEntranceSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

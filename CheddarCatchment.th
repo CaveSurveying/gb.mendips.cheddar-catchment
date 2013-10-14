@@ -30,6 +30,8 @@ input GB/GB.th
 
 input Goughs/Goughs.th
 
+input GoughsOld/GoughsOld.th
+
 input Grebe/Grebe.th
 
 input GreatOones/GreatOones/GreatOones.th
@@ -99,5 +101,6 @@ input Wigmore/Wigmore.th
 #input corners.th 
 
 equate 1.0@ReadsGrotto 1.0@Entrance.OldCave.Charterhouse
+equate 0@NurseryEntrance.GoughsOld 1.2@LongHole
 endsurvey
 

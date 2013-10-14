@@ -10,6 +10,13 @@ source CheddarCatchment.th
 #unselect Surface.Charterhouse
 
 #unselect corners.CheddarCatchment
+select Goughs.CheddarCatchment
+select GreatOones.CheddarCatchment
+select GoughsOld.CheddarCatchment
+select LongHole.CheddarCatchment
+select Sayes.CheddarCatchment
+select Coopers.CheddarCatchment
+select Coxs.CheddarCatchment
 
 
 #Surveys to output

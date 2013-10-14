@@ -19,7 +19,7 @@ export map -proj plan -layout combined -o Goughs_combined.pdf
 
 #export map -proj plan -fmt kml -layout mendip -o Goughs.kml
 
-#export model -fmt survex -o Goughsth.3d
+export model -fmt survex -o Goughsth.3d
 #Survex file showing centre line only
 
 #export model -o Goughs.lox

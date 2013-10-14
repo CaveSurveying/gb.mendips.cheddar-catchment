@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -575.75 -247.21 3454.49 1483.27
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {349.527559055 1 1.0} {149.505482432 10} PocketTopo/Concert_e.xvi 0 {}
+
+
+scrap ConcertSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -1,0 +1,4 @@
+encoding  utf-8
+source GoughsOld
+
+export model  -o GoughsOldth.3d

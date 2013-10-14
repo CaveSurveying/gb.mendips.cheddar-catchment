@@ -6,14 +6,18 @@ input downstream/downstream.th
 input upstream/upstream.th
 input sump1b/sump1b.th
 input bishops_palace/bishops_palace.th
+input BishopsPalace/BishopsPalace.th
 input sump2/sump2.th
 input sheppards_crook/sheppards_crook.th
 input sump3/sump3
 
 equate 20@downstream 20@upstream
 equate 160@upstream 0@sump1b
+equate 137@sump1b 1.0@BishopsPalace
+equate 1.19@BishopsPalace 0@sump2
+
 equate 137@sump1b 0@bishops_palace
-equate 19@bishops_palace 0@sump2
+#equate 19@bishops_palace 0@sump2
 equate 23@sump2 1@sheppards_crook
 equate 4@sheppards_crook 0_00@sump3
 
@@ -35,7 +39,7 @@ map ShowCaveSumpsM
 endmap
 
 map FarSumpsM
-  bishops_palaceM@bishops_palace 
+  #bishops_palaceM@bishops_palace 
   sump2M@sump2
   sheppards_crookM@sheppards_crook 
   sump3M@sump3
@@ -44,8 +48,8 @@ endmap
 
 join downstreamSPl1@downstream upstreamSPl1@upstream -smooth on
 join sump1bSPl1@sump1b upstreamSPl1@upstream -smooth on
-join sump1bSPl1@sump1b bishops_palaceSPl1@bishops_palace -smooth on
-join bishops_palaceSPl1@bishops_palace sump2SPl1@sump2 -smooth on
+#join sump1bSPl1@sump1b bishops_palaceSPl1@bishops_palace -smooth on
+#join bishops_palaceSPl1@bishops_palace sump2SPl1@sump2 -smooth on
 join sump2SPl1@sump2 sheppards_crookSPl1@sheppards_crook -smooth on
 join sheppards_crookSPl1@sheppards_crook sump3SPl1@sump3 -smooth on
 
@@ -65,7 +69,7 @@ join downstreamSE0_1@downstream upstreamSE0_1@upstream -smooth on
 join upstreamSE0_1@upstream sump1bSE0_1@sump1b -smooth on  
 
 map sump2plusE270M -proj [elevation 270]
-  bishops_palaceE270M@bishops_palace
+ # bishops_palaceE270M@bishops_palace
   sump2E270M@sump2
   sheppards_crookE270M@sheppards_crook
 endmap
