@@ -1,0 +1,82 @@
+encoding  utf-8
+survey Champions
+
+input Champions.th2
+
+map ChampionsM
+  ChampionsSP1
+endmap
+
+centreline
+
+copyright 2013 "CC BY SA NC"
+
+station 42 "Champions Cave" entrance
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#DistoX-ChrisP 0.29
+#Notes:Andrew Atkinson
+#DistoX: Alison Moody
+#Dog: 
+
+  date 2013.10.15
+
+  team "Andrew Atkinson" notes
+  team "Alison Moody" instruments
+
+  instrument  instruments "UBSS-ChrisP"
+
+  explo-date 2013.10.15
+
+data normal from to tape compass clino ignoreall
+  extend right
+flags surface
+40  -  6.959  254.42  20.55  239  
+40  -  5.618  267.94  21.68  234  
+40  -  6.667  275.98  20.77  233  
+40  -  7.591  290.97  20.03  233  
+40  -  9.926  304.18  19.89  230  
+40  -  4.784  311.22  16.58  232  
+40  -  11.476  311.81  17.14  232  
+#41  40  6.623  96.87  -20.01  358  
+#41  40  6.599  97.14  -20.1  355  
+#41  40  6.619  97.12  -20.12  355  
+41  40  6.614  97.0  -20.08  Calculated leg from 3 above
+41  -  4.69  54.81  -15.43  337  
+41  -  4.328  77.43  -2.18  331  
+41  -  5.789  44.19  -6.52  337  
+41  -  6.73  35.76  -9.4  337  
+41  -  7.4  129.5  -5.08  331  
+#41  42  5.252  166.55  -19.58  8  
+#41  42  5.247  166.66  -19.71  8  
+#41  42  5.248  166.92  -19.55  8  
+41  42  5.249  166.6  -19.62  Calculated leg from 3 above
+flags not surface
+42  -  0.356  307.56  -55.46  348  
+42  -  0.652  331.67  -20.23  21  
+42  -  0.628  322.64  10.62  350  
+#43  42  0.628  60.6  16.73  357  
+#43  42  0.627  60.68  16.66  358  
+#43  42  0.627  60.45  16.72  358  
+43  42  0.627  60.64  16.7  Calculated leg from 3 above
+43  -  0.305  50.06  70.05  46  temp
+43  -  0.51  125.06  11.63  8  
+43  -  0.902  329.51  11.94  84  
+43  -  0.993  261.11  0.96  358  
+43  -  1.693  311.63  12.6  29  
+43  -  5.302  280.67  74.92  81  
+43  -  2.856  157.81  29.68  350  
+43  -  2.936  166.82  31.4  350  
+43  -  3.016  182.06  28.95  350  
+#43  44  6.034  167.83  26.7  350  
+#43  44  6.015  167.76  26.77  348  
+#43  44  6.017  167.71  26.79  348  
+43  44  6.022  167.79  26.75  Calculated leg from 3 above
+44  -  0.196  52.2  5.4  81  temp
+44  -  0.196  270.62  -0.09  270  
+44  -  0.76  284.31  66.46  264  
+44  -  0.854  29.91  82.97  163  
+44  -  0.77  9.08  -69.15  21  
+endcentreline
+endsurvey
+

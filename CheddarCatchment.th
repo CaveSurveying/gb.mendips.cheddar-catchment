@@ -2,53 +2,34 @@ encoding  utf-8
 survey CheddarCatchment -title "Gough'sCave,<br>Reservoir Hole<br>and<br>White Spot Cave"
 #to process this the correct 3d files are needed 
 #in the correct directories
-
 input Attborough/Attborough.th
-
 input Blackmoor/Blackmoor.th
-
 input BoneHole/BoneHole.th
 input BoweryCorner/BoweryCorner.th
 input Box/Box.th
-
 input BoxCave/BoxCave.th
-
+input Champions/Champions.th
 input Charterhouse/Charterhouse.th
-
 input CharterhouseWarren/CharterhouseWarren.th
-
 input ChelmsCombe/ChelmsCombe.th
-
 input Coopers/Coopers.th
-
 input Coxs/Coxs.th
-
 #corners is only needed for google maps mendip map
 #input corners.th
-
 input GB/GB.th
-
 input Goughs/Goughs.th
-
 input GoughsOld/GoughsOld.th
-
 input Grebe/Grebe.th
-
 input GreatOones/GreatOones/GreatOones.th
 
 #input Great_Oones/Great_Oones.th
-
 #input "Great Swallet/Great_Swallet.th" 
-
 #input Largesurface/Largesurface.th
 
 #input Long_Hole/Long_Hole.th
 input LongHole/LongHole.th
-
 input Longwood/Longwood.th 
-
 input Long_Vall_Sink/Long_Vall_Sink.th
-
 input ManorFarm/ManorFarm.th 
 
 #files containing other entrances
@@ -57,44 +38,27 @@ input Other_Sites/Other.th
 input Other_Sites/UF_Area.th
 
 input Palmers/Palmers.th
-
 #input Reads/Reads.th
 #replace old read with 2010 version
 input ReadsGrotto/ReadsGrotto.th
-
 input Reynolds/Reynolds.th
-
 input Reservoir/Reservoir.th
-
 #replaced Willie's Rhinorift survey with Phil's which has more cave included
 input RRift/RRift.th
-
 input SayesHole/Sayes/Sayes.th
-
 input Spider/Spider.th
-
 input Surface/Surface.th
-
 input Hangover/Hangover.th
-
 input Timber/Timber.th
-
 input Toothache/Toothache.th
-
 input Totty/Totty.th
-
 input TyningsGS/TyningsGS.th
-
 input TyningsBarrow/TyningsBarrow.th
-
 input UpperFlood/UpperFlood.th
-
 input Waterwheel/Waterwheel.th
 input WhitebeamArea/WhitebeamArea.th
-
 #input White_Spot/White_Spot.th
 input WhiteSpot/WhiteSpot.th
-
 input Wigmore/Wigmore.th
 
 #file with 4 fixed co-ordinates, to make sure same size plot every time for mendip map
@@ -102,5 +66,6 @@ input Wigmore/Wigmore.th
 
 equate 1.0@ReadsGrotto 1.0@Entrance.OldCave.Charterhouse
 equate 0@NurseryEntrance.GoughsOld 1.2@LongHole
+equate 40@Champions 39@Entrance.GoughsOld
 endsurvey
 

@@ -1,0 +1,66 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -137.763779527 -60.71653543299999 905.637795276 1770.086614173
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {748.818897638 1 1.0} {914.842519685 39} PocketTopo/Champions_p.xvi 0 {}
+
+
+
+scrap ChampionsSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap ChampionsSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap ChampionsSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap ChampionsSP4 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap ChampionsSP5 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap ChampionsSP6 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap ChampionsSP7 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap ChampionsSP8 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap ChampionsSP9 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap ChampionsSP10 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+

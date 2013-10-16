@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -399.21 -410.87 2395.28 2465.2
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1943.7007874 1 1.0} {377.086614173 24} PocketTopo/Entrance_p.xvi 0 {}
+
+
+scrap EntranceSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap EntranceSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap EntranceSPX28 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap EntranceSPX26 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

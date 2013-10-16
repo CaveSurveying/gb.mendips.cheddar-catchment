@@ -3,8 +3,13 @@ survey GoughsOld
 
 input NurseryEntrance/NurseryEntrance.th
 input Concert/Concert.th
+input Entrance/Entrance.th
 
 equate 9@NurseryEntrance 10@Concert
+equate 24@Entrance 10@Concert
+
+
+
 
 endsurvey
 

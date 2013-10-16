@@ -11,6 +11,7 @@ source CheddarCatchment.th
 
 #unselect corners.CheddarCatchment
 select Goughs.CheddarCatchment
+select Champions.CheddarCatchment
 select GreatOones.CheddarCatchment
 select GoughsOld.CheddarCatchment
 select LongHole.CheddarCatchment
