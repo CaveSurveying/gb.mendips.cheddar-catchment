@@ -9,14 +9,18 @@ layout l1
  	scale 1 200
 endlayout
 
-export continuation-list -o 0.Maps/continuation-list.html
-export continuation-list -o 0.Maps/continuation-list.txt
+select UpperFlood
+#select NeverlandDisto.Neverland.UpperFlood
+#select WestPassage.UpperFlood
+
+#export continuation-list -o 0.Maps/continuation-list.html
+#export continuation-list -o 0.Maps/continuation-list.txt
 export model -format survex -o 0.Maps/UF.3d
-#export model -format loch -o 0.Maps/UF.lox
-#export map -projection plan -format pdf -layout l1 -o 0.Maps/UF_CL.pdf
-export map -projection plan -format xvi -layout l1 -o 0.Maps/UF.xvi
-#export map -projection [elevation 55 deg] -format pdf -layout l1 -o 0.Maps/UF_CLel.pdf
-#export map -projection elevation -format xvi -o 0.Maps/UF_el.xvi
-export database -format sql -o 0.Maps/UF.sql
-export survey-list -o 0.Maps/survey-list.txt
-export continuation-list -o 0.Maps/continuation-list.txt
+ #export model -format loch -o 0.Maps/UF.lox
+ #export map -projection plan -format pdf -layout l1 -o 0.Maps/UF_CL.pdf
+#export map -projection plan -format xvi -layout l1 -o 0.Maps/UF.xvi
+ #export map -projection [elevation 55 deg] -format pdf -layout l1 -o 0.Maps/UF_CLel.pdf
+ #export map -projection elevation -format xvi -o 0.Maps/UF_el.xvi
+#export database -format sql -o 0.Maps/UF.sql
+#export survey-list -o 0.Maps/survey-list.txt
+#export continuation-list -o 0.Maps/continuation-list.txt

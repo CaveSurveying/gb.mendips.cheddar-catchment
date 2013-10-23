@@ -7,38 +7,41 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
    # Fixes entrance, equates component centrelines
    # Note: loops are closed in the relevant sub-survey files, not here.  
    #       This ensures that standalone sub-surveys include loop closure.  
-   # Note: scrap joins are below under INPUT section
+   # Note: scrap joins are listed below INPUT section
 
 #   declination 1972-04-13 -7.630 1972.05.24 -7.619 deg
 
-   centreline
-     author 2007.01.23 "Ben Cooper"
-     copyright 2010 "Mendip Caving Group"
-     declination 0 degrees
-
-   #cs EPSG:27700
+  centreline
+    author 2007.01.23 "Ben Cooper"
+    copyright 2010 "Mendip Caving Group"
+    
+    #cs EPSG:27700
    
-     # Join Golden Chamber survey to the MCG paper survey:-     
-     equate RA2@GoldenChamber    RA2@MCGPaper.Entrance
-     
-     equate 1@BoulderChoke    14@GoldenChamber   
-     equate 1@Leg1.MalcolmsWay    39@BoulderChoke
+    # Join Golden Chamber survey to the Entrance survey:-     
+    #equate RA2@CC.GoldenChamber    		RA2@MCGPaper.Entrance
+    equate RA2@CC.GoldenChamber    		1.13a@LavatoryTrap.Entrance # Approximately
+    
+    equate 1@BoulderChoke    			14@CC.GoldenChamber   
+    equate 1@Leg1.MalcolmsWay    		39@BoulderChoke
 
-     #equate CH1@CharnelPassage    15@Leg2.MalcolmsWay
-     equate UF_1.1@CharnelFull    15@Leg2.MalcolmsWay
-     equate MW9@RoyalIcing     9@Leg2.MalcolmsWay
-     equate 36@RoyalIcing    RI@SouthPassage
+    #equate CH1@CharnelPassage    		15@Leg2.MalcolmsWay
+    equate 1.1@Disto.CharnelPassage    15@Leg2.MalcolmsWay
+    equate MW9@RoyalIcing     			9@Leg2.MalcolmsWay
 
-     # ** the following 6 equate statements need to be swapped round.....
-     #equate d7@SouthPassage      36@RoyalIcing  # d7 approximate location (could also be 35@RI)
-     equate 1@EP.Pony.EastPassage    36@RoyalIcing   # Fixed station in Royal Icing Chamber
+    equate 1@EP_Pony.EastPassage    	RI36@RoyalIcing   # Fixed station in Royal Icing Chamber
 
-     #equate d8@CentreLineOnly.WestPassage  d8@SouthPassage  # original TF and DW survey
-     equate 2.78@DistoX.FullLRUD.WestPassage   42@RoyalIcing   # Fixed station above Neverland entrance
+    equate RI@SouthPassage				RI36@RoyalIcing    			
+    #equate d7@SouthPassage      		RI36@RoyalIcing  # d7 approximate location (could also be 35@RI)
+
+    #equate d8@CentreLineOnly.WestPassage  d8@SouthPassage  # original TF and DW survey
+    equate RI42@WestPassage   RI42@RoyalIcing   # Fixed station above Neverland entrance
+    
+    #Close link (LinkRift)
+    equate 1.0@LRDisto.LinkRift.WestPassage 3.38@NeverlandDisto.Neverland
    
-     equate N1@NeverlandCC.Neverland      42@RoyalIcing
+    equate N1@NeverlandCC.Neverland      RI42@RoyalIcing
       
-   endcentreline
+  endcentreline
 
    # INPUTS
    # ======
@@ -51,9 +54,10 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
    input Grid.th2
    input Grid_Larger.th2
    
+   input Outline.th2
+   
    #input Speculation.th2
    input Snippets.th2
-   input Snippets_RI.th2
    join wall_SN_NW1   wall_CH_NE1
    join wall_SN_NW2:0  wall_CH_NE2:end
    join wall_SN_NW2:end  wall_CH_NE2:0
@@ -66,92 +70,57 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
    input Continuations.th2
    
    input Entrance/Entrance.th
-   input Entrance/Entrance_s1r.th2
-   input Entrance/Entrance_s2.th2
-   input Entrance/Entrance_s3.th2
-   join UF_s2 UF_s1
-   join wall_Es3_1 wall_Es2_1
-   join wall_Es3_2 wall_Es2_2
-   input Entrance/MidnightChamber.th2
    
    input GoldenChamber/GoldenChamber.th
-   input GoldenChamber/GoldenChamber_s1.th2
-   input GoldenChamber/StreamwayRegained_s1.th2
-   join wall_GCs1_1:end wall_Es2_1:end -smooth on
-   join wall_GCs1_2:0 wall_Es2_3:0
-   #join GC_p1 RR_p1
-   #join chim1 pit1
-
+   join wall_LTs1_1@LavatoryTrap.Entrance	wall_GCs1_1@GoldenChamber
+   join l13-1050-287@LavatoryTrap.Entrance	wall_GCs1_2@GoldenChamber	
+ 
    input BoulderChoke/BoulderChoke.th
    input BoulderChoke/BoulderChoke_s0.th2 # Contains the presumed passage widths
    input BoulderChoke/BoulderChoke_sL.th2 # Contains the detailed labels
    input BoulderChoke/BoulderChoke_s1.th2 # Section from 3D to Rope Climb
    input BoulderChoke/BoulderChoke_s2.th2 # Section from Rope Climb to Easy Squeeze
    input BoulderChoke/BoulderChoke_s3.th2 # Section from Easy Squeeze to Departure Lounge
-   join BoulderChoke_s1 StreamwayRegained_s1
+   join BoulderChoke_s1 StreamwayRegained_s1@GoldenChamber
    
    input MalcolmsWay/MalcolmsWay.th
    equate PAINTED-MW1-stal@Leg1.MalcolmsWay    39@BoulderChoke
-
-   input MalcolmsWay/MalcolmsWay_s1.th2
-   input MalcolmsWay/MalcolmsWay_s2.th2
-   input MalcolmsWay/MalcolmsWay_s3.th2
-   input MalcolmsWay/MalcolmsWay_s4.th2
-   # ID convetion:  <item>_<Passage Initials><Scrap Number>_<Sequence>  Sequence counts L->R; Up->Down
-   join wall_FFMWs1_1 wall_BCs3_1    
-   join wall_FFMWs1_2 wall_BCs3_2
    
    input WalkThePlankChamber/WalkThePlankChamber.th
-   equate PAINTED-MW4-stal@WalkThePlankChamber        PAINTED-MW4-stal@MalcolmsWay
-   join MalcolmsWay_s1 PlankChamber_s1@WalkThePlankChamber
+   equate PAINTED-MW51-stal@WalkThePlankChamber        PAINTED-MW51-stal@MalcolmsWay
+   join MalcolmsWay_s1@MalcolmsWay PlankChamber_s1@WalkThePlankChamber
   
    input WallStreet/WallStreet.th
    equate s22@WallStreet    22@Leg2.MalcolmsWay
 
    input WallStreet/WallStreet.th2
-   join WallStreet_s1  MalcolmsWay_s3
+   join WallStreet_s1  MalcolmsWay_s3@MalcolmsWay
    
-   #input CharnelPassage/CharnelPassage.th
-   #input CharnelPassage/CharnelPassage.th2
-   input CharnelPassage/UF_Charnel.th
-   input CharnelPassage/UF_Charnel_s1.th2
-   input CharnelPassage/UF_Charnel_s2.th2
-   join UF_Charnel_s1 MalcolmsWay_s3
+   input CharnelPassage/CharnelPassage.th
+   #input CharnelPassage/CharnelPassage_CC.th2
+   input CharnelPassage/CharnelPassage_s1.th2
+   input CharnelPassage/CharnelPassage_s2.th2
+   join CharnelPassage_s1 MalcolmsWay_s3@MalcolmsWay
 
-   input RoyalIcing/UF_RoyalIcing.th
-   input RoyalIcing/UF_RoyalIcing_s1.th2
-   join wall_RIs1_1      wall_MWs3_2:29
-   join wall_RIs1_1b:end wall_MWs3_3:end
-   join wall_RIs1_1b:0   wall_MWs3_3:0
-   join wall_RIs1_1c:end wall_MWs3_4:0
-   join wall_RIs1_1c:0   wall_MWs3_4:end
-   join wall_RIs1_5      wall_MWs3_1:0
+   input RoyalIcing/RoyalIcing.th
+    #join wall_RIs1_1@RoyalIcing      wall_MWs3_2:29
+    #join wall_RIs1_1b@RoyalIcing wall_MWs3_3:end
+    #join wall_RIs1_1b@RoyalIcing   wall_MWs3_3:0
+    #join wall_RIs1_1c@RoyalIcing wall_MWs3_4:0
+    #join wall_RIs1_1c@RoyalIcing   wall_MWs3_4:end
+    #join wall_RIs1_5@RoyalIcing      wall_MWs3_1:0
 
-   input RoyalIcing/UF_RoyalIcing_s2.th2
-   #JOIN start=0!!
-   join wall_RIs2_W:0   wall_RIs1_3:0
-   join wall_RIs2_W:end   wall_RIs1_3:4 
-   join wall_RIs2_E:end   wall_RIs1_1:end
-   join wall_RIs2_E:0    wall_RIs1_SE:0
-
-   input RoyalIcing/UF_RoyalIcing_s3.th2
-   join wall_RIs3_NE:0     wall_RIs1_SE:4
-   join wall_RIs3_Pillar:0 wall_RIs1_SE:end
-   join wall_RIs3_NW:0     wall_RIs1_SW:end
    
-   input RoyalIcing/UF_RoyalIcing_s4.th2
-
    input SouthPassage/SouthPassage.th # South Passage
-
    input EastPassage/EastPassage.th
 
    input WestPassage/WestPassage.th
-   join WestPassage_s1@WestPassage RoyalIcing_s3
+   join WestPassage_s0@WestPassage RoyalIcing_s3@RoyalIcing
    #join wall_RIs3_NW:end   wall_WPs1_1:0  # Northern wall to Royal Icing
    #join wall_RIs3_4:0      wall_WPs1_2:0  # Eastern edge of NL entrance
 
    input Neverland/Neverland.th
-   join NeverlandDisto_s1@Neverland  WestPassage_s1@WestPassage
+   join NeverlandDisto_s1@Neverland  WestPassage_s0@WestPassage
    
    # MAPS.  Only maps can be selected in thconfig.
    # ====
@@ -176,25 +145,21 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
    # Ouline_m2500
    # ============
    # Outline only small scale map with no text,  Good for Bill's website overlay and T-shirt.  
-   #map Outline_m2500
-       #preview below UF_m1   # "preview below" creates a greyed outline of the cave
-       #preview above Centreline_m1 # Preview above removes labels and other detail
-       #Survey_m1 
-       #preview above # Preview above removes labels and other detail
-   #endmap
+   map Outline_m2500
+       Outline_m1
+       preview below UF_m1   # "preview below" creates a greyed outline of the cave
+   endmap
 
    map Map_mFixedStations -title "Upper Flood Swallet" 
      UF_mFixed
-#		break
-#       UF_m0
      preview below UF_m1
    endmap
 
    map Map_Continuations -title "Upper Flood Swallet" 
+     Grid_m1
      UF_mContinuations
-#		break
-#       UF_m0
      preview below UF_m1
+	 UF_mContinuation_Offset [-0 -100 m] none
    endmap
 
    # Map_m500 - This is the main detailed 1:500 scale map, all in one page.  
@@ -223,7 +188,6 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
    map UF_m0 -proj plan
        Legend_s1
        Grid_s1
-       Snippets_s1
        #Speculation_s1
    endmap
    
@@ -231,10 +195,13 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
        Grid_s1
    endmap
    
+   map Outline_m1
+       Outline_s1
+   endmap
+   
    map UF_Larger_m0 -proj plan
        Legend_s1
        Grid_Larger_s1
-       Snippets_s1
        #Speculation_s1
    endmap
    
@@ -242,54 +209,58 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
        FixedStations_s1
    endmap
    
-   map UF_mContinuations
-       Continuations_s1
-   endmap
-
    map UF_m1
+       Entrance_map@Entrance
+       EntranceDisto_map@Entrance
+       GoldenChamber_map@GoldenChamber
        BoulderChoke_m1
        Neverland_m1@Neverland
-       WestPassage_Rift_m1@WestPassage
-       RoyalIcing_m1
+       RoyalIcing_m1@RoyalIcing
        SouthPassage_m1@SouthPassage
-       EastPassage_m1@EastPassage
-       WestPassage_m1@WestPassage
+       EastPassage_map@EastPassage
+       WestPassage_m0@WestPassage
+       WestPassage_mOffset@WestPassage [-15 -90 m] below
+       WestPassage_m3@WestPassage
        WalkThePlankChamber_m1@WalkThePlankChamber
        UF_m2
        break
        BoulderChoke_m0
+	   MalcolmsWay_map@MalcolmsWay
        #break
        #Survey_m1
        #Centreline_m1
    endmap
 
    map UF_m2 -proj plan
-       UF_s1
-       UF_s2
-       UF_s3
-       GoldenChamber_s1
+       Snippets_s1
        break
-       StreamwayRegained_s1
+       CharnelPassage_s2
        break
-       MalcolmsWay_s1
-       break
-       MalcolmsWay_s2
-       break
-       UF_Charnel_s2
-       break
-       UF_Charnel_s1       
-       MalcolmsWay_s3 
+       CharnelPassage_s1       
        break
        WallStreet_s1
-       MalcolmsWay_s4 
-endmap
+   endmap
+   
+   map UF_mContinuations
+       Continuations_s1
+   endmap
+   
+   # To get offset in the Continuations "preview below" mode is more complex.
+   # We need a map that already has the Continuation scrap with preview below of the associated cave scraps
+   map UF_mContinuation_Offset
+    UF_mContinuation_WP
+	WestPassage_mOffset@WestPassage
+   endmap
+   map UF_mContinuation_WP
+     Continuations_s2     
+   endmap
 
    # Technical map overlay showing Ben and Paul's survey of Midnight Chamber.  Seldom selected.
    # Similar will be produced for Martin and Yvonne's survey, when they have provided LRUD.
-   map MC_m1
-       MC_s1    # Ben and Paul's survey overlay
-       preview below UF_m1
-   endmap
+   #map MC_m1
+   #    MC_s1    # Ben and Paul's survey overlay
+   #    preview below UF_m1
+   #endmap
 
    # Keep centreline separate for Preview Above in m2500 output
    map Survey_m1 -proj plan
@@ -306,12 +277,6 @@ endmap
        #SouthPassage_s1 
    #endmap
    
-   map GoldenChamber_m1
-       GoldenChamber_s1 
-       break
-       StreamwayRegained_s1
-   endmap
-
    map BoulderChoke_m0  # Presumed boundary of boulder choke passage, selectable for different outputs
        BoulderChoke_s0
    endmap
@@ -335,19 +300,7 @@ endmap
        break
        BoulderChoke_s3
    endmap
-
-   map RoyalIcing_m1
-       RoyalIcing_s2
-       RoyalIcing_s3
-       break
-       RoyalIcing_s4
-       RoyalIcing_s1
-       break
-       Snippets_RI_s1
-   endmap
    
-
-
    # SURFACE OVERLAYS
    # ================
    # Only one surface / bitmap definition permitted.  Un-comment as required.  
@@ -357,7 +310,7 @@ endmap
      surface 
 #       cs EPSG:27700 
        #cs OSGB:SN
-       bitmap "../../images/6in BGS map Blkmoor.jpg" [236 177 350000 155000 801.5 732.7 351000 156000]
+       #bitmap "../../images/6in BGS map Blkmoor.jpg" [236 177 350000 155000 801.5 732.7 351000 156000]
          #NOTES:-
          # size 436.034mm x 337.346mm (1648 x 1275) pixels
          # Grid 1 62.5mm x 46.827 mm (236, 177)pixels E(350)000,N(155)000

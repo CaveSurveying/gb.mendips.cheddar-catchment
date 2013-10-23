@@ -1,6 +1,15 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 4864.13 15080.69 19699.0177 34687.7177
+##XTHERION## xth_me_area_adjust 5828.0 16700.0 6124.0 16996.0
 ##XTHERION## xth_me_area_zoom_to 25
-##XTHERION## xth_me_image_insert {9611.55 1 1.0} {32164.07 Entrance@Entrance} xvi/UF.xvi 0 {}
+
+
+
+scrap Outline_s1 -scale [-128.0 -128.0 797.291338583 -128.0 0.0 0.0 23.5024 0.0 m]
+
+point 5976.0 16848.0 station -name ENTRANCE@Entrance
+
+point 5976.0 16848.0 entrance -orientation 144
+
+endscrap
 
 

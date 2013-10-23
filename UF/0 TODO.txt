@@ -1,9 +1,36 @@
-July 2009
+June 2012
+Tim
+-      It probably needs some more detail on the ‘old cave’ so that these names don’t get lost i.e. Upper Flood Passage, 
+       Chocolate Muffin Inlet, stream coming in at Midnight Chamber, The Canal. It looks a bit lonely now when compared to the exciting new stuff.
+-      The colour of the passage at Shale Rift / Rip Off Aven. It looks a lighter orange than the entrance area but the spot heights indicate that it is at the same level? Did your survey ever go up the top of Rip Off Aven or is this Malcolm’s original? The centre line suggests that it didn’t.
+-      When we are next down there, let’s fire a leg or two down Walk the Plank Inlet.
+
+DONE -      Trench Inlet: I think that gets called Trench Rising
+DONE -      Is the last bit at the end of Neverland called “Far Chamber”?
+DONE -      Doesn’t the copyright text become 2012?
+DONE Streamway Regained: 07/05/2006 ***
+OK From: Mike Richardson [mailto:mike@quaking.demon.co.uk] 
+OK Sent: 13 June 2012 15:34
+OK Golden Chamber: 29/08/2004
+DONE Streamway Regained: ??/5/2006 ***
+DONE Easy Squeeze: 10/9/2006 ***
+OK Thieves' Chamber: 08/12/2007
+DONE Wall Street: 2/6/2007 ***
+DONE End of Wall Street: 4/2/2011 ***
+DONE Charnel Passage: 23/9/2006 ***
+DONE Halogen Loft: 30/9/2006 ***
+DONE Birthday Surprise: 5/7/2008 ***
+DONE Neverland: 1/12/2006 ***
+DONE Neverland sump: April 2007
+OK Chuckle's Joke: 15/08/2010
+OK Rift Series: 13/06/2008
+DONE AWOL Aven: 3/11/2011 ***
+DONE Muddy Hell: 26/5/2021 ***
+OK July 2009
 DONE Add RoyalIcing_s4 for crawl below RI chamber
-
 DONE Complete joins between RI and WP; WP and Neveraland
+DONE - Get copyright working...
 
-- Get copyright working...
 - Snippets
 - fixed point for dye trace on surface
 - Add back in scraps that trace centreline for Bill output
@@ -18,18 +45,16 @@ DONE there is no Grid Ref for the entrance.
 DONE The 100m grid has no numbers.
 DONE The survey is undated.
 DONE CHange size of header text  
-DONE The dates of digs/breakthroughs are a little confusing. Eg Golden 
-	Chamber 2005-08 sounds like 2005-2008.
-East/West Passages and Royal Icing Passage - are these centre line 
-only?  
+DONE The dates of digs/breakthroughs are a little confusing. Eg Golden Chamber 2005-08 sounds like 2005-2008.
+DONE East/West Passages and Royal Icing Passage - are these centre line only?  
 -> Yes of course - only a centreline is visible!  What change?			
 
-No depths are given.  
+DONE No depths are given.  
 -> No - this is usually done from an elevation.  I've not done one yet.
+
 An extended or projected elevation would be useful.
 
-The surface features are in a very small font. Are they even 
-necessary?  
+DONE The surface features are in a very small font. Are they even necessary?  
 -> They are there for MCG reference - not as part of a finished survey.  They can be turned off easily enough.
 
 Can Grebe, Waterwheel and Blackmoor surveys be added? 
@@ -39,7 +64,6 @@ An inset map of location would be handy.
 -> Don't know how to do this in Therion (although I could use the map overlay feature...)
 
 DONE Add www.m-c-g.org.uk or www.mendipcavinggroup.org.uk
-
 DONE The text for 550m Way overlies the name of a surface feature.
 
 For info, I belive we sold 13 copies of the A3 survey at HE even 
@@ -49,8 +73,6 @@ almost immediately.
 Martin
 
 - Origin for atlas  origin x y z units - which units?
-
-
 - work out how to supress high level detail
 - trace in detail from Malcolm's survey
 - produce high detailed UF_a (altas) detail at 1:200

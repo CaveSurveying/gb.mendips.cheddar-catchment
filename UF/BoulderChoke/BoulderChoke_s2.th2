@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -87.435 -80.755 1331.0 1296.6979
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust 31.865 109.25 936.75 1177.393
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {159.865 1 1.0} {1049.393 gc13} xvi/BoulderChoke.xvi 0 {}
 
 
@@ -48,17 +48,10 @@ line wall
   540.0 429.0
 endline
 
-line wall -subtype blocks
-  679.5 238.5
-  705.0 241.5 733.16 261.57 736.0 289.0
-  738.84 316.43 662.5 351.0 642.0 341.0
-  smooth off
-endline
-
 line wall
   540.0 429.0
   549.5 415.0 588.5 358.0 603.0 340.0
-  617.5 322.0 679.5 238.5 679.5 238.5
+  617.5 322.0 623.5 313.5 623.5 313.5
   smooth off
 endline
 
@@ -68,16 +61,16 @@ line rock-edge
   smooth off
 endline
 
-line pit
+line pit -outline out -clip off
   642.0 341.0
   629.5 332.5 621.0 325.5 623.5 313.5
   smooth off
 endline
 
-point 1133.0 424.0 label -text "Call the Samaritans" -scale s
+point 807.5 423.5 label -text "Call the Samaritans" -scale m -align r
 
 line arrow -head begin
-  573.0 439.0
+  587.0 438.5
   799.0 424.0
 endline
 

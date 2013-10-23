@@ -35,7 +35,6 @@ point 186.22 28.74 station -name Grid_09_01@Grid
 
 # Northings
 
-
 point 24.0 304.25 label -text "55800" -scale m
 
 point 24.0 265.0 label -text "55700" -scale m
@@ -53,7 +52,6 @@ point 24.0 67.5 label -text "55200" -scale m
 point 24.0 28.5 label -text "55100" -scale m
 
 #Eastings
-
 
 point 225.5 25.25 label -text "51000" -scale m
 

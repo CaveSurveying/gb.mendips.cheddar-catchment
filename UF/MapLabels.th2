@@ -35,14 +35,14 @@ line label -text "Rip Off Aven"
   13248.0 15756.0
 endline
 
-point 15120.85 14134.6 station -name rr2@GoldenChamber
+point 15120.85 14134.6 station -name rr2@CC.GoldenChamber
 
 line label -text "Red Room"
   15248.0 14128.0
   15840.0 14128.0
 endline
 
-point 14991.08 13818.04 station -name 7@GoldenChamber
+point 14991.08 13818.04 station -name 7@CC.GoldenChamber
 
 line label -text "Golden Chamber"
   15312.0 13836.0
@@ -102,7 +102,7 @@ line label -text "23/09/2006"
   19372.0 7968.0
 endline
 
-point 18550.54 7059.36 station -name E1@CL.EastPassage
+point 18550.54 7059.36 station -name E1@EP_CL.EastPassage
 
 line section
   18568.0 6948.0
@@ -120,7 +120,7 @@ line label -text "East Passage"
   20412.0 7308.0
 endline
 
-point 19137.71 7241.9 station -name E5@CL.EastPassage
+point 19137.71 7241.9 station -name E5@EP_CL.EastPassage
 
 line label -text "Sump"
   19988.0 6504.0
@@ -151,7 +151,7 @@ point 14074.32 17761.16 station -name L7@MCGPaper.Entrance
 
 point 13834.52 17529.8 station -name L1b@MCGPaper.Entrance
 
-point 20431.55 6514.49 station -name E32@CL.EastPassage
+point 20431.55 6514.49 station -name D32@BZA_CL.BeyondZebraAven.EastPassage
 
 point 15316.0 6732.0 traverse -scale l
 

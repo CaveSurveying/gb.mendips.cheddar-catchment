@@ -5,14 +5,27 @@ encoding  utf-8
 
 
 
-scrap Continuations_s1 -projection plan -stations [31@BeyondZebraAven.Pony.EastPassage 35@BeyondZebraAven.Pony.EastPassage 49@BeyondZebraAven.Pony.EastPassage 62@BeyondZebraAven.Pony.EastPassage 63@BeyondZebraAven.Pony.EastPassage 66@BeyondZebraAven.Pony.EastPassage 2.6@ChuckleChoke.WestPassage ] -scale [-128.0 -128.0 14706.8877 -128.0 0.0 0.0 376.80614758 0.0 m]
+scrap Continuations_s1 -projection plan -stations [M2d@MCGPaper.Entrance M11d@MCGPaper.Entrance 11d@MidnightChamber.Entrance BS10@MCGPaper.Entrance r4d@CC.GoldenChamber r14@CC.GoldenChamber 31d@BoulderChoke 34@Leg1.MalcolmsWay 35@Leg1.MalcolmsWay 2@Leg2.MalcolmsWay MW55@MW.WalkThePlankChamber 2b@TrenchPassage_Pony.WalkThePlankChamber 6a@TrenchPassage_Pony.WalkThePlankChamber 7a@TrenchPassage_Pony.WalkThePlankChamber D7a@ThievesChamber_Pony.WalkThePlankChamber D11@ThievesChamber_Pony.WalkThePlankChamber ws11@WallStreet wp12@WallStreet 1.0a@Disto.CharnelPassage 1.23@Disto.CharnelPassage 27@Pony.RoyalIcing 1.2a@HiddenPassage.RoyalIcing 1.9@HiddenPassage.RoyalIcing 10@EP_Pony.EastPassage 11@EP_Pony.EastPassage 22d@EP_Pony.EastPassage 23@EP_Pony.EastPassage 32@EP_Pony.EastPassage 45@EP_Pony.EastPassage 49@EP_Pony.EastPassage 51@EP_Pony.EastPassage 4b@DeepPoolTube.EastPassage 14@DownUnder.EastPassage 21@BZA_Pony.BeyondZebraAven.EastPassage 31@BZA_Pony.BeyondZebraAven.EastPassage 35@BZA_Pony.BeyondZebraAven.EastPassage 45@BZA_Pony.BeyondZebraAven.EastPassage 49@BZA_Pony.BeyondZebraAven.EastPassage 62@BZA_Pony.BeyondZebraAven.EastPassage 63@BZA_Pony.BeyondZebraAven.EastPassage 66@BZA_Pony.BeyondZebraAven.EastPassage 67@BZA_Pony.BeyondZebraAven.EastPassage 1.38@Disto.SouthPassage 1.40@Disto.SouthPassage 1.51@Disto.SouthPassage   1.0@WPDisto.WestPassage 2.2d@WPDisto.WestPassage 2.5@WPDisto.WestPassage 2.18@WPDisto.WestPassage F1@NeverlandCC.Neverland G1@NeverlandCC.Neverland H1@NeverlandCC.Neverland 3.35@NeverlandDisto.Neverland 18@NeverlandRopeClimb.Neverland 33@NeverlandRopeClimb.Neverland 47@NeverlandRopeClimb.Neverland] -scale [-128.0 -128.0 14706.8877 -128.0 0.0 0.0 376.80614758 0.0 m]
+
+#L1@GoldenChamber L2@GoldenChamber L3@GoldenChamber L4@GoldenChamber 
 
 point 2344.46 6494.81 station -name 46@NeverlandRopeClimb.Neverland
 
-point 10441.94 4602.38 station -name 35@EP.Pony.EastPassage
+point 10441.94 4602.38 station -name 35@EP_Pony.EastPassage
 
 point 4582.73 16269.96 station -name E0@MCGPaper.Entrance
 
+endscrap
+
+
+
+scrap Continuations_s2 -projection plan -stations [2.28@WPDisto.WestPassage 2.29@WPDisto.WestPassage 2.36@WPDisto.WestPassage 2.41@WPDisto.WestPassage 2.68@WPDisto.WestPassage 2.3s@Disto.ChucklesJoke.WestPassage 2.5@Disto.ChucklesJoke.WestPassage 2.6@Disto.ChucklesJoke.WestPassage ] -scale [-128.0 -128.0 14706.8877 -128.0 0.0 0.0 376.80614758 0.0 m]
+
+point 8281.07 5544.02 station -name 2.69@WPDisto.WestPassage
+
+point 5526.0 5292.0 map-connection
+
+point 5632.84 5309.57 station -name 2.24@WPDisto.WestPassage
 
 endscrap
 

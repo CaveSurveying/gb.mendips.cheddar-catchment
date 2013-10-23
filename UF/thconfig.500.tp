@@ -5,27 +5,31 @@ source UpperFlood
 
 layout l500	# 1:500 Map
         color map-fg altitude  
+        color preview-below 80
  	symbol-colour area water [0 0 100]
  	symbol-colour area flowstone [10 90 10]
 	scale 1 1000
+	#sketches on
 	base-scale 1 500
 	overlap 1 cm       # margin sizem default 1cm
 	surface off        # turns on or off surface bit-map
 #	map-header 67 66 nw  # turns on the map header positioned at (0,0)
-	map-header 67 56 nw  # turns on the map header positioned at (0,0)
+	map-header 65 56 nw  # turns on the map header positioned at (0,0)
 	scale-bar 100 m
 	#statistics carto all 
 	#debug all
 	statistics topo-length on # per surveyor lengths
 	#statistics topo off # turns off list of surveyors
-	map-comment "www.mendipcavinggroup.org.uk"
+	map-comment "www.mendipcavinggroup.org.uk   Registered charity number: 270088"
 	#legend on         # turns on the symbol legend
     	legend-width 20 cm # printed size, based on scale
 	grid bottom
 	grid-size 100 100 100 m # x,y,z
 	#debug on
 	code metapost # xs,s,m,l,xl 
-		fonts_setup(12,18,28,60,80); 
+		#fonts_setup(20,26,40,60,80); # too big
+		#fonts_setup(12,18,28,60,80); 
+		fonts_setup(11,18,30,60,80);  
 	#fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
 	# which may be used inside of the code metapost section of the layout command. <normalsize>
 	# applies to point label, <smallsize> applies to remark and all other point labels.
@@ -33,28 +37,38 @@ layout l500	# 1:500 Map
 	
 	code metapost 
 	        # change centre line to continuous
-		def l_survey_cave (expr p) =
-		  draw p withpen PenD withcolor (0.6, 0.6, 0.6);
-		enddef;
+		#def l_survey_cave (expr p) =
+		#  draw p withpen PenD withcolor (0.6, 0.6, 0.6);
+		#enddef;
 		# Re-define North arrow to make it bigger
 		def s_northarrow (expr rot) =
 		  T:=identity scaled 0.7 rotated -rot;
-		  thdraw (-1cm,-1cm)--(0,5cm)--(1cm,-1cm)--(0,0cm)--cycle;
-		  thfill (-1cm,-1cm)--(0,5cm)--(0,0cm)--cycle;
+		 thdraw (-1cm,-1cm)--(0,5cm)--(1cm,-1cm)--(0,0cm)--cycle;
+		 # thdraw (1cm,4cm)--(2cm,10cm)--(3cm,4cm)--(2cm,5cm)--cycle;
+		 thfill (-1cm,-1cm)--(0,5cm)--(0,0cm)--cycle;
+		 # thfill (1cm,4cm)--(2cm,10cm)--(3cm,5cm)--cycle;
 		enddef;
         endcode
         
-        # Change legen size 
+        # Change legend size 
         code tex-map
-	  \legendwidth=10cm
+	  \legendwidth=14cm
 	#  \legendtextcolor={\color[0 0 100]}      
 	#  \legendtextsize={\size[10]}
 	#  \legendtextheadersize={\size[20]}
 	endcode
+	
+	code tex-map
+	   \def\maplayout{
+            \legendbox{90}{75}{NW}{\northarrow}
+            \legendbox{65}{56}{NW}{\the\legendcontent}
+           }
+	endcode
+	
 	code tex-map
 	\legendcontent={%
 	  \hsize=\legendwidth
-	  \ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
+	  #\ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
 	  #\edef\tmp{\the\cavename} \ifx\tmp\empty \else
 	  #  \color[0 0 0]{\size[45]\the\cavename}\color[0 0 0]\vskip1cm
 	  #\fi
@@ -71,15 +85,13 @@ layout l500	# 1:500 Map
 	      {\size[12]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
 	    \fi
 	    \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
-	      {\size[10]\si\the\explotitle:
-	\ss\the\exploteam\quad\si\the\explodate\par}
+	      {\size[12]\si\the\explotitle: \size[10]\ss\the\exploteam\quad\si\the\explodate\par}
 	    \fi
 	    \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
-	      {\size[10]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+	      {\size[12]\si\the\topotitle: \size[10]\ss\the\topoteam\quad\si\the\topodate\par}
 	    \fi
 	    \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
-	      {\size[10]\si\the\cartotitle:
-	\ss\the\cartoteam\quad\si\the\cartodate\par}
+	      {\size[12]\si\the\cartotitle: \size[10]\ss\the\cartoteam\quad\si\the\cartodate\par}
 	    \fi
 	    \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
 	      {\size[12]\ss\the\copyrights\par}
@@ -92,5 +104,6 @@ endlayout
  
 select Map_m500@UpperFlood
 export map -projection plan -layout l500 -o 0.Maps/UF_500.pdf 
+export map -projection plan -layout l500 -fmt svg -o 0.Maps/UF_500.svg 
 
 #export database -format sql -o 0.Maps/UF.sql

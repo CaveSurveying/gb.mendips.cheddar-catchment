@@ -2,42 +2,28 @@ encoding  utf-8
 language en_UK
 
 source UpperFlood
+	
+input layout.p_station_text.tp	
+input layout.p_continuation.tp	
+input layout.fixed_base.tp
+input layout.p_smartlabel_lr.tp
 
 layout l_fixed
-	scale-bar 10 m
-        color map-fg [70 70 00]  
- 	scale 1 4000
-	
-	symbol-hide group all
-	symbol-show line wall
-	symbol-show point station:painted
+        copy l_fixed_base
+       	symbol-show point station:painted
 	symbol-show point station:fixed
 	symbol-show point station:natural
-	symbol-show point camp
-	symbol-show point flag:continuation
-	symbol-colour line wall [70 70 00]
-#	code metapost
-#		def p_continuation(expr pos,theta,sc,al) =
-#			% draw default continuation symbol
-#			p_continuation_UIS(pos,theta,sc,al);
-#
-	#		% if text attribute is set
-	#		if known(ATTR__text) and picture(ATTR__text):
-#
-	#			% set labeling color to light orange
-	#			push_label_fill_color(1.0, 0.9, 0.8);
-	#			
-	#			% draw filled label with text next to ?
-	#			p_label.urt(ATTR__text,(.5u,-.25u) transformed T,0.0,8);
-	#			
-	#			% restore original labeling color
-	#			pop_label_fill_color;
-	#		fi;
-	#	enddef;
-	#endcode 	
+
+        copy l_p_smartlabel_lr
+	copy l_p_station_text
+	#copy l_p_continuation
 endlayout
 
 select Map_mFixedStations@UpperFlood
 export map -projection plan -format pdf -layout l_fixed -o 0.Maps/UF_FIXED.pdf
 export continuation-list -o 0.Maps/continuation-list.html
 export continuation-list -o 0.Maps/continuation-list.txt
+
+#unselect Map_mFixedStations@UpperFlood
+#select UF_m1@UpperFlood
+#export map -projection plan -format pdf -layout l_fixed -o 0.Maps/UF_FIXED_2.pdf
