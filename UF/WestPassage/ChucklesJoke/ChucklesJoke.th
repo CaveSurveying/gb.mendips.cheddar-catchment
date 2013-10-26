@@ -1,0 +1,14 @@
+encoding  utf-8
+survey ChucklesJoke -title "Chuckle's Joke"
+# The name was adopted after the long anticipated dig into Chuckle Choke revealed a very small chamber.
+# Chuckle Choke was named because of the chuckling sound of water emanating from it.  We thought this was the continuation of the main streamway!
+
+  input CJ_Disto.th
+  input ChucklesJoke_s1.th2
+  
+  map ChucklesJoke_map
+    ChucklesJoke_s1
+  endmap
+
+endsurvey
+

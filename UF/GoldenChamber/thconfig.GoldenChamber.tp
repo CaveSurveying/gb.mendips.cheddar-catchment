@@ -2,7 +2,7 @@ encoding  utf-8
 
 source GoldenChamber
 
-layout l500	# 1:500 Map
+layout l1	# 1:500 Map
 	scale 1 200
 	overlap 1 cm       # margin sizem default 1cm
 	surface off        # turns on or off surface bit-map
@@ -19,7 +19,7 @@ layout l500	# 1:500 Map
 	#legend on         # turns on the symbol legend
     	#legend-width 10 cm # printed size, based on scale
 	grid bottom
-	grid-size 10 10 100 m # x,y,z
+	grid-size 1 1 100 m # x,y,z
 	#debug on
 	code metapost # xs,s,m,l,xl 
 		fonts_setup(10,15,30,30,75); 
@@ -35,10 +35,14 @@ layout l500	# 1:500 Map
    endcode
 endlayout
  
+select CC@GoldenChamber
+select LeatInlet@GoldenChamber
+select StreamwayRegained@GoldenChamber
+select GoldenChamber_s1@GoldenChamber
 
 export model -format survex -o 0.Maps/GoldenChamber.3d
 export model -format loch -o 0.Maps/GoldenChamber.lox
-export map -projection plan -layout l500 -o 0.Maps/GoldenChamber.pdf
+export map -projection plan -o 0.Maps/GoldenChamber.pdf
 export map -projection plan -format xvi -layout l1 -o 0.Maps/GoldenChamber.xvi
 export map -projection extended -format xvi -layout l1 -o 0.Maps/GoldenChamber_ex.xvi
 export map -projection elevation -format xvi -layout l1 -o 0.Maps/GoldenChamber_el.xvi

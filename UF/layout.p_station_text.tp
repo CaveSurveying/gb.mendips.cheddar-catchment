@@ -1,0 +1,39 @@
+layout l_p_station_text
+  code metapost	
+ 	def p_station_fixed (expr pos)=
+		T:=identity shifted pos;
+		pickup PenB;
+		pair z;
+		z:=(0,.2u);
+		%z:=(0,.4u);
+		thclean z -- (z rotated 120) -- (z rotated 240) -- cycle;
+		thdraw z -- (z rotated 120) -- (z rotated 240) -- cycle;
+		thdraw origin;
+	enddef;
+	
+	def p_station(expr pos,mark,txt)(text flags) =  
+	  % draw default station
+	  p_station_SKBB(pos, mark, txt, flags);
+	  
+	  % now print the text
+      if picture(txt):
+		  picture ATTR__text;
+		  ATTR__text := txt;
+		  
+		  if known(ATTR_print):
+		    if (ATTR_print="true"):
+				if not numeric ATTR__text:
+					p_smartlabel(ATTR__text,pos);
+				else:
+					% draw filled label with text next to ?
+					p_label.urt(ATTR__text,(.5u,-.25u) transformed T,0.0,8);
+				fi;
+			fi;
+		fi;
+		save ATTR__text;
+      fi;
+
+    enddef;
+  endcode   
+endlayout
+

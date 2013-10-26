@@ -29,11 +29,11 @@ line wall
   smooth off
 endline
 
-point 300.0 387.0 station -name 37@RoyalIcing
+point 300.0 387.0 station -name 37@Pony
 
-point 257.549 399.95 station -name 38@RoyalIcing
+point 257.549 399.95 station -name 38@Pony
 
-point 392.951 409.98 station -name 35@RoyalIcing
+point 392.951 409.98 station -name 35@Pony
 
 endscrap
 

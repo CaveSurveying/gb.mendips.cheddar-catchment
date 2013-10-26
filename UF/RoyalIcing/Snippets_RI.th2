@@ -1,0 +1,50 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 1210.675 2431.145
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {669.293 1 1.0} {1653.55 FFMW9@Pony} xvi/RoyalIcing.xvi 0 {}
+
+
+
+scrap Snippets_RI_s1 -scale [-128.0 -128.0 1210.675 -128.0 0.0 0.0 34.002345 0.0 m]
+
+point 217.5 420.0 dig -scale s
+
+point 254.723 398.62 station -name 38@Pony
+
+point 353.343 634.65 station -name 30@Pony
+
+line arrow
+  336.0 748.5
+  354.5 688.5
+endline
+
+point 216.5 709.0 label -text "05/07/2008" -scale xs -align l
+
+point 333.5 768.0 label -text "Birthday Surprise" -scale s -align l
+
+line wall -subtype unsurveyed
+  233.5 428.5
+  235.0 432.5 242.5 472.0 244.5 475.5
+  246.5 479.0 276.0 468.5 275.0 465.5
+  274.0 462.5 270.0 445.5 275.0 446.0
+  280.0 446.5 282.0 460.0 283.0 462.5
+  284.0 465.0 287.0 484.0 289.0 487.5
+  291.0 491.0 321.41 607.84 323.5 614.0
+  333.5 643.5 356.0 637.5 365.0 662.5
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  365.0 662.5
+  380.5 660.0 371.0 678.0 371.0 678.0
+  smooth off
+  364.0 678.0 340.0 684.0 335.0 678.0
+  330.0 672.0 282.78 500.08 279.0 490.0
+  276.0 482.0 236.0 497.0 235.0 488.0
+  234.0 479.0 223.0 432.0 223.0 432.0
+  smooth off
+endline
+
+endscrap
+
+

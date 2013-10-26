@@ -1,0 +1,51 @@
+encoding  utf-8
+
+survey LeatInlet
+centreline
+  date 2012.03.24
+  
+  instrument clino "Ben's Clino"
+  instrument compass "MCG compass"
+  instrument tape "Tim's fabric tape"
+  
+  team "Tim Francis"
+  team "Peat Bennett"
+  
+    #declination -2.294 deg  	# BGS at 2012.03.24 51.2987N 2.71038W  
+  				# http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html
+    declination -1.741 deg    	# Allign to grid, Grid North +0.5535 deg
+
+#		Length	FD	Dip	Left	Right	Up	Down		Offset Up	Station  notes
+  data normal from to tape compass clino left right up down
+				#	.53	.58	.93	.42	# A1	1.71	A1 - left tip of rock in floor of streamway.  LRUD from 1.0@StreamwayRegained
+  A1	A2	5.43	302	12	[.53 .43] [.58 0] [.93 .40] [42 72]	# A2	.78	A2 - right hand wall above false floor ledge
+  A2	A3	4.41	284	11	0	.59	.99	1.45	# A3	-	A3 - left wall opposite shelf
+  A3	A4	0.83	326	36	0	.29	.66	2.05	# A4	-	A4 - shoulder height, left wall above water spray after sharp right
+  A4	A5	1.71	34	12	.44	0	.48	.30	# A5	-	A5 - low down on right wall before squeeze, squeeze is on a sharp left turn
+  A5	A6	1.07	322	0	.79	0	.76	.44	# A6	-	A6 - past jammed block on right
+  A6	A7	1.25	244	1	0	.58	.69	.22	# A7	.81	A7 - on left, narrow streamway
+  A7	A8	6.05	287	8	.77	0	.32	.40	# A8	-	A8 - mid of right hand wall, wet!
+  A8	A9	1.70	283	7	0	.36	.32	.99	# A9	-	A9 - left hand wall, easier going
+  A9	A10	2.67	290	6	.46	.58	.37	1.03	# A10	-	A10 - on top of boulder, beyond is flowstone floored 'chamber'
+  A10	A11	1.40	286	27	0	.28	.76	1.65	# A11	-	A11 - above drop back to stream
+  A11	A12	0.68	277	-42	.40	0	.35	1.00	# A12		A12 - back down at stream level, right hand side, rock lip
+  A12	A13	2.68	236	14	0	.24	.40	.57	# A13	-	A13 - left hand side. Stream comes in from right, dry mud alcove on left
+  A13	A14	1.58	317	4	0	.32	0	1.69	# A14	.42	A14 - left hand wall after sharp right turn 
+  A14	A15	2.17	3	9	.15	3.50	.66	0	# A15	-	A15 - on flowstone flow, chamber with straws
+  data normal from to tape compass clino 
+  A15	A16	1.16	325	3					# A16		A16 - rock face to allow drop down to stream, many straws
+  data normal from to tape compass clino left right up down
+  A16	A17	0.85	226	-34	.57	.22	.57	.42	# A17	-	A17 - top of large stalactite hanging above stream
+  A17	A18	2.75	289	7	.40	0	.43	.51	# A18	-	A18 - low on right wall, wet.
+  A18	A19	3.42	262	8	.95	.94	.29	.34	# A19	-	A19 - on rocks, passage begins to widen
+  A19	A20	6.13	281	10	.87	1.58	1.05	0	# A20	-	A20  - rock slope on left, wide chamber, stooping height, straws
+  A20	A21	3.56	326	11	2.02	.45	.16	.36	# A21	-	A21 - tip of small stalagmite, stal frieze, stream enters below
+  A21	A22	1.47	316	7	.34	.44	.12	0	# A22	-	A22 - top of stalagmite, tight squeeze
+  A22	A23	2.83	312	2	.52	.54	.49	.63	# A23	-	A23 - end of chamber, view of stream beyond too tight gap. Needs hiltis.
+
+  A21	B1	3.20	233	22	.59	.45	0	.44	# B1	-	B1 - roof, left hand branch, mud / stal slope
+  data normal from to tape compass clino 
+  B1	B2	2.97	288	6					# B2		B2 - no station marked, crawl becomes very low, black tailings mud
+  B2	B3	2.00	280	5					# 		Guesstimated to too tight squeeze over rock. Slightly left / straight on. Stream heard
+endcentreline
+endsurvey

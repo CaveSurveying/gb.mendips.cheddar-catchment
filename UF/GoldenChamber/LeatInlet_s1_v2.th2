@@ -1,0 +1,152 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -89.0 -30.0 1741.8 1525.21
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {1433.295 1 1.0} {293.667 1.12@StreamwayRegained} 0.Maps/GoldenChamber.xvi 0 {}
+
+
+
+scrap LeatInlet_s1 -scale [-128.0 -128.0 557.4926 -128.0 0.0 0.0 17.41151204 0.0 m]
+
+line wall -subtype unsurveyed
+  209.25 696.25
+  247.5 689.5
+endline
+
+line wall
+  247.5 689.5
+  249.5 688.5 306.75 670.5 310.75 669.75
+  314.75 669.0 375.75 649.0 382.5 646.0
+  389.25 643.0 502.5 620.25 508.0 621.75
+  513.5 623.25 564.25 641.5 571.5 641.75
+  578.75 642.0 622.0 625.0 625.25 626.25
+  628.5 627.5 642.5 627.0 643.25 625.75
+  644.0 624.5 645.31 586.5 646.655 584.25
+  648.0 582.0 665.76 560.7 668.0 560.5
+  670.25 560.3 711.0 585.5 713.0 586.0
+  715.0 586.5 719.885 591.14 719.885 591.14
+  smooth off
+  719.885 591.14 739.0 578.0 741.25 577.5
+  743.5 577.0 792.5 568.75 794.5 567.5
+  796.5 566.25 821.5 549.25 825.25 548.0
+  829.0 546.75 940.25 530.75 942.25 530.5
+  944.25 530.25 967.75 528.25 967.0 526.5
+  966.25 524.75 955.45 499.57 956.915 498.197
+  958.38 496.83 962.25 486.75 964.75 486.0
+  967.25 485.25 1042.25 464.0 1045.0 462.25
+  1047.75 460.5 1132.75 408.75 1132.75 408.75
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  251.25 698.75
+  209.5 703.25
+endline
+
+point 974.625 526.147 station -name A5@LeatInlet
+
+line wall
+  1145.5 426.0
+  1143.5 427.0 1049.75 469.5 1046.5 471.0
+  1043.25 472.5 970.5 497.0 967.5 498.75
+  964.5 500.5 975.5 524.57 975.75 526.25
+  976.0 527.93 966.0 543.75 959.0 542.75
+  952.0 541.75 946.25 540.75 943.0 541.5
+  939.75 542.25 821.5 563.5 819.5 564.5
+  817.5 565.5 798.5 575.25 797.0 575.75
+  795.5 576.25 751.0 595.0 747.75 595.75
+  744.5 596.5 724.0 596.0 722.0 596.0
+  720.0 596.0 710.8 594.62 707.5 591.75
+  699.75 585.0 671.0 568.0 669.75 568.75
+  668.5 569.5 651.25 583.25 651.75 585.5
+  652.25 587.75 720.5 623.0 715.75 624.5
+  711.0 626.0 652.5 624.0 649.75 626.0
+  647.0 628.0 634.5 648.5 631.0 647.5
+  627.5 646.5 624.75 639.25 622.25 639.25
+  619.75 639.25 572.75 651.0 569.25 651.5
+  565.75 652.0 511.5 656.25 507.5 657.75
+  503.5 659.25 399.0 687.0 397.25 688.75
+  395.5 690.5 358.25 717.75 356.0 720.0
+  353.75 722.25 336.0 739.0 334.0 741.0
+  332.0 743.0 296.5 776.75 294.5 778.25
+  292.5 779.75 278.75 764.25 280.0 763.5
+  281.25 762.75 325.0 732.0 325.25 730.0
+  325.5 728.0 330.75 716.5 330.75 716.5
+  smooth off
+  330.75 716.5 302.51 686.25 300.25 686.25
+  297.25 686.25 255.0 698.25 251.25 698.75
+  smooth off
+endline
+
+point 1138.215 416.697 station -name A1@LeatInlet
+
+point 1048.055 469.457 station -name A2@LeatInlet
+
+point 964.785 487.567 station -name A3@LeatInlet
+
+point 956.915 498.197 station -name A4@LeatInlet
+
+point 961.045 542.287 station -name A6@LeatInlet
+
+point 939.395 530.877 station -name A7@LeatInlet
+
+point 825.615 561.777 station -name A8@LeatInlet
+
+point 792.935 568.277 station -name A9@LeatInlet
+
+point 743.335 584.807 station -name A10@LeatInlet
+
+point 709.665 591.697 station -name A12@LeatInlet
+
+point 668.135 561.777 station -name A13@LeatInlet
+
+point 646.655 584.25 station -name A14@LeatInlet
+
+point 647.265 625.957 station -name A15@LeatInlet
+
+point 633.485 644.257 station -name A16@LeatInlet
+
+point 623.845 634.417 station -name A17@LeatInlet
+
+point 572.5 650.0 station -name A18@LeatInlet
+
+point 506.915 638.947 station -name A19@LeatInlet
+
+point 389.595 658.037 station -name A20@LeatInlet
+
+point 286.245 770.047 station -name A23@LeatInlet
+
+point 328.765 734.027 station -name A22@LeatInlet
+
+point 435.0 767.0 label -text "L33t Inlet" -scale m -align r
+
+point 349.435 713.947 station -name A21@LeatInlet
+
+point 406.0 667.0 blocks
+
+point 349.0 679.0 blocks
+
+point 443.0 655.0 blocks
+
+point 264.0 799.0 water-flow -orientation 137.7
+
+line arrow -head end
+  886.0 629.0
+  937.0 562.0
+endline
+
+line arrow -head end
+  866.0 627.0
+  805.0 596.0
+endline
+
+point 877.0 650.0 label -text "Squeezes" -scale xs
+
+point 303.765 677.327 station -name B1@LeatInlet
+
+point 248.055 693.667 station -name B2@LeatInlet
+
+point 209.275 699.377 station -name B3@LeatInlet
+
+endscrap
+
+

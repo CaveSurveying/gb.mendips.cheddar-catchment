@@ -1,0 +1,13 @@
+layout l_p_u_man
+	code metapost
+		def p_u_man(expr pos,mark,txt)(text flags) =
+		  T:=identity shifted pos;
+		  # u seems to be about 0.5m, our man is 1.9bu high; scale 1.9bu to be 6-foot (1.8m)
+		  bu:=1.8*2u/1.9;
+		  #      Left foot    Torso    Torso up     Torso Down  Arm             Backup      Arm            backup      backdown Right leg 
+		  thdraw((-.25bu,0) -- (0,bu) -- (0,1.6bu) -- (0,1.5bu) -- (-.25bu,.75bu) -- (0,1.5bu) -- (.25bu,.75bu) -- (0,1.5bu) -- (0,bu) -- (.25bu,0));	
+		  # head is 
+		  thdraw fullcircle scaled .3bu shifted (0,1.75bu);
+		enddef;
+	endcode
+endlayout

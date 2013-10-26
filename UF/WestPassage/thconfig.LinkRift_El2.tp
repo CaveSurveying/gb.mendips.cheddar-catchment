@@ -1,0 +1,19 @@
+encoding  utf-8
+language en_UK
+
+input layout.p_u_man.tp
+
+source LinkRift.th
+
+select LinkRift_MEl2@LinkRift
+
+layout l1
+        copy l_p_u_man
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 100
+ 	symbol-hide group cave-centerline
+ 	statistics carto off
+endlayout
+
+export map -projection [elevation 255] -format pdf -layout l1 -o 0.Maps/LinkRift_El2.pdf

@@ -1,0 +1,13 @@
+encoding  utf-8
+language en_UK
+source LinkRift.th
+
+select LinkRift_MEl1@LinkRift
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 100
+endlayout
+
+export map -projection [elevation 255] -format pdf -layout l1 -o 0.Maps/LinkRift_El1.pdf

@@ -1,16 +1,16 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 1917.5525 1249.4529
+##XTHERION## xth_me_area_adjust -261.0 -3158.0 4945.0 1249.4529
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {1598.66 1 1.0} {882.849 s22} xvi/WallStreet.xvi 0 {}
+##XTHERION## xth_me_image_insert {1599.66 1 1.0} {882.849 s22} 0.Maps/WallStreet.xvi 0 {}
+##XTHERION## xth_me_image_insert {-133.0 1 1.0} {682.0 {}} {WallStreet 2012-02.jpg} 0 {}
 
 
 
-scrap WallStreet_s1 -scale [-128.0 -128.0 1917.5525 -128.0 0.0 0.0 51.9570335 0.0 m] \
--stations [ws8@WallStreet]
+scrap WallStreet_s1 -scale [-128.0 -128.0 1917.5525 -128.0 0.0 0.0 51.9570335 0.0 m]
 
 point 717.0 1026.0 label -orientation 5 -text "Threadneedle Street" -scale m
 
-point 714.0 132.0 dig
+point 158.0 147.0 dig
 
 point 152.0 941.0 dig
 
@@ -45,6 +45,59 @@ line wall
   1124.0 353.0 1117.0 347.0 1126.0 329.0
   1135.0 311.0 1143.6 261.68 1150.0 254.0
   1155.0 248.0 1157.5 232.5 1158.0 228.0
+  smooth off
+endline
+
+line arrow -head end
+  533.0 -155.0
+  576.0 22.0
+endline
+
+line arrow -head end
+  436.0 17.0
+  480.0 94.0
+endline
+
+line arrow -head end
+  406.0 231.0
+  402.0 190.0
+endline
+
+point 529.0 -189.0 label -text "Large dry gour" -scale xs -align l
+
+point 421.0 -6.0 label -text "Flat-out squeeze" -scale xs -align l
+
+point 405.0 261.0 label -text "Mud bank" -scale xs -align l
+
+point 245.0 146.0 air-draught -orientation 90.8
+
+point 691.0 -15.0 label -text "04/02/2012" -scale xs -align r
+
+line section -reverse on -direction both
+  579.0 178.0
+  609.0 128.0 632.0 82.0 669.0 23.0
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  736.0 157.0
+  734.0 142.0 715.0 123.0 706.0 139.0
+  697.0 155.0 710.0 166.0 677.0 160.0
+  644.0 154.0 638.0 157.0 637.0 139.0
+  636.0 121.0 629.0 112.0 606.0 110.0
+  583.0 108.0 596.0 130.0 578.0 129.0
+  560.0 128.0 502.0 111.0 485.0 126.0
+  468.0 141.0 468.0 167.0 434.0 164.0
+  400.0 161.0 338.0 166.0 338.0 166.0
+  smooth off
+  338.0 166.0 333.0 129.0 339.0 124.0
+  345.0 119.0 400.0 98.0 421.0 103.0
+  442.0 108.0 467.0 118.0 471.0 116.0
+  475.0 114.0 518.0 103.0 533.0 92.0
+  548.0 81.0 563.0 59.0 566.0 55.0
+  569.0 51.0 589.0 43.0 594.0 46.0
+  599.0 49.0 599.0 88.0 607.0 93.0
+  615.0 98.0 714.0 109.0 737.0 120.0
   smooth off
 endline
 
@@ -110,12 +163,12 @@ point 713.91 714.629 station -name wp2@WallStreet
 
 point 748.75 677.879 station -name wp3@WallStreet
 
-line arrow -head end
-  833.0 715.0
-  728.0 718.0
+line section -reverse on -direction both
+  668.0 687.0
+  698.0 707.0 726.0 727.0 767.0 749.0
 endline
 
-point 857.91 715.629 label -text "2/6/2007" -scale xs -align r
+point 836.91 716.629 label -text "02/06/2007" -scale xs -align r
 
 point 644.71 804.339 station -name wp1@WallStreet
 

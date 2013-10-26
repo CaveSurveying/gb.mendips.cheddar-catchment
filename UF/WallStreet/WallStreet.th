@@ -60,10 +60,12 @@ survey WallStreet -title "Wall Street"
     ws6	ws7	7.94	270	+22	1.12	1.35	1.63	0.90
     ws7	ws8	5.36	287	+12	0.90	1.30	8.5	0.63 # Up estimated
 	mark ws8 fixed
-	station ws8 "WS8 A survey mark (triangle) was scratched on a raised rock" continuation attr code "fixed" attr Name "WS8"
+	station ws8 "WS8 A survey mark (triangle) was scratched on a raised rock" attr print "true" attr Code "fixed" attr Name "WS8" attr LR "left"
+
     ws8	ws9	9.47	278	+23	0.50	0.90	10.0	0.10 # Up estimated
     ws9	ws10	4.54	290	+12	1.50	1.20	1.10	0.60
     ws10 ws11	5.40	279	+5	0.65	0.57	0.50	0.55
+	station ws11 "Up through hanging boulders!" dig continuation attr name "WS11" attr dig "dig"
 
     extend right    
     ws8	wp1	4.25	164	+20	0.86	0.44	4.0	0.00 # Up estimated
@@ -79,6 +81,8 @@ survey WallStreet -title "Wall Street"
     data normal from to length compass clino
     wp10 wp11	4.0	105	0					# tape estimated
     wp10 wp12	10.0	260	0					# tape estimated
+	station wp12 "Low wide passage with false floor" dig continuation attr name "WP12" attr dig "dig"
+	
   endcentreline
 endsurvey
 

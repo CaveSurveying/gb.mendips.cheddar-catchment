@@ -1,0 +1,34 @@
+encoding  utf-8
+survey LinkRift
+
+input LinkRiftDisto.th
+
+input LinkRift_s1.th2	# Lowest level connects with West Passage
+input LinkRift_s2.th2	# Mid level - the first dig
+input LinkRift_s3.th2	# Upper level - connects with Neverland
+
+input LinkRift_El1.th2 # The two passage profiles
+input LinkRift_El2.th2 # The two passage profiles with the rifts before being dug
+input LinkRift_El3.th2 # The full rift, now dug open
+
+map LinkRift_map
+	LinkRift_s3
+	break
+	LinkRift_s2
+	break
+	LinkRift_s1
+endmap
+
+map LinkRift_MEl1
+	LinkRift_El1_s1
+endmap
+
+map LinkRift_MEl2
+	LinkRift_El2_s1
+endmap
+
+map LinkRift_MEl3
+	LinkRift_El3_s1
+endmap
+
+endsurvey

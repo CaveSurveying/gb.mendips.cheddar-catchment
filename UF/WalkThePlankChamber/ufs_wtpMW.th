@@ -16,8 +16,6 @@ survey MW -title "Section of Malcolm's Way Leg 2 survey for scrap drawing purpos
 		sd length 1 centimetre
 
 		mark MW51 MW54 painted
-		equate MW51	MW51-stal		# stal flowstone veru close to WalkThePlank
-		equate MW54	MW54-wall		# top LH wall at very top of WTP Chamber
 		
 		flags duplicate
 			#declination -3.003 deg  	# BGS at 2007.06.02 (2007.51) 51.2987N 2.71038W

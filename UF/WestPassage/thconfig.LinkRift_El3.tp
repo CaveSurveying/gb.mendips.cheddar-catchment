@@ -1,0 +1,15 @@
+encoding  utf-8
+language en_UK
+source LinkRift.th
+
+select LinkRift_MEl3@LinkRift
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 100
+ 	symbol-hide group cave-centerline
+ 	statistics topo-length off
+endlayout
+
+export map -projection [elevation 255] -format pdf -layout l1 -o 0.Maps/LinkRift_El3.pdf

@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -867.03 -127.91 5202.2 767.44
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {658.816410172 1 1.0} {503.313700189 1.0} ../PocketTopo/BypassPassage_e.xvi 0 {}
+
+
+scrap BypassPassageSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

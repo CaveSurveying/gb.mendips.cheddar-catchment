@@ -1,0 +1,22 @@
+encoding  utf-8
+source ByPassPassage.th
+
+language en_UK
+
+layout l1
+	scale-bar 10 m
+        color map-fg 90  
+ 	scale 1 200
+ 	symbol-colour area water [0 0 100]
+ 	symbol-colour area flowstone [10 90 10]
+ 	#symbol-hide group cave-centreline
+endlayout
+
+export model -format survex -o 0.Maps/ByPassPassage.3d
+export model -format loch -o 0.Maps/ByPassPassage.lox
+export map -projection plan -format pdf -layout l1 -o 0.Maps/ByPassPassage_CL.pdf
+export map -projection extended -format pdf -layout l1 -o 0.Maps/ByPassPassage_CLex.pdf
+export map -projection elevation -format pdf -layout l1 -o 0.Maps/ByPassPassage_CLel.pdf
+export map -projection plan -format xvi -o 0.Maps/ByPassPassage.xvi
+export map -projection extended -format xvi -o 0.Maps/ByPassPassage_ex.xvi
+export map -projection elevation -format xvi -o 0.Maps/ByPassPassage_el.xvi

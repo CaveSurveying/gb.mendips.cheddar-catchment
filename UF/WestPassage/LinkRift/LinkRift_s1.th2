@@ -1,0 +1,77 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 374.5 189.999999995 1417.9015748 1784.58267717
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {832.004820192 1 1.0} {1054.04692527 1.4} ../../PocketTopo2/LinkRift_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {830.859264536 1 1.0} {1053.95228346 1.4} PocketTopo2/LinkRift_p.xvi 0 {}
+
+
+
+scrap LinkRift_s1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype unsurveyed
+  812.5 1204.5
+  812.0 1182.5 809.97 821.1 846.0 821.5
+  891.5 822.0 863.0 1208.0 860.5 1227.0
+  smooth off
+endline
+
+line wall -id wall_LRs1_2
+  860.5 1227.0
+  854.5 1236.5 832.5 1273.5 830.5 1287.5
+  828.5 1301.5 825.5 1320.5 824.5 1339.0
+  823.5 1357.5 815.5 1364.0 815.5 1370.0
+  815.5 1376.0 815.0 1387.0 812.0 1397.0
+  809.0 1407.0 789.5 1458.5 783.0 1496.5
+  smooth off
+  783.0 1496.5 751.5 1544.5 761.5 1547.5
+  smooth off
+endline
+
+line ceiling-step -reverse on
+  723.5 1493.5
+  740.0 1485.5 770.0 1488.5 784.5 1504.5
+  smooth off
+endline
+
+line pit -reverse on
+  812.5 1204.5
+  821.5 1211.0 852.5 1221.5 866.0 1209.5
+  smooth off
+endline
+
+line border
+  723.5 1530.5
+  731.5 1521.5 735.5 1498.0 738.0 1491.0
+  740.5 1484.0 765.0 1446.0 764.5 1433.0
+  smooth off
+endline
+
+line border
+  761.5 1547.5
+  753.5 1539.0 769.5 1508.5 773.0 1498.5
+  776.5 1488.5 798.0 1423.0 806.0 1414.0
+  smooth off
+endline
+
+line wall -id wall_LRs1_1
+  727.5 1536.0
+  725.0 1540.0 726.5 1489.5 726.5 1489.5
+  smooth off
+  729.5 1480.0 783.0 1422.0 781.0 1377.5
+  779.0 1333.0 800.5 1311.0 795.0 1302.5
+  789.5 1294.0 756.5 1316.0 762.0 1269.0
+  767.5 1222.0 764.0 1219.5 775.5 1215.5
+  787.0 1211.5 804.53 1221.41 810.01482019 1216.70692527
+  815.5 1212.0 812.5 1204.5 812.5 1204.5
+  smooth off
+endline
+
+point 810.01482019 1216.70692527 station -name 1.11@LRDisto
+
+point 808.38482019 1385.79692527 station -name 1.12@LRDisto
+
+point 739.05482019 1497.78692527 station -name 1.13@LRDisto
+
+endscrap
+
+

@@ -1,13 +1,14 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -141.118 -1854.999 3107.0096 1629.3492
-##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {1269.21244095 1 1.0} {931.223228347 0.0} PocketTopo/wtp_ufs_p.xvi 0 {}
-##XTHERION## xth_me_image_insert {1246.722 0 1.0} {910.801 MW51-stal@MW.WalkThePlankChamber} 0.Maps/WalkThePlankChamber.xvi 0 {}
+##XTHERION## xth_me_area_adjust -1208.0 -7366.0 10386.5888 7141.9762
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1269.21244095 0 1.0} {931.223228347 0.0} PocketTopo/wtp_ufs_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {1234.722 0 1.0} {890.801 MW51-stal@MW.WalkThePlankChamber} 0.Maps/WalkThePlankChamber.xvi 0 {}
+##XTHERION## xth_me_image_insert {1242.84 0 1.0} {911.6 35@Leg1.MalcolmsWay} ../MalcolmsWay/0.Maps/MalcolmsWay_100.xvi 0 {}
+##XTHERION## xth_me_image_insert {1266.87401575 1 1.0} {924.173228347 0.0} PocketTopo/wtp_ufs_p0.xvi 0 {}
 
 
 
-scrap PlankChamber_s1 -scale [-144.918 -1848.889 3103.2096 -1848.889 0.0 0.0 82.50244104 0.0 m] \
--stations [FIXED-MW4-wall PAINTED-MW54-wall 0.11@PlankGrotto_DistoX] 
+scrap PlankChamber_s1 -stations [MW55@MW 2b@TrenchPassage_Pony ] -scale [-144.918 -1848.889 3103.2096 -1848.889 0.0 0.0 82.50244104 0.0 m]
 
 point 2056.97244095 389.883228347 station -name 0.10@PlankGrotto_DistoX
 
@@ -23,15 +24,15 @@ point 907.91244095 339.413228347 station -name 0.11@PlankGrotto_DistoX
 
 point 972.28244095 418.663228347 station -name 0.5@PlankGrotto_DistoX
 
-point 779.932 964.931 station -name 2b@TrenchPassage_Pony
+point 779.932 964.931 station -name 2@TrenchPassage_Pony
 
-point 536.622 972.811 station -name MW54@MW
+point 536.622 972.811 station -name PAINTED-MW54-wall
 
 point 840.71244095 678.863228347 station -name 0.4@PlankGrotto_DistoX
 
-point 1269.21244095 931.223228347 station -name 0.0@PlankGrotto_DistoX
-
 point 1164.56244095 773.543228347 station -name 0.2@PlankGrotto_DistoX
+
+point 1269.21244095 931.223228347 station -name FIXED-MW51-wall
 
 point 1116.41244095 896.493228347 station -name 0.3@PlankGrotto_DistoX
 
@@ -39,27 +40,141 @@ point 1245.47244095 914.173228347 station -name 0.1@PlankGrotto_DistoX
 
 line wall
   304.0 1242.0
-  325.0 1219.0 519.0 936.0 526.0 932.0
-  533.0 928.0 765.0 629.0 770.0 606.0
-  775.0 583.0 850.0 456.0 865.0 428.0
+  325.0 1219.0 551.0 948.0 558.0 944.0
+  altitude .
+  565.0 940.0 775.0 613.0 780.0 590.0
+  785.0 567.0 850.0 456.0 865.0 428.0
   880.0 400.0 901.0 346.0 906.0 330.0
+  smooth off
+endline
+
+line rock-edge
+  1133.0 828.0
+  1145.0 816.0
+  1180.0 844.0
+  1186.0 833.0
+  1153.0 808.0
+  1172.0 785.0
+endline
+
+line pit -outline in
+  1165.0 699.0
+  1091.0 775.0 1052.0 638.0 1077.0 613.0
+  smooth off
+endline
+
+line flowstone -reverse on
+  607.0 870.0
+  637.0 870.0 726.0 965.0 726.0 1006.0
+  smooth off
+endline
+
+line arrow -head begin
+  826.0 977.0
+  875.0 1100.0
+endline
+
+line arrow -head end
+  592.0 706.0
+  1102.0 736.0
+endline
+
+point 560.0 542.0 label -text "Walk the Plank Chamber" -scale m -align l
+
+point 544.0 702.0 label -text "c3" -scale xs -align l
+
+line arrow -head end
+  1164.0 1107.0
+  1177.0 864.0
+endline
+
+point 1165.0 1148.0 label -text "Walk the Plank" -scale s -align r
+
+point 883.0 1145.0 label -text "Aven" -scale xs
+
+point 211.0 1284.0 label -text "Plank Inlet" -scale m -align l
+
+point 275.0 1339.0 dig
+
+point 333.0 1246.0 water-flow -orientation 127.1 -scale l
+
+line chimney
+endline
+
+point 2148.0 488.0 label -text "Plank Grotto" -scale s -align r
+
+line chimney -close on
+  791.0 956.0
+  778.0 942.0 862.0 870.0 873.0 899.0
+  884.0 928.0 804.0 970.0 791.0 956.0
+endline
+
+line flowstone -reverse on
+  691.0 714.0
+  707.0 707.0 908.0 760.0 916.0 944.0
+  smooth off
+endline
+
+line flowstone -close on
+  1847.0 416.0
+  1857.0 421.0 1873.0 410.0 1859.0 399.0
+  1845.0 388.0 1837.0 411.0 1847.0 416.0
+endline
+
+line flowstone -reverse on
+  1374.0 573.0
+  1358.0 568.0 1296.0 486.0 1377.0 437.0
+  1464.74 383.92 1487.0 495.0 1471.0 524.0
+  smooth off
+endline
+
+line flowstone -close off
+  1848.0 438.0
+  1890.0 442.0 1981.08 379.16 1907.0 344.0
+  1848.0 316.0 1757.0 414.0 1848.0 438.0
+  smooth off
+endline
+
+line overhang
+  1235.0 942.0
+  1276.0 888.0 1037.0 781.0 984.0 751.0
+  smooth off
+endline
+
+line overhang
+  984.0 751.0
+  964.0 735.0 899.0 723.0 901.0 604.0
+  901.5 574.3 951.0 594.0 970.0 593.0
+  989.0 592.0 1048.0 582.0 1077.0 613.0
+  smooth off
+endline
+
+line overhang -outline in
+  1077.0 613.0
+  1123.0 633.0 1162.0 667.0 1165.0 699.0
+  smooth off
+endline
+
+line flowstone
+  1213.0 699.0
+  1150.0 676.0 1139.64 743.67 1164.56244095 773.543228347
+  1190.18 804.25 1242.0 814.0 1242.0 814.0
   smooth off
 endline
 
 line wall -reverse on
   1257.0 949.0
-  1266.0 955.0 1125.9 907.03 1115.0 902.0
-  1102.0 896.0 1079.0 882.0 1040.0 893.0
-  1001.0 904.0 821.0 946.0 789.0 967.0
+  1266.0 955.0 1105.9 899.03 1095.0 894.0
+  1082.0 888.0 1067.0 922.0 1028.0 933.0
+  989.0 944.0 821.0 946.0 789.0 967.0
   757.0 988.0 620.0 1070.0 591.0 1095.0
   562.0 1120.0 370.0 1241.0 354.0 1266.0
   smooth off
 endline
 
 line wall -reverse on
-  1300.0 826.0
-  1274.0 820.0 1247.0 823.0 1212.0 797.0
-  1177.0 771.0 1187.0 739.0 1191.0 727.0
+  1242.0 814.0
+  1209.0 804.0 1187.0 739.0 1191.0 727.0
   1195.0 715.0 1262.0 655.0 1284.0 641.0
   1306.0 627.0 1357.0 595.0 1384.0 573.0
   1411.0 551.0 1450.0 532.0 1492.0 515.0
@@ -74,6 +189,55 @@ line wall -reverse on
   1588.0 333.0 1356.0 366.0 1340.0 375.0
   1324.0 384.0 1234.0 391.0 1220.0 378.0
   1214.83 373.2 1202.0 373.0 1191.0 341.0
+  smooth off
+endline
+
+endscrap
+
+
+
+scrap WTP_S1_C1 -scale [-144.918 -1848.889 3103.2096 -1848.889 0.0 0.0 82.50244104 0.0 m]
+
+point 1570.5 750.5 stalactite
+
+point 1545.0 754.5 stalactite
+
+point 1512.5 759.5 stalactite
+
+line flowstone -outline out
+  1424.0 759.0
+  1424.0 759.0 1493.0 738.5 1528.5 721.0
+  smooth off
+endline
+
+line wall
+  1528.5 721.0
+  1541.5 715.0 1592.68 713.16 1594.0 718.0
+  1602.25 748.25 1595.0 761.0 1552.0 765.0
+  1509.0 769.0 1426.75 784.5 1419.75 776.5
+  1412.75 768.5 1414.75 763.5 1424.0 759.0
+  smooth off
+endline
+
+endscrap
+
+
+
+scrap WTP_s1_c2 -scale [-144.918 -1848.889 3103.2096 -1848.889 0.0 0.0 82.50244104 0.0 m]
+
+line wall
+  -123.0 660.0
+  -122.0 668.0 -116.5 686.0 -103.0 689.0
+  -91.57 691.54 16.0 674.0 20.0 685.0
+  24.0 696.0 25.0 719.0 9.0 718.0
+  -7.0 717.0 -26.62598425 719.053228347 -26.62598425 719.053228347
+  smooth off
+  -26.62598425 719.053228347 -30.91 824.44 -51.0 867.5
+  -72.0 912.5 -124.81 957.88 -145.0 959.0
+  -181.0 961.0 -208.0 954.0 -230.0 944.0
+  -252.0 934.0 -295.0 862.0 -302.0 835.0
+  -309.0 808.0 -300.0 717.0 -300.0 704.0
+  -300.0 691.0 -315.5 640.0 -324.5 616.0
   smooth off
 endline
 

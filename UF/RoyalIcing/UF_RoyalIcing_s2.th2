@@ -7,13 +7,13 @@ encoding  utf-8
 
 scrap RoyalIcing_s2 -scale [-128.0 -128.0 6618.1104 -128.0 0.0 0.0 171.35120416 0.0 m]
 
-point 380.711 539.57 station -name 33@RoyalIcing
+point 380.711 539.57 station -name 33@Pony
 
-point 524.211 1195.48 station -name 26@RoyalIcing
+point 524.211 1195.48 station -name 26@Pony
 
-point 621.061 1272.25 station -name 25@RoyalIcing
+point 621.061 1272.25 station -name 25@Pony
 
-point 662.601 1370.87 station -name 24@RoyalIcing
+point 662.601 1370.87 station -name 24@Pony
 
 line wall -visibility off
   495.0 1191.0

@@ -12,8 +12,8 @@ survey PlankGrotto_DistoX
 		instrument compass "Ben's DistoX"
 		instrument clino   "Ben's DistoX"
 
-		equate 0.0	MW4-wall
-		equate 0.1	MW4-stal  
+		equate 0.0	MW51-wall
+		equate 0.1	MW51-stal  
 
 		#declination -2.403 deg  	# BGS at 2011-007-02 (2010.93) 51.2987N 2.71038W
 					# http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html

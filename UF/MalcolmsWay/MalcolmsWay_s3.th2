@@ -1,80 +1,79 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 14023.0 5733.0 21150.8816 15815.8150622
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {15558.77 1 1.0} {10776.29 35@Leg1.MalcolmsWay} xvi/MalcolmsWay.xvi 0 {}
-##XTHERION## xth_me_image_insert {14590.7620472 1 1.0} {15643.7158496 1.1} CharnelPassage/PocketTopo/charnel2_p.xvi 0 {}
+##XTHERION## xth_me_area_adjust 14010.0 5728.0 21137.8816 14597.7127
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {15561.32 1 1.0} {10778.15 35@Leg1.MalcolmsWay} 0.Maps/MalcolmsWay.xvi 0 {}
 
 
 
 scrap MalcolmsWay_s3 -scale [-128.0 -128.0 6618.1104 -128.0 0.0 0.0 171.35120416 0.0 m]
 
-point 20033.48 7284.34 station -name 7@Leg2.MalcolmsWay
+point 20033.48 7284.34 station -name 7@Leg2
 
-point 20045.89 7258.09 station -name 8@Leg2.MalcolmsWay
+point 20045.89 7258.09 station -name 8@Leg2
 
-point 20067.13 7313.69 station -name 9@Leg2.MalcolmsWay
+point 20067.13 7313.69 station -name 9@Leg2
 
-point 20139.18 7472.12 station -name 10@Leg2.MalcolmsWay
+point 20139.18 7472.12 station -name 10@Leg2
 
-point 20158.99 7599.3 station -name 11@Leg2.MalcolmsWay
+point 20158.99 7599.3 station -name 11@Leg2
 
-point 19965.48 7741.99 station -name 12@Leg2.MalcolmsWay
+point 19965.48 7741.99 station -name 12@Leg2
 
-point 19709.93 7817.39 station -name 13@Leg2.MalcolmsWay
+point 19709.93 7817.39 station -name 13@Leg2
 
-point 19544.58 7888.97 station -name 14@Leg2.MalcolmsWay
+point 19544.58 7888.97 station -name 14@Leg2
 
-point 19388.29 8012.81 station -name 15@Leg2.MalcolmsWay
+point 19388.29 8012.81 station -name 15@Leg2
 
-point 19333.41 8041.44 station -name 16@Leg2.MalcolmsWay
+point 19333.41 8041.44 station -name 16@Leg2
 
-point 19284.5 8112.07 station -name 17@Leg2.MalcolmsWay
+point 19284.5 8112.07 station -name 17@Leg2
 
-point 19148.73 8372.39 station -name 18@Leg2.MalcolmsWay
+point 19148.73 8372.39 station -name 18@Leg2
 
-point 18929.21 8579.97 station -name 19@Leg2.MalcolmsWay
+point 18929.21 8579.97 station -name 19@Leg2
 
-point 18912.51 8691.16 station -name 20@Leg2.MalcolmsWay
+point 18912.51 8691.16 station -name 20@Leg2
 
-point 18646.94 8774.44 station -name 21@Leg2.MalcolmsWay
+point 18646.94 8774.44 station -name 21@Leg2
 
-point 18661.26 8802.36 station -name 22@Leg2.MalcolmsWay
+point 18661.26 8802.36 station -name 22@Leg2
 
-point 18416.21 8970.33 station -name 23@Leg2.MalcolmsWay
+point 18416.21 8970.33 station -name 23@Leg2
 
-point 18138.71 9114.21 station -name 24@Leg2.MalcolmsWay
+point 18138.71 9114.21 station -name 24@Leg2
 
-point 17956.89 9274.8 station -name 25@Leg2.MalcolmsWay
+point 17956.89 9274.8 station -name 25@Leg2
 
-point 17940.66 9227.55 station -name 26@Leg2.MalcolmsWay
+point 17940.66 9227.55 station -name 26@Leg2
 
-point 17780.32 9262.87 station -name 27@Leg2.MalcolmsWay
+point 17780.32 9262.87 station -name 27@Leg2
 
-point 17650.28 9328.72 station -name 28@Leg2.MalcolmsWay
+point 17650.28 9328.72 station -name 28@Leg2
 
-point 17436.73 9475.23 station -name 29@Leg2.MalcolmsWay
+point 17436.73 9475.23 station -name 29@Leg2
 
-point 17255.15 9614.09 station -name 30@Leg2.MalcolmsWay
+point 17255.15 9614.09 station -name 30@Leg2
 
-point 17166.15 9650.84 station -name 31@Leg2.MalcolmsWay
+point 17166.15 9650.84 station -name 31@Leg2
 
-point 17136.56 9693.79 station -name 32@Leg2.MalcolmsWay
+point 17136.56 9693.79 station -name 32@Leg2
 
-point 17124.15 9730.53 station -name 33@Leg2.MalcolmsWay
+point 17124.15 9730.53 station -name 33@Leg2
 
-point 16988.62 9795.2 station -name 34@Leg2.MalcolmsWay
+point 16988.62 9795.2 station -name 34@Leg2
 
-point 16721.62 10066.02 station -name 35@Leg2.MalcolmsWay
+point 16722.55 10066.89 station -name 35@Leg2
 
-point 16642.88 10150.0 station -name 36@Leg2.MalcolmsWay
+point 16642.88 10150.0 station -name 36@Leg2
 
-point 16578.22 10176.73 station -name 37@Leg2.MalcolmsWay
+point 16578.22 10176.73 station -name 37@Leg2
 
-point 16355.84 10205.84 station -name 38@Leg2.MalcolmsWay
+point 16355.84 10205.84 station -name 38@Leg2
 
-point 16207.19 10238.53 station -name 39@Leg2.MalcolmsWay
+point 16207.19 10238.53 station -name 39@Leg2
 
-point 16039.21 10284.82 station -name 40@Leg2.MalcolmsWay
+point 16040.51 10287.12 station -name 40@Leg2
 
 point 19461.0 7876.5 label -orientation 21.8 -text "Aven +10m" -scale xs -align r
 
@@ -88,17 +87,17 @@ line floor-step -reverse on
 endline
 
 line wall -id wall_MWs3_2 -reverse on
-  16035.0 10287.0
-  16030.0 10294.5 16009.5 10319.5 16036.0 10324.0
-  16047.51 10325.95 16054.0 10315.5 16091.0 10303.5
+  16019.0 10288.0
+  15987.5 10294.75 16004.75 10329.75 16036.0 10324.0
+  16047.49 10321.89 16054.0 10315.5 16091.0 10303.5
   smooth off
   16128.0 10291.5 16187.0 10256.0 16210.5 10252.0
   16234.0 10248.0 16338.0 10253.0 16362.0 10248.5
-  altitude .
   16386.0 10244.0 16565.0 10194.0 16582.0 10187.0
-  16599.0 10180.0 16630.0 10171.0 16649.0 10158.0
-  16668.0 10145.0 16740.0 10108.0 16754.0 10093.0
-  16768.0 10078.0 16981.0 9833.0 17003.0 9815.0
+  16599.0 10180.0 16631.93 10167.75 16653.0 10158.5
+  16673.5 10149.5 16727.0 10137.5 16741.0 10122.5
+  altitude .
+  16755.0 10107.5 16981.0 9833.0 17003.0 9815.0
   17025.0 9797.0 17125.0 9735.0 17132.0 9723.0
   17139.0 9711.0 17147.0 9702.0 17151.0 9699.0
   17155.0 9696.0 17176.0 9667.0 17183.0 9662.0
@@ -127,7 +126,7 @@ line wall -id wall_MWs3_2 -reverse on
   smooth off
 endline
 
-point 16760.0 10000.0 water-flow -orientation 135.4 -scale l
+point 16772.0 10032.0 water-flow -orientation 135.4 -scale l
 
 point 19078.0 8476.0 water-flow -orientation 136.9 -scale l
 
@@ -201,12 +200,18 @@ line wall -reverse on
   17129.0 9676.0 17126.0 9671.0 17122.0 9686.0
   17118.0 9701.0 17130.0 9719.0 17116.0 9726.0
   17102.0 9733.0 16998.0 9772.0 16980.0 9785.0
-  16962.0 9798.0 16696.0 9990.0 16669.0 10010.0
-  16642.0 10030.0 16578.92 10034.42 16582.0 10095.0
-  16585.0 10154.0 16584.0 10139.0 16567.0 10149.0
-  16550.0 10159.0 16392.0 10191.0 16359.0 10196.0
+  16962.0 9798.0 16749.55 10046.89 16722.55 10066.89
+  smooth off
+endline
+
+line wall -reverse on
+  16623.0 10135.5
+  16606.0 10145.5 16392.0 10191.0 16359.0 10196.0
   16326.0 10201.0 16225.0 10207.0 16204.0 10213.0
-  16183.0 10219.0 16039.5 10283.25 16035.0 10287.0
+  16183.0 10219.0 16044.5 10238.25 16040.0 10242.0
+  smooth off
+  16040.0 10242.0 16016.75 10245.0 16014.5 10249.0
+  16012.25 10253.0 16019.0 10288.0 16019.0 10288.0
   smooth off
 endline
 

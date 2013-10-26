@@ -1,0 +1,12 @@
+layout l_p_continuation
+	code metapost
+		def p_continuation(expr pos,theta,sc,al) =
+			% draw default continuation symbol
+			numeric us;
+			us := u;
+			u := 1.5u;
+			p_continuation_UIS(pos,theta,sc,al);
+			u:= us;
+		enddef;	
+	endcode
+endlayout

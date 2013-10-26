@@ -1,0 +1,125 @@
+encoding  utf-8
+
+survey StreamwayRegained
+centreline
+  date 2012.03.24
+  
+  instrument compass "Ben's DistoX"
+  team "Ben Cooper"
+  
+  # At same time as this survey, Tim and Peat took Compass and Clino into Leat Inlet.  Julie assisted.
+
+    #declination -2.294 deg  	# BGS at 2012.03.24 51.2987N 2.71038W  
+  				# http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html
+    declination -1.741 deg    	# Allign to grid, Grid North +0.5535 deg
+    
+  station 1.0 "Sharp point on LHS (South) of rock in middle of stream"
+  station 1.1 "Tip of flake of rock on RHS (North) of passage - should be the same as Tim's second station"
+  station 1.2 "Tip of triangular ear in centre of top edge of rock, climbed over"
+  station 1.3 "side tip of flake of stal"
+  station 1.4 "Small stal boss, about 4cm in diameter"
+  station 1.5 "Wall RHS (North)"
+  station 1.6 "RHS of small ridge of stal on flowstone 'floor' just before squeeze continuation"
+  station 1.7 "Shot into aven, I had to come back from 1.6 to get shot"
+  station 1.8 "Longest shot achieved into continuation"
+  station 1.9 "On ear of flowstone on RH (south) wall"
+  station 1.10 "Tip of boulder on floor"
+  station 1.11 "Small rounded rock protusion pointing back up stream on LH (North) wall"
+  station 1.12 "Screw, fixed survey station"
+
+
+  data normal from to compass clino tape
+  extend right
+flags duplicate
+  1.0 1.1 295.48 9.68 6.126
+flags not duplicate
+  1.0 - 212.55 -29.33 0.241
+  1.0 - 28.08 6.07 0.577
+  1.0 - 63.94 69.50 0.728
+  1.0 - 41.34 45.87 0.826
+  1.0 - 43.93 84.92 1.710
+  1.0 - 18.30 81.64 0.920
+  1.0 - 161.57 89.79 0.860
+  1.0 - 216.40 -37.85 0.683
+  1.0 - 23.67 -40.12 0.625
+  1.0 1.2 113.52 4.39 3.602
+  1.2 - 30.53 18.94 0.628
+  1.2 - 31.77 55.04 0.491
+  1.2 - 41.47 88.19 1.820
+  1.2 - 207.43 58.75 2.063
+  1.2 - 206.47 57.04 3.394
+  1.2 - 203.50 23.61 1.853
+  1.2 - 206.04 7.21 0.390
+  1.2 - 227.66 50.80 0.796
+  1.2 - 215.88 -50.17 0.759
+  1.2 1.3 197.28 33.72 1.393
+  1.3 - 201.53 74.34 2.512
+  1.3 - 28.97 85.10 2.249
+  1.3 - 116.05 87.13 3.953
+  1.4 1.3 105.99 -17.29 3.092
+  1.4 - 190.87 1.26 0.228
+  1.4 - 20.52 -4.58 0.200
+  1.4 - 8.22 82.82 1.455
+  1.4 - 187.79 79.29 1.668
+  1.4 1.5 291.57 -1.07 3.169
+  1.5 - 202.04 -53.47 0.667
+  1.5 - 170.61 75.40 2.139
+  1.5 - 123.51 79.94 1.971
+  1.5 - 338.20 -80.35 0.611
+  1.5 1.6 283.17 8.90 2.617
+  1.6 1.8 283.54 -3.56 8.337
+  1.6 - 62.61 80.98 1.983
+  1.6 - 179.88 67.32 2.487
+  1.6 - 190.52 54.23 1.171
+  1.6 - 196.95 18.36 0.705
+  1.6 - 343.13 -69.11 0.358
+  1.6 1.7 240.96 70.14 4.276
+  1.6 - 262.82 3.24 0.673
+  1.6 - 224.15 9.19 0.777
+  1.6 - 130.13 8.64 0.918
+  1.3 - 296.97 7.96 1.213
+  1.3 - 354.91 3.53 1.333
+  1.2 - 332.65 -21.90 1.051
+  1.2 1.2a 309.71 -15.54 1.728
+  1.2 - 164.09 7.43 2.181
+  1.2 - 127.75 -3.39 2.284
+  1.2 -  109.60 -22.08 3.243
+  1.2 - 267.27 -2.50 0.253
+  1.2 - 260.24 6.35 0.760
+  1.2 1.9 124.97 -10.82 3.320
+  1.9 1.10 94.72 -42.10 2.373
+  1.10 - 197.36 12.76 0.399
+  1.10 - 199.59 66.48 1.420
+  1.10 - 205.42 73.38 0.863
+  1.10 - 27.36 56.91 0.765
+  1.10 - 20.17 29.66 0.661
+  1.10 - 21.83 6.27 1.025
+  1.10 - 17.71 -25.06 0.635
+  1.10 - 20.23 -45.93 0.624
+  1.10 1.11 104.08 -7.98 3.142
+  1.11 - 200.60 -71.10 0.439
+  1.11 - 200.28 -28.73 0.763
+  1.11 - 198.90 49.65 1.030
+  1.11 - 189.97 77.63 0.782
+  1.11 - 31.78 70.58 0.326
+  1.11 - 226.25 -13.24 0.869
+  1.11 - 228.80 -18.47 1.847
+  1.11 - 234.38 -17.42 1.814
+  1.11 - 252.51 -2.32 1.135
+  1.11 - 140.31 -31.54 0.753
+  1.11 1.12 121.68 8.35 4.816
+  1.12 - 24.69 4.18 1.234
+  1.12 - 34.31 -37.80 0.454
+  1.12 - 230.19 -89.18 0.545
+  1.12 - 220.31 -72.86 1.584
+  1.12 - 219.85 -41.85 1.722
+  1.12 - 219.30 -32.95 0.484
+  1.12 - 253.38 62.55 0.736
+  1.12 - 268.58 68.67 0.333
+  1.12 - 338.54 -5.29 1.713
+  1.12 - 332.91 -3.46 2.484
+  1.12 - 320.49 -6.85 2.061
+  1.12 - 300.95 -2.98 3.150
+  1.12 - 279.48 -5.21 1.421
+endcentreline
+endsurvey

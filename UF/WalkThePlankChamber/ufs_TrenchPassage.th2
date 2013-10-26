@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 178.0 -388.0 2247.4132 2863.4381
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -267.38 -449.368 1484.68 1401.117
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {490.537 1 1.0} {958.16 MW51-stal@MW.WalkThePlankChamber} 0.Maps/TrenchPassage.xvi 0 {}
 
 
 
-scrap TrenchPassage_s1 -scale [-128.0 -128.0 1072.88 -128.0 0.0 0.0 30.502352 0.0 m]
+scrap TrenchPassage_s1 -stations [6a@TrenchPassage_Pony 7a@TrenchPassage_Pony D7a@ThievesChamber_Pony D11@ThievesChamber_Pony] -scale [-128.0 -128.0 1072.88 -128.0 0.0 0.0 30.502352 0.0 m]
 
 point 332.0 666.0 station -name 5@TrenchPassage_Pony
 
@@ -74,9 +74,9 @@ point 1028.0 -42.0 water-flow -orientation 91.8 -subtype intermittent -scale l -
 
 point 457.0 446.0 water-flow -orientation 103.4 -subtype intermittent -scale l -align t
 
-point 374.0 444.0 label -text "Trench Inlet" -scale s -align l
+point 374.0 444.0 label -text "Trench Rising" -scale s -align l
 
-point 669.0 197.0 label -text "Trench Passage" -scale m -align l
+point 531.0 289.0 label -text "Trench Passage" -scale m -align l
 
 line chimney -close on
   777.0 74.0
@@ -84,21 +84,21 @@ line chimney -close on
   946.0 -106.0 772.0 68.0 777.0 74.0
 endline
 
-point 591.0 79.0 label -text "08/12/2007" -scale xs -align l
-
-line arrow -head begin
-  796.0 129.0
-  615.0 78.0
+line section -reverse on -direction both
+  676.0 74.0
+  741.0 113.0 938.0 228.0 990.0 262.0
 endline
 
+point 647.0 72.0 label -text "08/12/2007" -scale xs -align l
+
 line arrow -head end
-  571.0 -58.0
+  708.0 -45.0
   826.0 13.0
 endline
 
 line arrow -head end
   1083.0 -216.0
-  1043.0 -148.0
+  1059.0 -160.0
 endline
 
 point 413.0 444.0 dig
@@ -107,9 +107,9 @@ point 1082.0 -139.0 dig
 
 point 1084.0 -255.0 label -text "Shake 'n Vac" -scale s -align r
 
-point 551.0 -58.0 label -text "The Old Curiosity Shop (aven)" -scale s -align l
+point 687.0 -105.0 label -text "The Old Curiosity Shop<br><right>(aven, c12)" -scale s -align l
 
-point 965.0 -217.0 label -text "Thieves' Chamber" -scale m -align l
+point 885.0 -302.0 label -text "Thieves' Chamber" -scale m -align l
 
 line rock-edge
   1000.0 -90.0

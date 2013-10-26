@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -3271.29 -987.0 6147.2188 3086.712
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -3271.29 -1321.04 6171.0795 3086.7218
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {5184.08 1 1.0} {906.69 N1@Neverland} 0.Maps/Neverland.xvi 0 {}
 
 
 
-scrap Neverland_s1 -scale [-256.0 -256.0 5822.0108 -256.0 0.0 0.0 154.38147432 0.0 m]
+scrap Neverland_s1 -stations [F1@NeverlandCC G1@NeverlandCC H1@NeverlandCC] -scale [-256.0 -256.0 5822.0108 -256.0 0.0 0.0 154.38147432 0.0 m]
 
 point 2140.49 540.15 station -name N24@NeverlandCC
 
@@ -43,13 +43,11 @@ point 553.0 1547.0 station -name N40@NeverlandCC
 
 point 478.51 1432.29 station -name N41@NeverlandCC
 
-point 2195.0 251.0 label -orientation 65 -text "Funnel Chamber" -scale s
+point 2083.0 459.0 label -orientation 60 -text "Funnel Chamber" -scale s -align r
 
-point 2068.0 280.0 label -orientation 65 -text "Curtain Climb" -scale s
+point 1890.0 496.0 label -orientation 60 -text "Curtain Climb" -scale s -align r
 
-point 3188.0 -212.0 label -text "Neverland" -scale l
-
-point 1634.5 566.0 label -orientation 0 -text "Handline Traverses" -scale s -align l
+point 1542.5 560.0 label -orientation 60 -text "Handline Traverses" -scale s -align r
 
 line wall
   1163.0 1432.0

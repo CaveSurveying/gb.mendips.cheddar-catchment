@@ -1,12 +1,12 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 161.14 97.952 3763.59 1731.902
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust 24.0 98.0 3626.45 1731.95
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {3025.36 1 1.0} {1013.352 N38} xvi/NeverlandRopeClimb.xvi 0 {}
+##XTHERION## xth_me_image_insert {2888.22 1 1.0} {1013.4 N38} 0.Maps/NeverlandRopeClimb.xvi 0 {}
 
 
 
-scrap NeverlandRopeClimb_s3 -scale [-128.0 -128.0 4255.9011 -128.0 0.0 0.0 111.35108794 0.0 m] \
--stations [48@NeverlandRopeClimb]
+scrap NeverlandRopeClimb_s3 -scale [-128.0 -128.0 4255.9011 -128.0 0.0 0.0 111.35108794 0.0 m]
 
 point 391.4 1357.142 station -name 46@NeverlandRopeClimb
 
@@ -76,6 +76,10 @@ endline
 
 point 1569.0 982.0 label -text "Popcorn Boulder" -scale s -align r
 
+point 1512.0 622.0 label -text "The Attic" -scale m -align l
+
+point 820.0 898.0 label -text "Far Chamber" -scale m -align l
+
 line wall -reverse on
   822.5 1112.5
   803.0 1099.0 818.0 1084.0 821.0 1079.5
@@ -85,9 +89,9 @@ line wall -reverse on
   560.0 1182.0 355.8 1312.78 391.4 1357.142
   altitude .
   427.0 1401.5 640.5 1209.0 665.0 1212.0
-  689.5 1215.0 802.5 1250.0 826.5 1246.0
+  689.5 1215.0 766.0 1232.0 790.0 1228.0
   altitude .
-  850.5 1242.0 1143.0 1125.0 1155.0 1119.5
+  814.0 1224.0 1143.0 1125.0 1155.0 1119.5
   1167.0 1114.0 1273.0 1066.0 1283.5 1064.5
   1294.0 1063.0 1352.0 1064.5 1359.0 1067.5
   1366.0 1070.5 1439.5 1141.0 1444.5 1145.5
@@ -96,6 +100,7 @@ line wall -reverse on
   1547.5 1212.0 1638.6 1224.84 1629.5 1203.0
   altitude .
   1624.5 1191.0 1567.0 1181.5 1545.5 1178.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -106,6 +111,7 @@ line wall -reverse on
   1521.5 878.0 1562.5 996.0 1560.5 1002.5
   1558.5 1009.0 1508.0 1119.0 1509.0 1122.5
   1510.0 1126.0 1541.5 1176.5 1545.5 1178.0
+  smooth off
 endline
 
 line wall

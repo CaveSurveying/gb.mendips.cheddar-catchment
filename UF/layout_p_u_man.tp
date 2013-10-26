@@ -1,0 +1,10 @@
+layout l_p_u_man
+	code metapost
+		def p_u_man(expr pos,mark,txt)(text flags) =
+		  T:=identity shifted pos;
+		  thdraw((-.25u,0) -- (0,u) -- (0,2u) -- (0,u) -- (.25u,0)
+		  
+		enddef;
+		text en "point u:man" "Person for scale"
+	endcode
+endlayout

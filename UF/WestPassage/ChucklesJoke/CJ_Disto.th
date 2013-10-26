@@ -1,0 +1,52 @@
+encoding  utf-8
+survey Disto -title "Chuckles Joke"
+
+centreline
+  team "Ben Cooper" notes
+  team "Mike Waterworth" instruments
+  instrument length  "Ben's DistoX"
+  
+  date 2010.09.04
+  #declination -2.527 deg  	# BGS at 2010.09.04 51.2987N 2.71038W 0.2km alt.  2010 Model.  Updated Nov 2011
+  				# http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html
+  declination -1.974 deg    	# Allign to grid, Grid North +0.5535 deg
+
+  station 2.3s "Sump, bailed into upward rift, too tight" dig continuation spring attr Name "CJ3" attr dig "Bailed"
+  station 2.5 "Dig into slot in floor" dig continuation attr Name "CJ5" attr lr "left" attr dig "dig"
+  station 2.6 "Narrow tube" continuation explored 7.0 attr Name CJ6
+
+  data normal from to compass clino tape
+  extend right
+  2.1 2.0 241.32 10.54 3.192
+  2.1 2.2 288.40 -30.33 2.313
+  2.2 - 103.36 -3.98 0.620
+  2.2 - 51.77 -9.24 0.760
+  2.2 - 9.46 -0.46 0.620
+  2.2 - 49.69 -87.77 1.110
+  2.2 - 50.08 73.88 1.150
+  2.2 2.3 59.96 -64.47 1.850
+  2.3 - 1.50 -3.09 0.650
+  2.3 - 174.65 0.38 0.300
+  2.3 - 69.89 83.97 0.720
+  2.3 - 4.66 -70.93 0.980
+  2.3 - 96.88 -20.89 3.090
+  2.3 2.3s 89.55 -20.55 2.980  # Shot into sump
+  2.3 - 83.29 -21.13 2.910
+  2.3 2.4 284.07 -43.39 1.613
+  2.4 - 203.13 -4.85 0.450
+  2.4 - 56.69 -4.10 0.210
+  2.4 - 114.86 -11.41 0.430
+  2.4 2.5 327.02 -67.71 2.756
+  2.5 - 357.37 -7.05 0.220
+  2.5 - 180.64 35.25 1.320
+  2.5 - 137.68 28.33 0.721
+  2.5 - 246.98 11.99 1.310
+  2.5 - 277.67 13.23 0.970
+  2.5 - 101.54 12.42 1.720
+  2.5 - 122.39 49.77 1.720
+  2.5 - 93.06 -7.74 5.080
+  2.5 2.6 91.05 -3.42 7.170
+endcentreline
+
+endsurvey
+

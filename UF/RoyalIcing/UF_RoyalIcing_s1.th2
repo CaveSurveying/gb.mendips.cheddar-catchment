@@ -1,79 +1,80 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -161.891 -358.11 1235.839 2437.255
+##XTHERION## xth_me_area_adjust 134.0 252.13 1082.0 2170.0
 ##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {359.808 1 1.0} {380.13 1.0@HiddenPassage.RoyalIcing} xvi/RoyalIcing.xvi 0 {}
 ##XTHERION## xth_me_image_insert {361.023622047 1 1.0} {382.377952756 1.0} DistoX/RoyalIcing/UF_RoyalIcing_20090710.therion_p5.xvi 0 {}
 
-scrap RoyalIcing_s1 -scale [-128.0 -128.0 6618.1104 -128.0 0.0 0.0 171.35120416 0.0 m] \
--stations [1@RoyalIcing 4@RoyalIcing 36@RoyalIcing]
 
-point 582.871 1420.08 station -name 21@RoyalIcing
 
-point 649.411 1434.45 station -name 50@RoyalIcing
+scrap RoyalIcing_s1 -scale [-128.0 -128.0 6618.1104 -128.0 0.0 0.0 171.35120416 0.0 m]
 
-point 567.911 1330.91 station -name 49@RoyalIcing
+point 582.871 1420.08 station -name 21@Pony
 
-point 459.841 1305.71 station -name 48@RoyalIcing
+point 649.411 1434.45 station -name 50@Pony
 
-point 501.571 1264.96 station -name 47@RoyalIcing
+point 567.911 1330.91 station -name 49@Pony
 
-point 536.811 1245.87 station -name 46@RoyalIcing
+point 459.841 1305.71 station -name 48@Pony
 
-point 501.971 1180.12 station -name 45@RoyalIcing
+point 501.571 1264.96 station -name 47@Pony
 
-point 520.471 1126.97 station -name 44@RoyalIcing
+point 536.811 1245.87 station -name 46@Pony
 
-point 388.781 457.48 station -name 34@RoyalIcing
+point 501.971 1180.12 station -name 45@Pony
 
-point 380.711 539.57 station -name 33@RoyalIcing
+point 520.471 1126.97 station -name 44@Pony
 
-point 456.101 513.0 station -name 32@RoyalIcing
+point 388.781 457.48 station -name 34@Pony
 
-point 313.191 696.26 station -name 31@RoyalIcing
+point 380.711 539.57 station -name 33@Pony
 
-point 356.301 633.86 station -name 30@RoyalIcing
+point 456.101 513.0 station -name 32@Pony
 
-point 387.401 709.26 station -name 29@RoyalIcing
+point 313.191 696.26 station -name 31@Pony
 
-point 436.811 901.77 station -name 28@RoyalIcing
+point 356.301 633.86 station -name 30@Pony
 
-point 472.241 1050.0 station -name 27@RoyalIcing
+point 387.401 709.26 station -name 29@Pony
 
-point 638.981 1459.06 station -name 23@RoyalIcing
+point 436.811 901.77 station -name 28@Pony
 
-point 624.611 1467.33 station -name 19@RoyalIcing
+point 472.241 1050.0 station -name 27@Pony
 
-point 631.891 1482.88 station -name 18@RoyalIcing
+point 638.981 1459.06 station -name 23@Pony
 
-point 652.561 1541.54 station -name 17@RoyalIcing
+point 624.611 1467.33 station -name 19@Pony
 
-point 697.441 1567.13 station -name 14@RoyalIcing
+point 631.891 1482.88 station -name 18@Pony
 
-point 707.871 1593.51 station -name 13@RoyalIcing
+point 652.561 1541.54 station -name 17@Pony
 
-point 768.701 1663.98 station -name 12@RoyalIcing
+point 697.441 1567.13 station -name 14@Pony
 
-point 856.891 1701.97 station -name 11@RoyalIcing
+point 707.871 1593.51 station -name 13@Pony
 
-point 786.221 1812.6 station -name 10@RoyalIcing
+point 768.701 1663.98 station -name 12@Pony
 
-point 891.931 2017.92 station -name 9@RoyalIcing
+point 856.891 1701.97 station -name 11@Pony
 
-point 866.141 2003.74 station -name 8@RoyalIcing
+point 786.221 1812.6 station -name 10@Pony
 
-point 850.201 1952.96 station -name 7@RoyalIcing
+point 891.931 2017.92 station -name 9@Pony
 
-point 820.081 1897.25 station -name 6@RoyalIcing
+point 866.141 2003.74 station -name 8@Pony
 
-point 764.761 1913.78 station -name 5@RoyalIcing
+point 850.201 1952.96 station -name 7@Pony
 
-point 724.411 1858.47 station -name 4@RoyalIcing
+point 820.081 1897.25 station -name 6@Pony
 
-point 745.471 1845.08 station -name 3@RoyalIcing
+point 764.761 1913.78 station -name 5@Pony
 
-point 719.291 1740.75 station -name 2@RoyalIcing
+point 724.411 1858.47 station -name 4@Pony
 
-point 670.081 1684.06 station -name 1@RoyalIcing
+point 745.471 1845.08 station -name 3@Pony
+
+point 719.291 1740.75 station -name 2@Pony
+
+point 670.081 1684.06 station -name 1@Pony
 
 point 796.5 1868.25 gradient -orientation 268.3
 
@@ -136,7 +137,9 @@ line wall -id wall_RIs1_1b -reverse on
   smooth off
 endline
 
-point 672.0 1444.75 gradient -orientation 292.2
+point 468.0 950.0 gradient -orientation 292.2 -scale s
+
+point 672.0 1444.75 gradient -orientation 292.2 -scale s
 
 line arrow -head end
   764.0 1516.0
@@ -145,9 +148,9 @@ endline
 
 point 786.0 1514.0 label -text "Halogen Loft" -scale s -align r
 
-point 786.0 1456.0 label -text "30/9/2006" -scale xs -align r
+point 786.0 1456.0 label -text "30/09/2006" -scale xs -align r
 
-point 675.25 1390.25 gradient -orientation 292.2
+point 675.25 1390.25 gradient -orientation 292.2 -scale s
 
 line wall -id wall_RIs1_1 -reverse on
   688.0 1945.0
@@ -213,6 +216,8 @@ line wall
   smooth off
 endline
 
+point 320.0 1178.0 water-flow -orientation 128.4 -subtype intermittent
+
 line wall -id wall_RIs1_SW
   359.75 1145.75
   altitude .
@@ -220,7 +225,6 @@ line wall -id wall_RIs1_SW
   396.5 1111.25 421.0 1100.5 419.5 1082.75
   418.74 1073.79 420.0 1042.0 441.5 1046.0
   447.6 1047.14 409.5 933.0 407.5 911.5
-  altitude .
   405.5 890.0 386.0 722.25 384.5 714.0
   383.5 708.5 360.0 644.5 356.0 643.5
   352.0 642.5 322.19 689.76 313.191 696.26
@@ -262,6 +266,7 @@ line wall -id wall_RIs1_SE -reverse on
   smooth off
   623.5 1064.5 536.0 1038.0 527.5 1019.5
   519.0 1001.0 495.5 906.0 489.0 888.0
+  altitude .
   482.5 870.0 417.68 672.37 409.5 656.0
   407.0 651.0 393.0 623.0 392.0 618.0
   391.0 613.0 468.2 515.5 456.101 513.0
@@ -271,16 +276,16 @@ line wall -id wall_RIs1_SE -reverse on
   smooth off
 endline
 
-point 362.168 1144.5 station -name 43@RoyalIcing
+point 362.168 1144.5 station -name 43@Pony
 
 point 450.0 1058.0 dig -scale m
 
 line arrow -head end
-  368.5 1063.0
-  419.25 1059.75
+  300.0 936.0
+  416.0 1046.0
 endline
 
-point 353.0 1063.5 label -text "Brian's Eye" -scale s -align l
+point 271.0 911.5 label -text "Brian's Eye" -scale s -align l
 
 endscrap
 

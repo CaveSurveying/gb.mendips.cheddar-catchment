@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 101.84251969 -313.885 739.5 1316.125
-##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {361.29151969 1 1.0} {382.49 1.0@HiddenPassage.RoyalIcing} {0 Maps/RoyalIcing.xvi} 0 {}
+##XTHERION## xth_me_area_adjust 101.84251969 -313.885 742.0 795.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {361.29151969 1 1.0} {382.49 1.0@HiddenPassage} {0 Maps/RoyalIcing.xvi} 0 {}
 ##XTHERION## xth_me_image_insert {360.866141737 1 1.0} {381.742952756 1.0} PocketTopo/UF_RoyalIcing_20090710.therion_p5.xvi 0 {}
 ##XTHERION## xth_me_image_insert {476.533464572 1 1.0} {81.63468504 1.0} PocketTopo/hidden1_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {361.1135 1 1.0} {381.752 1.0} xvi/SP_1.xvi 0 {}
@@ -10,44 +10,48 @@ encoding  utf-8
 
 scrap RoyalIcing_s3 -scale [-128.0 -128.0 6618.1104 -128.0 0.0 0.0 171.35120416 0.0 m]
 
-point 301.701 208.8 station -name 40@RoyalIcing
+point 301.701 208.8 station -name 40@Pony
 
-point 457.423464572 -125.29531496 station -name 1.9@HiddenPassage.RoyalIcing
+point 457.423464572 -125.29531496 station -name 1.9@HiddenPassage
 
-point 453.053464572 -68.38531496 station -name 1.8@HiddenPassage.RoyalIcing
+point 453.053464572 -68.38531496 station -name 1.8@HiddenPassage
 
-point 447.5 3.5 station -name 1.7@HiddenPassage.RoyalIcing
+point 447.5 3.5 station -name 1.7@HiddenPassage
 
-point 468.579 96.02 station -name 1.6@HiddenPassage.RoyalIcing
+point 468.579 96.02 station -name 1.6@HiddenPassage
 
-point 411.489 93.06 station -name 1.5@HiddenPassage.RoyalIcing
+point 411.489 93.06 station -name 1.5@HiddenPassage
 
-point 350.069 72.2 station -name 1.4@HiddenPassage.RoyalIcing
+point 350.069 72.2 station -name 1.4@HiddenPassage
 
-point 315.429 113.54 station -name 1.3@HiddenPassage.RoyalIcing
+point 315.429 113.54 station -name 1.3@HiddenPassage
 
-point 318.769 194.44 station -name 1.2@HiddenPassage.RoyalIcing
+point 318.769 194.44 station -name 1.2@HiddenPassage
 
 line arrow -head begin
   430.5 359.5
   460.5 263.5
 endline
 
-point 462.0 235.5 label -text "Royal<br>Icing" -scale s -align r
+point 563.0 118.0 label -text "Junction" -scale s -align r
 
-point 347.371 247.73 station -name 39@RoyalIcing
+point 505.0 168.0 label -text "Icing" -scale s -align r
 
-point 558.5 518.75 station -name EP4@RoyalIcing
+point 446.0 236.5 label -text "Royal" -scale s -align r
 
-point 529.599 443.85 station -name EP3@RoyalIcing
+point 347.371 247.73 station -name 39@Pony
 
-point 448.889 376.13 station -name EP2@RoyalIcing
+point 558.5 518.75 station -name EP4@Pony
 
-point 360.921 382.17 station -name 36@RoyalIcing
+point 529.599 443.85 station -name EP3@Pony
 
-point 392.951 409.98 station -name 35@RoyalIcing
+point 448.889 376.13 station -name EP2@Pony
 
-point 388.531 459.48 station -name 34@RoyalIcing
+point 360.921 382.17 station -name 36@Pony
+
+point 392.951 409.98 station -name 35@Pony
+
+point 388.531 459.48 station -name 34@Pony
 
 line wall -id wall_RIs3_NE -reverse on
   402.5 661.5
@@ -57,9 +61,6 @@ line wall -id wall_RIs3_NE -reverse on
 endline
 
 point 508.25 -136.75 label -text "Hidden<br>Passage" -scale m -align r
-
-line wall
-endline
 
 line wall -id wall_RIs3_SE
   484.5 -13.5
@@ -196,8 +197,6 @@ line rock-edge -close on -reverse on
   405.5 423.5
 endline
 
-point 303.8235 -15.488 station -name 1.5@Disto.SouthPassage
-
 line pit -close on -reverse on
   292.75 -8.0
   292.75 -10.75 293.0 -2.75 295.0 -2.0
@@ -208,7 +207,7 @@ line pit -close on -reverse on
   295.87 -14.89 292.75 -5.25 292.75 -8.0
 endline
 
-point 350.069 72.2 station -name 1.4@HiddenPassage.RoyalIcing
+point 350.069 72.2 station -name 1.4@HiddenPassage
 
 line wall -id wall_RIs3_Pillar -close on -reverse on -outline in
   388.5 475.0

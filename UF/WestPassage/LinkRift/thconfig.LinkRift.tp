@@ -1,0 +1,16 @@
+encoding  utf-8
+language en_UK
+source LinkRift.th
+
+select LinkRift_map@LinkRift
+
+layout l1
+	scale-bar 10 m
+        color map-fg 50  
+ 	scale 1 100
+endlayout
+
+export model -format survex -o 0.Maps/LinkRift.3d
+export model -format loch -o 0.Maps/LinkRift.lox
+export map -projection plan -format pdf -layout l1 -o 0.Maps/LinkRift.pdf
+export map -projection [elevation 255] -layout l1 -format xvi -o 0.Maps/LinkRift.e255.xvi

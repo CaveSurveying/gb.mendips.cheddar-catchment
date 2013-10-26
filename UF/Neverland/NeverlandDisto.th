@@ -17,6 +17,8 @@ centreline
       				# http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html
     declination -1.891 deg    	# Allign to grid, Grid North +0.5535 deg
 
+	station 3.35 "Sump, dived to -3m <DATE>" sink attr sump "Dived" continuation explored 15 attr name "N35"
+	
 	flags duplicate
 		3.10 - 357.05 29.89 3.289
 		3.10 - 3.09 47.67 1.240

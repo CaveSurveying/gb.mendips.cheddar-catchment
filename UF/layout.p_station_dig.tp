@@ -1,0 +1,143 @@
+# The layout p_station_dig is used to properly display the flags: dig, aven, and continuation
+# Flag "continuation" is set in all station commands in the .th files, so that details are listed in the "continuation table".  
+# Attributes are then added to control display options, as follows:-
+#
+# attr aven "height" is used to indicate that this is an aven  (POSSIBLE FUTURE CHANGE TO USE OVERHANG INSTEAD).
+# If the aven has not been climmbed, nothing further is required: the continuation symbol "?" is displayed above the aven symbol.
+# If the aven has been climbed, set attr climmbed "date" in the station command in the .th file.  This suppresses, the display of the "continuation" symbol.
+#
+# Flag "dig" shows that this is a dig.  
+# If this is a potential dig, nothing further is required; the continuation symbol "?" is displayed indicating this is a potential dig.
+# If the dig has been started, set attr dig "further information".  This suppresses display of the continuation symbol and provides further info in the 
+# continuation table.
+# 
+# FUTURE:  draw all flag symbols to PATH; keep track of up and down shift to display multiple symbols in a stack, with sink at the bottom and spring at the top.  
+
+
+
+layout l_p_station_dig
+	code metapost
+		def p_station(expr pos,mark,txt)(text flags) =
+		  T:=identity shifted pos;
+		  numeric display_name, txt_shift, radius, display_cont;
+		  pair continuation_shift;
+		  
+		  display_name:=0;
+		  txt_shift:=0.6u;
+		  continuation_shift:= (0,0);
+		  display_cont:=1;
+
+		  if mark=4: p_station_fixed(pos)
+		  elseif mark=3: p_station_natural(pos)
+		  elseif mark=2: p_station_painted(pos)
+		  elseif mark=1: p_station_temporary(pos)
+		  fi;
+
+		  if known ATTR_aven:
+		    if known ATTR_name:
+			  display_name:= 1;
+			else:
+			  show "ERROR: Aven with no name"
+			fi;
+			% interim bboxmargin:=0.2pt;
+			lab:=thelabel(ATTR_aven,pos);
+			q := bbox(lab);
+			% determine width of the label - this will be the radius of the domed frame surrounding it
+			radius:=0.4(xpart(point 1 of q) - xpart(point 0 of q));
+			txt_shift:=1.2radius;
+			draw lab;
+			thdrawoptions(withpen PenA);
+			thdraw (-radius,-.6u) -- (-radius,+.2u){up} .. {down}(radius,+.2u) -- (radius,-.6u) -- cycle;			
+			thdrawoptions();
+			p_smartsymbol( pos+(-radius,-.6u), pos+(radius,2u));
+			continuation_shift:= (0,0.4u+radius);	% shift up any "?" above aven symbol.  Arch height is proportionate to radius!
+			if known ATTR_climbed:
+			  % suppress display of "?" if this climbed to resolution
+			  display_cont:=0;
+			fi;
+		  fi;
+		  path path_cave;
+		  path_cave = (-.3u,-.25u) -- (-.2u,-.25u){dir 135} .. (0, .25u) .. {dir 225}(.2u,-.25u) -- (.3u,-.25u);
+		  for i=flags:
+		    if i="dig":
+			  if known ATTR_dig:
+			    % suppress display of "?" if this dig has been started
+			    display_cont:=0;
+			  fi;
+		    fi;
+		  endfor;
+		  for i=flags:
+			pickup PenX;
+			if i="entrance":
+		%      thfill fullcircle scaled 1 cm withtransparentcolor tr_blue;
+			  thdraw path_cave;
+		%      p_label.urt(txt,pos+(0.4u,0),0,0);
+			  if not numeric txt:
+				p_smartlabel(txt,pos);
+			  fi;
+			elseif i="sink":
+			  thdraw path_cave cutbefore ((-u,0)--(u,0)) cutafter ((-u,0)--(u,0));
+			  pickup PenA;
+			  thdraw (0,-.45u) -- (0,.05u) withcolor blue;
+			  thdraw (-.15u,-.02u) -- (0,.05u) -- (.15u,-.02u) withcolor blue;
+			elseif i="spring":
+			  thdraw path_cave cutbefore ((-u,0)--(u,0)) cutafter ((-u,0)--(u,0));
+			  pickup PenA;
+			  thdraw (0,-.45u) -- (0,.05u) withcolor blue;
+			  thdraw (-.15u,-.38u) -- (0,-.45u) -- (.15u,-.38u) withcolor blue;
+			elseif i="doline":
+			  thdraw (-.5u,.05u){down}..(0,-0.6u)..{up}(.5u,.05u);
+			elseif i="dig":
+			  if known ATTR_name:
+			    display_name:= 1;
+			  else:
+			    show "ERROR: Dig with no name"
+			  fi;
+			  txt_shift := 0.7u;
+			  thdraw (-.5u,.25u) -- (-.35u,.25u)--(-.23u,-.25u)--(.23u,-.25u)--(.35u,.25u)--(.5u,.25u);
+			  p_smartsymbol( pos+(-.5u,-.25u), pos+(.5u,.5u));
+			elseif substring(0,11) of i = "air-draught":
+			  pickup PenB;
+			  thdraw ((0,.11u){dir-120} ..{dir-70}(0,0) .. {dir-120}(0,-.11u));
+			  thdraw ((0,.11u){dir-120} ..{dir-70}(0,0) .. {dir-120}(0,-.11u)) shifted (.11u,0);
+			  thdraw ((0,.11u){dir-120} ..{dir-70}(0,0) .. {dir-120}(0,-.11u)) shifted (-.11u,0);
+			elseif i="continuation":
+			  if (display_cont = 1):
+				  if known ATTR_name:
+					display_name:= 1;
+				  else:
+					show "ERROR: Continuation with no name"
+				  fi;
+				  display_name:=1;
+				  if picture(txt):
+					picture ATTR__text;
+					ATTR__text := txt;
+				  fi;
+				  begingroup;
+					save T; transform T;
+					p_continuation(pos+continuation_shift,0,1,(0,1));
+				  endgroup;
+				  if picture(txt):
+					save ATTR__text;
+				  fi;
+			  fi;
+			elseif i="arch":
+			  thdraw (-.5u,-.25u)--(-.5u,.25u)--(.5u,.25u)--(.5u,-.25u)..(0,.2u)..cycle;
+			  thfill (-.5u,-.25u)--(-.5u,.25u)--(.5u,.25u)--(.5u,-.25u)..(0,.2u)..cycle;
+			elseif i="overhang":
+			  thdraw (.2u,-.25u)--(-.2u,-.25u){up}..{right}(.2u,.25u);
+			fi;
+		  endfor;
+		  if display_name = 1:
+			if known(ATTR_name):
+				if not numeric ATTR_name:
+					numeric ATTR__shift;
+					ATTR__shift := txt_shift;
+					p_smartlabel(ATTR_name, pos);
+				fi;
+			fi;
+		  fi;
+		%  thdraw (0,0) withpen PenX withcolor red;
+		enddef;
+	endcode
+endlayout

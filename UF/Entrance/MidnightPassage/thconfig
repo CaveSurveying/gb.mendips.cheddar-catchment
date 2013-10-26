@@ -1,0 +1,32 @@
+encoding  utf-8
+source MidnightPassage.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o 0.Maps/MidnightPassage.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o 0.Maps/MidnightPassageEe.pdf
+
+export model -fmt survex -o 0.Maps/MidnightPassageth.3d
+#Survex file showing centre line only
+
+#export model -o 0.Maps/MidnightPassage.lox
+#3d therion model to be viewed in the therion viewer
+
+export map -proj plan -o 0.Maps/MidnightPassage_Walls.3d
+#Survex file showing walls only
+
+layout local
+debug off
+map-header 0 0 ne
+        color map-fg 90  
+ 	scale 1 200 
+ 	
+ 	symbol-colour area water [0 0 100]
+ 	symbol-colour area flowstone [10 90 10]
+ 	#symbol-hide group cave-centreline
+endlayout

@@ -1,0 +1,94 @@
+layout l_p_smartlabel_lr
+  code metapost
+	def beginfig(expr c) =
+	%  begingroup
+	  charcode:=c;
+	  clearxy; clearit; clearpen;
+	  pickup defaultpen;
+	  drawoptions();
+	  scantokens extra_beginfig;
+	  
+	  save smartll, smartur; 
+	  pair smartll[], smartur[]; 
+	  smart_count := 0;
+	enddef;
+  
+    def p_smartsymbol (expr ll, ur) = 
+	  smart_count := smart_count + 1;
+	  smartll[smart_count] := ll - (0.2pt,0.2pt) ;
+	  smartur[smart_count] := ur + (0.2pt, 0.2pt);
+	enddef;
+	
+	def p_smartlabel (expr txt, pos) =
+	  begingroup;
+	  numeric x_shift;
+	  x_shift:=0.6u;
+	  interim bboxmargin:=0.2pt;
+	  string lr;
+	  lr:="right";
+	  if known ATTR__shift:
+		if numeric ATTR_shift:
+		  x_shift := ATTR__shift;
+		else
+		  show "Non-numeric ATTR_shift declared in a custom function";
+		fi;
+	  fi;
+  	  lab:=thelabel.rt(txt,pos+(x_shift,0));
+	  if known ATTR_lr:
+		if ATTR_lr="left":
+		  lr:="left";
+	  	  lab:=thelabel.lft(txt,pos-(x_shift,0));
+	    fi;
+	  fi;
+	  q:=bbox lab;
+	  smart_D := 0;
+	  forever:
+		smart_quit := true;
+		smart_inner_quit := false;
+		for i=1 upto smart_count:
+		  if smart_overlap(((point 0 of q) shifted (0,smart_D)), 
+						   ((point 2 of q) shifted (0,smart_D)),
+						   smartll[i], smartur[i]) = 1:
+			smart_quit := false;
+			smart_D := smart_D - 3pt;
+			smart_inner_quit := true;
+		  fi;
+		  exitif smart_inner_quit;
+		endfor;
+		exitif smart_quit;
+	  endfor;
+	  smart_U := 0;
+	  forever:
+		smart_quit := true;
+		smart_inner_quit := false;
+		for i=1 upto smart_count:
+		  if smart_overlap(((point 0 of q) shifted (0,smart_U)), 
+						   ((point 2 of q) shifted (0,smart_U)),
+						   smartll[i], smartur[i]) = 1:
+			smart_quit := false;
+			smart_U := smart_U + 3pt;
+			smart_inner_quit := true;
+		  fi;
+		  exitif smart_inner_quit;
+		endfor;
+		exitif smart_quit;
+	  endfor;
+	  if (smart_U < -smart_D): smart_D := smart_U; fi;
+	  draw lab shifted (0,smart_D);
+	  if (abs(smart_D)>3pt):
+		pickup PenB;
+		if lr = "right":
+		  draw pos{left}..{right}(pos shifted (x_shift, smart_D)) dashed withdots scaled 0.2;
+		else:
+		  draw pos{right}..{left}(pos shifted (-x_shift, smart_D)) dashed withdots scaled 0.2;
+		fi;
+		pickup PenA;
+		drawdot pos;
+	  fi;
+	  smart_count := smart_count + 1;
+	  smartll[smart_count] := point 0 of (q shifted (0,smart_D));
+	  smartur[smart_count] := point 2 of (q shifted (0,smart_D));
+	  endgroup;
+	enddef;
+  endcode
+endlayout

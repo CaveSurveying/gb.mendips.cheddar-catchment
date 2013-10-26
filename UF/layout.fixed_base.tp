@@ -1,0 +1,34 @@
+layout l_fixed_base
+    scale-bar 100 m
+	grid-size 100 100 100 m
+	grid bottom
+	map-header 0 0 nw
+	statistics topo off
+	statistics topo-length off
+	
+	color map-fg 70  
+	color preview-below 70
+ 	scale 1 1000
+	
+	
+	symbol-hide group all
+	symbol-show group centerline
+#	symbol-hide line survey
+	symbol-hide point altitude
+	symbol-hide point station:temporary
+	symbol-hide point water-flow 
+	symbol-hide point camp
+	
+	symbol-show line wall
+	symbol-show point label
+	symbol-colour group centerline 70
+	symbol-colour point station 0
+	symbol-colour line wall 70
+		
+	#code metapost
+        #  fonts_setup(5,6,7,8,9);
+	
+	code tex-map
+	   \cavelength={3635m (manual)}
+	   \cavedepth={130m (manual)}
+endlayout

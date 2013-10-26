@@ -4,25 +4,31 @@ survey WalkThePlankChamber
   # Define fixed points
   #####################
   centreline
-    mark FIXED-MW4-wall fixed
+    mark FIXED-MW51-wall fixed
 	mark PAINTED-MW54-wall painted
 	mark 0.11@PlankGrotto_DistoX painted
-    station FIXED-MW4-wall "MW51 5mm hole, brass screw, reflector" continuation attr code "fixed" attr Name "MW51"
-    station PAINTED-MW54-wall "MW54 Painted on South Wall close to ceiling" continuation attr code "fixed" attr Name "MW54"
-    station 0.11@PlankGrotto_DistoX "T5 Painted on South Wall close to floor" continuation attr code "fixed" attr Name "T5"
+    station FIXED-MW51-wall "MW51 5mm hole, brass screw, reflector, 70cm from painted stal tip MW51" attr print "true" attr Code "fixed" attr Name "MW51"
+    station PAINTED-MW54-wall "MW54 Painted on South Wall close to ceiling" attr print "true" attr Code "fixed" attr Name "MW54" attr LR "left"
+    station 0.11@PlankGrotto_DistoX "T5 Painted on South Wall close to floor" attr print "true" attr Code "fixed" attr Name "T5"
+    
+	station MW55@MW "Calcited passage" dig continuation attr name "WTP Inlet" attr dig "dig" attr LR "left"
+	station 2b@TrenchPassage_Pony "11m Aven" continuation continuation attr aven "11" attr name "WTP2" attr LR "left"
+	station 6a@TrenchPassage_Pony "9m Aven above Crystal Ball" continuation continuation attr aven "9" attr name "T6" 
+	station 7a@TrenchPassage_Pony "Intermittent rising from small hole" dig continuation spring attr name "T7" attr LR "left"
+	station D7a@ThievesChamber_Pony "Aven Old Curiosity Shop" continuation attr aven "13" attr name "OCS" attr climbed "date" attr LR "left"
+	station D11@ThievesChamber_Pony "Dig through boulders to narrow rift" dig continuation sink attr name "T11"
   endcentreline
   
   # Build the centreline
   ######################
   input ufs_wtpMW.th
-  equate MW51-stal@MW          PAINTED-MW4-stal
-  equate MW54-wall@MW          PAINTED-MW54-wall
-  
+  equate MW51@MW          PAINTED-MW51-stal
+  equate MW54@MW          PAINTED-MW54-wall
   
   input ufs_PlankGrotto_DistoX.th
-  equate MW4-wall@PlankGrotto_DistoX  FIXED-MW4-wall
-  equate MW4-stal@PlankGrotto_DistoX  PAINTED-MW4-stal
-    equate 0.2@PlankGrotto_DistoX    MW52@MW
+  equate MW51-wall@PlankGrotto_DistoX  FIXED-MW51-wall
+  equate MW51-stal@PlankGrotto_DistoX  PAINTED-MW51-stal
+  equate 0.2@PlankGrotto_DistoX    MW52@MW
   
   input ufs_TrenchPassage_Pony.th
   equate MW54@TrenchPassage_Pony    PAINTED-MW54-wall
@@ -36,6 +42,7 @@ survey WalkThePlankChamber
   ####################
   input WalkThePlankChamber_v2.th2
   input ufs_TrenchPassage.th2
+  join TrenchPassage_s1 PlankChamber_s1
   #join wall_SPS3S wall_SPS2:14
   #join wall_SPS3N wall_SPS2:11
 

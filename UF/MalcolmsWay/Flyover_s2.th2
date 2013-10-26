@@ -1,0 +1,103 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 1899.65354331 1269.73228347
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {104.094015748 1 1.0} {969.80503937 2.1} PocketTopo/uf2012-3/new_p.xvi 0 {}
+
+
+
+scrap Flyover_s2 -scale [-128.0 -128.0 1899.65354331 -128.0 0.0 0.0 51.5024000001 0.0 m]
+
+line rock-edge -outline out
+  719.0 821.0
+  709.5 819.5
+  673.704015748 748.74503937
+  673.704015748 748.74503937 666.5 709.0 686.0 694.0
+  smooth off
+endline
+
+line wall
+  631.0 586.0
+  657.0 632.0 686.0 694.0 686.0 694.0
+  smooth off
+endline
+
+line pit -close on -outline in
+  829.0 728.0
+  821.0 726.0 801.0 708.0 822.0 696.0
+  843.0 684.0 864.0 691.0 866.0 701.0
+  868.0 711.0 837.0 730.0 829.0 728.0
+endline
+
+line rock-edge -reverse on -outline out
+  631.0 586.0
+  657.0 632.0 686.0 694.0 686.0 694.0
+  smooth off
+endline
+
+line ceiling-step
+  686.0 694.0
+  703.5 715.5
+  679.5 742.5
+  719.0 821.0
+endline
+
+line rock-edge -outline out
+  983.0 596.0
+  983.0 596.0 1095.5 514.5 1134.5 463.5
+  smooth off
+endline
+
+line pit -outline out
+  929.0 697.0
+  888.0 651.5 928.5 640.5 983.0 596.0
+  smooth off
+endline
+
+line wall -reverse on
+  1134.5 463.5
+  1172.5 399.0
+endline
+
+line pit
+  1121.0 450.5
+  1134.5 463.5
+endline
+
+point 1057.5 494.0 blocks
+
+point 954.0 493.0 blocks
+
+point 862.5 579.5 blocks
+
+point 728.0 619.0 blocks
+
+point 746.5 713.5 blocks
+
+line wall -reverse on
+  1161.0 392.0
+  1150.5 409.0 1130.5 478.0 1082.0 449.0
+  1065.11 438.9 956.0 408.0 881.0 461.0
+  806.0 514.0 693.0 574.0 658.0 575.0
+  639.9 575.52 631.0 586.0 631.0 586.0
+  smooth off
+endline
+
+line wall -reverse on
+  719.0 821.0
+  719.0 821.0 734.0 772.0 749.0 776.0
+  764.0 780.0 776.0 790.0 776.0 790.0
+  smooth off
+  823.0 748.0
+  823.0 748.0 901.0 710.0 929.0 697.0
+  smooth off
+endline
+
+point 1114.92401575 604.25503937 station -name 2.10@Flyover2
+
+point 969.414015748 552.20503937 station -name 2.9@Flyover2
+
+point 784.444015748 618.74503937 station -name 2.8@Flyover2
+
+endscrap
+
+

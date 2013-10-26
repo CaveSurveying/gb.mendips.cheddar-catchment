@@ -6,14 +6,35 @@ survey Entrance -title "Entrance"
 #	cs EPSG:27700 
      #cs OSGB:SN
 	fix LIMEKILN 350590.00	155693.50	249.11	2	2	0.2	
-											# StD derived by BJC as follows: 6"-to-mile map (15cm to 1600m), 
-											# assumed map measurement precision ~0.2 mm = 0.3/150 x 1600m = 2m 
-											# (but this assumes no intrinsic printing error in map, which will not be the case)
-											# altitude std, because of shallow surface gradient will be much more accurate
+						    # StD derived by BJC as follows: 6"-to-mile map (15cm to 1600m), 
+						    # assumed map measurement precision ~0.2 mm = 0.3/150 x 1600m = 2m 
+						    # (but this assumes no intrinsic printing error in map, which will not be the case)
+						    # altitude std, because of shallow surface gradient will be much more accurate
+											
+	station M2d@MCGPaper "Upstream Midnight Chamber. Waterlogged tailings meet the roof. Rock/calcite dam needs hilting in dry weather." continuation dig attr dig "dig" attr name "M2" attr LR "left"
+	station 11d@MidnightChamber "Cocolate Muffin Dig" continuation dig attr dig "dig" attr name "Chocolate Muffin"
+	station M11d@MCGPaper "Clay choke, not tailings" continuation dig attr dig "dig" attr name "M13"
+	station BS10@MCGPaper "Roof tube at far end is diggable and close to the surface. Grovels in the floor are also diggable." continuation dig attr dig "dig" attr name "Rip Off Aven" attr LR "left"
+	
+	mark E8 fixed # Opposite chocolate muffin
+	station E8 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E8"
+	mark E9 fixed # End of Midnight Streamway
+	station E9 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E9"
+	mark E10 fixed # Just before Lavatory Trap
+	station E10 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E10"
+	mark E11 fixed # Just after Lavatory Trap
+	station E11 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E10"
+	mark E12 fixed # Sludge Junction
+	station E12 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E10"
+	mark E13 fixed # Puddle Lake
+	station E13 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E10"
+	
   endcentreline
 
 	input Entrance_MCGPaper.th
 	equate Entrance@MCGPaper	ENTRANCE
+	#Hang old paper survey of Shale Rift onto new DistoX survey
+	equate BS0@MCGPaper		E12		# Approximately true.  
 	
 	input Entrance_MYR2007.th
 	equate 1@MYR2007 		ENTRANCE
@@ -36,4 +57,50 @@ survey Entrance -title "Entrance"
 	#equate 0.5@Disto2011	28@FS.WS
 	#equate 0.19@Disto2011	50@FS.WS
 	#equate 0.16@Disto2011	R6@MCGPaper
+	
+	input MidnightPassage/MidnightPassage.th
+	equate E8		1.10@MidnightPassage
+	equate E9		1.0@MidnightPassage
+	
+	input BypassPassage/BypassPassage.th
+	equate M15@MCGPaper	1.1@BypassPassage  # M16 is though to be top of boulder in stream
+	equate E9		1.0@BypassPassage
+	equate E10		1.20@BypassPassage
+
+	input LavatoryTrap/LavatoryTrap.th
+	equate E10		1.0@LavatoryTrap
+	equate E11		1.5@LavatoryTrap
+	equate E12		1.8@LavatoryTrap
+	equate E13		1.13@LavatoryTrap
+	join wall_Es3_1 l68-558-968@LavatoryTrap
+	join wall_Es3_2 l4-715-776@LavatoryTrap
+
+	#Experimental - Close loops
+	#equate B6@MCGPaper	1.20@ByPassPassage  #(Lavatory trap)
+
+	input Entrance_s1r.th2
+	input Entrance_s2.th2
+	input Entrance_s3.th2    # Shale Rift
+	join UF_s2 UF_s1
+	#join wall_Es3_1 wall_Es2_1
+	#join wall_Es3_2 wall_Es2_2
+	input MidnightChamber.th2
+
+	map Entrance_map
+		UF_s1
+		UF_s2
+		UF_s3
+	endmap     
+	
+	map EntranceDisto_map
+		BypassPassageM@BypassPassage
+		break
+		MidnightPassageM@MidnightPassage
+		LavatoryTrapM@LavatoryTrap
+	endmap
+	
+	map  ShaleRift_map
+		UF_s3	
+	endmap
+
 endsurvey

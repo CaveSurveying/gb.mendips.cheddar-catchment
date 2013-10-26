@@ -1,17 +1,17 @@
 encoding  utf-8
-source ../MalcolmsWay.th
+source MalcolmsWay.th
 
 layout l1
 	scale-bar 10 m
         color map-fg 50  
- 	scale 1 165
+ 	scale 1 100
 endlayout
 
-export model -format survex -o MalcolmsWay.3d
-export model -format loch -o MalcolmsWay.lox
-export map -projection plan -format pdf -layout l1 -o MalcolmsWay_CL.pdf
-export map -projection extended -format pdf -layout l1 -o MalcolmsWay_CLex.pdf
-export map -projection elevation -format pdf -layout l1 -o MalcolmsWay_CLel.pdf
-export map -projection plan -format xvi -layout l1 -o MalcolmsWay.xvi
-export map -projection extended -format xvi -o MalcolmsWay_ex.xvi
-export map -projection elevation -format xvi -o MalcolmsWay_el.xvi
+export model -format survex -o 0.Maps/MalcolmsWay.3d
+export model -format loch -o 0.Maps/MalcolmsWay.lox
+#export map -projection plan -format pdf -layout l1 -o 0.Maps/MalcolmsWay_CL.pdf
+#export map -projection extended -format pdf -layout l1 -o 0.Maps/MalcolmsWay_CLex.pdf
+#export map -projection elevation -format pdf -layout l1 -o 0.Maps/MalcolmsWay_CLel.pdf
+export map -projection plan -format xvi -layout l1 -o 0.Maps/MalcolmsWay_100.xvi
+export map -projection extended -format xvi -o 0.Maps/MalcolmsWay_ex.xvi
+export map -projection elevation -format xvi -o 0.Maps/MalcolmsWay_el.xvi

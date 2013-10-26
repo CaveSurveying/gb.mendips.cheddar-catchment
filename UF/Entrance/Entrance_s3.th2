@@ -1,8 +1,8 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -126.0 -2422.85 4639.295 1967.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -231.63 -2268.0 9079.493 13288.1014
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {2.0 1 1.0} {-2.0 {}} images/UF_s3r.jpg 0 {}
-##XTHERION## xth_me_image_insert {1322.33 1 1.0} {972.87 Entrance} 0.Maps/Entrance.xvi 0 {}
+##XTHERION## xth_me_image_insert {2118.41 1 1.0} {11332.93 Entrance@MCGPaper.Entrance} 0.Maps/Entrance.xvi 0 {}
 
 
 
@@ -138,33 +138,31 @@ line wall -id wall_Es3_1 -reverse on
   590.0 -731.0
 endline
 
-point 2082.0 -1856.0 station -name BS1@MCGPaper.Entrance
+point 2082.0 -1856.0 station -name BS1@MCGPaper
 
-point 1588.0 -1324.0 station -name BS2@MCGPaper.Entrance
+point 1588.0 -1324.0 station -name BS2@MCGPaper
 
-point 1330.0 -1193.0 station -name BS4@MCGPaper.Entrance
+point 1330.0 -1193.0 station -name BS4@MCGPaper
 
-point 1501.95 -1273.18 station -name BS3@MCGPaper.Entrance
+point 1501.95 -1273.18 station -name BS3@MCGPaper
 
-point 1073.04 -1120.43 station -name BS5@MCGPaper.Entrance
+point 1073.04 -1120.43 station -name BS5@MCGPaper
 
-point 954.87 -1102.76 station -name BS6@MCGPaper.Entrance
+point 954.87 -1102.76 station -name BS6@MCGPaper
 
-point 935.81 -1013.1 station -name BS7@MCGPaper.Entrance
+point 935.81 -1013.1 station -name BS7@MCGPaper
 
-point 788.81 -963.63 station -name BS8@MCGPaper.Entrance
+point 788.81 -963.63 station -name BS8@MCGPaper
 
-point 787.83 -774.7 station -name BS9@MCGPaper.Entrance
+point 787.83 -774.7 station -name BS9@MCGPaper
 
-point 573.65 -706.76 station -name BS10@MCGPaper.Entrance
+point 541.0 -715.0 label -text "Rip Off III" -scale s -align l
 
-point 434.0 -658.0 label -orientation 18.0 -text "Rip Off III" -scale s
+point 816.0 -670.0 label -text "Rip Off Aven" -scale s -align r
 
-point 1084.0 -626.0 label -orientation 0.9 -text "Rip Off Aven" -scale m
+point 776.0 -1398.0 label -text "Shale Rift" -scale l -align l
 
-point 1108.0 -1270.0 label -orientation 14.0 -text "Shale Rift" -scale m
-
-point 1318.0 -990.0 label -orientation 19.5 -text "The Black Aven" -scale s
+point 1318.0 -990.0 label -text "The Black Aven" -scale s -align r
 
 endscrap
 

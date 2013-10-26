@@ -1,0 +1,69 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 603.5 665.5
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {69.5680314961 1 1.1481536215} {163.581496063 2.5} PocketTopo/ch2_p.xvi 0 {}
+
+
+
+scrap ChucklesJoke_s1 -station-names [] @Disto -scale [-128.0 -128.0 557.4926 -128.0 0.0 0.0 17.41151204 0.0 m]
+
+point 88.0 400.0 label -text "15/08/2010" -scale xs
+
+point 75.0 535.0 label -text "Chuckle's Joke" -scale m
+
+line section
+  76.0 194.0
+  76.0 366.0
+endline
+
+line pit -close on
+  140.75 164.0
+  141.0 159.5
+  209.5 159.25
+  209.0 164.0
+  140.75 164.0
+endline
+
+point 351.298031496 158.421496063 station -name 2.6
+
+point 69.5680314961 163.581496063 station -name 2.5
+
+line wall
+  336.0 177.0
+  326.0 176.0 210.0 178.71 186.0 178.0
+  177.5 177.75 81.75 172.0 70.0 173.0
+  smooth off
+endline
+
+line wall -reverse on -subtype unsurveyed
+  336.0 177.0
+  336.0 177.0 330.0 256.0 338.0 261.0
+  346.48 266.3 473.0 259.0 473.0 259.0
+  smooth off
+  altitude .
+endline
+
+line wall -subtype unsurveyed
+  361.0 179.75
+  361.0 188.75 353.32 236.31 361.0 241.0
+  370.39 246.74 460.0 247.0 471.0 247.0
+  smooth off
+endline
+
+line wall
+  70.0 173.0
+  62.5 173.5 37.5 172.5 32.0 169.0
+  26.5 165.5 12.5 153.0 21.0 144.0
+  29.5 135.0 62.54 120.89 68.0 121.5
+  81.5 123.0 90.0 108.5 101.5 117.5
+  114.66 127.8 83.08 145.18 88.0 145.5
+  111.0 147.0 127.5 144.5 133.0 150.0
+  138.5 155.5 255.0 152.5 268.5 152.5
+  282.0 152.5 356.75 151.5 359.25 152.5
+  361.75 153.5 361.0 179.75 361.0 179.75
+  smooth off
+endline
+
+endscrap
+
+

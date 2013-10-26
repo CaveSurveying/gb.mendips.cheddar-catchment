@@ -3,39 +3,42 @@ encoding  utf-8
 survey Neverland
 
   centreline
-    equate N1     			N1@NeverlandCC
-    equate N1				3.0@NeverlandDisto
-	station N1 fixed
-    station N1 "N1: 5mm hole, brass screw, reflector" continuation attr code "fixed" attr Name "N1"
+    equate N1           N1@NeverlandCC
+    equate N1        3.0@NeverlandDisto
+    station N1 fixed
+    station N1 "N1: 5mm hole, brass screw, reflector" attr print "true" attr Code "fixed" attr Name "N1"
 
-    equate N15				N15@NeverlandCC
-    mark N15 fixed		# highest tip of rock, with tape marker
-    station N15 "N15: Highest tip of obvious 1m stalagmite on LHS opposite turn, with tape marker" continuation attr code "fixed" attr Name "N15"
-	
-    equate N_D17				3.17@NeverlandDisto
-    mark N_D17 painted		# red painted sharp tip of rock
+    equate N15        N15@NeverlandCC
+    mark N15 fixed    # highest tip of rock, with tape marker
+    station N15 "N15: Highest tip of obvious 1m stalagmite on LHS opposite turn, with tape marker" attr print "true" attr Code "fixed" attr Name "N15"
+  
+    equate N_D17        3.17@NeverlandDisto
+    mark N_D17 painted    # red painted sharp tip of rock
+    
+    equate N_D35        3.35@NeverlandDisto
+    station N_D35 "Sump dived April 2007 CDG163 p22" continuation explored 15
 
-    equate N_D38				3.38@NeverlandDisto
-    mark N_D38 painted		# red painted sharp tip of rock
-	station N_D38 "N_D3.38 Red painted tip of small rock opposite rift, on bank close to floor" continuation attr code "fixed" attr Name "N-D3.38"
+    equate N_D38        3.38@NeverlandDisto
+    mark N_D38 painted    # red painted sharp tip of rock opposite LinkRift
+    station N_D38 "N_D3.38 Red painted tip of small rock opposite LinkRift, on bank close to floor" attr print "true" attr Code "fixed" attr Name "N-D3.38"
 
-    equate N41				N41@NeverlandCC 
-    equate 1@NeverlandRopeClimb		N41
+    equate N41        N41@NeverlandCC 
+    equate 1@NeverlandRopeClimb    N41
 
     #close possible loops between two surveys
-    equate N12@NeverlandCC		3.16@NeverlandDisto
-    equate N15@NeverlandCC		3.21@NeverlandDisto
+    #equate N12@NeverlandCC    3.16@NeverlandDisto
+    #equate N15@NeverlandCC    3.21@NeverlandDisto
   endcentreline
   
   input NeverlandDisto.th
   input NeverlandDisto.th2
 
-  input NeverlandCC.th		  #Compass and clino
+  input NeverlandCC.th      #Compass and clino
   input PorkPie.th2
-  join PorkPie_s1			NeverlandDisto_s1
+  join PorkPie_s1      NeverlandDisto_s1
   
-  input Neverland.th2		  
-  join  Neverland_s1		NeverlandDisto_s1
+  input Neverland.th2      
+  join  Neverland_s1    NeverlandDisto_s1
 
   input NeverlandRopeClimb.th
   input NeverlandRopeClimb_s1.th2
@@ -48,7 +51,7 @@ survey Neverland
 
    map Neverland_m1
        NeverlandDisto_s1
-	   PorkPie_s1
+     PorkPie_s1
        Neverland_s1
        NeverlandRopeClimb_s1
        NeverlandRopeClimb_s3
@@ -68,3 +71,4 @@ survey Neverland
 
 
 endsurvey
+
