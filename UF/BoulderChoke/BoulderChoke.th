@@ -31,7 +31,7 @@ survey BoulderChoke -title "Bouder Choke"
     
     1 1a 	0.01	263	-29	1.2	1.4	0.3	1.5	# 1 LRUD
 	mark 1 fixed		# Subsequently fixed
-    station 1 "BC1 5mm hole, brass screw, reflector" continuation attr Code "fixed" attr Name "BC1"
+    station 1 "BC1 5mm hole, brass screw, reflector" attr print "true" attr Code "fixed" attr Name "BC1"
     #1 2 	1.41	263	-29	1.5	0.6	0.5	0	# 2 LRUD
     1a 2 	1.40	263	-29	1.5	0.6	0.5	0	# 2 LRUD
     extend reverse 1a 2
@@ -86,6 +86,12 @@ survey BoulderChoke -title "Bouder Choke"
     29a 29	0.01	116	+13	0.7	0.8	0.7	0.2	#29
     29 30	1.36	032	0	0	0.6	0.5	0.1	#30
     30 31	2.02	094	-17	0.6	0.4	0	0.6	#31 Acro Prop
+    
+	data normal from to length compass clino
+	31 31d	7		131	+4					# Estimate to location of aven
+    station 31d "Lethal dig above Samaritans" continuation dig attr name "S1"
+	data normal from to length compass clino left right up down	
+	
     #31 32 	1.49	167	-04	0.1	0.8	0.3	0.3	#32
     31 32a 	1.48	167	-04	0.1	0.8	0.3	0.3	#32
     32a 32 	0.01	167	-04	0.1	0.8	0.3	0.4	#32a (down 2.0 is down squeeze, 0.4 is vertically down)

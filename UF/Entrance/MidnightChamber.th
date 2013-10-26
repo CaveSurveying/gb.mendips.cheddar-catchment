@@ -25,6 +25,9 @@ survey MidnightChamber -title "Midnight Chamber"
      8   9  	263	2.5	3.35	0.65	0	0.8	1.05
      9	10	286	-1	8.29	1.5	2	1.5	0.9
     10	11	266	-2	10.05	3	1.2	0.47	0.5
+    data normal from to compass clino length 
+	11	11d		105	-5	8				# estimate added in 2012 for Chocolate Muffin Dig
+    data normal from to compass clino length left right up down
     11	12	236.5	3	4.83	0	1	1	1     # no LRUD data
   endcentreline
 endsurvey

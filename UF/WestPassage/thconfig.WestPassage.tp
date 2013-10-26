@@ -7,6 +7,8 @@ layout l1
  	scale 1 165 
 endlayout
 
+select WestPassage@WestPassage
+
 export model -format survex -o 0.Maps/WestPassage.3d
 export model -format loch -o 0.Maps/WestPassage.lox
 export map -projection plan -format pdf -layout l1 -o 0.Maps/WestPassage_CL.pdf

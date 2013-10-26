@@ -29,139 +29,139 @@ line pit
   smooth off
 endline
 
-point 118.930326891 2415.2994512 station -name 1.0@DistoX.FullLRUD.WestPassage
+point 118.930326891 2415.2994512 station -name 1.0@WPDisto.WestPassage
 
-point 194.81 2394.18 station -name 1.1@DistoX.FullLRUD.WestPassage
+point 194.81 2394.18 station -name 1.1@WPDisto.WestPassage
 
-point 225.59 2396.57 station -name 1.2@DistoX.FullLRUD.WestPassage
+point 225.59 2396.57 station -name 1.2@WPDisto.WestPassage
 
-point 264.25 2361.49 station -name 2.1@DistoX.FullLRUD.WestPassage
+point 264.25 2361.49 station -name 2.1@WPDisto.WestPassage
 
-point 335.83 2349.32 station -name 2.2@DistoX.FullLRUD.WestPassage
+point 335.83 2349.32 station -name 2.2@WPDisto.WestPassage
 
-point 311.01 2416.61 station -name 2.3@DistoX.FullLRUD.WestPassage
+point 311.01 2416.61 station -name 2.3@WPDisto.WestPassage
 
-point 355.63 2424.96 station -name 2.4@DistoX.FullLRUD.WestPassage
+point 355.63 2424.96 station -name 2.4@WPDisto.WestPassage
 
-point 5465.86 2954.42 station -name 2.78@DistoX.FullLRUD.WestPassage
+point 5465.86 2954.42 station -name 2.78@WPDisto.WestPassage
 
-point 5483.29 2956.33 station -name 2.77@DistoX.FullLRUD.WestPassage
+point 5483.29 2956.33 station -name 2.77@WPDisto.WestPassage
 
-point 5407.65 3014.32 station -name 2.76@DistoX.FullLRUD.WestPassage
+point 5407.65 3014.32 station -name 2.76@WPDisto.WestPassage
 
-point 5420.77 3024.82 station -name 2.75@DistoX.FullLRUD.WestPassage
+point 5420.77 3024.82 station -name 2.75@WPDisto.WestPassage
 
-point 5338.22 3056.08 station -name 2.74@DistoX.FullLRUD.WestPassage
+point 5338.22 3056.08 station -name 2.74@WPDisto.WestPassage
 
-point 5226.31 3121.46 station -name 2.73@DistoX.FullLRUD.WestPassage
+point 5226.31 3121.46 station -name 2.73@WPDisto.WestPassage
 
-point 5244.92 3102.13 station -name 2.72@DistoX.FullLRUD.WestPassage
+point 5244.92 3102.13 station -name 2.72@WPDisto.WestPassage
 
-point 5193.38 3074.93 station -name 2.71@DistoX.FullLRUD.WestPassage
+point 5193.38 3074.93 station -name 2.71@WPDisto.WestPassage
 
-point 5143.27 3069.44 station -name 2.69@DistoX.FullLRUD.WestPassage
+point 5143.27 3069.44 station -name 2.69@WPDisto.WestPassage
 
-point 5050.93 3041.28 station -name 2.67@DistoX.FullLRUD.WestPassage
+point 5050.93 3041.28 station -name 2.67@WPDisto.WestPassage
 
-point 5007.27 3026.25 station -name 2.65@DistoX.FullLRUD.WestPassage
+point 5007.27 3026.25 station -name 2.65@WPDisto.WestPassage
 
-point 4900.13 3009.79 station -name 2.64@DistoX.FullLRUD.WestPassage
+point 4900.13 3009.79 station -name 2.64@WPDisto.WestPassage
 
-point 4677.04 3090.44 station -name 2.62@DistoX.FullLRUD.WestPassage
+point 4677.04 3090.44 station -name 2.62@WPDisto.WestPassage
 
-point 4614.04 3050.35 station -name 2.61@DistoX.FullLRUD.WestPassage
+point 4614.04 3050.35 station -name 2.61@WPDisto.WestPassage
 
-point 4501.18 3104.28 station -name 2.60@DistoX.FullLRUD.WestPassage
+point 4501.18 3104.28 station -name 2.60@WPDisto.WestPassage
 
-point 4288.59 3114.3 station -name 2.59@DistoX.FullLRUD.WestPassage
+point 4288.59 3114.3 station -name 2.59@WPDisto.WestPassage
 
-point 4062.39 3084.23 station -name 2.58@DistoX.FullLRUD.WestPassage
+point 4062.39 3084.23 station -name 2.58@WPDisto.WestPassage
 
-point 4020.39 3012.41 station -name 2.55@DistoX.FullLRUD.WestPassage
+point 4020.39 3012.41 station -name 2.55@WPDisto.WestPassage
 
-point 3848.83 3023.39 station -name 2.54@DistoX.FullLRUD.WestPassage
+point 3848.83 3023.39 station -name 2.54@WPDisto.WestPassage
 
-point 3693.5 3017.42 station -name 2.53@DistoX.FullLRUD.WestPassage
+point 3693.5 3017.42 station -name 2.53@WPDisto.WestPassage
 
-point 3684.43 2955.15 station -name 2.52@DistoX.FullLRUD.WestPassage
+point 3684.43 2955.15 station -name 2.52@WPDisto.WestPassage
 
-point 3517.89 2950.37 station -name 2.51@DistoX.FullLRUD.WestPassage
+point 3517.89 2950.37 station -name 2.51@WPDisto.WestPassage
 
-point 3344.64 2950.33 station -name 2.50@DistoX.FullLRUD.WestPassage
+point 3344.64 2950.33 station -name 2.50@WPDisto.WestPassage
 
-point 3226.55 2928.42 station -name 2.49@DistoX.FullLRUD.WestPassage
+point 3226.55 2928.42 station -name 2.49@WPDisto.WestPassage
 
-point 3172.38 2904.8 station -name 2.48@DistoX.FullLRUD.WestPassage
+point 3172.38 2904.8 station -name 2.48@WPDisto.WestPassage
 
-point 3089.83 2927.95 station -name 2.46@DistoX.FullLRUD.WestPassage
+point 3089.83 2927.95 station -name 2.46@WPDisto.WestPassage
 
-point 3081.24 2863.52 station -name 2.45@DistoX.FullLRUD.WestPassage
+point 3081.24 2863.52 station -name 2.45@WPDisto.WestPassage
 
-point 3133.01 2837.99 station -name 2.44@DistoX.FullLRUD.WestPassage
+point 3133.01 2837.99 station -name 2.44@WPDisto.WestPassage
 
-point 3134.45 2811.27 station -name 2.43@DistoX.FullLRUD.WestPassage
+point 3134.45 2811.27 station -name 2.43@WPDisto.WestPassage
 
-point 3166.42 2767.12 station -name 2.42@DistoX.FullLRUD.WestPassage
+point 3166.42 2767.12 station -name 2.42@WPDisto.WestPassage
 
-point 3270.2 2706.98 station -name 2.41@DistoX.FullLRUD.WestPassage
+point 3270.2 2706.98 station -name 2.41@WPDisto.WestPassage
 
-point 3100.56 2735.63 station -name 2.40@DistoX.FullLRUD.WestPassage
+point 3100.56 2735.63 station -name 2.40@WPDisto.WestPassage
 
-point 3085.53 2694.83 station -name 2.39@DistoX.FullLRUD.WestPassage
+point 3085.53 2694.83 station -name 2.39@WPDisto.WestPassage
 
-point 2837.14 2760.92 station -name 2.38@DistoX.FullLRUD.WestPassage
+point 2837.14 2760.92 station -name 2.38@WPDisto.WestPassage
 
-point 2652.94 2726.56 station -name 2.37@DistoX.FullLRUD.WestPassage
+point 2652.94 2726.56 station -name 2.37@WPDisto.WestPassage
 
-point 2571.57 2712.72 station -name 2.35@DistoX.FullLRUD.WestPassage
+point 2571.57 2712.72 station -name 2.35@WPDisto.WestPassage
 
-point 2565.37 2737.3 station -name 2.34@DistoX.FullLRUD.WestPassage
+point 2565.37 2737.3 station -name 2.34@WPDisto.WestPassage
 
-point 2575.39 2819.62 station -name 2.33@DistoX.FullLRUD.WestPassage
+point 2575.39 2819.62 station -name 2.33@WPDisto.WestPassage
 
-point 2489.25 2858.75 station -name 2.31@DistoX.FullLRUD.WestPassage
+point 2489.25 2858.75 station -name 2.31@WPDisto.WestPassage
 
-point 2386.89 2825.82 station -name 2.30@DistoX.FullLRUD.WestPassage
+point 2386.89 2825.82 station -name 2.30@WPDisto.WestPassage
 
-point 2262.82 2808.16 station -name 2.27@DistoX.FullLRUD.WestPassage
+point 2262.82 2808.16 station -name 2.27@WPDisto.WestPassage
 
-point 2178.35 2800.05 station -name 2.26@DistoX.FullLRUD.WestPassage
+point 2178.35 2800.05 station -name 2.26@WPDisto.WestPassage
 
-point 2073.84 2781.2 station -name 2.25@DistoX.FullLRUD.WestPassage
+point 2073.84 2781.2 station -name 2.25@WPDisto.WestPassage
 
-point 1936.16 2773.57 station -name 2.24@DistoX.FullLRUD.WestPassage
+point 1936.16 2773.57 station -name 2.24@WPDisto.WestPassage
 
-point 1842.87 2754.24 station -name 2.23@DistoX.FullLRUD.WestPassage
+point 1842.87 2754.24 station -name 2.23@WPDisto.WestPassage
 
-point 1712.11 2743.03 station -name 2.22@DistoX.FullLRUD.WestPassage
+point 1712.11 2743.03 station -name 2.22@WPDisto.WestPassage
 
-point 1583.74 2732.77 station -name 2.21@DistoX.FullLRUD.WestPassage
+point 1583.74 2732.77 station -name 2.21@WPDisto.WestPassage
 
-point 1522.9 2733.48 station -name 2.20@DistoX.FullLRUD.WestPassage
+point 1522.9 2733.48 station -name 2.20@WPDisto.WestPassage
 
-point 1431.99 2712.01 station -name 2.19@DistoX.FullLRUD.WestPassage
+point 1431.99 2712.01 station -name 2.19@WPDisto.WestPassage
 
-point 1283.81 2701.03 station -name 2.17@DistoX.FullLRUD.WestPassage
+point 1283.81 2701.03 station -name 2.17@WPDisto.WestPassage
 
-point 1169.04 2689.34 station -name 2.16@DistoX.FullLRUD.WestPassage
+point 1169.04 2689.34 station -name 2.16@WPDisto.WestPassage
 
-point 1056.66 2679.56 station -name 2.15@DistoX.FullLRUD.WestPassage
+point 1056.66 2679.56 station -name 2.15@WPDisto.WestPassage
 
-point 1013.95 2678.12 station -name 2.14@DistoX.FullLRUD.WestPassage
+point 1013.95 2678.12 station -name 2.14@WPDisto.WestPassage
 
-point 942.84 2673.11 station -name 2.13@DistoX.FullLRUD.WestPassage
+point 942.84 2673.11 station -name 2.13@WPDisto.WestPassage
 
-point 778.21 2647.34 station -name 2.12@DistoX.FullLRUD.WestPassage
+point 778.21 2647.34 station -name 2.12@WPDisto.WestPassage
 
-point 635.28 2645.44 station -name 2.11@DistoX.FullLRUD.WestPassage
+point 635.28 2645.44 station -name 2.11@WPDisto.WestPassage
 
-point 511.44 2648.3 station -name 2.10@DistoX.FullLRUD.WestPassage
+point 511.44 2648.3 station -name 2.10@WPDisto.WestPassage
 
-point 350.62 2678.12 station -name 2.9@DistoX.FullLRUD.WestPassage
+point 350.62 2678.12 station -name 2.9@WPDisto.WestPassage
 
-point 363.75 2580.06 station -name 2.8@DistoX.FullLRUD.WestPassage
+point 363.75 2580.06 station -name 2.8@WPDisto.WestPassage
 
-point 318.65 2601.53 station -name 2.6@DistoX.FullLRUD.WestPassage
+point 318.65 2601.53 station -name 2.6@WPDisto.WestPassage
 
 point 3240.47 2885.936 station -name 5@Rift.Pony.FullLRUD.WestPassage
 

@@ -1,25 +1,25 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust 14022.15 5731.92 21150.0316 14601.6327
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {15557.92 1 1.0} {10775.21 35@Leg1.MalcolmsWay} xvi/MalcolmsWay.xvi 0 {}
+##XTHERION## xth_me_image_insert {15557.92 1 1.0} {10775.21 35@Leg1} xvi/MalcolmsWay.xvi 0 {}
 
 
 
 scrap MalcolmsWay_s4 -scale [-128.0 -128.0 6618.1104 -128.0 0.0 0.0 171.35120416 0.0 m]
 
-point 19775.74 6728.89 station -name 1@Leg2.MalcolmsWay
+point 19775.74 6728.89 station -name 1@Leg2
 
-point 19823.51 6877.75 station -name 2@Leg2.MalcolmsWay
+point 19823.51 6877.75 station -name 2@Leg2
 
-point 19839.73 6935.97 station -name 3@Leg2.MalcolmsWay
+point 19839.73 6935.97 station -name 3@Leg2
 
-point 19896.04 7072.46 station -name 4@Leg2.MalcolmsWay
+point 19896.04 7072.46 station -name 4@Leg2
 
-point 19948.06 7161.22 station -name 5@Leg2.MalcolmsWay
+point 19948.06 7161.22 station -name 5@Leg2
 
-point 19939.71 7209.66 station -name 6@Leg2.MalcolmsWay
+point 19939.71 7209.66 station -name 6@Leg2
 
-point 20033.48 7284.34 station -name 7@Leg2.MalcolmsWay
+point 20033.48 7284.34 station -name 7@Leg2
 
 line wall -close on -subtype unsurveyed
   19698.0 6479.0

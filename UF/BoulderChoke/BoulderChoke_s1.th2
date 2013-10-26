@@ -4,8 +4,8 @@ encoding  utf-8
 ##XTHERION## xth_me_image_insert {-31.022 1 1.0} {810.789 gc13} xvi/BoulderChoke.xvi 0 {}
 
 
-scrap BoulderChoke_s1 -projection plan -scale [-128.0 -128.0 581.3533 -128.0 0.0 0.0 18.01757382 0.0 m]  \
--stations [1@BoulderChoke]
+
+scrap BoulderChoke_s1 -projection plan -scale [-128.0 -128.0 581.3533 -128.0 0.0 0.0 18.01757382 0.0 m]
 
 point 201.608 412.799 station -name 17@BoulderChoke
 

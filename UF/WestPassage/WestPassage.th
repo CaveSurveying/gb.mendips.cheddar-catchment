@@ -1,37 +1,71 @@
 encoding  utf-8
 survey WestPassage -title "West Passage"
 
-  # Attach surveys together.  
-  #equate d11@CentreLineOnly 24@WP.Pony.FullLRUD
-  #input WestPassage.Centre.th
+  #Export stations
+  equate RI42  2.78@WPDisto # Start of Neverland in West Passage
+  equate WP49  2.49@WPDisto # Start of Link Rift in West Passage
+  
+  #Connect lower surveys
+  equate 2.0@Disto.ChucklesJoke 2.61@WPDisto
+  
+  
+  # Connect Rift 
+  # equate 6@WP_Rift  WP49   # Fixed station (Rift)
+  equate 1.15@LRDisto.LinkRift WP49
+  
+  # OPTION: Include Pony survey
+  equate 32@WP.Pony RI42
+  input WestPassage.Pony.th
 
-  equate 2.0@ChuckleChoke 2.61@DistoX.FullLRUD
-  equate 6@WP_Rift  2.49@DistoX.FullLRUD   # Fixed station (Rift)
+  # OPTION: Include Centre Line Survey.  
+  equate d11@CentreLineOnly 24@WP.Pony
+  input WestPassage.Centre.th
+  
+  input WestPassage.Disto.th
+  input WestPassage_s0.th2		# West Passage chamber below Royal Icing, with entrance to Neverland
+  input WestPassage_s1.th2		# Low muddy tube with Chuckle Choke and connection to Chuckle's Joke
+  input WestPassage_s2.th2		# Vadose traverses, with connection to Rift and Tube connections to Neverland
+  input WestPassage_s3.th2		# Final section with terminal boulder choke
+  #input WestPassageRift_s1.th2
 
-  input WestPassage.Full.th
-  input WestPassage_s1.th2
-  input WestPassage_s2.th2
-  input WestPassage_s3.th2
-  input WestPassage_s4.th2
-  # join WestPassage_s2 	   WestPassage_s3 # This produces an error, and anyway is not required (s2 is higher level rift)
-  join WestPassage_s3 	   WestPassage_s4
+  # join WestPassage_s2      WestPassage_s3 # This produces an error, and anyway is not required (s2 is higher level rift)
+  join WestPassage_s0 	   WestPassage_s1
+  join WestPassage_s2 	   WestPassage_s3
 
-  input WestPassageRift_Pony.th
-  input ChuckleChoke/UF_ChuckleChoke.th
-  input ChuckleChoke/UF_ChuckleChoke_s1.th2
+  input LinkRift/LinkRift.th
+  join wall_LRs1_1@LinkRift wall_WPs2_1
+  join wall_LRs1_2@LinkRift wall_WPs2_2
+  
 
+  input ChucklesJoke/ChucklesJoke.th
+
+  map WestPassage_map
+	WestPassage_m0
+	break
+        WestPassage_mOffset
+	WestPassage_m3
+  endmap
+  
+  map WestPassage_mOffset
+        LinkRift_map@LinkRift
+	break
+	WestPassage_m1
+	break
+	ChucklesJoke_map@ChucklesJoke
+  endmap
+  
+  map WestPassage_m0
+    WestPassage_s0
+  endmap
+  
   map WestPassage_m1 -title "West Passage"
-    WestPassage_s2
-    WestPassage_s1
-    WestPassage_s3
-    WestPassage_s4
-    break
-    ChuckleChoke_s1
+    WestPassage_s1	# From RI to second dog-leg
+    WestPassage_s2	# From second dog-leg to middle of final staight
   endmap
-
-  map WestPassage_Rift_m1 -proj plan
-    WestPassage_s2
+  
+  map WestPassage_m3
+    WestPassage_s3	# Final section with boulder choke at end
   endmap
-
+  
 endsurvey
 

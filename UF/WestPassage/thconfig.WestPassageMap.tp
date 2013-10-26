@@ -42,5 +42,5 @@ layout l1	# 1:500 Map
    endcode
 endlayout
  
-select WestPassage_m1@WestPassage # Detailed labels
+select WestPassage_map@WestPassage # Detailed labels
 export map -projection plan -layout l1 -o 0.Maps/WestPassageMap.pdf
