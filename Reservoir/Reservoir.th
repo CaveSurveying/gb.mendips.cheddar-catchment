@@ -168,50 +168,36 @@ map FrozenDeepSplaysM -proj plan
 endmap
 
 map ReservoirM -title "Reservoir Hole" -proj plan
-  VertigoM@Vertigo
-  CeiledUpM@CeiledUp
-  CeilingAround2M@CeilingAround2
-  CeilingAroundM@CeilingAround
-  BrokenFingerM@BrokenFinger
   AscensionM@Ascension
-  UnderGorgeM@UnderGorge
   SkyfallM@Skyfall
-  FrozenDeep
+  VertigoM@Vertigo
+  CeilingAroundM@CeilingAround
+  CeilingAround2M@CeilingAround2
+  CeiledUpM@CeiledUp
+  UnderGorgeM@UnderGorge
+  GreatExpectationsM@GreatExpectations
   HerbertsAtticM@HerbertsAttic
   GolgothaM@Golgotha
-  GreatExpectationsM@GreatExpectations
-  FrozenDeepM@FrozenDeep
-  HappySnappersM@HappySnappers
+  ResEntM@ResEnt
+  SouthPassageM@SouthPassage
+  SleeperM@Sleeper
+  SideRiftM@SideRift
   JillsSlitherM@JillsSlither
+  PottersHeavenM@PottersHeaven
  break
   PulsationAven2M@PulsationAven2
   PulsationAvenM@PulsationAven
- break
-  PottersHeavenM@PottersHeaven
-  ResEntM@ResEnt
-  SideRiftM@SideRift
-  SleeperM@Sleeper
-  SouthPassageM@SouthPassage
-  TopDigM@TopDig
+ break   
+  BrokenFingerM@BrokenFinger
   ToplessAvenM@ToplessAven
+  TopDigM@TopDig  
+  HappySnappersM@HappySnappers
+  FrozenDeepM@FrozenDeep
   DeeperM@Deeper
   DingleyDellM@DingleyDell
-  WIShM@WISh
   WIShICouldFlyM@WIShICouldFly
-#  R1@R1
-#  R2@R2
-#  R3@R3
-#  R4@R4  
-#  R5@R5
-#  R6@R6
-#  R7@R7
-#  R8@R8
-#  R9@R9
-#  R10@R10
-#  R11@R11
-#  R12@R12
-#  R13@R13
-#  survex_format
+  WIShM@WISh
+
 endmap
 
 map ReservoirME90 -proj [elevation 90]
