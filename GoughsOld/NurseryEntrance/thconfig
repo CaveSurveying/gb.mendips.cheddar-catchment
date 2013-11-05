@@ -6,7 +6,7 @@ source NurseryEntrance.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o NurseryEntrance.pdf
+export map -proj plan -layout local -o NurseryEntrance.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o NurseryEntranceEe.pdf

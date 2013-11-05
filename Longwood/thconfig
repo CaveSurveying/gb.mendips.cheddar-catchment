@@ -6,7 +6,7 @@ source Longwood.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o Longwood.pdf
+export map -proj plan -layout local -o Longwood.pdf
 #Produces plan of cave, on a single sheet
 
 #export model -fmt survex -o Longwoodth.3d

@@ -2,3 +2,14 @@ encoding  utf-8
 source GoughsOld
 
 export model  -o GoughsOldth.3d
+
+export map -proj plan -layout local -o GoughsOld.pdf
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+#symbol-hide group cave-centreline
+endlayout
+
+input ../common_layout.th

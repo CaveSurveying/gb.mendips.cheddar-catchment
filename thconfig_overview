@@ -29,6 +29,9 @@ select OldCaveM@OldCave.Charterhouse.CheddarCatchment
 select ReadsGrottoM@ReadsGrotto.CheddarCatchment
 select cornersM@corners.CheddarCatchment
 
+select Longwood@Longwood.CheddarCatchment
+
+
 
 
 
@@ -36,6 +39,7 @@ select cornersM@corners.CheddarCatchment
 #-----------------
 
 #Produces plan of cave, on a single sheet
+
 export map -proj plan -layout local -o Outputs/Charterhouse_overview.pdf
 
 

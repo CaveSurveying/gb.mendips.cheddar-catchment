@@ -483,7 +483,7 @@ line wall
   smooth off
 endline
 
-point 959.5 -299.5 station -name longwood_old.lw-20
+point 959.5 -299.5 station -name LW-20@Longwood_old
 
 line wall
   1066.5 -169.0
@@ -981,7 +981,7 @@ line wall
   smooth off
 endline
 
-point 1903.0 -278.5 station -name longwood_old.lw-117
+point 1903.0 -278.5 station -name LW-117@Longwood_old
 
 line wall
   1808.5 -378.0
@@ -1014,7 +1014,7 @@ line wall
   smooth off
 endline
 
-point 56.0 -340.0 station -name longwood_old.lw-34
+point 56.0 -340.0 station -name LW-34@Longwood_old
 
 point 1645.0 -243.0 dimensions -value [2 1 m]
 

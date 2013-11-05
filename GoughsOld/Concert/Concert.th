@@ -4,9 +4,9 @@ survey Concert
 input Concert.th2
 
 map ConcertM
-  ConcertSP1
   ConcertSP2
-  ConcertSP3
+ break
+  ConcertSP1
 endmap
 
 centreline

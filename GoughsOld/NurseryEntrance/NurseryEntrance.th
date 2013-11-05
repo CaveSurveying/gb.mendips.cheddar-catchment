@@ -5,6 +5,7 @@ input NurseryEntrance.th2
 
 map NurseryEntranceM
   NurseryEntranceSP1
+ break
   NurseryEntranceSP2
   NurseryEntranceSP3
 endmap
