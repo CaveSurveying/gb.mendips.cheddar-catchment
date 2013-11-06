@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -553.84 -240.74 3323.04 1444.43
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {306.754960267 1 1.0} {146.269027659 10} PocketTopo/Concert_E90.xvi 0 {}
+
+
+scrap ConcertSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap ConcertSE90_2 -projection [elevation 90] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
