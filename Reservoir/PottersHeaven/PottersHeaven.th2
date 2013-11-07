@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -67.714190673 276.25364236 1684.34880146 5445.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {217.766124288 1 1.0} {4821.57647701 1.0} PocketTopo/PottersHeaven_p.xvi 0 {}
 
 
@@ -792,12 +792,12 @@ scrap PottersHeavenSX8.7 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 line wall -close on
   1346.0 3478.0
-  1264.0 3506.0
-  1264.0 3506.0 1278.0 3470.0 1278.0 3458.0
-  1278.0 3446.0 1270.0 3390.0 1270.0 3390.0
+  1324.5 3491.0 1280.5 3501.0 1264.0 3506.0
   smooth off
-  1270.0 3390.0 1296.0 3438.0 1298.0 3446.0
-  1300.0 3454.0 1346.0 3478.0 1346.0 3478.0
+  1279.0 3470.5 1280.57 3455.1 1267.5 3421.5
+  1264.0 3412.5 1265.5 3396.5 1265.0 3379.0
+  smooth off
+  1289.0 3435.0 1296.5 3457.5 1346.0 3478.0
   smooth off
 endline
 

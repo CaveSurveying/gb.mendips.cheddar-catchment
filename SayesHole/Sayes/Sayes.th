@@ -3,7 +3,7 @@ survey Sayes
 
 input Sayes.th2
 
-map SayesM
+map SayesM -title "Saye's Hole"
   SayesSP1
 endmap
 

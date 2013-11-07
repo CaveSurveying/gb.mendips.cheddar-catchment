@@ -8,7 +8,7 @@ input Entrance/Entrance.th
 equate 9@NurseryEntrance 10@Concert
 equate 24@Entrance 10@Concert
 
-map GoughsOldM -title "Gough's Old"
+map GoughsOldM -title "Gough's Old Cave"
   ConcertM@Concert
   EntranceM@Entrance
   NurseryEntranceM@NurseryEntrance

@@ -7,11 +7,12 @@ encoding  utf-8
 
 scrap SouthPassageSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 200.5 1749.5 section -scrap SouthPassageSX8.5
+point 182.5 1751.5 section -scrap SouthPassageSX8.3
 
 line section -direction both
   490.0 1692.0
   433.0 1708.5 341.5 1738.5 293.5 1753.0
+  smooth off
 endline
 
 point 30.0 1119.5 section -scrap SouthPassageSX8.5
@@ -19,6 +20,7 @@ point 30.0 1119.5 section -scrap SouthPassageSX8.5
 line section -direction both
   370.0 1035.5
   320.0 1051.0 241.0 1071.0 185.0 1085.5
+  smooth off
 endline
 
 point 514.0 1354.0 label -align br -text "South Passage"
@@ -32,11 +34,13 @@ line ceiling-step
   237.5 880.5 235.5 908.0 237.5 918.0
   239.5 928.0 239.5 950.0 240.5 958.0
   241.5 966.0 240.0 996.0 240.5 998.5
+  smooth off
 endline
 
 line floor-step
   296.0 913.5
   275.5 933.0 243.5 940.0 221.0 937.0
+  smooth off
 endline
 
 area sand
@@ -149,6 +153,7 @@ line wall
   431.0 1786.5 440.5 1831.5 443.5 1843.0
   446.5 1854.5 460.5 1886.0 464.0 1898.0
   467.5 1910.0 470.0 1922.5 471.0 1934.5
+  smooth off
 endline
 
 line border -id l21-260-176 -subtype invisible
@@ -171,11 +176,13 @@ line border -id l20-336-562 -subtype invisible
   226.5 1242.0 205.0 1045.0 191.5 988.0
   178.0 931.0 146.0 729.0 146.0 707.0
   146.0 685.0 184.0 552.5 219.0 547.5
+  smooth off
 endline
 
 line border -id l19-264-534 -subtype invisible
   268.0 522.5
   264.0 530.0 263.0 561.5 219.0 547.5
+  smooth off
 endline
 
 point 227.67439782000002 599.6535433099998 station -name 8.7
@@ -222,6 +229,7 @@ line wall -subtype sand
   67.5 1197.5
   73.5 1196.5 78.5 1191.5 84.5 1192.0
   90.5 1192.5 123.0 1195.0 124.5 1196.5
+  smooth off
 endline
 
 endscrap
@@ -247,6 +255,7 @@ line wall
   163.0 1913.5 160.5 1905.5 156.5 1895.5
   152.5 1885.5 148.5 1868.0 147.0 1864.5
   145.5 1861.0 138.5 1849.0 139.5 1847.0
+  smooth off
 endline
 
 endscrap

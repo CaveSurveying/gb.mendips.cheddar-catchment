@@ -88,13 +88,15 @@ point 342.5 335.0 section -scrap SideRiftSX2.1
 line section -direction end
   148.5 270.0
   148.5 270.0 203.0 294.0 279.0 327.0
+  smooth off
 endline
 
-point 345.5 575.0 section -scrap SideRiftSX2.3
+point 360.0 586.0 section -scrap SideRiftSX2.3
 
 line section -direction both
   93.0 408.0
   135.5 424.5 198.5 450.5 244.5 470.0
+  smooth off
 endline
 
 endscrap
