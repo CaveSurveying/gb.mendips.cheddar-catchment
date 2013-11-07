@@ -167,21 +167,23 @@ map FrozenDeepSplaysM -proj plan
   FrozenDeepM@FrozenDeep
 endmap
 
+
+
 map ReservoirM -title "Reservoir Hole" -proj plan
-  AscensionM@Ascension
   SkyfallM@Skyfall
   VertigoM@Vertigo
   CeilingAroundM@CeilingAround
   CeilingAround2M@CeilingAround2
   CeiledUpM@CeiledUp
+  AscensionM@Ascension
   UnderGorgeM@UnderGorge
-  GreatExpectationsM@GreatExpectations
   HerbertsAtticM@HerbertsAttic
   GolgothaM@Golgotha
   ResEntM@ResEnt
   SouthPassageM@SouthPassage
   SleeperM@Sleeper
   SideRiftM@SideRift
+  GreatExpectationsM@GreatExpectations
   JillsSlitherM@JillsSlither
   PottersHeavenM@PottersHeaven
  break
@@ -201,21 +203,21 @@ map ReservoirM -title "Reservoir Hole" -proj plan
 endmap
 
 map ReservoirME90 -proj [elevation 90]
-  AscensionME90@Ascension
   SkyfallME90@Skyfall
   VertigoME90@Vertigo
   CeilingAroundME90@CeilingAround
  break
   CeilingAround2ME90@CeilingAround2
   CeiledUpME90@CeiledUp
+  AscensionME90@Ascension
   UnderGorgeME90@UnderGorge
-  GreatExpectationsME90@GreatExpectations
   HerbertsAtticME90@HerbertsAttic
   GolgothaME90@Golgotha
   ResEntME90@ResEnt
   SouthPassageME90@SouthPassage
   SleeperME90@Sleeper
   SideRiftME90@SideRift
+  GreatExpectationsME90@GreatExpectations
   JillsSlitherME90@JillsSlither
   PottersHeavenME90@PottersHeaven
   PulsationAvenME90@PulsationAven

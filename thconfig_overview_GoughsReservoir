@@ -6,10 +6,12 @@ source CheddarCatchment.th
 #But unselected for lox, otherwise you get 2 grids
 #unselect Surface.Charterhouse
 
-select WhiteSpotM@WhiteSpot.CheddarCatchment
+
 select ReservoirM@Reservoir.CheddarCatchment
-select GreatOonesM@GreatOones.CheddarCatchment
+select WhiteSpotM@WhiteSpot.CheddarCatchment
 select LongHoleM@LongHole.CheddarCatchment
+select GoughsOldM@GoughsOld.CheddarCatchment
+select GreatOonesM@GreatOones.CheddarCatchment
 select GoughsM@Goughs.CheddarCatchment
 select allSumpsM@sumps.Goughs.CheddarCatchment
 
@@ -85,7 +87,7 @@ code tex-map
    #  \legendbox{0}{0}{nw}{
    #  \the\comment
   # }
-      \legendbox{0}{30}{sw}{
+      \legendbox{0}{40}{sw}{
      \formattedlegend
     }
  }

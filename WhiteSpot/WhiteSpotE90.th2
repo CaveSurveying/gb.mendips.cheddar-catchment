@@ -96,7 +96,7 @@ point 408.594276779 2893.15539883 station -name 1.0
 
 point 440.0 3708.0 label -align t -scale xl -text "White Spot Cave"
 
-point -32.0 3144.0 entrance -orientation 145 -scale xl
+point 40.0 2968.0 entrance -orientation 108.2 -scale xl
 
 endscrap
 

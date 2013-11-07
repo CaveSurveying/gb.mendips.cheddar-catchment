@@ -445,7 +445,7 @@ line overhang
   smooth off
 endline
 
-point 1511.0 4185.0 section -scrap UnderGorgeSPX1.21 -align t
+point 1511.0 4185.0 section -scrap UnderGorgeSPX1.21 -align r
 
 line section -direction both
   1062.0 4297.0
@@ -453,7 +453,7 @@ line section -direction both
   smooth off
 endline
 
-point 1254.0 2536.0 section -scrap UnderGorgeSPX1.14 -align t
+point 1254.0 2536.0 section -scrap UnderGorgeSPX1.14 -align r
 
 line section -direction both
   791.0 2634.0
@@ -461,7 +461,7 @@ line section -direction both
   smooth off
 endline
 
-point 1269.0 1625.0 section -scrap UnderGorgeSPX1.11 -align t
+point 1142.0 1654.0 section -scrap UnderGorgeSPX1.11 -align r
 
 line section -direction both
   666.0 1760.0
@@ -469,7 +469,7 @@ line section -direction both
   smooth off
 endline
 
-point 1214.0 1219.0 section -scrap UnderGorgeSPX1.10 -align t
+point 1214.0 1219.0 section -scrap UnderGorgeSPX1.10 -align r
 
 line section -direction both
   670.0 1336.0

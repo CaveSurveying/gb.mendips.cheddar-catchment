@@ -41,7 +41,7 @@ endmap
 map FarSumpsM
   #bishops_palaceM@bishops_palace 
   sump2M@sump2
-  sheppards_crookM@sheppards_crook 
+  #sheppards_crookM@sheppards_crook 
   sump3M@sump3
 endmap
 
