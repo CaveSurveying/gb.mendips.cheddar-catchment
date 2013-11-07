@@ -2,10 +2,19 @@ encoding  utf-8
 survey Entrance
 
 input Entrance.th2
+input EntranceE90.th2
 
 map EntranceM
   EntranceSP1
   EntranceSP2
+endmap
+
+map EntranceME90
+  EntranceSE90_3
+ break
+  EntranceSE90_1
+ break
+  EntranceSE90_2
 endmap
 
 centreline

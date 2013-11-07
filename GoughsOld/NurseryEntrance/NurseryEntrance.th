@@ -2,12 +2,17 @@ encoding  utf-8
 survey NurseryEntrance
 
 input NurseryEntrance.th2
+input NurseryEntranceE90.th2
 
 map NurseryEntranceM
   NurseryEntranceSP1
  break
   NurseryEntranceSP2
   NurseryEntranceSP3
+endmap
+
+map NurseryEntranceME90
+  NurseryEntranceSE90_1
 endmap
 
 centreline

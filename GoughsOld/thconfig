@@ -5,6 +5,8 @@ export model  -o GoughsOldth.3d
 
 export map -proj plan -layout local -o GoughsOld.pdf
 
+export map -proj [elevation 90] -layout local -o GoughsOldE90.pdf
+
 layout local
 copy common
 debug off

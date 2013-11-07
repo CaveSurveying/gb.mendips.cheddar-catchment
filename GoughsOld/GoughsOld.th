@@ -14,6 +14,12 @@ map GoughsOldM
   NurseryEntranceM@NurseryEntrance
 endmap
 
+map GoughsOldME90
+  ConcertME90@Concert
+  EntranceME90@Entrance
+  NurseryEntranceME90@NurseryEntrance
+endmap
+
 
 
 

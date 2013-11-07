@@ -2,11 +2,16 @@ encoding  utf-8
 survey Concert
 
 input Concert.th2
+input ConcertE90.th2
 
 map ConcertM
   ConcertSP2
  break
   ConcertSP1
+endmap
+
+map ConcertME90 -proj [elevation 90]
+  ConcertSE90_1
 endmap
 
 centreline

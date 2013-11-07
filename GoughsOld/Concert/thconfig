@@ -11,7 +11,7 @@ export map -proj plan -layout local -o Concert.pdf
 
 #export map -proj extended -layout local -o ConcertEe.pdf
 
-#export map -proj [elevation 15] -layout local -o ConcertE90.pdf
+export map -proj [elevation 90] -layout local -o ConcertE90.pdf
 
 export model -fmt survex -o Concertth.3d
 #Survex file showing centre line only

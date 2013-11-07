@@ -11,7 +11,7 @@ export map -proj plan -layout local -o NurseryEntrance.pdf
 
 #export map -proj extended -layout local -o NurseryEntranceEe.pdf
 
-#export map -proj [elevation 15] -layout local -o NurseryEntranceE90.pdf
+export map -proj [elevation 90] -layout local -o NurseryEntranceE90.pdf
 
 export model -fmt survex -o NurseryEntranceth.3d
 #Survex file showing centre line only
