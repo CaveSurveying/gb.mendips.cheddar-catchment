@@ -1,5 +1,5 @@
 encoding  utf-8
-survey GoughsOld
+  survey GoughsOld
 
 input NurseryEntrance/NurseryEntrance.th
 input Concert/Concert.th
@@ -8,11 +8,20 @@ input Entrance/Entrance.th
 equate 9@NurseryEntrance 10@Concert
 equate 24@Entrance 10@Concert
 
-
+#####Elevation Joins#####
 join ConcertSE90_1@Concert NurseryEntranceSE90_1@NurseryEntrance -smooth on
 join EntranceSE90_1@Entrance NurseryEntranceSE90_1@NurseryEntrance -smooth on
 join roof1@Entrance:0 column1@NurseryEntrance:end -smooth off
 join floor1@Entrance:end floor1@NurseryEntrance:5 -smooth off
+
+#####Plan Joins####
+join East1@Concert:Sidebit East1@Entrance:0 -smooth on
+join East1@Concert:end Upper1@NurseryEntrance:0 -smooth on
+join West1@Concert:1 Upper1@NurseryEntrance:end -smooth on
+join West1@Concert:0 Lower1@NurseryEntrance:end -smooth on
+join West1@Entrance:end Lower1@NurseryEntrance:0 -smooth on
+#NurseryEntranceSP1@NurseryEntrance 
+
 
 map GoughsOldM -title "Gough's Old Cave"
   ConcertM@Concert
