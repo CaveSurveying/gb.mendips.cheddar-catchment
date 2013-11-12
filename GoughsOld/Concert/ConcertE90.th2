@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust 70.18009613700002 -86.37088836800001 3198.0 1468.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {654.174960267 1 1.0} {205.599027659 11} PocketTopo/Concert_E90.xvi 0 {}
 
 
@@ -97,7 +97,7 @@ point 2867.394960267 965.409027659 station -name 20
 
 point 2898.374960267 1324.0590276589999 station -name 21
 
-point 1820.0 -88.0 label -text "Elevation projected on 090 degrees." -align c -scale l
+point 1820.0 -1000.0 label -text "Elevation projected on 090 degrees." -align c -scale l
 
 endscrap
 
