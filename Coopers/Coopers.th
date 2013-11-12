@@ -23,7 +23,7 @@ copyright 2013 "CC BY SA NC"
   team "Clive Owen" instruments
 
 fix 1.0 46820 54020 42 # ST 4682 5402 42 Fix from MCRA
-station 1.0 "" entrance
+station 1.0 "Cooper's Hole" entrance
 
 data normal from to tape compass clino ignoreall
   extend right
