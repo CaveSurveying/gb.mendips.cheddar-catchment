@@ -1,13 +1,15 @@
 encoding  utf-8
-survey CheddarCatchment -title "Gough'sCave,<br>Reservoir Hole<br>and<br>White Spot Cave"
+survey CheddarCatchment -title "Gough'sCave,<br>Reservoir Hole<br>and<br>White Spot Cave" 
 #to process this the correct 3d files are needed 
 #in the correct directories
 input Attborough/Attborough.th
+input BakeHole/BakeHole.th
 input Blackmoor/Blackmoor.th
 input BoneHole/BoneHole.th
 input BoweryCorner/BoweryCorner.th
 input Box/Box.th
 input BoxCave/BoxCave.th
+input BridgedRiftCave/BridgedRiftCave.th
 input Champions/Champions.th
 input Charterhouse/Charterhouse.th
 input CharterhouseWarren/CharterhouseWarren.th
@@ -38,6 +40,8 @@ input Other_Sites/Other.th
 input Other_Sites/UF_Area.th
 
 input Palmers/Palmers.th
+input PrideEvans/PrideEvans.th
+input PrideEvansAttic/PrideEvansAttic.th
 #input Reads/Reads.th
 #replace old read with 2010 version
 input ReadsGrotto/ReadsGrotto.th
@@ -47,6 +51,7 @@ input Reservoir/Reservoir.th
 input RRift/RRift.th
 input SayesHole/Sayes/Sayes.th
 input Spider/Spider.th
+input SunHole/SunHole.th
 input Surface/Surface.th
 input Hangover/Hangover.th
 input Timber/Timber.th
@@ -60,6 +65,7 @@ input WhitebeamArea/WhitebeamArea.th
 #input White_Spot/White_Spot.th
 input WhiteSpot/WhiteSpot.th
 input Wigmore/Wigmore.th
+input YewCleftHole/YewCleftHole
 
 #file with 4 fixed co-ordinates, to make sure same size plot every time for mendip map
 #input corners.th 

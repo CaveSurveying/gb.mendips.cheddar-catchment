@@ -1,0 +1,53 @@
+encoding  utf-8
+survey Entrance -namespace off
+
+input Entrance.th2
+
+map EntranceM
+  EntranceSP1
+endmap
+
+centreline
+cs OSGB:ST
+
+copyright 2013 "CC BY SA NC"
+
+station 0 "Pride Evans' Attic" entrance
+fix 0 46770 54090 97
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#distoxchris; 0.38
+#notes: Andrew Atkinson
+#inst: Alison Moody
+
+  date 2013.11.12
+
+  team "Andrew Atkinson" notes
+  team "Alison Moody" instruments
+
+  instrument  instruments "UBSS-ChrisP"
+
+  explo-date 2013.11.12
+
+data normal from to tape compass clino ignoreall
+  extend right
+#Calibration check in PrideEvans.th 
+0  -  0.25  36.04  -85.44  329  grilled hole nv E
+0  -  1.045  42.12  -35.97  315  
+0  -  0.783  33.56  10.11  296  
+0  -  0.428  23.52  46.95  272  
+#1  0  1.399  172.99  15.13  279  
+#1  0  1.402  172.7  14.97  279  
+#1  0  1.398  173.03  15.2  279  
+1  0  1.4  172.84  15.1  Calculated leg from 3 above
+1  -  0.285  83.52  -45.74  279  
+1  -  0.341  33.09  78.33  25  
+1  -  0.483  241.77  33.35  87  
+1  -  0.418  233.3  -36.59  74  
+#1  2  1.667  311.68  8.33  88  
+#1  2  1.669  311.92  8.08  88  
+#1  2  1.666  311.96  7.99  88  
+1  2  1.667  311.68  8.14  Calculated leg from 3 above
+endcentreline
+endsurvey
+

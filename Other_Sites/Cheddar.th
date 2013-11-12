@@ -56,10 +56,10 @@ fix PigsHole 47700 54550 133 #ST 4770 5455 133
 station PigsHole "" entrance
 fix PittardsCrawl 47540 54480 139 #ST 4754 5448 139
 station PittardsCrawl "" entrance
-fix PrideEvansAttic 46770 54090 97 #ST 4677 5409 97
-station PrideEvansAttic "" entrance
-fix PrideEvansHole 46810 54060 60 #ST 4681 5406 60
-station PrideEvansHole "" entrance
+#fix PrideEvansAttic 46770 54090 97 #ST 4677 5409 97
+#station PrideEvansAttic "" entrance
+#fix PrideEvansHole 46810 54060 60 #ST 4681 5406 60
+#station PrideEvansHole "" entrance
 fix ReynoldsRift 46300 54440 86 #ST 4630 5444 86
 station ReynoldsRift "" entrance
 fix ScallopedHole 47340 54380 113 #ST 4734 5438 113
@@ -78,8 +78,8 @@ fix SpiderHole 48060 54240 184 #ST 4806 5424 184
 station SpiderHole "" entrance
 fix SugerLoafRock 46900 54150 54 #ST 4690 5415 54
 station SugerLoafRock "" entrance
-fix SunHole 46730 54080 83 #ST 4673 5408 83
-station SunHole "" entrance
+#fix SunHole 46730 54080 83 #ST 4673 5408 83
+#station SunHole "" entrance
 #fix  SwineHole 47380 54330 204 #ST 4738 5433 204
 #station SwineHole "" entrance
 #fix TimberHole 48840 54830 189 #ST 4884 5483 241

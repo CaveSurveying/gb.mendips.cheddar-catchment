@@ -17,7 +17,20 @@ source CheddarCatchment.th
 #select LongHole.CheddarCatchment
 #select Sayes.CheddarCatchment
 #select Coopers.CheddarCatchment
+#select BakeHole.CheddarCatchment
 #select Coxs.CheddarCatchment
+#select PrideEvans.CheddarCatchment
+#select PrideEvansAttic.CheddarCatchment
+#select YewCleftHole.CheddarCatchment
+#select WhitebeamArea.CheddarCatchment
+#select WhiteSpot.CheddarCatchment
+#select SunHole.CheddarCatchment
+#select Reservoir.CheddarCatchment
+#select BridgedRiftCave.CheddarCatchment
+#select BoxCave.CheddarCatchment
+#select Reynolds.CheddarCatchment
+
+
 
 #select CoopersM@Coopers.CheddarCatchment
 

@@ -1,0 +1,69 @@
+encoding  utf-8
+survey Entrance -namespace off
+
+input Entrance.th2
+
+map EntranceM
+  EntranceSP1
+endmap
+
+centreline
+cs OSGB:ST
+
+copyright 2013 "CC BY SA NC"
+
+station 0 "Bridged Rift Cave" entrance
+fix 0 46670 54130 105
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#distoxchris; 0.38
+#notes: Andrew Atkinson
+#inst: Alison Moody
+
+  date 2013.11.12
+
+  team "Andrew Atkinson" notes
+  team "Alison Moody" instruments
+
+  instrument  instruments "UBSS-ChrisP"
+
+  explo-date 2013.11.12
+
+data normal from to tape compass clino ignoreall
+  extend right
+#Calibration check in PrideEvans.th  
+0  -  1.583  141.69  -76.07  213  nv 30cm below old drill hole shown in entrance photo
+0  -  1.563  34.65  -71.97  106  
+0  -  0.245  56.18  18.47  130  
+0  -  0.873  21.66  -41.02  122  
+#0  1  4.715  81.41  -14.46  122  
+#0  1  4.71  81.19  -14.49  122  
+#0  1  4.717  81.38  -14.49  122  
+0  1  4.714  81.3  -14.48  Calculated leg from 3 above
+1  -  0.659  182.33  -70.34  344  
+1  -  0.748  175.13  -55.97  338  
+1  -  0.679  177.11  20.45  302  
+1  -  0.928  163.75  62.77  268  
+1  -  0.986  158.88  71.9  268  
+1  -  0.814  169.39  77.05  254  
+1  -  1.908  114.8  -54.64  327  
+1  -  2.946  238.26  -45.62  78  
+1  -  4.964  251.57  -23.3  90  
+#1  2  3.229  100.29  14.52  270  
+#1  2  3.228  100.45  14.46  270  
+#1  2  3.228  100.38  14.4  270  
+1  2  3.228  100.37  14.46  Calculated leg from 3 above
+2  -  1.94  304.38  -84.71  53  
+2  -  2.112  340.11  -74.79  92  
+2  -  0.774  359.69  -19.58  88  
+2  -  2.057  347.84  -43.31  90  
+2  -  1.652  195.44  84.66  267  
+2  -  1.568  336.28  74.48  119  
+2  -  2.308  344.65  80.33  115  
+#2  3  3.567  79.56  32.9  1  
+#2  3  3.549  79.94  32.95  1  
+#2  3  3.552  79.87  32.92  0  
+2  3  3.556  79.56  32.92  Calculated leg from 3 above
+endcentreline
+endsurvey
+

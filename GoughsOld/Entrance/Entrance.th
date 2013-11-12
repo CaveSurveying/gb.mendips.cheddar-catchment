@@ -18,6 +18,7 @@ map EntranceME90
 endmap
 
 centreline
+cs OSGB:ST
 
 copyright 2013 "CC BY SA NC"
 
