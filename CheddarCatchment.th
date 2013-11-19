@@ -31,7 +31,7 @@ input GreatOones/GreatOones/GreatOones.th
 #input Long_Hole/Long_Hole.th
 input LongHole/LongHole.th
 input Longwood/Longwood.th 
-input Long_Vall_Sink/Long_Vall_Sink.th
+input LongwoodValleySink/LongwoodValleySink.th
 input ManorFarm/ManorFarm.th 
 
 #files containing other entrances

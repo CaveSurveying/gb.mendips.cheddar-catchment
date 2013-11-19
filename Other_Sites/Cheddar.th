@@ -46,8 +46,8 @@ station FallingScree "" entrance
 #Now in seperate file
 fix HoneyHole 46950 54090 98 #ST 4695 5409 98
 station HoneyHole "" entrance
-fix LongwoodValleySink 48580 55480 207 #ST 4858 5548 207
-station LongwoodValleySink "" entrance
+#fix LongwoodValleySink 48580 55480 207 #ST 4858 5548 207
+#station LongwoodValleySink "" entrance
 fix NodsPot 47640 54900 236 #ST 4764 5490 236
 station NodsPot "" entrance
 fix PaveysCave 46430 53850 21 #ST 4643 5385 21
