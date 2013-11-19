@@ -2,6 +2,8 @@ encoding  utf-8
 survey Entrance -namespace off
 
 input Entrance.th2
+input EntranceE45.th2
+input EntranceEe.th2
 
 map EntranceM
   EntranceSP1
@@ -9,6 +11,14 @@ map EntranceM
   EntranceSP2
 endmap
 
+map EntranceE45M -proj [elevation 45]
+  EntranceSE45_1
+endmap
+
+map EntranceEeM -proj extended
+  EntranceSE1
+endmap  
+  
 centreline
 cs OSGB:ST
 
@@ -39,7 +49,9 @@ data normal from to tape compass clino ignoreall
 0  -  2.023  270.01  46.41  188  
 0  -  3.682  261.12  10.21  170  
 0  -  4.343  264.7  -30.55  135  
-0  -  6.399  309.5  -39.2  74  
+flags duplicate
+0  0a  6.399  309.5  -39.2  74 
+flags not duplicate 
 #0  1  7.336  302.05  11.61  84  
 #0  1  7.335  302.31  11.63  84  
 #0  1  7.311  301.79  11.52  84  

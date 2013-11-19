@@ -1,0 +1,102 @@
+encoding  utf-8
+source SunHole.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+#Plan has to be produced first for combined to work
+
+export map -proj plan -layout plan -o SunHole.pdf
+#Produces plan of cave, on a single sheet
+
+export map -proj [elevation 45] -layout elev -o SunHoleE45.pdf
+
+#Plan and elevation on same sheet
+export map -proj [elevation 45] -layout combined -o SunHole_combined.pdf
+
+
+#export model -fmt survex -o SunHoleth.3d
+#Survex file showing centre line only
+
+#export model -o SunHole.lox
+#3d therion model to be viewed in the therion viewer
+
+layout elev
+copy local
+#colour map-bg transparent
+
+endlayout
+
+layout combined
+copy local
+map-image -2 100 sw SunHole.pdf
+map-header 100 -5 ne
+map-comment "Drawn, using Therion, by Andrew Atkinson and Graham Mullan.<br>\
+Surveyed by Andrew Atkinson and Alison Moody<br>\
+Grade UISv1 6-4-BEF<br>\
+Copyright 2013 CC BY NC SA <br>\
+ <br>\
+Heights in metres AOD"
+
+endlayout
+
+layout plan
+copy local
+code tex-map
+  \def\maplayout{
+    \legendbox{5}{90}{SW}{\northarrow}
+  }
+endcode
+endlayout
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+#colour map-fg map
+colour-legend off
+symbol-hide group centreline
+#grid-size 100 100 20 m
+
+
+#A1 (for combined)
+scale 1 50
+base-scale 1 250
+
+code tex-map
+  \cavename={\size[30] Sun Hole}
+   # \cavelength={} %empty
+   #\cavedepth={}  %empty
+   \legendtextsize={\size[16]}
+    \colorlegendfalse
+    \topodate={}  %empty
+
+
+	
+
+code metapost
+
+#####################################
+#Text sizes
+#xs: features such as sumps
+#s: point names such as rocks
+#m: normal names
+#l: major names
+#xl: Area/cave names
+#####################################
+
+  #base 1:750 scale 1:2750 (A3 charterhouse,GB)
+  #fonts_setup(8,16,24,40,60)
+
+  #scale 1:1000 (A0 width charterhouse,GB)
+  #fonts_setup(7,10,14,20,30)
+
+  #base 1:500 scale 1:2750 
+  #fonts_setup(8,20,26,40,60)
+
+endcode
+
+endlayout
+
+input ../common_layout.th

@@ -1,5 +1,15 @@
 encoding  utf-8
 survey SunHole
+
 input Entrance/Entrance.th
+
+map SunHoleM -title "Sun Hole"
+  EntranceM@Entrance
+endmap
+
+map SunHoleME45 -proj [elevation 45]
+  EntranceE45M@Entrance
+endmap
+
 endsurvey
 
