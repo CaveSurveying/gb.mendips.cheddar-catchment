@@ -10,6 +10,7 @@ input BoweryCorner/BoweryCorner.th
 input Box/Box.th
 input BoxCave/BoxCave.th
 input BridgedRiftCave/BridgedRiftCave.th
+input CanyonCave/CanyonCave.th
 input Champions/Champions.th
 input Charterhouse/Charterhouse.th
 input CharterhouseWarren/CharterhouseWarren.th
@@ -73,5 +74,6 @@ input YewCleftHole/YewCleftHole
 equate 1.0@ReadsGrotto 1.0@Entrance.OldCave.Charterhouse
 equate 0@NurseryEntrance.GoughsOld 1.2@LongHole
 equate 40@Champions 39@Entrance.GoughsOld
+
 endsurvey
 

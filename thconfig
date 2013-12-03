@@ -9,14 +9,6 @@ source CheddarCatchment.th
 #But unselected for lox, otherwise you get 2 grids
 #unselect Surface.Charterhouse
 
-select Longwood.CheddarCatchment
-select LongwoodValleySink.CheddarCatchment
-select Toothache.CheddarCatchment
-select RRift.CheddarCatchment
-
-
-
-
 #unselect corners.CheddarCatchment
 #select Goughs.CheddarCatchment
 #select Champions.CheddarCatchment
