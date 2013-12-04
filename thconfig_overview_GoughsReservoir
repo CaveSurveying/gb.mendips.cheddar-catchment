@@ -10,17 +10,19 @@ source CheddarCatchment.th
 select ReservoirM@Reservoir.CheddarCatchment
 select WhiteSpotM@WhiteSpot.CheddarCatchment
 select LongHoleM@LongHole.CheddarCatchment
-select GoughsOldM@GoughsOld.CheddarCatchment
 select GreatOonesM@GreatOones.CheddarCatchment
-select SayesM@Sayes.CheddarCatchment
 select GoughsM@Goughs.CheddarCatchment
-
-
 select allSumpsM@sumps.Goughs.CheddarCatchment
+select GoughsOldM@GoughsOld.CheddarCatchment
+select CheddarMinorM@CheddarCatchment
+
+
+
+
 
 #select BrockM@Brock.WhitebeamArea.CheddarCatchment
-select CoopersM@Coopers.CheddarCatchment
-select Coxs@Coxs.CheddarCatchment
+#select CoopersM@Coopers.CheddarCatchment
+#select Coxs@Coxs.CheddarCatchment
 #select WhitebeamM@Whitebeam.WhitebeamArea.CheddarCatchment
 #select SwineHoleM@SwineHole.WhitebeamArea.CheddarCatchment
 #select Unknown1M@Unknown1.WhitebeamArea.CheddarCatchment
@@ -59,7 +61,6 @@ symbol-hide group all
 symbol-show line wall
 
 grid off
-map-header 0 80 nw
 map-header-bg off
 statistics explo off
 statistics topo off
@@ -87,10 +88,7 @@ code tex-map
    \bigskip
  \the\comment
     }
-   #  \legendbox{0}{0}{nw}{
-   #  \the\comment
-  # }
-      \legendbox{0}{40}{sw}{
+      \legendbox{10}{55}{sw}{
      \formattedlegend
     }
  }
