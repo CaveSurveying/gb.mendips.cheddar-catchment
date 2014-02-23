@@ -1,922 +1,1569 @@
 set XVIgrids {1.0 m}
 set XVIstations {
-  {     3231.20       -54.04 3.10@NeverlandDisto.Neverland}
-  {     3231.20       -54.04 3.10@NeverlandDisto.Neverland}
-  {     3231.20       -54.04 3.10@NeverlandDisto.Neverland}
-  {     3231.20       -54.04 3.10@NeverlandDisto.Neverland}
-  {     4233.83       -26.28 2.78@NeverlandDisto.Neverland}
-  {     4233.83       -26.28 3.0@NeverlandDisto.Neverland}
-  {     4233.83       -26.28 3.0@NeverlandDisto.Neverland}
-  {     4257.41       -43.21 3.1@NeverlandDisto.Neverland}
-  {     4257.41       -43.21 3.1@NeverlandDisto.Neverland}
-  {     4257.41       -43.21 3.1@NeverlandDisto.Neverland}
-  {     4257.41       -43.21 3.1@NeverlandDisto.Neverland}
-  {     4257.41       -43.21 3.1@NeverlandDisto.Neverland}
-  {     4162.65       -55.81 3.2@NeverlandDisto.Neverland}
-  {     4257.41       -43.21 3.1@NeverlandDisto.Neverland}
-  {     4162.65       -55.81 3.2@NeverlandDisto.Neverland}
-  {     4162.65       -55.81 3.2@NeverlandDisto.Neverland}
-  {     4162.65       -55.81 3.2@NeverlandDisto.Neverland}
-  {     4162.65       -55.81 3.2@NeverlandDisto.Neverland}
-  {     4038.12       -52.26 3.3@NeverlandDisto.Neverland}
-  {     4162.65       -55.81 3.2@NeverlandDisto.Neverland}
-  {     4038.12       -52.26 3.3@NeverlandDisto.Neverland}
-  {     4038.12       -52.26 3.3@NeverlandDisto.Neverland}
-  {     4038.12       -52.26 3.3@NeverlandDisto.Neverland}
-  {     4038.12       -52.26 3.3@NeverlandDisto.Neverland}
-  {     4038.12       -52.26 3.3@NeverlandDisto.Neverland}
-  {     4038.12       -52.26 3.3@NeverlandDisto.Neverland}
-  {     3904.40       -52.66 3.4@NeverlandDisto.Neverland}
-  {     4038.12       -52.26 3.3@NeverlandDisto.Neverland}
-  {     3904.40       -52.66 3.4@NeverlandDisto.Neverland}
-  {     3904.40       -52.66 3.4@NeverlandDisto.Neverland}
-  {     3904.40       -52.66 3.4@NeverlandDisto.Neverland}
-  {     3904.40       -52.66 3.4@NeverlandDisto.Neverland}
-  {     3904.40       -52.66 3.4@NeverlandDisto.Neverland}
-  {     3904.40       -52.66 3.4@NeverlandDisto.Neverland}
-  {     3904.40       -52.66 3.4@NeverlandDisto.Neverland}
-  {     3904.40       -52.66 3.4@NeverlandDisto.Neverland}
-  {     3904.40       -52.66 3.4@NeverlandDisto.Neverland}
-  {     3904.40       -52.66 3.4@NeverlandDisto.Neverland}
-  {     3904.40       -52.66 3.4@NeverlandDisto.Neverland}
-  {     3848.07       -50.89 3.5@NeverlandDisto.Neverland}
-  {     3904.40       -52.66 3.4@NeverlandDisto.Neverland}
-  {     3848.07       -50.89 3.5@NeverlandDisto.Neverland}
-  {     3848.07       -50.89 3.5@NeverlandDisto.Neverland}
-  {     3848.07       -50.89 3.5@NeverlandDisto.Neverland}
-  {     3848.07       -50.89 3.5@NeverlandDisto.Neverland}
-  {     3740.48       -49.51 3.6@NeverlandDisto.Neverland}
-  {     3848.07       -50.89 3.5@NeverlandDisto.Neverland}
-  {     3740.48       -49.51 3.6@NeverlandDisto.Neverland}
-  {     3740.48       -49.51 3.6@NeverlandDisto.Neverland}
-  {     3740.48       -49.51 3.6@NeverlandDisto.Neverland}
-  {     3602.35       -52.85 3.7@NeverlandDisto.Neverland}
-  {     3740.48       -49.51 3.6@NeverlandDisto.Neverland}
-  {     3602.35       -52.85 3.7@NeverlandDisto.Neverland}
-  {     3602.35       -52.85 3.7@NeverlandDisto.Neverland}
-  {     3602.35       -52.85 3.7@NeverlandDisto.Neverland}
-  {     3602.35       -52.85 3.7@NeverlandDisto.Neverland}
-  {     3602.35       -52.85 3.7@NeverlandDisto.Neverland}
-  {     3602.35       -52.85 3.7@NeverlandDisto.Neverland}
-  {     3454.72       -60.33 3.8@NeverlandDisto.Neverland}
-  {     3602.35       -52.85 3.7@NeverlandDisto.Neverland}
-  {     3454.72       -60.33 3.8@NeverlandDisto.Neverland}
-  {     3454.72       -60.33 3.8@NeverlandDisto.Neverland}
-  {     3454.72       -60.33 3.8@NeverlandDisto.Neverland}
-  {     3454.72       -60.33 3.8@NeverlandDisto.Neverland}
-  {     3454.72       -60.33 3.8@NeverlandDisto.Neverland}
-  {     3454.72       -60.33 3.8@NeverlandDisto.Neverland}
-  {     3454.72       -60.33 3.8@NeverlandDisto.Neverland}
-  {     3308.69       -47.93 3.9@NeverlandDisto.Neverland}
-  {     3454.72       -60.33 3.8@NeverlandDisto.Neverland}
-  {     3308.69       -47.93 3.9@NeverlandDisto.Neverland}
-  {     3308.69       -47.93 3.9@NeverlandDisto.Neverland}
-  {     3308.69       -47.93 3.9@NeverlandDisto.Neverland}
-  {     3308.69       -47.93 3.9@NeverlandDisto.Neverland}
-  {     3308.69       -47.93 3.9@NeverlandDisto.Neverland}
-  {     3308.69       -47.93 3.9@NeverlandDisto.Neverland}
-  {     3231.20       -54.04 3.10@NeverlandDisto.Neverland}
-  {     3308.69       -47.93 3.9@NeverlandDisto.Neverland}
-  {     3231.20       -54.04 3.10@NeverlandDisto.Neverland}
-  {     3231.20       -54.04 3.10@NeverlandDisto.Neverland}
-  {     3231.20       -54.04 3.10@NeverlandDisto.Neverland}
-  {     3231.20       -54.04 3.10@NeverlandDisto.Neverland}
-  {     3178.74       -40.45 3.11@NeverlandDisto.Neverland}
-  {     3231.20       -54.04 3.10@NeverlandDisto.Neverland}
-  {     3178.74       -40.45 3.11@NeverlandDisto.Neverland}
-  {     3178.74       -40.45 3.11@NeverlandDisto.Neverland}
-  {     3178.74       -40.45 3.11@NeverlandDisto.Neverland}
-  {     3178.74       -40.45 3.11@NeverlandDisto.Neverland}
-  {     3178.74       -40.45 3.11@NeverlandDisto.Neverland}
-  {     3178.74       -40.45 3.11@NeverlandDisto.Neverland}
-  {     3178.74       -40.45 3.11@NeverlandDisto.Neverland}
-  {     3178.74       -40.45 3.11@NeverlandDisto.Neverland}
-  {     3102.25       -31.99 3.12@NeverlandDisto.Neverland}
-  {     3178.74       -40.45 3.11@NeverlandDisto.Neverland}
-  {     3102.25       -31.99 3.12@NeverlandDisto.Neverland}
-  {     3102.25       -31.99 3.12@NeverlandDisto.Neverland}
-  {     3102.25       -31.99 3.12@NeverlandDisto.Neverland}
-  {     3102.25       -31.99 3.12@NeverlandDisto.Neverland}
-  {     3102.25       -31.99 3.12@NeverlandDisto.Neverland}
-  {     3102.25       -31.99 3.12@NeverlandDisto.Neverland}
-  {     3044.42       -29.82 3.13@NeverlandDisto.Neverland}
-  {     3102.25       -31.99 3.12@NeverlandDisto.Neverland}
-  {     3044.42       -29.82 3.13@NeverlandDisto.Neverland}
-  {     3044.42       -29.82 3.13@NeverlandDisto.Neverland}
-  {     3044.42       -29.82 3.13@NeverlandDisto.Neverland}
-  {     3044.42       -29.82 3.13@NeverlandDisto.Neverland}
-  {     3044.42       -29.82 3.13@NeverlandDisto.Neverland}
-  {     3011.76       -29.82 3.14@NeverlandDisto.Neverland}
-  {     3044.42       -29.82 3.13@NeverlandDisto.Neverland}
-  {     3011.76       -29.82 3.14@NeverlandDisto.Neverland}
-  {     3011.76       -29.82 3.14@NeverlandDisto.Neverland}
-  {     3011.76       -29.82 3.14@NeverlandDisto.Neverland}
-  {     3011.76       -29.82 3.14@NeverlandDisto.Neverland}
-  {     2976.28       -18.80 3.15@NeverlandDisto.Neverland}
-  {     3011.76       -29.82 3.14@NeverlandDisto.Neverland}
-  {     2976.28       -18.80 3.15@NeverlandDisto.Neverland}
-  {     2976.28       -18.80 3.15@NeverlandDisto.Neverland}
-  {     2976.28       -18.80 3.15@NeverlandDisto.Neverland}
-  {     2976.28       -18.80 3.15@NeverlandDisto.Neverland}
-  {     2945.89       -14.47 3.16@NeverlandDisto.Neverland}
-  {     2976.28       -18.80 3.15@NeverlandDisto.Neverland}
-  {     2898.61         1.28 3.17@NeverlandDisto.Neverland}
-  {     2976.28       -18.80 3.15@NeverlandDisto.Neverland}
-  {     2898.61         1.28 3.17@NeverlandDisto.Neverland}
-  {     2898.61         1.28 3.17@NeverlandDisto.Neverland}
-  {     2898.61         1.28 3.17@NeverlandDisto.Neverland}
-  {     2898.61         1.28 3.17@NeverlandDisto.Neverland}
-  {     2898.61         1.28 3.17@NeverlandDisto.Neverland}
-  {     2898.61         1.28 3.17@NeverlandDisto.Neverland}
-  {     2821.74        -2.07 3.18@NeverlandDisto.Neverland}
-  {     2898.61         1.28 3.17@NeverlandDisto.Neverland}
-  {     2821.74        -2.07 3.18@NeverlandDisto.Neverland}
-  {     2821.74        -2.07 3.18@NeverlandDisto.Neverland}
-  {     2821.74        -2.07 3.18@NeverlandDisto.Neverland}
-  {     2821.74        -2.07 3.18@NeverlandDisto.Neverland}
-  {     2705.26       -60.33 3.19@NeverlandDisto.Neverland}
-  {     2821.74        -2.07 3.18@NeverlandDisto.Neverland}
-  {     2705.26       -60.33 3.19@NeverlandDisto.Neverland}
-  {     2705.26       -60.33 3.19@NeverlandDisto.Neverland}
-  {     2705.26       -60.33 3.19@NeverlandDisto.Neverland}
-  {     2705.26       -60.33 3.19@NeverlandDisto.Neverland}
-  {     2705.26       -60.33 3.19@NeverlandDisto.Neverland}
-  {     2705.26       -60.33 3.19@NeverlandDisto.Neverland}
-  {     2557.93      -132.58 3.20@NeverlandDisto.Neverland}
-  {     2705.26       -60.33 3.19@NeverlandDisto.Neverland}
-  {     2557.93      -132.58 3.20@NeverlandDisto.Neverland}
-  {     2557.93      -132.58 3.20@NeverlandDisto.Neverland}
-  {     2557.93      -132.58 3.20@NeverlandDisto.Neverland}
-  {     2557.93      -132.58 3.20@NeverlandDisto.Neverland}
-  {     2557.93      -132.58 3.20@NeverlandDisto.Neverland}
-  {     2557.93      -132.58 3.20@NeverlandDisto.Neverland}
-  {     2557.93      -132.58 3.20@NeverlandDisto.Neverland}
-  {     2557.93      -132.58 3.20@NeverlandDisto.Neverland}
-  {     2557.93      -132.58 3.20@NeverlandDisto.Neverland}
-  {     2594.22      -114.86 3.21@NeverlandDisto.Neverland}
-  {     2577.30      -114.86 3.21@NeverlandDisto.Neverland}
-  {     2577.30      -114.86 3.21@NeverlandDisto.Neverland}
-  {     2577.30      -114.86 3.21@NeverlandDisto.Neverland}
-  {     2707.39       -44.00 3.22@NeverlandDisto.Neverland}
-  {     2461.85      -159.55 3.23@NeverlandDisto.Neverland}
-  {     2557.93      -132.58 3.20@NeverlandDisto.Neverland}
-  {     2461.85      -159.55 3.23@NeverlandDisto.Neverland}
-  {     2461.85      -159.55 3.23@NeverlandDisto.Neverland}
-  {     2461.85      -159.55 3.23@NeverlandDisto.Neverland}
-  {     2461.85      -159.55 3.23@NeverlandDisto.Neverland}
-  {     2461.85      -159.55 3.23@NeverlandDisto.Neverland}
-  {     2461.85      -159.55 3.23@NeverlandDisto.Neverland}
-  {     2269.71      -139.07 3.24@NeverlandDisto.Neverland}
-  {     2461.85      -159.55 3.23@NeverlandDisto.Neverland}
-  {     2269.71      -139.07 3.24@NeverlandDisto.Neverland}
-  {     2269.71      -139.07 3.24@NeverlandDisto.Neverland}
-  {     2269.71      -139.07 3.24@NeverlandDisto.Neverland}
-  {     2269.71      -139.07 3.24@NeverlandDisto.Neverland}
-  {     2269.71      -139.07 3.24@NeverlandDisto.Neverland}
-  {     2269.71      -139.07 3.24@NeverlandDisto.Neverland}
-  {     2269.71      -139.07 3.24@NeverlandDisto.Neverland}
-  {     2327.77      -128.64 3.25@NeverlandDisto.Neverland}
-  {     2109.06      -162.70 3.26@NeverlandDisto.Neverland}
-  {     2269.71      -139.07 3.24@NeverlandDisto.Neverland}
-  {     2109.06      -162.70 3.26@NeverlandDisto.Neverland}
-  {     2109.06      -162.70 3.26@NeverlandDisto.Neverland}
-  {     2109.06      -162.70 3.26@NeverlandDisto.Neverland}
-  {     2109.06      -162.70 3.26@NeverlandDisto.Neverland}
-  {     2109.06      -162.70 3.26@NeverlandDisto.Neverland}
-  {     2109.06      -162.70 3.26@NeverlandDisto.Neverland}
-  {     2109.06      -162.70 3.26@NeverlandDisto.Neverland}
-  {     2109.06      -162.70 3.26@NeverlandDisto.Neverland}
-  {     2109.06      -162.70 3.26@NeverlandDisto.Neverland}
-  {     2144.87      -181.00 3.27@NeverlandDisto.Neverland}
-  {     2144.87      -181.00 3.27@NeverlandDisto.Neverland}
-  {     2144.87      -181.00 3.27@NeverlandDisto.Neverland}
-  {     2144.87      -181.00 3.27@NeverlandDisto.Neverland}
-  {     2144.87      -181.00 3.27@NeverlandDisto.Neverland}
-  {     2144.87      -181.00 3.27@NeverlandDisto.Neverland}
-  {     2084.40      -169.98 3.28@NeverlandDisto.Neverland}
-  {     2154.00      -165.26 3.29@NeverlandDisto.Neverland}
-  {     2109.06      -162.70 3.26@NeverlandDisto.Neverland}
-  {     2154.00      -165.26 3.29@NeverlandDisto.Neverland}
-  {     2154.00      -165.26 3.29@NeverlandDisto.Neverland}
-  {     2154.00      -165.26 3.29@NeverlandDisto.Neverland}
-  {     2154.00      -165.26 3.29@NeverlandDisto.Neverland}
-  {     2154.00      -165.26 3.29@NeverlandDisto.Neverland}
-  {     2154.00      -165.26 3.29@NeverlandDisto.Neverland}
-  {     2154.00      -165.26 3.29@NeverlandDisto.Neverland}
-  {     2154.00      -165.26 3.29@NeverlandDisto.Neverland}
-  {     2154.00      -165.26 3.29@NeverlandDisto.Neverland}
-  {     2154.00      -165.26 3.29@NeverlandDisto.Neverland}
-  {     2154.00      -165.26 3.29@NeverlandDisto.Neverland}
-  {     2095.95      -175.30 3.30@NeverlandDisto.Neverland}
-  {     2154.00      -165.26 3.29@NeverlandDisto.Neverland}
-  {     2095.95      -175.30 3.30@NeverlandDisto.Neverland}
-  {     2095.95      -175.30 3.30@NeverlandDisto.Neverland}
-  {     2095.95      -175.30 3.30@NeverlandDisto.Neverland}
-  {     2095.95      -175.30 3.30@NeverlandDisto.Neverland}
-  {     2095.95      -175.30 3.30@NeverlandDisto.Neverland}
-  {     2032.71      -186.12 3.31@NeverlandDisto.Neverland}
-  {     2095.95      -175.30 3.30@NeverlandDisto.Neverland}
-  {     2032.71      -186.12 3.31@NeverlandDisto.Neverland}
-  {     2032.71      -186.12 3.31@NeverlandDisto.Neverland}
-  {     2032.71      -186.12 3.31@NeverlandDisto.Neverland}
-  {     2032.71      -186.12 3.31@NeverlandDisto.Neverland}
-  {     2032.71      -186.12 3.31@NeverlandDisto.Neverland}
-  {     2032.71      -186.12 3.31@NeverlandDisto.Neverland}
-  {     2032.71      -186.12 3.31@NeverlandDisto.Neverland}
-  {     1856.84      -243.60 3.32@NeverlandDisto.Neverland}
-  {     2032.71      -186.12 3.31@NeverlandDisto.Neverland}
-  {     1856.84      -243.60 3.32@NeverlandDisto.Neverland}
-  {     1856.84      -243.60 3.32@NeverlandDisto.Neverland}
-  {     1856.84      -243.60 3.32@NeverlandDisto.Neverland}
-  {     1856.84      -243.60 3.32@NeverlandDisto.Neverland}
-  {     1856.84      -243.60 3.32@NeverlandDisto.Neverland}
-  {     1856.84      -243.60 3.32@NeverlandDisto.Neverland}
-  {     1766.04      -260.93 3.33@NeverlandDisto.Neverland}
-  {     1856.84      -243.60 3.32@NeverlandDisto.Neverland}
-  {     1766.04      -260.93 3.33@NeverlandDisto.Neverland}
-  {     1766.04      -260.93 3.33@NeverlandDisto.Neverland}
-  {     1766.04      -260.93 3.33@NeverlandDisto.Neverland}
-  {     1643.67      -253.84 3.34@NeverlandDisto.Neverland}
-  {     1766.04      -260.93 3.33@NeverlandDisto.Neverland}
-  {     1643.67      -253.84 3.34@NeverlandDisto.Neverland}
-  {     1643.67      -253.84 3.34@NeverlandDisto.Neverland}
-  {     1643.67      -253.84 3.34@NeverlandDisto.Neverland}
-  {     1643.67      -253.84 3.34@NeverlandDisto.Neverland}
-  {     1643.67      -253.84 3.34@NeverlandDisto.Neverland}
-  {     1643.67      -253.84 3.34@NeverlandDisto.Neverland}
-  {     1643.67      -253.84 3.34@NeverlandDisto.Neverland}
-  {     1643.67      -253.84 3.34@NeverlandDisto.Neverland}
-  {     1790.80      -276.87 3.35@NeverlandDisto.Neverland}
-  {     1643.67      -253.84 3.34@NeverlandDisto.Neverland}
-  {     1643.67      -253.84 3.34@NeverlandDisto.Neverland}
-  {     2106.39      -162.70 3.36@NeverlandDisto.Neverland}
-  {     2154.00      -165.26 3.29@NeverlandDisto.Neverland}
-  {     2106.39      -162.70 3.36@NeverlandDisto.Neverland}
-  {     2106.39      -162.70 3.36@NeverlandDisto.Neverland}
-  {     2106.39      -162.70 3.36@NeverlandDisto.Neverland}
-  {     2106.39      -162.70 3.36@NeverlandDisto.Neverland}
-  {     2106.39      -162.70 3.36@NeverlandDisto.Neverland}
-  {     2106.39      -162.70 3.36@NeverlandDisto.Neverland}
-  {     2106.39      -162.70 3.36@NeverlandDisto.Neverland}
-  {     2106.39      -162.70 3.36@NeverlandDisto.Neverland}
-  {     1969.02      -196.16 3.37@NeverlandDisto.Neverland}
-  {     2106.39      -162.70 3.36@NeverlandDisto.Neverland}
-  {     1969.02      -196.16 3.37@NeverlandDisto.Neverland}
-  {     1969.02      -196.16 3.37@NeverlandDisto.Neverland}
-  {     1969.02      -196.16 3.37@NeverlandDisto.Neverland}
-  {     1969.02      -196.16 3.37@NeverlandDisto.Neverland}
-  {     1969.02      -196.16 3.37@NeverlandDisto.Neverland}
-  {     1838.61      -200.89 3.38@NeverlandDisto.Neverland}
-  {     1969.02      -196.16 3.37@NeverlandDisto.Neverland}
-  {     1838.61      -200.89 3.38@NeverlandDisto.Neverland}
-  {     1838.61      -200.89 3.38@NeverlandDisto.Neverland}
-  {     1838.61      -200.89 3.38@NeverlandDisto.Neverland}
-  {     1838.61      -200.89 3.38@NeverlandDisto.Neverland}
-  {     1838.61      -200.89 3.38@NeverlandDisto.Neverland}
-  {     1838.61      -200.89 3.38@NeverlandDisto.Neverland}
-  {     1838.61      -200.89 3.38@NeverlandDisto.Neverland}
-  {     1961.60      -163.68 3.39@NeverlandDisto.Neverland}
-  {     1961.60      -163.68 3.39@NeverlandDisto.Neverland}
-  {     1961.60      -163.68 3.39@NeverlandDisto.Neverland}
-  {     1961.60      -163.68 3.39@NeverlandDisto.Neverland}
-  {     1961.60      -163.68 3.39@NeverlandDisto.Neverland}
-  {     1961.60      -163.68 3.39@NeverlandDisto.Neverland}
-  {     1838.61      -200.89 3.38@NeverlandDisto.Neverland}
-  {     1838.61      -200.89 3.38@NeverlandDisto.Neverland}
-  {     1709.15      -192.03 3.40@NeverlandDisto.Neverland}
-  {     1838.61      -200.89 3.38@NeverlandDisto.Neverland}
-  {     1709.15      -192.03 3.40@NeverlandDisto.Neverland}
-  {     1709.15      -192.03 3.40@NeverlandDisto.Neverland}
-  {     1709.15      -192.03 3.40@NeverlandDisto.Neverland}
-  {     1709.15      -192.03 3.40@NeverlandDisto.Neverland}
-  {     1709.15      -192.03 3.40@NeverlandDisto.Neverland}
-  {     1709.15      -192.03 3.40@NeverlandDisto.Neverland}
-  {     1450.49      -149.51 3.41@NeverlandDisto.Neverland}
-  {     1709.15      -192.03 3.40@NeverlandDisto.Neverland}
-  {     1450.49      -149.51 3.41@NeverlandDisto.Neverland}
-  {     1450.49      -149.51 3.41@NeverlandDisto.Neverland}
-  {     1450.49      -149.51 3.41@NeverlandDisto.Neverland}
-  {     1450.49      -149.51 3.41@NeverlandDisto.Neverland}
-  {     1450.49      -149.51 3.41@NeverlandDisto.Neverland}
-  {     1450.49      -149.51 3.41@NeverlandDisto.Neverland}
-  {     1450.49      -149.51 3.41@NeverlandDisto.Neverland}
-  {     1450.49      -149.51 3.41@NeverlandDisto.Neverland}
-  {     1351.99      -108.56 3.42@NeverlandDisto.Neverland}
-  {     1450.49      -149.51 3.41@NeverlandDisto.Neverland}
-  {     1351.99      -108.56 3.42@NeverlandDisto.Neverland}
-  {     1351.99      -108.56 3.42@NeverlandDisto.Neverland}
-  {     1351.99      -108.56 3.42@NeverlandDisto.Neverland}
-  {     1351.99      -108.56 3.42@NeverlandDisto.Neverland}
-  {     1351.99      -108.56 3.42@NeverlandDisto.Neverland}
-  {     1351.99      -108.56 3.42@NeverlandDisto.Neverland}
-  {     1126.68       -92.22 3.43@NeverlandDisto.Neverland}
-  {     1351.99      -108.56 3.42@NeverlandDisto.Neverland}
-  {     1126.68       -92.22 3.43@NeverlandDisto.Neverland}
-  {     1126.68       -92.22 3.43@NeverlandDisto.Neverland}
-  {     1126.68       -92.22 3.43@NeverlandDisto.Neverland}
-  {     1126.68       -92.22 3.43@NeverlandDisto.Neverland}
-  {     1126.68       -92.22 3.43@NeverlandDisto.Neverland}
-  {     1126.68       -92.22 3.43@NeverlandDisto.Neverland}
-  {     1126.68       -92.22 3.43@NeverlandDisto.Neverland}
-  {     4233.83       -26.28 N1@NeverlandCC.Neverland}
-  {     4226.04       -33.76 N2@NeverlandCC.Neverland}
-  {     4226.24       -33.76 N2a@NeverlandCC.Neverland}
-  {     4226.04       -33.76 N2@NeverlandCC.Neverland}
-  {     4226.04       -33.76 N2@NeverlandCC.Neverland}
-  {     4088.40       -53.05 N3@NeverlandCC.Neverland}
-  {     4088.40       -53.05 N3@NeverlandCC.Neverland}
-  {     3855.81       -42.81 N4@NeverlandCC.Neverland}
-  {     3855.81       -42.81 N4@NeverlandCC.Neverland}
-  {     3775.75       -54.04 N5@NeverlandCC.Neverland}
-  {     3775.75       -54.04 N5@NeverlandCC.Neverland}
-  {     3547.99       -53.44 N6@NeverlandCC.Neverland}
-  {     3547.99       -53.44 N6@NeverlandCC.Neverland}
-  {     3381.27       -54.43 N7@NeverlandCC.Neverland}
-  {     3381.27       -54.43 N7@NeverlandCC.Neverland}
-  {     3307.84       -54.43 N8@NeverlandCC.Neverland}
-  {     3307.84       -54.43 N8@NeverlandCC.Neverland}
-  {     3201.55       -53.44 N9@NeverlandCC.Neverland}
-  {     3201.55       -53.44 N9@NeverlandCC.Neverland}
-  {     3087.54       -30.81 N10@NeverlandCC.Neverland}
-  {     3087.54       -30.81 N10@NeverlandCC.Neverland}
-  {     3011.57       -29.23 N11@NeverlandCC.Neverland}
-  {     3011.57       -29.23 N11@NeverlandCC.Neverland}
-  {     2938.84       -14.47 N12@NeverlandCC.Neverland}
-  {     2938.84       -14.47 N12@NeverlandCC.Neverland}
-  {     3096.32       122.34 PP1@NeverlandCC.Neverland}
-  {     3096.32       122.34 PP1@NeverlandCC.Neverland}
-  {     3288.01       159.74 PP2@NeverlandCC.Neverland}
-  {     3288.01       159.74 PP2@NeverlandCC.Neverland}
-  {     3333.94       173.72 PP3@NeverlandCC.Neverland}
-  {     3333.94       173.72 PP3@NeverlandCC.Neverland}
-  {     3509.02       274.70 PP4@NeverlandCC.Neverland}
-  {     3333.94       173.72 PP3@NeverlandCC.Neverland}
-  {     3506.38       213.48 PP5@NeverlandCC.Neverland}
-  {     3506.38       213.48 PP5@NeverlandCC.Neverland}
-  {     3662.12       249.51 PP6@NeverlandCC.Neverland}
-  {     3662.12       249.51 PP6@NeverlandCC.Neverland}
-  {     3707.45       255.02 PP7@NeverlandCC.Neverland}
-  {     3707.45       255.02 PP7@NeverlandCC.Neverland}
-  {     3888.55       255.02 PP8@NeverlandCC.Neverland}
-  {     2938.84       -14.47 N12@NeverlandCC.Neverland}
-  {     2893.30        -4.43 N13@NeverlandCC.Neverland}
-  {     2893.30        -4.43 N13@NeverlandCC.Neverland}
-  {     2835.74       -10.53 N14@NeverlandCC.Neverland}
-  {     2835.74       -10.53 N14@NeverlandCC.Neverland}
-  {     2577.30      -114.86 N15@NeverlandCC.Neverland}
-  {     2577.30      -114.86 N15@NeverlandCC.Neverland}
-  {     2429.47      -107.19 N16@NeverlandCC.Neverland}
-  {     2577.30      -114.86 N15@NeverlandCC.Neverland}
-  {     2504.41      -141.44 N17@NeverlandCC.Neverland}
-  {     2504.41      -141.44 N17@NeverlandCC.Neverland}
-  {     2150.95      -166.24 N18@NeverlandCC.Neverland}
-  {     2150.95      -166.24 N18@NeverlandCC.Neverland}
-  {     2093.30      -164.07 N19@NeverlandCC.Neverland}
-  {     2093.30      -164.07 N19@NeverlandCC.Neverland}
-  {     1924.82      -199.90 N20@NeverlandCC.Neverland}
-  {     1924.82      -199.90 N20@NeverlandCC.Neverland}
-  {     1736.11      -209.94 N21@NeverlandCC.Neverland}
-  {     1736.11      -209.94 N21@NeverlandCC.Neverland}
-  {     1636.10      -201.08 N22@NeverlandCC.Neverland}
-  {     1636.10      -201.08 N22@NeverlandCC.Neverland}
-  {     1296.02      -131.99 N23@NeverlandCC.Neverland}
-  {     1296.02      -131.99 N23@NeverlandCC.Neverland}
-  {     1006.27      -101.48 N24@NeverlandCC.Neverland}
-  {     1006.27      -101.48 N24@NeverlandCC.Neverland}
-  {      951.15      -101.48 N24a@NeverlandCC.Neverland}
-  {     1006.27      -101.48 N24@NeverlandCC.Neverland}
-  {      889.54      -101.48 N25@NeverlandCC.Neverland}
-  {      889.54      -101.48 N25@NeverlandCC.Neverland}
-  {      850.54       -28.05 N26@NeverlandCC.Neverland}
-  {      850.54       -28.05 N26@NeverlandCC.Neverland}
-  {      809.65       -30.22 N27@NeverlandCC.Neverland}
-  {      809.65       -30.22 N27@NeverlandCC.Neverland}
-  {      761.96       -71.75 N28@NeverlandCC.Neverland}
-  {      761.96       -71.75 N28@NeverlandCC.Neverland}
-  {      594.66       -42.22 N29@NeverlandCC.Neverland}
-  {      594.66       -42.22 N29@NeverlandCC.Neverland}
-  {      381.88        37.30 N30@NeverlandCC.Neverland}
-  {      381.88        37.30 N30@NeverlandCC.Neverland}
-  {      344.14        29.23 N31@NeverlandCC.Neverland}
-  {      344.14        29.23 N31@NeverlandCC.Neverland}
-  {      303.74        -1.08 N32@NeverlandCC.Neverland}
-  {      303.74        -1.08 N32@NeverlandCC.Neverland}
-  {      125.37      -121.36 N33@NeverlandCC.Neverland}
-  {      125.37      -121.36 N33@NeverlandCC.Neverland}
-  {     -132.50      -123.72 N34@NeverlandCC.Neverland}
-  {     -132.50      -123.72 N34@NeverlandCC.Neverland}
-  {     -263.28      -171.36 N35@NeverlandCC.Neverland}
-  {     -263.28      -171.36 N35@NeverlandCC.Neverland}
-  {     -395.17      -171.36 F1@NeverlandCC.Neverland}
-  {     -263.28      -171.36 N35@NeverlandCC.Neverland}
-  {     -399.69       -34.94 G1@NeverlandCC.Neverland}
-  {     -263.28      -171.36 N35@NeverlandCC.Neverland}
-  {     -613.83      -115.85 N36@NeverlandCC.Neverland}
-  {     -613.83      -115.85 N36@NeverlandCC.Neverland}
-  {     -697.44      -118.80 N37@NeverlandCC.Neverland}
-  {     -697.44      -118.80 N37@NeverlandCC.Neverland}
-  {     -873.17      -182.58 H1@NeverlandCC.Neverland}
-  {     -697.44      -118.80 N37@NeverlandCC.Neverland}
-  {     -921.03       -83.37 N38@NeverlandCC.Neverland}
-  {     -921.03       -83.37 N38@NeverlandCC.Neverland}
-  {    -1123.58       -81.59 N39@NeverlandCC.Neverland}
-  {    -1123.58       -81.59 N39@NeverlandCC.Neverland}
-  {    -1372.11      -112.11 N40@NeverlandCC.Neverland}
-  {    -1372.11      -112.11 N40@NeverlandCC.Neverland}
-  {    -1484.65       -98.13 N41@NeverlandCC.Neverland}
-  {     -921.03       -83.37 N38@NeverlandRopeClimb.Neverland}
-  {    -1123.58       -81.59 N39@NeverlandRopeClimb.Neverland}
-  {    -1123.58       -81.59 N39@NeverlandRopeClimb.Neverland}
-  {    -1372.11      -112.11 N40@NeverlandRopeClimb.Neverland}
-  {    -1372.11      -112.11 N40@NeverlandRopeClimb.Neverland}
-  {    -1484.65       -98.13 1@NeverlandRopeClimb.Neverland}
-  {    -1484.65       -98.13 1@NeverlandRopeClimb.Neverland}
-  {    -1511.98       -89.27 2@NeverlandRopeClimb.Neverland}
-  {    -1239.64       -98.13 1@NeverlandRopeClimb.Neverland}
-  {    -1323.29      -100.30 3@NeverlandRopeClimb.Neverland}
-  {    -1323.29      -100.30 3@NeverlandRopeClimb.Neverland}
-  {    -1409.64      -141.63 4@NeverlandRopeClimb.Neverland}
-  {    -1409.64      -141.63 4@NeverlandRopeClimb.Neverland}
-  {    -1470.30      -109.35 5@NeverlandRopeClimb.Neverland}
-  {    -1409.64      -141.63 4@NeverlandRopeClimb.Neverland}
-  {    -1469.44      -167.03 6@NeverlandRopeClimb.Neverland}
-  {    -1409.64      -141.63 4@NeverlandRopeClimb.Neverland}
-  {    -1409.83      -142.03 4a@NeverlandRopeClimb.Neverland}
-  {    -1409.83      -142.03 4a@NeverlandRopeClimb.Neverland}
-  {    -1526.71      -168.01 7@NeverlandRopeClimb.Neverland}
-  {    -1526.71      -168.01 7@NeverlandRopeClimb.Neverland}
-  {    -1592.24      -189.86 8@NeverlandRopeClimb.Neverland}
-  {    -1592.24      -189.86 8@NeverlandRopeClimb.Neverland}
-  {    -1686.73      -209.15 9@NeverlandRopeClimb.Neverland}
-  {    -1686.73      -209.15 9@NeverlandRopeClimb.Neverland}
-  {    -1617.61      -214.47 10@NeverlandRopeClimb.Neverland}
-  {    -1617.61      -214.47 10@NeverlandRopeClimb.Neverland}
-  {    -1540.05      -185.53 11@NeverlandRopeClimb.Neverland}
-  {    -1540.05      -185.53 11@NeverlandRopeClimb.Neverland}
-  {    -1470.05       -90.26 12@NeverlandRopeClimb.Neverland}
-  {    -1484.65       -98.13 1@NeverlandRopeClimb.Neverland}
-  {    -1470.05       -90.26 12@NeverlandRopeClimb.Neverland}
-  {    -1833.58      -185.53 11@NeverlandRopeClimb.Neverland}
-  {    -1781.31      -212.11 13@NeverlandRopeClimb.Neverland}
-  {    -1781.31      -212.11 13@NeverlandRopeClimb.Neverland}
-  {    -1678.92      -201.28 14@NeverlandRopeClimb.Neverland}
-  {    -1678.92      -201.28 14@NeverlandRopeClimb.Neverland}
-  {    -1608.15      -205.02 15@NeverlandRopeClimb.Neverland}
-  {    -1608.15      -205.02 15@NeverlandRopeClimb.Neverland}
-  {    -1487.11      -202.85 16@NeverlandRopeClimb.Neverland}
-  {    -1487.11      -202.85 16@NeverlandRopeClimb.Neverland}
-  {    -1356.28      -207.58 17@NeverlandRopeClimb.Neverland}
-  {    -1356.28      -207.58 17@NeverlandRopeClimb.Neverland}
-  {    -1194.54      -241.83 18@NeverlandRopeClimb.Neverland}
-  {    -1678.92      -201.28 14@NeverlandRopeClimb.Neverland}
-  {    -1595.18      -205.81 19@NeverlandRopeClimb.Neverland}
-  {    -1595.18      -205.81 19@NeverlandRopeClimb.Neverland}
-  {    -1532.65      -198.13 20@NeverlandRopeClimb.Neverland}
-  {    -1595.18      -205.81 19@NeverlandRopeClimb.Neverland}
-  {    -1540.05      -185.53 11@NeverlandRopeClimb.Neverland}
-  {    -1540.05      -185.53 11@NeverlandRopeClimb.Neverland}
-  {    -1695.95      -171.95 21@NeverlandRopeClimb.Neverland}
-  {    -1686.73      -209.15 9@NeverlandRopeClimb.Neverland}
-  {    -1783.44      -219.19 22@NeverlandRopeClimb.Neverland}
-  {    -1783.44      -219.19 22@NeverlandRopeClimb.Neverland}
-  {    -1788.36      -219.19 22a@NeverlandRopeClimb.Neverland}
-  {    -1788.36      -219.19 22a@NeverlandRopeClimb.Neverland}
-  {    -1878.89      -212.89 23@NeverlandRopeClimb.Neverland}
-  {    -1878.89      -212.89 23@NeverlandRopeClimb.Neverland}
-  {    -1962.09      -187.50 24@NeverlandRopeClimb.Neverland}
-  {    -1962.09      -187.50 24@NeverlandRopeClimb.Neverland}
-  {    -2117.61      -187.50 25@NeverlandRopeClimb.Neverland}
-  {    -2117.61      -187.50 25@NeverlandRopeClimb.Neverland}
-  {    -2337.85      -183.76 26@NeverlandRopeClimb.Neverland}
-  {    -2337.85      -183.76 26@NeverlandRopeClimb.Neverland}
-  {    -2561.44      -179.82 27@NeverlandRopeClimb.Neverland}
-  {    -2561.44      -179.82 27@NeverlandRopeClimb.Neverland}
-  {    -2690.09      -197.93 28@NeverlandRopeClimb.Neverland}
-  {    -2690.09      -197.93 28@NeverlandRopeClimb.Neverland}
-  {    -2898.97      -149.70 29@NeverlandRopeClimb.Neverland}
-  {    -2898.97      -149.70 29@NeverlandRopeClimb.Neverland}
-  {    -3009.83      -124.11 30@NeverlandRopeClimb.Neverland}
-  {    -2898.97      -149.70 29@NeverlandRopeClimb.Neverland}
-  {    -2910.73       -82.97 31@NeverlandRopeClimb.Neverland}
-  {    -2910.73       -82.97 31@NeverlandRopeClimb.Neverland}
-  {    -2974.31       -21.56 32@NeverlandRopeClimb.Neverland}
-  {    -2974.31       -21.56 32@NeverlandRopeClimb.Neverland}
-  {    -2816.83       251.28 33@NeverlandRopeClimb.Neverland}
-  {    -2974.31       -21.56 32@NeverlandRopeClimb.Neverland}
-  {    -3141.55        52.85 34@NeverlandRopeClimb.Neverland}
-  {    -2974.31       -21.56 32@NeverlandRopeClimb.Neverland}
-  {    -3046.61       -59.94 35@NeverlandRopeClimb.Neverland}
-  {    -3046.61       -59.94 35@NeverlandRopeClimb.Neverland}
-  {    -3094.85       -97.74 36@NeverlandRopeClimb.Neverland}
-  {    -3094.85       -97.74 36@NeverlandRopeClimb.Neverland}
-  {    -3095.01       -97.74 36a@NeverlandRopeClimb.Neverland}
-  {    -3095.01       -97.74 36a@NeverlandRopeClimb.Neverland}
-  {    -3196.30      -140.85 37@NeverlandRopeClimb.Neverland}
-  {    -3196.30      -140.85 37@NeverlandRopeClimb.Neverland}
-  {    -3302.02      -169.19 38@NeverlandRopeClimb.Neverland}
-  {    -3302.02      -169.19 38@NeverlandRopeClimb.Neverland}
-  {    -3365.01      -138.48 39@NeverlandRopeClimb.Neverland}
-  {    -3365.01      -138.48 39@NeverlandRopeClimb.Neverland}
-  {    -3452.59        33.56 40@NeverlandRopeClimb.Neverland}
-  {    -3302.02      -169.19 38@NeverlandRopeClimb.Neverland}
-  {    -3418.74      -211.52 41@NeverlandRopeClimb.Neverland}
-  {    -3418.74      -211.52 41@NeverlandRopeClimb.Neverland}
-  {    -3486.17      -215.06 42@NeverlandRopeClimb.Neverland}
-  {    -3486.17      -215.06 42@NeverlandRopeClimb.Neverland}
-  {    -3600.38      -209.15 43@NeverlandRopeClimb.Neverland}
-  {    -3600.38      -209.15 43@NeverlandRopeClimb.Neverland}
-  {    -3876.09      -189.86 44@NeverlandRopeClimb.Neverland}
-  {    -3876.09      -189.86 44@NeverlandRopeClimb.Neverland}
-  {    -3994.87      -153.64 45@NeverlandRopeClimb.Neverland}
-  {    -3994.87      -153.64 45@NeverlandRopeClimb.Neverland}
-  {    -4295.67       -13.29 46@NeverlandRopeClimb.Neverland}
-  {    -3994.87      -153.64 45@NeverlandRopeClimb.Neverland}
-  {    -3813.63        40.85 47@NeverlandRopeClimb.Neverland}
-  {    -3994.87      -153.64 45@NeverlandRopeClimb.Neverland}
-  {    -4090.55      -112.89 48@NeverlandRopeClimb.Neverland}
+  {     3231.20       -54.13 3.10@NeverlandDisto.Neverland}
+  {     3231.20       -54.13 3.10@NeverlandDisto.Neverland}
+  {     3231.20       -54.13 3.10@NeverlandDisto.Neverland}
+  {     3231.20       -54.13 3.10@NeverlandDisto.Neverland}
+  {     4233.83       -26.97 2.78@NeverlandDisto.Neverland}
+  {     4233.83       -26.97 3.0@NeverlandDisto.Neverland}
+  {     4233.83       -26.97 3.0@NeverlandDisto.Neverland}
+  {     4257.41       -43.90 3.1@NeverlandDisto.Neverland}
+  {     4257.41       -43.90 3.1@NeverlandDisto.Neverland}
+  {     4257.41       -43.90 3.1@NeverlandDisto.Neverland}
+  {     4257.41       -43.90 3.1@NeverlandDisto.Neverland}
+  {     4257.41       -43.90 3.1@NeverlandDisto.Neverland}
+  {     4162.65       -56.50 3.2@NeverlandDisto.Neverland}
+  {     4257.41       -43.90 3.1@NeverlandDisto.Neverland}
+  {     4162.65       -56.50 3.2@NeverlandDisto.Neverland}
+  {     4162.65       -56.50 3.2@NeverlandDisto.Neverland}
+  {     4162.65       -56.50 3.2@NeverlandDisto.Neverland}
+  {     4162.65       -56.50 3.2@NeverlandDisto.Neverland}
+  {     4038.12       -52.76 3.3@NeverlandDisto.Neverland}
+  {     4162.65       -56.50 3.2@NeverlandDisto.Neverland}
+  {     4038.12       -52.76 3.3@NeverlandDisto.Neverland}
+  {     4038.12       -52.76 3.3@NeverlandDisto.Neverland}
+  {     4038.12       -52.76 3.3@NeverlandDisto.Neverland}
+  {     4038.12       -52.76 3.3@NeverlandDisto.Neverland}
+  {     4038.12       -52.76 3.3@NeverlandDisto.Neverland}
+  {     4038.12       -52.76 3.3@NeverlandDisto.Neverland}
+  {     3904.40       -53.15 3.4@NeverlandDisto.Neverland}
+  {     4038.12       -52.76 3.3@NeverlandDisto.Neverland}
+  {     3904.40       -53.15 3.4@NeverlandDisto.Neverland}
+  {     3904.40       -53.15 3.4@NeverlandDisto.Neverland}
+  {     3904.40       -53.15 3.4@NeverlandDisto.Neverland}
+  {     3904.40       -53.15 3.4@NeverlandDisto.Neverland}
+  {     3904.40       -53.15 3.4@NeverlandDisto.Neverland}
+  {     3904.40       -53.15 3.4@NeverlandDisto.Neverland}
+  {     3904.40       -53.15 3.4@NeverlandDisto.Neverland}
+  {     3904.40       -53.15 3.4@NeverlandDisto.Neverland}
+  {     3904.40       -53.15 3.4@NeverlandDisto.Neverland}
+  {     3904.40       -53.15 3.4@NeverlandDisto.Neverland}
+  {     3904.40       -53.15 3.4@NeverlandDisto.Neverland}
+  {     3848.07       -51.38 3.5@NeverlandDisto.Neverland}
+  {     3904.40       -53.15 3.4@NeverlandDisto.Neverland}
+  {     3848.07       -51.38 3.5@NeverlandDisto.Neverland}
+  {     3848.07       -51.38 3.5@NeverlandDisto.Neverland}
+  {     3848.07       -51.38 3.5@NeverlandDisto.Neverland}
+  {     3848.07       -51.38 3.5@NeverlandDisto.Neverland}
+  {     3740.48       -49.80 3.6@NeverlandDisto.Neverland}
+  {     3848.07       -51.38 3.5@NeverlandDisto.Neverland}
+  {     3740.48       -49.80 3.6@NeverlandDisto.Neverland}
+  {     3740.48       -49.80 3.6@NeverlandDisto.Neverland}
+  {     3740.48       -49.80 3.6@NeverlandDisto.Neverland}
+  {     3602.35       -53.15 3.7@NeverlandDisto.Neverland}
+  {     3740.48       -49.80 3.6@NeverlandDisto.Neverland}
+  {     3602.35       -53.15 3.7@NeverlandDisto.Neverland}
+  {     3602.35       -53.15 3.7@NeverlandDisto.Neverland}
+  {     3602.35       -53.15 3.7@NeverlandDisto.Neverland}
+  {     3602.35       -53.15 3.7@NeverlandDisto.Neverland}
+  {     3602.35       -53.15 3.7@NeverlandDisto.Neverland}
+  {     3602.35       -53.15 3.7@NeverlandDisto.Neverland}
+  {     3454.72       -60.63 3.8@NeverlandDisto.Neverland}
+  {     3602.35       -53.15 3.7@NeverlandDisto.Neverland}
+  {     3454.72       -60.63 3.8@NeverlandDisto.Neverland}
+  {     3454.72       -60.63 3.8@NeverlandDisto.Neverland}
+  {     3454.72       -60.63 3.8@NeverlandDisto.Neverland}
+  {     3454.72       -60.63 3.8@NeverlandDisto.Neverland}
+  {     3454.72       -60.63 3.8@NeverlandDisto.Neverland}
+  {     3454.72       -60.63 3.8@NeverlandDisto.Neverland}
+  {     3454.72       -60.63 3.8@NeverlandDisto.Neverland}
+  {     3308.69       -48.03 3.9@NeverlandDisto.Neverland}
+  {     3454.72       -60.63 3.8@NeverlandDisto.Neverland}
+  {     3308.69       -48.03 3.9@NeverlandDisto.Neverland}
+  {     3308.69       -48.03 3.9@NeverlandDisto.Neverland}
+  {     3308.69       -48.03 3.9@NeverlandDisto.Neverland}
+  {     3308.69       -48.03 3.9@NeverlandDisto.Neverland}
+  {     3308.69       -48.03 3.9@NeverlandDisto.Neverland}
+  {     3308.69       -48.03 3.9@NeverlandDisto.Neverland}
+  {     3231.20       -54.13 3.10@NeverlandDisto.Neverland}
+  {     3308.69       -48.03 3.9@NeverlandDisto.Neverland}
+  {     3231.20       -54.13 3.10@NeverlandDisto.Neverland}
+  {     3231.20       -54.13 3.10@NeverlandDisto.Neverland}
+  {     3231.20       -54.13 3.10@NeverlandDisto.Neverland}
+  {     3231.20       -54.13 3.10@NeverlandDisto.Neverland}
+  {     3178.74       -40.55 3.11@NeverlandDisto.Neverland}
+  {     3231.20       -54.13 3.10@NeverlandDisto.Neverland}
+  {     3178.74       -40.55 3.11@NeverlandDisto.Neverland}
+  {     3178.74       -40.55 3.11@NeverlandDisto.Neverland}
+  {     3178.74       -40.55 3.11@NeverlandDisto.Neverland}
+  {     3178.74       -40.55 3.11@NeverlandDisto.Neverland}
+  {     3178.74       -40.55 3.11@NeverlandDisto.Neverland}
+  {     3178.74       -40.55 3.11@NeverlandDisto.Neverland}
+  {     3178.74       -40.55 3.11@NeverlandDisto.Neverland}
+  {     3178.74       -40.55 3.11@NeverlandDisto.Neverland}
+  {     3102.25       -32.09 3.12@NeverlandDisto.Neverland}
+  {     3178.74       -40.55 3.11@NeverlandDisto.Neverland}
+  {     3102.25       -32.09 3.12@NeverlandDisto.Neverland}
+  {     3102.25       -32.09 3.12@NeverlandDisto.Neverland}
+  {     3102.25       -32.09 3.12@NeverlandDisto.Neverland}
+  {     3102.25       -32.09 3.12@NeverlandDisto.Neverland}
+  {     3102.25       -32.09 3.12@NeverlandDisto.Neverland}
+  {     3102.25       -32.09 3.12@NeverlandDisto.Neverland}
+  {     3044.42       -29.92 3.13@NeverlandDisto.Neverland}
+  {     3102.25       -32.09 3.12@NeverlandDisto.Neverland}
+  {     3044.42       -29.92 3.13@NeverlandDisto.Neverland}
+  {     3044.42       -29.92 3.13@NeverlandDisto.Neverland}
+  {     3044.42       -29.92 3.13@NeverlandDisto.Neverland}
+  {     3044.42       -29.92 3.13@NeverlandDisto.Neverland}
+  {     3044.42       -29.92 3.13@NeverlandDisto.Neverland}
+  {     3011.76       -29.92 3.14@NeverlandDisto.Neverland}
+  {     3044.42       -29.92 3.13@NeverlandDisto.Neverland}
+  {     3011.76       -29.92 3.14@NeverlandDisto.Neverland}
+  {     3011.76       -29.92 3.14@NeverlandDisto.Neverland}
+  {     3011.76       -29.92 3.14@NeverlandDisto.Neverland}
+  {     3011.76       -29.92 3.14@NeverlandDisto.Neverland}
+  {     2976.28       -18.70 3.15@NeverlandDisto.Neverland}
+  {     3011.76       -29.92 3.14@NeverlandDisto.Neverland}
+  {     2976.28       -18.70 3.15@NeverlandDisto.Neverland}
+  {     2976.28       -18.70 3.15@NeverlandDisto.Neverland}
+  {     2976.28       -18.70 3.15@NeverlandDisto.Neverland}
+  {     2976.28       -18.70 3.15@NeverlandDisto.Neverland}
+  {     2945.89       -14.57 3.16@NeverlandDisto.Neverland}
+  {     2976.28       -18.70 3.15@NeverlandDisto.Neverland}
+  {     2898.61         1.38 3.17@NeverlandDisto.Neverland}
+  {     2976.28       -18.70 3.15@NeverlandDisto.Neverland}
+  {     2898.61         1.38 3.17@NeverlandDisto.Neverland}
+  {     2898.61         1.38 3.17@NeverlandDisto.Neverland}
+  {     2898.61         1.38 3.17@NeverlandDisto.Neverland}
+  {     2898.61         1.38 3.17@NeverlandDisto.Neverland}
+  {     2898.61         1.38 3.17@NeverlandDisto.Neverland}
+  {     2898.61         1.38 3.17@NeverlandDisto.Neverland}
+  {     2821.74        -2.17 3.18@NeverlandDisto.Neverland}
+  {     2898.61         1.38 3.17@NeverlandDisto.Neverland}
+  {     2821.74        -2.17 3.18@NeverlandDisto.Neverland}
+  {     2821.74        -2.17 3.18@NeverlandDisto.Neverland}
+  {     2821.74        -2.17 3.18@NeverlandDisto.Neverland}
+  {     2821.74        -2.17 3.18@NeverlandDisto.Neverland}
+  {     2705.26       -60.43 3.19@NeverlandDisto.Neverland}
+  {     2821.74        -2.17 3.18@NeverlandDisto.Neverland}
+  {     2705.26       -60.43 3.19@NeverlandDisto.Neverland}
+  {     2705.26       -60.43 3.19@NeverlandDisto.Neverland}
+  {     2705.26       -60.43 3.19@NeverlandDisto.Neverland}
+  {     2705.26       -60.43 3.19@NeverlandDisto.Neverland}
+  {     2705.26       -60.43 3.19@NeverlandDisto.Neverland}
+  {     2705.26       -60.43 3.19@NeverlandDisto.Neverland}
+  {     2557.93      -132.68 3.20@NeverlandDisto.Neverland}
+  {     2705.26       -60.43 3.19@NeverlandDisto.Neverland}
+  {     2557.93      -132.68 3.20@NeverlandDisto.Neverland}
+  {     2557.93      -132.68 3.20@NeverlandDisto.Neverland}
+  {     2557.93      -132.68 3.20@NeverlandDisto.Neverland}
+  {     2557.93      -132.68 3.20@NeverlandDisto.Neverland}
+  {     2557.93      -132.68 3.20@NeverlandDisto.Neverland}
+  {     2557.93      -132.68 3.20@NeverlandDisto.Neverland}
+  {     2557.93      -132.68 3.20@NeverlandDisto.Neverland}
+  {     2557.93      -132.68 3.20@NeverlandDisto.Neverland}
+  {     2557.93      -132.68 3.20@NeverlandDisto.Neverland}
+  {     2594.22      -114.96 3.21@NeverlandDisto.Neverland}
+  {     2594.22      -114.96 3.21@NeverlandDisto.Neverland}
+  {     2594.22      -114.96 3.21@NeverlandDisto.Neverland}
+  {     2594.22      -114.96 3.21@NeverlandDisto.Neverland}
+  {     2724.32       -44.09 3.22@NeverlandDisto.Neverland}
+  {     2461.85      -159.65 3.23@NeverlandDisto.Neverland}
+  {     2557.93      -132.68 3.20@NeverlandDisto.Neverland}
+  {     2461.85      -159.65 3.23@NeverlandDisto.Neverland}
+  {     2461.85      -159.65 3.23@NeverlandDisto.Neverland}
+  {     2461.85      -159.65 3.23@NeverlandDisto.Neverland}
+  {     2461.85      -159.65 3.23@NeverlandDisto.Neverland}
+  {     2461.85      -159.65 3.23@NeverlandDisto.Neverland}
+  {     2461.85      -159.65 3.23@NeverlandDisto.Neverland}
+  {     2269.71      -139.17 3.24@NeverlandDisto.Neverland}
+  {     2461.85      -159.65 3.23@NeverlandDisto.Neverland}
+  {     2269.71      -139.17 3.24@NeverlandDisto.Neverland}
+  {     2269.71      -139.17 3.24@NeverlandDisto.Neverland}
+  {     2269.71      -139.17 3.24@NeverlandDisto.Neverland}
+  {     2269.71      -139.17 3.24@NeverlandDisto.Neverland}
+  {     2269.71      -139.17 3.24@NeverlandDisto.Neverland}
+  {     2269.71      -139.17 3.24@NeverlandDisto.Neverland}
+  {     2269.71      -139.17 3.24@NeverlandDisto.Neverland}
+  {     2327.77      -128.74 3.25@NeverlandDisto.Neverland}
+  {     2109.06      -162.80 3.26@NeverlandDisto.Neverland}
+  {     2269.71      -139.17 3.24@NeverlandDisto.Neverland}
+  {     2109.06      -162.80 3.26@NeverlandDisto.Neverland}
+  {     2109.06      -162.80 3.26@NeverlandDisto.Neverland}
+  {     2109.06      -162.80 3.26@NeverlandDisto.Neverland}
+  {     2109.06      -162.80 3.26@NeverlandDisto.Neverland}
+  {     2109.06      -162.80 3.26@NeverlandDisto.Neverland}
+  {     2109.06      -162.80 3.26@NeverlandDisto.Neverland}
+  {     2109.06      -162.80 3.26@NeverlandDisto.Neverland}
+  {     2109.06      -162.80 3.26@NeverlandDisto.Neverland}
+  {     2109.06      -162.80 3.26@NeverlandDisto.Neverland}
+  {     2144.87      -180.91 3.27@NeverlandDisto.Neverland}
+  {     2144.87      -180.91 3.27@NeverlandDisto.Neverland}
+  {     2144.87      -180.91 3.27@NeverlandDisto.Neverland}
+  {     2144.87      -180.91 3.27@NeverlandDisto.Neverland}
+  {     2144.87      -180.91 3.27@NeverlandDisto.Neverland}
+  {     2144.87      -180.91 3.27@NeverlandDisto.Neverland}
+  {     2084.40      -170.08 3.28@NeverlandDisto.Neverland}
+  {     2154.00      -165.35 3.29@NeverlandDisto.Neverland}
+  {     2109.06      -162.80 3.26@NeverlandDisto.Neverland}
+  {     2154.00      -165.35 3.29@NeverlandDisto.Neverland}
+  {     2154.00      -165.35 3.29@NeverlandDisto.Neverland}
+  {     2154.00      -165.35 3.29@NeverlandDisto.Neverland}
+  {     2154.00      -165.35 3.29@NeverlandDisto.Neverland}
+  {     2154.00      -165.35 3.29@NeverlandDisto.Neverland}
+  {     2154.00      -165.35 3.29@NeverlandDisto.Neverland}
+  {     2154.00      -165.35 3.29@NeverlandDisto.Neverland}
+  {     2154.00      -165.35 3.29@NeverlandDisto.Neverland}
+  {     2154.00      -165.35 3.29@NeverlandDisto.Neverland}
+  {     2154.00      -165.35 3.29@NeverlandDisto.Neverland}
+  {     2154.00      -165.35 3.29@NeverlandDisto.Neverland}
+  {     2095.95      -175.39 3.30@NeverlandDisto.Neverland}
+  {     2154.00      -165.35 3.29@NeverlandDisto.Neverland}
+  {     2095.95      -175.39 3.30@NeverlandDisto.Neverland}
+  {     2095.95      -175.39 3.30@NeverlandDisto.Neverland}
+  {     2095.95      -175.39 3.30@NeverlandDisto.Neverland}
+  {     2095.95      -175.39 3.30@NeverlandDisto.Neverland}
+  {     2095.95      -175.39 3.30@NeverlandDisto.Neverland}
+  {     2032.71      -186.22 3.31@NeverlandDisto.Neverland}
+  {     2095.95      -175.39 3.30@NeverlandDisto.Neverland}
+  {     2032.71      -186.22 3.31@NeverlandDisto.Neverland}
+  {     2032.71      -186.22 3.31@NeverlandDisto.Neverland}
+  {     2032.71      -186.22 3.31@NeverlandDisto.Neverland}
+  {     2032.71      -186.22 3.31@NeverlandDisto.Neverland}
+  {     2032.71      -186.22 3.31@NeverlandDisto.Neverland}
+  {     2032.71      -186.22 3.31@NeverlandDisto.Neverland}
+  {     2032.71      -186.22 3.31@NeverlandDisto.Neverland}
+  {     1856.84      -243.70 3.32@NeverlandDisto.Neverland}
+  {     2032.71      -186.22 3.31@NeverlandDisto.Neverland}
+  {     1856.84      -243.70 3.32@NeverlandDisto.Neverland}
+  {     1856.84      -243.70 3.32@NeverlandDisto.Neverland}
+  {     1856.84      -243.70 3.32@NeverlandDisto.Neverland}
+  {     1856.84      -243.70 3.32@NeverlandDisto.Neverland}
+  {     1856.84      -243.70 3.32@NeverlandDisto.Neverland}
+  {     1856.84      -243.70 3.32@NeverlandDisto.Neverland}
+  {     1766.04      -261.02 3.33@NeverlandDisto.Neverland}
+  {     1856.84      -243.70 3.32@NeverlandDisto.Neverland}
+  {     1766.04      -261.02 3.33@NeverlandDisto.Neverland}
+  {     1766.04      -261.02 3.33@NeverlandDisto.Neverland}
+  {     1766.04      -261.02 3.33@NeverlandDisto.Neverland}
+  {     1643.67      -253.94 3.34@NeverlandDisto.Neverland}
+  {     1766.04      -261.02 3.33@NeverlandDisto.Neverland}
+  {     1643.67      -253.94 3.34@NeverlandDisto.Neverland}
+  {     1643.67      -253.94 3.34@NeverlandDisto.Neverland}
+  {     1643.67      -253.94 3.34@NeverlandDisto.Neverland}
+  {     1643.67      -253.94 3.34@NeverlandDisto.Neverland}
+  {     1643.67      -253.94 3.34@NeverlandDisto.Neverland}
+  {     1643.67      -253.94 3.34@NeverlandDisto.Neverland}
+  {     1643.67      -253.94 3.34@NeverlandDisto.Neverland}
+  {     1643.67      -253.94 3.34@NeverlandDisto.Neverland}
+  {     1790.80      -276.97 3.35@NeverlandDisto.Neverland}
+  {     1643.67      -253.94 3.34@NeverlandDisto.Neverland}
+  {     1643.67      -253.94 3.34@NeverlandDisto.Neverland}
+  {     2106.39      -162.80 3.36@NeverlandDisto.Neverland}
+  {     2154.00      -165.35 3.29@NeverlandDisto.Neverland}
+  {     2106.39      -162.80 3.36@NeverlandDisto.Neverland}
+  {     2106.39      -162.80 3.36@NeverlandDisto.Neverland}
+  {     2106.39      -162.80 3.36@NeverlandDisto.Neverland}
+  {     2106.39      -162.80 3.36@NeverlandDisto.Neverland}
+  {     2106.39      -162.80 3.36@NeverlandDisto.Neverland}
+  {     2106.39      -162.80 3.36@NeverlandDisto.Neverland}
+  {     2106.39      -162.80 3.36@NeverlandDisto.Neverland}
+  {     2106.39      -162.80 3.36@NeverlandDisto.Neverland}
+  {     1969.02      -196.26 3.37@NeverlandDisto.Neverland}
+  {     2106.39      -162.80 3.36@NeverlandDisto.Neverland}
+  {     1969.02      -196.26 3.37@NeverlandDisto.Neverland}
+  {     1969.02      -196.26 3.37@NeverlandDisto.Neverland}
+  {     1969.02      -196.26 3.37@NeverlandDisto.Neverland}
+  {     1969.02      -196.26 3.37@NeverlandDisto.Neverland}
+  {     1969.02      -196.26 3.37@NeverlandDisto.Neverland}
+  {     1838.61      -200.98 3.38@NeverlandDisto.Neverland}
+  {     1969.02      -196.26 3.37@NeverlandDisto.Neverland}
+  {     1838.61      -200.98 3.38@NeverlandDisto.Neverland}
+  {     1838.61      -200.98 3.38@NeverlandDisto.Neverland}
+  {     1838.61      -200.98 3.38@NeverlandDisto.Neverland}
+  {     1838.61      -200.98 3.38@NeverlandDisto.Neverland}
+  {     1838.61      -200.98 3.38@NeverlandDisto.Neverland}
+  {     1838.61      -200.98 3.38@NeverlandDisto.Neverland}
+  {     1838.61      -200.98 3.38@NeverlandDisto.Neverland}
+  {     1961.60      -163.78 3.39@NeverlandDisto.Neverland}
+  {     1961.60      -163.78 3.39@NeverlandDisto.Neverland}
+  {     1961.60      -163.78 3.39@NeverlandDisto.Neverland}
+  {     1961.60      -163.78 3.39@NeverlandDisto.Neverland}
+  {     1961.60      -163.78 3.39@NeverlandDisto.Neverland}
+  {     1961.60      -163.78 3.39@NeverlandDisto.Neverland}
+  {     1838.61      -200.98 3.38@NeverlandDisto.Neverland}
+  {     1838.61      -200.98 3.38@NeverlandDisto.Neverland}
+  {     1709.15      -192.13 3.40@NeverlandDisto.Neverland}
+  {     1838.61      -200.98 3.38@NeverlandDisto.Neverland}
+  {     1709.15      -192.13 3.40@NeverlandDisto.Neverland}
+  {     1709.15      -192.13 3.40@NeverlandDisto.Neverland}
+  {     1709.15      -192.13 3.40@NeverlandDisto.Neverland}
+  {     1709.15      -192.13 3.40@NeverlandDisto.Neverland}
+  {     1709.15      -192.13 3.40@NeverlandDisto.Neverland}
+  {     1709.15      -192.13 3.40@NeverlandDisto.Neverland}
+  {     1450.49      -149.61 3.41@NeverlandDisto.Neverland}
+  {     1709.15      -192.13 3.40@NeverlandDisto.Neverland}
+  {     1450.49      -149.61 3.41@NeverlandDisto.Neverland}
+  {     1450.49      -149.61 3.41@NeverlandDisto.Neverland}
+  {     1450.49      -149.61 3.41@NeverlandDisto.Neverland}
+  {     1450.49      -149.61 3.41@NeverlandDisto.Neverland}
+  {     1450.49      -149.61 3.41@NeverlandDisto.Neverland}
+  {     1450.49      -149.61 3.41@NeverlandDisto.Neverland}
+  {     1450.49      -149.61 3.41@NeverlandDisto.Neverland}
+  {     1450.49      -149.61 3.41@NeverlandDisto.Neverland}
+  {     1351.99      -108.66 3.42@NeverlandDisto.Neverland}
+  {     1450.49      -149.61 3.41@NeverlandDisto.Neverland}
+  {     1351.99      -108.66 3.42@NeverlandDisto.Neverland}
+  {     1351.99      -108.66 3.42@NeverlandDisto.Neverland}
+  {     1351.99      -108.66 3.42@NeverlandDisto.Neverland}
+  {     1351.99      -108.66 3.42@NeverlandDisto.Neverland}
+  {     1351.99      -108.66 3.42@NeverlandDisto.Neverland}
+  {     1351.99      -108.66 3.42@NeverlandDisto.Neverland}
+  {     1126.68       -92.32 3.43@NeverlandDisto.Neverland}
+  {     1351.99      -108.66 3.42@NeverlandDisto.Neverland}
+  {     1126.68       -92.32 3.43@NeverlandDisto.Neverland}
+  {     1126.68       -92.32 3.43@NeverlandDisto.Neverland}
+  {     1126.68       -92.32 3.43@NeverlandDisto.Neverland}
+  {     1126.68       -92.32 3.43@NeverlandDisto.Neverland}
+  {     1126.68       -92.32 3.43@NeverlandDisto.Neverland}
+  {     1126.68       -92.32 3.43@NeverlandDisto.Neverland}
+  {     1126.68       -92.32 3.43@NeverlandDisto.Neverland}
+  {     4233.83       -26.97 N1@NeverlandCC.Neverland}
+  {     4226.04       -34.45 N2@NeverlandCC.Neverland}
+  {     4226.24       -34.45 N2a@NeverlandCC.Neverland}
+  {     4226.04       -34.45 N2@NeverlandCC.Neverland}
+  {     4226.04       -34.45 N2@NeverlandCC.Neverland}
+  {     4088.40       -53.74 N3@NeverlandCC.Neverland}
+  {     4088.40       -53.74 N3@NeverlandCC.Neverland}
+  {     3855.81       -44.49 N4@NeverlandCC.Neverland}
+  {     3855.81       -44.49 N4@NeverlandCC.Neverland}
+  {     3775.75       -55.71 N5@NeverlandCC.Neverland}
+  {     3775.75       -55.71 N5@NeverlandCC.Neverland}
+  {     3547.99       -55.71 N6@NeverlandCC.Neverland}
+  {     3547.99       -55.71 N6@NeverlandCC.Neverland}
+  {     3381.27       -57.28 N7@NeverlandCC.Neverland}
+  {     3381.27       -57.28 N7@NeverlandCC.Neverland}
+  {     3307.84       -57.28 N8@NeverlandCC.Neverland}
+  {     3307.84       -57.28 N8@NeverlandCC.Neverland}
+  {     3201.55       -56.30 N9@NeverlandCC.Neverland}
+  {     3201.55       -56.30 N9@NeverlandCC.Neverland}
+  {     3087.54       -34.06 N10@NeverlandCC.Neverland}
+  {     3087.54       -34.06 N10@NeverlandCC.Neverland}
+  {     3011.57       -32.87 N11@NeverlandCC.Neverland}
+  {     3011.57       -32.87 N11@NeverlandCC.Neverland}
+  {     2938.84       -17.91 N12@NeverlandCC.Neverland}
+  {     2938.84       -17.91 N12@NeverlandCC.Neverland}
+  {     3096.32       118.90 PP1@NeverlandCC.Neverland}
+  {     3096.32       118.90 PP1@NeverlandCC.Neverland}
+  {     3288.01       156.10 PP2@NeverlandCC.Neverland}
+  {     3288.01       156.10 PP2@NeverlandCC.Neverland}
+  {     3333.94       170.28 PP3@NeverlandCC.Neverland}
+  {     3333.94       170.28 PP3@NeverlandCC.Neverland}
+  {     3509.02       271.26 PP4@NeverlandCC.Neverland}
+  {     3333.94       170.28 PP3@NeverlandCC.Neverland}
+  {     3506.38       210.04 PP5@NeverlandCC.Neverland}
+  {     3506.38       210.04 PP5@NeverlandCC.Neverland}
+  {     3662.12       246.06 PP6@NeverlandCC.Neverland}
+  {     3662.12       246.06 PP6@NeverlandCC.Neverland}
+  {     3707.45       251.57 PP7@NeverlandCC.Neverland}
+  {     3707.45       251.57 PP7@NeverlandCC.Neverland}
+  {     3888.55       251.57 PP8@NeverlandCC.Neverland}
+  {     2938.84       -17.91 N12@NeverlandCC.Neverland}
+  {     2893.30        -7.87 N13@NeverlandCC.Neverland}
+  {     2893.30        -7.87 N13@NeverlandCC.Neverland}
+  {     2835.74       -13.98 N14@NeverlandCC.Neverland}
+  {     2835.74       -13.98 N14@NeverlandCC.Neverland}
+  {     2577.30      -118.31 N15@NeverlandCC.Neverland}
+  {     2577.30      -118.31 N15@NeverlandCC.Neverland}
+  {     2429.47      -110.63 N16@NeverlandCC.Neverland}
+  {     2577.30      -118.31 N15@NeverlandCC.Neverland}
+  {     2504.41      -144.88 N17@NeverlandCC.Neverland}
+  {     2504.41      -144.88 N17@NeverlandCC.Neverland}
+  {     2150.95      -169.69 N18@NeverlandCC.Neverland}
+  {     2150.95      -169.69 N18@NeverlandCC.Neverland}
+  {     2093.30      -167.52 N19@NeverlandCC.Neverland}
+  {     2093.30      -167.52 N19@NeverlandCC.Neverland}
+  {     1924.82      -203.35 N20@NeverlandCC.Neverland}
+  {     1924.82      -203.35 N20@NeverlandCC.Neverland}
+  {     1736.11      -213.39 N21@NeverlandCC.Neverland}
+  {     1736.11      -213.39 N21@NeverlandCC.Neverland}
+  {     1636.10      -204.53 N22@NeverlandCC.Neverland}
+  {     1636.10      -204.53 N22@NeverlandCC.Neverland}
+  {     1296.02      -135.43 N23@NeverlandCC.Neverland}
+  {     1296.02      -135.43 N23@NeverlandCC.Neverland}
+  {     1006.27      -104.92 N24@NeverlandCC.Neverland}
+  {     1006.27      -104.92 N24@NeverlandCC.Neverland}
+  {      951.15      -104.92 N24a@NeverlandCC.Neverland}
+  {     1006.27      -104.92 N24@NeverlandCC.Neverland}
+  {      889.54      -104.92 N25@NeverlandCC.Neverland}
+  {      889.54      -104.92 N25@NeverlandCC.Neverland}
+  {      850.54       -31.50 N26@NeverlandCC.Neverland}
+  {      850.54       -31.50 N26@NeverlandCC.Neverland}
+  {      809.65       -33.66 N27@NeverlandCC.Neverland}
+  {      809.65       -33.66 N27@NeverlandCC.Neverland}
+  {      761.96       -75.20 N28@NeverlandCC.Neverland}
+  {      761.96       -75.20 N28@NeverlandCC.Neverland}
+  {      594.66       -45.67 N29@NeverlandCC.Neverland}
+  {      594.66       -45.67 N29@NeverlandCC.Neverland}
+  {      381.88        33.86 N30@NeverlandCC.Neverland}
+  {      381.88        33.86 N30@NeverlandCC.Neverland}
+  {      344.14        25.79 N31@NeverlandCC.Neverland}
+  {      344.14        25.79 N31@NeverlandCC.Neverland}
+  {      303.74        -4.53 N32@NeverlandCC.Neverland}
+  {      303.74        -4.53 N32@NeverlandCC.Neverland}
+  {      125.37      -124.80 N33@NeverlandCC.Neverland}
+  {      125.37      -124.80 N33@NeverlandCC.Neverland}
+  {     -132.50      -127.17 N34@NeverlandCC.Neverland}
+  {     -132.50      -127.17 N34@NeverlandCC.Neverland}
+  {     -263.28      -174.80 N35@NeverlandCC.Neverland}
+  {     -263.28      -174.80 N35@NeverlandCC.Neverland}
+  {     -395.17      -174.80 F1@NeverlandCC.Neverland}
+  {     -263.28      -174.80 N35@NeverlandCC.Neverland}
+  {     -399.69       -38.39 G1@NeverlandCC.Neverland}
+  {     -263.28      -174.80 N35@NeverlandCC.Neverland}
+  {     -613.83      -119.29 N36@NeverlandCC.Neverland}
+  {     -613.83      -119.29 N36@NeverlandCC.Neverland}
+  {     -697.44      -122.05 N37@NeverlandCC.Neverland}
+  {     -697.44      -122.05 N37@NeverlandCC.Neverland}
+  {     -873.17      -186.02 H1@NeverlandCC.Neverland}
+  {     -697.44      -122.05 N37@NeverlandCC.Neverland}
+  {     -921.03       -86.61 N38@NeverlandCC.Neverland}
+  {     -921.03       -86.61 N38@NeverlandCC.Neverland}
+  {    -1123.58       -85.04 N39@NeverlandCC.Neverland}
+  {    -1123.58       -85.04 N39@NeverlandCC.Neverland}
+  {    -1372.11      -115.55 N40@NeverlandCC.Neverland}
+  {    -1372.11      -115.55 N40@NeverlandCC.Neverland}
+  {    -1484.65      -101.57 N41@NeverlandCC.Neverland}
+  {     1193.05        -9.45 5.3@FunnelChamber.Neverland}
+  {     1193.05        -9.45 4.0@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1193.05        -9.45 4.0@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1136.87       -76.18 4.1@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1215.38       -93.90 4.2@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 4.3@FunnelChamber.Neverland}
+  {     1126.68       -92.32 3.43@FunnelChamber.Neverland}
+  {      968.11      -115.75 1.20@RopeTraverse.Neverland}
+  {      968.11      -115.75 1.20@RopeTraverse.Neverland}
+  {     1015.09       -99.21 5.0@RopeTraverse.Neverland}
+  {     1015.09       -99.21 5.0@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1061.06       -85.63 5.1@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1193.05        -9.45 5.3@RopeTraverse.Neverland}
+  {     1193.05        -9.45 5.3@RopeTraverse.Neverland}
+  {     1168.01        -7.09 5.4@RopeTraverse.Neverland}
+  {     1168.01        -7.09 5.4@RopeTraverse.Neverland}
+  {     1139.45         4.13 5.5@RopeTraverse.Neverland}
+  {     1168.01        -7.09 5.4@RopeTraverse.Neverland}
+  {     1168.01        -7.09 5.4@RopeTraverse.Neverland}
+  {     1168.01        -7.09 5.4@RopeTraverse.Neverland}
+  {     1168.01        -7.09 5.4@RopeTraverse.Neverland}
+  {     1193.05        -9.45 5.3@RopeTraverse.Neverland}
+  {     1193.05        -9.45 5.3@RopeTraverse.Neverland}
+  {     1193.05        -9.45 5.3@RopeTraverse.Neverland}
+  {     1193.05        -9.45 5.3@RopeTraverse.Neverland}
+  {     1193.05        -9.45 5.3@RopeTraverse.Neverland}
+  {     1193.05        -9.45 5.3@RopeTraverse.Neverland}
+  {     1193.05        -9.45 5.3@RopeTraverse.Neverland}
+  {     1193.05        -9.45 5.3@RopeTraverse.Neverland}
+  {     1193.05        -9.45 5.3@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {     1154.54       -54.53 5.2@RopeTraverse.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      675.72      -210.24 1.1@LowerFunnel.Neverland}
+  {      675.72      -210.24 1.1@LowerFunnel.Neverland}
+  {      626.64      -217.72 1.2@LowerFunnel.Neverland}
+  {      675.72      -210.24 1.1@LowerFunnel.Neverland}
+  {      675.72      -210.24 1.1@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      760.25      -148.23 1.3@LowerFunnel.Neverland}
+  {      760.25      -148.23 1.3@LowerFunnel.Neverland}
+  {      760.25      -148.23 1.3@LowerFunnel.Neverland}
+  {      760.25      -148.23 1.3@LowerFunnel.Neverland}
+  {      760.25      -148.23 1.3@LowerFunnel.Neverland}
+  {      824.29      -176.57 1.4@LowerFunnel.Neverland}
+  {      760.25      -148.23 1.3@LowerFunnel.Neverland}
+  {      760.25      -148.23 1.3@LowerFunnel.Neverland}
+  {      760.25      -148.23 1.3@LowerFunnel.Neverland}
+  {      760.25      -148.23 1.3@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      698.88      -178.74 1.0@LowerFunnel.Neverland}
+  {      760.62      -171.65 1.5@LowerFunnel.Neverland}
+  {      760.62      -171.65 1.5@LowerFunnel.Neverland}
+  {      760.62      -171.65 1.5@LowerFunnel.Neverland}
+  {      760.62      -171.65 1.5@LowerFunnel.Neverland}
+  {      760.62      -171.65 1.5@LowerFunnel.Neverland}
+  {      760.62      -171.65 1.5@LowerFunnel.Neverland}
+  {      760.62      -171.65 1.5@LowerFunnel.Neverland}
+  {      760.62      -171.65 1.5@LowerFunnel.Neverland}
+  {      764.05      -179.13 1.6@LowerFunnel.Neverland}
+  {      764.05      -179.13 1.6@LowerFunnel.Neverland}
+  {      764.05      -179.13 1.6@LowerFunnel.Neverland}
+  {      764.05      -179.13 1.6@LowerFunnel.Neverland}
+  {      862.98      -175.79 1.7@LowerFunnel.Neverland}
+  {      764.05      -179.13 1.6@LowerFunnel.Neverland}
+  {      764.05      -179.13 1.6@LowerFunnel.Neverland}
+  {      760.62      -171.65 1.5@LowerFunnel.Neverland}
+  {      760.62      -171.65 1.5@LowerFunnel.Neverland}
+  {      760.62      -171.65 1.5@LowerFunnel.Neverland}
+  {      814.56      -160.83 1.8@LowerFunnel.Neverland}
+  {      814.56      -160.83 1.8@LowerFunnel.Neverland}
+  {      814.56      -160.83 1.8@LowerFunnel.Neverland}
+  {      814.56      -160.83 1.8@LowerFunnel.Neverland}
+  {      814.56      -160.83 1.8@LowerFunnel.Neverland}
+  {      814.56      -160.83 1.8@LowerFunnel.Neverland}
+  {      814.56      -160.83 1.8@LowerFunnel.Neverland}
+  {      814.56      -160.83 1.8@LowerFunnel.Neverland}
+  {      814.56      -160.83 1.8@LowerFunnel.Neverland}
+  {      814.56      -160.83 1.8@LowerFunnel.Neverland}
+  {      814.56      -160.83 1.8@LowerFunnel.Neverland}
+  {      851.12      -152.76 1.9@LowerFunnel.Neverland}
+  {      814.56      -160.83 1.8@LowerFunnel.Neverland}
+  {      851.12      -152.76 1.9@LowerFunnel.Neverland}
+  {      851.12      -152.76 1.9@LowerFunnel.Neverland}
+  {      851.12      -152.76 1.9@LowerFunnel.Neverland}
+  {      851.12      -152.76 1.9@LowerFunnel.Neverland}
+  {      851.12      -152.76 1.9@LowerFunnel.Neverland}
+  {      851.12      -152.76 1.9@LowerFunnel.Neverland}
+  {      851.12      -152.76 1.9@LowerFunnel.Neverland}
+  {      898.59      -148.82 1.10@LowerFunnel.Neverland}
+  {      898.59      -148.82 1.10@LowerFunnel.Neverland}
+  {      898.59      -148.82 1.10@LowerFunnel.Neverland}
+  {      898.59      -148.82 1.10@LowerFunnel.Neverland}
+  {      898.59      -148.82 1.10@LowerFunnel.Neverland}
+  {      898.59      -148.82 1.10@LowerFunnel.Neverland}
+  {      898.59      -148.82 1.10@LowerFunnel.Neverland}
+  {      898.59      -148.82 1.10@LowerFunnel.Neverland}
+  {      898.59      -148.82 1.10@LowerFunnel.Neverland}
+  {      898.59      -148.82 1.10@LowerFunnel.Neverland}
+  {      898.59      -148.82 1.10@LowerFunnel.Neverland}
+  {      898.59      -148.82 1.10@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {     1034.02      -154.13 1.12@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      996.68      -144.69 1.13@LowerFunnel.Neverland}
+  {      996.68      -144.69 1.13@LowerFunnel.Neverland}
+  {      996.68      -144.69 1.13@LowerFunnel.Neverland}
+  {      996.68      -144.69 1.13@LowerFunnel.Neverland}
+  {      996.68      -144.69 1.13@LowerFunnel.Neverland}
+  {      996.68      -144.69 1.13@LowerFunnel.Neverland}
+  {      996.68      -144.69 1.13@LowerFunnel.Neverland}
+  {      996.68      -144.69 1.13@LowerFunnel.Neverland}
+  {      996.68      -144.69 1.13@LowerFunnel.Neverland}
+  {      996.68      -144.69 1.13@LowerFunnel.Neverland}
+  {      996.68      -144.69 1.13@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1048.90      -139.57 1.14@LowerFunnel.Neverland}
+  {     1097.91      -137.20 1.15@LowerFunnel.Neverland}
+  {     1097.91      -137.20 1.15@LowerFunnel.Neverland}
+  {     1097.91      -137.20 1.15@LowerFunnel.Neverland}
+  {     1097.91      -137.20 1.15@LowerFunnel.Neverland}
+  {     1097.91      -137.20 1.15@LowerFunnel.Neverland}
+  {     1097.91      -137.20 1.15@LowerFunnel.Neverland}
+  {     1097.91      -137.20 1.15@LowerFunnel.Neverland}
+  {     1097.91      -137.20 1.15@LowerFunnel.Neverland}
+  {     1097.91      -137.20 1.15@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1164.39      -142.52 1.16@LowerFunnel.Neverland}
+  {     1209.18      -141.34 1.19@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1209.45      -141.14 1.17@LowerFunnel.Neverland}
+  {     1233.30      -137.01 1.18@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      944.46      -145.67 1.11@LowerFunnel.Neverland}
+  {      968.11      -115.75 1.20@LowerFunnel.Neverland}
+  {     -921.03       -86.61 N38@NeverlandRopeClimb.Neverland}
+  {    -1123.58       -85.04 N39@NeverlandRopeClimb.Neverland}
+  {    -1123.58       -85.04 N39@NeverlandRopeClimb.Neverland}
+  {    -1372.11      -115.55 N40@NeverlandRopeClimb.Neverland}
+  {    -1372.11      -115.55 N40@NeverlandRopeClimb.Neverland}
+  {    -1484.65      -101.57 1@NeverlandRopeClimb.Neverland}
+  {    -1484.65      -101.57 1@NeverlandRopeClimb.Neverland}
+  {    -1511.98       -92.72 2@NeverlandRopeClimb.Neverland}
+  {    -1239.64      -101.57 1@NeverlandRopeClimb.Neverland}
+  {    -1323.29      -103.74 3@NeverlandRopeClimb.Neverland}
+  {    -1323.29      -103.74 3@NeverlandRopeClimb.Neverland}
+  {    -1409.64      -144.88 4@NeverlandRopeClimb.Neverland}
+  {    -1409.64      -144.88 4@NeverlandRopeClimb.Neverland}
+  {    -1470.30      -112.80 5@NeverlandRopeClimb.Neverland}
+  {    -1409.64      -144.88 4@NeverlandRopeClimb.Neverland}
+  {    -1469.44      -170.28 6@NeverlandRopeClimb.Neverland}
+  {    -1409.64      -144.88 4@NeverlandRopeClimb.Neverland}
+  {    -1409.83      -145.47 4a@NeverlandRopeClimb.Neverland}
+  {    -1409.83      -145.47 4a@NeverlandRopeClimb.Neverland}
+  {    -1526.71      -171.46 7@NeverlandRopeClimb.Neverland}
+  {    -1526.71      -171.46 7@NeverlandRopeClimb.Neverland}
+  {    -1592.24      -193.31 8@NeverlandRopeClimb.Neverland}
+  {    -1592.24      -193.31 8@NeverlandRopeClimb.Neverland}
+  {    -1686.73      -212.60 9@NeverlandRopeClimb.Neverland}
+  {    -1686.73      -212.60 9@NeverlandRopeClimb.Neverland}
+  {    -1617.61      -217.91 10@NeverlandRopeClimb.Neverland}
+  {    -1617.61      -217.91 10@NeverlandRopeClimb.Neverland}
+  {    -1540.05      -188.98 11@NeverlandRopeClimb.Neverland}
+  {    -1540.05      -188.98 11@NeverlandRopeClimb.Neverland}
+  {    -1470.05       -93.70 12@NeverlandRopeClimb.Neverland}
+  {    -1484.65      -101.57 1@NeverlandRopeClimb.Neverland}
+  {    -1470.05       -93.70 12@NeverlandRopeClimb.Neverland}
+  {    -1833.58      -188.98 11@NeverlandRopeClimb.Neverland}
+  {    -1781.31      -215.35 13@NeverlandRopeClimb.Neverland}
+  {    -1781.31      -215.35 13@NeverlandRopeClimb.Neverland}
+  {    -1678.92      -204.72 14@NeverlandRopeClimb.Neverland}
+  {    -1678.92      -204.72 14@NeverlandRopeClimb.Neverland}
+  {    -1608.15      -208.46 15@NeverlandRopeClimb.Neverland}
+  {    -1608.15      -208.46 15@NeverlandRopeClimb.Neverland}
+  {    -1487.11      -206.30 16@NeverlandRopeClimb.Neverland}
+  {    -1487.11      -206.30 16@NeverlandRopeClimb.Neverland}
+  {    -1356.28      -211.02 17@NeverlandRopeClimb.Neverland}
+  {    -1356.28      -211.02 17@NeverlandRopeClimb.Neverland}
+  {    -1194.54      -245.28 18@NeverlandRopeClimb.Neverland}
+  {    -1678.92      -204.72 14@NeverlandRopeClimb.Neverland}
+  {    -1595.18      -209.25 19@NeverlandRopeClimb.Neverland}
+  {    -1595.18      -209.25 19@NeverlandRopeClimb.Neverland}
+  {    -1532.65      -201.57 20@NeverlandRopeClimb.Neverland}
+  {    -1595.18      -209.25 19@NeverlandRopeClimb.Neverland}
+  {    -1540.05      -188.98 11@NeverlandRopeClimb.Neverland}
+  {    -1540.05      -188.98 11@NeverlandRopeClimb.Neverland}
+  {    -1695.95      -175.20 21@NeverlandRopeClimb.Neverland}
+  {    -1686.73      -212.60 9@NeverlandRopeClimb.Neverland}
+  {    -1783.44      -222.64 22@NeverlandRopeClimb.Neverland}
+  {    -1783.44      -222.64 22@NeverlandRopeClimb.Neverland}
+  {    -1788.36      -222.64 22a@NeverlandRopeClimb.Neverland}
+  {    -1788.36      -222.64 22a@NeverlandRopeClimb.Neverland}
+  {    -1878.89      -216.34 23@NeverlandRopeClimb.Neverland}
+  {    -1878.89      -216.34 23@NeverlandRopeClimb.Neverland}
+  {    -1962.09      -190.94 24@NeverlandRopeClimb.Neverland}
+  {    -1962.09      -190.94 24@NeverlandRopeClimb.Neverland}
+  {    -2117.61      -190.94 25@NeverlandRopeClimb.Neverland}
+  {    -2117.61      -190.94 25@NeverlandRopeClimb.Neverland}
+  {    -2337.85      -187.01 26@NeverlandRopeClimb.Neverland}
+  {    -2337.85      -187.01 26@NeverlandRopeClimb.Neverland}
+  {    -2561.44      -183.27 27@NeverlandRopeClimb.Neverland}
+  {    -2561.44      -183.27 27@NeverlandRopeClimb.Neverland}
+  {    -2690.09      -201.18 28@NeverlandRopeClimb.Neverland}
+  {    -2690.09      -201.18 28@NeverlandRopeClimb.Neverland}
+  {    -2898.97      -152.95 29@NeverlandRopeClimb.Neverland}
+  {    -2898.97      -152.95 29@NeverlandRopeClimb.Neverland}
+  {    -3009.83      -127.36 30@NeverlandRopeClimb.Neverland}
+  {    -2898.97      -152.95 29@NeverlandRopeClimb.Neverland}
+  {    -2910.73       -86.42 31@NeverlandRopeClimb.Neverland}
+  {    -2910.73       -86.42 31@NeverlandRopeClimb.Neverland}
+  {    -2974.31       -25.00 32@NeverlandRopeClimb.Neverland}
+  {    -2974.31       -25.00 32@NeverlandRopeClimb.Neverland}
+  {    -2816.83       247.83 33@NeverlandRopeClimb.Neverland}
+  {    -2974.31       -25.00 32@NeverlandRopeClimb.Neverland}
+  {    -3141.55        49.41 34@NeverlandRopeClimb.Neverland}
+  {    -2974.31       -25.00 32@NeverlandRopeClimb.Neverland}
+  {    -3046.61       -63.39 35@NeverlandRopeClimb.Neverland}
+  {    -3046.61       -63.39 35@NeverlandRopeClimb.Neverland}
+  {    -3094.85      -101.18 36@NeverlandRopeClimb.Neverland}
+  {    -3094.85      -101.18 36@NeverlandRopeClimb.Neverland}
+  {    -3095.01      -101.18 36a@NeverlandRopeClimb.Neverland}
+  {    -3095.01      -101.18 36a@NeverlandRopeClimb.Neverland}
+  {    -3196.30      -144.29 37@NeverlandRopeClimb.Neverland}
+  {    -3196.30      -144.29 37@NeverlandRopeClimb.Neverland}
+  {    -3302.02      -172.64 38@NeverlandRopeClimb.Neverland}
+  {    -3302.02      -172.64 38@NeverlandRopeClimb.Neverland}
+  {    -3365.01      -141.73 39@NeverlandRopeClimb.Neverland}
+  {    -3365.01      -141.73 39@NeverlandRopeClimb.Neverland}
+  {    -3452.59        30.12 40@NeverlandRopeClimb.Neverland}
+  {    -3302.02      -172.64 38@NeverlandRopeClimb.Neverland}
+  {    -3418.74      -214.96 41@NeverlandRopeClimb.Neverland}
+  {    -3418.74      -214.96 41@NeverlandRopeClimb.Neverland}
+  {    -3486.17      -218.50 42@NeverlandRopeClimb.Neverland}
+  {    -3486.17      -218.50 42@NeverlandRopeClimb.Neverland}
+  {    -3600.38      -212.60 43@NeverlandRopeClimb.Neverland}
+  {    -3600.38      -212.60 43@NeverlandRopeClimb.Neverland}
+  {    -3876.09      -193.31 44@NeverlandRopeClimb.Neverland}
+  {    -3876.09      -193.31 44@NeverlandRopeClimb.Neverland}
+  {    -3994.87      -156.89 45@NeverlandRopeClimb.Neverland}
+  {    -3994.87      -156.89 45@NeverlandRopeClimb.Neverland}
+  {    -4295.67       -16.73 46@NeverlandRopeClimb.Neverland}
+  {    -3994.87      -156.89 45@NeverlandRopeClimb.Neverland}
+  {    -3813.63        37.40 47@NeverlandRopeClimb.Neverland}
+  {    -3994.87      -156.89 45@NeverlandRopeClimb.Neverland}
+  {    -4090.55      -116.34 48@NeverlandRopeClimb.Neverland}
 }
 set XVIshots {
-  {     3231.20       -54.04      3287.33       -21.75}
-  {     3231.20       -54.04      3247.64       -35.93}
-  {     3231.20       -54.04      3261.23       -38.48}
-  {     3231.20       -54.04      3242.94       -52.66}
-  {     4233.83       -26.28      4233.83       -26.28}
-  {     4233.83       -26.28      4257.41       -43.21}
-  {     4257.41       -43.21      4280.49       -38.09}
-  {     4257.41       -43.21      4295.67       -27.46}
-  {     4257.41       -43.21      4272.27       -30.81}
-  {     4257.41       -43.21      4278.72       -55.02}
-  {     4162.65       -55.81      4257.41       -43.21}
-  {     4162.65       -55.81      4177.86       -45.18}
-  {     4162.65       -55.81      4231.13       -61.32}
-  {     4162.65       -55.81      4163.80       -42.42}
-  {     4162.65       -55.81      4163.71       -62.89}
-  {     4038.12       -52.26      4162.65       -55.81}
-  {     4038.12       -52.26      4091.36       -15.45}
-  {     4038.12       -52.26      4083.73       -59.94}
-  {     4038.12       -52.26      4042.91       -35.73}
-  {     4038.12       -52.26      4127.67        -9.94}
-  {     4038.12       -52.26      4127.67        -9.94}
-  {     4038.12       -52.26      4089.12       -63.29}
-  {     3904.40       -52.66      4038.12       -52.26}
-  {     3904.40       -52.66      3952.40       -38.68}
-  {     3904.40       -52.66      3914.71       -51.08}
-  {     3904.40       -52.66      3905.64       -38.48}
-  {     3904.40       -52.66      3904.75       -66.24}
-  {     3904.40       -52.66      3932.39       -66.63}
-  {     3904.40       -52.66      3945.14       -66.83}
-  {     3904.40       -52.66      3964.64       -34.94}
-  {     3904.40       -52.66      3985.09       -26.48}
-  {     3904.40       -52.66      4003.31       -10.53}
-  {     3904.40       -52.66      4003.27       -10.53}
-  {     3904.40       -52.66      3976.62       -21.36}
-  {     3848.07       -50.89      3904.40       -52.66}
-  {     3848.07       -50.89      3871.88       -50.30}
-  {     3848.07       -50.89      3852.58        -9.94}
-  {     3848.07       -50.89      3918.93       -50.30}
-  {     3848.07       -50.89      3848.58       -65.85}
-  {     3740.48       -49.51      3848.07       -50.89}
-  {     3740.48       -49.51      3762.71       -48.72}
-  {     3740.48       -49.51      3741.57       -67.42}
-  {     3740.48       -49.51      3745.17       -34.94}
-  {     3602.35       -52.85      3740.48       -49.51}
-  {     3602.35       -52.85      3622.11       -49.31}
-  {     3602.35       -52.85      3609.48       -19.78}
-  {     3602.35       -52.85      3615.48       -44.39}
-  {     3602.35       -52.85      3603.59       -69.19}
-  {     3602.35       -52.85      3631.13       -67.81}
-  {     3602.35       -52.85      3621.35       -32.78}
-  {     3454.72       -60.33      3602.35       -52.85}
-  {     3454.72       -60.33      3511.77       -21.95}
-  {     3454.72       -60.33      3464.96       -43.41}
-  {     3454.72       -60.33      3505.17       -56.59}
-  {     3454.72       -60.33      3534.44       -59.15}
-  {     3454.72       -60.33      3540.51       -61.91}
-  {     3454.72       -60.33      3481.64       -38.48}
-  {     3454.72       -60.33      3597.25         2.85}
-  {     3308.69       -47.93      3454.72       -60.33}
-  {     3308.69       -47.93      3318.15       -64.67}
-  {     3308.69       -47.93      3328.88       -65.65}
-  {     3308.69       -47.93      3324.20        -0.30}
-  {     3308.69       -47.93      3322.22       -25.89}
-  {     3308.69       -47.93      3376.47       -43.60}
-  {     3308.69       -47.93      3375.20       -42.42}
-  {     3231.20       -54.04      3308.69       -47.93}
-  {     3231.20       -54.04      3244.70       -58.37}
-  {     3231.20       -54.04      3241.61       -50.49}
-  {     3231.20       -54.04      3234.51       -33.76}
-  {     3231.20       -54.04      3237.78       -64.47}
-  {     3178.74       -40.45      3231.20       -54.04}
-  {     3178.74       -40.45      3179.60       -49.90}
-  {     3178.74       -40.45      3196.49       -50.30}
-  {     3178.74       -40.45      3190.13       -32.38}
-  {     3178.74       -40.45      3197.57       -49.51}
-  {     3178.74       -40.45      3213.31       -61.71}
-  {     3178.74       -40.45      3211.40       -62.11}
-  {     3178.74       -40.45      3222.24       -27.85}
-  {     3178.74       -40.45      3226.82       -23.52}
-  {     3102.25       -31.99      3178.74       -40.45}
-  {     3102.25       -31.99      3116.32       -59.94}
-  {     3102.25       -31.99      3113.28       -31.99}
-  {     3102.25       -31.99      3121.49       -27.85}
-  {     3102.25       -31.99      3112.59       -19.59}
-  {     3102.25       -31.99      3105.09       -14.07}
-  {     3102.25       -31.99      3109.26       -12.89}
-  {     3044.42       -29.82      3102.25       -31.99}
-  {     3044.42       -29.82      3055.78       -33.76}
-  {     3044.42       -29.82      3044.89       -35.14}
-  {     3044.42       -29.82      3075.48       -20.37}
-  {     3044.42       -29.82      3075.35       -20.57}
-  {     3044.42       -29.82      3054.08       -33.76}
-  {     3011.76       -29.82      3044.42       -29.82}
-  {     3011.76       -29.82      3018.35       -28.64}
-  {     3011.76       -29.82      3011.86       -21.56}
-  {     3011.76       -29.82      3031.79       -26.67}
-  {     3011.76       -29.82      3024.45       -33.37}
-  {     2976.28       -18.80      3011.76       -29.82}
-  {     2976.28       -18.80      2994.65       -20.77}
-  {     2976.28       -18.80      2988.98       -15.26}
-  {     2976.28       -18.80      2982.27       -27.07}
-  {     2976.28       -18.80      2983.74       -27.66}
-  {     2945.89       -14.47      2976.28       -18.80}
-  {     2898.61         1.28      2976.28       -18.80}
-  {     2898.61         1.28      2935.58         5.41}
-  {     2898.61         1.28      2953.46        11.12}
-  {     2898.61         1.28      3053.23        65.85}
-  {     2898.61         1.28      3070.50        79.82}
-  {     2898.61         1.28      2965.83        15.45}
-  {     2898.61         1.28      2944.39       279.63}
-  {     2821.74        -2.07      2898.61         1.28}
-  {     2821.74        -2.07      2888.45       -22.74}
-  {     2821.74        -2.07      2881.06        31.00}
-  {     2821.74        -2.07      2823.89        25.89}
-  {     2821.74        -2.07      2828.46       -23.13}
-  {     2705.26       -60.33      2821.74        -2.07}
-  {     2705.26       -60.33      2707.71       -83.76}
-  {     2705.26       -60.33      2728.56       -64.27}
-  {     2705.26       -60.33      2747.69       183.96}
-  {     2705.26       -60.33      2765.55       -20.96}
-  {     2705.26       -60.33      2742.24        70.18}
-  {     2705.26       -60.33      2709.36        40.65}
-  {     2557.93      -132.58      2705.26       -60.33}
-  {     2557.93      -132.58      2624.35      -128.64}
-  {     2557.93      -132.58      2561.75      -143.60}
-  {     2557.93      -132.58      2565.20      -105.22}
-  {     2557.93      -132.58      2604.16       194.00}
-  {     2557.93      -132.58      2621.65       106.99}
-  {     2557.93      -132.58      2588.68       -95.96}
-  {     2557.93      -132.58      2603.43      -136.12}
-  {     2557.93      -132.58      2669.61       -97.34}
-  {     2557.93      -132.58      2594.22      -114.86}
-  {     2577.30      -114.86      2626.23       -89.07}
-  {     2577.30      -114.86      2627.68       -95.18}
-  {     2577.30      -114.86      2707.39       -44.00}
-  {     2461.85      -159.55      2557.93      -132.58}
-  {     2461.85      -159.55      2483.09      -166.04}
-  {     2461.85      -159.55      2480.62      -123.33}
-  {     2461.85      -159.55      2468.40      -133.56}
-  {     2461.85      -159.55      2482.03      -146.75}
-  {     2461.85      -159.55      2501.04      -152.66}
-  {     2461.85      -159.55      2487.80      -166.83}
-  {     2269.71      -139.07      2461.85      -159.55}
-  {     2269.71      -139.07      2270.82      -157.38}
-  {     2269.71      -139.07      2295.32      -148.13}
-  {     2269.71      -139.07      2298.77      -105.61}
-  {     2269.71      -139.07      2368.65      -152.07}
-  {     2269.71      -139.07      2291.83      -142.81}
-  {     2269.71      -139.07      2291.30       -66.24}
-  {     2269.71      -139.07      2327.77      -128.64}
-  {     2109.06      -162.70      2269.71      -139.07}
-  {     2109.06      -162.70      2135.02      -188.09}
-  {     2109.06      -162.70      2132.92      -174.90}
-  {     2109.06      -162.70      2113.63      -148.72}
-  {     2109.06      -162.70      2147.43      -125.69}
-  {     2109.06      -162.70      2131.19      -169.19}
-  {     2109.06      -162.70      2128.35      -182.19}
-  {     2109.06      -162.70      2109.66      -183.56}
-  {     2109.06      -162.70      2161.60      -153.44}
-  {     2109.06      -162.70      2144.87      -181.00}
-  {     2144.87      -181.00      2167.19      -178.64}
-  {     2144.87      -181.00      2151.38      -154.63}
-  {     2144.87      -181.00      2163.86      -177.66}
-  {     2144.87      -181.00      2160.18      -157.78}
-  {     2144.87      -181.00      2084.40      -169.98}
-  {     2154.00      -165.26      2109.06      -162.70}
-  {     2154.00      -165.26      2152.36      -186.32}
-  {     2154.00      -165.26      2099.80      -190.06}
-  {     2154.00      -165.26      2106.46      -176.48}
-  {     2154.00      -165.26      2129.61      -164.07}
-  {     2154.00      -165.26      2128.24      -151.28}
-  {     2154.00      -165.26      2138.95      -148.33}
-  {     2154.00      -165.26      2147.81      -131.20}
-  {     2154.00      -165.26      2136.22      -170.37}
-  {     2154.00      -165.26      2137.97      -155.22}
-  {     2154.00      -165.26      2148.97      -149.11}
-  {     2154.00      -165.26      2146.62      -156.20}
-  {     2095.95      -175.30      2154.00      -165.26}
-  {     2095.95      -175.30      2096.87      -185.33}
-  {     2095.95      -175.30      2106.52      -195.57}
-  {     2095.95      -175.30      2114.85      -194.39}
-  {     2095.95      -175.30      2120.07      -166.24}
-  {     2095.95      -175.30      2097.33      -168.01}
-  {     2032.71      -186.12      2095.95      -175.30}
-  {     2032.71      -186.12      2041.20      -206.59}
-  {     2032.71      -186.12      2046.06      -205.81}
-  {     2032.71      -186.12      2046.47      -199.90}
-  {     2032.71      -186.12      2056.61      -188.48}
-  {     2032.71      -186.12      2045.93      -176.87}
-  {     2032.71      -186.12      2039.76      -168.80}
-  {     2032.71      -186.12      2034.99      -176.48}
-  {     1856.84      -243.60      2032.71      -186.12}
-  {     1856.84      -243.60      1859.27      -251.67}
-  {     1856.84      -243.60      1867.98      -255.81}
-  {     1856.84      -243.60      1875.60      -241.44}
-  {     1856.84      -243.60      1880.31      -203.05}
-  {     1856.84      -243.60      1860.51      -200.30}
-  {     1856.84      -243.60      1935.00      -220.57}
-  {     1766.04      -260.93      1856.84      -243.60}
-  {     1766.04      -260.93      1772.11      -267.42}
-  {     1766.04      -260.93      1785.33      -261.32}
-  {     1766.04      -260.93      1777.02      -252.66}
-  {     1643.67      -253.84      1766.04      -260.93}
-  {     1643.67      -253.84      1645.47      -276.08}
-  {     1643.67      -253.84      1647.13      -273.13}
-  {     1643.67      -253.84      1647.93      -201.87}
-  {     1643.67      -253.84      1701.29      -246.56}
-  {     1643.67      -253.84      1658.79      -250.30}
-  {     1643.67      -253.84      1654.57      -252.26}
-  {     1643.67      -253.84      1651.44      -255.22}
-  {     1643.67      -253.84      1790.80      -276.87}
-  {     1643.67      -253.84      1747.21      -279.63}
-  {     1643.67      -253.84      1739.13      -278.64}
-  {     2106.39      -162.70      2154.00      -165.26}
-  {     2106.39      -162.70      2120.09      -189.47}
-  {     2106.39      -162.70      2129.70      -182.38}
-  {     2106.39      -162.70      2138.31      -140.65}
-  {     2106.39      -162.70      2152.14       -73.72}
-  {     2106.39      -162.70      2124.09       -65.06}
-  {     2106.39      -162.70      2129.31      -149.70}
-  {     2106.39      -162.70      2198.09      -164.86}
-  {     2106.39      -162.70      2190.66      -200.89}
-  {     1969.02      -196.16      2106.39      -162.70}
-  {     1969.02      -196.16      1993.77      -204.63}
-  {     1969.02      -196.16      1987.91      -198.92}
-  {     1969.02      -196.16      1985.85      -180.41}
-  {     1969.02      -196.16      1979.78      -197.15}
-  {     1969.02      -196.16      1982.32      -206.59}
-  {     1838.61      -200.89      1969.02      -196.16}
-  {     1838.61      -200.89      1854.61      -195.37}
-  {     1838.61      -200.89      1859.98      -152.26}
-  {     1838.61      -200.89      1859.44      -148.52}
-  {     1838.61      -200.89      1879.49      -190.85}
-  {     1838.61      -200.89      1882.62      -190.26}
-  {     1838.61      -200.89      1909.21      -185.73}
-  {     1838.61      -200.89      1961.60      -163.68}
-  {     1961.60      -163.68      1966.91      -163.48}
-  {     1961.60      -163.68      1966.31      -163.48}
-  {     1961.60      -163.68      1966.85      -140.06}
-  {     1961.60      -163.68      1967.95      -126.87}
-  {     1961.60      -163.68      1983.96      -134.74}
-  {     1838.61      -200.89      1895.99      -194.98}
-  {     1838.61      -200.89      1894.72      -178.44}
-  {     1709.15      -192.03      1838.61      -200.89}
-  {     1709.15      -192.03      1721.74      -169.78}
-  {     1709.15      -192.03      1747.56       -90.26}
-  {     1709.15      -192.03      1748.01       -84.15}
-  {     1709.15      -192.03      1777.23      -194.00}
-  {     1709.15      -192.03      1743.92      -197.74}
-  {     1709.15      -192.03      1750.07      -187.89}
-  {     1450.49      -149.51      1709.15      -192.03}
-  {     1450.49      -149.51      1451.94      -164.67}
-  {     1450.49      -149.51      1463.69      -161.32}
-  {     1450.49      -149.51      1477.25      -134.55}
-  {     1450.49      -149.51      1544.77       -44.00}
-  {     1450.49      -149.51      1521.73        -5.61}
-  {     1450.49      -149.51      1475.64        -8.56}
-  {     1450.49      -149.51      1493.33       -40.45}
-  {     1450.49      -149.51      1474.25      -154.23}
-  {     1351.99      -108.56      1450.49      -149.51}
-  {     1351.99      -108.56      1355.69      -120.37}
-  {     1351.99      -108.56      1393.88      -131.79}
-  {     1351.99      -108.56      1413.01      -108.17}
-  {     1351.99      -108.56      1377.78       -92.62}
-  {     1351.99      -108.56      1364.11       -81.00}
-  {     1351.99      -108.56      1355.68       -66.44}
-  {     1126.68       -92.22      1351.99      -108.56}
-  {     1126.68       -92.22      1145.73      -117.81}
-  {     1126.68       -92.22      1164.72      -117.22}
-  {     1126.68       -92.22      1163.45       -77.66}
-  {     1126.68       -92.22      1144.88       -83.37}
-  {     1126.68       -92.22      1131.38       -82.78}
-  {     1126.68       -92.22      1215.99      -131.20}
-  {     1126.68       -92.22      1265.52      -133.76}
-  {     4233.83       -26.28      4226.04       -33.76      4233.83        72.15      4226.04        64.67      4226.04       -53.44      4233.83       -45.96}
-  {     4226.24       -33.76      4226.04       -33.76      4226.24       -21.95      4226.04       -21.95      4226.04       -33.76      4226.24       -33.76}
-  {     4226.04       -33.76      4088.40       -53.05}
-  {     4088.40       -53.05      3855.81       -42.81      4088.40       -38.29      3855.81       -28.05      3855.81       -62.50      4088.40       -72.74}
-  {     3855.81       -42.81      3775.75       -54.04}
-  {     3775.75       -54.04      3547.99       -53.44}
-  {     3547.99       -53.44      3381.27       -54.43}
-  {     3381.27       -54.43      3307.84       -54.43}
-  {     3307.84       -54.43      3201.55       -53.44      3307.84       -30.81      3201.55       -29.82      3201.55       -53.44      3307.84       -54.43}
-  {     3201.55       -53.44      3087.54       -30.81      3201.55       -29.82      3087.54       -24.90      3087.54       -62.30      3201.55       -53.44}
-  {     3087.54       -30.81      3011.57       -29.23      3087.54       -24.90      3011.57       -23.33      3011.57       -29.23      3087.54       -62.30}
-  {     3011.57       -29.23      2938.84       -14.47      3011.57       -23.33      2938.84       280.81      2938.84       -14.47      3011.57       -29.23}
-  {     2938.84       -14.47      3096.32       122.34      2938.84       280.81      3096.32       282.97      3096.32       122.34      2938.84       -14.47}
-  {     3096.32       122.34      3288.01       159.74      3096.32       282.97      3288.01       291.63      3288.01       153.84      3096.32       122.34}
-  {     3288.01       159.74      3333.94       173.72}
-  {     3333.94       173.72      3509.02       274.70}
-  {     3333.94       173.72      3506.38       213.48}
-  {     3506.38       213.48      3662.12       249.51}
-  {     3662.12       249.51      3707.45       255.02}
-  {     3707.45       255.02      3888.55       255.02}
-  {     2938.84       -14.47      2893.30        -4.43}
-  {     2893.30        -4.43      2835.74       -10.53}
-  {     2835.74       -10.53      2577.30      -114.86      2835.74       353.64      2577.30       249.31      2577.30      -144.39      2835.74       -40.06}
-  {     2577.30      -114.86      2429.47      -107.19}
-  {     2577.30      -114.86      2504.41      -141.44}
-  {     2504.41      -141.44      2150.95      -166.24      2504.41      -115.85      2150.95      -140.65      2150.95      -178.05      2504.41      -153.25}
-  {     2150.95      -166.24      2093.30      -164.07      2150.95      -140.65      2093.30      -158.17      2093.30      -191.63      2150.95      -178.05}
-  {     2093.30      -164.07      1924.82      -199.90      2093.30      -158.17      1924.82      -170.37      1924.82      -219.59      2093.30      -191.63}
-  {     1924.82      -199.90      1736.11      -209.94      1924.82      -170.37      1736.11      -178.44      1736.11      -213.88      1924.82      -219.59}
-  {     1736.11      -209.94      1636.10      -201.08      1736.11      -178.44      1636.10      -122.34      1636.10      -206.99      1736.11      -213.88}
-  {     1636.10      -201.08      1296.02      -131.99      1636.10      -122.34      1296.02      -113.29      1296.02      -143.80      1636.10      -206.99}
-  {     1296.02      -131.99      1006.27      -101.48      1296.02      -113.29      1006.27       -73.92      1006.27      -115.26      1296.02      -143.80}
-  {     1006.27      -101.48       951.15      -101.48      1006.27       -73.92       951.15       -22.74       951.15      -199.90      1006.27      -115.26}
-  {     1006.27      -101.48       889.54      -101.48      1006.27       -73.92       889.54        -3.05       889.54      -101.48      1006.27      -115.26}
-  {      889.54      -101.48       850.54       -28.05       889.54        -3.05       850.54         1.48       850.54      -100.89       889.54      -101.48}
-  {      850.54       -28.05       809.65       -30.22       850.54         1.48       809.65       -10.53       809.65       -42.03       850.54      -100.89}
-  {      809.65       -30.22       761.96       -71.75       809.65       -10.53       761.96       -48.13       761.96       -73.72       809.65       -42.03}
-  {      761.96       -71.75       594.66       -42.22       761.96       -48.13       594.66        16.83       594.66      -140.65       761.96       -73.72}
-  {      594.66       -42.22       381.88        37.30       594.66        16.83       381.88        58.96       381.88       -72.93       594.66      -140.65}
-  {      381.88        37.30       344.14        29.23       381.88        58.96       344.14        88.29       344.14        -0.30       381.88       -72.93}
-  {      344.14        29.23       303.74        -1.08       344.14        88.29       303.74       117.03       303.74       -26.67       344.14        -0.30}
-  {      303.74        -1.08       125.37      -121.36       303.74       117.03       125.37        30.22       125.37      -150.89       303.74       -26.67}
-  {      125.37      -121.36      -132.50      -123.72       125.37        30.22      -132.50       -94.19      -132.50      -123.72       125.37      -150.89}
-  {     -132.50      -123.72      -263.28      -171.36      -132.50       -94.19      -263.28      -110.33      -263.28      -171.36      -132.50      -123.72}
-  {     -263.28      -171.36      -395.17      -171.36}
-  {     -263.28      -171.36      -399.69       -34.94}
-  {     -263.28      -171.36      -613.83      -115.85      -263.28      -110.33      -613.83       -96.16      -613.83      -143.41      -263.28      -171.36}
-  {     -613.83      -115.85      -697.44      -118.80      -613.83       -96.16      -697.44       -59.74      -697.44      -138.48      -613.83      -143.41}
-  {     -697.44      -118.80      -873.17      -182.58}
-  {     -697.44      -118.80      -921.03       -83.37      -697.44       -59.74      -921.03       -24.31      -921.03       -99.11      -697.44      -138.48}
-  {     -921.03       -83.37     -1123.58       -81.59}
-  {    -1123.58       -81.59     -1372.11      -112.11     -1123.58       -38.29     -1372.11       -68.80     -1372.11      -131.79     -1123.58      -101.28}
-  {    -1372.11      -112.11     -1484.65       -98.13     -1372.11       -68.80     -1484.65        -5.61     -1484.65      -212.30     -1372.11      -131.79}
-  {     -921.03       -83.37     -1123.58       -81.59}
-  {    -1123.58       -81.59     -1372.11      -112.11     -1123.58       -38.29     -1372.11       -68.80     -1372.11      -131.79     -1123.58      -101.28}
-  {    -1372.11      -112.11     -1484.65       -98.13     -1372.11       -68.80     -1484.65        -5.61     -1484.65      -212.30     -1372.11      -131.79}
-  {    -1484.65       -98.13     -1511.98       -89.27     -1484.65        -5.61     -1511.98        -8.56     -1511.98       -97.15     -1484.65      -212.30}
-  {    -1239.64       -98.13     -1323.29      -100.30     -1239.64        -5.61     -1323.29       -72.74     -1323.29      -116.04     -1239.64      -212.30}
-  {    -1323.29      -100.30     -1409.64      -141.63     -1323.29       -72.74     -1409.64      -106.20     -1409.64      -169.19     -1323.29      -116.04}
-  {    -1409.64      -141.63     -1470.30      -109.35}
-  {    -1409.64      -141.63     -1469.44      -167.03}
-  {    -1409.64      -141.63     -1409.83      -142.03     -1409.64      -106.20     -1409.83      -106.59     -1409.83      -169.59     -1409.64      -169.19}
-  {    -1409.83      -142.03     -1526.71      -168.01     -1409.83      -106.59     -1526.71      -156.20     -1526.71      -193.60     -1409.83      -169.59}
-  {    -1526.71      -168.01     -1592.24      -189.86     -1526.71      -156.20     -1592.24      -178.05     -1592.24      -207.58     -1526.71      -193.60}
-  {    -1592.24      -189.86     -1686.73      -209.15     -1592.24      -178.05     -1686.73      -209.15     -1686.73      -222.93     -1592.24      -207.58}
-  {    -1686.73      -209.15     -1617.61      -214.47     -1686.73      -209.15     -1617.61      -200.69     -1617.61      -218.41     -1686.73      -222.93}
-  {    -1617.61      -214.47     -1540.05      -185.53     -1617.61      -200.69     -1540.05       -22.15     -1540.05      -215.06     -1617.61      -218.41}
-  {    -1540.05      -185.53     -1470.05       -90.26}
-  {    -1484.65       -98.13     -1470.05       -90.26}
-  {    -1833.58      -185.53     -1781.31      -212.11     -1833.58       -22.15     -1781.31      -200.30     -1781.31      -212.11     -1833.58      -215.06}
-  {    -1781.31      -212.11     -1678.92      -201.28     -1781.31      -200.30     -1678.92      -187.50     -1678.92      -213.09     -1781.31      -212.11}
-  {    -1678.92      -201.28     -1608.15      -205.02     -1678.92      -187.50     -1608.15      -203.05     -1608.15      -216.83     -1678.92      -213.09}
-  {    -1608.15      -205.02     -1487.11      -202.85     -1608.15      -203.05     -1487.11      -191.04     -1487.11      -220.57     -1608.15      -216.83}
-  {    -1487.11      -202.85     -1356.28      -207.58     -1487.11      -191.04     -1356.28      -197.74     -1356.28      -219.39     -1487.11      -220.57}
-  {    -1356.28      -207.58     -1194.54      -241.83}
-  {    -1678.92      -201.28     -1595.18      -205.81     -1678.92      -187.50     -1595.18      -170.37     -1595.18      -209.74     -1678.92      -213.09}
-  {    -1595.18      -205.81     -1532.65      -198.13}
-  {    -1595.18      -205.81     -1540.05      -185.53     -1595.18      -170.37     -1540.05       -22.15     -1540.05      -215.06     -1595.18      -209.74}
-  {    -1540.05      -185.53     -1695.95      -171.95}
-  {    -1686.73      -209.15     -1783.44      -219.19     -1686.73      -209.15     -1783.44      -217.22     -1783.44      -223.13     -1686.73      -222.93}
-  {    -1783.44      -219.19     -1788.36      -219.19}
-  {    -1788.36      -219.19     -1878.89      -212.89     -1788.36      -211.32     -1878.89      -205.02     -1878.89      -214.86     -1788.36      -221.16}
-  {    -1878.89      -212.89     -1962.09      -187.50     -1878.89      -205.02     -1962.09      -173.72     -1962.09      -199.31     -1878.89      -214.86}
-  {    -1962.09      -187.50     -2117.61      -187.50     -1962.09      -173.72     -2117.61      -163.88     -2117.61      -205.22     -1962.09      -199.31}
-  {    -2117.61      -187.50     -2337.85      -183.76     -2117.61      -163.88     -2337.85      -134.55     -2337.85      -205.41     -2117.61      -205.22}
-  {    -2337.85      -183.76     -2561.44      -179.82     -2337.85      -134.55     -2561.44      -132.58     -2561.44      -203.44     -2337.85      -205.41}
-  {    -2561.44      -179.82     -2690.09      -197.93     -2561.44      -132.58     -2690.09      -123.13     -2690.09      -205.81     -2561.44      -203.44}
-  {    -2690.09      -197.93     -2898.97      -149.70     -2690.09      -123.13     -2898.97       -92.62     -2898.97      -175.30     -2690.09      -205.81}
-  {    -2898.97      -149.70     -3009.83      -124.11}
-  {    -2898.97      -149.70     -2910.73       -82.97     -2924.17      -154.15     -2968.89       -93.22     -2910.73       -82.97     -2842.75      -139.80}
-  {    -2910.73       -82.97     -2974.31       -21.56     -2910.73       -82.97     -2974.31        84.74     -2974.31       -41.24     -2910.73      -142.03}
-  {    -2974.31       -21.56     -2816.83       251.28}
-  {    -2974.31       -21.56     -3141.55        52.85}
-  {    -2974.31       -21.56     -3046.61       -59.94     -2974.31        84.74     -3046.61       -59.94     -3046.61       -81.59     -2974.31       -41.24}
-  {    -3046.61       -59.94     -3094.85       -97.74     -3046.61       -59.94     -3094.85       -58.37     -3094.85       -97.74     -3046.61       -81.59}
-  {    -3094.85       -97.74     -3095.01       -97.74     -3094.85       -58.37     -3095.01       -58.37     -3095.01      -148.92     -3094.85       -97.74}
-  {    -3095.01       -97.74     -3196.30      -140.85     -3095.01       -58.37     -3196.30       -18.80     -3196.30      -168.41     -3095.01      -148.92}
-  {    -3196.30      -140.85     -3302.02      -169.19     -3196.30       -18.80     -3302.02      -137.70     -3302.02      -192.81     -3196.30      -168.41}
-  {    -3302.02      -169.19     -3365.01      -138.48     -3302.02      -137.70     -3365.01        -0.69     -3365.01      -187.70     -3302.02      -192.81}
-  {    -3365.01      -138.48     -3452.59        33.56}
-  {    -3302.02      -169.19     -3418.74      -211.52     -3302.02      -137.70     -3418.74      -209.55     -3418.74      -217.42     -3302.02      -192.81}
-  {    -3418.74      -211.52     -3486.17      -215.06     -3418.74      -209.55     -3486.17      -209.15     -3486.17      -217.03     -3418.74      -217.42}
-  {    -3486.17      -215.06     -3600.38      -209.15     -3486.17      -209.15     -3600.38      -193.41     -3600.38      -209.15     -3486.17      -217.03}
-  {    -3600.38      -209.15     -3876.09      -189.86     -3600.38      -193.41     -3876.09      -158.37     -3876.09      -189.86     -3600.38      -209.15}
-  {    -3876.09      -189.86     -3994.87      -153.64     -3876.09      -158.37     -3994.87        43.21     -3994.87      -173.33     -3876.09      -189.86}
-  {    -3994.87      -153.64     -4295.67       -13.29}
-  {    -3994.87      -153.64     -3813.63        40.85}
-  {    -3994.87      -153.64     -4090.55      -112.89}
+  {     3231.20       -54.13      3287.33       -21.85}
+  {     3231.20       -54.13      3247.64       -36.22}
+  {     3231.20       -54.13      3261.23       -38.58}
+  {     3231.20       -54.13      3242.94       -52.95}
+  {     4233.83       -26.97      4233.83       -26.97}
+  {     4233.83       -26.97      4257.41       -43.90}
+  {     4257.41       -43.90      4280.49       -38.78}
+  {     4257.41       -43.90      4295.67       -28.15}
+  {     4257.41       -43.90      4272.27       -31.50}
+  {     4257.41       -43.90      4278.72       -55.71}
+  {     4162.65       -56.50      4257.41       -43.90}
+  {     4162.65       -56.50      4177.86       -45.87}
+  {     4162.65       -56.50      4231.13       -61.81}
+  {     4162.65       -56.50      4163.80       -43.11}
+  {     4162.65       -56.50      4163.71       -63.58}
+  {     4038.12       -52.76      4162.65       -56.50}
+  {     4038.12       -52.76      4091.36       -15.94}
+  {     4038.12       -52.76      4083.73       -60.43}
+  {     4038.12       -52.76      4042.91       -36.22}
+  {     4038.12       -52.76      4127.67       -10.63}
+  {     4038.12       -52.76      4127.67       -10.63}
+  {     4038.12       -52.76      4089.12       -63.78}
+  {     3904.40       -53.15      4038.12       -52.76}
+  {     3904.40       -53.15      3952.40       -39.17}
+  {     3904.40       -53.15      3914.71       -51.57}
+  {     3904.40       -53.15      3905.64       -38.98}
+  {     3904.40       -53.15      3904.75       -66.73}
+  {     3904.40       -53.15      3932.39       -67.13}
+  {     3904.40       -53.15      3945.14       -67.32}
+  {     3904.40       -53.15      3964.64       -35.43}
+  {     3904.40       -53.15      3985.09       -26.97}
+  {     3904.40       -53.15      4003.31       -11.02}
+  {     3904.40       -53.15      4003.27       -11.02}
+  {     3904.40       -53.15      3976.62       -21.85}
+  {     3848.07       -51.38      3904.40       -53.15}
+  {     3848.07       -51.38      3871.88       -50.79}
+  {     3848.07       -51.38      3852.58       -10.43}
+  {     3848.07       -51.38      3918.93       -50.79}
+  {     3848.07       -51.38      3848.58       -66.34}
+  {     3740.48       -49.80      3848.07       -51.38}
+  {     3740.48       -49.80      3762.71       -49.02}
+  {     3740.48       -49.80      3741.57       -67.91}
+  {     3740.48       -49.80      3745.17       -35.43}
+  {     3602.35       -53.15      3740.48       -49.80}
+  {     3602.35       -53.15      3622.11       -49.61}
+  {     3602.35       -53.15      3609.48       -20.28}
+  {     3602.35       -53.15      3615.48       -44.88}
+  {     3602.35       -53.15      3603.59       -69.69}
+  {     3602.35       -53.15      3631.13       -68.31}
+  {     3602.35       -53.15      3621.35       -33.27}
+  {     3454.72       -60.63      3602.35       -53.15}
+  {     3454.72       -60.63      3511.77       -22.24}
+  {     3454.72       -60.63      3464.96       -43.70}
+  {     3454.72       -60.63      3505.17       -56.89}
+  {     3454.72       -60.63      3534.44       -59.45}
+  {     3454.72       -60.63      3540.51       -62.20}
+  {     3454.72       -60.63      3481.64       -38.78}
+  {     3454.72       -60.63      3597.25         2.56}
+  {     3308.69       -48.03      3454.72       -60.63}
+  {     3308.69       -48.03      3318.15       -64.76}
+  {     3308.69       -48.03      3328.88       -65.94}
+  {     3308.69       -48.03      3324.20        -0.39}
+  {     3308.69       -48.03      3322.22       -25.98}
+  {     3308.69       -48.03      3376.47       -43.70}
+  {     3308.69       -48.03      3375.20       -42.72}
+  {     3231.20       -54.13      3308.69       -48.03}
+  {     3231.20       -54.13      3244.70       -58.46}
+  {     3231.20       -54.13      3241.61       -50.59}
+  {     3231.20       -54.13      3234.51       -34.06}
+  {     3231.20       -54.13      3237.78       -64.76}
+  {     3178.74       -40.55      3231.20       -54.13}
+  {     3178.74       -40.55      3179.60       -50.00}
+  {     3178.74       -40.55      3196.49       -50.39}
+  {     3178.74       -40.55      3190.13       -32.48}
+  {     3178.74       -40.55      3197.57       -49.61}
+  {     3178.74       -40.55      3213.31       -61.81}
+  {     3178.74       -40.55      3211.40       -62.20}
+  {     3178.74       -40.55      3222.24       -27.95}
+  {     3178.74       -40.55      3226.82       -23.62}
+  {     3102.25       -32.09      3178.74       -40.55}
+  {     3102.25       -32.09      3116.32       -60.04}
+  {     3102.25       -32.09      3113.28       -32.09}
+  {     3102.25       -32.09      3121.49       -27.95}
+  {     3102.25       -32.09      3112.59       -19.69}
+  {     3102.25       -32.09      3105.09       -14.17}
+  {     3102.25       -32.09      3109.26       -12.99}
+  {     3044.42       -29.92      3102.25       -32.09}
+  {     3044.42       -29.92      3055.78       -33.86}
+  {     3044.42       -29.92      3044.89       -35.24}
+  {     3044.42       -29.92      3075.48       -20.47}
+  {     3044.42       -29.92      3075.35       -20.67}
+  {     3044.42       -29.92      3054.08       -33.86}
+  {     3011.76       -29.92      3044.42       -29.92}
+  {     3011.76       -29.92      3018.35       -28.74}
+  {     3011.76       -29.92      3011.86       -21.65}
+  {     3011.76       -29.92      3031.79       -26.77}
+  {     3011.76       -29.92      3024.45       -33.46}
+  {     2976.28       -18.70      3011.76       -29.92}
+  {     2976.28       -18.70      2994.65       -20.87}
+  {     2976.28       -18.70      2988.98       -15.16}
+  {     2976.28       -18.70      2982.27       -26.97}
+  {     2976.28       -18.70      2983.74       -27.76}
+  {     2945.89       -14.57      2976.28       -18.70}
+  {     2898.61         1.38      2976.28       -18.70}
+  {     2898.61         1.38      2935.58         5.51}
+  {     2898.61         1.38      2953.46        11.02}
+  {     2898.61         1.38      3053.23        65.75}
+  {     2898.61         1.38      3070.50        79.72}
+  {     2898.61         1.38      2965.83        15.55}
+  {     2898.61         1.38      2944.39       279.72}
+  {     2821.74        -2.17      2898.61         1.38}
+  {     2821.74        -2.17      2888.45       -22.83}
+  {     2821.74        -2.17      2881.06        30.91}
+  {     2821.74        -2.17      2823.89        25.79}
+  {     2821.74        -2.17      2828.46       -23.03}
+  {     2705.26       -60.43      2821.74        -2.17}
+  {     2705.26       -60.43      2707.71       -83.86}
+  {     2705.26       -60.43      2728.56       -64.17}
+  {     2705.26       -60.43      2747.69       184.06}
+  {     2705.26       -60.43      2765.55       -20.87}
+  {     2705.26       -60.43      2742.24        70.08}
+  {     2705.26       -60.43      2709.36        40.75}
+  {     2557.93      -132.68      2705.26       -60.43}
+  {     2557.93      -132.68      2624.35      -128.74}
+  {     2557.93      -132.68      2561.75      -143.50}
+  {     2557.93      -132.68      2565.20      -105.12}
+  {     2557.93      -132.68      2604.16       193.90}
+  {     2557.93      -132.68      2621.65       106.89}
+  {     2557.93      -132.68      2588.68       -95.87}
+  {     2557.93      -132.68      2603.43      -136.22}
+  {     2557.93      -132.68      2669.61       -97.24}
+  {     2557.93      -132.68      2594.22      -114.96}
+  {     2594.22      -114.96      2643.16       -89.17}
+  {     2594.22      -114.96      2644.60       -95.28}
+  {     2594.22      -114.96      2724.32       -44.09}
+  {     2461.85      -159.65      2557.93      -132.68}
+  {     2461.85      -159.65      2483.09      -166.14}
+  {     2461.85      -159.65      2480.62      -123.43}
+  {     2461.85      -159.65      2468.40      -133.66}
+  {     2461.85      -159.65      2482.03      -146.85}
+  {     2461.85      -159.65      2501.04      -152.76}
+  {     2461.85      -159.65      2487.80      -166.93}
+  {     2269.71      -139.17      2461.85      -159.65}
+  {     2269.71      -139.17      2270.82      -157.48}
+  {     2269.71      -139.17      2295.32      -148.23}
+  {     2269.71      -139.17      2298.77      -105.71}
+  {     2269.71      -139.17      2368.65      -152.17}
+  {     2269.71      -139.17      2291.83      -142.91}
+  {     2269.71      -139.17      2291.30       -66.34}
+  {     2269.71      -139.17      2327.77      -128.74}
+  {     2109.06      -162.80      2269.71      -139.17}
+  {     2109.06      -162.80      2135.02      -187.99}
+  {     2109.06      -162.80      2132.92      -175.00}
+  {     2109.06      -162.80      2113.63      -148.82}
+  {     2109.06      -162.80      2147.43      -125.79}
+  {     2109.06      -162.80      2131.19      -169.29}
+  {     2109.06      -162.80      2128.35      -182.28}
+  {     2109.06      -162.80      2109.66      -183.66}
+  {     2109.06      -162.80      2161.60      -153.54}
+  {     2109.06      -162.80      2144.87      -180.91}
+  {     2144.87      -180.91      2167.19      -178.54}
+  {     2144.87      -180.91      2151.38      -154.53}
+  {     2144.87      -180.91      2163.86      -177.76}
+  {     2144.87      -180.91      2160.18      -157.87}
+  {     2144.87      -180.91      2084.40      -170.08}
+  {     2154.00      -165.35      2109.06      -162.80}
+  {     2154.00      -165.35      2152.36      -186.22}
+  {     2154.00      -165.35      2099.80      -190.16}
+  {     2154.00      -165.35      2106.46      -176.57}
+  {     2154.00      -165.35      2129.61      -164.17}
+  {     2154.00      -165.35      2128.24      -151.18}
+  {     2154.00      -165.35      2138.95      -148.43}
+  {     2154.00      -165.35      2147.81      -131.30}
+  {     2154.00      -165.35      2136.22      -170.47}
+  {     2154.00      -165.35      2137.97      -155.31}
+  {     2154.00      -165.35      2148.97      -149.21}
+  {     2154.00      -165.35      2146.62      -156.30}
+  {     2095.95      -175.39      2154.00      -165.35}
+  {     2095.95      -175.39      2096.87      -185.43}
+  {     2095.95      -175.39      2106.52      -195.67}
+  {     2095.95      -175.39      2114.85      -194.29}
+  {     2095.95      -175.39      2120.07      -166.34}
+  {     2095.95      -175.39      2097.33      -168.11}
+  {     2032.71      -186.22      2095.95      -175.39}
+  {     2032.71      -186.22      2041.20      -206.69}
+  {     2032.71      -186.22      2046.06      -205.91}
+  {     2032.71      -186.22      2046.47      -200.00}
+  {     2032.71      -186.22      2056.61      -188.39}
+  {     2032.71      -186.22      2045.93      -176.97}
+  {     2032.71      -186.22      2039.76      -168.90}
+  {     2032.71      -186.22      2034.99      -176.57}
+  {     1856.84      -243.70      2032.71      -186.22}
+  {     1856.84      -243.70      1859.27      -251.77}
+  {     1856.84      -243.70      1867.98      -255.91}
+  {     1856.84      -243.70      1875.60      -241.54}
+  {     1856.84      -243.70      1880.31      -203.15}
+  {     1856.84      -243.70      1860.51      -200.39}
+  {     1856.84      -243.70      1935.00      -220.67}
+  {     1766.04      -261.02      1856.84      -243.70}
+  {     1766.04      -261.02      1772.11      -267.52}
+  {     1766.04      -261.02      1785.33      -261.42}
+  {     1766.04      -261.02      1777.02      -252.76}
+  {     1643.67      -253.94      1766.04      -261.02}
+  {     1643.67      -253.94      1645.47      -276.18}
+  {     1643.67      -253.94      1647.13      -273.03}
+  {     1643.67      -253.94      1647.93      -201.97}
+  {     1643.67      -253.94      1701.29      -246.65}
+  {     1643.67      -253.94      1658.79      -250.39}
+  {     1643.67      -253.94      1654.57      -252.36}
+  {     1643.67      -253.94      1651.44      -255.12}
+  {     1643.67      -253.94      1790.80      -276.97}
+  {     1643.67      -253.94      1747.21      -279.72}
+  {     1643.67      -253.94      1739.13      -278.74}
+  {     2106.39      -162.80      2154.00      -165.35}
+  {     2106.39      -162.80      2120.09      -189.57}
+  {     2106.39      -162.80      2129.70      -182.48}
+  {     2106.39      -162.80      2138.31      -140.75}
+  {     2106.39      -162.80      2152.14       -73.82}
+  {     2106.39      -162.80      2124.09       -65.16}
+  {     2106.39      -162.80      2129.31      -149.80}
+  {     2106.39      -162.80      2198.09      -164.96}
+  {     2106.39      -162.80      2190.66      -200.98}
+  {     1969.02      -196.26      2106.39      -162.80}
+  {     1969.02      -196.26      1993.77      -204.72}
+  {     1969.02      -196.26      1987.91      -199.02}
+  {     1969.02      -196.26      1985.85      -180.51}
+  {     1969.02      -196.26      1979.78      -197.24}
+  {     1969.02      -196.26      1982.32      -206.69}
+  {     1838.61      -200.98      1969.02      -196.26}
+  {     1838.61      -200.98      1854.61      -195.28}
+  {     1838.61      -200.98      1859.98      -152.17}
+  {     1838.61      -200.98      1859.44      -148.62}
+  {     1838.61      -200.98      1879.49      -190.75}
+  {     1838.61      -200.98      1882.62      -190.35}
+  {     1838.61      -200.98      1909.21      -185.63}
+  {     1838.61      -200.98      1961.60      -163.78}
+  {     1961.60      -163.78      1966.91      -163.58}
+  {     1961.60      -163.78      1966.31      -163.58}
+  {     1961.60      -163.78      1966.85      -140.16}
+  {     1961.60      -163.78      1967.95      -126.77}
+  {     1961.60      -163.78      1983.96      -134.65}
+  {     1838.61      -200.98      1895.99      -195.08}
+  {     1838.61      -200.98      1894.72      -178.54}
+  {     1709.15      -192.13      1838.61      -200.98}
+  {     1709.15      -192.13      1721.74      -169.88}
+  {     1709.15      -192.13      1747.56       -90.16}
+  {     1709.15      -192.13      1748.01       -84.06}
+  {     1709.15      -192.13      1777.23      -194.09}
+  {     1709.15      -192.13      1743.92      -197.83}
+  {     1709.15      -192.13      1750.07      -187.80}
+  {     1450.49      -149.61      1709.15      -192.13}
+  {     1450.49      -149.61      1451.94      -164.76}
+  {     1450.49      -149.61      1463.69      -161.42}
+  {     1450.49      -149.61      1477.25      -134.65}
+  {     1450.49      -149.61      1544.77       -44.09}
+  {     1450.49      -149.61      1521.73        -5.71}
+  {     1450.49      -149.61      1475.64        -8.66}
+  {     1450.49      -149.61      1493.33       -40.35}
+  {     1450.49      -149.61      1474.25      -154.33}
+  {     1351.99      -108.66      1450.49      -149.61}
+  {     1351.99      -108.66      1355.69      -120.47}
+  {     1351.99      -108.66      1393.88      -131.69}
+  {     1351.99      -108.66      1413.01      -108.27}
+  {     1351.99      -108.66      1377.78       -92.72}
+  {     1351.99      -108.66      1364.11       -81.10}
+  {     1351.99      -108.66      1355.68       -66.54}
+  {     1126.68       -92.32      1351.99      -108.66}
+  {     1126.68       -92.32      1145.73      -117.91}
+  {     1126.68       -92.32      1164.72      -117.32}
+  {     1126.68       -92.32      1163.45       -77.76}
+  {     1126.68       -92.32      1144.88       -83.27}
+  {     1126.68       -92.32      1131.38       -82.87}
+  {     1126.68       -92.32      1215.99      -131.30}
+  {     1126.68       -92.32      1265.52      -133.66}
+  {     4233.83       -26.97      4226.04       -34.45      4233.83        71.46      4226.04        63.98      4226.04       -54.13      4233.83       -46.65}
+  {     4226.24       -34.45      4226.04       -34.45      4226.24       -22.64      4226.04       -22.64      4226.04       -34.45      4226.24       -34.45}
+  {     4226.04       -34.45      4088.40       -53.74}
+  {     4088.40       -53.74      3855.81       -44.49      4088.40       -38.98      3855.81       -29.72      3855.81       -64.17      4088.40       -73.43}
+  {     3855.81       -44.49      3775.75       -55.71}
+  {     3775.75       -55.71      3547.99       -55.71}
+  {     3547.99       -55.71      3381.27       -57.28}
+  {     3381.27       -57.28      3307.84       -57.28}
+  {     3307.84       -57.28      3201.55       -56.30      3307.84       -33.66      3201.55       -32.68      3201.55       -56.30      3307.84       -57.28}
+  {     3201.55       -56.30      3087.54       -34.06      3201.55       -32.68      3087.54       -28.15      3087.54       -65.55      3201.55       -56.30}
+  {     3087.54       -34.06      3011.57       -32.87      3087.54       -28.15      3011.57       -26.97      3011.57       -32.87      3087.54       -65.55}
+  {     3011.57       -32.87      2938.84       -17.91      3011.57       -26.97      2938.84       277.36      2938.84       -17.91      3011.57       -32.87}
+  {     2938.84       -17.91      3096.32       118.90      2938.84       277.36      3096.32       279.53      3096.32       118.90      2938.84       -17.91}
+  {     3096.32       118.90      3288.01       156.10      3096.32       279.53      3288.01       287.99      3288.01       150.20      3096.32       118.90}
+  {     3288.01       156.10      3333.94       170.28}
+  {     3333.94       170.28      3509.02       271.26}
+  {     3333.94       170.28      3506.38       210.04}
+  {     3506.38       210.04      3662.12       246.06}
+  {     3662.12       246.06      3707.45       251.57}
+  {     3707.45       251.57      3888.55       251.57}
+  {     2938.84       -17.91      2893.30        -7.87}
+  {     2893.30        -7.87      2835.74       -13.98}
+  {     2835.74       -13.98      2577.30      -118.31      2835.74       350.20      2577.30       245.87      2577.30      -147.83      2835.74       -43.50}
+  {     2577.30      -118.31      2429.47      -110.63}
+  {     2577.30      -118.31      2504.41      -144.88}
+  {     2504.41      -144.88      2150.95      -169.69      2504.41      -119.29      2150.95      -144.09      2150.95      -181.50      2504.41      -156.69}
+  {     2150.95      -169.69      2093.30      -167.52      2150.95      -144.09      2093.30      -161.61      2093.30      -195.08      2150.95      -181.50}
+  {     2093.30      -167.52      1924.82      -203.35      2093.30      -161.61      1924.82      -173.82      1924.82      -223.03      2093.30      -195.08}
+  {     1924.82      -203.35      1736.11      -213.39      1924.82      -173.82      1736.11      -181.89      1736.11      -217.32      1924.82      -223.03}
+  {     1736.11      -213.39      1636.10      -204.53      1736.11      -181.89      1636.10      -125.79      1636.10      -210.43      1736.11      -217.32}
+  {     1636.10      -204.53      1296.02      -135.43      1636.10      -125.79      1296.02      -116.73      1296.02      -147.24      1636.10      -210.43}
+  {     1296.02      -135.43      1006.27      -104.92      1296.02      -116.73      1006.27       -77.36      1006.27      -118.70      1296.02      -147.24}
+  {     1006.27      -104.92       951.15      -104.92      1006.27       -77.36       951.15       -26.18       951.15      -203.35      1006.27      -118.70}
+  {     1006.27      -104.92       889.54      -104.92      1006.27       -77.36       889.54        -6.50       889.54      -104.92      1006.27      -118.70}
+  {      889.54      -104.92       850.54       -31.50       889.54        -6.50       850.54        -1.97       850.54      -104.33       889.54      -104.92}
+  {      850.54       -31.50       809.65       -33.66       850.54        -1.97       809.65       -13.98       809.65       -45.47       850.54      -104.33}
+  {      809.65       -33.66       761.96       -75.20       809.65       -13.98       761.96       -51.57       761.96       -77.17       809.65       -45.47}
+  {      761.96       -75.20       594.66       -45.67       761.96       -51.57       594.66        13.39       594.66      -144.09       761.96       -77.17}
+  {      594.66       -45.67       381.88        33.86       594.66        13.39       381.88        55.51       381.88       -76.38       594.66      -144.09}
+  {      381.88        33.86       344.14        25.79       381.88        55.51       344.14        84.84       344.14        -3.74       381.88       -76.38}
+  {      344.14        25.79       303.74        -4.53       344.14        84.84       303.74       113.58       303.74       -30.12       344.14        -3.74}
+  {      303.74        -4.53       125.37      -124.80       303.74       113.58       125.37        26.77       125.37      -154.33       303.74       -30.12}
+  {      125.37      -124.80      -132.50      -127.17       125.37        26.77      -132.50       -97.64      -132.50      -127.17       125.37      -154.33}
+  {     -132.50      -127.17      -263.28      -174.80      -132.50       -97.64      -263.28      -113.78      -263.28      -174.80      -132.50      -127.17}
+  {     -263.28      -174.80      -395.17      -174.80}
+  {     -263.28      -174.80      -399.69       -38.39}
+  {     -263.28      -174.80      -613.83      -119.29      -263.28      -113.78      -613.83       -99.61      -613.83      -146.85      -263.28      -174.80}
+  {     -613.83      -119.29      -697.44      -122.05      -613.83       -99.61      -697.44       -62.99      -697.44      -141.73      -613.83      -146.85}
+  {     -697.44      -122.05      -873.17      -186.02}
+  {     -697.44      -122.05      -921.03       -86.61      -697.44       -62.99      -921.03       -27.56      -921.03      -102.36      -697.44      -141.73}
+  {     -921.03       -86.61     -1123.58       -85.04}
+  {    -1123.58       -85.04     -1372.11      -115.55     -1123.58       -41.73     -1372.11       -72.24     -1372.11      -135.24     -1123.58      -104.72}
+  {    -1372.11      -115.55     -1484.65      -101.57     -1372.11       -72.24     -1484.65        -9.06     -1484.65      -215.75     -1372.11      -135.24}
+  {     1193.05        -9.45      1193.05        -9.45}
+  {     1136.87       -76.18      1193.05        -9.45}
+  {     1136.87       -76.18      1145.57       -76.18}
+  {     1136.87       -76.18      1150.94       -76.97}
+  {     1136.87       -76.18      1153.20       -77.17}
+  {     1136.87       -76.18      1149.08       -77.36}
+  {     1136.87       -76.18      1147.55       -77.76}
+  {     1136.87       -76.18      1150.04       -79.33}
+  {     1136.87       -76.18      1156.56       -80.31}
+  {     1136.87       -76.18      1175.76       -81.69}
+  {     1136.87       -76.18      1188.18       -81.30}
+  {     1136.87       -76.18      1203.43       -83.86}
+  {     1136.87       -76.18      1210.52       -85.04}
+  {     1136.87       -76.18      1215.30       -85.24}
+  {     1136.87       -76.18      1138.40       -70.28}
+  {     1136.87       -76.18      1144.07       -61.02}
+  {     1136.87       -76.18      1161.49       -48.03}
+  {     1136.87       -76.18      1160.63       -57.28}
+  {     1136.87       -76.18      1152.23       -74.61}
+  {     1136.87       -76.18      1146.69       -84.65}
+  {     1136.87       -76.18      1145.59       -82.48}
+  {     1136.87       -76.18      1142.43       -89.37}
+  {     1136.87       -76.18      1138.37       -93.70}
+  {     1136.87       -76.18      1143.82       -95.08}
+  {     1136.87       -76.18      1155.40       -95.28}
+  {     1136.87       -76.18      1151.64       -89.76}
+  {     1136.87       -76.18      1153.08       -78.74}
+  {     1136.87       -76.18      1153.71       -70.67}
+  {     1136.87       -76.18      1158.75       -61.02}
+  {     1136.87       -76.18      1163.72       -53.15}
+  {     1136.87       -76.18      1215.38       -93.90}
+  {     1215.38       -93.90      1237.39      -100.59}
+  {     1215.38       -93.90      1269.39      -111.22}
+  {     1215.38       -93.90      1271.08      -113.58}
+  {     1215.38       -93.90      1278.65      -116.93}
+  {     1215.38       -93.90      1286.05      -108.27}
+  {     1215.38       -93.90      1292.14      -103.35}
+  {     1215.38       -93.90      1297.98       -95.87}
+  {     1215.38       -93.90      1317.59       -91.34}
+  {     1215.38       -93.90      1314.50       -89.17}
+  {     1215.38       -93.90      1266.58      -132.09}
+  {     1215.38       -93.90      1263.08      -129.13}
+  {     1215.38       -93.90      1218.22       -85.24}
+  {     1215.38       -93.90      1224.62       -77.36}
+  {     1215.38       -93.90      1225.96       -84.65}
+  {     1215.38       -93.90      1224.23       -93.11}
+  {     1215.38       -93.90      1221.14      -100.00}
+  {     1215.38       -93.90      1216.74      -103.74}
+  {     1215.38       -93.90      1219.84      -103.94}
+  {     1215.38       -93.90      1226.24       -96.85}
+  {     1215.38       -93.90      1246.82       -81.89}
+  {     1215.38       -93.90      1223.01       -84.25}
+  {     1215.38       -93.90      1217.11       -84.06}
+  {     1126.68       -92.32      1215.38       -93.90}
+  {     1126.68       -92.32      1146.67      -117.72}
+  {     1126.68       -92.32      1133.25       -97.05}
+  {     1126.68       -92.32      1147.84      -114.17}
+  {     1126.68       -92.32      1140.62      -119.49}
+  {     1126.68       -92.32      1127.21      -118.50}
+  {     1126.68       -92.32      1134.77      -118.31}
+  {     1126.68       -92.32      1158.37      -118.31}
+  {     1126.68       -92.32      1165.03      -107.68}
+  {     1126.68       -92.32      1163.21       -92.72}
+  {     1126.68       -92.32      1164.30       -84.65}
+  {     1126.68       -92.32      1141.66       -83.46}
+  {     1126.68       -92.32      1134.96       -83.27}
+  {     1126.68       -92.32      1132.89       -82.68}
+  {     1126.68       -92.32      1154.26       -93.31}
+  {     1126.68       -92.32      1183.72       -95.28}
+  {     1126.68       -92.32      1186.30       -95.87}
+  {     1126.68       -92.32      1163.05      -103.35}
+  {     1126.68       -92.32      1167.97      -106.10}
+  {     1126.68       -92.32      1167.59      -109.06}
+  {     1126.68       -92.32      1177.89      -104.13}
+  {     1126.68       -92.32      1126.68       -92.32}
+  {      968.11      -115.75       968.11      -115.75}
+  {      968.11      -115.75      1015.09       -99.21}
+  {     1015.09       -99.21      1061.06       -85.63}
+  {     1061.06       -85.63      1077.22       -69.49}
+  {     1061.06       -85.63      1076.80       -56.10}
+  {     1061.06       -85.63      1069.10       -44.49}
+  {     1061.06       -85.63      1063.33       -32.28}
+  {     1061.06       -85.63      1070.42       -34.84}
+  {     1061.06       -85.63      1078.57       -37.99}
+  {     1061.06       -85.63      1088.90       -39.76}
+  {     1061.06       -85.63      1095.97       -42.13}
+  {     1061.06       -85.63      1101.32       -53.54}
+  {     1061.06       -85.63      1105.46       -62.80}
+  {     1061.06       -85.63      1092.67       -70.47}
+  {     1061.06       -85.63      1090.85       -74.41}
+  {     1061.06       -85.63      1083.90       -78.74}
+  {     1061.06       -85.63      1079.26       -81.89}
+  {     1061.06       -85.63      1079.49       -87.60}
+  {     1061.06       -85.63      1079.35       -95.08}
+  {     1061.06       -85.63      1074.77       -99.02}
+  {     1061.06       -85.63      1071.83      -106.30}
+  {     1061.06       -85.63      1068.19      -106.69}
+  {     1061.06       -85.63      1073.15      -108.27}
+  {     1061.06       -85.63      1154.54       -54.53}
+  {     1154.54       -54.53      1159.02       -67.72}
+  {     1154.54       -54.53      1167.23       -71.65}
+  {     1154.54       -54.53      1187.71       -84.45}
+  {     1154.54       -54.53      1183.11       -67.13}
+  {     1154.54       -54.53      1169.26       -54.72}
+  {     1154.54       -54.53      1161.61       -41.34}
+  {     1154.54       -54.53      1156.12       -34.45}
+  {     1154.54       -54.53      1163.16       -26.57}
+  {     1154.54       -54.53      1190.80       -84.45}
+  {     1154.54       -54.53      1194.21       -84.45}
+  {     1154.54       -54.53      1188.16       -84.65}
+  {     1154.54       -54.53      1188.17       -83.86}
+  {     1154.54       -54.53      1187.10       -84.45}
+  {     1154.54       -54.53      1186.72       -85.04}
+  {     1154.54       -54.53      1188.85       -85.43}
+  {     1154.54       -54.53      1191.56       -86.42}
+  {     1154.54       -54.53      1210.87       -97.64}
+  {     1154.54       -54.53      1193.05        -9.45}
+  {     1193.05        -9.45      1168.01        -7.09}
+  {     1168.01        -7.09      1139.45         4.13}
+  {     1168.01        -7.09      1168.01        -7.09}
+  {     1168.01        -7.09      1154.86        -7.09}
+  {     1168.01        -7.09      1150.62        -2.95}
+  {     1168.01        -7.09      1145.17         0.00}
+  {     1193.05        -9.45      1193.05        -9.45}
+  {     1193.05        -9.45      1166.38       -12.60}
+  {     1193.05        -9.45      1171.72       -13.58}
+  {     1193.05        -9.45      1175.50       -15.16}
+  {     1193.05        -9.45      1172.66       -13.98}
+  {     1193.05        -9.45      1177.09       -14.37}
+  {     1193.05        -9.45      1180.50       -12.60}
+  {     1193.05        -9.45      1176.20       -12.40}
+  {     1193.05        -9.45      1179.81       -10.83}
+  {     1154.54       -54.53      1154.54       -54.53}
+  {     1154.54       -54.53      1113.89       -84.06}
+  {     1154.54       -54.53      1113.12       -84.06}
+  {     1154.54       -54.53      1123.19       -78.35}
+  {     1154.54       -54.53      1134.61       -69.69}
+  {     1154.54       -54.53      1139.13       -64.17}
+  {     1154.54       -54.53      1139.89       -58.07}
+  {     1154.54       -54.53      1135.84       -54.92}
+  {     1154.54       -54.53      1127.32       -48.82}
+  {     1154.54       -54.53      1129.15       -43.90}
+  {     1154.54       -54.53      1123.73       -41.14}
+  {     1154.54       -54.53      1124.26       -38.39}
+  {      698.88      -178.74       675.72      -210.24}
+  {      675.72      -210.24       626.64      -217.72}
+  {      675.72      -210.24       663.24      -212.01}
+  {      675.72      -210.24       656.94      -208.86}
+  {      698.88      -178.74       698.88      -178.74}
+  {      698.88      -178.74       679.89      -178.35}
+  {      698.88      -178.74       653.84      -171.85}
+  {      698.88      -178.74       626.62      -163.98}
+  {      698.88      -178.74       658.03      -170.87}
+  {      698.88      -178.74       668.42      -187.40}
+  {      698.88      -178.74       613.31      -175.00}
+  {      698.88      -178.74       611.25      -177.95}
+  {      698.88      -178.74       760.25      -148.23}
+  {      760.25      -148.23       770.40      -148.23}
+  {      760.25      -148.23       782.13      -150.79}
+  {      760.25      -148.23       783.39      -147.44}
+  {      760.25      -148.23       824.29      -176.57}
+  {      760.25      -148.23       760.25      -148.23}
+  {      760.25      -148.23       782.69      -148.23}
+  {      760.25      -148.23       780.73      -134.45}
+  {      760.25      -148.23       776.87      -136.42}
+  {      698.88      -178.74       698.88      -178.74}
+  {      698.88      -178.74       706.28      -166.34}
+  {      698.88      -178.74       724.79      -156.50}
+  {      698.88      -178.74       736.18      -155.12}
+  {      698.88      -178.74       737.78      -175.00}
+  {      698.88      -178.74       731.76      -187.60}
+  {      698.88      -178.74       713.93      -196.06}
+  {      698.88      -178.74       710.18      -206.30}
+  {      698.88      -178.74       760.62      -171.65}
+  {      760.62      -171.65       762.78      -158.66}
+  {      760.62      -171.65       771.73      -159.45}
+  {      760.62      -171.65       779.22      -163.78}
+  {      760.62      -171.65       785.37      -171.46}
+  {      760.62      -171.65       788.01      -182.09}
+  {      760.62      -171.65       768.62      -181.89}
+  {      760.62      -171.65       764.05      -179.13}
+  {      764.05      -179.13       854.04      -176.97}
+  {      764.05      -179.13       862.21      -176.97}
+  {      764.05      -179.13       862.98      -175.79}
+  {      764.05      -179.13       851.92      -175.39}
+  {      764.05      -179.13       832.51      -176.18}
+  {      760.62      -171.65       760.62      -171.65}
+  {      760.62      -171.65       769.02      -181.89}
+  {      760.62      -171.65       814.56      -160.83}
+  {      814.56      -160.83       823.79      -138.39}
+  {      814.56      -160.83       819.19      -142.52}
+  {      814.56      -160.83       815.94      -146.46}
+  {      814.56      -160.83       819.56      -149.21}
+  {      814.56      -160.83       818.34      -155.31}
+  {      814.56      -160.83       819.40      -157.87}
+  {      814.56      -160.83       821.74      -160.24}
+  {      814.56      -160.83       826.07      -164.76}
+  {      814.56      -160.83       819.62      -164.76}
+  {      814.56      -160.83       851.12      -152.76}
+  {      814.56      -160.83       849.91      -153.15}
+  {      851.12      -152.76       854.82      -153.35}
+  {      851.12      -152.76       855.60      -150.59}
+  {      851.12      -152.76       856.18      -147.44}
+  {      851.12      -152.76       854.47      -157.48}
+  {      851.12      -152.76       852.03      -161.22}
+  {      851.12      -152.76       853.38      -145.28}
+  {      851.12      -152.76       898.59      -148.82}
+  {      898.59      -148.82       907.71      -149.02}
+  {      898.59      -148.82       908.26      -146.46}
+  {      898.59      -148.82       910.11      -142.13}
+  {      898.59      -148.82       907.44      -141.34}
+  {      898.59      -148.82       903.81      -143.70}
+  {      898.59      -148.82       901.07      -145.47}
+  {      898.59      -148.82       906.13      -153.35}
+  {      898.59      -148.82       905.02      -157.48}
+  {      898.59      -148.82       903.23      -158.07}
+  {      898.59      -148.82       905.16      -158.86}
+  {      898.59      -148.82       944.46      -145.67}
+  {      944.46      -145.67       955.39      -124.21}
+  {      944.46      -145.67       954.75      -119.09}
+  {      944.46      -145.67       950.69      -110.24}
+  {      944.46      -145.67       945.89      -129.72}
+  {      944.46      -145.67       945.03      -134.84}
+  {      944.46      -145.67       947.93      -137.40}
+  {      944.46      -145.67       950.51      -139.17}
+  {      944.46      -145.67       952.46      -142.13}
+  {      944.46      -145.67       956.56      -146.06}
+  {      944.46      -145.67       959.56      -150.39}
+  {      944.46      -145.67       961.93      -154.72}
+  {      944.46      -145.67       956.35      -155.12}
+  {      944.46      -145.67       951.96      -155.12}
+  {      944.46      -145.67       947.01      -154.53}
+  {      944.46      -145.67       947.00      -154.72}
+  {      944.46      -145.67      1034.02      -154.13}
+  {      944.46      -145.67       944.46      -145.67}
+  {      944.46      -145.67       996.68      -144.69}
+  {      996.68      -144.69      1016.68      -148.03}
+  {      996.68      -144.69      1062.04      -150.59}
+  {      996.68      -144.69      1038.58      -148.03}
+  {      996.68      -144.69      1042.39      -149.41}
+  {      996.68      -144.69      1038.61      -153.15}
+  {      996.68      -144.69      1035.83      -150.00}
+  {      996.68      -144.69      1042.11      -150.98}
+  {      996.68      -144.69      1032.37      -148.82}
+  {      996.68      -144.69      1029.26      -143.50}
+  {      996.68      -144.69      1048.90      -139.57}
+  {     1048.90      -139.57      1063.68      -157.09}
+  {     1048.90      -139.57      1062.19      -148.82}
+  {     1048.90      -139.57      1059.18      -142.32}
+  {     1048.90      -139.57      1060.25      -138.39}
+  {     1048.90      -139.57      1063.78      -124.61}
+  {     1048.90      -139.57      1060.62      -106.89}
+  {     1048.90      -139.57      1061.59       -47.24}
+  {     1048.90      -139.57      1064.07       -31.50}
+  {     1048.90      -139.57      1063.73       -39.37}
+  {     1048.90      -139.57      1065.21       -80.31}
+  {     1048.90      -139.57      1064.95      -102.95}
+  {     1048.90      -139.57      1067.56      -116.93}
+  {     1048.90      -139.57      1058.33      -158.27}
+  {     1048.90      -139.57      1097.91      -137.20}
+  {     1097.91      -137.20      1098.38      -146.26}
+  {     1097.91      -137.20      1114.66      -155.31}
+  {     1097.91      -137.20      1105.79      -149.80}
+  {     1097.91      -137.20      1112.20      -143.70}
+  {     1097.91      -137.20      1107.81      -137.20}
+  {     1097.91      -137.20      1104.55      -131.50}
+  {     1097.91      -137.20      1101.09      -127.17}
+  {     1097.91      -137.20      1164.39      -142.52}
+  {     1164.39      -142.52      1167.03      -133.46}
+  {     1164.39      -142.52      1167.39      -128.54}
+  {     1164.39      -142.52      1171.59       -98.03}
+  {     1164.39      -142.52      1167.51       -97.24}
+  {     1164.39      -142.52      1165.14      -107.28}
+  {     1164.39      -142.52      1166.79      -116.73}
+  {     1164.39      -142.52      1168.95      -121.46}
+  {     1164.39      -142.52      1171.87      -129.13}
+  {     1164.39      -142.52      1173.61      -136.22}
+  {     1164.39      -142.52      1175.49      -149.21}
+  {     1164.39      -142.52      1172.07      -153.94}
+  {     1164.39      -142.52      1167.23      -152.56}
+  {     1164.39      -142.52      1166.02      -151.97}
+  {     1164.39      -142.52      1168.44      -150.39}
+  {     1164.39      -142.52      1209.45      -141.14}
+  {     1164.39      -142.52      1164.39      -142.52}
+  {     1164.39      -142.52      1209.11      -141.34}
+  {     1164.39      -142.52      1209.30      -141.34}
+  {     1164.39      -142.52      1209.16      -141.14}
+  {     1164.39      -142.52      1209.18      -141.34}
+  {     1209.45      -141.14      1221.40      -116.34}
+  {     1209.45      -141.14      1222.91      -127.36}
+  {     1209.45      -141.14      1224.15      -136.81}
+  {     1209.45      -141.14      1233.64      -144.69}
+  {     1209.45      -141.14      1233.60      -152.56}
+  {     1209.45      -141.14      1227.35      -155.91}
+  {     1209.45      -141.14      1216.80      -153.54}
+  {     1209.45      -141.14      1212.68      -155.31}
+  {     1209.45      -141.14      1209.45      -141.14}
+  {     1209.45      -141.14      1224.12      -140.75}
+  {     1209.45      -141.14      1223.19      -140.75}
+  {     1209.45      -141.14      1223.37      -140.35}
+  {     1209.45      -141.14      1227.33      -140.35}
+  {     1209.45      -141.14      1228.22      -140.55}
+  {     1209.45      -141.14      1232.04      -141.93}
+  {     1209.45      -141.14      1228.95      -142.32}
+  {     1209.45      -141.14      1209.45      -141.14}
+  {     1209.45      -141.14      1233.30      -137.01}
+  {      944.46      -145.67       944.46      -145.67}
+  {      944.46      -145.67       968.11      -115.75}
+  {     -921.03       -86.61     -1123.58       -85.04}
+  {    -1123.58       -85.04     -1372.11      -115.55     -1123.58       -41.73     -1372.11       -72.24     -1372.11      -135.24     -1123.58      -104.72}
+  {    -1372.11      -115.55     -1484.65      -101.57     -1372.11       -72.24     -1484.65        -9.06     -1484.65      -215.75     -1372.11      -135.24}
+  {    -1484.65      -101.57     -1511.98       -92.72     -1484.65        -9.06     -1511.98       -12.01     -1511.98      -100.59     -1484.65      -215.75}
+  {    -1239.64      -101.57     -1323.29      -103.74     -1239.64        -9.06     -1323.29       -76.18     -1323.29      -119.49     -1239.64      -215.75}
+  {    -1323.29      -103.74     -1409.64      -144.88     -1323.29       -76.18     -1409.64      -109.45     -1409.64      -172.44     -1323.29      -119.49}
+  {    -1409.64      -144.88     -1470.30      -112.80}
+  {    -1409.64      -144.88     -1469.44      -170.28}
+  {    -1409.64      -144.88     -1409.83      -145.47     -1409.64      -109.45     -1409.83      -110.04     -1409.83      -173.03     -1409.64      -172.44}
+  {    -1409.83      -145.47     -1526.71      -171.46     -1409.83      -110.04     -1526.71      -159.65     -1526.71      -197.05     -1409.83      -173.03}
+  {    -1526.71      -171.46     -1592.24      -193.31     -1526.71      -159.65     -1592.24      -181.50     -1592.24      -211.02     -1526.71      -197.05}
+  {    -1592.24      -193.31     -1686.73      -212.60     -1592.24      -181.50     -1686.73      -212.60     -1686.73      -226.38     -1592.24      -211.02}
+  {    -1686.73      -212.60     -1617.61      -217.91     -1686.73      -212.60     -1617.61      -204.13     -1617.61      -221.85     -1686.73      -226.38}
+  {    -1617.61      -217.91     -1540.05      -188.98     -1617.61      -204.13     -1540.05       -25.59     -1540.05      -218.50     -1617.61      -221.85}
+  {    -1540.05      -188.98     -1470.05       -93.70}
+  {    -1484.65      -101.57     -1470.05       -93.70}
+  {    -1833.58      -188.98     -1781.31      -215.35     -1833.58       -25.59     -1781.31      -203.54     -1781.31      -215.35     -1833.58      -218.50}
+  {    -1781.31      -215.35     -1678.92      -204.72     -1781.31      -203.54     -1678.92      -190.94     -1678.92      -216.54     -1781.31      -215.35}
+  {    -1678.92      -204.72     -1608.15      -208.46     -1678.92      -190.94     -1608.15      -206.50     -1608.15      -220.28     -1678.92      -216.54}
+  {    -1608.15      -208.46     -1487.11      -206.30     -1608.15      -206.50     -1487.11      -194.49     -1487.11      -224.02     -1608.15      -220.28}
+  {    -1487.11      -206.30     -1356.28      -211.02     -1487.11      -194.49     -1356.28      -201.18     -1356.28      -222.83     -1487.11      -224.02}
+  {    -1356.28      -211.02     -1194.54      -245.28}
+  {    -1678.92      -204.72     -1595.18      -209.25     -1678.92      -190.94     -1595.18      -173.82     -1595.18      -213.19     -1678.92      -216.54}
+  {    -1595.18      -209.25     -1532.65      -201.57}
+  {    -1595.18      -209.25     -1540.05      -188.98     -1595.18      -173.82     -1540.05       -25.59     -1540.05      -218.50     -1595.18      -213.19}
+  {    -1540.05      -188.98     -1695.95      -175.20}
+  {    -1686.73      -212.60     -1783.44      -222.64     -1686.73      -212.60     -1783.44      -220.67     -1783.44      -226.57     -1686.73      -226.38}
+  {    -1783.44      -222.64     -1788.36      -222.64}
+  {    -1788.36      -222.64     -1878.89      -216.34     -1788.36      -214.76     -1878.89      -208.46     -1878.89      -218.31     -1788.36      -224.61}
+  {    -1878.89      -216.34     -1962.09      -190.94     -1878.89      -208.46     -1962.09      -177.17     -1962.09      -202.76     -1878.89      -218.31}
+  {    -1962.09      -190.94     -2117.61      -190.94     -1962.09      -177.17     -2117.61      -167.32     -2117.61      -208.66     -1962.09      -202.76}
+  {    -2117.61      -190.94     -2337.85      -187.01     -2117.61      -167.32     -2337.85      -137.80     -2337.85      -208.66     -2117.61      -208.66}
+  {    -2337.85      -187.01     -2561.44      -183.27     -2337.85      -137.80     -2561.44      -136.02     -2561.44      -206.89     -2337.85      -208.66}
+  {    -2561.44      -183.27     -2690.09      -201.18     -2561.44      -136.02     -2690.09      -126.38     -2690.09      -209.06     -2561.44      -206.89}
+  {    -2690.09      -201.18     -2898.97      -152.95     -2690.09      -126.38     -2898.97       -95.87     -2898.97      -178.54     -2690.09      -209.06}
+  {    -2898.97      -152.95     -3009.83      -127.36}
+  {    -2898.97      -152.95     -2910.73       -86.42     -2924.17      -157.41     -2968.88       -96.69     -2910.73       -86.42     -2842.75      -143.02}
+  {    -2910.73       -86.42     -2974.31       -25.00     -2910.73       -86.42     -2974.31        81.30     -2974.31       -44.69     -2910.73      -145.47}
+  {    -2974.31       -25.00     -2816.83       247.83}
+  {    -2974.31       -25.00     -3141.55        49.41}
+  {    -2974.31       -25.00     -3046.61       -63.39     -2974.31        81.30     -3046.61       -63.39     -3046.61       -85.04     -2974.31       -44.69}
+  {    -3046.61       -63.39     -3094.85      -101.18     -3046.61       -63.39     -3094.85       -61.81     -3094.85      -101.18     -3046.61       -85.04}
+  {    -3094.85      -101.18     -3095.01      -101.18     -3094.85       -61.81     -3095.01       -61.81     -3095.01      -152.36     -3094.85      -101.18}
+  {    -3095.01      -101.18     -3196.30      -144.29     -3095.01       -61.81     -3196.30       -22.24     -3196.30      -171.85     -3095.01      -152.36}
+  {    -3196.30      -144.29     -3302.02      -172.64     -3196.30       -22.24     -3302.02      -141.14     -3302.02      -196.26     -3196.30      -171.85}
+  {    -3302.02      -172.64     -3365.01      -141.73     -3302.02      -141.14     -3365.01        -3.94     -3365.01      -190.94     -3302.02      -196.26}
+  {    -3365.01      -141.73     -3452.59        30.12}
+  {    -3302.02      -172.64     -3418.74      -214.96     -3302.02      -141.14     -3418.74      -212.99     -3418.74      -220.87     -3302.02      -196.26}
+  {    -3418.74      -214.96     -3486.17      -218.50     -3418.74      -212.99     -3486.17      -212.60     -3486.17      -220.47     -3418.74      -220.87}
+  {    -3486.17      -218.50     -3600.38      -212.60     -3486.17      -212.60     -3600.38      -196.85     -3600.38      -212.60     -3486.17      -220.47}
+  {    -3600.38      -212.60     -3876.09      -193.31     -3600.38      -196.85     -3876.09      -161.81     -3876.09      -193.31     -3600.38      -212.60}
+  {    -3876.09      -193.31     -3994.87      -156.89     -3876.09      -161.81     -3994.87        39.96     -3994.87      -176.57     -3876.09      -193.31}
+  {    -3994.87      -156.89     -4295.67       -16.73}
+  {    -3994.87      -156.89     -3813.63        37.40}
+  {    -3994.87      -156.89     -4090.55      -116.34}
 }
-set XVIgrid  {-5173 -1148.33 19.685 0.0 0.0 19.685 525 121}
+set XVIgrid  {-5173 -1149.02 19.685 0.0 0.0 19.685 525 120}

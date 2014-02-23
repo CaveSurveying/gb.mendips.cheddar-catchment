@@ -104,6 +104,6 @@ endlayout
  
 select Map_m500@UpperFlood
 export map -projection plan -layout l500 -o 0.Maps/UF_500.pdf 
-export map -projection plan -layout l500 -fmt svg -o 0.Maps/UF_500.svg 
+#export map -projection plan -layout l500 -fmt svg -o 0.Maps/UF_500.svg 
 
 #export database -format sql -o 0.Maps/UF.sql

@@ -19,7 +19,6 @@ centreline
 
 	station 3.35 "Sump, dived to -3m <DATE>" sink attr sump "Dived" continuation explored 15 attr name "N35"
 	
-	flags duplicate
 		3.10 - 357.05 29.89 3.289
 		3.10 - 3.09 47.67 1.240
 		3.10 - 359.10 27.49 1.720
@@ -200,7 +199,7 @@ centreline
 		3.29 - 201.84 72.72 0.860
 		3.29 - 260.79 50.58 0.590
 		extend right
-    flags not duplicate # Summp tube
+# Summp tube
 		3.30 3.29 318.49 9.89 2.993
 		3.30 - 295.46 -84.77 0.510
 		3.30 - 19.82 -62.43 1.160
@@ -237,7 +236,7 @@ centreline
 		3.34 3.35 149.21 -8.87 7.565
 		3.34 - 154.19 -13.95 5.420
 		3.34 - 142.20 -14.58 5.011
-	flags duplicate # back to main passage
+# back to main passage
 		3.36 3.29 148.89 -3.08 2.422
 		3.36 - 359.84 -62.93 1.530
 		3.36 - 194.18 -40.18 1.550
@@ -301,6 +300,3 @@ centreline
 		3.43 - 100.27 -16.60 7.360
 endcentreline
 endsurvey
-
-
-

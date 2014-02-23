@@ -17,6 +17,7 @@ endlayout
 #select NeverlandCC@Neverland
 #select NeverlandDisto@Neverland
 #select NeverlandRopeClimb@Neverland
+#select Neverland_m1@Neverland
 select Neverland_m1@Neverland
 
 export model -format survex -o 0.Maps/Neverland.3d

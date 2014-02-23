@@ -27,6 +27,7 @@ survey NeverlandCC
     extend start N1
     data normal from to length compass clino left right up down    #LRUD   Station description
                       #est = estimate; no lrud taken
+flags duplicate # replaced by Disto survey
   # N1a N1  0.01  131  -44  0.3  1.5  0  1  #est  N1 is on face above roof, clearly marked
    			# N1 Fixed survey station: pencil 1cm triangle on wall 15cm above and 60cm to RHS of Neverland entrance centreline
     mark N1 fixed
@@ -53,6 +54,7 @@ survey NeverlandCC
   # N12  N11  3.77  013  -11.5  2.60  1  15.00  0.00  #N12  N12 is stal stump
     N11  N12  3.77  193  11.5  2.60  1  15.00  0.00  #  REVERSED
     extend right
+flags not duplicate # Pork Pies
     N12  PP1  10.6  322  41  3.50  1.00  8.16  0.00  #PP1  Pork Pie Passage N12-PP8
   # PP2  PP1  9.92  154  -11  1.80  0.70  6.70  0.30  #PP2  
     PP1  PP2  9.92  334  11  1.80  0.70  6.70  0.30  #  REVERSED
@@ -64,6 +66,7 @@ survey NeverlandCC
   # PP7  PP6  2.32  243  -7          #  tape boundary
     PP6  PP7  2.32  063  7          #  REVERSED
     PP7  PP8  9.2  090  0          #  Over the Pork Pies
+flags duplicate # Back to main passage
   # N13  N12  2.37  044  -12.5          #  edge of chamber on flow stone
     extend left
     N12  N13  2.37  224  12.5          #  REVERSED
@@ -91,6 +94,7 @@ survey NeverlandCC
   # N27  N26  2.08  104  3  0.00  0.60  1.00  0.60  #N27  
     N26 N27  2.08  284  -3  0.00  0.60  1.00  0.60  #  REVERSED  
     N27  N28  3.21  314  -41  0.60  0.10  1.20  0.10  #N28  Amo box on floor
+flags not duplicate # Traverses
     N28  N29  8.63  273  10  0  2  3  5  #est  N29 Start of traverse (Richard)
   # N30  N29  11.54  149  -20.5  0.80  0.30  1.10  5.60  #N30  Beyond both ropes, after chock stone
     N29  N30  11.54  329  20.5  0.80  0.30  1.10  5.60  #  REVERSED

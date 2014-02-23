@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -193.08 -95.85 1158.46 575.11
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {96.5382724806 1 1.0} {47.9262047577 1.20} ../../../Users/Ben/Documents/Documents/0. Caving/0. Surveys/CheddarCatchment/UF/Neverland/PocketTopo/RopeTraverse_e.xvi 0 {}
+
+
+scrap RopeTraverseSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

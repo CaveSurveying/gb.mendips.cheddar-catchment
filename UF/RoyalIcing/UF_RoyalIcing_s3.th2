@@ -43,6 +43,8 @@ point 347.371 247.73 station -name 39@Pony
 
 point 558.5 518.75 station -name EP4@Pony
 
+point 498.0 468.0 dig
+
 point 529.599 443.85 station -name EP3@Pony
 
 point 448.889 376.13 station -name EP2@Pony

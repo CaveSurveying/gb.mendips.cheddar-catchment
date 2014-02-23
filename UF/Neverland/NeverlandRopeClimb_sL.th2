@@ -1,7 +1,8 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 4255.9011 1893.6918
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust 872.0 197.0 4474.45 1830.95
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {3350.36 1 1.0} {986.352 N38} xvi/NeverlandRopeClimb.xvi 0 {}
+##XTHERION## xth_me_image_insert {3296.22 1 1.0} {900.4 N38} 0.Maps/NeverlandRopeClimb.xvi 0 {}
 
 
 

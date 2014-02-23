@@ -1,12 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 4255.9011 1893.6918
+##XTHERION## xth_me_area_adjust 431.0 33.0 4033.45 1666.95
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {3350.36 1 1.0} {986.352 N38} xvi/NeverlandRopeClimb.xvi 0 {}
+##XTHERION## xth_me_image_insert {3295.22 1 1.0} {948.4 N38} 0.Maps/NeverlandRopeClimb.xvi 0 {}
 
 
 
-scrap NeverlandRopeClimb_s1 -scale [-128.0 -128.0 4255.9011 -128.0 0.0 0.0 111.35108794 0.0 m] \
--stations [2@NeverlandRopeClimb]
+scrap NeverlandRopeClimb_s1 -stations [2@NeverlandRopeClimb] -scale [-128.0 -128.0 4255.9011 -128.0 0.0 0.0 111.35108794 0.0 m]
 
 point 3143.71 570.472 station -name 11@NeverlandRopeClimb
 

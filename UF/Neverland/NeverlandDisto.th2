@@ -41,6 +41,13 @@ point 2039.60291338 1352.16149606 station -name 3.28@NeverlandDisto
 
 point 2088.54291338 1241.53149606 station -name 3.27@NeverlandDisto
 
+line ceiling-step
+  31.61291338 1187.05149606
+  56.0 1189.0 458.0 1229.0 479.0 1229.0
+  500.0 1229.0 639.0 1273.0 639.0 1273.0
+  smooth off
+endline
+
 point 2066.81291338 1173.31149606 station -name 3.26@NeverlandDisto
 
 point 2387.91291338 1162.01149606 station -name 3.24@NeverlandDisto

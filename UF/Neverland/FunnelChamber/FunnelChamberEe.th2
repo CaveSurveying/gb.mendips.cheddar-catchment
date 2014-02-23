@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -219.68 -98.16 1318.07 588.98
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {109.839472157 1 1.0} {539.900997023 5.3} ../../../Users/Ben/Documents/Documents/0. Caving/0. Surveys/CheddarCatchment/UF/Neverland/PocketTopo/FunnelChamber_e.xvi 0 {}
+
+
+scrap FunnelChamberSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

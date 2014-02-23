@@ -1,0 +1,39 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 1072.88188976 1309.1023622
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {39.371259842 1 1.0} {582.207086614 1.20} ../PocketTopo/RopeTraverse_p1.xvi 0 {}
+
+
+
+scrap CurtainClimbInletSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 934.0 -74.5 label -orientation 50 -text "Curtain Climb Inlet" -scale s -align r
+
+point 927.0 40.0 water-flow -orientation 0.0
+
+line wall
+  913.0 167.0
+  910.0 182.0 904.36 189.64 891.5 214.0
+  882.0 232.0 880.5 238.5 873.5 246.5
+  866.25 254.78 830.84 279.61 809.921259842 283.307086614
+  789.0 287.0 758.0 291.0 757.0 312.0
+  756.47 323.17 760.36 326.61 768.0 327.0
+  787.5 328.0 788.82 324.16 797.0 333.5
+  807.5 345.5 836.5 364.5 846.0 358.5
+  855.5 352.5 863.0 334.5 870.0 323.5
+  877.0 312.5 886.0 312.5 894.5 307.0
+  903.0 301.5 911.0 285.5 917.0 279.0
+  921.73 273.88 939.5 202.5 936.5 195.0
+  933.5 187.5 921.0 186.5 922.0 167.5
+  smooth off
+endline
+
+point 809.921259842 283.307086614 station -name 5.3
+
+point 910.001259842 282.597086614 station -name 5.4
+
+point 915.671259842 168.587086614 station -name 5.5
+
+endscrap
+
+

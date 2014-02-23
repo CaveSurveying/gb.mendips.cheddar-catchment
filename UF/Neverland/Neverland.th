@@ -3,6 +3,7 @@ encoding  utf-8
 survey Neverland
 
   centreline
+    #Join surveys
     equate N1           N1@NeverlandCC
     equate N1        3.0@NeverlandDisto
     station N1 fixed
@@ -22,6 +23,24 @@ survey Neverland
     mark N_D38 painted    # red painted sharp tip of rock opposite LinkRift
     station N_D38 "N_D3.38 Red painted tip of small rock opposite LinkRift, on bank close to floor" attr print "true" attr Code "fixed" attr Name "N-D3.38"
 
+    equate N_D43	3.43@NeverlandDisto
+    mark N_D43 fixed	# 5mm hole on wall
+    station N_D43 "N_D3.43 5mm hole on RH wall" attr print "true" attr Code "fixed" attr Name "N-D3.43"
+    equate 4.3@FunnelChamber	N_D43
+    
+    equate N_D4.0	4.0@FunnelChamber	
+    mark N_D4.0 natural	# Tip of Small Stalagmite on wall near ceiling, above curtain climb
+    station N_D4.0 "Tip of Small Stalagmite on wall near ceiling, above Curtain Climb" attr print "true" attr Code "fixed" attr Name "N-D4.0"
+    equate N_D4.0	5.3@RopeTraverse
+    
+    equate N_D5.0	5.0@RopeTraverse
+    mark N_D5.0 fixed	# 5mm hole in RH wall
+    station N_D5.0 "5mm hole in RH wall" attr print "true" attr Code "fixed" attr Name "N-D5.0"
+    
+    equate 1.20@RopeTraverse	1.20@LowerFunnel
+    
+    equate N_D1.0	1.0@LowerFunnel
+
     equate N41        N41@NeverlandCC 
     equate 1@NeverlandRopeClimb    N41
 
@@ -37,8 +56,15 @@ survey Neverland
   input PorkPie.th2
   join PorkPie_s1      NeverlandDisto_s1
   
+  input FunnelChamber/FunnelChamber.th
+  join NeverlandDisto_s1 FunnelChamberSP1@FunnelChamber
+
+  input RopeTraverse/RopeTraverse.th
+
+  input LowerFunnel/LowerFunnel.th 
+
   input Neverland.th2      
-  join  Neverland_s1    NeverlandDisto_s1
+  join  Neverland_s1    RopeTraverseSP1@RopeTraverse
 
   input NeverlandRopeClimb.th
   input NeverlandRopeClimb_s1.th2
@@ -50,8 +76,16 @@ survey Neverland
   join NeverlandRopeClimb_s1 Neverland_s1
 
    map Neverland_m1
+   	NeverlandM
+   	FunnelChamberM@FunnelChamber
+   	RopeTraverseM@RopeTraverse
+   	LowerFunnelM@LowerFunnel [40 -47.67 ] below
+   endmap
+   
+   map NeverlandM
+       # Neverland_s1
        NeverlandDisto_s1
-     PorkPie_s1
+       PorkPie_s1
        Neverland_s1
        NeverlandRopeClimb_s1
        NeverlandRopeClimb_s3
