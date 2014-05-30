@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -574.02 -260.84 3444.09 1565.07
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {472.440944882 1 1.0} {697.638234235 157} PocketTopo/CollectorsPeace_e.xvi 0 {}
+
+
+scrap CollectorsPeaceSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

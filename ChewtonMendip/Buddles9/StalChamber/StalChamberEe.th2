@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -266.14 -325.83 1596.85 1954.96
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {133.070866142 1 1.0} {382.598425197 67} PocketTopo/StalChamber_e.xvi 0 {}
+
+
+scrap StalChamberSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

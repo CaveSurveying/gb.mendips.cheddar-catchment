@@ -1,0 +1,4 @@
+encoding  utf-8
+source Buddles7.th
+
+export model -o Buddles7th.3d

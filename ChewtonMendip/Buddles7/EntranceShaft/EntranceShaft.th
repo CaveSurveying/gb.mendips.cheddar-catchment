@@ -1,0 +1,80 @@
+encoding  utf-8
+survey EntranceShaft
+
+input EntranceShaft.th2
+
+map EntranceShaftM
+  EntranceShaftSP1
+  EntranceShaftSP2
+  EntranceShaftSP3
+  EntranceShaftSP4
+  EntranceShaftSP5
+endmap
+
+centreline
+
+copyright 2014 "CC BY SA NC"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#Notes: Andrew Atkinson
+#Instruments: Alison Moody
+#Dog:
+#Distox2-AA 0.40
+
+  date 2014.04.08
+
+  team "Andrew Atkinson" notes
+  team "Alison Moody" instruments
+
+  instrument  instruments "Distox2-AA"
+  
+  station 0 "Buddles 7" entrance
+
+data normal from to tape compass clino ignoreall
+  extend right
+#Calibration check at AAs 
+0  -  3.021  94.07  32.7  355  
+0  -  3.037  93.36  32.45  180  
+0  -  1.096  79.4  -4.19  16  nv entrance stn (temp)
+0  -  0.955  48.34  -0.76  11  
+0  -  0.426  107.01  -11.81  21  
+0  -  0.311  349.8  2.53  331  
+0  -  0.275  22.96  -64.95  334  
+0  -  0.283  22.14  -65.27  341  
+#0  1  1.347  22.62  -65.32  343  
+#0  1  1.368  22.54  -65.4  343  
+#0  1  1.324  23.41  -64.7  338  
+0  1  1.346  22.58  -65.14  Calculated leg from 3 above
+1  -  0.471  44.5  -5.15  340  nv
+1  -  0.792  102.86  7.38  357  
+1  -  0.641  82.46  -43.24  347  
+1  -  2.1  332.87  12.54  90  
+1  -  2.006  354.51  14.84  165  
+1  -  0.19  240.35  9.92  88  
+1  -  0.941  215.55  -46.72  92  
+#1  2  2.176  293.94  -58.57  115  
+#1  2  2.177  293.95  -58.86  113  
+#1  2  2.175  293.54  -58.95  113  
+1  2  2.176  293.94  -58.8  Calculated leg from 3 above
+2  -  0.87  80.78  2.99  336  nv 
+2  -  1.483  347.1  4.38  337  
+2  -  1.463  323.84  7.68  338  
+2  -  0.787  192.84  -47.91  68  
+2  -  1.454  98.99  -75.45  74  
+2  -  1.251  225.65  -75.09  189  
+2  -  1.377  6.79  -44.3  18  
+2  -  1.522  345.49  -44.79  357  
+#2a  -  3.136  213.57  54.57  56  taken 1m from right of station
+#3  2  4.379  219.12  78.89  64  
+#3  2  4.377  218.58  78.86  64  
+#3  2  4.376  218.94  78.82  64  
+3  2  4.377  218.85  78.86  Calculated leg from 3 above
+flags surface
+#0  1.4  2.163  61.96  45.83  236  
+#0  1.4  2.164  62.09  45.86  234  
+#0  1.4  2.16  62.1  45.87  233  
+0  1.4  2.162  61.96  45.85  Calculated leg from 3 above
+flags not surface
+endcentreline
+endsurvey
+

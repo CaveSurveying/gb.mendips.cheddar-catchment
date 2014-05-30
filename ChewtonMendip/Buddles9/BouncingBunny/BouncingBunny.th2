@@ -1,0 +1,36 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -95.48 -510.05 572.86 3060.28
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {218.525863508 1 1.0} {544.62992126 72} PocketTopo/BouncingBunny_p.xvi 0 {}
+
+
+scrap BouncingBunnySP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BouncingBunnySP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BouncingBunnySPX91 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BouncingBunnySPX86 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BouncingBunnySPX84 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BouncingBunnySPX74 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

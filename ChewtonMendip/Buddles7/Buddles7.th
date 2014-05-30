@@ -1,0 +1,16 @@
+encoding  utf-8
+survey Buddles7
+
+input EntranceShaft/EntranceShaft.th
+input Main/Main.th
+input Pot/Pot.th
+input Upper/Upper.th
+
+equate 3@EntranceShaft 4@Main
+equate 28@Main 84@Pot
+equate 35@Main 51@Pot
+equate 29@Main 43@Upper
+
+
+endsurvey
+

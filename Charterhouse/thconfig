@@ -8,8 +8,8 @@ source Charterhouse.th
 #select 2008.charter
 
 
-select 2011aM@Charterhouse
-select 2011bM@Charterhouse
+#select 2011aM@Charterhouse
+#select 2011bM@Charterhouse
 
 
 #select 2010.Charterhouse
@@ -26,7 +26,7 @@ select 2011bM@Charterhouse
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o Charterhouse.pdf
+#export map -proj plan -layout local -o Charterhouse.pdf
 #Produces plan of cave, on a single sheet
 
 export model -fmt survex -o Charterhouseth.3d
@@ -35,7 +35,7 @@ export model -fmt survex -o Charterhouseth.3d
 #export map -proj plan -fmt kml -layout googlemaps -o Charterhouse.kml
 
 
-#export model -o Charterhouse.lox
+export model -o Charterhouse.lox
 #3d therion model to be viewed in the therion viewer
 
 #export map -proj plan -o Charterhouse_Walls.3d

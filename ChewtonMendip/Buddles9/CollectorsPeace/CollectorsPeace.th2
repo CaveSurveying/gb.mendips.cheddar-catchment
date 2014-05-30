@@ -1,0 +1,76 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -217.14 -448.03 1302.85 2688.19
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {358.293984555 1 1.0} {2331.81102362 157} PocketTopo/CollectorsPeace_p.xvi 0 {}
+
+
+scrap CollectorsPeaceSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CollectorsPeaceSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CollectorsPeaceSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CollectorsPeaceSP4 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CollectorsPeaceSP5 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CollectorsPeaceSP6 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CollectorsPeaceSPX201 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CollectorsPeaceSPX196 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CollectorsPeaceSPX182 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CollectorsPeaceSPX180 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CollectorsPeaceSPX179 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CollectorsPeaceSPX169 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CollectorsPeaceSPX163 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap CollectorsPeaceSPX161 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

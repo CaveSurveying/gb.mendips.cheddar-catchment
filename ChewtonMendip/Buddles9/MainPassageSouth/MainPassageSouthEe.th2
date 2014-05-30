@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -799.92 -406.56 4799.53 2439.36
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {4179.09448819 1 1.0} {2107.21662655 0} PocketTopo/MainPassageSouth_e.xvi 0 {}
+
+
+scrap MainPassageSouthSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap MainPassageSouthSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap MainPassageSouthSE3 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

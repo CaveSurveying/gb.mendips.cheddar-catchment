@@ -1,0 +1,15 @@
+encoding  utf-8
+survey Buddles
+
+input Surface/Surface.th
+
+input Buddles6/Buddles6.th
+input Buddles7/Buddles7.th
+input Buddles9/Buddles9.th
+
+equate 0@MainPassageSouth.Buddles9 7@Surface 
+equate 0@Buddles6 14@Surface 
+equate 0@EntranceShaft.Buddles7 9@Surface 
+
+endsurvey
+

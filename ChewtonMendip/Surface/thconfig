@@ -1,0 +1,4 @@
+encoding  utf-8
+source Surface.th
+
+export model -o Surfaceth.3d

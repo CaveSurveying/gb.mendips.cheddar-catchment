@@ -1,0 +1,20 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 185.35m (surface 2.16m, duplicated 0.00m)\nvertical range: 17.56m (from 0@EntranceShaft.Buddles7 at 7.38m to 80@Pot.Buddles7 at -10.18m)\nnorth-south range: 29.37m (from 41@Main.Buddles7 at 8.72m to 63@Pot.Buddles7 at -20.65m)\neast-west range: 22.71m (from 75@Pot.Buddles7 at 12.46m to 26@Main.Buddles7 at -10.25m)\nnumber of shots: 540\nnumber of stations: 544"
+xth_cp_data_tree_insert 7 1 1 Buddles7 Buddles7 "" "" "length: 185.35m (surface 2.16m, duplicated 0.00m)\nvertical range: 17.56m (from 0@EntranceShaft.Buddles7 at 7.38m to 80@Pot.Buddles7 at -10.18m)\nnorth-south range: 29.37m (from 41@Main.Buddles7 at 8.72m to 63@Pot.Buddles7 at -20.65m)\neast-west range: 22.71m (from 75@Pot.Buddles7 at 12.46m to 26@Main.Buddles7 at -10.25m)\nnumber of shots: 540\nnumber of stations: 544"
+xth_cp_data_tree_insert 9 7 2 EntranceShaft EntranceShaft.Buddles7 "" "" "length: 7.90m (surface 2.16m, duplicated 0.00m)\nvertical range: 7.38m (from 0@EntranceShaft.Buddles7 at 7.38m to 3@EntranceShaft.Buddles7 at 0.00m)\nnorth-south range: 1.64m (from 3@EntranceShaft.Buddles7 at 0.00m to 0@EntranceShaft.Buddles7 at -1.64m)\neast-west range: 1.03m (from 1@EntranceShaft.Buddles7 at 0.50m to 2@EntranceShaft.Buddles7 at -0.53m)\nnumber of shots: 27\nnumber of stations: 28"
+xth_cp_data_tree_insert 24 7 2 Main Main.Buddles7 "" "" "length: 81.15m (surface 0.00m, duplicated 0.00m)\nvertical range: 10.88m (from 9@Main.Buddles7 at 0.92m to 23@Main.Buddles7 at -9.96m)\nnorth-south range: 21.33m (from 41@Main.Buddles7 at 8.72m to 35@Main.Buddles7 at -12.61m)\neast-west range: 19.55m (from 33@Main.Buddles7 at 9.30m to 26@Main.Buddles7 at -10.25m)\nnumber of shots: 235\nnumber of stations: 236"
+xth_cp_data_tree_insert 43 7 2 Pot Pot.Buddles7 "" "" "length: 80.51m (surface 0.00m, duplicated 0.00m)\nvertical range: 15.88m (from 92@Pot.Buddles7 at 5.70m to 80@Pot.Buddles7 at -10.18m)\nnorth-south range: 13.33m (from 83@Pot.Buddles7 at -7.32m to 63@Pot.Buddles7 at -20.65m)\neast-west range: 10.13m (from 75@Pot.Buddles7 at 12.46m to 98@Pot.Buddles7 at 2.33m)\nnumber of shots: 245\nnumber of stations: 246"
+xth_cp_data_tree_insert 72 7 2 Upper Upper.Buddles7 "" "" "length: 15.79m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.56m (from 50@Upper.Buddles7 at 2.85m to 43@Upper.Buddles7 at -3.71m)\nnorth-south range: 8.71m (from 46@Upper.Buddles7 at -4.14m to 50@Upper.Buddles7 at -12.85m)\neast-west range: 2.49m (from 50@Upper.Buddles7 at 6.69m to 46@Upper.Buddles7 at 4.20m)\nnumber of shots: 33\nnumber of stations: 34"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert map 1 21X1 p1 1 EntranceShaftM EntranceShaftM@EntranceShaft.Buddles7 "" ""
+xth_cp_map_tree_insert map 1 40X1 p1 1 MainM MainM@Main.Buddles7 "" ""
+xth_cp_map_tree_insert map 1 69X1 p1 1 PotM PotM@Pot.Buddles7 "" ""
+xth_cp_map_tree_insert map 1 80X1 p1 1 UpperM UpperM@Upper.Buddles7 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 185 27
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1397588972
+

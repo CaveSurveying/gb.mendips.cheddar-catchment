@@ -1,0 +1,20 @@
+encoding  utf-8
+survey Buddles9
+
+input BouncingBunny/BouncingBunny.th
+input CollectorsPeace/CollectorsPeace.th
+input MainPassageSouth/MainPassageSouth.th
+input StalChamber/StalChamber.th
+input Squeeze/Squeeze.th
+input UpperMainPassageSouth/UpperMainPassageSouth.th
+input WestSeriesSouth/WestSeriesSouth.th
+
+equate 157@CollectorsPeace 135@WestSeriesSouth
+equate 67@Squeeze 94@StalChamber
+equate 72@Squeeze 73@BouncingBunny
+equate 20@MainPassageSouth 20@UpperMainPassageSouth
+equate 3@MainPassageSouth 59@Squeeze
+equate 102@StalChamber 102@WestSeriesSouth
+
+endsurvey
+

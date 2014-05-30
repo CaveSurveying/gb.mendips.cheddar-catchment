@@ -1,0 +1,41 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -138.38 -373.0 830.27 2237.99
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {320.842519685 1 1.0} {1914.86916203 102} PocketTopo/WestSeriesSouth_p.xvi 0 {}
+
+
+scrap WestSeriesSouthSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap WestSeriesSouthSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap WestSeriesSouthSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap WestSeriesSouthSP4 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap WestSeriesSouthSPX126 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap WestSeriesSouthSPX120 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap WestSeriesSouthSPX112 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

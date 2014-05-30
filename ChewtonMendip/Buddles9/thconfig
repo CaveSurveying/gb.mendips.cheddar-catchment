@@ -1,0 +1,8 @@
+encoding  utf-8
+source Buddles9
+
+export model -o Buddles9.3d
+
+#export map -proj plan -o Buddles9.pdf
+
+export model -o Buddles9.lox
