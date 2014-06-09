@@ -28,7 +28,7 @@ copyright 2014 "CC BY SA NC"
 
   instrument  instruments "DistoX2-AA"
 
-station 0 "Buddles 0" entrance
+station 0 "Buddles 9" entrance
 
 data normal from to tape compass clino ignoreall
   extend right

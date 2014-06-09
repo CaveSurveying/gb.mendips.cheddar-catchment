@@ -5,6 +5,7 @@ input Surface/Surface.th
 
 input Buddles6/Buddles6.th
 input Buddles7/Buddles7.th
+input Buddles8_5/Buddles8_5.th
 input Buddles9/Buddles9.th
 
 equate 0@MainPassageSouth.Buddles9 7@Surface 
