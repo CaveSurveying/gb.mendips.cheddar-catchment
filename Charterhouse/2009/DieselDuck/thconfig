@@ -11,7 +11,7 @@ export map -proj plan -o DieselDuck.pdf
 
 #export map -proj extended -layout local -o DieselDuckEe.pdf
 
-#export model -fmt survex -o DieselDuckth.3d
+export model -fmt survex -o DieselDuckth.3d
 #Survex file showing centre line only
 
 #export model -o DieselDuck.lox
@@ -23,7 +23,7 @@ export map -proj plan -o DieselDuck.pdf
 layout local
 debug off
 scale 1 200
-symbol-hide group cave-centerline
+#symbol-hide group cave-centerline
 colour map-fg 100
 colour map-bg 90
 endlayout

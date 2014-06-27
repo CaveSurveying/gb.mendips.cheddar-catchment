@@ -1,0 +1,93 @@
+encoding  utf-8
+survey R66-11
+
+input R66-11.th2
+
+map R66-11M
+  R66-11SP1
+  R66-11SP2
+endmap
+
+centreline
+
+copyright 2014 "CC BY SA NC"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#Notes: Andrew Atkinson
+#Instruments: Clive Owen
+#Dog:
+#Distox2-AA 0.51
+
+  date 2014.06.26
+
+  team "Andrew Atkinson" notes
+  team "Clive Owen" instruments
+
+  instrument  instruments "Distox2-AA"
+
+  explo-date 2014.06.26
+  explo-team "Andrew Atkinson"
+  explo-team "Clive Owen"
+
+data normal from to tape compass clino ignoreall
+  extend right
+#Calabration check at AAs  
+#0  -  2.804  263.75  17.41  358  
+#0  -  2.792  263.33  17.24  175  
+#0  -  2.794  83.44  -18.0  351  
+0  -  0.439  311.84  -0.77  35  
+0  -  0.866  26.46  -35.47  46  
+0  -  1.312  227.75  -34.37  202  
+0  -  0.725  339.09  67.92  63  
+#0  1  4.168  53.37  -82.64  116  
+#0  1  4.172  50.92  -82.83  115  
+#0  1  4.175  50.22  -82.91  113  
+0  1  4.172  52.14  -82.79  Calculated leg from 3 above
+0  -  0.0  0.0  0.0  0  
+#0  2  3.333  35.46  20.87  87  
+#0  2  3.34  35.38  21.02  87  
+#0  2  3.372  35.58  21.15  87  
+0  2  3.348  35.42  21.02  Calculated leg from 3 above
+  extend left
+#0  3  3.638  230.03  3.41  178  
+#0  3  3.636  230.1  3.22  178  
+#0  3  3.637  230.16  3.26  178  
+0  3  3.637  230.06  3.3  Calculated leg from 3 above
+3  -  0.404  303.57  -6.23  333  top of arch over pitch
+3  -  0.288  135.01  5.41  154  
+3  -  1.027  123.16  -62.36  139  
+3  -  0.837  327.99  -64.35  330  
+3  -  1.545  98.46  13.16  154  
+3  -  1.407  77.4  15.55  161  
+3  -  2.391  70.58  66.47  185  
+#3  4  2.33  210.06  -31.95  143  
+#3  4  2.329  209.92  -32.01  143  
+#3  4  2.328  210.02  -32.0  143  
+3  4  2.329  209.99  -31.99  Calculated leg from 3 above
+  extend right
+4  -  0.0  0.0  0.0  0  natural white cross
+4  -  0.804  58.27  23.86  1  
+4  -  1.597  7.04  15.17  15  
+4  -  1.941  27.49  -11.83  21  
+4  -  1.774  24.48  40.95  5  
+4  -  3.102  341.88  20.28  9  
+4  -  3.007  146.74  -4.06  82  
+  extend left
+#4  5  9.209  103.01  80.55  219  
+#4  5  9.18  102.04  80.37  219  
+#4  5  9.18  102.62  80.53  217  
+4  5  9.19  102.53  80.48  Calculated leg from 3 above
+  extend right
+#4  6  7.414  12.35  -53.36  358  
+#4  6  7.424  12.18  -53.45  358  
+#4  6  7.432  12.18  -53.5  358  
+4  6  7.423  12.27  -53.43  Calculated leg from 3 above
+#7  6  1.902  82.42  -26.38  275  
+#7  6  1.898  82.32  -26.33  277  
+#7  6  1.899  82.29  -26.32  277
+#Reversed leg [AA 2014.06.27  
+6 7  1.9  82.37  -26.35  Calculated leg from 3 above
+7  -  0.0  0.0  0.0  0  nv from main line survey
+endcentreline
+endsurvey
+

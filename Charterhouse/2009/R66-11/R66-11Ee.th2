@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -280.31 -278.58 1681.89 1671.5
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1132.28346457 1 1.0} {867.637795276 0} PocketTopo/R66-11_e.xvi 0 {}
+
+
+scrap R66-11SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

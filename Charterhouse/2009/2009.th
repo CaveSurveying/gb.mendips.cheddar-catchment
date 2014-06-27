@@ -8,6 +8,7 @@ input PipeDream1/PipeDream1.th
 input PipeDream2/PipeDream2.th
 input PortalPool/PortalPool.th
 input Quicksand_Chamber/Quicksand_Chamber.th
+input R66-11/R66-11.th
 input Rip_Rift1/Rip_Rift1.th
 input Rip_Rift2/Rip_Rift2.th
 input RipRiftLadder/RipRiftLadder.th
@@ -17,6 +18,7 @@ input Time_Square/Time_Square.th
 
 
 equate 1.0@DieselDuck 1.42@Stream
+equate 1.22@DieselDuck 7@R66-11
 equate 1.43@DieselDuck 1.0@Time_Square
 equate 1.9@DieselDuck 1.0@Quicksand_Chamber
 equate 1.4@DieselDuck 1.7@Quicksand_Chamber

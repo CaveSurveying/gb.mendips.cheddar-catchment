@@ -1,0 +1,32 @@
+encoding  utf-8
+source R66-11.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o R66-11.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o R66-11Ee.pdf
+
+#export map -proj [elevation 15] -layout local -o R66-11E15.pdf
+
+export model -fmt survex -o R66-11th.3d
+#Survex file showing centre line only
+
+#export model -o R66-11.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o R66-11_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+symbol-hide group cave-centreline
+endlayout
+
+input ../../../common_layout.th
