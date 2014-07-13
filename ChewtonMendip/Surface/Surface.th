@@ -2,6 +2,9 @@ encoding  utf-8
 survey Surface
 
 centreline
+
+cs OSGB:ST
+
 #GPS taken by Ali and Pete Moody in 2014
  #  Shaft 3: 57407 52953, 57408 52951
  #  Shaft 6: 57300 52834, 57300 52840, 57302 52844
@@ -9,9 +12,10 @@ centreline
   #Gate @ end of track out into fields: 57375 53025, 57377 53026
 
 #As no heights set them to 0 which is obviously wrong!
-fix 14 57300 52834 0
-fix 14 57300 52840 0
-fix 14 57302 52844 0
+#Very close to 240 contour so set as that 13 July 2014
+fix 14 57300 52834 240
+fix 14 57300 52840 240
+fix 14 57302 52844 240
 
 date 1982.01.16
 

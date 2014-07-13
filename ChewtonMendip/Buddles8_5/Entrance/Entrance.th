@@ -11,13 +11,15 @@ endmap
 centreline
 copyright 2014 "CC BY SA NC"
 
+cs OSGB:ST
 
 #GPS readings taken by Ali and Pete Moody
 #23/04/2011     57273  52867
 #02/03/2014    57284  52868
 
-fix 0 57273  52867 0
-fix 0 57284  52868 0
+#heights fixed at 240 as that is nearest contour
+fix 0 57273  52867 240
+fix 0 57284  52868 240
 
 
 ### TRIP COMMENT FROM POCKETTOPO ###
