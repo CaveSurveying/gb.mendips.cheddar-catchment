@@ -1,0 +1,100 @@
+encoding  utf-8
+survey HighTimeAven
+
+input HighTimeAven.th2
+
+map HighTimeAvenM
+  HighTimeAvenSP1
+  HighTimeAvenSP2
+  HighTimeAvenSP3
+  HighTimeAvenSP4
+endmap
+
+centreline
+
+copyright 2014 "CC BY SA NC"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#Notes: Andrew Atkinson
+#Instruments: Pete Hall
+#Dog: Pete Hann
+#Distox2-AA 0.51
+
+  date 2014.07.12
+
+  team "Andrew Atkinson" notes
+  team "Pete Hall" instruments
+  team "Pete Hann" dog
+
+  instrument  instruments "Distox2-AA"
+
+  explo-date 2011
+  explo-team "Tom Chapman"
+  explo-team "Pete Hann"
+
+data normal from to tape compass clino ignoreall
+  extend left
+  #Calabration check in PuffPantRift
+#20  19  6.363  76.84  54.28  247  
+#20  19  6.361  76.81  54.25  247  
+#20  19  6.359  76.86  54.2  246  
+20  19  6.361  76.82  54.24  Calculated leg from 3 above
+20  -  1.403  55.26  5.32  260  nv above spit
+20  -  0.748  118.35  -2.63  251  
+20  -  2.205  187.61  -5.42  92  
+20  -  5.849  199.64  -2.83  95  
+20  -  4.045  209.92  -4.91  94  
+20  -  0.913  212.76  -5.99  95  
+#21  20  5.534  70.72  79.38  257  
+#21  20  5.539  70.43  79.3  257  
+#21  20  5.532  72.04  79.48  246  
+21  20  5.535  70.58  79.38  Calculated leg from 3 above
+21  -  3.082  222.68  2.5  80  nv
+21  -  2.859  204.15  2.97  88  
+21  -  1.037  154.93  3.72  82  
+21  -  2.534  71.8  8.89  265  
+21  -  1.281  92.47  9.47  260  
+#22  21  6.969  327.32  66.65  222  
+#22  21  6.972  327.3  66.67  222  
+#22  21  6.968  327.34  66.72  220  
+22  21  6.97  327.31  66.68  Calculated leg from 3 above
+22  -  2.763  242.89  0.27  302  nv
+22  -  2.084  265.25  -1.62  300  
+22  -  1.351  310.32  -0.05  313  
+22  -  1.665  11.67  3.72  85  
+#23  22  4.584  80.27  49.78  258  
+#23  22  4.58  80.06  49.69  260  
+#23  22  4.58  80.44  49.44  260  
+23  22  4.581  80.17  49.64  Calculated leg from 3 above
+23  -  1.865  80.02  8.99  265  nv
+23  -  1.582  131.76  4.71  265  
+23  -  1.569  163.7  2.36  267  
+23  -  6.344  215.93  -6.49  88  
+23  -  6.329  225.74  -5.35  92  
+23  -  1.268  225.47  65.3  122  
+23  -  1.581  157.07  -83.37  77  
+23  -  1.555  194.14  26.61  94  
+#24  23  4.324  59.61  42.63  253  
+#24  23  4.327  59.72  42.46  253  
+#24  23  4.325  59.79  42.45  251  
+24  23  4.325  59.66  42.51  Calculated leg from 3 above
+24  -  7.027  137.28  79.39  167  nv
+24  -  4.694  131.5  65.09  171  
+24  -  1.959  119.37  19.26  182  
+24  -  2.128  129.35  -49.72  0  
+24  -  1.355  80.58  -79.51  295  
+24  -  4.929  91.04  64.68  227  
+#25  24  4.8  21.61  38.67  99  
+#25  24  4.818  21.79  38.79  101  
+#25  24  4.801  21.63  38.84  102  
+25  24  4.806  21.7  38.77  Calculated leg from 3 above
+25  -  3.179  31.9  12.38  92  nv from previous survey
+25  -  2.293  9.17  10.72  94  
+25  -  5.575  302.32  83.3  181  
+25  -  1.975  107.36  -85.85  337  
+25  -  3.126  338.6  -35.99  189  
+25  -  1.784  331.13  -15.99  185  
+25  -  2.639  324.0  56.6  189  
+endcentreline
+endsurvey
+

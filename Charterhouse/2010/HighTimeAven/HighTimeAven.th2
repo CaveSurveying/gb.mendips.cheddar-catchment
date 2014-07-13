@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -175.51 -162.76 1053.07 976.54
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {676.811023622 1 1.0} {750.748031496 20} PocketTopo/HighTimeAven_p.xvi 0 {}
+
+
+scrap HighTimeAvenSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap HighTimeAvenSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap HighTimeAvenSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap HighTimeAvenSP4 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

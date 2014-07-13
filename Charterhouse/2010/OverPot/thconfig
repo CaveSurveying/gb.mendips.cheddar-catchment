@@ -11,7 +11,7 @@ export map -proj plan -layout local -o OverPot.pdf
 
 #export map -proj extended -layout local -o OverPotEe.pdf
 
-#export model -fmt survex -o OverPotth.3d
+export model -fmt survex -o OverPotth.3d
 #Survex file showing centre line only
 
 #export model -fmt therion -o OverPot.thm

@@ -3,10 +3,13 @@ survey 2010
 
 input DelayingTactics/DelayingTactics.th
 input HighTime/HighTime.th
+input HighTimeAven/HighTimeAven.th
+
 input Hyaena/Hyaena.th
 input HyaenaAven/HyaenaAven.th
 input OverPot/OverPot.th
 input PotOxbow/PotOxbow.th
+input PuffPantRift/PuffPantRift.th
 input SandWorm/SandWorm.th
 input SplashPoolInlet/SplashPoolInlet.th
 #input Skeleton/Skeleton.th
@@ -15,6 +18,7 @@ input Zebra/Zebra.th
 input ZebraInlet/ZebraInlet.th
 
 equate 1.0@DelayingTactics 1.17@SandWorm
+equate 25@HighTimeAven 1.9@UpperHighTime
 equate 1.0@HighTime 1.28@OverPot
 equate 1.9@HighTime 1.0@ZebraInlet
 equate 1.22@Hyaena 1.12@PotOxbow
@@ -27,6 +31,7 @@ equate 1.9@HighTime 1.0@Zebra
 equate 1.15@OverPot 1.16@PotOxbow
 equate 1.17@OverPot 1.0@PotOxbow
 equate 1.27@OverPot 1.9@PotOxbow
+equate 19@PuffPantRift 19@HighTimeAven 
 
 map 2010aM
   ZebraInletM@ZebraInlet

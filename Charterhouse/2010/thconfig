@@ -8,7 +8,7 @@ select 2010M@2010
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o 2010.pdf
+#export map -proj plan -layout local -o 2010.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o 2010Ee.pdf

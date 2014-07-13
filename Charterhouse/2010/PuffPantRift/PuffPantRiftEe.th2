@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -637.42 -535.92 3824.5 3215.54
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1375.87401575 1 1.0} {1368.44463561 0} PocketTopo/PuffPantRift_e.xvi 0 {}
+
+
+scrap PuffPantRiftSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -99,7 +99,8 @@ centreline
   1.9 - 328.36 6.17 1.862
   1.9 - 286.23 81.34 5.349
   1.9 - 96.58 -87.71 1.963
-  1.9 1.10 39.09 42.21 8.821
+ #Replaced by new survey [AA July 2014]
+ # 1.9 1.10 39.09 42.21 8.821
 endcentreline
 
 endsurvey
