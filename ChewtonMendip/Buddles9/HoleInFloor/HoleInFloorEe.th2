@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -164.14 -141.73 984.82 850.39
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {90.1572316488 1 1.0} {680.31496063 136} PocketTopo/HoleInFloor_e.xvi 0 {}
+
+
+scrap HoleInFloorSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

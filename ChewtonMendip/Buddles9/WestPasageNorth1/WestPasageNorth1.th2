@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -137.0 -354.58 822.02 2127.45
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {626.611622474 1 1.0} {429.614780588 111} PocketTopo/WestPasageNorth1_p.xvi 0 {}
+
+
+scrap WestPasageNorth1SP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap WestPasageNorth1SP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap WestPasageNorth1SP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

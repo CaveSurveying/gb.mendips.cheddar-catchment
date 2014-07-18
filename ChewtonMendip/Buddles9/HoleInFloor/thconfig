@@ -1,0 +1,32 @@
+encoding  utf-8
+source HoleInFloor.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout local -o HoleInFloor.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o HoleInFloorEe.pdf
+
+#export map -proj [elevation 15] -layout local -o HoleInFloorE15.pdf
+
+export model -fmt survex -o HoleInFloorth.3d
+#Survex file showing centre line only
+
+#export model -o HoleInFloor.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o HoleInFloor_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+#symbol-hide group cave-centreline
+endlayout
+
+input ../../../common_layout.th
