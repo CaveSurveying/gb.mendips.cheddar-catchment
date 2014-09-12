@@ -1,0 +1,83 @@
+encoding  utf-8
+survey R66-9Upper
+
+input R66-9Upper.th2
+
+map R66-9UpperM
+  R66-9UpperSP1
+ #R66-9UpperSP2
+endmap
+
+centreline
+
+copyright 2014 "CC BY SA NC"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#Notes: Andrew Atkinson
+#Instruments: Clive Owen
+#Dog:
+#Distox2-ubss1 0.41
+
+  date 2014.09.12 #date was wrong on pda, so top file is wrong date
+
+  team "Andrew Atkinson" notes
+  team "Clive Owen" instruments
+
+  instrument  instruments "Distox2-ubss1"
+
+data normal from to tape compass clino ignoreall
+  extend right
+#Calibration check at AAs
+#0  -  3.034  265.76  12.23  352  
+#0  -  3.03  265.16  12.51  174  
+#0  -  3.034  85.61  -13.45  0   
+#2  1  5.564  86.06  -70.52  29  
+#2  1  5.568  85.97  -70.5  28  
+#2  1  5.557  86.42  -70.35  26  
+2  1  5.563  86.02  -70.46  Calculated leg from 3 above
+2  -  1.651  167.58  -6.51  312  corner of rock
+2  -  0.705  133.67  12.77  4  
+2  -  0.712  202.15  -8.77  64  
+2  -  1.248  321.58  27.34  82  
+#3  2  4.074  79.55  -61.37  340  
+#3  2  4.073  79.55  -61.43  340  
+#3  2  4.072  79.6  -61.38  338  
+3  2  4.073  79.55  -61.39  Calculated leg from 3 above
+3  -  0.743  69.65  -0.02  85  
+3  -  3.105  130.94  -7.54  95  
+3  -  1.232  330.97  5.64  292  
+3  -  3.137  135.38  7.77  113  
+3  -  1.443  59.84  72.24  164  
+#4  3  2.198  136.83  -39.8  261  
+#4  3  2.202  136.94  -39.99  264  
+#4  3  2.199  137.01  -39.98  265  
+4  3  2.2  136.88  -39.92  Calculated leg from 3 above
+4  -  1.037  61.87  6.13  164  rock tip at start of rift
+4  -  0.504  131.18  -3.07  164  
+4  -  1.137  152.89  -57.66  274  
+4  -  1.72  142.93  -28.05  209  
+  extend left
+#4  5  5.235  213.82  13.1  12  
+#4  5  5.238  213.73  13.08  12  
+#4  5  5.231  213.84  13.1  12  
+4  5  5.235  213.77  13.09  Calculated leg from 3 above
+3  -  0.0  0.0  0.0  0  
+  extend right
+#6  3  4.811  207.42  -35.1  168  
+#6  3  4.813  207.6  -35.16  168  
+#6  3  4.792  207.28  -34.85  178  
+6  3  4.805  207.51  -35.04  Calculated leg from 3 above
+6  -  0.585  304.32  -7.07  92  
+6  -  0.434  302.84  55.31  88  
+6  -  1.98  121.83  -86.55  95  
+#6  7  8.582  22.71  22.49  22  
+#6  7  8.559  22.74  22.54  23  
+#6  7  8.552  22.69  22.45  26  
+6  7  8.564  22.72  22.5  Calculated leg from 3 above
+#6  8  10.971  59.56  -57.96  26  
+#6  8  10.979  59.49  -58.07  26  
+#6  8  10.992  59.81  -58.02  26  
+6  8  10.981  59.56  -58.02  Calculated leg from 3 above
+endcentreline
+endsurvey
+
