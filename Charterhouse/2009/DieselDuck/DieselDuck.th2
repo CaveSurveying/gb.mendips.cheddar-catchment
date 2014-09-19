@@ -1124,7 +1124,7 @@ point 2189.45102362 17048.8951181 station -name 1.16
 
 point 1785.35102362 17501.4151181 station -name 1.15
 
-point 816.46102362 18015.5951181 station -name 1.14
+#point 816.46102362 18015.5951181 station -name 1.14
 
 point 1240.47102362 18387.3251181 station -name 1.13
 
@@ -3682,5 +3682,4 @@ line wall -reverse on
 endline
 
 endscrap
-
 
