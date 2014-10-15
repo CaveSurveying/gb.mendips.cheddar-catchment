@@ -1,6 +1,7 @@
 encoding  utf-8
 survey Spider
 
+input 4TonneShaft/4TonneShaft.th
 input Entrance/Entrance.th
 input Hazelnut/Hazelnut.th
 input TheDig/TheDig.th
@@ -18,6 +19,7 @@ map SpiderEeM
   TheDigMEe@TheDig
 endmap
 
+equate 7.0@4TonneShaft 3.8@TheDig
 equate 1.10@Entrance 2.0@Hazelnut
 equate 2.9@Hazelnut 3.0@TheDig
 

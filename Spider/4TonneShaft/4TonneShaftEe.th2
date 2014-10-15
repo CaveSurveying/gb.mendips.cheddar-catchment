@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -182.05 -230.26 1092.28 1381.56
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {106.850393701 1 1.0} {1266.42625737 3.8} PocketTopo/4TonneShaft_e.xvi 0 {}
+
+
+scrap 4TonneShaftSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

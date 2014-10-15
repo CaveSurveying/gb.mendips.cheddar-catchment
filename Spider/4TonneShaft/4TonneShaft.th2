@@ -1,0 +1,24 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -193.5118110237 -120.469975804 298.7086614172 1080.4119139596
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {139.0051181102 1 1.0} {791.564518124 7.2} PocketTopo/4TonneShaft_p.xvi 0 {}
+
+
+
+scrap 4TonneShaftSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap 4TonneShaftSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap 4TonneShaftSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
