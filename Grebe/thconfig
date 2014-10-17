@@ -2,6 +2,9 @@ encoding  utf-8
 source Grebe.th
 # Change name to the main therion file
 
+select Grebe@Grebe_Swallet
+
+
 
 #Surveys to output
 #-----------------

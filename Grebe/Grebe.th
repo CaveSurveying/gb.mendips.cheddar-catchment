@@ -31,4 +31,20 @@ equate 233@G6 233@G7
 input G8/G8.th
 equate 246@G7 246@G8
 
+input Predition/Predition.th
+equate 208@G4 9@Predition
+
+map Grebe -proj plan
+G1
+G2
+G3
+G4
+G5
+G6
+G7
+G8
+PreditionM@Predition
+endmap
+
 endsurvey
+

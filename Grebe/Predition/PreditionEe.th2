@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -376.69 -196.09 2260.11 1176.57
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {188.342770824 1 1.0} {915.920322828 0} PocketTopo/Predition_e.xvi 0 {}
+
+
+scrap PreditionSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
