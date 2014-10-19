@@ -14,12 +14,16 @@ survey WestPassage -title "West Passage"
   equate 1.15@LRDisto.LinkRift WP49
   
   # OPTION: Include Pony survey
-  equate 32@WP.Pony RI42
-  input WestPassage.Pony.th
+  #equate 32@WP.Pony RI42
+  #input WestPassage.Pony.th
 
   # OPTION: Include Centre Line Survey.  
-  equate d11@CentreLineOnly 24@WP.Pony
-  input WestPassage.Centre.th
+  #equate d11@CentreLineOnly 24@WP.Pony
+  #input WestPassage.Centre.th
+
+  #TEMP: LinkToo
+  input wp1.th
+  equate 1.0a@wp1 2.34@WPDisto
   
   input WestPassage.Disto.th
   input WestPassage_s0.th2		# West Passage chamber below Royal Icing, with entrance to Neverland
@@ -27,6 +31,7 @@ survey WestPassage -title "West Passage"
   input WestPassage_s2.th2		# Vadose traverses, with connection to Rift and Tube connections to Neverland
   input WestPassage_s3.th2		# Final section with terminal boulder choke
   #input WestPassageRift_s1.th2
+
 
   # join WestPassage_s2      WestPassage_s3 # This produces an error, and anyway is not required (s2 is higher level rift)
   join WestPassage_s0 	   WestPassage_s1

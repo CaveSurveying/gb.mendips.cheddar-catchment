@@ -24,7 +24,7 @@ copyright 2014 "GNU GPL"
 
     #declination   deg  	# BGS at 2014.02.08 51.2987N 2.71038W 0.2km.  2010 Model. 
       				# http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html
-    declination -1.4 deg    	# Allign to grid, Grid North +0.5535 deg
+    declination -1.46 deg    	# Allign to grid, Grid North +0.5535 deg
 
 data normal from to tape compass clino ignoreall
   extend left

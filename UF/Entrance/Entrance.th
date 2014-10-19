@@ -48,14 +48,25 @@ survey Entrance -title "Entrance"
 	equate 1@MidnightChamber M2@MCGPaper 
 
 	input WillieStanton/WillieStanton.th
-	equate 7@Surface.WS		LIMEKILN
-	equate 18@FS.WS			ENTRANCE
-	#equate 46@FS.WS		R6@MCGPaper
+	equate 7@Surface.WS	LIMEKILN
+	equate 18@FS.WS		ENTRANCE
+	#equate 46@FS.WS	R6@MCGPaper
+	#Export fixed stations
+	equate WS18		ENTRANCE	# North edge of top of concrete ring
+	equate WS24		24@FS.WS        # Large shallow drill mark on stal corbel on S wall of half-way-house.
+	equate WS28		28@FS.WS	# Drill mark in E wall above spring, at old sump
+	equate WS31		31@FS.WS	# Smoke mark on roof projection opposite side passage
+	equate WS37		37@FS.WS	# tip of 2nd longest stalactite
+	equate WS43		43@FS.WS	# Top of sharp rock in chamber
+	equate WS50		50@FS.WS	# drillmark 1.5m up on base of big stal column
+	equate WS60		60@FS.WS	# Smoked broken stal in roof just before downstep of 0.6m
+	equate WS65		65@FS.WS	# Drillmark in middle of roof in niche facing up passage, in stal <= NOT WHERE I THINK IT IS
+	
 	
 	input EntranceDisto2011.th
-	equate 0.0@Disto2011	24@FS.WS
-	#equate 0.5@Disto2011	28@FS.WS
-	#equate 0.19@Disto2011	50@FS.WS
+	equate 0.0@Disto2011	WS24
+	#equate 0.5@Disto2011	WS28
+	#equate 0.19@Disto2011	WS50
 	#equate 0.16@Disto2011	R6@MCGPaper
 	
 	input MidnightPassage/MidnightPassage.th
@@ -74,6 +85,21 @@ survey Entrance -title "Entrance"
 	equate E13		1.13@LavatoryTrap
 	join wall_Es3_1 l68-558-968@LavatoryTrap
 	join wall_Es3_2 l4-715-776@LavatoryTrap
+	
+	input Entrance2014/Entrance2014.th
+	equate 1.5@Entrance2014		WS24
+	#equate 1.8@Entrance2014	apparently not an existing station!!
+	#equate 1.10@Entrance2014	WS28
+	#equate 1.11@Entrance2014	0.6@Disto2011
+	#equate 1.16@Entrance2014	0.13@Disto2011
+	# Export fixed stations
+	equate BC1		1.1@Entrance2014	# In head wall above drop, 5mm drill hole, yellow plug, ss screw, plastic reflector
+	equate BC2		1.19@Entrance2014	# tip of stal
+	equate BC3		1.21@Entrance2014	# tip of stal
+	equate BC4		1.291@Entrance2014	# 1" drill mark above passage at head height, facing up passage  Sounds like WS65 but in wrong place!!!!
+	equate BC5		1.33@Entrance2014    	# highest tip of obvious stal-coated boulder in chamber below aven
+	equate BC6		1.42@Entrance2014	# 1" dill hole in Southern (RH) side wall 
+	equate BC7		1.50@Entrance2014	# In side wall close to floor, 5mm drill hole, yellow plug, ss screw, plastic reflector
 
 	#Experimental - Close loops
 	#equate B6@MCGPaper	1.20@ByPassPassage  #(Lavatory trap)

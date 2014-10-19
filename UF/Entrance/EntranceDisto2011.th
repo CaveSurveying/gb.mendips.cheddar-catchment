@@ -49,11 +49,6 @@ centreline
   0.4 - 33.12 -16.04 1.780
   0.4 - 70.36 -15.90 1.639
   0.4 0.5 90.52 -7.74 3.580
-endcentreline
-
-centreline
-  date 2011.11.12
-  data normal from to compass clino tape
   extend right
   0.5 - 195.28 1.61 0.960
   0.5 - 167.15 1.40 0.490

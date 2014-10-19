@@ -1,16 +1,14 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -261.0 -3158.0 4945.0 1249.4529
-##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {1599.66 1 1.0} {882.849 s22} 0.Maps/WallStreet.xvi 0 {}
+##XTHERION## xth_me_area_adjust -261.0 -3158.0 4945.0 1274.0851
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {-133.0 1 1.0} {682.0 {}} {WallStreet 2012-02.jpg} 0 {}
+##XTHERION## xth_me_image_insert {1598.558 1 1.0} {883.616 s22@WallStreet} 0.Maps/WallStreet.xvi 0 {}
 
 
 
 scrap WallStreet_s1 -scale [-128.0 -128.0 1917.5525 -128.0 0.0 0.0 51.9570335 0.0 m]
 
 point 717.0 1026.0 label -orientation 5 -text "Threadneedle Street" -scale m
-
-point 158.0 147.0 dig
 
 point 152.0 941.0 dig
 
@@ -42,85 +40,14 @@ line wall
   900.0 540.0 980.0 496.0 996.0 490.0
   1012.0 484.0 1066.0 412.0 1074.0 403.0
   1082.0 394.0 1108.0 373.0 1116.0 363.0
-  1124.0 353.0 1117.0 347.0 1126.0 329.0
-  1135.0 311.0 1143.6 261.68 1150.0 254.0
-  1155.0 248.0 1157.5 232.5 1158.0 228.0
-  smooth off
-endline
-
-line arrow -head end
-  533.0 -155.0
-  576.0 22.0
-endline
-
-line arrow -head end
-  436.0 17.0
-  480.0 94.0
-endline
-
-line arrow -head end
-  406.0 231.0
-  402.0 190.0
-endline
-
-point 529.0 -189.0 label -text "Large dry gour" -scale xs -align l
-
-point 421.0 -6.0 label -text "Flat-out squeeze" -scale xs -align l
-
-point 405.0 261.0 label -text "Mud bank" -scale xs -align l
-
-point 245.0 146.0 air-draught -orientation 90.8
-
-point 691.0 -15.0 label -text "04/02/2012" -scale xs -align r
-
-line section -reverse on -direction both
-  579.0 178.0
-  609.0 128.0 632.0 82.0 669.0 23.0
-  smooth off
-endline
-
-line wall -subtype unsurveyed
-  736.0 157.0
-  734.0 142.0 715.0 123.0 706.0 139.0
-  697.0 155.0 710.0 166.0 677.0 160.0
-  644.0 154.0 638.0 157.0 637.0 139.0
-  636.0 121.0 629.0 112.0 606.0 110.0
-  583.0 108.0 596.0 130.0 578.0 129.0
-  560.0 128.0 502.0 111.0 485.0 126.0
-  468.0 141.0 468.0 167.0 434.0 164.0
-  400.0 161.0 338.0 166.0 338.0 166.0
-  smooth off
-  338.0 166.0 333.0 129.0 339.0 124.0
-  345.0 119.0 400.0 98.0 421.0 103.0
-  442.0 108.0 467.0 118.0 471.0 116.0
-  475.0 114.0 518.0 103.0 533.0 92.0
-  548.0 81.0 563.0 59.0 566.0 55.0
-  569.0 51.0 589.0 43.0 594.0 46.0
-  599.0 49.0 599.0 88.0 607.0 93.0
-  615.0 98.0 714.0 109.0 737.0 120.0
-  smooth off
-endline
-
-line wall -reverse on -subtype unsurveyed
-  736.0 157.0
-  altitude .
-  736.0 157.0 1146.5 225.5 1158.0 228.0
-  smooth off
-endline
-
-line wall -subtype unsurveyed
-  744.0 120.0
-  753.0 122.0 1168.0 188.5 1183.5 189.5
-  1242.95 193.34 1274.37 195.25 1274.16 208.539
-  1273.29 263.33 1184.5 223.25 1181.5 230.25
-  smooth off
+  1124.0 353.0 1122.69 348.86 1126.0 329.0
+  1130.0 305.0 1140.5 280.0 1143.64 269.629
 endline
 
 line wall
-  1181.5 230.25
-  1178.5 237.25 1155.0 265.0 1152.0 275.0
-  1149.0 285.0 1124.0 333.0 1133.0 340.0
-  1142.0 347.0 1154.3 358.2 1148.65 369.599
+  1153.25 266.0
+  1150.25 274.75 1131.5 333.5 1133.0 340.0
+  1135.56 351.1 1154.3 358.2 1148.65 369.599
   1143.0 381.0 1101.0 384.0 1076.0 422.0
   1051.0 460.0 999.0 526.0 982.0 541.0
   965.0 556.0 927.0 587.0 913.0 599.0
@@ -141,60 +68,55 @@ line wall
   mark south
 endline
 
-point 947.98 177.049 station -name wp12@WallStreet
+point 1143.64 269.629 station -name wp9@WallStreetCC
 
-point 1274.16 208.539 station -name wp11@WallStreet
+point 1121.69 343.119 station -name wp8@WallStreetCC
 
-point 1180.86 229.059 station -name wp10@WallStreet
+point 1148.65 369.599 station -name wp7@WallStreetCC
 
-point 1143.64 269.629 station -name wp9@WallStreet
+point 1081.84 404.199 station -name wp6@WallStreetCC
 
-point 1121.69 343.119 station -name wp8@WallStreet
+point 1009.54 509.429 station -name wp5@WallStreetCC
 
-point 1148.65 369.599 station -name wp7@WallStreet
+point 895.25 573.609 station -name wp4@WallStreetCC
 
-point 1081.84 404.199 station -name wp6@WallStreet
+point 713.91 714.629 station -name wp2@WallStreetCC
 
-point 1009.54 509.429 station -name wp5@WallStreet
-
-point 895.25 573.609 station -name wp4@WallStreet
-
-point 713.91 714.629 station -name wp2@WallStreet
-
-point 748.75 677.879 station -name wp3@WallStreet
+point 748.75 677.879 station -name wp3@WallStreetCC
 
 line section -reverse on -direction both
   668.0 687.0
   698.0 707.0 726.0 727.0 767.0 749.0
+  smooth off
 endline
 
 point 836.91 716.629 label -text "02/06/2007" -scale xs -align r
 
-point 644.71 804.339 station -name wp1@WallStreet
+point 644.71 804.339 station -name wp1@WallStreetCC
 
-point 178.72 960.389 station -name ws11@WallStreet
+point 178.72 960.389 station -name ws11@WallStreetCC
 
-point 306.13 946.079 station -name ws10@WallStreet
+point 306.13 946.079 station -name ws10@WallStreetCC
 
-point 407.3 914.339 station -name ws9@WallStreet
+point 407.3 914.339 station -name ws9@WallStreetCC
 
-point 614.41 894.779 station -name ws8@WallStreet
+point 614.41 894.779 station -name ws8@WallStreetCC
 
-point 735.62 863.519 station -name ws7@WallStreet
+point 735.62 863.519 station -name ws7@WallStreetCC
 
-point 911.0 871.629 station -name ws6@WallStreet
+point 911.0 871.629 station -name ws6@WallStreetCC
 
-point 990.46 863.999 station -name ws5@WallStreet
+point 990.46 863.999 station -name ws5@WallStreetCC
 
-point 1066.81 848.489 station -name ws4@WallStreet
+point 1066.81 848.489 station -name ws4@WallStreetCC
 
-point 1162.73 863.039 station -name ws3@WallStreet
+point 1162.73 863.039 station -name ws3@WallStreetCC
 
-point 1435.93 837.029 station -name ws2@WallStreet
+point 1435.93 837.029 station -name ws2@WallStreetCC
 
-point 1528.04 808.159 station -name ws1@WallStreet
+point 1528.04 808.159 station -name ws1@WallStreetCC
 
-point 1598.66 882.849 station -name s22@WallStreet
+point 1598.66 882.849 station -name s22@WallStreetCC
 
 endscrap
 

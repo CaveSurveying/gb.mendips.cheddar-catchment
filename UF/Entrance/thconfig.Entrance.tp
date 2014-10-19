@@ -12,7 +12,11 @@ endlayout
  
 #cs EPSG:27700
 
-select EntranceDisto_map@Entrance
+#select EntranceDisto_map@Entrance
+select Entrance2014@Entrance
+select Disto2011@Entrance
+select WS@Entrance
+select TK1986@Entrance
 
 export model -format survex -o 0.Maps/Entrance.3d
 export map -projection plan -layout l1 -o 0.Maps/Entrance.pdf

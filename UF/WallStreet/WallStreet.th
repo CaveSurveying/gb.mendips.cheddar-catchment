@@ -1,89 +1,22 @@
 encoding  utf-8
 survey WallStreet -title "Wall Street"
 
-#Surveyed 7/7/7
-#Team Julie H, Bill C, Mike R, Pete B
-#MCG Standard Compass + Clino
-#Tape Measureements adjusted for 20ms of missing tape
-#First survey station is the permanently marked S22 in the main stream
-#Stations ws1 to ws10 are along the passage from the stream (no name ? Threadneedle Street (Mike R, Bill C)).
-#Stations wp1-wp12 are in Wall Street.
-#A survey mark (triangle) was scratched on a raised rock at ws8 this is at the junction with Wall Street
-#At WS9 there are some large fallen blocks, the largest approx 2x3x3m.
-#The passage that leaves the stream at SS2 closes down with small choked and calcited blocks 2m? beyond ws11.
-#On the left between ws10 and ws11 there are some high avens.
-#A small stream flows from ws1 to the main stream.
-#Wp1 is at the top of the Wall Street break through mound.
-#Wp4 was on the arched roof, L+R are the width of the passage on the floor.
-#Some of the later 0 elevations were taken be using stations on a horizontal crystal tideline.
-#Wp6 was ontop of a stal column, L+R are the width of the passage on the floor.
-#Wp11 is a dead end, two legs from wp10.
-#
-#LRUD at station n is taken with the view from station n-1 to station n
-#
-#Station1, Station2, Distance (m), Compass Bearing degrees, Elevation degrees, Left (m), Right(m), Up(m), Down(m)
-#
-#Distances with ? are unmeasured estimates.
-#In Wall Street itself the compass and clino were getting very difficult to
-#read (wet and muddy). Bring on some better technology!
-#
-#I was scribe and tape, Julie then Mike and Pete were Compass + Clino. Pete
-#did some tape work too. I have some profile sketches in the notebook. If you
-#want them, I could scan them for you.
+	input WallStreet.th2
 
-  centreline
+	map WallStreet_map
+		WallStreetM
+		WallStreetDigM@WallStreetDig
+	endmap
 
-    units clino compass degree
-    units length meter
-    team "Bill Chadwick" notes
-    team "Julie Hesketh" 
-    team "Mike Richardson"
-    team "Peat Bennett"
-    instrument length  "MCG tape (missing end)"
-    instrument compass  "MCG"  
-    instrument clino  "MCG"
-    date 2007.07.07
+	map WallStreetM
+		WallStreet_s1
+	endmap
 
-    #declination -3.001 deg  	# BGS at 2007.07.07 (2007.52) 51.2987N 2.71038W
-    #declination -3.002 deg  	# BGS at 2007.07.07 (2007.52) 51.2987N 2.71038W Alt 0.2km.  2010 Model.  Updated Nov 2011
-				# http://www.geomag.bgs.ac.uk/gifs/wmm_calc.html
-    declination -2.449 deg    	# Allign to grid, Grid North +0.5535 deg
 
-    extend left
-    data normal from to length compass clino left right up down
-    s22	ws1	4.97	226	+30	1.80	1.70	3.5	0.00 # Up estimated
-    ws1	ws2	4.50	290	+26	1.25	0.50	2.30	0.10
-    ws2	ws3	11.50	278	0	0.60	1.64	0.70	0.10
-    ws3	ws4	4.11	264	+8	0.24	0.23	3.5	0.60 # Up estimated
-    ws4	ws5	3.27	284	+4	0.67	0.75	0.30	0.32
-    ws5	ws6	3.56	278	+20	0.94	1.00	1.70	0.70
-    ws6	ws7	7.94	270	+22	1.12	1.35	1.63	0.90
-    ws7	ws8	5.36	287	+12	0.90	1.30	8.5	0.63 # Up estimated
-	mark ws8 fixed
-	station ws8 "WS8 A survey mark (triangle) was scratched on a raised rock" attr print "true" attr Code "fixed" attr Name "WS8" attr LR "left"
-
-    ws8	ws9	9.47	278	+23	0.50	0.90	10.0	0.10 # Up estimated
-    ws9	ws10	4.54	290	+12	1.50	1.20	1.10	0.60
-    ws10 ws11	5.40	279	+5	0.65	0.57	0.50	0.55
-	station ws11 "Up through hanging boulders!" dig continuation attr name "WS11" attr dig "dig"
-
-    extend right    
-    ws8	wp1	4.25	164	+20	0.86	0.44	4.0	0.00 # Up estimated
-    wp1	wp2	4.82	145	+10	0.13	0.13	0.79	0.00
-    wp2	wp3	2.13	139	-3	0.51	0.74	0.51	0.51
-    wp3	wp4	7.61	128	+8	1.25	1.25	0.0	0.94
-    wp4	wp5	5.51	122	-5	0.00	1.09	0.84	0.49
-    wp5	wp6	5.35	148	0	0.13	0.13	0.48	0.55
-    wp6	wp7	3.15	120	0	0.00	1.44	2.0	1.15 # Up estimated
-    wp7	wp8	1.58	228	0	0.54	0.00	1.60	1.11
-    wp8	wp9	3.22	166	0	0.44	0.00	0.87	0.00
-    wp9	wp10	2.32	140	-7	0.00	0.92	1.18	1.20
-    data normal from to length compass clino
-    wp10 wp11	4.0	105	0					# tape estimated
-    wp10 wp12	10.0	260	0					# tape estimated
-	station wp12 "Low wide passage with false floor" dig continuation attr name "WP12" attr dig "dig"
+	input WallStreetCC.th
+	equate s22	s22@WallStreetCC
 	
-  endcentreline
+	input WallStreetDig/WallStreetDig.th
+	equate wp09@WallStreetDig	wp9@WallStreetCC
+	
 endsurvey
-
- 

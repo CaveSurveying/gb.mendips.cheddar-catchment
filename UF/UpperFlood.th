@@ -93,8 +93,7 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
    input WallStreet/WallStreet.th
    equate s22@WallStreet    22@Leg2.MalcolmsWay
 
-   input WallStreet/WallStreet.th2
-   join WallStreet_s1  MalcolmsWay_s3@MalcolmsWay
+#   join WallStreet_s1  MalcolmsWay_s3@MalcolmsWay
    
    input CharnelPassage/CharnelPassage.th
    #input CharnelPassage/CharnelPassage_CC.th2
@@ -218,6 +217,7 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
        RoyalIcing_m1@RoyalIcing
        SouthPassage_m1@SouthPassage
        EastPassage_map@EastPassage
+       WallStreet_map@WallStreet
        WestPassage_m0@WestPassage
        WestPassage_mOffset@WestPassage [-15 -90 m] below
        WestPassage_m3@WestPassage
@@ -237,8 +237,6 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
        CharnelPassage_s2
        break
        CharnelPassage_s1       
-       break
-       WallStreet_s1
    endmap
    
    map UF_mContinuations
