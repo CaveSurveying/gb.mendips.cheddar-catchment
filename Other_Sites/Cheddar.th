@@ -15,16 +15,16 @@ fix BedStead 48550 54600 171 #ST 4855 5460 171
 station BedStead "" entrance
 fix BlackRockQuarry 48600 54660 192 #ST 4860 5466 192
 station BlackRockQuarry "" entrance
-fix BlackRockRift 48180 54630 158 #ST 4818 5463 158
-station BlackRockRift "" entrance
+#fix BlackRockRift 48180 54630 158 #ST 4818 5463 158
+#station BlackRockRift "" entrance
 #fix BoneHole 48050 54720 185 #ST 4805 5472 185
 #station BoneHole "" entrance
 #fix Boxs 46310 54430 93 #ST 4631 5443 93
 #station Boxs "" entrance
 #fix BrockHole 47400 54330 215 #ST 4740 5433 215
 #station BrockHole "" entrance
-fix Canyon 46980 54300 108 #ST 4698 5430 108
-station Canyon "" entrance
+#fix Canyon 46980 54300 108 #ST 4698 5430 108
+#station Canyon "" entrance
 #fix Coxs 46460 53900 23 #ST 4646 5390 23
 #station Coxs "" entrance
 #fix WarrenFarmSwallet 49360 54580 235
@@ -52,8 +52,8 @@ fix NodsPot 47640 54900 236 #ST 4764 5490 236
 station NodsPot "" entrance
 fix PaveysCave 46430 53850 21 #ST 4643 5385 21
 station PaveysCave "" entrance
-fix PigsHole 47700 54550 133 #ST 4770 5455 133
-station PigsHole "" entrance
+#fix PigsHole 47700 54550 133 #ST 4770 5455 133
+#station PigsHole "" entrance
 fix PittardsCrawl 47540 54480 139 #ST 4754 5448 139
 station PittardsCrawl "" entrance
 #fix PrideEvansAttic 46770 54090 97 #ST 4677 5409 97
@@ -72,8 +72,8 @@ fix SoldiersHole 46870 54000 87 #ST 4687 5400 87
 station SoldiersHole "" entrance
 fix SowsHole 47853 54567 139 #ST 4785 5456 139
 station SowsHole "" entrance
-fix SparryFissure 48020 54580 151 #ST 4802 5458 151
-station SparryFissure "" entrance
+#fix SparryFissure 48020 54580 151 #ST 4802 5458 151
+#station SparryFissure "" entrance
 fix SpiderHole 48060 54240 184 #ST 4806 5424 184
 station SpiderHole "" entrance
 fix SugerLoafRock 46900 54150 54 #ST 4690 5415 54

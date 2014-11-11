@@ -1,0 +1,53 @@
+encoding  utf-8
+survey Entrance -namespace off
+
+input Entrance.th2
+
+map EntranceM
+  EntranceSP1
+endmap
+
+centreline
+cs OSGB:ST
+
+copyright 2014 "CC BY SA NC"
+
+station 0 "Sparry Fissure" entrance
+#Entrance taken from MCRA November 2014,  (	ST 4802 5458 151)
+fix 0 48020 54580 151
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#Notes: Andrew Atkinson
+#Instruments: Alison Moody
+#Dog:
+#Distox2-ubss1 0.41
+
+  date 2014.11.10
+
+  team "Andrew Atkinson" notes
+  team "Alison Moody" instruments
+
+  instrument  instruments "Distox2-ubss1-2412"
+
+data normal from to tape compass clino ignoreall
+  extend right
+#Calabration check in BoneHole/Bone3/Bone3.th 
+0  -  0.908  145.93  -73.59  194  nv
+0  -  0.913  66.98  -73.02  104  
+0  -  0.44  31.1  -25.99  88  
+0  -  0.298  76.14  50.11  54  
+#0  1  1.018  94.7  -15.42  60  
+#0  1  1.017  94.63  -15.96  53  
+#0  1  1.023  94.88  -15.72  52  
+0  1  1.019  94.67  -15.7  Calculated leg from 3 above
+1  -  0.168  191.37  6.45  296  nv
+1  -  0.938  45.21  82.56  42  
+1  -  0.723  190.17  -64.21  261  
+1  -  0.72  194.41  -80.38  272  
+#1  2  2.685  110.07  -23.51  302  
+#1  2  2.685  110.02  -23.32  302  
+#1  2  2.671  109.67  -22.93  302  
+1  2  2.68  110.07  -23.25  Calculated leg from 3 above
+endcentreline
+endsurvey
+

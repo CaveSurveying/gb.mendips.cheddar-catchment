@@ -1,35 +1,30 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -165.67 -211.02 994.02 1266.14
-##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {107.25787401600002 1 1.0} {1044.63503937 1.4} PocketTopo/Bone2_p.xvi 0 {}
+##XTHERION## xth_me_area_adjust -165.67 -211.5 994.02 1268.98
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {297.007874016 1 1.0} {1122.28346457 1.0} PocketTopo/Bone2_p.xvi 0 {}
 
 
-
-scrap Bone2SPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap Bone2SPl2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+scrap Bone2SP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
 endscrap
 
 
-
-scrap Bone2SPl3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap Bone2SPl4 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+scrap Bone2SP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
 endscrap
 
 
+scrap Bone2SP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
-scrap Bone2SX1.17 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+endscrap
+
+
+scrap Bone2SP4 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap Bone2SPX1.17 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
 endscrap
 

@@ -1,0 +1,95 @@
+encoding  utf-8
+survey Entrance -namespace off
+
+input Entrance.th2
+
+map EntranceM
+  EntranceSP1
+endmap
+
+centreline
+cs OSGB:ST
+
+copyright 2014 "CC BY SA NC"
+
+station 0 "BlackrockRift" entrance
+#Entrance taken from MCRA November 2014,  (ST 4818 5463 158)
+fix 0 48180 54630 158
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#Notes: Andrew Atkinson
+#Instruments: Alison Moody
+#Dog:
+#Distox2-ubss1 0.41
+
+  date 2014.11.10
+
+  team "Andrew Atkinson" notes
+  team "Alison Moody" instruments
+
+  instrument  instruments "Distox2-ubss1-2412"
+
+data normal from to tape compass clino ignoreall
+  extend right
+#Calabration check in BoneHole/Bone3/Bone3.th  
+0  -  0.825  78.5  -14.79  78  nv back wall of entrance
+0  -  1.207  336.03  -0.39  271  
+0  -  1.139  30.25  -56.26  1  
+0  -  0.541  28.72  56.02  222  
+0  -  0.947  235.07  -40.32  278  
+#1  0  1.46  324.96  51.32  271  
+#1  0  1.46  325.31  51.27  270  
+#1  0  1.459  324.99  51.3  270  
+1  0  1.46  325.13  51.3  Calculated leg from 3 above
+1  -  0.317  218.13  27.64  32  nv rock
+1  -  0.54  226.58  -81.86  135  
+1  -  0.301  99.88  6.83  260  
+1  -  0.621  92.01  -16.68  260  
+1  -  0.81  91.39  -51.69  264  
+#2  1  2.692  348.66  37.25  241  
+#2  1  2.693  348.31  37.25  241  
+#2  1  2.691  348.21  37.21  241  
+2  1  2.692  348.48  37.24  Calculated leg from 3 above
+2  -  0.881  258.68  -72.6  185  nv
+2  -  0.733  79.93  -59.34  271  
+2  -  0.539  79.58  -2.33  244  
+#3  2  2.612  357.98  46.25  282  
+#3  2  2.613  358.14  46.38  282  
+#3  2  2.614  358.13  46.42  281  
+3  2  2.613  358.06  46.35  Calculated leg from 3 above
+3  -  0.4  205.89  69.83  74  nv
+3  -  0.781  251.95  -77.5  163  
+3  -  0.782  309.67  -87.85  219  
+3  -  0.432  63.47  -23.03  303  
+3  -  0.88  76.24  3.65  288  
+#4  3  1.453  343.25  36.92  47  
+#4  3  1.456  343.34  37.23  49  
+#4  3  1.451  343.27  36.97  49  
+4  3  1.453  343.3  37.04  Calculated leg from 3 above
+4  -  0.534  318.36  8.25  60  nv
+4  -  0.604  332.31  -52.87  101  
+4  -  0.723  320.34  57.04  75  
+4  -  0.332  89.12  12.97  345  
+4  -  0.502  208.34  -1.37  298  
+#4  5  2.117  173.69  -54.1  326  
+#4  5  2.119  173.92  -54.12  326  
+#4  5  2.124  174.1  -54.07  326  
+4  5  2.12  173.81  -54.1  Calculated leg from 3 above
+4  -  0.0  0.0  0.0  0  
+  extend left
+#6  4  2.178  85.18  -15.72  315  
+#6  4  2.178  85.05  -15.81  315  
+#6  4  2.178  85.0  -15.73  313  
+6  4  2.178  85.11  -15.75  Calculated leg from 3 above
+6  -  1.114  348.51  -74.81  99  
+6  -  1.07  328.69  -82.09  74  
+6  -  0.203  183.5  5.39  309  
+6  -  0.487  166.27  53.34  306  
+6  -  0.626  79.29  75.98  7  
+#6  7  1.024  255.64  9.7  270  
+#6  7  0.998  254.97  9.6  270  
+#6  7  0.999  255.76  9.59  271  
+6  7  1.007  255.64  9.63  Calculated leg from 3 above
+endcentreline
+endsurvey
+

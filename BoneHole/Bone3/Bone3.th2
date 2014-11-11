@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -145.27 -121.28 871.65 727.68
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {389.72087912 1 1.0} {652.68716709 1.16} PocketTopo/Bone3_p.xvi 0 {}
+
+
+scrap Bone3SP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

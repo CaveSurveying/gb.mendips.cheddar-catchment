@@ -21,6 +21,7 @@ endmap
 input Attborough/Attborough.th
 input BakeHole/BakeHole.th
 input Blackmoor/Blackmoor.th
+input BlackrockRift/BlackrockRift.th
 input BoneHole/BoneHole.th
 input BoweryCorner/BoweryCorner.th
 input Box/Box.th
@@ -58,6 +59,7 @@ input Other_Sites/Other.th
 input Other_Sites/UF_Area.th
 
 input Palmers/Palmers.th
+input Pigs/Pigs.th
 input PrideEvans/PrideEvans.th
 input PrideEvansAttic/PrideEvansAttic.th
 #input Reads/Reads.th
@@ -68,6 +70,7 @@ input Reservoir/Reservoir.th
 #replaced Willie's Rhinorift survey with Phil's which has more cave included
 input RRift/RRift.th
 input SayesHole/Sayes/Sayes.th
+input SparryFissure/SparryFissure.th
 input Spider/Spider.th
 input SunHole/SunHole.th
 #input Surface/Surface.th

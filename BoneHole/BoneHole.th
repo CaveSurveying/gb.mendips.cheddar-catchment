@@ -6,6 +6,7 @@ survey BoneHole -title "Bone Hole"
   input 02_FirstPitch/BH_FirstPitch.th
   input 10_PerforationChoke/BH_PerforationChoke.th
   input Bone2/Bone2
+  input Bone3/Bone3
   input BoneDig/BoneDig.th
   input BoneDig2/BoneDig2.th
 
@@ -14,6 +15,7 @@ survey BoneHole -title "Bone Hole"
   equate 1.13@BH_FirstPitch 1.13@BH_Entrance
   equate 1.22@BH_PerforationChoke 1.22@BH_Surface
   equate 1.15@BH_FirstPitch 1.0@Bone2
+  equate 1.16@Bone2 2.0@Bone3
 
 endsurvey
 
