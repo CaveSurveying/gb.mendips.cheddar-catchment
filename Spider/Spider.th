@@ -1,22 +1,24 @@
 encoding  utf-8
 survey Spider
 
-input 4TonneShaft/4TonneShaft.th
 input Entrance/Entrance.th
 input Hazelnut/Hazelnut.th
 input TheDig/TheDig.th
+input 4TonneShaft/4TonneShaft.th
 
 map SpiderM
   EntranceM@Entrance
  break
   HazelnutM@Hazelnut
   TheDigM@TheDig
+  4TonneShaftM@4TonneShaft
 endmap
 
 map SpiderEeM
   EntranceEeM@Entrance
   HazelnutEeM@Hazelnut
   TheDigMEe@TheDig
+  4TonneShaftMEe@4TonneShaft
 endmap
 
 equate 7.0@4TonneShaft 3.8@TheDig
@@ -26,9 +28,9 @@ equate 2.9@Hazelnut 3.0@TheDig
 #Plan joins
 join EntranceSPl2@Entrance HazelnutSPl1@Hazelnut -smooth on
 
-
 #Elevation joins
 join HazelnutSEe1@Hazelnut TheDigSEe1@TheDig -smooth on
+join TheDigSEe1@TheDig 4TonneShaftSEe1@4TonneShaft -smooth on
 
 endsurvey
 

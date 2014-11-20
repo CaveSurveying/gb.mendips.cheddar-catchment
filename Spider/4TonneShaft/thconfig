@@ -6,14 +6,14 @@ source 4TonneShaft.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o 4TonneShaft.pdf
+export map -proj plan -layout local -o 4TonneShaft.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o 4TonneShaftEe.pdf
 
 #export map -proj [elevation 15] -layout local -o 4TonneShaftE15.pdf
 
-export model -fmt survex -o 4TonneShaftth.3d
+#export model -fmt survex -o 4TonneShaftth.3d
 #Survex file showing centre line only
 
 #export model -o 4TonneShaft.lox

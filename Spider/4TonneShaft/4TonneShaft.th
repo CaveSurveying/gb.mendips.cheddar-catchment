@@ -2,11 +2,16 @@ encoding  utf-8
 survey 4TonneShaft
 
 input 4TonneShaft.th2
+input 4TonneShaftEe.th2
 
 map 4TonneShaftM
   4TonneShaftSP1
   4TonneShaftSP2
   4TonneShaftSP3
+endmap
+
+map 4TonneShaftMEe -proj [extended]
+  4TonneShaftSEe1
 endmap
 
 centreline

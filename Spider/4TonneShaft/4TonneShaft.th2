@@ -1,11 +1,75 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -193.5118110237 -120.469975804 298.7086614172 1080.4119139596
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {139.0051181102 1 1.0} {791.564518124 7.2} PocketTopo/4TonneShaft_p.xvi 0 {}
+##XTHERION## xth_me_area_adjust -193.511811024 -132.0 298.708661417 1080.41191396
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {139.00511811 1 1.0} {791.564518124 7.2} PocketTopo/4TonneShaft_p.xvi 0 {}
 
 
 
 scrap 4TonneShaftSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line pit
+  84.0 173.0
+  84.0 173.0 68.95 199.63 19.0 197.0
+  smooth off
+endline
+
+line pit -reverse on
+  68.0 799.0
+  68.0 799.0 97.0 804.0 123.0 840.0
+  smooth off
+endline
+
+line wall
+endline
+
+line wall
+  68.0 799.0
+  101.0 821.0 68.0 670.0 73.0 659.0
+  78.0 648.0 33.0 471.0 43.0 402.0
+  44.36 392.6 18.0 207.0 19.0 197.0
+  21.59 171.12 43.52 116.66 48.0 92.0
+  54.0 59.0 80.0 160.0 84.0 173.0
+  88.0 186.0 101.15 274.11 110.0 285.0
+  123.0 301.0 126.0 503.0 126.0 514.0
+  126.0 615.83 151.0 617.0 142.0 689.0
+  141.12 696.03 139.00511811 791.564518124 139.00511811 791.564518124
+  smooth off
+  139.00511811 791.564518124 145.62 823.89 139.0 828.0
+  110.0 846.0 128.0 875.0 128.0 875.0
+  smooth off
+endline
+
+line wall -subtype debris
+  128.0 875.0
+  113.0 882.0 81.0 890.0 65.0 880.0
+  49.0 870.0 20.0 855.0 23.0 838.0
+  26.0 821.0 22.0 801.0 34.0 799.0
+  46.0 797.0 68.0 799.0 68.0 799.0
+  smooth off
+endline
+
+point 16.2551181102 116.774518124 station -name 7.6
+
+point 27.4551181102 112.354518124 station -name 7.5
+
+point 67.4951181102 174.014518124 station -name 7.4
+
+point 76.6351181102 624.484518124 station -name 7.3
+
+point 139.00511811 791.564518124 station -name 7.2
+
+point 79.0351181102 835.664518124 station -name 7.1
+
+point 29.0551181102 808.814518124 station -name 7.0
+
+endscrap
+
+
+
+scrap scrap18 -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+endline
 
 endscrap
 
