@@ -1,0 +1,58 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -57.5 1893.5 5689.5 3442.5
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {3226.54 1 1.0} {2928.17 6@Rift.Pony.FullLRUD} xvi/WestPassage.Full.xvi 0 {}
+##XTHERION## xth_me_image_insert {114.430326891 1 1.0} {2427.2994512 1.0} PocketTopo/therion05_p2.xvi 0 {}
+##XTHERION## xth_me_image_insert {4613.43091625 1 1.0} {3051.42737056 2.0} ChuckleChoke/PocketTopo/chuckle_p3.xvi 0 {}
+
+
+
+scrap WestPassage_s0 -stations [2.68@WPDisto] -scale [-128.0 -128.0 557.4926 -128.0 0.0 0.0 17.41151204 0.0 m]
+
+point 5465.86 2954.42 station -name 2.78@WPDisto
+
+point 5483.29 2956.33 station -name 2.77@WPDisto
+
+point 5407.65 3014.32 station -name 2.76@WPDisto
+
+point 5420.77 3024.82 station -name 2.75@WPDisto
+
+point 5338.22 3056.08 station -name 2.74@WPDisto
+
+point 5226.31 3121.46 station -name 2.73@WPDisto
+
+point 5244.92 3102.13 station -name 2.72@WPDisto
+
+point 5554.39 2935.3 station -name 41@RI.WPDisto
+
+line wall
+  5554.39 2935.3
+  5570.5 2966.25 5543.13 2986.83 5530.0 2998.0
+  5518.25 3008.0 5456.5 3035.5 5439.5 3040.0
+  5422.47 3044.51 5402.98 3060.19 5391.0 3067.0
+  5365.5 3081.5 5386.25 3090.61 5378.0 3101.5
+  5320.0 3178.0 5333.83 3233.46 5325.0 3287.0
+  5317.5 3332.5 5197.0 3307.5 5195.0 3291.0
+  5193.0 3274.5 5230.94 3117.86 5222.0 3121.5
+endline
+
+line wall -reverse on
+  5458.5 2965.25
+  5450.07 2973.93 5421.0 3004.5 5412.0 3010.0
+  5403.0 3015.5 5381.52 3027.08 5377.0 3030.0
+  5368.5 3035.5 5320.66 3063.09 5311.5 3069.5
+  5301.5 3076.5 5251.5 3091.5 5241.5 3090.5
+endline
+
+line wall -id wall_WPs1_2 -reverse on
+  5532.0 2922.0
+  5516.0 2889.5 5489.5 2910.0 5485.5 2905.5
+  smooth off
+endline
+
+point 5282.0 3219.0 gradient -orientation 203.9
+
+point 5501.0 2988.0 gradient -orientation 299.7
+
+endscrap
+

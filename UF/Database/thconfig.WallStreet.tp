@@ -1,0 +1,14 @@
+encoding  utf-8
+source ../WallStreet.th
+
+layout l1
+ 	scale 1 165 
+endlayout
+ 
+
+export model -format survex -o WallStreet.3d
+export map -projection plan -o WallStreet.pdf
+export map -projection plan -format xvi -layout l1 -o WallStreet.xvi
+export map -projection extended -format xvi -layout l1 -o WallStreet_ex.xvi
+export map -projection elevation -format xvi -layout l1 -o WallStreet_el.xvi
+#export atlas -projection plan -o WallStreet.pdf

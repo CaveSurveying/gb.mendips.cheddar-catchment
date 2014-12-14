@@ -1,0 +1,9 @@
+encoding  utf-8
+
+#centreline
+#	equate WP32@WP_Original   2.78@DistoX.FullLRUD
+#endcenterline
+
+input WestPassageDisto.th
+
+#input WestPassage.original.th

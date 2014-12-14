@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -169.02 -253.14 1014.15 1518.84
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {477.347509272 1 1.0} {695.624720015 1.0} PocketTopo/wp1_p.xvi 0 {}
+
+
+scrap wp1SP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap wp1SPX1.3 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap wp1SPX1.2 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap wp1SPX1.0 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

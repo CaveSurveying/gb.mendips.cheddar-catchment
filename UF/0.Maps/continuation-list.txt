@@ -1,0 +1,80 @@
+Comment	Explored	Survey	Station	name	Code	print	LR	dig	aven	fixed	climbed	sump	left
+5mm hole, reflector, brass screw		Entrance	E12	E10	fixed	true							
+WS18 North edge of top of ring		FS.WS.Entrance.UpperFlood	18	WS18	fixed								
+WS24 Large shallow drill mark on stal corbel on S wall of half-way-house		FS.WS.Entrance.UpperFlood	24	WS24	fixed								
+WS28 Drill mark in E wall above spring , at old sump.  Side rift enters 3.5m back towards 27		FS.WS.Entrance.UpperFlood	28	WS28	fixed								
+WS50 drillmark 1.5m up on base of big stal column		FS.WS.Entrance.UpperFlood	50	WS50	fixed								
+WS65 Drillmark in middle of roof in niche facing up passage, in stal		FS.WS.Entrance.UpperFlood	65	WS65	fixed								
+5mm hole, reflector, brass screw		Entrance	E8	E8	fixed	true							
+5mm hole, reflector, brass screw		Entrance	E9	E9	fixed	true							
+5mm hole, reflector, brass screw		Entrance	E10	E10	fixed	true							
+5mm hole, reflector, brass screw		Entrance	E11	E10	fixed	true							
+5mm hole, reflector, brass screw		Entrance	E13	E10	fixed	true							
+Upstream Midnight Chamber. Waterlogged tailings meet the roof. Rock/calcite dam needs hilting in dry weather.		Entrance	M2d	M2			left	dig					
+Clay choke, not tailings		Entrance	M11d	M13				dig					
+Roof tube at far end is diggable and close to the surface. Grovels in the floor are also diggable.		Entrance	BS10	Rip Off Aven			left	dig					
+Cocolate Muffin Dig		Midnight Chamber	11d	Chocolate Muffin				dig					
+WS21 3' above shot holes		FS.WS.Entrance.UpperFlood	21	WS21	fixed								
+Boulder choke		Golden Chamber	L4	L4			left						
+Digs into boulder choke		Golden Chamber	r4d	RR1				dig					
+Very small phreatic tube.  Streams sinks		Golden Chamber	r14	SplitRock			left						
+Too tight		LeatInlet.GoldenChamber.UpperFlood	A14	L14									
+Too tight: streamway seen for 3m		LeatInlet.GoldenChamber.UpperFlood	A23	L23									
+Too tight: see for 3m, hear stream, draught		LeatInlet.GoldenChamber.UpperFlood	B2	LB2			left						
+Lethal dig above Samaritans		Bouder Choke	31d	S1									
+Aven above survey station		Leg1.MalcolmsWay.UpperFlood	35	MW35					8?				
+Fixed reflector		Malcolm's Way	MW41a	MW41a		true				fixed			
+Fixed reflector		Malcolm's Way	MW35a	MW35a		true				fixed			
+Aven back towards Minarets		Leg1.MalcolmsWay.UpperFlood	34	MW34					8?				
+MW2 painted on RH side of flake of rock in middle of passage	10.000000	Leg2.MalcolmsWay.UpperFlood	2	MW2	fixed	true	left						
+Plank inlet		Leg2.MalcolmsWay.UpperFlood	55	Plank inlet				dig					
+Calcited passage		Section of Malcolm's Way Leg 2 survey for scrap drawing purposes	MW55	WTP Inlet			left	dig					
+11m Aven		Trench Passage	2b	WTP2			left		11				
+Intermittent rising from small hole		Trench Passage	7a	T7			left						
+9m Aven above Crystal Ball		Trench Passage	6a	T6					9				
+Aven Old Curiosity Shop		Thieves Chamber	D7a	OCS			left		13		date		
+Dig through boulders to narrow rift		Thieves Chamber	D11	T11									
+Up through hanging boulders!		Wall Street	ws11	WS11				dig					
+Low wide passage with false floor		Wall Street	wp12	WP12				dig					
+Aven		Disto.CharnelPassage.UpperFlood	1.0a	MW14					10				
+Low mud filled chamber		Disto.CharnelPassage.UpperFlood	1.230000	Ch24									
+Dig in floor		Pony.RoyalIcing.UpperFlood	27	Brian's Eye			left	dig					
+Aven		HiddenPassage.RoyalIcing.UpperFlood	1.2a	HP1					13				
+Climbed to 6m+ to calcite choke		HiddenPassage.RoyalIcing.UpperFlood	1.900000	HP9					6		date?		
+SP11 5mm hole; rawlplug; brass screw; reflector		Disto.SouthPassage.UpperFlood	1.110000	SP11	fixed								
+10cm airspace above mud floor for 3.5m.  Diggable		EP_Pony.EastPassage.UpperFlood	10	EP10									
+Roof meets mud floor.  Diggable?		EP_Pony.EastPassage.UpperFlood	11	EP11									
+Mud filled descending tube		EP_Pony.EastPassage.UpperFlood	22d	EP22				active					
+Interesting narrow aven, climbed		EP_Pony.EastPassage.UpperFlood	23	EP23					5		date		
+Aven with possible high level lead		EP_Pony.EastPassage.UpperFlood	32	EP31					7				
+Sumped inlet with air beyond		EP_Pony.EastPassage.UpperFlood	35	EP35								Sump	
+Mud filled tube		EP_Pony.EastPassage.UpperFlood	45	EP45				started					
+Mud filled rift		EP_Pony.EastPassage.UpperFlood	49	EP49									
+Narrow rift / sump		EP_Pony.EastPassage.UpperFlood	51	Waterworks				dig					
+Mud filled tube, diggable		DeepPoolTube.EastPassage.UpperFlood	4b	DPT4									
+Aven		DownUnder.EastPassage.UpperFlood	14	MT14					5				
+Zebra Aven, climbed		BZA_Pony.BeyondZebraAven.EastPassage.UpperFlood	21	Zebra Aven					9		Joel?		
+Crystal pool (never entered)		BZA_Pony.BeyondZebraAven.EastPassage.UpperFlood	31	BZA31									
+Mud filled tube. Dig started 2011		BZA_Pony.BeyondZebraAven.EastPassage.UpperFlood	35	MudOut			left	dig					
+Aven: climbed 3/12/2011 Kev Speight to tube continuation	40.000000	BZA_Pony.BeyondZebraAven.EastPassage.UpperFlood	45	AWOL Aven					9		Kev Speight 3/12/2011		
+Too narrow rift		BZA_Pony.BeyondZebraAven.EastPassage.UpperFlood	49	BZA49									
+Very low with muddy sump		BZA_Pony.BeyondZebraAven.EastPassage.UpperFlood	62	BZA62									
+Mud filled tube, diggable		BZA_Pony.BeyondZebraAven.EastPassage.UpperFlood	63	BZA63									
+Narrow rift		BZA_Pony.BeyondZebraAven.EastPassage.UpperFlood	66	BZA66			left						
+Blind aven climbed by Ben Cooper		BZA_Pony.BeyondZebraAven.EastPassage.UpperFlood	67	BZA67					5		Nov 2008		
+Dig in dangerous boulder choke<br>Suspended 2011		WPDisto.WestPassage.UpperFlood	1	WP0				dig					left
+Dig in dangerous boulder choke		WPDisto.WestPassage.UpperFlood	2.2d	WP2				dig					
+Dripping narrow rift		WPDisto.WestPassage.UpperFlood	2.500000	WP5									
+Possible mud-filled side tube		WPDisto.WestPassage.UpperFlood	2.180000	WP18									
+Possible mud-filled side tube		WPDisto.WestPassage.UpperFlood	2.280000	WP28			left						
+Possible mud-filled side tube		WPDisto.WestPassage.UpperFlood	2.290000	WP29									
+Constricted tube, possible Neverland connection		WPDisto.WestPassage.UpperFlood	2.360000	WP36				dig					
+Voice and light connection with bottom of Rift		WPDisto.WestPassage.UpperFlood	2.410000	WP41									
+Mud-filled key-shaped body-sized tube		WPDisto.WestPassage.UpperFlood	2.680000	WP68				dig					
+Sump, bailed into upward rift, too tight		Chuckles Joke	2.3s	CJ3				Bailed					
+Dig into slot in floor		Chuckles Joke	2.500000	CJ5			left	dig					
+Narrow tube	7.000000	Chuckles Joke	2.600000	CJ6									
+Sump dived April 2007 CDG163 p22	15.000000	Neverland.UpperFlood	N_D35										
+Sump, dived to -3m <DATE>	15.000000	NeverlandDisto.Neverland.UpperFlood	3.350000	N35								Dived	
+Painted on back wall		Neverland Rope Climb	2	NR2	fixed								
+Painted on back wall		Neverland Rope Climb	48	NR48	fixed								
