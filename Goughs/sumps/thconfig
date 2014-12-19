@@ -17,9 +17,9 @@ source sumps.th
 #export map -proj [elevation 270] -layout local -o sump2plusE270.pdf
 
 select sump3plusE0M@sumps
-export map -proj [elevation 0] -layout local -o sump3plusE270.pdf
+export map -proj [elevation 0] -layout local -o sump3plusE0.pdf
 
-export model -fmt survex -o sumpsth.3d
+#export model -fmt survex -o sumpsth.3d
 #Survex file showing centre line only
 
 #export model -o sumps.lox

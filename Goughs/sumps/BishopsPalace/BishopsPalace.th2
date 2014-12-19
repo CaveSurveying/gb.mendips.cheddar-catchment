@@ -639,7 +639,7 @@ endscrap
 
 scrap BishopsPalaceSPX1.12 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line wall -subytpe debris
+line wall -subtype debris
   4648.0 7708.0
   4662.0 7706.0 4824.0 7724.0 4862.0 7728.0
   4900.0 7732.0 5056.0 7788.0 5056.0 7788.0

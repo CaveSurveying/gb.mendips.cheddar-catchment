@@ -69,15 +69,21 @@ join downstreamSE0_1@downstream upstreamSE0_1@upstream -smooth on
 join upstreamSE0_1@upstream sump1bSE0_1@sump1b -smooth on  
 
 map sump2plusE270M -proj [elevation 270]
- # bishops_palaceE270M@bishops_palace
+ #bishops_palaceE270M@bishops_palace
+  BishopsPalaceE270M@BishopsPalace
   sump2E270M@sump2
   sheppards_crookE270M@sheppards_crook
 endmap
+
+join BishopsPalaceSE2701@BishopsPalace sump2SE2701@sump2 -smooth on
+join sump2SE2701@sump2 sheppards_crookSE2701@sheppards_crook -smooth on
 
 map sump3plusE0M -proj [elevation 0]
   sump3E0M@sump3
   sheppards_crookE0M@sheppards_crook
 endmap
+
+join sheppards_crookSE01@sheppards_crook sump3SE01@sump3
 
 endsurvey
 

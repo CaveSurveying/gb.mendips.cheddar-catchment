@@ -2,11 +2,17 @@ encoding  utf-8
 survey BishopsPalace
 
 input BishopsPalace.th2
+input BishopsPalaceE270.th2
 
 map BishopsPalaceM
   BishopsPalaceSP1
   BishopsPalaceSP2
   BishopsPalaceSP3
+endmap
+
+map BishopsPalaceE270M
+  BishopsPalaceSE2701
+  
 endmap
 
 centreline
