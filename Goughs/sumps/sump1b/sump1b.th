@@ -3,6 +3,7 @@ survey sump1b
 
 input sump1b.th2
 input sump1bE0.th2
+input sump1bE270.th2
 
 map sump1bM
   sump1bSPl1
@@ -12,7 +13,12 @@ map sump1bME0 -proj [elevation 0]
   sump1bSE0_1
   sump1bSE0_2
   sump1bSE0_3
-  endmap  
+  endmap
+  
+map sump1bME270 -proj [elevation 270]
+  sump1bSE2701
+  endmap
+
 
 centreline
 
