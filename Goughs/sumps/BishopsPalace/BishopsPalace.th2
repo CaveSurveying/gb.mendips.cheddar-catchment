@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust 301.75861582 656.3307086660002 5754.6090095198 9652.488188979301
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {3472.1541459 1 1.0} {3343.73259843 1.4} PocketTopo/BishopsPalace_p.xvi 0 {}
 
 
@@ -607,6 +607,26 @@ endscrap
 
 scrap BishopsPalaceSPX1.29 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall
+  5280.0 5626.0
+  5293.0 5656.0 5275.0 5774.0 5266.0 5824.0
+endline
+
+line wall
+  5214.0 5625.0
+  5231.0 5624.0 5280.0 5626.0 5280.0 5626.0
+  smooth off
+endline
+
+line wall
+  5266.0 5824.0
+  5228.78 5801.94 5242.67 5764.4 5231.0 5728.0
+  5214.0 5675.0 5214.0 5625.0 5214.0 5625.0
+  smooth off
+endline
+
+point 5264.8341459 5638.2725984300005 station -name 1.29
+
 endscrap
 
 
@@ -765,6 +785,7 @@ line rock-border -close off
   2458.0 1202.0 2472.0 1193.5 2472.0 1172.0
   2472.0 1130.7 2455.23 1151.14 2442.5 1157.5
   2391.5 1183.0 2415.59 1194.89 2444.0 1210.0
+  smooth off
 endline
 
 line wall -subtype presumed

@@ -1,0 +1,23 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 0 0 1600 1200
+##XTHERION## xth_me_area_zoom_to 100
+
+scrap XSectionSP -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 0.0 0.0 station -name 1.33
+
+point 240.0 440.0 section -scrap "BishopsPalaceSPX1.29" -align t
+
+point 720.0 440.0 section -scrap "BishopsPalaceSPX1.21" -align t
+
+point 1215.8 440.0 section -scrap "BishopsPalaceSPX1.12" -align t
+
+point 1717.6 440.0 section -scrap "BishopsPalaceSPX1.10" -align t
+
+point 2755.3 440.0 section -scrap "BishopsPalaceSPX1.6" -align t
+
+point 4123.1 440.0 section -scrap "BishopsPalaceSPX1.3" -align t
+
+point 5089.1 440.0 section -scrap "BishopsPalaceSPX1.1" -align t
+
+endscrap
