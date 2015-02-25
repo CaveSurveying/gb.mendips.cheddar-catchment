@@ -6,7 +6,7 @@ source Bone2.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o Bone2.pdf
+export map -proj plan -layout local -o Bone2.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o Bone2Ee.pdf

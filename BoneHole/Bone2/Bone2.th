@@ -5,10 +5,14 @@ input Bone2.th2
 input Bone2Ee.th2
 
 map Bone2M
-  Bone2SP1
+  #Bone2SP1
   Bone2SP2
+ break
   Bone2SP3
+ break
   Bone2SP4
+ break
+  Bone2SP5
 endmap
 
 centreline

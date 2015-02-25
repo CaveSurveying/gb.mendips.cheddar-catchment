@@ -3,6 +3,9 @@ encoding  utf-8
 source Reservoir.th
 # Change name to the main therion file
 
+select HappySnappersME90@HappySnappers.Reservoir
+
+select TopDigME90@TopDig.Reservoir
 
 
 #Surveys to output
@@ -12,11 +15,11 @@ source Reservoir.th
 #export map -proj plan -layout local -o TFD.svg
 #export map -proj plan -layout local -o TFD.pdf
 
-#export map -proj plan -layout local -o Reservoir.pdf
+export map -proj plan -layout local -o Reservoir.pdf
 #Produces plan of cave, on a single sheet
 
 
-#export map -proj [elevation 90] -layout local -o ReservoirE90.pdf
+export map -proj [elevation 90] -layout local -o ReservoirE90.pdf
 
 #export model -fmt survex -o Reservoirth.3d
 #Survex file showing centre line only

@@ -7,8 +7,11 @@ input BoneDig2E90.th2
 
 map BoneDig2M
   BoneDig2SP1
+ break
   BoneDig2SP2
+ break
   BoneDig2SP3
+ break
   BoneDig2SP4
 endmap
 
@@ -41,7 +44,7 @@ copyright 2012 "CC BY SA NC"
   date 2012.12.03
 
   team "Andrew Atkinson" notes
-  team "Henri Dawson" instruments
+  team "Henry Dawson" instruments
 
 data normal from to tape compass clino ignoreall
   extend right

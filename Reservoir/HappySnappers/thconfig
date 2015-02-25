@@ -6,7 +6,7 @@ source HappySnappers.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o HappySnappers.pdf
+export map -proj plan -layout local -o HappySnappers.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o HappySnappersEe.pdf
@@ -25,8 +25,14 @@ export map -proj [elevation 90] -layout local -o HappySnappersE90.pdf
 layout local
 copy common
 debug off
-map-header 0 0 nw
-#symbol-hide group cave-centreline
+grid off
+scale-bar 10 m
+scale 1 100
+rotate -90
+map-header 0 -50 nw
+symbol-hide group cave-centreline
+symbol-hide point section
+symbol-hide line section
 endlayout
 
 input ../../common_layout.th

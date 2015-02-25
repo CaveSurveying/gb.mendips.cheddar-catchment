@@ -1,7 +1,7 @@
 encoding  utf-8
 language en_UK
 source BoneHole.th
-select BH_FirstPitch.BoneHole
+#select BH_FirstPitch.BoneHole
 
 layout lcommon
 	scale-bar 10 m
@@ -11,7 +11,7 @@ endlayout
 
 export model -format survex -o Maps/BoneHole.3d
 #export model -format loch -o Maps/BoneHole.lox
-#export map -projection plan -layout lcommon -o Maps/BoneHole.pdf
+export map -projection plan -layout lcommon -o Maps/BoneHole.pdf
 #export map -projection extended -layout lcommon -o Maps/BoneHole_ex.pdf
 #export map -projection [elevation 90] -layout lcommon -o Maps/BoneHole_el90.pdf
 #export map -projection plan -format xvi -layout lcommon -o Maps/BoneHole.xvi

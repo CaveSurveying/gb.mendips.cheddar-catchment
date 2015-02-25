@@ -1,0 +1,41 @@
+encoding  utf-8
+survey Silo
+
+input Silo.th2
+
+map SiloM
+  SiloSP1
+endmap
+
+centreline
+
+copyright 2014 "CC BY SA NC"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#Drawings:Andrew Atkinson
+#Inst:Alison Moody
+#Distox2-ubss1 0.41
+
+  date 2014.08.20
+
+  team "Andrew Atkinson" notes
+  team "Andrew Atkinson" instruments
+
+  instrument  instruments "Distox2-ubss1-2412"
+
+data normal from to tape compass clino ignoreall
+  extend right
+  ###this probably attatches to 1.4@HappySnappers, but as it only shows a hole in the floor 5m deep I have just drawn it in Happy snappers [AA 2014]
+1.0  -  0.0  0.0  0.0  0  
+#1.1  1.0  5.937  166.03  -10.13  9  
+#1.1  1.0  5.938  166.09  -10.18  9  
+#1.1  1.0  5.938  166.05  -10.22  9  
+1.1  1.0  5.938  166.06  -10.18  Calculated leg from 3 above
+#1.2  1.1  4.886  157.77  -88.51  147  
+#1.2  1.1  4.897  162.86  -88.48  153  
+#1.2  1.1  4.898  162.83  -88.46  153  
+1.2  1.1  4.894  160.32  -88.48  Calculated leg from 3 above
+
+endcentreline
+endsurvey
+
