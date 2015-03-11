@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -108.09 -146.21 648.57 877.25
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {351.448818898 1 1.0} {161.806875428 4.3} PocketTopo/LadderLink_p.xvi 0 {}
+
+
+scrap LadderLinkSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

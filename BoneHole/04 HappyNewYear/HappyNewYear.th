@@ -1,0 +1,39 @@
+survey HappyNewYear
+
+	input HappyNewYear1.th
+	input LadderLink.th
+	input HappyNewYear2.th
+	input HappyNewYear3.th
+	input HappyNewYear4.th
+
+	equate 3.11@HappyNewYear1	3.11@HappyNewYear2
+	equate 4.3@HappyNewYear1	4.3@LadderLink
+	equate 3.16@HappyNewYear2	3.16@HappyNewYear3
+	equate 3.19@HappyNewYear3	3.19@HappyNewYear4
+	
+	#Close loop
+	equate 3.34@HappyNewYear3	3.39@HappyNewYear4
+	
+	input HappyNewYear1.th2
+	input HappyNewYear2.th2
+	input HappyNewYear3.th2
+	input HappyNewYear4.th2
+	input HappyNewYear4SP2.th2
+	
+	map m_HappyNewYear1
+		HappyNewYear1SP1
+	endmap
+	
+	map m_HappyNewYear2
+		HappyNewYear2SP1
+	endmap
+	
+	map m_HappyNewYear3
+		HappyNewYear3SP1
+	endmap
+
+	map m_HappyNewYear4
+		HappyNewYear4SP1
+		HappyNewYear4SP2
+	endmap
+endsurvey

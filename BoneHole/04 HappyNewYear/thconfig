@@ -1,0 +1,30 @@
+encoding  utf-8
+source HappyNewYear.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o 0.Maps/HappyNewYear.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o 0.Maps/HappyNewYearEe.pdf
+
+export model -fmt survex -o 0.Maps/HappyNewYear.3d
+#Survex file showing centre line only
+
+#export model -o 0.Maps/HappyNewYear.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o 0.Maps/HappyNewYear_Walls.3d
+#Survex file showing walls only
+
+layout local
+debug off
+scale 1 200
+base-scale 1 100
+map-header 0 0 ne
+#symbol-hide group cave-centreline
+color map-fg altitude # scrap
+endlayout

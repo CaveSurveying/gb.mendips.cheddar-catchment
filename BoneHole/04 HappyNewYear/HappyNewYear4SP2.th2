@@ -1,0 +1,38 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 600.440944882 1230.36220472
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {270.393700787 1 1.0} {1076.06299213 3.19} PocketTopo/HappyNewYear4_p.xvi 0 {}
+
+
+
+scrap HappyNewYear4SP2 -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 434.133700787 477.53299213 station -name 3.37@HappyNewYear4
+
+point 410.573700787 602.68299213 station -name 3.36@HappyNewYear4
+
+line wall
+  448.0 477.0
+  448.0 477.0 435.0 726.0 424.0 744.0
+  413.0 762.0 358.0 909.0 358.0 909.0
+  smooth off
+endline
+
+line wall -subtype blocks
+  304.0 595.0
+  220.4 574.82 235.0 506.0 321.0 532.0
+  351.83 541.32 400.0 592.0 403.0 571.0
+  406.0 550.0 383.0 463.0 448.0 477.0
+  smooth off
+  altitude .
+endline
+
+line wall
+  342.0 739.0
+  340.0 719.0 302.0 602.0 304.0 595.0
+  smooth off
+endline
+
+endscrap
+
+
