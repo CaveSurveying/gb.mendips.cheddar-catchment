@@ -1,0 +1,24 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -159.473708929 -132.8996709899999 647.7073934330999 910.5019038130001
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {406.274388812 1 1.0} {101.82851798600007 4.5} PocketTopo/MSD_p.xvi 0 {}
+
+
+
+scrap MSDSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap MSDSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap MSDSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+

@@ -1,0 +1,32 @@
+encoding  utf-8
+source MSD.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout local -o MSD.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o MSDEe.pdf
+
+#export map -proj [elevation 15] -layout local -o MSDE15.pdf
+
+export model -fmt survex -o MSDth.3d
+#Survex file showing centre line only
+
+#export model -o MSD.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o MSD_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+#symbol-hide group cave-centreline
+endlayout
+
+input ../../common_layout.th

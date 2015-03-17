@@ -3,10 +3,6 @@ encoding  utf-8
 source Reservoir.th
 # Change name to the main therion file
 
-select HappySnappersME90@HappySnappers.Reservoir
-
-select TopDigME90@TopDig.Reservoir
-
 
 #Surveys to output
 #-----------------
@@ -21,7 +17,8 @@ export map -proj plan -layout local -o Reservoir.pdf
 
 export map -proj [elevation 90] -layout local -o ReservoirE90.pdf
 
-#export model -fmt survex -o Reservoirth.3d
+select Reservoir
+export model -fmt survex -o Reservoirth.3d
 #Survex file showing centre line only
 
 #export model  -o Reservoir.lox

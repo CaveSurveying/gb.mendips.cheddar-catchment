@@ -1,0 +1,80 @@
+encoding  utf-8
+survey MSD
+
+input MSD.th2
+
+map MSDM
+  MSDSP1
+  MSDSP2
+  MSDSP3
+endmap
+
+centreline
+
+copyright 2015 "CC BY SA NC"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#Notes: Andrew Atkinson
+#Instruments: Alison Moody
+#Dog:Chris Milne
+#Distox2-ubss1 0.41
+
+  date 2015.03.17
+
+  team "Andrew Atkinson" notes
+  team "Alison Moody" instruments
+
+  instrument  instruments "Distox2-ubss1-2412"
+
+data normal from to tape compass clino ignoreall
+  extend right
+#5.12  4.0  0.0  0.0  0.0  0  
+#Calabration check at AAs
+#4.0  -  3.604  266.59  15.55  4  
+#4.0  -  2.647  267.34  15.66  180  
+#4.0  -  2.641  86.37  -15.74  351  
+flags duplicate
+#4.0  4.1  6.111  164.83  -16.48  343  link leg
+#4.0  4.1  6.108  164.99  -16.25  343  
+#4.0  4.1  6.107  164.95  -16.35  343  
+4.0  4.1  6.109  164.91  -16.36  Calculated leg from 3 above
+flags not duplicate
+4.1  -  0.0  0.0  0.0  0  spit at head of pitch, nv arrow
+#4.2  4.1  2.231  351.2  80.24  202  
+#4.2  4.1  2.23  351.22  80.36  202  
+#4.2  4.1  2.241  351.61  80.26  201  
+4.2  4.1  2.234  351.21  80.29  Calculated leg from 3 above
+4.2  -  0.593  21.75  -0.25  357  
+4.2  -  0.432  97.12  -5.83  14  
+4.2  -  0.998  289.16  7.77  327  
+4.2  -  1.144  327.21  -1.55  343  
+#4.3  4.2  3.503  27.59  74.66  184  
+#4.3  4.2  3.498  28.24  74.76  182  
+#4.3  4.2  3.495  28.3  74.81  184  
+4.3  4.2  3.499  27.91  74.74  Calculated leg from 3 above
+4.3  -  0.619  129.2  1.81  94  nv rear wall
+4.3  -  0.732  72.34  3.59  75  
+4.3  -  0.759  44.24  -1.64  50  
+4.3  -  0.364  297.93  -6.71  293  
+4.3  -  0.864  3.44  5.05  293  
+#4.4  4.3  2.029  337.41  65.58  146  
+#4.4  4.3  2.028  337.9  65.75  146  
+#4.4  4.3  2.03  337.91  65.7  146  
+4.4  4.3  2.029  337.65  65.68  Calculated leg from 3 above
+4.4  -  0.635  191.77  -17.55  291  nv 4 to be drilled in future
+4.4  -  1.058  258.8  -21.42  292  
+4.4  -  0.691  308.17  -7.77  115  
+4.4  -  0.727  32.04  6.31  140  
+#4.4  4.5  2.029  196.89  -50.11  333  
+#4.4  4.5  2.029  196.83  -50.26  333  
+#4.4  4.5  2.029  196.89  -50.18  331  
+4.4  4.5  2.029  196.86  -50.18  Calculated leg from 3 above
+4.5  -  0.378  235.81  85.14  345  temp at end of dig
+4.5  -  0.732  82.77  13.06  102  
+4.5  -  0.648  296.64  11.91  340  
+4.5  -  1.114  30.75  61.93  8  
+4.5  -  0.998  324.06  37.8  327  
+4.5  -  0.194  65.4  -82.63  2  
+endcentreline
+endsurvey
+

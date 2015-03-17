@@ -17,11 +17,11 @@ input Golgotha/Golgotha.th
 input HerbertsAttic/HerbertsAttic.th
 input HappySnappers/HappySnappers.th
 input JillsSlither/JillsSlither.th
-input SouthPassage/SouthPassage.th
-input ResEnt/ResEnt.th
+input MSD/MSD.th
 input PottersHeaven/PottersHeaven.th
 input PulsationAven/PulsationAven.th
 input PulsationAven2/PulsationAven2.th
+input ResEnt/ResEnt.th
 #input R1/R1.th
 #input R2/R2.th
 #equate Q@R1 Q@R2
@@ -50,7 +50,9 @@ input PulsationAven2/PulsationAven2.th
 #equate 553@R12 553@R13
 input SideRift/SideRift.th
 input Skyfall/Skyfall.th
+input SkyfallDig/SkyfallDig.th
 input Sleeper/Sleeper.th
+input SouthPassage/SouthPassage.th
 input TopDig/TopDig.th
 input ToHole/ToHole.th
 input ToplessAven/ToplessAven.th
@@ -78,6 +80,7 @@ equate 11.23@Deeper  12.0@DingleyDell
 equate 13.0@ToplessClimb 4.21@TopDig 
 equate 4.21@TopDig 1.0@ToplessAven
 equate 5.0@FrozenDeep 1.36@GreatExpectations
+equate 5.12@FrozenDeep 4.0@MSD
 equate 5.14@FrozenDeep 16.0@Skyfall
 equate 5.0@FrozenDeep 17.0@WISh
 equate 5.4@FrozenDeep 17.12@WISh
@@ -86,6 +89,7 @@ equate 7.8@PulsationAven 10.0@JillsSlither
 equate 7.0@PulsationAven 4.13@TopDig
 equate 7.8@PulsationAven 8.0@PottersHeaven
 equate 7.2@PulsationAven 14.0@PulsationAven2
+equate 16.16@Skyfall 6.0@SkyfallDig
 equate 1.15@ToplessAven 1.15@GreatExpectations
 equate 1.3@ToplessAven 3.0@Golgotha
 equate 1.0@TopDig 1.14@Sleeper

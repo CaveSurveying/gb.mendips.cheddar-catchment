@@ -1,0 +1,36 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -185.689890454 -81.22884052000018 385.2707394672 1513.3538366450998
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {156.483337892 1 1.0} {1380.62448656 16.16} PocketTopo/SkyfallDig_p.xvi 0 {}
+
+
+
+scrap SkyfallDigSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SkyfallDigSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SkyfallDigSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SkyfallDigSPX6.4 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SkyfallDigSPX6.7 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
