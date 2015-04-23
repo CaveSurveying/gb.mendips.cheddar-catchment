@@ -1,11 +1,69 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 301.75861582 656.3307086660002 5754.6090095198 9652.488188979301
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -144.0 -144.0 5852.0 9652.488188979301
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {3472.1541459 1 1.0} {3343.73259843 1.4} PocketTopo/BishopsPalace_p.xvi 0 {}
 
 
 
 scrap BishopsPalaceSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 5476.0 5664.0 label -text "v7" -align b -attr scrapname BishopsPalaceSPX1.29 -context line section -scale xs
+
+point 5704.0 7160.0 label -text "v6" -align b -attr scrapname BishopsPalaceSPX1.21 -context line section -scale xs
+
+point 4536.0 7788.0 label -text "v5" -align b -attr scrapname BishopsPalaceSPX1.12 -context line section -scale xs
+
+point 3116.0 7084.0 label -text "v4" -align b -attr scrapname BishopsPalaceSPX1.10 -context line section -scale xs
+
+point 5356.0 4092.0 label -text "v3" -align b -attr scrapname BishopsPalaceSPX1.6 -context line section -scale xs
+
+point 5364.0 3308.0 label -text "v2" -align b -attr scrapname BishopsPalaceSPX1.3 -context line section -scale xs
+
+point 5364.0 2276.0 label -text "v1" -align b -attr scrapname BishopsPalaceSPX1.1 -context line section -scale xs
+
+line section -direction both
+  5156.0 5612.0
+  5080.0 5588.0 4920.0 5540.0 4756.0 5504.0
+  smooth off
+endline
+
+line section -direction both
+  5468.0 7256.0
+  5336.38 7289.53 4972.0 7384.0 4840.0 7416.0
+  smooth off
+endline
+
+line section -direction both
+endline
+
+line section -direction end
+  4472.0 8036.0
+  4632.0 7928.0
+endline
+
+line section -direction both
+  3228.0 6876.0
+  3676.0 6816.0 4332.0 6736.0 4616.0 6692.0
+  smooth off
+endline
+
+line section -direction both
+  2116.0 4880.0
+  2656.0 4764.0 4664.0 4256.0 5024.0 4156.0
+  smooth off
+endline
+
+line section -direction both
+  2436.0 2980.0
+  2900.0 3036.0 4232.0 3196.0 4540.0 3232.0
+  smooth off
+endline
+
+line section -direction both
+  2744.0 1576.0
+  3083.99 1672.04 4344.0 2028.0 4684.0 2124.0
+  smooth off
+endline
 
 line wall -outline in
 endline
@@ -610,6 +668,7 @@ scrap BishopsPalaceSPX1.29 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 line wall
   5280.0 5626.0
   5293.0 5656.0 5275.0 5774.0 5266.0 5824.0
+  smooth off
 endline
 
 line wall
