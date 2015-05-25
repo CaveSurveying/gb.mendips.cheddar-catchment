@@ -91,6 +91,9 @@ fix TyningsGateOchre2 46250 55580 241 #ST 4625 5558 241
 station TyningsGateOchre2 "" entrance
 fix TyningsGateOchre3 46110 55640 245 #ST 4611 5564 245 
 station TyningsGateOchre3 "" entrance
+fix Vurley 48010 53409 223 #ST 4801 5341 223
+#GPS by M Grass May 2015
+station Vurley "Vurley Swallet" entrance
 fix Wallflower 47280 54270 128 #ST 4728 5427 128
 station Wallflower "" entrance
 #Cerberus Newsletter 10(4) 1980 Grid measured from plan height stated on elevation
