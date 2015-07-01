@@ -24,8 +24,11 @@ copyright 2012 "CC BY SA NC"
 # fix 1.0 47412 54338 214
 # calculated by GJM from WIS drawing 2012.10.26
 
-  fix 1.0  47420 54328 215
-# calculated by Tav 2015.06.30  
+# fix 1.0  47420 54328 215
+# calculated by Tav 2015.06.30 
+
+ fix 1.4  47414 54326 215
+ calculated by Tav 2015.06.30 Seems to give the best fit with his other data
 
 
 
