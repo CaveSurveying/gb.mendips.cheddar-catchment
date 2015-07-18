@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -81.2223393063 -99.01884681 1592.10049534 2236.22524767
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {125.517818174 1 1.0} {1184.9344173 5.5} PocketTopo/01_BoneSlope2015_E98.xvi 0 {}
 ##XTHERION## xth_me_image_insert {947.039723734 1 1.0} {1594.38976692 5.0} ../00_SurfaceRift2015/PocketTopo/00_SurfaceRift2015_E98.xvi 0 {}
 
@@ -35,6 +35,22 @@ line wall
 endline
 
 line wall
+endline
+
+line fixed-ladder
+  326.0 695.0
+  566.0 478.0
+  735.0 432.0
+endline
+
+line fixed-ladder
+  193.0 797.0
+  339.0 673.0
+endline
+
+line fixed-ladder
+  142.0 1117.0
+  183.0 815.0
 endline
 
 line wall
