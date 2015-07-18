@@ -11,6 +11,9 @@ centreline
 
   walls on
 
+  sd compass 1 degree
+  sd clino 0.5 degree
+
   date 2010.07.03
   data normal from to compass clino tape
   extend right

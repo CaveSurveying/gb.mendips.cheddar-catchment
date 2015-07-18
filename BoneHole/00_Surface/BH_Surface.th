@@ -1,6 +1,12 @@
 encoding  utf-8
 survey BH_Surface -title "Surface"
 
+input 00_SurfaceE98.th2
+
+map 00_SurfaceE98M -proj [elevation 98]
+	00_SurfaceSE98_1
+endmap
+
 centreline
 
   units clino compass degree
@@ -10,6 +16,9 @@ centreline
   instrument length  "Ben's DistoX, Dell Axim PDA"
 
   walls auto
+  
+  sd compass 1 degree
+  sd clino 0.5 degree
 
   date 2010.07.03
   data normal from to compass clino tape
@@ -19,6 +28,7 @@ centreline
   1.0 - 84.73 -72.40 0.900
   1.0 - 31.87 -14.75 6.820
   1.0 1.1 32.39 -14.86 6.646
+  mark 1.0 fixed	#5mm hole in rock, LH wall, 90cm up from floor 
   1.1 - 289.34 0.49 0.701
   1.1 - 274.95 -85.60 1.360
   1.1 1.2 354.06 -13.95 4.603

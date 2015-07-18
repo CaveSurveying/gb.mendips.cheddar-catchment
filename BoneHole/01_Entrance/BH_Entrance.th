@@ -14,6 +14,9 @@ cs OSGB:ST
   walls auto
   fix 1.3 48050 54720 185 #ST 4805 5472 185
 
+  sd compass 1 degree
+  sd clino 0.5 degree
+
   date 2010.07.03
   data normal from to compass clino tape
   extend right

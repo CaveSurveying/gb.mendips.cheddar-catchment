@@ -1,9 +1,13 @@
 encoding  utf-8
 survey BoneHole -title "Bone Hole"
 
+
   input 00_Surface/BH_Surface.th
+  input 00_SurfaceRift2015/00_SurfaceRift2015.th
   input 01_Entrance/BH_Entrance.th
+  input 01_BoneSlope2015/01_BoneSlope2015.th
   input 02_FirstPitch/BH_FirstPitch.th
+  input 02_LadderPitch2015/02_LadderPitch.th
   input 10_PerforationChoke/BH_PerforationChoke.th
   input Bone2/Bone2
   input Bone3/Bone3
@@ -11,16 +15,78 @@ survey BoneHole -title "Bone Hole"
   input BoneDig2/BoneDig2.th
   input "04 HappyNewYear/HappyNewYear.th"  
 
-  equate 1.3@BH_Entrance 1.3@BH_Surface  1.40@BoneDig
+# Ben Cooper 2015-07-10:
+# The BoneDig map did not allign with the Surface / Entrance surveys, suggesting there is a blunder somewhere.
+# Andrew had equated 1.40@BoneDig to 1.3@BH_Entrance, etc.  However, looking at BoneDig in isolation, 
+# there is clearly a problem with leg 1.40-1.0 
+# BoneDig: 	1.40 	1.0 	1.426 	216.27 	-47.84  #1.40 top left of door to locked bone cave.  
+# Compare this with the similar leg to the middle of the entrance jamb:-
+# BoneEntrance: 5.3	5.5	1.462	228.05	-42.61	#5.5  middle of top of door to locked bone cave
+# Also, 1.40 is on the edge of a steel plate so would not have been a good place to take a compass shot from!  
+# This all sugggests that BoneDig 1.40-1.0 should have been a reverse shot 1.0-1.40.  I've now reversed this in BoneDig.th
+# It also suggests that 1.0@BoneDig is very close to 5.3@SurfaceRift2015, and that this is a better equate than 1.3@BoneDig
+# Making these two changes and suddenly the BoneDig and PerforationChoke maps overlap quite nicely!
+
+  equate 1.0@BH_Surface 1.0@00_SurfaceRift2015
+  equate 1.3@BH_Entrance 1.3@BH_Surface  1.0@BoneDig 5.3@00_SurfaceRift2015
+  equate 5.5@00_SurfaceRift2015 Surface 5.5@01_BoneSlope2015
   equate 1.29@BoneDig 2.0@BoneDig2
   equate 1.13@BH_FirstPitch 1.13@BH_Entrance
+  equate 6.10@02_LadderPitch 6.10@01_BoneSlope2015
   equate 1.22@BH_PerforationChoke 1.22@BH_Surface
   equate 1.15@BH_FirstPitch 1.0@Bone2
   equate 1.16@Bone2 2.0@Bone3
-  equate 4.17@LadderLink.HappyNewYear		1.3@Bone2
+  equate 4.17@LadderLink.HappyNewYear	 1.3@Bone2
+  
+  join BoneDigSP1@BoneDig 00_SurfaceRift2015SP2@00_SurfaceRift2015
+  join 02_LadderPitchSP2@02_LadderPitch Bone2SP3@Bone2
   
   #Close loops
-  equate 4.2@HappyNewYear1.HappyNewYear		1.16@Bone2
+  equate 7.4@02_LadderPitch  1.3@Bone2
+  equate 4.2@HappyNewYear1.HappyNewYear	 1.16@Bone2
+
+  map BoneHoleMapE98 -proj [elevation 98]
+    00_SurfaceE98M@BH_Surface
+    00_SurfaceRift2015ME98@00_SurfaceRift2015
+    01_BoneSlope2015ME98@01_BoneSlope2015
+    02_LadderPitchME98@02_LadderPitch
+  endmap
   
+  map BoneHoleMap
+    #PerforationChokeM
+    BoneSlopeM
+    break
+    #HappyNewYearM
+    break
+    LadderPitchM
+  endmap
+
+  map BoneSlopeM
+    00_SurfaceRift2015M@00_SurfaceRift2015
+    01_BoneSlope2015M@01_BoneSlope2015
+    02_LadderPitchM1@02_LadderPitch
+  endmap
+  
+  map LadderPitchM
+    02_LadderPitchM2@02_LadderPitch
+    break
+    Bone2M1@Bone2
+    break
+    HappyNewYearM1@HappyNewYear  
+    break
+    Bone2M2@Bone2
+    Bone3M@Bone3
+  endmap
+  
+  map HappyNewYearM
+    HappyNewYearM2@HappyNewYear  
+  endmap
+  
+  map PerforationChokeM
+    #10_PerforationChokeM@BH_PerforationChoke
+    BoneDigM@BoneDig
+    BoneDig2M@BoneDig2
+  endmap
+
 endsurvey
 

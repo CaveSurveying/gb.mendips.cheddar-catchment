@@ -18,7 +18,7 @@ line wall
   smooth off
 endline
 
-line wall -subtype blocks
+line wall -subtype debris
   304.0 595.0
   220.4 574.82 235.0 506.0 321.0 532.0
   351.83 541.32 400.0 592.0 403.0 571.0

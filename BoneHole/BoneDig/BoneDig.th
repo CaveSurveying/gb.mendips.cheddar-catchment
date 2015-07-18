@@ -379,7 +379,8 @@ data normal from to tape compass clino ignoreall
 #1.40  1.0  1.424  216.1  -47.81  
 #1.40  1.0  1.425  216.22  -47.86  
 #1.40  1.0  1.43  216.49  -47.86  
-1.40  1.0  1.426  216.27  -47.84  Calculated leg from 3 above
+#1.40  1.0  1.426  216.27  -47.84  Calculated leg from 3 above
+1.0  1.40  1.426  216.27  -47.84  Calculated leg from 3 above
 1.40  -  0.0  0.0  0.0  top left of door to locked bone cave
 endcentreline
 endsurvey

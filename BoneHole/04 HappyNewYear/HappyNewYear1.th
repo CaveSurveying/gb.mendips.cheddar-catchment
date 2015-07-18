@@ -14,13 +14,14 @@ copyright 2015 "GNU GPL"
 
 data normal from to tape compass clino ignoreall
   extend right
-  flags duplicate
+  flags duplicate # see Bone2
 1.0	-	0.0	0.0	0.0	
 1.0	3.0	0.0	0.0	0.0	fixed station 3.0
 3.0	-	0.0	0.0	0.0	
 #3.0	3.1	2.053	110.9	-35.99	
 #3.0	3.1	2.052	110.23	-35.76	
 #3.0	3.1	2.059	111.96	-36.03	
+  flags not duplicate
 3.0	3.1	2.055	111.03	-35.92	Calculated leg from 3 above
 3.1	-	0.53	178.26	1.02	
 3.1	-	2.111	346.35	45.3	
@@ -32,6 +33,7 @@ data normal from to tape compass clino ignoreall
 #3.1	3.2	0.955	139.28	58.31	
 #3.1	3.2	0.955	140.02	57.27	
 3.1	3.2	0.951	139.87	57.85	Calculated leg from 3 above
+					# 3.2 bolt in wall
 3.0	-	0.0	0.0	0.0	
 3.0	-	1.443	191.46	-25.48	
 3.0	-	1.121	225.82	-13.54	
@@ -40,7 +42,6 @@ data normal from to tape compass clino ignoreall
 3.0	-	1.939	123.59	-47.88	
 3.0	-	2.369	106.43	-25.77	
 3.0	-	3.403	109.78	-23.11	
-flags not duplicate # Above repeats parts of Bone2 survey.
 #3.0	3.3	2.011	356.3	26.81	
 #3.0	3.3	2.008	356.49	27.04	
 #3.0	3.3	2.009	355.58	27.13	
@@ -70,6 +71,9 @@ flags not duplicate # Above repeats parts of Bone2 survey.
 #3.4	3.5	1.186	300.9	20.9	
 #3.4	3.5	1.16	300.34	20.9	
 3.4	3.5	1.18	300.79	20.85	Calculated leg from 3 above
+
+explo-date 2015.01.03 # Station 3.5 is the Happy New Year dig.  Everything after is the breakthrough.
+
 3.5	-	0.551	281.45	-5.0	
 3.5	-	0.677	257.61	-53.08	
 3.5	-	0.49	130.4	-63.92	
@@ -167,5 +171,6 @@ flags duplicate # below is a duplicate survey to tie into Happy New Year to Ladd
 #4.1	4.3	2.465	28.33	-45.79	
 4.1	4.3	2.465	27.81	-46.01	Calculated leg from 3 above
 4.3	-	0.0	0.0	0.0	
+flags not duplicate
 endcentreline
 endsurvey

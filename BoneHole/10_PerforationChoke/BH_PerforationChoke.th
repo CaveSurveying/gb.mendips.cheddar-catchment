@@ -2,6 +2,12 @@ encoding  utf-8
 
 survey BH_PerforationChoke -title "Perforation Choke"
   
+input BH_PerforationChoke_SP1.th2
+
+map BH_PerforationChoke
+	BH_PerforationChokeSP1
+endmap
+
 centreline
   units clino compass degree
   units length meter

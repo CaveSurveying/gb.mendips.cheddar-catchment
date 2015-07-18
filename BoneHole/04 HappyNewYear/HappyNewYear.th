@@ -15,25 +15,24 @@ survey HappyNewYear
 	equate 3.34@HappyNewYear3	3.39@HappyNewYear4
 	
 	input HappyNewYear1.th2
+	input LadderLink.th2
 	input HappyNewYear2.th2
 	input HappyNewYear3.th2
 	input HappyNewYear4.th2
 	input HappyNewYear4SP2.th2
 	
-	map m_HappyNewYear1
+	map HappyNewYearM1
 		HappyNewYear1SP1
+		break
+		LadderLinkSP1
 	endmap
-	
-	map m_HappyNewYear2
-		HappyNewYear2SP1
-	endmap
-	
-	map m_HappyNewYear3
-		HappyNewYear3SP1
-	endmap
-
-	map m_HappyNewYear4
+	map HappyNewYearM2
 		HappyNewYear4SP1
+		break
 		HappyNewYear4SP2
+		break
+		HappyNewYear3SP1
+		break
+		HappyNewYear2SP1
 	endmap
 endsurvey

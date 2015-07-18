@@ -7,13 +7,14 @@ layout l1
 	scale-bar 10 m
         color map-fg 50  
  	scale 1 200 
+ 	#symbol-hide group surface-centerline
 endlayout
  
 
 export model -format survex -o Maps/BH_Surface.3d
-export model -format loch -o Maps/BH_Surface.lox
-export map -projection plan -layout l1 -o Maps/BH_Surface.pdf
-export map -projection plan -format xvi -layout l1 -o Maps/BH_Surface.xvi
-export map -projection extended -format xvi -layout l1 -o Maps/BH_Surface_ex.xvi
-export map -projection [elevation 90] -format xvi -layout l1 -o Maps/BH_Surface_el90.xvi
+#export model -format loch -o Maps/BH_Surface.lox
+#export map -projection plan -layout l1 -o Maps/BH_Surface.pdf
+export map -projection [elevation 98] -layout l1 -o Maps/BH_SurfaceE98.pdf
+#export map -projection plan -format xvi -layout l1 -o Maps/BH_Surface.xvi
+#export map -projection [elevation 90] -format xvi -layout l1 -o Maps/BH_Surface_el90.xvi
 #export atlas -projection plan -layout l1 -o Maps/BH_Surface.pdf

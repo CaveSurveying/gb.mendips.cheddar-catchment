@@ -1,29 +1,81 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -153.299212598 -103.984251973 732.622047244 1254.37795275
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {277.216850394 1 1.0} {1084.12716535 3.47} PocketTopo/HappyNewYear1_p.xvi 0 {}
 
 
 
 scrap HappyNewYear1SP1 -projection plan -station-names [] @HappyNewYear1 -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line wall -subtype blocks
+line wall -subtype debris
   192.0 706.5
   182.0 705.5 135.5 663.0 151.5 624.0
   smooth off
 endline
 
-line wall -subtype blocks
+line wall -subtype debris
   210.0 624.0
   212.5 633.5 234.5 666.0 252.0 670.0
   smooth off
 endline
 
-line wall -subtype blocks
-  499.0 345.5
-  487.0 345.5 417.5 373.0 412.5 379.0
-  407.5 385.0 384.5 402.0 386.0 405.5
+line wall -subtype debris
+endline
+
+line wall -subtype debris
+  494.0 296.0
+  465.5 300.5 508.5 347.0 412.5 379.0
+  404.98 381.51 384.5 402.0 386.0 405.5
   387.5 409.0 471.5 465.5 480.0 470.0
+  smooth off
+endline
+
+line pit -outline in
+  535.0 224.0
+  541.0 227.5 548.0 224.5 546.5 231.0
+  545.0 237.5 540.0 253.5 521.0 254.5
+  502.0 255.5 480.0 260.5 476.5 259.5
+  473.0 258.5 451.5 252.0 442.5 250.5
+  433.5 249.0 410.0 255.0 405.5 253.0
+  401.0 251.0 403.0 225.5 403.0 225.5
+  smooth off
+endline
+
+line wall
+  254.0 251.0
+  265.5 240.5 283.0 209.5 295.0 210.0
+  altitude .
+  307.0 210.5 419.5 228.5 434.0 224.5
+  448.5 220.5 521.5 232.0 529.5 230.0
+  537.5 228.0 549.0 200.5 554.0 205.5
+  559.0 210.5 555.0 229.0 561.5 237.5
+  568.0 246.0 576.0 270.0 575.0 276.0
+  smooth off
+endline
+
+line wall -subtype unsurveyed -subtype debris
+  575.0 276.0
+  574.0 282.0 574.5 308.5 573.0 329.0
+  571.5 349.5 574.0 394.5 565.5 396.5
+  557.0 398.5 494.0 296.0 494.0 296.0
+  smooth off
+endline
+
+line wall
+  142.0 172.5
+  147.0 183.5 152.5 193.5 159.5 194.0
+  166.5 194.5 223.5 189.0 230.5 182.0
+  smooth off
+  295.0 210.0
+endline
+
+line wall
+  84.0 515.5
+  84.0 506.0 68.5 432.0 65.0 418.0
+  61.5 404.0 57.0 330.0 57.0 320.0
+  57.0 280.54 61.5 241.0 72.5 235.5
+  altitude .
+  83.5 230.0 84.5 221.5 83.0 213.0
   smooth off
 endline
 
@@ -39,6 +91,10 @@ line wall
   248.5 502.5 303.0 452.0 303.0 452.0
   smooth off
   303.0 452.0 226.5 340.5 217.5 337.0
+  smooth off
+  217.5 337.0 187.5 326.0 172.0 347.5
+  156.5 369.0 137.5 447.0 135.0 462.0
+  132.5 477.0 131.5 488.0 131.5 488.0
   smooth off
 endline
 
@@ -78,13 +134,13 @@ line wall
   smooth off
 endline
 
-line pit -close on
+line pit -close on -outline in
   266.0 556.5
   255.0 560.5 235.5 548.0 245.5 543.0
   255.5 538.0 277.0 552.5 266.0 556.5
 endline
 
-line pit -close on
+line pit -close on -outline in
   204.5 618.5
   195.5 618.5 157.0 625.0 151.5 624.0
   146.0 623.0 132.0 627.0 141.0 608.5
@@ -112,10 +168,26 @@ line pit -close on
   297.01 826.99 302.38 834.98 302.0 839.0
 endline
 
+line pit -close on -outline in
+  153.0 359.0
+  149.5 366.0 114.5 390.5 114.5 390.5
+  smooth off
+  114.5 390.5 100.5 356.5 107.0 353.0
+  113.5 349.5 156.5 352.0 153.0 359.0
+endline
+
+line chimney
+  445.0 512.5
+  439.5 508.0 441.0 505.0 433.5 506.0
+  426.0 507.0 388.5 520.5 388.5 526.0
+  388.5 531.5 394.0 541.0 394.0 541.0
+  smooth off
+endline
+
 line wall
   480.0 470.0
-  464.0 496.0 368.0 586.0 278.0 550.0
-  273.85 548.34 210.0 624.0 210.0 624.0
+  477.5 504.0 379.5 578.5 278.0 550.0
+  273.68 548.79 210.0 624.0 210.0 624.0
   smooth off
 endline
 
@@ -142,6 +214,20 @@ point 179.776850394 617.027165354 station -name 3.5
 point 254.366850394 572.577165354 station -name 3.4
 
 point 306.666850394 453.327165354 station -name 3.3
+
+line pit -reverse on
+  131.5 488.0
+  123.0 492.0 84.0 515.5 84.0 515.5
+  smooth off
+endline
+
+point 91.936850394 257.60716535 station -name 4.2
+
+point 101.136850394 317.83716535 station -name 4.1
+
+point 464.156850394 235.20716535 station -name 3.2
+
+point 438.486850394 265.66716535 station -name 3.1
 
 point 316.196850394 312.677165354 station -name 3.0
 

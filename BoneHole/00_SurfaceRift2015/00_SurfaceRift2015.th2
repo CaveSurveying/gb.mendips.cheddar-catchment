@@ -1,0 +1,57 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -130.0 1387.84251968 2330.72440945
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {712.992125984 1 1.0} {795.244094488 5.0} PocketTopo/00_SurfaceRift2015_p.xvi 0 {}
+
+
+
+scrap 00_SurfaceRift2015SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line contour -outline out
+  982.0 802.0
+  982.0 802.0 1034.0 776.0 972.0 742.0
+  smooth off
+endline
+
+line pit -outline out
+endline
+
+point 1024.0 1508.0 station
+
+line pit -outline out
+endline
+
+line pit -reverse on -outline out
+  702.0 764.0
+  706.0 774.0 622.0 894.0 622.0 912.0
+  622.0 930.0 738.0 944.0 760.0 944.0
+  782.0 944.0 864.0 1120.0 878.0 1162.0
+  892.0 1204.0 898.0 1342.0 880.0 1372.0
+  862.0 1402.0 834.0 1500.0 838.0 1530.0
+  842.0 1560.0 867.22 1666.17 881.612125984 1679.08409449
+  896.0 1692.0 1004.0 1704.0 1014.0 1682.0
+  1024.0 1660.0 1022.0 1536.0 1018.0 1508.0
+  1014.0 1480.0 973.0 1262.0 971.0 1214.0
+  969.0 1166.0 984.0 1116.0 984.0 1116.0
+  smooth off
+  960.0 1090.0
+  986.0 1040.0
+  944.0 980.0
+  944.0 980.0 980.0 938.0 984.0 924.0
+  988.0 910.0 990.0 814.0 982.0 802.0
+  smooth off
+endline
+
+point 881.612125984 1679.08409449 station -name 5.4
+
+point 1035.11212598 1647.76409449 station -name 5.3
+
+point 953.962125984 1477.58409449 station -name 5.2
+
+point 967.722125984 1197.66409449 station -name 5.1
+
+point 712.992125984 797.244094488 station -name 1.0
+
+endscrap
+
+

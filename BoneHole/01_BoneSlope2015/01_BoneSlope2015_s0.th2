@@ -1,0 +1,39 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.5 -130.0 1387.34251968 2330.72440945
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {712.492125984 1 1.0} {795.244094488 5.0} ../00_SurfaceRift2015/PocketTopo/00_SurfaceRift2015_p.xvi 0 {}
+
+
+
+scrap 01_BoneSlope2015SP0 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line border
+endline
+
+line pit -close on -reverse on -outline in
+  943.0 1578.0
+  1023.0 1573.0
+  1020.0 1505.0
+  943.0 1511.0
+  943.0 1578.0
+endline
+
+line wall
+  947.0 1588.0
+  914.0 1592.0
+  914.0 1592.0 926.0 1509.0 939.0 1496.0
+  952.0 1483.0 992.0 1487.0 1004.0 1487.0
+  1016.0 1487.0 1048.0 1515.0 1049.0 1521.0
+  1050.0 1527.0 1054.0 1576.0 1054.0 1576.0
+  smooth off
+  1003.0 1583.0
+endline
+
+line wall
+endline
+
+point 972.112125984 1589.13409449 station -name 5.5
+
+endscrap
+
+

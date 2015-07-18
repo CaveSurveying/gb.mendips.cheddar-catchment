@@ -4,14 +4,14 @@ survey Bone2
 input Bone2.th2
 input Bone2Ee.th2
 
-map Bone2M
-  #Bone2SP1
-  Bone2SP2
+map Bone2M1
+  #Bone2SP1 emtpy scrap
+  #Bone2SP2 replaced by LadderPtich2015
  break
   Bone2SP3
- break
-  Bone2SP4
- break
+  # Bone2SP4  replaced by HappyNewYear1SP1
+endmap
+map Bone2M2   # create a separate map so that this can be correctly planed below HappyNewYear survey
   Bone2SP5
 endmap
 
