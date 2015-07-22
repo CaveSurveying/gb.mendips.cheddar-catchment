@@ -30,7 +30,7 @@ line wall -subtype debris
   smooth off
 endline
 
-line pit -outline in
+line pit -close on -outline in
   535.0 224.0
   541.0 227.5 548.0 224.5 546.5 231.0
   545.0 237.5 540.0 253.5 521.0 254.5
@@ -39,6 +39,10 @@ line pit -outline in
   433.5 249.0 410.0 255.0 405.5 253.0
   401.0 251.0 403.0 225.5 403.0 225.5
   smooth off
+  403.0 225.5 427.0 224.0 434.0 224.5
+  441.0 225.0 529.5 230.0 529.5 230.0
+  smooth off
+  535.0 224.0
 endline
 
 line wall
@@ -191,7 +195,7 @@ line wall
   smooth off
 endline
 
-point 401.276850394 1100.01716535 station -name 3.10
+point 401.276850394 1100.01716535 station -name 3.44a
 
 point 408.996850394 900.167165354 station -name 3.45
 

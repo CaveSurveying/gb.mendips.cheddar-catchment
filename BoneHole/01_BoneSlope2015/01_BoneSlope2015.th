@@ -3,6 +3,7 @@ survey 01_BoneSlope2015
 input 01_BoneSlope2015_s0.th2
 input 01_BoneSlope2015.th2
 input 01_BoneSlope2015E98.th2
+input 01_BoneSlope2015E278.th2
 
 map 01_BoneSlope2015M
 	01_BoneSlope2015SP0
@@ -12,6 +13,11 @@ endmap
 map 01_BoneSlope2015ME98 -proj [elevation 98]
 	01_BoneSlope2015SE98_1
 endmap
+
+map 01_BoneSlope2015ME278 -proj [elevation 278]
+	01_BoneSlope2015SE278_1
+endmap
+
 centreline
 
 copyright 2015 "GNU GPL"

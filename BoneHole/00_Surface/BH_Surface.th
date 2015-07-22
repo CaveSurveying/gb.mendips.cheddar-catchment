@@ -2,9 +2,14 @@ encoding  utf-8
 survey BH_Surface -title "Surface"
 
 input 00_SurfaceE98.th2
+input 00_SurfaceE278.th2
 
 map 00_SurfaceE98M -proj [elevation 98]
 	00_SurfaceSE98_1
+endmap
+
+map 00_SurfaceE278M -proj [elevation 278]
+	00_SurfaceSE278_1
 endmap
 
 centreline

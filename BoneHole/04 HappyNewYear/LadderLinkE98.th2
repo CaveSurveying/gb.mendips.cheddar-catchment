@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -136.36 -197.35 818.17 1184.08
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {671.186355691 1 1.0} {702.500714911 4.3} PocketTopo/LadderLink_E98.xvi 0 {}
+
+
+scrap LadderLinkSE98_1 -projection [elevation 98] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -21,6 +21,12 @@ survey HappyNewYear
 	input HappyNewYear4.th2
 	input HappyNewYear4SP2.th2
 	
+	input HappyNewYear1E98.th2
+	input HappyNewYear3E98.th2
+	
+	input HappyNewYear1E278.th2
+	input HappyNewYear3E278.th2
+	
 	map HappyNewYearM1
 		HappyNewYear1SP1
 		break
@@ -35,4 +41,22 @@ survey HappyNewYear
 		break
 		HappyNewYear2SP1
 	endmap
+	
+	map HappyNewYearME98
+		HappyNewYear1SE98_1
+		HappyNewYear1SE98_2
+		HappyNewYear1SE98_3
+		HappyNewYear3SE98_1
+		HappyNewYear3SE98_2
+	endmap
+
+	map HappyNewYearME278
+		HappyNewYear3SE278_2
+		break
+		HappyNewYear1SE278_1
+		HappyNewYear1SE278_2
+		HappyNewYear1SE278_3
+		HappyNewYear3SE278_1
+	endmap
+
 endsurvey

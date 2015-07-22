@@ -2,6 +2,7 @@ survey 02_LadderPitch
 
 input 02_LadderPitch.th2
 input 02_LadderPitchE98.th2
+input 02_LadderPitchE278.th2
 
 map 02_LadderPitchM1
 	02_LadderPitchSP1
@@ -14,7 +15,12 @@ map 02_LadderPitchME98 -proj [elevation 98]
 	02_LadderPitchSE98_1
 endmap
 
+map 02_LadderPitchME278 -proj [elevation 278]
+	02_LadderPitchSE278_1
+endmap
+
 centreline
+
 copyright 2015 "GNU GPL"
 
 ### TRIP COMMENT FROM POCKETTOPO ###

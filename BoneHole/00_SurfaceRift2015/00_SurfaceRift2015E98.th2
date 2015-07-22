@@ -54,7 +54,7 @@ point 587.20353527 335.780094005 station -name 5.3 -subtype natural
 
 point 652.05353527 257.870094005 station -name 5.5
 
-line pit
+line pit -outline out
   1523.0 625.0
   1529.87 660.71 1406.0 770.0 1366.0 786.0
   1326.0 802.0 1118.0 830.0 1086.0 834.0
@@ -63,7 +63,7 @@ line pit
   smooth off
 endline
 
-line pit -outline out
+line pit
   596.0 898.0
   596.0 898.0 571.4 839.39 684.0 812.0
   713.19 804.9 730.0 784.0 752.0 778.0

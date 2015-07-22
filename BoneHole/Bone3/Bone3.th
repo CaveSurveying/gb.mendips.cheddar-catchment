@@ -2,9 +2,21 @@ encoding  utf-8
 survey Bone3
 
 input Bone3.th2
+input Bone3E98.th2
+input Bone3E278.th2
 
 map Bone3M
   Bone3SP1
+endmap
+
+map Bone3ME98
+  Bone3SE98_1
+  Bone3SE98_2
+endmap
+
+map Bone3ME278
+  Bone3SE278_1
+  Bone3SE278_2
 endmap
 
 centreline

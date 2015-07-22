@@ -3,6 +3,8 @@ survey Bone2
 
 input Bone2.th2
 input Bone2Ee.th2
+input Bone2E98.th2
+input Bone2E278.th2
 
 map Bone2M1
   #Bone2SP1 emtpy scrap
@@ -11,8 +13,21 @@ map Bone2M1
   Bone2SP3
   # Bone2SP4  replaced by HappyNewYear1SP1
 endmap
-map Bone2M2   # create a separate map so that this can be correctly planed below HappyNewYear survey
+map Bone2M2   # create a separate map so that this can be correctly placed below HappyNewYear survey
   Bone2SP5
+endmap
+
+map Bone2ME98
+  Bone2SE98_1
+  Bone2SE98_2
+  Bone2SE98_3
+endmap
+
+map Bone2ME278
+  Bone2SE278_1
+  Bone2SE278_3
+  break
+  Bone2SE278_2
 endmap
 
 centreline

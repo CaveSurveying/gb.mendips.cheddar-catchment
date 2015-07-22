@@ -3,6 +3,7 @@ survey 00_SurfaceRift2015
 input 00_SurfaceRift2015.th2
 input 00_SurfaceRift2015_s2.th2
 input 00_SurfaceRift2015E98.th2
+input 00_SurfaceRift2015E278.th2
 
 map 00_SurfaceRift2015M
 	00_SurfaceRift2015SP1
@@ -12,6 +13,11 @@ endmap
 map 00_SurfaceRift2015ME98 -proj [elevation 98]
 	00_SurfaceRift2015SE98_1
 endmap
+
+map 00_SurfaceRift2015ME278 -proj [elevation 278]
+	00_SurfaceRift2015SE278_1
+endmap
+
 centreline
 
 copyright 2015 "GNU GPL"

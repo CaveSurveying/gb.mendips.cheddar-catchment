@@ -1,0 +1,137 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -91.560284743 -347.534811341 1188.0617625 854.513711465
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {1013.98072197 1 1.0} {316.302609103 3.47} PocketTopo/HappyNewYear1_E278.xvi 0 {}
+##XTHERION## xth_me_image_insert {443.041552761 1 1.0} {445.136570884 3.18} PocketTopo/HappyNewYear2_E278.xvi 0 {}
+
+
+
+scrap HappyNewYear1SE278_1 -projection [elevation 278] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  334.701552761 374.816570884
+  366.08 374.96 391.0 389.0 402.0 389.0
+  457.33 389.0 576.0 259.5 589.0 254.5
+  602.0 249.5 685.5 253.0 681.5 250.0
+  677.5 247.0 632.0 244.5 623.0 241.0
+  614.0 237.5 602.0 199.5 600.5 195.5
+  599.0 191.5 542.0 119.5 535.5 116.0
+  529.0 112.5 489.0 101.5 485.5 101.5
+  482.0 101.5 430.5 109.5 438.5 113.5
+  446.5 117.5 486.5 128.5 486.5 135.0
+  486.5 141.5 499.5 182.0 498.0 187.0
+  496.5 192.0 400.0 141.5 393.5 136.0
+  387.0 130.5 307.5 63.0 304.0 61.0
+  smooth off
+endline
+
+line wall
+  755.0 249.0
+  745.0 250.0 668.0 277.0 678.0 277.0
+  688.0 277.0 810.0 283.0 793.0 293.0
+  776.0 303.0 702.0 303.0 711.0 326.0
+  720.0 349.0 805.0 410.0 827.0 415.0
+  849.0 420.0 1052.0 412.0 1023.0 441.0
+  994.0 470.0 974.0 452.0 956.0 463.0
+  938.0 474.0 773.0 759.0 713.0 757.0
+  653.0 755.0 717.0 715.0 711.0 673.0
+  705.0 631.0 679.0 458.0 682.0 446.0
+  685.0 434.0 707.0 385.0 681.0 394.0
+  655.0 403.0 639.0 407.0 624.0 418.0
+  609.0 429.0 496.0 442.0 477.0 446.0
+  458.0 450.0 405.0 410.0 392.0 410.0
+  smooth off
+endline
+
+line wall
+  312.0 7.0
+  332.0 29.0 382.0 90.0 400.0 84.0
+  418.0 78.0 488.0 34.0 506.0 36.0
+  524.0 38.0 538.0 50.0 544.0 62.0
+  550.0 74.0 586.83 148.5 602.0 159.0
+  615.0 168.0 655.0 203.0 670.0 205.0
+  689.85 207.65 732.0 200.0 732.0 200.0
+  smooth off
+endline
+
+point 1023.76155276 434.816570884 station -name 3.14@HappyNewYear2
+
+point 811.421552761 433.946570884 station -name 3.13@HappyNewYear2
+
+point 334.701552761 374.816570884 station -name 3.16@HappyNewYear2
+
+point 444.0 446.0 station -name 3.18@HappyNewYear2
+
+point 460.161552761 428.456570884 station -name 3.17@HappyNewYear2
+
+point 435.441552761 401.766570884 station -name 3.15@HappyNewYear2
+
+point 590.541552761 267.356570884 station -name 3.12@HappyNewYear2
+
+point 649.631552761 287.046570884 station -name 3.11@HappyNewYear1
+
+point 765.920721971 210.372609103 station -name 3.9@HappyNewYear1
+
+point 675.910721971 213.382609103 station -name 3.7@HappyNewYear1
+
+point 620.200721971 198.842609103 station -name 3.6@HappyNewYear1
+
+point 537.860721971 109.342609103 station -name 3.5@HappyNewYear1
+
+point 504.230721971 76.272609103 station -name 3.4@HappyNewYear1
+
+point 393.420721971 108.652609103 station -name 3.3@HappyNewYear1
+
+endscrap
+
+
+
+scrap HappyNewYear1SE278_2 -projection [elevation 278] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  834.0 -3.0
+  835.0 29.0 834.0 140.0 827.0 153.0
+  820.0 166.0 776.0 183.0 776.0 183.0
+  smooth off
+endline
+
+line wall
+  775.0 218.0
+  801.0 216.0 1027.0 249.0 1043.0 242.0
+  1059.0 235.0 893.0 172.0 879.0 144.0
+  865.0 116.0 862.0 -2.0 862.0 -2.0
+  smooth off
+endline
+
+point 1046.98072197 233.682609103 station -name 3.44a@HappyNewYear1
+
+point 850.140721971 -3.297390897 station -name 3.45@HappyNewYear1
+
+point 842.420721971 171.612609103 station -name 3.44@HappyNewYear1
+
+endscrap
+
+
+
+scrap HappyNewYear1SE278_3 -projection [elevation 278] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  732.0 200.0
+  770.0 143.0
+endline
+
+line wall
+  786.0 145.0
+  786.0 160.0 765.0 213.0 775.0 218.0
+  785.0 223.0 1016.96 306.61 1013.98072197 316.302609103
+  1011.0 326.0 755.0 249.0 755.0 249.0
+  smooth off
+endline
+
+point 1013.98072197 316.302609103 station -name 3.47@HappyNewYear1
+
+point 750.480721971 233.062609103 station -name 3.46@HappyNewYear1
+
+endscrap
+
+

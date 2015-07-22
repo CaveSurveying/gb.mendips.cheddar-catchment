@@ -45,13 +45,6 @@ survey BoneHole -title "Bone Hole"
   equate 7.4@02_LadderPitch  1.3@Bone2
   equate 4.2@HappyNewYear1.HappyNewYear	 1.16@Bone2
 
-  map BoneHoleMapE98 -proj [elevation 98]
-    00_SurfaceE98M@BH_Surface
-    00_SurfaceRift2015ME98@00_SurfaceRift2015
-    01_BoneSlope2015ME98@01_BoneSlope2015
-    02_LadderPitchME98@02_LadderPitch
-  endmap
-  
   map BoneHoleMap
     #PerforationChokeM
     BoneSlopeM
@@ -88,5 +81,28 @@ survey BoneHole -title "Bone Hole"
     BoneDig2M@BoneDig2
   endmap
 
+  map BoneHoleMapE98 -proj [elevation 98]
+    00_SurfaceE98M@BH_Surface
+    00_SurfaceRift2015ME98@00_SurfaceRift2015
+    01_BoneSlope2015ME98@01_BoneSlope2015
+    02_LadderPitchME98@02_LadderPitch
+    Bone2ME98@Bone2
+    Bone3ME98@Bone3
+    HappyNewYearME98@HappyNewYear
+  endmap
+  
+  map BoneHoleMapE278 -proj [elevation 278]
+    00_SurfaceE278M@BH_Surface
+    00_SurfaceRift2015ME278@00_SurfaceRift2015
+    #HappyNewYearME278@HappyNewYear
+    break
+    02_LadderPitchME278@02_LadderPitch
+    break
+    Bone2ME278@Bone2
+    Bone3ME278@Bone3
+    break
+    01_BoneSlope2015ME278@01_BoneSlope2015
+  endmap
+  
 endsurvey
 
