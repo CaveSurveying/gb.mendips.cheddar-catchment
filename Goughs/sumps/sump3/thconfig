@@ -9,7 +9,7 @@ source sump3.th
 #export map -proj plan -layout local -o sump3.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj [elevation 0] -layout local -o sump3E0.pdf
+#export map -proj [elevation 0] -layout local -o sump3E0.pdf
 #produces elevantion of cave on a single sheet
 
 #export map -proj extended -layout local -o sump3Ee.pdf
@@ -26,7 +26,7 @@ export map -proj [elevation 0] -layout local -o sump3E0.pdf
 #export map -o sump3.xvi -format xvi
 #map for importing into th2 file
 
-#export map -proj [elevation 0] -o sump3E0.xvi -format xvi
+export map -proj [elevation 0] -o sump3E0.xvi -format xvi
 #map for importing into th2 file
 
 layout local
