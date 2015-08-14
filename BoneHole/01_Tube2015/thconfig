@@ -1,0 +1,27 @@
+encoding  utf-8
+source 01_tube.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o 0.Maps/01_tube.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o 0.Maps/01_tubeEe.pdf
+
+export model -fmt survex -o 0.Maps/01_tubeth.3d
+#Survex file showing centre line only
+
+#export model -o 0.Maps/01_tube.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o 0.Maps/01_tube_Walls.3d
+#Survex file showing walls only
+
+layout local
+debug off
+map-header 0 0 ne
+#symbol-hide group cave-centreline
+endlayout

@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -142.629336191 -105.705910489 1344.99271105 1260.0
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {268.489706365 1 1.0} {440.361380684 3.19} PocketTopo/HappyNewYear3_E98.xvi 0 {}
 ##XTHERION## xth_me_image_insert {272.110821289 1 1.0} {442.74015748 3.19} PocketTopo/HappyNewYear4_E98.xvi 0 {}
 
@@ -115,6 +115,7 @@ line wall -reverse on
   271.0 265.5 264.5 292.0 253.0 286.5
   241.5 281.0 143.0 246.0 141.0 242.5
   139.0 239.0 115.0 106.0 112.0 100.0
+  smooth off
 endline
 
 point 705.219706365 283.141380684 station -name 3.23
@@ -126,4 +127,5 @@ point 428.309706365 252.271380684 station -name 3.21
 point 342.319706365 356.961380684 station -name 3.20
 
 endscrap
+
 

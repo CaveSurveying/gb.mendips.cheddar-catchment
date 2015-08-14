@@ -1,7 +1,7 @@
 encoding  utf-8
 language en_UK
 source BoneHole.th
-#select BoneHoleMap@BoneHole
+select BoneHoleMap@BoneHole
 select HappyNewYearME278@HappyNewYear.BoneHole
 select BoneHoleMapE278@BoneHole
 #unselect BH_PerforationChoke.BoneHole

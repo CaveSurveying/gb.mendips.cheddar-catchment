@@ -5,6 +5,8 @@ survey BoneHole -title "Bone Hole"
   input 00_Surface/BH_Surface.th
   input 00_SurfaceRift2015/00_SurfaceRift2015.th
   input 01_Entrance/BH_Entrance.th
+  input 01_Tube2015/01_tube.th
+  input 01_Pit2015/01_pit.th
   input 01_BoneSlope2015/01_BoneSlope2015.th
   input 02_FirstPitch/BH_FirstPitch.th
   input 02_LadderPitch2015/02_LadderPitch.th
@@ -28,9 +30,11 @@ survey BoneHole -title "Bone Hole"
 # Making these two changes and suddenly the BoneDig and PerforationChoke maps overlap quite nicely!
 
   equate 1.0@BH_Surface 1.0@00_SurfaceRift2015
-  equate 1.3@BH_Entrance 1.3@BH_Surface  1.0@BoneDig 5.3@00_SurfaceRift2015
-  equate 5.5@00_SurfaceRift2015 Surface 5.5@01_BoneSlope2015
+  equate 1.3@BH_Entrance 1.3@BH_Surface  1.0@BoneDig 5.3a@00_SurfaceRift2015
   equate 1.29@BoneDig 2.0@BoneDig2
+  equate 5.5@00_SurfaceRift2015 Surface 5.5@01_BoneSlope2015
+  equate 6.5@01_BoneSlope2015 6.5@01_tube
+  equate 6.5@01_BoneSlope2015 6.5@01_pit
   equate 1.13@BH_FirstPitch 1.13@BH_Entrance
   equate 6.10@02_LadderPitch 6.10@01_BoneSlope2015
   equate 1.22@BH_PerforationChoke 1.22@BH_Surface
@@ -49,14 +53,16 @@ survey BoneHole -title "Bone Hole"
     #PerforationChokeM
     BoneSlopeM
     break
-    #HappyNewYearM
+    HappyNewYearM
     break
     LadderPitchM
   endmap
 
   map BoneSlopeM
-    00_SurfaceRift2015M@00_SurfaceRift2015
+    #00_SurfaceRift2015M@00_SurfaceRift2015
     01_BoneSlope2015M@01_BoneSlope2015
+    01_tubeM@01_tube
+    01_pitM@01_pit
     02_LadderPitchM1@02_LadderPitch
   endmap
   
@@ -92,6 +98,10 @@ survey BoneHole -title "Bone Hole"
   endmap
   
   map BoneHoleMapE278 -proj [elevation 278]
+    01_BoneSlope2015ME278@01_BoneSlope2015
+    01_pitE278@01_pit
+    01_tubeE278@01_tube
+    break
     00_SurfaceE278M@BH_Surface
     00_SurfaceRift2015ME278@00_SurfaceRift2015
     #HappyNewYearME278@HappyNewYear
@@ -102,6 +112,8 @@ survey BoneHole -title "Bone Hole"
     Bone3ME278@Bone3
     break
     01_BoneSlope2015ME278@01_BoneSlope2015
+    01_pitE278@01_pit
+    01_tubeE278@01_tube
   endmap
   
 endsurvey
