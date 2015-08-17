@@ -25,13 +25,13 @@ layout local
 copy common
 debug off
 
-map-image 30 -5 nw ../Outputs/Res_Goughs_overview.pdf
+map-image 10 68 nw ../Outputs/Res_Goughs_overview.pdf
 map-image 65 75 nw GoughsE000.pdf
 map-image 65 40 nw /sumps/sump2plusE270.pdf
 map-image 65 15 nw /sumps/sump3plusE0.pdf
 
 
-map-header 35 90 ne
+map-header 10 95 nw
 map-comment "Drawn, using Therion, by Andrew Atkinson and Graham Mullan.<br>\
 Survey UBSS and CDG.<br>\
 Data available at www.cave-registry.org.uk<br>\
