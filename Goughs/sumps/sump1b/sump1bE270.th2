@@ -7,6 +7,8 @@ encoding  utf-8
 
 scrap sump1bSE2701 -projection [elevation 270] -scale [-128.0 -128.0 2076.8149999999996 -128.0 0.0 0.0 56.00230099999999 0.0 m]
 
+point 1160.0 40.0 label -text [Elevation of Sump 1b - Bishop's Palace - Sump 2 - Sheppard's Crook - projected on 270 degrees] -scale xl
+
 area sump
   l26-1331-381
 endarea
