@@ -6,7 +6,7 @@ source sumps.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o sumps.pdf
+#export map -proj plan -layout local -o sumps.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj [elevation 0] -layout local -o sumpsE0.pdf
@@ -16,8 +16,8 @@ export map -proj plan -layout local -o sumps.pdf
 select sump2plusE270M@sumps
 export map -proj [elevation 270] -layout local -o sump2plusE270.pdf
 
-#select sump3plusE0M@sumps
-#export map -proj [elevation 0] -layout local -o sump3plusE0.pdf
+select sump3plusE0M@sumps
+export map -proj [elevation 0] -layout local -o sump3plusE0.pdf
 
 #export model -fmt survex -o sumpsth.3d
 #Survex file showing centre line only
@@ -32,8 +32,10 @@ layout local
 
 copy common
 debug off
-map-header 0 0 nw
+legend off
+map-header 0 0 off
 symbol-hide group centreline
+colour map-fg [0 100 0]
 
 
 endlayout

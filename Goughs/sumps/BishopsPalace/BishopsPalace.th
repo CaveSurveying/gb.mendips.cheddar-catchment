@@ -3,6 +3,7 @@ survey BishopsPalace
 
 input BishopsPalace.th2
 input BishopsPalaceE270.th2
+input XSectionsBishopsPalace.th2
 
 map BishopsPalaceM
   BishopsPalaceSP1
@@ -12,8 +13,16 @@ endmap
 
 map BishopsPalaceE270M
   BishopsPalaceSE2701
-  BishopsPalaceSE2702
-  
+  BishopsPalaceSE2702  
+endmap
+
+map XSectionM
+  XSectionSP
+endmap
+
+map BishopsPalaceXM
+  BishopsPalaceM
+  XSectionM [-29200 -21500 cm] none
 endmap
 
 centreline

@@ -14,7 +14,7 @@ map GoughsM -title "Gough's Cave"
     GoughsLowerM
     BeddingChamberM@BeddingChamber
     #Not sure why LLoydHallTopM is not in this????
-    BishopsPalaceM@BishopsPalace.sumps
+    BishopsPalaceXM@BishopsPalace.sumps
     sheppards_crookM@sheppards_crook.sumps
 endmap
 

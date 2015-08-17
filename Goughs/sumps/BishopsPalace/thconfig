@@ -24,7 +24,7 @@ export map -proj plan -layout local -o BishopsPalace.pdf
 #export map -proj plan -o BishopsPalace_Walls.3d
 #Survex file showing walls only
 
-export map -proj [elevation 270] -o BishopsPalaceE270.xvi -format xvi
+#export map -proj [elevation 270] -o BishopsPalaceE270.xvi -format xvi
 #map for importing into th2 file
 
 layout local
