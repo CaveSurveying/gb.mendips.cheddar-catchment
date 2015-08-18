@@ -1,11 +1,13 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 3021.695 974.455
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {295.28 1 1.0} {610.237 0} upstreamE0.xvi 0 {}
 
 
 
 scrap upstreamSE0_1 -projection [elevation 0] -scale [-128.0 -128.0 3021.695 -128.0 0.0 0.0 80.002253 0.0 m]
+
+point 336.0 -71.0 label -scale m -text [Elevation of Show Cave and Sumps 1a and 1b projected on 000 degrees]
 
 line border -id l32-231-258 -visibility off
   227.5 276.0
