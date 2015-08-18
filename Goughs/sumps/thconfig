@@ -37,6 +37,30 @@ map-header 0 0 off
 symbol-hide group centreline
 colour map-fg [0 100 0]
 
+grid-size 100 100 20 m
+scale 1 500
+
+code metapost
+
+#####################################
+#Text sizes
+#xs: features such as sumps
+#s: point names such as rocks
+#m: normal names
+#l: major names
+#xl: Area/cave names
+#####################################
+
+  #base 1:750 scale 1:2750 (A3 charterhouse,GB)
+  #fonts_setup(8,16,24,40,60)
+
+  #scale 1:1000 (A0 width charterhouse,GB)
+  #fonts_setup(7,10,14,20,30)
+
+  #base 1:500 scale 1:2750 
+  fonts_setup(8,20,26,40,60)
+
+endcode 
 
 endlayout
 

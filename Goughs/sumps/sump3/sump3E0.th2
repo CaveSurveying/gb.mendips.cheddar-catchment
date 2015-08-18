@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap sump3SE01 -projection [elevation 0] -scale [-128.0 -128.0 4439.015 -128.0 0.0 0.0 116.002181 0.0 m]
 
-point 1694.0 313.0 label -text [Elevation of Sheppard's Crook - Sump 2 - projected on 000 degrees] -scale xl
+point 1693.0 235.0 label -text [Elevation of Sheppard's Crook - Sump 2 - projected on 000 degrees] -scale m
 
 area sump
   l18-819-1205
