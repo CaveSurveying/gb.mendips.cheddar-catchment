@@ -39,7 +39,7 @@ map ShowCaveSumpsM
 endmap
 
 map FarSumpsM
-  BishopsPalaceM@BishopsPalace 
+  BishopsPalaceXM@BishopsPalace 
   sump2M@sump2
   sheppards_crookM@sheppards_crook 
   sump3M@sump3
