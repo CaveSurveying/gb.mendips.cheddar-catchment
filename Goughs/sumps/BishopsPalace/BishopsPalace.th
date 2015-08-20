@@ -22,7 +22,7 @@ endmap
 
 map BishopsPalaceXM
   BishopsPalaceM
-  XSectionM [-29200 -21500 cm] none
+  XSectionM [-2000 -28400 cm] none
 endmap
 
 centreline
