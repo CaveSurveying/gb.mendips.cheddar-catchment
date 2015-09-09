@@ -1,0 +1,4 @@
+encoding  utf-8
+source SkeletonSump.th
+
+export model -o SkeletonSumpth.3d

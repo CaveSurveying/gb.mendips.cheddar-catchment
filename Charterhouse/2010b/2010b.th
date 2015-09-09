@@ -2,9 +2,11 @@ encoding  utf-8
 survey 2010b
 
 input Skeleton/Skeleton.th
+input SkeletonSump/SkeletonSump.th
 input Skeleton2/Skeleton2.th
 
-equate 1.35@Skeleton 0@Skeleton2
+equate 1.35@Skeleton 0@SkeletonSump
+equate 4@SkeletonSump 0@Skeleton2
 
 map 2010bM
   SkeletonM@Skeleton

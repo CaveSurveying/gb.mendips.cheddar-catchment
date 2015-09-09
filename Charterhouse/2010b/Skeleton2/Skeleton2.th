@@ -23,6 +23,11 @@ copyright 2015 "CC BY SA NC"
 
   team "Andrew Atkinson" notes
   team "Duncan Price" instruments
+  
+  explo-team date 2015.08.22
+
+  explo-team "Andrew Atkinson"
+  explo-team "Duncan Price"
 
   instrument  instruments "Distox2-ubss1-2412"
 
@@ -85,7 +90,8 @@ data normal from to tape compass clino ignoreall
 #4  5  13.337  8.06  51.92  16  
 #4  5  13.34  8.25  51.89  16  
 4  5  13.344  8.09  51.9  Calculated leg from 3 above
-4  -  0.0  0.0  0.0  0  
+5 5a  5 0 5 Estimated by AA 
+5a  5b  10  340 0 Estimated by AA 
   extend left
 #4  6  7.631  253.92  66.26  329  
 #4  6  7.612  254.02  66.45  329  

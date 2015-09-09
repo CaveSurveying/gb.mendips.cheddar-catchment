@@ -1,0 +1,36 @@
+encoding  utf-8
+survey SkeletonSump
+
+centreline
+  date 2015.08.26
+
+  date 2015.08.22
+
+  team "Andrew Atkinson" notes
+  team "Duncan Price" instruments
+  
+  explo-team date 2015.08.22
+
+  explo-team "Andrew Atkinson"
+  explo-team "Duncan Price"
+  
+#NB Only the 3m depth reading and 25m marker on the line at exit were actually taken.
+#Other bearings, distances  and depths are estimated , could not read compass
+
+data diving station count depth newline compass ignoreall
+calibrate depth 0 -1 #makes depths positive 3 is deeper than 2
+0 0 0
+180 Taken from splay into sump in Skeleton.th
+1 8 3 #Depth read by AA on previous dive
+100
+2 11 1 
+80
+3 14 1
+140 Taken from reverse of splay of 319 into sump in Skeleton2.th
+4 25 0 #Line belay
+
+
+
+endcentreline
+endsurvey
+
