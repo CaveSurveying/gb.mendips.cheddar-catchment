@@ -17,6 +17,7 @@ centreline
   date 2010.07.03
   data normal from to compass clino tape
   extend right
+  flags duplicate
   1.13 1.14 183.58 -76.81 8.420
   1.14 - 325.93 3.75 2.490
   1.14 - 0.66 1.21 2.500
@@ -63,6 +64,7 @@ centreline
   1.21 - 1.39 77.32 3.380
   1.21 - 0.40 -0.93 0.860
   1.21 - 338.23 6.66 0.630
+  flags not duplicate
 endcentreline
 
 endsurvey

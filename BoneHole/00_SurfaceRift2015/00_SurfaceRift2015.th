@@ -10,6 +10,10 @@ map 00_SurfaceRift2015M
 	00_SurfaceRift2015SP2
 endmap
 
+map 00_EntranceRiftM
+	00_SurfaceRift2015SP3
+endmap
+
 map 00_SurfaceRift2015ME98 -proj [elevation 98]
 	00_SurfaceRift2015SE98_1
 endmap
@@ -68,6 +72,7 @@ flags surface
 #5.2	5.3	2.675	25.96	-26.65	
 5.2	5.3	2.676	25.49	-26.53	Calculated leg from 3 above
 5.3	5.3a	0.100	0	90	The fixed station is an 8mm hole towards the top of the lump of rock, about 10cm about the station I used for this survey.	
+  mark 5.3a fixed #8mm hole towards the round lump of rock glued to wall, 130cm above floor
 5.3	-	1.684	247.56	-4.8	
 5.3	-	0.899	175.69	-8.16	
 5.3	-	7.381	276.1	75.03	
@@ -96,5 +101,6 @@ flags surface
 5.5	-	0.762	160.69	-72.71	
 5.5	-	0.824	72.83	-61.01	
 -	5.5	1.125	342.91	-3.69	
+flags not surface
 endcentreline
 endsurvey

@@ -1,9 +1,11 @@
 encoding  utf-8
 language en_UK
 source BoneHole.th
+#select HappyNewYearM@BoneHole
 select BoneHoleMap@BoneHole
-select HappyNewYearME278@HappyNewYear.BoneHole
-select BoneHoleMapE278@BoneHole
+select PerforationChokeM@BoneHole
+#select HappyNewYearME278@HappyNewYear.BoneHole
+#select BoneHoleMapE278@BoneHole
 #unselect BH_PerforationChoke.BoneHole
 #select 01_BoneSlope2015.BoneHole
 #select 02_LadderPitch.BoneHole
@@ -18,11 +20,12 @@ select BoneHoleMapE278@BoneHole
 
 layout lcommon
 	scale-bar 10 m
-        color map-fg altitude #50  
+        color map-fg map #50  
  	scale 1 200
 endlayout 
 
 layout lelevation
+	rotate 90
 	scale-bar 10 m
         color map-fg map #50  
  	scale 1 200

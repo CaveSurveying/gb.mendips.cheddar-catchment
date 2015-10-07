@@ -27,12 +27,12 @@ survey HappyNewYear
 	input HappyNewYear1E278.th2
 	input HappyNewYear3E278.th2
 	
-	map HappyNewYearM1
+	map LaddedLinkM
 		HappyNewYear1SP1
 		break
 		LadderLinkSP1
 	endmap
-	map HappyNewYearM2
+	map HappyNewYearM
 		HappyNewYear4SP1
 		break
 		HappyNewYear4SP2

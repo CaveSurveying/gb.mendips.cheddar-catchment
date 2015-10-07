@@ -20,6 +20,7 @@ cs OSGB:ST
   date 2010.07.03
   data normal from to compass clino tape
   extend right
+  flags duplicate # old survey replaced in 2015.
   1.3 1.4 216.17 -55.63 3.076
   1.4 - 103.96 10.24 0.771
   1.4 - 284.04 0.54 0.210
@@ -73,6 +74,7 @@ cs OSGB:ST
   1.13 - 301.30 -0.88 0.260
   1.13 - 106.01 8.07 0.520
   1.13 - 323.17 77.14 2.840
+  flags not duplicate
 endcentreline
 
 endsurvey
