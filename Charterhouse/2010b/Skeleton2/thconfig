@@ -6,7 +6,7 @@ source Skeleton2.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o Skeleton2.pdf
+export map -proj plan -layout local -o Skeleton2.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o Skeleton2Ee.pdf
@@ -24,9 +24,11 @@ export model -fmt survex -o Skeleton2th.3d
 
 layout local
 copy common
+scale 1 200
+scale-bar 20 m
 debug off
-map-header 0 0 off
-#symbol-hide group cave-centreline
+map-header 0 0 sw
+symbol-hide group cave-centreline
 endlayout
 
 input ../../../common_layout.th

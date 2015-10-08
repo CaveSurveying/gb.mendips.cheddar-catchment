@@ -1,15 +1,19 @@
 encoding  utf-8
 survey SkeletonSump
 
+input SkeletonSump.th2
+
+map SkeletonSumpM
+  SkeletonSumpSP1
+endmap
+
 centreline
   date 2015.08.26
-
-  date 2015.08.22
 
   team "Andrew Atkinson" notes
   team "Duncan Price" instruments
   
-  explo-team date 2015.08.22
+  explo-date 2015.08.22
 
   explo-team "Andrew Atkinson"
   explo-team "Duncan Price"

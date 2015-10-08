@@ -5,12 +5,12 @@ source CheddarCatchment.th
 # Change name to the main therion file
 #select ReadsGrottoM@ReadsGrotto.CheddarCatchment
 
-select SparryFissure.CheddarCatchment
-select Reservoir.CheddarCatchment
-select Pigs.CheddarCatchment
-select Spider.CheddarCatchment
-select BoneHole.CheddarCatchment
-select BlackrockRift.CheddarCatchment
+#select SparryFissure.CheddarCatchment
+#select Reservoir.CheddarCatchment
+#select Pigs.CheddarCatchment
+#select Spider.CheddarCatchment
+#select BoneHole.CheddarCatchment
+#select BlackrockRift.CheddarCatchment
 
 
 

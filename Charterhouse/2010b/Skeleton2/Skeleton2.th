@@ -1,13 +1,13 @@
 encoding  utf-8
 survey Skeleton2
 
-#input Skeleton2.th2
+input Skeleton2.th2
 
-#map Skeleton2M
-#  Skeleton2SP1
- # Skeleton2SP2
- # Skeleton2SP3
-#endmap
+map Skeleton2M
+  Skeleton2SP1
+  #Skeleton2SP2
+  #Skeleton2SP3
+endmap
 
 centreline
 
@@ -24,7 +24,7 @@ copyright 2015 "CC BY SA NC"
   team "Andrew Atkinson" notes
   team "Duncan Price" instruments
   
-  explo-team date 2015.08.22
+  explo-date 2015.08.22
 
   explo-team "Andrew Atkinson"
   explo-team "Duncan Price"

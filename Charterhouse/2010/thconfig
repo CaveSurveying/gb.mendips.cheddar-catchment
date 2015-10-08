@@ -2,13 +2,13 @@ encoding  utf-8
 source 2010.th
 # Change name to the main therion file
 
-select 2010M@2010
+select 2010M@2010 -map-level 1
 
 
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o 2010.pdf
+export map -proj plan -layout local -o 2010.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o 2010Ee.pdf
@@ -25,7 +25,10 @@ export model -fmt survex -o 2010th.3d
 layout local
 copy common
 debug off
-map-header 0 0 off
+map-header 0 0 nw
+colour map-fg map
+legend off
+colour-legend off
 
 endlayout
 

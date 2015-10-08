@@ -2,7 +2,7 @@ encoding  utf-8
 source 2010b.th
 # Change name to the main therion file
 
-#select 2010bM@2010b
+select 2010bM@2010b -map-level 1
 
 
 #Surveys to output
@@ -29,7 +29,14 @@ export model -fmt survex -o 2010bth.3d
 layout local
 copy common
 debug off
-scale 1 1000
+scale 1 200
+scale-bar 20 m
+map-header 20 0 sw
+colour map-fg map
+colour-legend off
+legend off 
+map-comment "Copyright CC SA BY NC 2010-2015<br>Data available at cave-registry.org.uk"
+symbol-hide group centreline
 endlayout
 
 input ../../common_layout.th
