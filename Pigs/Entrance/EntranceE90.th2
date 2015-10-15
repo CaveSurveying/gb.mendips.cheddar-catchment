@@ -1,0 +1,74 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -130.0 580.755 502.015
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {59.05699999999999 1 1.0} {216.531 0} EntranceE90.xvi 0 {}
+
+
+
+scrap EntranceSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 79.0 39.0 label -text [elevation on 090 deg] -scale s -align right
+
+line wall -subtype invisible
+  127.5 343.5
+  61.0 199.5
+endline
+
+line wall -subtype presumed
+  385.5 135.5
+  372.0 129.0 355.5 119.0 342.0 122.5
+  328.5 126.0 276.5 126.5 267.0 134.0
+  smooth off
+endline
+
+line wall
+  267.0 134.0
+  257.5 141.5 245.5 171.0 237.5 193.5
+  233.45 204.88 183.5 211.0 178.5 222.0
+  173.5 233.0 165.5 260.0 164.0 272.0
+  162.5 284.0 167.5 327.0 152.0 334.0
+  148.54 335.56 127.5 343.5 127.5 343.5
+  smooth off
+endline
+
+line wall -subtype debris
+  247.0 115.0
+  271.0 107.0 274.5 103.5 288.5 94.5
+  302.5 85.5 316.0 76.0 331.0 71.0
+  346.0 66.0 351.5 58.5 364.0 65.5
+  372.18 70.08 397.0 74.0 404.0 81.5
+  411.0 89.0 412.71 81.44 408.85699999999997 95.471
+  405.0 109.5 387.5 133.0 385.5 135.5
+  smooth off
+endline
+
+line wall
+  61.0 199.5
+  78.5 201.0 95.37 197.28 111.0 201.0
+  132.0 206.0 154.5 203.5 173.0 195.0
+  191.5 186.5 206.0 162.0 224.5 157.5
+  243.78 152.81 229.5 123.0 247.0 115.0
+  smooth off
+endline
+
+point 408.85699999999997 95.471 station -name 10
+
+point 379.137 90.161 station -name 9
+
+point 342.127 88.581 station -name 8
+
+point 319.887 99.411 station -name 7
+
+point 275.587 114.961 station -name 6
+
+point 244.09699999999998 137.201 station -name 5
+
+point 226.37699999999998 178.941 station -name 4
+
+point 162.59699999999998 219.491 station -name 3
+
+point 59.05699999999999 216.531 station -name 0
+
+endscrap
+
+
