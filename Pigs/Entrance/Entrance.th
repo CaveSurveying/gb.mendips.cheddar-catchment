@@ -24,7 +24,8 @@ copyright 2014 "CC BY SA NC"
 
 station 0 "Pig's Hole" entrance
 #Entrance taken from MCRA November 2014,  (ST 4770 5455 133)
-fix 0 47700 54550 133
+fix 0 47712 54557 133
+#NGR from MCRA (Rob Taviner)
 
 ### TRIP COMMENT FROM POCKETTOPO ###
 #Notes: Andrew Atkinson
