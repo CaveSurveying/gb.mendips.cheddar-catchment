@@ -2,10 +2,20 @@ encoding  utf-8
 survey Entrance -namespace off
 
 input Entrance.th2
+input EntranceEe.th2
+input EntranceE90.th2
 
 map EntranceM
   EntranceSP1
 endmap
+
+map EntranceEeM
+ EntranceSE1
+endmap
+
+map EntranceE90M
+  EntranceSE90_1
+endmap  
 
 centreline
 cs OSGB:ST

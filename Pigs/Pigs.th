@@ -1,6 +1,15 @@
 encoding  utf-8
 survey Pigs
 input Entrance/Entrance.th
-endsurvey
 
+map PigsM
+  EntranceM@Entrance
+ endmap
+
+map PigsE90M
+  EntranceE90M@Entrance
+endmap
+
+
+endsurvey
 
