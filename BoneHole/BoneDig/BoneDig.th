@@ -3,7 +3,6 @@ survey BoneDig
 
 input BoneDig.th2
 input BoneDigEe.th2
-input BoneDigE90.th2
 input BoneDigE278.th2
 
 map BoneDigM
@@ -19,13 +18,6 @@ endmap
 map BoneDigME
   BoneDigSE1
   BoneDigSE2
-endmap
-
-map BoneDigME90 -proj [elevation 90]
-  BoneDigSE90_1
-  BoneDigSE90_2
-  BoneDigSE90_3
-  BoneDigSE90_4
 endmap
 
 map BoneDigME278 -proj [elevation 278]
@@ -173,6 +165,7 @@ data normal from to tape compass clino ignoreall
 #1.15  1.13  1.579  191.27  -3.33  
 1.15  1.13  1.588  191.0  -3.25  Calculated leg from 3 above
 1.15  -  0.642  97.14  -37.91  drilled hole on ceiling  just before drop
+ mark 1.15 fixed #drilled hole on ceiling  just before drop
 1.15  -  0.43  279.05  -11.32  
 1.15  -  0.452  281.62  12.18  
 1.15  -  0.443  113.96  -20.62  
@@ -233,6 +226,7 @@ data normal from to tape compass clino ignoreall
 #1.21  1.22  2.758  15.75  -30.8  
 1.21  1.22  2.751  15.74  -30.67  Calculated leg from 3 above
 1.22  -  0.0  0.0  0.0  drilled holes rhw
+  mark 1.22 fixed #drilled holes rhw
 #1.23  1.22  1.981  337.81  81.33  
 #1.23  1.22  1.981  338.45  81.23  
 #1.23  1.22  1.965  337.36  80.96  
@@ -270,6 +264,7 @@ data normal from to tape compass clino ignoreall
 #1.27  1.26  1.635  347.83  10.4  
 1.27  1.26  1.638  348.14  10.18  Calculated leg from 3 above
 1.27  -  0.353  293.42  -54.81  drilled hole rhs on calcite rim
+  mark 1.27 fixed #drilled hole rhs on calcite rim 
 1.27  -  0.435  184.8  83.7  
 1.27  -  0.429  89.6  2.13  
 1.27  -  0.706  90.65  -19.03  
@@ -286,6 +281,7 @@ data normal from to tape compass clino ignoreall
 #1.29  1.28  1.96  72.58  19.76  
 1.29  1.28  1.955  72.82  19.85  Calculated leg from 3 above
 1.29  -  0.497  340.42  -41.76  drilled hole in roof at junction
+  mark 1.29 fixed #drilled hole in roof at junction
 1.29  -  0.676  174.41  -8.11  
 1.29  -  1.094  176.76  -35.89  
 1.29  -  2.436  70.1  -78.5  
@@ -335,6 +331,7 @@ data normal from to tape compass clino ignoreall
 #1.34  1.35  2.154  201.21  -10.17  
 1.34  1.35  2.16  200.76  -10.29  Calculated leg from 3 above
 1.35  -  1.952  312.64  6.54  drilled on larger rock
+   mark 1.35 fixed #drilled on larger rock
 1.35  -  1.399  278.4  77.93  
 1.35  -  1.351  156.99  25.9  
 1.35  -  0.533  4.41  -62.51  

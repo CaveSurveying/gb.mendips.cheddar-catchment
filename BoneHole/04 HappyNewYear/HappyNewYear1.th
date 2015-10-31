@@ -33,7 +33,7 @@ data normal from to tape compass clino ignoreall
 #3.1	3.2	0.955	139.28	58.31	
 #3.1	3.2	0.955	140.02	57.27	
 3.1	3.2	0.951	139.87	57.85	Calculated leg from 3 above
-					# 3.2 bolt in wall
+   mark 3.2 fixed # 3.2 bolt in wall
 3.0	-	0.0	0.0	0.0	
 3.0	-	1.443	191.46	-25.48	
 3.0	-	1.121	225.82	-13.54	
@@ -154,6 +154,7 @@ flags duplicate # below is a duplicate survey to tie into Happy New Year to Ladd
 #4.1	4.2	1.042	188.87	42.4	
 #4.1	4.2	1.043	188.83	42.79	
 4.1	4.2	1.045	188.69	42.22	Calculated leg from 5 above
+  mark 4.2 painted #4.2 andrew station nail varnish red 
 4.2	-	0.442	308.53	5.82	
 4.2	-	2.237	96.2	-11.12	
 4.2	-	1.989	118.38	-1.02	

@@ -3,7 +3,7 @@ survey BoneDig2
 
 input BoneDig2.th2
 input BoneDig2Ee.th2
-input BoneDig2E90.th2
+input BoneDig2E278.th2
 
 map BoneDig2M
   BoneDig2SP1
@@ -22,11 +22,8 @@ map BoneDig2ME
   BoneDig2SE4
 endmap
 
-map BoneDig2ME90 -proj [elevation 90]
-  BoneDig2SE90_1
-  BoneDig2SE90_2
-  BoneDig2SE90_3
-  BoneDig2SE90_4
+map BoneDig2ME278 -proj [elevation 278]
+  BoneDig2SE278_1
 endmap
 
 equate 2.3 2.25

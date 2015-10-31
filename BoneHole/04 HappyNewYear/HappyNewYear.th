@@ -50,7 +50,7 @@ survey HappyNewYear
 		HappyNewYear3SE98_2
 	endmap
 
-	map HappyNewYearME278
+	map HappyNewYearME278 -proj [elevation 278] -title "Happy New Year" 
 		HappyNewYear3SE278_2
 		break
 		HappyNewYear1SE278_1

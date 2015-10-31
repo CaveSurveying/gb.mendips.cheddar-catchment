@@ -37,6 +37,7 @@ sd compass 1.5 degree # Lots of steel around affecting compass
 #6.1	6.0	4.088	350.5	73.17	
 #6.1	6.0	4.087	352.4	72.86	6.1 tip of only stalagmite nr foot of ladder
 6.1	6.0	4.093	350.69	73.16	Calculated leg from 3 above
+  mark 6.1 natural # 6.1 tip of only stalagmite nr foot of ladder
 6.1	-	0.47	17.28	7.27	
 6.1	-	1.029	29.22	-71.85	
 6.1	-	1.064	323.4	-66.8	
@@ -88,6 +89,7 @@ sd compass 0.5 degree
 #6.5	6.4	5.307	25.22	16.3	
 #6.5	6.4	5.307	24.24	16.46	
 6.5	6.4	5.313	24.79	16.34	Calculated leg from 3 above
+  mark 6.5 natural #6.5 tip of obvious small stalagmite on top of boulder
 6.5	-	1.889	96.87	-3.91	
 6.5	-	2.217	46.19	3.33	
 6.5	-	3.844	28.76	11.18	

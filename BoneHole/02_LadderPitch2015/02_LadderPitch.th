@@ -62,6 +62,7 @@ data normal from to tape compass clino ignoreall
 #7.3	7.4	2.046	104.08	-11.34	
 #7.3	7.4	2.047	104.34	-11.67	
 7.3	7.4	2.047	104.07	-11.57	Calculated leg from 3 above
+  mark 7.4 painted
 7.4	-	2.135	357.26	-27.83	
 7.4	-	2.398	339.32	-31.17	
 7.4	-	2.645	318.71	-24.75	
