@@ -13,7 +13,7 @@ export map -proj plan -layout local -o LongHole.pdf
 
 #export map -proj [elevation 15] -layout local -o LongHoleE90.pdf
 
-export model -fmt survex -o LongHoleth.3d
+#export model -fmt survex -o LongHoleth.3d
 #Survex file showing centre line only
 
 #export model -o LongHole.lox
