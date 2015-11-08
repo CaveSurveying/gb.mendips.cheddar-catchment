@@ -8,9 +8,11 @@ input LongHole.th2
 equate 2.0@OnceOnly 1.38
 
 map LongHoleM -title "Long Hole"
-  LongHoleSP1
- break
   LongHoleSP2
+  break
+  LongHoleSP1
+  OnceOnlySP1@OnceOnly
+  
 endmap
 centreline
 

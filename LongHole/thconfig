@@ -26,7 +26,10 @@ layout local
 copy common
 debug off
 map-header 0 0 off
-#symbol-hide group cave-centreline
+symbol-hide group cave-centreline
+
+#base-scale 1 500
+scale 1 250
 endlayout
 
 input ../common_layout.th

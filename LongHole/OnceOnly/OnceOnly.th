@@ -1,11 +1,11 @@
 encoding  utf-8
 survey OnceOnly
 
-#input OnceOnly.th2
+input OnceOnly.th2
 
-#map OnceOnlyM
-#  OnceOnlySP1
-#endmap
+map OnceOnlyM
+  OnceOnlySP1
+endmap
 
 centreline
 

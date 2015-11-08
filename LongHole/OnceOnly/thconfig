@@ -1,0 +1,35 @@
+encoding  utf-8
+source OnceOnly.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o OnceOnly.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o OnceOnlyEe.pdf
+
+#export map -proj [elevation 15] -layout local -o OnceOnlyE90.pdf
+
+#export model -fmt survex -o OnceOnlyth.3d
+#Survex file showing centre line only
+
+#export model -o OnceOnly.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -o OnceOnly.xvi -format xvi
+#map for importing into th2 file
+
+#export map -proj [elevation 270] -o OnceOnlyE270.xvi -format xvi
+#map for importing into th2 file
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+#symbol-hide group cave-centreline
+endlayout
+
+input ../../common_layout.th
