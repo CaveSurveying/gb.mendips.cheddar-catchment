@@ -1,0 +1,92 @@
+encoding  utf-8
+source LongHole.th
+
+#change name to the main therion file being used
+
+###############
+#elevation need to come first as they are used in the plan
+###############
+
+export map -proj [elevation 45] -layout local -o LongHoleE45.pdf
+
+export map -proj [elevation 320] -layout local -o LongHoleE320.pdf
+
+export map -proj plan -layout plan -o LongHole.pdf
+
+#export map -proj plan -fmt kml -o LongHole.kml
+
+#export model -o LongHole.lox
+#3d therion model to be viewed in the therion viewer
+
+#export model -fmt survex -o LongHoleth.3d
+#Survex file showing centre line only
+
+layout plan
+copy local
+
+ 
+map-image 100 -12 ne LongHoleE45.pdf
+map-image 100 -60 ne LongHoleE320.pdf
+map-header 35 90 ne
+
+map-comment "Cheddar Gorge, Somerset<br>\
+<br>\
+Length 315.01 m<br>\
+Depth 31.29 m<br>\
+<br>\
+Drawn using Therion<br>\
+by Graham Mullan and Andrew Atkinson.<br>\
+Survey by Andrew Atkinson, Tony Boycott, Alison Moody and Clive Owen.<br>\
+<br>\
+Grade UISv1 6-4-EF<br>\
+Copyright 2013-5 CC BY NC SA<br>\
+Heights in metres OD"
+
+scale-bar 25 metres
+
+colour-legend off
+
+code tex-map
+  \cavename={\size [40] Long Hole} 
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse
+    
+endcode    
+
+endlayout
+
+layout Projected
+copy local
+map-header 50 100 off
+
+#symbol-hide special north-arrow
+#symbol-hide special scale-bar
+legend-width 30 cm 
+
+endlayout
+
+layout local
+copy common
+doc-title "Long Hole"
+
+grid-size 20 20 10 metres
+
+base-scale 1 500
+scale 1 250
+
+
+symbol-hide point remark
+symbol-hide group cave-centreline
+
+#grid off
+map-header 50 70 off
+map-header-bg on
+
+statistics explo off
+statistics topo off
+
+endlayout
+
+#get the master layout settings
+input ../common_layout.th
