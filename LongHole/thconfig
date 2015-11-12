@@ -9,9 +9,9 @@ source LongHole.th
 export map -proj plan -layout local -o LongHole.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o LongHoleEe.pdf
+#export map -proj [elevation 320] -layout local -o LongHoleE320.pdf
 
-#export map -proj [elevation 15] -layout local -o LongHoleE90.pdf
+#export map -proj [elevation 45] -layout local -o LongHoleE45.pdf
 
 #export model -fmt survex -o LongHoleth.3d
 #Survex file showing centre line only
@@ -19,8 +19,7 @@ export map -proj plan -layout local -o LongHole.pdf
 #export model -o LongHole.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o LongHole_Walls.3d
-#Survex file showing walls only
+
 
 layout local
 copy common

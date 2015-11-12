@@ -1,11 +1,40 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 9874.0 5440.0
+##XTHERION## xth_me_area_adjust -144.0 -144.0 9884.0 5452.0
 ##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {2620.23110236 1 1.0} {1725.9592125999998 1.4} PocketTopo/LongHole_p.xvi 0 {}
 
 
 
 scrap LongHoleSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line section -direction both
+  2380.0 2140.0
+  2492.0 1952.0 2728.0 1556.0 2864.0 1304.0
+  smooth off
+endline
+
+line section
+endline
+
+line section -direction both
+  5052.0 3000.0
+  5055.64 2747.99 5072.0 2144.0 5068.0 1892.0
+  smooth off
+endline
+
+line section -direction both
+  2068.0 1956.0
+  2152.0 1808.0 2392.0 1296.0 2484.0 1120.0
+  smooth off
+endline
+
+line pit -close on -reverse on
+  1739.0 1441.0
+  1779.0 1497.0
+  1839.0 1460.0
+  1797.0 1400.0
+  1739.0 1441.0
+endline
 
 line border
 endline
@@ -19,7 +48,13 @@ area pebbles
   l127-6050-1138
 endarea
 
-line border -id l128-6050-1336 -close on
+line section -direction both
+  6084.0 3324.0
+  6260.0 3320.0 6664.0 3292.0 6740.0 3292.0
+  smooth off
+endline
+
+line border -id l128-6050-1336 -close on -subtype invisible
   5670.0 2474.0
   5606.0 2296.0
   5616.0 1568.0
@@ -1220,12 +1255,14 @@ line wall
   6105.0 3281.0 6103.0 3293.5 6094.0 3295.0
   6085.0 3296.5 5935.5 3286.5 5916.5 3281.5
   5912.06 3280.33 5790.5 3232.0 5781.0 3224.0
+  smooth off
 endline
 
 line wall
   5781.0 3224.0
   5813.0 3206.5 5910.5 3218.5 5922.5 3221.5
   5965.79 3232.32 6104.5 3262.5 6105.0 3281.0
+  smooth off
 endline
 
 point 5918.43110236 3233.8592126 station -name 1.25
@@ -1283,6 +1320,7 @@ line wall -subtype pebbles
   5498.5 2108.0
   5519.96 2103.23 5547.5 2098.5 5560.0 2100.0
   5573.4 2101.61 5611.41 2118.46 5623.5 2124.5
+  smooth off
 endline
 
 point 5551.111102360001 2123.6192126 station -name 1.14
@@ -1293,7 +1331,7 @@ endscrap
 
 scrap LongHoleSPX1.10 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line wall -
+line wall
   4973.5 1773.0
   4875.5 1843.5 4916.97 1914.14 4805.5 1907.0
   4665.0 1898.0 4519.77 1943.92 4503.0 1936.0
@@ -1301,7 +1339,7 @@ line wall -
   smooth off
 endline
 
-line wall - -subtype clay
+line wall -subtype clay
   4552.5 1827.0
   4602.5 1807.0 4740.47 1788.44 4761.0 1780.5
   4798.5 1766.0 4933.5 1763.0 4973.5 1773.0
@@ -1316,7 +1354,7 @@ endscrap
 
 scrap LongHoleSPX1.4 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line wall -
+line wall
   2415.5 2169.0
   2415.5 2169.0 2404.5 2230.0 2389.5 2239.0
   2328.23 2275.76 2319.0 2329.0 2317.0 2319.5
