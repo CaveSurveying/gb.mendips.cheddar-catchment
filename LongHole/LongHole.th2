@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 9874.0 5484.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -144.0 -144.0 9884.0 5496.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {2620.23110236 1 1.0} {1725.9592125999998 1.4} PocketTopo/LongHole_p.xvi 0 {}
 
 

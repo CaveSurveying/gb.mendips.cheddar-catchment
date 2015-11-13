@@ -6,15 +6,25 @@ input OnceOnly/OnceOnly.th
 input LongHole.th2
 input LongHoleE320.th2
 input LongHoleE45.th2
+input XSectionsLongHole.th2
 
 equate 2.0@OnceOnly 1.38
 
-map LongHoleM -title "Long Hole"
+map LongHoleM 
   LongHoleSP2
   break
   LongHoleSP1
   OnceOnlySP1@OnceOnly
   
+endmap
+
+map XSectionM
+  XSectionSP
+endmap
+
+map LongHoleXM
+  LongHoleM
+  XSectionM [0 -27 m] none
 endmap
 
 map LongHoleE320M

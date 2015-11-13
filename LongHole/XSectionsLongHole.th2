@@ -1,0 +1,61 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 0 0 1600 1200
+##XTHERION## xth_me_area_zoom_to 100
+
+scrap XSectionSP -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 0.0 0.0 station -name 1.1
+
+point 240.0 440.0 section -scrap "LongHoleSPX1.3" -align t
+
+point 240.0 200.0 label -text "1" -align c -scale m
+
+point 740.0 440.0 section -scrap "LongHoleSPX1.4" -align t
+
+point 740.0 200.0 label -text "2" -align c -scale m
+
+point 1250.0 440.0 section -scrap "LongHoleSPX1.10" -align t
+
+point 1250.0 200.0 label -text "3" -align c -scale m
+
+point 1750.0 440.0 section -scrap "LongHoleSPX1.25" -align t
+
+point 1750.0 200.0 label -text "4" -align c -scale m
+
+point 2230.0 440.0 section -scrap "LongHoleSPX1.32" -align t
+
+point 2230.0 200.0 label -text "5" -align c -scale m
+
+point 2710.0 440.0 section -scrap "LongHoleSPX1.14" -align t
+
+point 2710.0 200.0 label -text "6" -align c -scale m
+
+point 3190.0 440.0 section -scrap "LongHoleSPX1.16" -align t
+
+point 3190.0 200.0 label -text "7" -align c -scale m
+
+point 240.0 -300.0 section -scrap "LongHoleSPX1.44" -align t
+
+point 240.0 -540.0 label -text "8" -align c -scale m
+
+point 740.0 -300.0 section -scrap "LongHoleSPX1.46" -align t
+
+point 740.0 -540.0 label -text "9" -align c -scale m
+
+point 1250.0 -300.0 section -scrap "LongHoleSPX1.49" -align t
+
+point 1250.0 -540.0 label -text "10" -align c -scale m
+
+point 1750.0 -300.0 section -scrap "LongHoleSPX1.51" -align t
+
+point 1750.0 -540.0 label -text "11" -align c -scale m
+
+point 2230.0 -300.0 section -scrap "LongHoleSPX1.56" -align t
+
+point 2230.0 -540.0 label -text "12" -align c -scale m
+
+point 2710.0 -300.0 section -scrap "LongHoleSPX1.60" -align t
+
+point 2710.0 -540.0 label -text "13" -align c -scale m
+
+endscrap

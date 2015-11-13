@@ -3,6 +3,8 @@ source LongHole.th
 
 #change name to the main therion file being used
 
+select LongHoleXM@LongHole
+
 ###############
 #elevation need to come first as they are used in the plan
 ###############
@@ -25,8 +27,8 @@ layout plan
 copy local
 
  
-map-image 100 -12 ne LongHoleE45.pdf
-map-image 100 -60 ne LongHoleE320.pdf
+map-image 100 20 ne LongHoleE45.pdf
+map-image 100 -5 ne LongHoleE320.pdf
 map-header 35 90 ne
 
 map-comment "Cheddar Gorge, Somerset<br>\
