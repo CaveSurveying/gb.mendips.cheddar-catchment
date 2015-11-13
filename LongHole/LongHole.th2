@@ -1,11 +1,69 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.0 -144.0 9884.0 5452.0
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_adjust -136.0 -136.0 9874.0 5484.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {2620.23110236 1 1.0} {1725.9592125999998 1.4} PocketTopo/LongHole_p.xvi 0 {}
 
 
 
 scrap LongHoleSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 6000.0 1654.0 label -text "7" -align b -attr scrapname LongHoleSPX1.16 -context line section -scale m
+
+point 5990.0 1980.0 label -text "6" -align b -attr scrapname LongHoleSPX1.14 -context line section -scale m
+
+point 7160.0 3370.0 label -text "5" -align b -attr scrapname LongHoleSPX1.32 -context line section -scale m
+
+point 5950.0 3346.0 label -text "4" -align b -attr scrapname LongHoleSPX1.25 -context line section -scale m
+
+point 5060.0 1770.0 label -text "3" -align b -attr scrapname LongHoleSPX1.10 -context line section -scale m
+
+point 2942.0 1180.0 label -text "2" -align b -attr scrapname LongHoleSPX1.4 -context line section -scale m
+
+point 2546.0 1002.0 label -text "1" -align b -attr scrapname LongHoleSPX1.3 -context line section -scale m
+
+point 1192.0 1538.0 label
+
+point 1190.0 1736.0 label -scale m -text Entrance
+
+line arrow
+  4080.0 1856.0
+  4480.0 2102.0
+endline
+
+line arrow
+  4026.0 1930.0
+  4278.0 2178.0
+endline
+
+line arrow
+  3922.0 1932.0
+  3864.0 2136.0
+endline
+
+point 3950.0 1818.0 label -text [blind avens] -scale m
+
+point 7650.0 2524.0 label -scale m -text [Once Only]
+
+line section -direction both
+endline
+
+line section -direction both
+  5868.0 1688.0
+  5804.0 1666.0 5634.0 1612.0 5562.0 1592.0
+  smooth off
+endline
+
+line section -direction both
+  5932.0 2026.0
+  5860.0 2090.0 5692.0 2218.0 5640.0 2264.0
+  smooth off
+endline
+
+line section -reverse on -direction both
+  7570.0 2962.0
+  7492.0 3062.0 7298.0 3282.0 7244.0 3352.0
+  smooth off
+endline
 
 line section -direction both
   2380.0 2140.0
@@ -610,6 +668,56 @@ endscrap
 
 
 scrap LongHoleSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 8556.0 2268.0 label -text "13" -align b -attr scrapname LongHoleSPX1.60 -context line section -scale m
+
+point 8470.0 2894.0 label -text "12" -align b -attr scrapname LongHoleSPX1.56 -context line section -scale m
+
+point 8038.0 3336.0 label -text "11" -align b -attr scrapname LongHoleSPX1.51 -context line section -scale m
+
+point 8450.0 4792.0 label -text "10" -align b -attr scrapname LongHoleSPX1.49 -context line section -scale m
+
+point 8104.0 4556.0 label -text "9" -align b -attr scrapname LongHoleSPX1.46 -context line section -scale m
+
+point 7528.0 4108.0 label -text "8" -align b -attr scrapname LongHoleSPX1.44 -context line section -scale m
+
+line section -reverse on -direction end
+  8636.0 2324.0
+  8728.0 2396.0
+endline
+
+line section -direction both
+  8352.0 2894.0
+  8286.0 2848.0 8200.0 2810.0 8138.0 2772.0
+  smooth off
+endline
+
+point 7810.0 3548.0 label -scale m -text [Aven Chamber] -align right
+
+point 8750.0 950.0 label -text [Reynolds' Passage] -scale m
+
+line section -direction begin
+  7900.0 3268.0
+  7830.0 3182.0
+endline
+
+line section -direction both
+  8328.0 5346.0
+  8348.0 5266.0 8402.0 5018.0 8436.5 4867.5
+  smooth off
+endline
+
+line section -direction both
+  7754.0 4898.0
+  7818.0 4834.0 7942.0 4700.0 8014.0 4632.0
+  smooth off
+endline
+
+line section -direction both
+  7252.0 4458.0
+  7282.0 4398.0 7370.0 4224.0 7412.0 4128.0
+  smooth off
+endline
 
 area flowstone
   l161-7080-3976

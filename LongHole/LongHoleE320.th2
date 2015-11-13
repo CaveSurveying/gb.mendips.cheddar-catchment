@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -129.0 -129.0 2627.995 1230.36
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -130.0 -130.0 2627.995 1230.36
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {1784.4 1 1.0} {714.759 1.38@OnceOnly.LongHole} PocketTopo/LongHoleE320.xvi 0 {}
 
 
@@ -35,9 +35,9 @@ line arrow -scale s
   1852.5 748.0
 endline
 
-point 289.5 386.0 entrance -orientation 141.7
+point 270.5 369.5 entrance -orientation 141.7
 
-point 273.5 431.5 label -scale l -text Entrance
+point 248.5 413.5 label -text Entrance -scale m
 
 point 1987.0 370.0 label -scale l -text [Elevation Projected on 320 deg.<br>Reynolds' Passage and Once Only omitted for clarity.]
 

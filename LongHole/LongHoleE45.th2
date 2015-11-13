@@ -23,7 +23,7 @@ line wall -close on
   1263.6 658.74 1255.5 672.5 1268.0 677.0
 endline
 
-point 1436.5 473.0 label -text [Reynold's Passage<br>Elevation projected on 045 deg.] -scale l
+point 1436.5 473.0 label -scale l -text [Reynolds' Passage<br>Elevation projected on 045 deg.]
 
 line wall
   993.0 627.0
