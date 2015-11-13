@@ -23,7 +23,7 @@ line wall -close on
   1263.6 658.74 1255.5 672.5 1268.0 677.0
 endline
 
-point 1358.5 550.5 label -text [Reynold's Passage<br>Elevation projected on 045 deg.] -scale m
+point 1436.5 473.0 label -text [Reynold's Passage<br>Elevation projected on 045 deg.] -scale l
 
 line wall
   993.0 627.0
@@ -54,12 +54,14 @@ line wall
   1381.5 634.5 1388.5 652.5 1397.5 654.0
   1406.5 655.5 1455.67 641.99 1517.5 637.0
   1548.5 634.5 1589.85 616.54 1606.0 605.0
+  smooth off
 endline
 
 line wall -subtype clay
   1606.0 605.0
   1620.0 595.0 1630.9 599.81 1650.5 592.0
   1666.08 585.79 1741.41 555.24 1757.0 549.0
+  smooth off
 endline
 
 line wall
