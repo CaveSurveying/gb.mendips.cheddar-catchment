@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.0 -144.0 9884.0 5496.0
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_adjust -136.0 -136.0 9874.0 5484.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {2620.23110236 1 1.0} {1725.9592125999998 1.4} PocketTopo/LongHole_p.xvi 0 {}
 
 
@@ -87,11 +87,11 @@ line section -direction both
 endline
 
 line pit -close on -reverse on
-  1739.0 1441.0
-  1779.0 1497.0
-  1839.0 1460.0
-  1797.0 1400.0
-  1739.0 1441.0
+  1986.0 1232.0
+  2020.0 1278.0
+  2060.0 1246.0
+  2024.0 1202.0
+  1986.0 1232.0
 endline
 
 line border
