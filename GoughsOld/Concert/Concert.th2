@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -49.94058616999996 140.9761530300002 1864.0 3940.2832396435
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -2000.94058616999996 140.9761530300002 1864.0 3940.2832396435
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1292.42670172 1 1.0} {2739.66414003 11} PocketTopo/Concert_p.xvi 0 {}
 
 
@@ -152,6 +152,18 @@ endscrap
 
 
 scrap ConcertSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point -1372.0 1900.0 section -scrap ConcertSPX10 -align right
+
+point -1608.0 1900.0 label -text 3 -scale xs
+
+point -1608.0 1264.0 label -text 4 -scale xs
+
+point -1372.0 1264.0 section -scrap ConcertSPX11 -align right
+
+point -1372.0 700.0 section -scrap ConcertSPX14 -align right
+
+point -1608.0 700.0 label -text 5 -scale xs
 
 line wall
   1618.0 380.0

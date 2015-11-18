@@ -23,8 +23,8 @@ layout plan
 copy local
 
 
-map-header -12 85 ne 
-map-image 105 -33.5 ne GoughsOldE90.pdf
+map-header 15 10 ne
+map-image 105 -6 ne GoughsOldE90.pdf
 
 map-comment "Cheddar Gorge, Somerset<br>\
 <br>\
@@ -36,10 +36,10 @@ by Andrew Atkinson and Graham Mullan.<br>\
 Survey by Andrew Atkinson and Alison Moody.<br>\
 <br>\
 Grade UISv1 6-4-EF<br>\
-Copyright 2013 CC BY NC SA<br>\
+Copyright 2013-5 CC BY NC SA<br>\
 Heights in metres OD"
 
-scale-bar 25 metres
+scale-bar 20 metres
 
 colour-legend off
 

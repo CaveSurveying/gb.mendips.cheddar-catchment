@@ -1,11 +1,13 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -69.572589037 -88.14573115000007 1603.7502456084 1427.6967885348
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {519.679170214 1 1.0} {1047.5951949 1} PocketTopo/NurseryEntrance_E90.xvi 0 {}
 
 
 
 scrap NurseryEntranceSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 401.0 1201.0 label -text [to Long Hole]
 
 line wall -id floor1
   500.0 430.0
