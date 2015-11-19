@@ -1,0 +1,90 @@
+encoding  utf-8
+source BoweryCorner.th
+
+#change name to the main therion file being used
+
+
+
+###############
+#elevation need to come first as it is used in the plan
+###############
+
+export map -proj [elevation 45] -layout local -o BoweryCornerE45.pdf
+
+export map -proj plan -layout plan -o BoweryCorner.pdf
+
+#export map -proj plan -fmt kml -o BoweryCorner.kml
+
+#export model -o BoweryCorner.lox
+#3d therion model to be viewed in the therion viewer
+
+#export model -fmt survex -o BoweryCornerth.3d
+#Survex file showing centre line only
+
+layout plan
+copy local
+
+ 
+map-image 100 -13 ne BoweryCornerE45.pdf
+map-header 35 35 ne
+
+map-comment "Priddy, Somerset<br>\
+ST 5313 5254<br>\
+<br>\
+Length 84.88 m<br>\
+Depth 7.42 m<br>\
+<br>\
+Drawn using Therion by Graham Mullan and Andrew Atkinson.<br>\
+Survey by Andrew Atkinson and Henry Dawson.<br>\
+<br>\
+Grade UISv1 6-4-EF Copyright 2013-5 CC BY NC SA<br>\
+Heights in metres OD"
+
+scale-bar 10 metres
+
+colour-legend off
+
+code tex-map
+  \cavename={\size [30] Bowery Corner Swallet} 
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse
+    
+endcode    
+
+endlayout
+
+layout Projected
+copy local
+map-header 50 100 off
+
+#symbol-hide special north-arrow
+#symbol-hide special scale-bar
+legend-width 50 cm 
+
+endlayout
+
+layout local
+copy common
+doc-title "Bowery Corner Swallet"
+
+grid-size 10 10 5 metres
+
+base-scale 1 150
+scale 1 100
+
+
+symbol-hide point remark
+symbol-hide group cave-centreline
+
+#grid off
+map-header 50 70 off
+map-header-bg on
+
+statistics explo off
+statistics topo off
+
+endlayout
+
+#get the master layout settings
+input ../common_layout.th

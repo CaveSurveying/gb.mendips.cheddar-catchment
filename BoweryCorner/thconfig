@@ -11,16 +11,16 @@ source BoweryCorner.th
 
 #export map -proj extended -layout local -o BoweryCornerEe.pdf
 
-#export map -proj [elevation 15] -layout local -o BoweryCornerE90.pdf
+export map -proj [elevation 45] -layout local -o BoweryCornerE45.pdf
 
-export model -fmt survex -o BoweryCornerth.3d
+#export model -fmt survex -o BoweryCornerth.3d
 #Survex file showing centre line only
 
 #export model -o BoweryCorner.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o BoweryCorner_Walls.3d
-#Survex file showing walls only
+#export map -proj [elevation 45] -o BoweryCornerE45.xvi
+#map for importing into th2 file
 
 layout local
 copy common

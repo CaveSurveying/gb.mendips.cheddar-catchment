@@ -2,9 +2,16 @@ encoding  utf-8
 survey BoweryCorner
 
 input BoweryCorner.th2
+input BoweryCornerE45.th2
 
 map BoweryCornerM
   BoweryCornerSP1
+  
+endmap
+
+map BoweryCornerE45M
+  BoweryCornerSE45_1
+
 endmap
 
 centreline
