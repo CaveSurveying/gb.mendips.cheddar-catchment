@@ -9,11 +9,11 @@ source Unknown1.th
 #export map -proj plan -layout local -o Unknown1.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o Unknown1Ee.pdf
+export map -proj extended -layout local -o Unknown1Ee.pdf
 
 #export map -proj [elevation 90] -layout local -o Unknown1E90.pdf
 
-export model -fmt survex -o Unknown1th.3d
+#export model -fmt survex -o Unknown1th.3d
 #Survex file showing centre line only
 
 #export model -o Unknown1.lox

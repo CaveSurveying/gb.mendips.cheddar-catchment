@@ -15,10 +15,10 @@ map Unknown1ME
   Unknown1SE2
 endmap
 
-map Unknown1ME90 -proj [elevation 90]
-  Unknown1SE90_1
-  Unknown1SE90_2
-endmap
+#map Unknown1ME90 -proj [elevation 90]
+#  Unknown1SE90_1
+#  Unknown1SE90_2
+#3endmap
 centreline
 
 copyright 2012 "CC BY SA NC"

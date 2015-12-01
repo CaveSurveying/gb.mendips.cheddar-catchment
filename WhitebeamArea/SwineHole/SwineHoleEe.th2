@@ -1,15 +1,89 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -161.69 -113.07 970.11 678.43
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -132.0 -150.20472440999998 1018.0 768.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {126.511811024 1 1.0} {195.118110236 1.9} PocketTopo/SwineHole_e.xvi 0 {}
 
 
-scrap SwineHoleSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap SwineHoleSE1 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype invisible
+  84.0 541.0
+  98.0 110.0
+  158.0 47.0
+endline
+
+line wall
+  777.0 366.0
+  776.0 355.0 777.0 334.0 750.0 333.0
+  723.0 332.0 705.0 348.0 677.0 348.0
+  649.0 348.0 571.0 290.0 527.0 297.0
+  493.19 302.38 441.08 308.5 438.0 335.0
+  433.0 378.0 408.43 491.07 412.0 519.0
+  418.0 566.0 388.67 637.29 382.0 635.0
+  347.0 623.0 350.0 560.0 354.0 540.0
+  358.0 520.0 330.0 495.0 349.0 360.0
+  350.94 346.25 379.0 265.0 359.0 266.0
+  339.0 267.0 293.0 311.0 262.0 351.0
+  231.0 391.0 193.0 452.0 177.0 464.0
+  161.0 476.0 84.0 541.0 84.0 541.0
+  smooth off
+endline
+
+line wall -subtype presumed
+  874.0 336.0
+  864.0 346.0 852.0 353.0 843.0 370.0
+  834.0 387.0 821.0 406.0 805.0 399.0
+  789.0 392.0 777.0 366.0 777.0 366.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  885.0 207.0
+  889.0 211.0 874.0 336.0 874.0 336.0
+  smooth off
+endline
+
+line wall -subtype presumed
+  823.0 228.0
+  823.0 228.0 851.0 215.0 855.0 214.0
+  859.0 213.0 885.0 207.0 885.0 207.0
+  smooth off
+endline
+
+line wall
+  158.0 47.0
+  173.0 57.0 140.0 135.0 197.0 93.0
+  216.47 78.65 179.0 142.0 237.0 153.0
+  250.37 155.54 370.0 199.0 442.0 188.0
+  478.8 182.38 546.0 188.0 579.0 241.0
+  601.47 277.08 661.0 298.0 706.0 276.0
+  751.0 254.0 789.0 263.0 823.0 228.0
+endline
+
+point 831.5018110240001 287.938110236 station -name 2.8
+
+point 748.6818110239999 286.538110236 station -name 2.7
+
+point 662.621811024 318.21811023600003 station -name 2.6
+
+point 534.4118110239999 256.08811023600003 station -name 2.5
+
+point 361.28181102400004 607.9181102360001 station -name 2.4
+
+point 408.071811024 259.33811023600003 station -name 2.3
+
+point 506.29181102399997 232.72811023600002 station -name 2.2
+
+point 330.23181102399997 232.32811023600001 station -name 2.1
+
+point 126.511811024 195.118110236 station -name 2.0
 
 endscrap
 
 
-scrap SwineHoleSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap SwineHoleSE2 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

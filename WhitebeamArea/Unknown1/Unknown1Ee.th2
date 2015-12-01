@@ -1,15 +1,59 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -112.44 -34.58 674.65 207.46
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {56.2204724409 1 1.0} {105.130543896 1.13} PocketTopo/Unknown1_e.xvi 0 {}
+##XTHERION## xth_me_area_adjust -182.0 -189.451983483 745.0 320.0
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {586.0004724409 1 1.0} {155.260543896 3.2} PocketTopo/Unknown1_e.xvi 0 {}
 
 
-scrap Unknown1SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap Unknown1SE1 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -reverse on -subtype invisible
+  614.5 171.0
+  612.5 123.0
+endline
+
+line wall
+  614.5 171.0
+  571.5 185.0 578.0 194.0 519.5 189.0
+  492.59 186.7 338.92 153.02 312.0 155.5
+  279.5 158.5 233.5 136.0 166.0 140.5
+  129.46 142.94 57.0 130.0 57.0 130.0
+  smooth off
+endline
+
+point 371.5 16.5 label -text [Snablet's Hole. Extended elevation] -scale l
+
+point -51.5 23.0 label -text entrance -scale m
+
+point -21.5 64.0 entrance -orientation 70.4
+
+line wall -subtype invisible
+  57.0 130.0
+  49.0 103.0
+  97.0 17.5
+endline
+
+line wall
+  97.0 17.5
+  109.5 23.5 136.46 39.61 148.0 49.5
+  165.5 64.5 157.15 76.99 170.5 89.5
+  186.5 104.5 235.94 106.09 268.0 107.5
+  313.5 109.5 355.0 132.5 399.5 122.5
+  421.94 117.46 489.5 121.5 517.0 123.0
+  544.5 124.5 596.5 128.5 609.5 124.0
+endline
+
+point 586.0004724409 155.260543896 station -name 3.2
+
+point 285.5304724409 140.340543896 station -name 3.1
+
+point 56.2204724409 105.130543896 station -name 3.0
 
 endscrap
 
 
-scrap Unknown1SE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap Unknown1SE2 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

@@ -39,7 +39,7 @@ copyright 2012 "CC BY SA NC"
    station 2.0 "" entrance
 
 data normal from to tape compass clino ignoreall
-  extend right
+#  extend right
 #Calabration check in Surface.th 
 2.0  -  1.645  89.92  -52.62  nv rhs above ent climb
 2.0  -  1.685  153.36  -76.83  
@@ -62,7 +62,7 @@ data normal from to tape compass clino ignoreall
 2.2  -  0.438  157.75  21.44  
 2.2  -  0.661  142.64  -40.71  
 2.2  -  0.471  313.95  -77.09  nv
-  extend left
+#  extend left
 #2.3  2.2  1.291  246.77  -15.13  
 #2.3  2.2  1.292  246.98  -15.13  
 #2.3  2.2  1.294  246.71  -15.21  
@@ -76,7 +76,7 @@ data normal from to tape compass clino ignoreall
 #2.3  2.4  4.461  209.21  82.4  
 #2.3  2.4  4.464  207.71  82.26  
 2.3  2.4  4.467  207.59  82.36  Calculated leg from 3 above
-  extend right
+#  extend right
 2.2  -  0.0  0.0  0.0  
 #2.2  2.5  0.464  165.24  39.5  
 #2.2  2.5  0.464  164.68  39.73  

@@ -1,11 +1,22 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -184.28 -57.0 1105.71 341.99
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -130.0 -178.240765798 1165.02433569 471.46002160349997
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {92.1424459264 1 1.0} {140.325407505 1.4} PocketTopo/Brock_E90.xvi 0 {}
 
 
 
 scrap BrockSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype invisible
+  70.0 328.0
+  65.0 141.5
+  94.0 26.0
+endline
+
+line wall -subtype invisible
+  1014.0 122.0
+  1024.0 156.0
+endline
 
 line wall
   1024.0 156.0
@@ -14,6 +25,7 @@ line wall
   622.0 314.0 454.0 284.0 402.0 286.0
   350.0 288.0 196.0 260.0 152.0 290.0
   108.0 320.0 96.0 294.0 70.0 328.0
+  smooth off
 endline
 
 line wall -subtype sand
@@ -23,6 +35,7 @@ line wall -subtype sand
   450.0 70.0 576.0 106.0 594.0 114.0
   612.0 122.0 648.0 132.0 668.0 128.0
   688.0 124.0 998.0 122.0 1014.0 122.0
+  smooth off
 endline
 
 point 1013.5624459264 137.565407505 station -name 7.4
