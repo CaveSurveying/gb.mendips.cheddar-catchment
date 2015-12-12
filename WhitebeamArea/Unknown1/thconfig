@@ -9,9 +9,11 @@ source Unknown1.th
 #export map -proj plan -layout local -o Unknown1.pdf
 #Produces plan of cave, on a single sheet
 
-export map -proj extended -layout local -o Unknown1Ee.pdf
+#export map -proj extended -layout local -o Unknown1Ee.pdf
 
-#export map -proj [elevation 90] -layout local -o Unknown1E90.pdf
+export map -proj [elevation 0] -layout local -o Unknown1E0.pdf
+
+#export map -proj [elevation 0] -o Unknown1E0.xvi -format xvi
 
 #export model -fmt survex -o Unknown1th.3d
 #Survex file showing centre line only
@@ -19,14 +21,18 @@ export map -proj extended -layout local -o Unknown1Ee.pdf
 #export model -o Unknown1.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o Unknown1_Walls.3d
-#Survex file showing walls only
+
 
 layout local
 copy common
 debug off
-map-header 0 0 nw
-#symbol-hide group cave-centreline
+map-header 0 0 off
+symbol-hide group cave-centreline
+
+grid-size 10 10 5 metres
+
+scale 1 200
+
 endlayout
 
 input ../../common_layout.th

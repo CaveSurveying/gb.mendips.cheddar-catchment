@@ -1,11 +1,15 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -141.0180106205 -152.54139490600002 866.0 755.0
+##XTHERION## xth_me_area_adjust -227.0 -152.54139490600002 866.0 755.0
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {76.9693742284 1 1.0} {183.387819749 1.9} PocketTopo/SwineHole_E90.xvi 0 {}
 
 
 
 scrap SwineHoleSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 697.0 56.0 label -text [Swine Hole, elevation projected on 090 deg.] -scale m
+
+point -94.0 186.0 entrance -orientation 91.1
 
 line wall -subtype invisible
   462.0 616.0

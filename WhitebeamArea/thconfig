@@ -6,27 +6,64 @@ source WhitebeamArea.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o WhitebeamArea.pdf
+export map -proj plan -layout local -o WhitebeamArea.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o WhitebeamAreaEe.pdf
 
 #export map -proj [elevation 90] -layout local -o WhitebeamAreaE90.pdf
 
-export model -fmt survex -o WhitebeamAreath.3d
+#export model -fmt survex -o WhitebeamAreath.3d
 #Survex file showing centre line only
 
 #export model -o WhitebeamArea.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o WhitebeamArea_Walls.3d
-#Survex file showing walls only
-
 layout local
 copy common
+
 debug off
 map-header 0 0 nw
-#symbol-hide group cave-centreline
+map-image 154 100 nw /SwineHole/SwineHoleE90.pdf
+map-image 154 68 nw /Brock/BrockE90.pdf
+map-image 115 37 nw /Whitebeam/WhitebeamE90.pdf
+map-image 154 -4 nw /Unknown1/Unknown1E0.pdf
+
+map-comment "Cheddar Gorge, Somerset<br>\
+<br>\
+Drawn using Therion by Andrew Atkinson and Graham Mullan.<br>\
+Survey by Andrew Atkinson, Tony Boycott, Alison Moody and Clive Owen.<br>\
+<br>\
+Swine Hole: Length 15.11 m. Depth 5.24 m. Brock Hole: Length 12.64 m. Depth 0.56 m.<br>\
+Whitebeam Slitter Cave: Length 74.65 m. Depth 8.67 m. Snablet's Dig: Length 6.77 m. Depth 0.64 m.<br>\
+<br>\
+Heights in metres OD. Grade UISv1 6-4-EF. Copyright 2012-5 CC BY NC SA."
+
+scale-bar 25 metres
+
+colour-legend off
+
+code tex-map
+  \cavename={\size [25] Whitebeam Slitter Area} 
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse
+    
+endcode
+
+doc-title "Whitebeam Slitter"
+grid-size 10 10 5 metres
+
+#base-scale 1 500
+scale 1 200
+
+statistics explo off
+statistics topo off
+
+symbol-hide point remark
+symbol-hide group cave-centreline
+legend-width 24 cm
+
 endlayout
 
 input ../common_layout.th

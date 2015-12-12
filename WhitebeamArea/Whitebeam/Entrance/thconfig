@@ -6,12 +6,12 @@ source Entrance.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o Entrance.pdf
+#export map -proj plan -layout local -o Entrance.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o EntranceEe.pdf
 
-#export map -proj [elevation 90] -layout local -o EntranceE90.pdf
+export map -proj [elevation 90] -layout local -o EntranceE90.pdf
 
 export model -fmt survex -o Entranceth.3d
 #Survex file showing centre line only

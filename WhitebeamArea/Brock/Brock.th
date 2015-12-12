@@ -18,6 +18,7 @@ map BrockME90 -proj [elevation 90]
 endmap
 centreline
 
+cs OSGB:ST
 copyright 2012 "UBSS CC BY SA NC"
 
 ### TRIP COMMENT FROM POCKETTOPO ###
@@ -34,6 +35,7 @@ copyright 2012 "UBSS CC BY SA NC"
   team "Tony Boycott" instruments
   
      station 7.0 "" entrance
+     #fix 7.0 47414.00 54326.00 215.00
 
 data normal from to tape compass clino ignoreall
   extend right

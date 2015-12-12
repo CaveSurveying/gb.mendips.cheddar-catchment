@@ -1,11 +1,15 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -178.240765798 1165.02433569 471.46002160349997
+##XTHERION## xth_me_area_adjust -195.0 -185.0 1165.02433569 471.46002160349997
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {92.1424459264 1 1.0} {140.325407505 1.4} PocketTopo/Brock_E90.xvi 0 {}
 
 
 
 scrap BrockSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 801.0 -52.0 label -scale m -text [Brock Hole, elevation projected on 090 deg.]
+
+point -62.0 132.0 entrance -orientation 87.3
 
 line wall -subtype invisible
   70.0 328.0

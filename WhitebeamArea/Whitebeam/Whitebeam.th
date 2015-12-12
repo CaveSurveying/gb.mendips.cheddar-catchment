@@ -14,5 +14,14 @@ map WhitebeamM -title "Whitebeam Slitter Cave"
   UpperM@Upper
 endmap
 
+map WhitebeamME90 -proj [elevation 90]
+  EntranceME90@Entrance
+  LowerME90@Lower
+  UpperME90@Upper
+endmap
+
+join UpperSE90_1@Upper LowerSE90_1@Lower -smooth on
+join EntranceSE90_1@Entrance LowerSE90_1@Lower -smooth on 
+
 endsurvey
 

@@ -6,12 +6,12 @@ source Lower.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o Lower.pdf
+#export map -proj plan -layout local -o Lower.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o LowerEe.pdf
 
-#export map -proj [elevation 90] -layout local -o LowerE90.pdf
+export map -proj [elevation 90] -layout local -o LowerE90.pdf
 
 export model -fmt survex -o Lowerth.3d
 #Survex file showing centre line only

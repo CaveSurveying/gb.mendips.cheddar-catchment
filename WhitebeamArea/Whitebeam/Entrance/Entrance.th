@@ -21,6 +21,7 @@ map EntranceME90 -proj [elevation 90]
 endmap
 centreline
 
+cs OSGB:ST
 copyright 2012 "CC BY SA NC"
 
 ### TRIP COMMENT FROM POCKETTOPO ###
@@ -37,6 +38,7 @@ copyright 2012 "CC BY SA NC"
   team "Tony Boycott" instruments
 
  station 4.0 "" entrance
+ fix 4.0 47418.62 54327.29 214.31
 
 data normal from to tape compass clino ignoreall
   extend right

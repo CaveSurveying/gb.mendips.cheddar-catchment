@@ -21,6 +21,7 @@ map SwineHoleME90 -proj [elevation 90]
 endmap
 centreline
 
+cs OSGB:ST
 copyright 2012 "CC BY SA NC"
 
 ### TRIP COMMENT FROM POCKETTOPO ###
@@ -37,6 +38,7 @@ copyright 2012 "CC BY SA NC"
   team "Tony Boycott" instruments
   
    station 2.0 "" entrance
+   fix 2.0 47394.77 54329.60 204.34
 
 data normal from to tape compass clino ignoreall
 #  extend right

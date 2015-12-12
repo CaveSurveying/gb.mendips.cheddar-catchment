@@ -1,11 +1,15 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -118.13 -83.43 708.76 500.6
+##XTHERION## xth_me_area_adjust -118.13 -133.43 708.76 550.6
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {606.125826772 1 1.0} {52.04354330699999 3.2} PocketTopo/Unknown1_p.xvi 0 {}
 
 
 
 scrap Unknown1SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 452.0 -124.5 label -text [Snablet's Dig] -scale l
+
+point 22.5 247.0 entrance -orientation 112.6
 
 line wall
   639.5 63.0
@@ -40,7 +44,7 @@ line section -direction both
   smooth off
 endline
 
-point 343.5 229.5 section -scrap Unknown1SPX3.1
+point 296.0 41.5 section -scrap Unknown1SPX3.1
 
 point 327.14582677199996 163.623543307 station -name 3.1
 

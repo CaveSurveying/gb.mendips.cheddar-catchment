@@ -3,23 +3,24 @@ survey Unknown1
 
 input Unknown1.th2
 input Unknown1Ee.th2
-input Unknown1E90.th2
+input Unknown1E0.th2
 
 map Unknown1M
   Unknown1SP1
   Unknown1SP2
 endmap
 
-map Unknown1ME
-  Unknown1SE1
-  Unknown1SE2
+#map Unknown1ME
+#  Unknown1SE1
+#  Unknown1SE2
+#endmap
+
+map Unknown1ME0 -proj [elevation 0]
+  Unknown1SE0_1
 endmap
 
-#map Unknown1ME90 -proj [elevation 90]
-#  Unknown1SE90_1
-#  Unknown1SE90_2
-#3endmap
 centreline
+cs OSGB:ST
 
 copyright 2012 "CC BY SA NC"
 
@@ -37,6 +38,7 @@ copyright 2012 "CC BY SA NC"
   team "Tony Boycott" instruments
 
  station 3.0 "" entrance
+ fix 3.0 47430.40 54342.86 211.53
 
 data normal from to tape compass clino ignoreall
   extend right
