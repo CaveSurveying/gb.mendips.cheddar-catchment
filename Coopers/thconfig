@@ -7,14 +7,16 @@ source Coopers.th
 #-----------------
 
 
-export map -proj plan -layout local -o Coopers.pdf
+#export map -proj plan -layout local -o Coopers.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o CoopersEe.pdf
 
-#export map -proj [elevation 90] -layout local -o CoopersE90.pdf
+export map -proj [elevation 90] -layout local -o CoopersE90.pdf
 
-export model -fmt survex -o Coopersth.3d
+#export map -proj [elevation 90] -o CoopersE90.xvi -format xvi
+
+#export model -fmt survex -o Coopersth.3d
 #Survex file showing centre line only
 
 #export model -o Coopers.lox

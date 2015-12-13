@@ -3,10 +3,17 @@ survey Coopers
 
 input Coopers.th2
 input CoopersEe.th2
+input CoopersE90.th2
 
 map CoopersM -title "Cooper's Hole"
   CoopersSP1
 endmap
+
+map CoopersME90
+  CoopersSE90_1
+  CoopersSE90_2
+endmap
+
 centreline
 cs OSGB:ST
 

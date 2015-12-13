@@ -1,0 +1,83 @@
+encoding  utf-8
+source Coopers.th
+
+#change name to the main therion file being used
+
+###############
+#elevation needs to come first as it is used in the plan
+###############
+
+export map -proj [elevation 90] -layout local -o CoopersE90.pdf
+
+export map -proj plan -layout plan -o Coopers.pdf
+
+#export map -proj plan -fmt kml -o Coopers.kml
+
+#export model -o Coopers.lox
+#3d therion model to be viewed in the therion viewer
+
+#export model -fmt survex -o Coopers.3d
+#Survex file showing centre line only
+
+layout plan
+copy local
+
+
+map-header 0 -30 nw
+map-image 140 100 nw CoopersE90.pdf
+
+map-comment "Cheddar Gorge, Somerset<br>\
+<br>\
+Length 68.33 m Depth 11.10 m<br>\
+Drawn using Therion by Andrew Atkinson and Graham Mullan. Survey by Andrew Atkinson and Clive Owen.<br>\
+Heights in metres OD. Grade UISv1 6-4-EF. Copyright 2013-5 CC BY NC SA."
+
+
+scale-bar 10 metres
+
+colour-legend off
+
+code tex-map
+  \cavename={\size [30] Cooper's Hole} 
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse
+    
+endcode    
+
+endlayout
+
+layout Projected
+copy local
+map-header 50 100 off
+
+#symbol-hide special north-arrow
+#symbol-hide special scale-bar
+legend-width 100 cm 
+
+endlayout
+
+layout local
+copy common
+doc-title "Cooper's Hole"
+#rotate -90
+grid-size 10 10 10 metres
+
+#base-scale 1 500
+scale 1 150
+
+
+symbol-hide point remark
+symbol-hide group cave-centreline
+
+#grid off
+map-header 50 70 off
+map-header-bg on
+
+statistics explo off
+statistics topo off
+
+endlayout
+
+#get the master layout settings
+input ../common_layout.th
