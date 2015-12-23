@@ -1,11 +1,29 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -145.321031989 -88.93700788000001 819.3403853336999 1426.9055118048
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {425.925341036 1 1.0} {1248.19685039 5.4} PocketTopo/Upper_p.xvi 0 {}
 
 
 
 scrap UpperSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+area water
+  l24-612-613
+  l23-575-643
+endarea
+
+line border -id l24-612-613 -reverse on -subtype invisible
+  620.0 623.0
+  591.0 586.0
+endline
+
+line border -id l23-575-643 -reverse on
+  591.0 586.0
+  591.0 586.0 552.5 607.75 549.75 622.0
+  544.96 646.8 552.21 634.03 565.5 640.0
+  590.0 651.0 620.0 623.0 620.0 623.0
+  smooth off
+endline
 
 line wall
   418.0 1266.0

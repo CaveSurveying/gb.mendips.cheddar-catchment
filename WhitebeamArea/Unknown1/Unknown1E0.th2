@@ -1,0 +1,51 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -133.0 -146.25 287.0 187.055
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {19.685000000000002 1 1.0} {39.3709 3.0} PocketTopo/Unknown1E0.xvi 0 {}
+
+
+
+scrap Unknown1SE0_1 -projection [elevation  0] -scale [-128.0 -128.0 285.48 -128.0 0.0 0.0 10.502392 0.0 m]
+
+point 157.75 -17.0 label -text [Snablet's Dig, elevation projected on 0 deg.] -scale m
+
+point -3.75 20.75 entrance -orientation 69.3
+
+line wall -subtype invisible
+  15.75 44.0
+  15.75 44.0 15.26 43.17 15.75 36.5
+  16.5 26.25 25.0 14.25 25.0 14.25
+  smooth off
+endline
+
+line wall
+  148.25 53.75
+  142.0 55.0 88.5 54.75 81.0 53.25
+  73.5 51.75 27.25 46.5 23.75 46.0
+  20.25 45.5 15.75 44.0 15.75 44.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  147.75 48.5
+  148.25 53.75
+endline
+
+line wall
+  25.0 14.25
+  29.36 18.9 29.0 17.0 33.25 21.5
+  37.65 26.16 55.5 32.5 64.5 36.0
+  73.5 39.5 91.5 45.25 101.5 46.25
+  111.5 47.25 147.75 48.5 147.75 48.5
+  smooth off
+endline
+
+point 144.685 51.9709 station -name 3.2
+
+point 74.805 48.2309 station -name 3.1
+
+point 19.685000000000002 39.3709 station -name 3.0
+
+endscrap
+
+

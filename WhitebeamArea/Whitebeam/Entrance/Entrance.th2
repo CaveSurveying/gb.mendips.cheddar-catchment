@@ -1,11 +1,47 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -147.939050721 -130.0 867.5 2289.4960629877996
+##XTHERION## xth_me_area_adjust -147.939050721 -130.0 914.5 2289.4960629877996
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {468.72764219199996 1 1.0} {837.2021259800001 4.5} PocketTopo/Entrance_p.xvi 0 {}
 
 
 
 scrap EntranceSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line floor-step -reverse on
+  475.5 774.5
+  475.5 774.5 453.5 774.5 448.0 755.5
+  437.95 720.79 440.5 623.0 440.5 623.0
+  smooth off
+  440.5 623.0 437.0 552.0 439.5 531.0
+  444.23 491.26 486.5 471.5 486.5 471.5
+  smooth off
+endline
+
+line floor-step
+  428.5 799.0
+  428.5 799.0 435.5 789.0 435.5 756.5
+  435.5 754.44 410.3 568.44 411.0 566.5
+  425.0 528.0 370.0 491.0 370.0 491.0
+  smooth off
+endline
+
+line rock-border
+  431.5 961.0
+  432.5 905.5
+  426.5 853.0
+endline
+
+line rock-border -close on
+  431.5 961.0
+  420.5 943.0
+  427.0 906.0
+  420.5 883.5
+  421.5 848.5
+  432.0 845.0
+  438.0 857.5
+  441.0 951.5
+  431.5 961.0
+endline
 
 point 87.5 2019.0 entrance -orientation 151.1
 

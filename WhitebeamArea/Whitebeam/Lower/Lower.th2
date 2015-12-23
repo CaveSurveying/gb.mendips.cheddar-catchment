@@ -1,11 +1,28 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -171.0708661417 -66.07086613999991 557.3700787401 1687.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {54.9606299213 1 1.0} {1544.60629921 4.11} PocketTopo/Lower_p.xvi 0 {}
 
 
 
 scrap LowerSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line border
+endline
+
+area water
+  l15-181-441
+endarea
+
+line border -id l15-181-441 -close on
+  158.0 457.0
+  150.0 452.5 142.5 430.5 142.5 408.0
+  142.5 393.44 153.0 387.5 157.0 386.5
+  161.0 385.5 173.5 388.5 177.0 395.5
+  180.5 402.5 184.0 412.0 183.5 421.0
+  183.0 430.0 182.31 447.56 176.0 454.0
+  173.97 456.07 160.53 458.42 158.0 457.0
+endline
 
 line wall
   36.0 1554.0
