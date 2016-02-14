@@ -1,5 +1,14 @@
 encoding  utf-8
 survey CanyonCave
 input Entrance/Entrance.th
+
+map CanyonCaveM -title "Canyon Cave"
+  EntranceM@Entrance
+endmap
+
+map CanyonCaveME0 -proj [elevation 0]
+  EntranceME0@Entrance
+  endmap
+    
 endsurvey
 

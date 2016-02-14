@@ -1,0 +1,85 @@
+encoding  utf-8
+source CanyonCave.th
+# Change name to the main therion file
+
+#Surveys to output
+#-----------------
+
+###############
+#elevation needs to come first as it is used in the plan
+###############
+
+export map -proj [elevation 0] -layout projected -o CanyonCaveE0.pdf
+
+export map -proj plan -layout plan -o CanyonCave.pdf
+#Produces plan of cave, on a single sheet
+
+#export model -fmt survex -o CanyonCaveth.3d
+#Survex file showing centre line only
+
+#export model -o CanyonCave.lox
+#3d therion model to be viewed in the therion viewer
+
+layout plan
+copy local
+
+
+map-image -5 -20 nw CanyonCaveE0.pdf
+map-header 0 200 nw
+
+map-comment "Cheddar Gorge, Somerset<br>\
+<br>\
+Length 88.11 m Depth 17.03 m<br>\
+Drawn using Therion by Andrew Atkinson and Graham Mullan. Survey by Andrew Atkinson and Alison Moody.<br>\
+Heights in metres OD. Grade UISv1 6-4-EF. Copyright 2013-6 CC BY NC SA.<br>\
+Data available at http://cave-registry.org.uk/"
+
+
+scale-bar 10 metres
+
+colour-legend off
+
+code tex-map
+  \cavename={\size [40] Canyon Cave} 
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse
+    
+endcode    
+
+endlayout
+
+layout projected
+copy local
+#map-header 50 100 off
+
+symbol-hide special north-arrow
+symbol-hide special scale-bar
+legend-width 100 cm 
+
+endlayout
+
+layout local
+copy common
+doc-title "Canyon Cave"
+#rotate -90
+grid-size 10 10 5 metres
+
+base-scale 1 100
+scale 1 100
+
+
+symbol-hide point remark
+symbol-hide group cave-centreline
+
+#grid off
+map-header 50 70 off
+map-header-bg on
+
+statistics explo off
+statistics topo off
+
+endlayout
+
+#get the master layout settings
+input ../common_layout.th
