@@ -44,6 +44,7 @@ line wall -subtype presumed
   499.5 233.5
   490.5 234.5 433.0 250.0 419.5 254.0
   406.0 258.0 382.0 258.5 371.0 259.0
+  smooth off
 endline
 
 line wall
@@ -74,21 +75,25 @@ line wall
   739.0 294.5 734.0 309.0 726.0 295.0
   718.0 281.0 718.5 278.0 707.0 275.0
   695.5 272.0 685.0 267.0 680.5 274.5
+  smooth off
 endline
 
 line wall -subtype presumed
   779.5 263.5
   765.0 274.5 747.0 290.5 739.0 294.5
+  smooth off
 endline
 
 line wall -subtype presumed
   739.5 208.5
   749.5 203.5 749.0 201.0 755.5 199.0
+  smooth off
 endline
 
 line wall
   720.5 208.5
   729.5 210.0 734.0 211.5 739.5 208.5
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -159,6 +164,7 @@ line wall -subtype clay
   606.0 102.5 605.5 103.5 627.0 117.5
   648.5 131.5 667.0 137.0 670.5 142.5
   674.0 148.0 679.5 153.0 685.0 159.5
+  smooth off
 endline
 
 line wall -subtype presumed
@@ -217,6 +223,7 @@ line wall -reverse on
   smooth off
   293.0 420.0 314.0 421.5 315.0 424.5
   316.0 427.5 328.0 449.0 328.5 452.0
+  smooth off
 endline
 
 point 751.661 204.99599999999998 station -name 27
@@ -274,6 +281,11 @@ point 207.34099999999998 407.03599999999994 station -name 2
 point 147.921 329.33599999999996 station -name 1
 
 point 98.42099999999999 393.69599999999997 station -name 0
+
+line wall -reverse on
+  100.0 342.0
+  77.0 360.0
+endline
 
 endscrap
 
