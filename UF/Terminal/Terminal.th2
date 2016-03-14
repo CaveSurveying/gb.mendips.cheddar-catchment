@@ -1,0 +1,42 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -79.70121348999987 -38.15748031999988 1514.8814636751001 1950.1259842466002
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {169.20016232000012 1 1.0} {412.52661417000013 11} PocketTopo/Terminal_p.xvi 0 {}
+
+
+
+scrap TerminalSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TerminalSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TerminalSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TerminalSPX12 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TerminalSPX7 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TerminalSPX4 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+

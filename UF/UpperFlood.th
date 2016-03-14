@@ -18,20 +18,20 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
     #cs EPSG:27700
    
     # Join Golden Chamber survey to the Entrance survey:-     
-    #equate RA2@CC.GoldenChamber    		RA2@MCGPaper.Entrance
-    equate RA2@CC.GoldenChamber    		1.13a@LavatoryTrap.Entrance # Approximately
+    #equate RA2@CC.GoldenChamber        RA2@MCGPaper.Entrance
+    equate RA2@CC.GoldenChamber        1.13a@LavatoryTrap.Entrance # Approximately
     
-    equate 1@BoulderChoke    			14@CC.GoldenChamber   
-    equate 1@Leg1.MalcolmsWay    		39@BoulderChoke
+    equate 1@BoulderChoke          14@CC.GoldenChamber   
+    equate 1@Leg1.MalcolmsWay        39@BoulderChoke
 
-    #equate CH1@CharnelPassage    		15@Leg2.MalcolmsWay
+    #equate CH1@CharnelPassage        15@Leg2.MalcolmsWay
     equate 1.1@Disto.CharnelPassage    15@Leg2.MalcolmsWay
-    equate MW9@RoyalIcing     			9@Leg2.MalcolmsWay
+    equate MW9@RoyalIcing           9@Leg2.MalcolmsWay
 
-    equate 1@EP_Pony.EastPassage    	RI36@RoyalIcing   # Fixed station in Royal Icing Chamber
+    equate 1@EP_Pony.EastPassage      RI36@RoyalIcing   # Fixed station in Royal Icing Chamber
 
-    equate RI@SouthPassage				RI36@RoyalIcing    			
-    #equate d7@SouthPassage      		RI36@RoyalIcing  # d7 approximate location (could also be 35@RI)
+    equate RI@SouthPassage        RI36@RoyalIcing          
+    #equate d7@SouthPassage          RI36@RoyalIcing  # d7 approximate location (could also be 35@RI)
 
     #equate d8@CentreLineOnly.WestPassage  d8@SouthPassage  # original TF and DW survey
     equate RI42@WestPassage   RI42@RoyalIcing   # Fixed station above Neverland entrance
@@ -72,8 +72,8 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
    input Entrance/Entrance.th
    
    input GoldenChamber/GoldenChamber.th
-   join wall_LTs1_1@LavatoryTrap.Entrance	wall_GCs1_1@GoldenChamber
-   join l13-1050-287@LavatoryTrap.Entrance	wall_GCs1_2@GoldenChamber	
+   join wall_LTs1_1@LavatoryTrap.Entrance  wall_GCs1_1@GoldenChamber
+   join l13-1050-287@LavatoryTrap.Entrance  wall_GCs1_2@GoldenChamber  
  
    input BoulderChoke/BoulderChoke.th
    input BoulderChoke/BoulderChoke_s0.th2 # Contains the presumed passage widths
@@ -121,6 +121,9 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
    input Neverland/Neverland.th
    join NeverlandDisto_s1@Neverland  WestPassage_s0@WestPassage
    
+   input Terminal/Terminal.th
+   equate 0@Terminal 2@Leg2.MalcolmsWay
+   
    # MAPS.  Only maps can be selected in thconfig.
    # ====
    # Different maps used for different outputs.  
@@ -158,7 +161,7 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
      Grid_m1
      UF_mContinuations
      preview below UF_m1
-	 UF_mContinuation_Offset [-0 -100 m] none
+   UF_mContinuation_Offset [-0 -100 m] none
    endmap
 
    # Map_m500 - This is the main detailed 1:500 scale map, all in one page.  
@@ -225,7 +228,7 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
        UF_m2
        break
        BoulderChoke_m0
-	   MalcolmsWay_map@MalcolmsWay
+     MalcolmsWay_map@MalcolmsWay
        #break
        #Survey_m1
        #Centreline_m1
@@ -247,7 +250,7 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
    # We need a map that already has the Continuation scrap with preview below of the associated cave scraps
    map UF_mContinuation_Offset
     UF_mContinuation_WP
-	WestPassage_mOffset@WestPassage
+  WestPassage_mOffset@WestPassage
    endmap
    map UF_mContinuation_WP
      Continuations_s2     
