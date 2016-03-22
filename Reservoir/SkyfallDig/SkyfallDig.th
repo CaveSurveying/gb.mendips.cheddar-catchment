@@ -2,11 +2,16 @@ encoding  utf-8
 survey SkyfallDig
 
 input SkyfallDig.th2
+input SkyfallDigE90.th2
 
 map SkyfallDigM
   SkyfallDigSP1
+ break
   SkyfallDigSP2
-  SkyfallDigSP3
+endmap
+
+map SkyfallDigME90
+  SkyfallDigSE90_1
 endmap
 
 centreline

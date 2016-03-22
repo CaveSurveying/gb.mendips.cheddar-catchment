@@ -119,6 +119,7 @@ join DeeperSP1@Deeper FrozenDeepSPl1@FrozenDeep -smooth on
 join DeeperSP2@Deeper DingleyDellSP1@DingleyDell -smooth on
 join FrozenDeepSPl1@FrozenDeep GreatExpectationsSPl2@GreatExpectations  -smooth on
 join FrozenDeepSPl1@FrozenDeep SkyfallSP1@Skyfall  -smooth on
+join SkyfallSP4@Skyfall SkyfallDigSP2@SkyfallDig -smooth on
 join GreatExpectationsSPl1@GreatExpectations ToplessAvenSPl1@ToplessAven -smooth on
 join GolgothaSPl4@Golgotha ToplessAvenSPl1@ToplessAven -smooth on
 join HappySnappersSPl1@HappySnappers TopDigSPl1@TopDig -smooth on
@@ -149,6 +150,7 @@ join DeeperSE90_2@Deeper FrozenDeepSE90_1@FrozenDeep -smooth on
 join FrozenDeepSE90_1@FrozenDeep GreatExpectationsSE90_1@GreatExpectations -smooth on
 join FrozenDeepSE90_1@FrozenDeep WIShICouldFlySE90_1@WIShICouldFly -smooth on
 join SkyfallPath@FrozenDeep:0 floor1@Skyfall -smooth on
+join SkyfallSE90_1@Skyfall SkyfallDigSE90_1@SkyfallDig -smooth on
 join GolgothaSE90_1@Golgotha HerbertsAtticSE90_1@HerbertsAttic -smooth on
 join GolgothaSE90_1@Golgotha ToplessAvenSE90_1@ToplessAven -smooth on
 join GreatExpectationsSE90_1@GreatExpectations WIShICouldFlySE90_1@WIShICouldFly  -smooth on
@@ -175,6 +177,7 @@ endmap
 
 map ReservoirM -title "Reservoir Hole" -proj plan
   SkyfallM@Skyfall
+  SkyfallDigM@SkyfallDig
   VertigoM@Vertigo
   CeilingAroundM@CeilingAround
   CeilingAround2M@CeilingAround2
@@ -208,6 +211,7 @@ endmap
 
 map ReservoirME90 -proj [elevation 90]
   SkyfallME90@Skyfall
+  SkyfallDigME90@SkyfallDig
   VertigoME90@Vertigo
   CeilingAroundME90@CeilingAround
  break

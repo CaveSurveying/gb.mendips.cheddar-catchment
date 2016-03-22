@@ -6,12 +6,12 @@ source SkyfallDig.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o SkyfallDig.pdf
+export map -proj plan -layout local -o SkyfallDig.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o SkyfallDigEe.pdf
 
-#export map -proj [elevation 15] -layout local -o SkyfallDigE15.pdf
+export map -proj [elevation 90] -layout local -o SkyfallDigE90.pdf
 
 export model -fmt survex -o SkyfallDigth.3d
 #Survex file showing centre line only
