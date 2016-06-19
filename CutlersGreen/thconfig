@@ -1,0 +1,4 @@
+encoding  utf-8
+source CutlersGreen.th
+
+export model -o CutlersGreen.3d

@@ -1,0 +1,10 @@
+encoding  utf-8
+survey CutlersGreen
+
+input MinorHoles/MinorHoles.th
+input MainHole/MainHole.th
+
+equate 1.0@MinorHoles 0@MainHole
+
+endsurvey
+

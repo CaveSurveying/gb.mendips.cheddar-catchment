@@ -124,6 +124,9 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
    input Terminal/Terminal.th
    equate 0@Terminal 2@Leg2.MalcolmsWay
    
+   input Terminal2/Terminal2.th
+   equate 12@Terminal2 12@Terminal
+   
    # MAPS.  Only maps can be selected in thconfig.
    # ====
    # Different maps used for different outputs.  

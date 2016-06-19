@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -807.01 -343.31 4842.07 2059.84
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {485.025433551 1 1.0} {1608.66141732 0} PocketTopo/MainHole_e.xvi 0 {}
+
+
+scrap MainHoleSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
