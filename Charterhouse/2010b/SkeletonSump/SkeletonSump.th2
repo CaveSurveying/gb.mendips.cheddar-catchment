@@ -1,0 +1,22 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 442.96 521.7
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {39.367999999999995 1 1.0} {354.328 0} SkeletonSump.xvi 0 {}
+
+
+
+scrap SkeletonSumpSP1 -projection plan -scale [-128.0 -128.0 442.96 -128.0 0.0 0.0 14.502384000000001 0.0 m]
+
+point 279.488 45.768 station -name 4
+
+point 140.878 210.958 station -name 3
+
+point 82.718 200.698 station -name 2
+
+point 39.367999999999995 208.338 station -name 1
+
+point 39.367999999999995 354.328 station -name 0
+
+endscrap
+
+
