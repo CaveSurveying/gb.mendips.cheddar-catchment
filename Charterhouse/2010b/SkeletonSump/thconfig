@@ -1,6 +1,12 @@
 encoding  utf-8
 source SkeletonSump.th
 
-export model -o SkeletonSumpth.3d
+#export model -o SkeletonSumpth.3d
 
 export map -o SkeletonSump.pdf
+
+#export map -o SkeletonSump.xvi -format xvi
+#map for importing into th2 file
+
+#export model -o SkeletonSump2.lox
+#3d therion model to be viewed in the therion viewer
