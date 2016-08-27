@@ -3,130 +3,131 @@ survey Entrance -title "Entrance"
 
   centreline     
     walls on
-#	cs EPSG:27700 
-     #cs OSGB:SN
-	fix LIMEKILN 350590.00	155693.50	249.11	2	2	0.2	
-						    # StD derived by BJC as follows: 6"-to-mile map (15cm to 1600m), 
-						    # assumed map measurement precision ~0.2 mm = 0.3/150 x 1600m = 2m 
-						    # (but this assumes no intrinsic printing error in map, which will not be the case)
-						    # altitude std, because of shallow surface gradient will be much more accurate
-											
-	station M2d@MCGPaper "Upstream Midnight Chamber. Waterlogged tailings meet the roof. Rock/calcite dam needs hilting in dry weather." continuation dig attr dig "dig" attr name "M2" attr LR "left"
-	station 11d@MidnightChamber "Cocolate Muffin Dig" continuation dig attr dig "dig" attr name "Chocolate Muffin"
-	station M11d@MCGPaper "Clay choke, not tailings" continuation dig attr dig "dig" attr name "M13"
-	station BS10@MCGPaper "Roof tube at far end is diggable and close to the surface. Grovels in the floor are also diggable." continuation dig attr dig "dig" attr name "Rip Off Aven" attr LR "left"
-	
-	mark E8 fixed # Opposite chocolate muffin
-	station E8 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E8"
-	mark E9 fixed # End of Midnight Streamway
-	station E9 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E9"
-	mark E10 fixed # Just before Lavatory Trap
-	station E10 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E10"
-	mark E11 fixed # Just after Lavatory Trap
-	station E11 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E10"
-	mark E12 fixed # Sludge Junction
-	station E12 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E10"
-	mark E13 fixed # Puddle Lake
-	station E13 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E10"
-	
+#  cs EPSG:27700 
+     cs OSGB:ST
+  fix LIMEKILN 350590.00  155693.50  249.11  2  2  0.2  
+                # StD derived by BJC as follows: 6"-to-mile map (15cm to 1600m), 
+                # assumed map measurement precision ~0.2 mm = 0.3/150 x 1600m = 2m 
+                # (but this assumes no intrinsic printing error in map, which will not be the case)
+                # altitude std, because of shallow surface gradient will be much more accurate
+                      
+  station M2d@MCGPaper "Upstream Midnight Chamber. Waterlogged tailings meet the roof. Rock/calcite dam needs hilting in dry weather." continuation dig attr dig "dig" attr name "M2" attr LR "left"
+  station 11d@MidnightChamber "Cocolate Muffin Dig" continuation dig attr dig "dig" attr name "Chocolate Muffin"
+  station M11d@MCGPaper "Clay choke, not tailings" continuation dig attr dig "dig" attr name "M13"
+  station BS10@MCGPaper "Roof tube at far end is diggable and close to the surface. Grovels in the floor are also diggable." continuation dig attr dig "dig" attr name "Rip Off Aven" attr LR "left"
+  
+  mark E8 fixed # Opposite chocolate muffin
+  station E8 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E8"
+  mark E9 fixed # End of Midnight Streamway
+  station E9 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E9"
+  mark E10 fixed # Just before Lavatory Trap
+  station E10 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E10"
+  mark E11 fixed # Just after Lavatory Trap
+  station E11 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E10"
+  mark E12 fixed # Sludge Junction
+  station E12 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E10"
+  mark E13 fixed # Puddle Lake
+  station E13 "5mm hole, reflector, brass screw" continuation attr Code "fixed" attr print "true" attr Name "E10"
+  
   endcentreline
 
-	input Entrance_MCGPaper.th
-	equate Entrance@MCGPaper	ENTRANCE
-	#Hang old paper survey of Shale Rift onto new DistoX survey
-	equate BS0@MCGPaper		E12		# Approximately true.  
-	
-	input Entrance_MYR2007.th
-	equate 1@MYR2007 		ENTRANCE
-	#equate 16@MYR2007		R6@MCGPaper 
+  input Entrance_MCGPaper.th
+  equate Entrance@MCGPaper  ENTRANCE
+  #Hang old paper survey of Shale Rift onto new DistoX survey
+  equate BS0@MCGPaper    E12    # Approximately true.  
+  
+  input Entrance_MYR2007.th
+  equate 1@MYR2007     ENTRANCE
+  #equate 16@MYR2007    R6@MCGPaper 
 
-	input Entrance_TK1986.th
-	equate 2@TK1986			3@MYR2007
-	#equate 13@TK1986		R6@MCGPaper
+  input Entrance_TK1986.th
+  equate 2@TK1986      3@MYR2007
+  #equate 13@TK1986    R6@MCGPaper
 
-	input MidnightChamber.th
-	equate 1@MidnightChamber M2@MCGPaper 
+  input MidnightChamber.th
+  equate 1@MidnightChamber M2@MCGPaper 
 
-	input WillieStanton/WillieStanton.th
-	equate 7@Surface.WS	LIMEKILN
-	equate 18@FS.WS		ENTRANCE
-	#equate 46@FS.WS	R6@MCGPaper
-	#Export fixed stations
-	equate WS18		ENTRANCE	# North edge of top of concrete ring
-	equate WS24		24@FS.WS        # Large shallow drill mark on stal corbel on S wall of half-way-house.
-	equate WS28		28@FS.WS	# Drill mark in E wall above spring, at old sump
-	equate WS31		31@FS.WS	# Smoke mark on roof projection opposite side passage
-	equate WS37		37@FS.WS	# tip of 2nd longest stalactite
-	equate WS43		43@FS.WS	# Top of sharp rock in chamber
-	equate WS50		50@FS.WS	# drillmark 1.5m up on base of big stal column
-	equate WS60		60@FS.WS	# Smoked broken stal in roof just before downstep of 0.6m
-	equate WS65		65@FS.WS	# Drillmark in middle of roof in niche facing up passage, in stal <= NOT WHERE I THINK IT IS
-	
-	
-	input EntranceDisto2011.th
-	equate 0.0@Disto2011	WS24
-	#equate 0.5@Disto2011	WS28
-	#equate 0.19@Disto2011	WS50
-	#equate 0.16@Disto2011	R6@MCGPaper
-	
-	input MidnightPassage/MidnightPassage.th
-	equate E8		1.10@MidnightPassage
-	equate E9		1.0@MidnightPassage
-	
-	input BypassPassage/BypassPassage.th
-	equate M15@MCGPaper	1.1@BypassPassage  # M16 is though to be top of boulder in stream
-	equate E9		1.0@BypassPassage
-	equate E10		1.20@BypassPassage
+  input WillieStanton/WillieStanton.th
+  equate 7@Surface.WS  LIMEKILN
+  equate 18@FS.WS    ENTRANCE
+  #equate 46@FS.WS  R6@MCGPaper
+  #Export fixed stations
+  equate WS18    ENTRANCE  # North edge of top of concrete ring
+  equate WS24    24@FS.WS        # Large shallow drill mark on stal corbel on S wall of half-way-house.
+  equate WS28    28@FS.WS  # Drill mark in E wall above spring, at old sump
+  equate WS31    31@FS.WS  # Smoke mark on roof projection opposite side passage
+  equate WS37    37@FS.WS  # tip of 2nd longest stalactite
+  equate WS43    43@FS.WS  # Top of sharp rock in chamber
+  equate WS50    50@FS.WS  # drillmark 1.5m up on base of big stal column
+  equate WS60    60@FS.WS  # Smoked broken stal in roof just before downstep of 0.6m
+  equate WS65    65@FS.WS  # Drillmark in middle of roof in niche facing up passage, in stal <= NOT WHERE I THINK IT IS
+  
+  
+  input EntranceDisto2011.th
+  equate 0.0@Disto2011  WS24
+  #equate 0.5@Disto2011  WS28
+  #equate 0.19@Disto2011  WS50
+  #equate 0.16@Disto2011  R6@MCGPaper
+  
+  input MidnightPassage/MidnightPassage.th
+  equate E8    1.10@MidnightPassage
+  equate E9    1.0@MidnightPassage
+  
+  input BypassPassage/BypassPassage.th
+  equate M15@MCGPaper  1.1@BypassPassage  # M16 is though to be top of boulder in stream
+  equate E9    1.0@BypassPassage
+  equate E10    1.20@BypassPassage
 
-	input LavatoryTrap/LavatoryTrap.th
-	equate E10		1.0@LavatoryTrap
-	equate E11		1.5@LavatoryTrap
-	equate E12		1.8@LavatoryTrap
-	equate E13		1.13@LavatoryTrap
-	join wall_Es3_1 l68-558-968@LavatoryTrap
-	join wall_Es3_2 l4-715-776@LavatoryTrap
-	
-	input Entrance2014/Entrance2014.th
-	equate 1.5@Entrance2014		WS24
-	#equate 1.8@Entrance2014	apparently not an existing station!!
-	#equate 1.10@Entrance2014	WS28
-	#equate 1.11@Entrance2014	0.6@Disto2011
-	#equate 1.16@Entrance2014	0.13@Disto2011
-	# Export fixed stations
-	equate BC1		1.1@Entrance2014	# In head wall above drop, 5mm drill hole, yellow plug, ss screw, plastic reflector
-	equate BC2		1.19@Entrance2014	# tip of stal
-	equate BC3		1.21@Entrance2014	# tip of stal
-	equate BC4		1.291@Entrance2014	# 1" drill mark above passage at head height, facing up passage  Sounds like WS65 but in wrong place!!!!
-	equate BC5		1.33@Entrance2014    	# highest tip of obvious stal-coated boulder in chamber below aven
-	equate BC6		1.42@Entrance2014	# 1" dill hole in Southern (RH) side wall 
-	equate BC7		1.50@Entrance2014	# In side wall close to floor, 5mm drill hole, yellow plug, ss screw, plastic reflector
+  input LavatoryTrap/LavatoryTrap.th
+  equate E10    1.0@LavatoryTrap
+  equate E11    1.5@LavatoryTrap
+  equate E12    1.8@LavatoryTrap
+  equate E13    1.13@LavatoryTrap
+  join wall_Es3_1 l68-558-968@LavatoryTrap
+  join wall_Es3_2 l4-715-776@LavatoryTrap
+  
+  input Entrance2014/Entrance2014.th
+  equate 1.5@Entrance2014    WS24
+  #equate 1.8@Entrance2014  apparently not an existing station!!
+  #equate 1.10@Entrance2014  WS28
+  #equate 1.11@Entrance2014  0.6@Disto2011
+  #equate 1.16@Entrance2014  0.13@Disto2011
+  # Export fixed stations
+  equate BC1    1.1@Entrance2014  # In head wall above drop, 5mm drill hole, yellow plug, ss screw, plastic reflector
+  equate BC2    1.19@Entrance2014  # tip of stal
+  equate BC3    1.21@Entrance2014  # tip of stal
+  equate BC4    1.291@Entrance2014  # 1" drill mark above passage at head height, facing up passage  Sounds like WS65 but in wrong place!!!!
+  equate BC5    1.33@Entrance2014      # highest tip of obvious stal-coated boulder in chamber below aven
+  equate BC6    1.42@Entrance2014  # 1" dill hole in Southern (RH) side wall 
+  equate BC7    1.50@Entrance2014  # In side wall close to floor, 5mm drill hole, yellow plug, ss screw, plastic reflector
 
-	#Experimental - Close loops
-	#equate B6@MCGPaper	1.20@ByPassPassage  #(Lavatory trap)
+  #Experimental - Close loops
+  #equate B6@MCGPaper  1.20@ByPassPassage  #(Lavatory trap)
 
-	input Entrance_s1r.th2
-	input Entrance_s2.th2
-	input Entrance_s3.th2    # Shale Rift
-	join UF_s2 UF_s1
-	#join wall_Es3_1 wall_Es2_1
-	#join wall_Es3_2 wall_Es2_2
-	input MidnightChamber.th2
+  input Entrance_s1r.th2
+  input Entrance_s2.th2
+  input Entrance_s3.th2    # Shale Rift
+  join UF_s2 UF_s1
+  #join wall_Es3_1 wall_Es2_1
+  #join wall_Es3_2 wall_Es2_2
+  input MidnightChamber.th2
 
-	map Entrance_map
-		UF_s1
-		UF_s2
-		UF_s3
-	endmap     
-	
-	map EntranceDisto_map
-		BypassPassageM@BypassPassage
-		break
-		MidnightPassageM@MidnightPassage
-		LavatoryTrapM@LavatoryTrap
-	endmap
-	
-	map  ShaleRift_map
-		UF_s3	
-	endmap
+  map Entrance_map
+    UF_s1
+    UF_s2
+    UF_s3
+  endmap     
+  
+  map EntranceDisto_map
+    BypassPassageM@BypassPassage
+    break
+    MidnightPassageM@MidnightPassage
+    LavatoryTrapM@LavatoryTrap
+  endmap
+  
+  map  ShaleRift_map
+    UF_s3  
+  endmap
 
 endsurvey
+

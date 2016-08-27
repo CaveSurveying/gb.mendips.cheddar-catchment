@@ -80,7 +80,8 @@ input Toothache/Toothache.th
 input Totty/Totty.th
 input TyningsGS/TyningsGS.th
 input TyningsBarrow/TyningsBarrow.th
-input UpperFlood/UpperFlood.th
+#input UpperFlood/UpperFlood.th
+input UF/UpperFlood.th
 input Waterwheel/Waterwheel.th
 input WhitebeamArea/WhitebeamArea.th
 #input White_Spot/White_Spot.th

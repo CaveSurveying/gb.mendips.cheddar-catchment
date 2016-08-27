@@ -4,7 +4,7 @@ survey Legend -title "Legend"
    centreline
 
 #     cs EPSG:27700 
-     #cs OSGB:SN
+     cs OSGB:ST
   
      fix   L  350800 155600 230    # 100m LH point
      fix   R  350900 155600 230    # 100m RH point
@@ -12,3 +12,4 @@ survey Legend -title "Legend"
    
    endcentreline
 endsurvey
+
