@@ -5,7 +5,7 @@ survey Entrance -title "Entrance"
     walls on
 #  cs EPSG:27700 
      cs OSGB:ST
-  fix LIMEKILN 350590.00  155693.50  249.11  2  2  0.2  
+  fix LIMEKILN 50590.00  55693.50  249.11  2  2  0.2  
                 # StD derived by BJC as follows: 6"-to-mile map (15cm to 1600m), 
                 # assumed map measurement precision ~0.2 mm = 0.3/150 x 1600m = 2m 
                 # (but this assumes no intrinsic printing error in map, which will not be the case)

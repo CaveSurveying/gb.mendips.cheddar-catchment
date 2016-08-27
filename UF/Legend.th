@@ -6,9 +6,9 @@ survey Legend -title "Legend"
 #     cs EPSG:27700 
      cs OSGB:ST
   
-     fix   L  350800 155600 230    # 100m LH point
-     fix   R  350900 155600 230    # 100m RH point
-     fix   N  350900 155610 230   # North Arrow
+     fix   L  50800 55600 230    # 100m LH point
+     fix   R  50900 55600 230    # 100m RH point
+     fix   N  50900 55610 230   # North Arrow
    
    endcentreline
 endsurvey
