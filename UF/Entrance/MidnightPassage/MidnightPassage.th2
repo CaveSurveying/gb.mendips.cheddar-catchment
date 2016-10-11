@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -100.48031496 38.771653542 1289.0 2814.45669291
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -100.48031496 38.771653542 1291.0 2814.45669291
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {752.037322835 1 1.0} {1409.16055118 1.4} ../PocketTopo/MidnightPassage_p.xvi 0 {}
 
 
@@ -52,8 +52,6 @@ line border -id l27-826-1033 -close on -reverse on
   865.0 987.0 815.0 1028.0 826.0 1035.0
 endline
 
-point 589.0 2207.0 label -text "Low crawl" -scale xs
-
 point 414.0 2104.0 stalagmites
 
 line border -id l23-513-2090 -close on
@@ -84,26 +82,31 @@ endline
 line border
   816.0 1017.5
   811.0 1009.5 789.0 992.5 831.0 993.0
+  smooth off
 endline
 
 line border
   880.5 889.5
   877.5 879.0 884.0 849.0 902.0 842.0
+  smooth off
 endline
 
 line border
   769.5 831.0
   778.0 831.0 796.5 827.5 785.0 808.0
+  smooth off
 endline
 
 line border
   785.0 842.5
   800.0 842.5 820.5 841.5 801.5 813.0
+  smooth off
 endline
 
 line border
   685.5 993.0
   719.0 1005.0 715.5 988.0 701.5 965.0
+  smooth off
 endline
 
 line rock-border
@@ -266,23 +269,27 @@ endline
 line rock-border
   947.5 2221.0
   944.5 2141.5 1004.44 2221.66 1003.5 2231.5
+  smooth off
 endline
 
 line rock-border
   883.0 2235.5
   877.5 2252.0 883.0 2272.5 894.5 2278.5
   906.0 2284.5 925.0 2291.0 933.5 2289.5
+  smooth off
 endline
 
 line rock-border
   892.0 2179.0
   910.5 2146.0 892.0 2142.0 880.0 2142.5
   873.21 2142.78 856.31 2144.26 853.0 2157.5
+  smooth off
 endline
 
 line ceiling-step -reverse on
   794.5 2263.0
   804.0 2246.5 834.5 2142.5 832.5 2117.5
+  smooth off
 endline
 
 point 836.657322835 2176.39055118 station -name 1.7

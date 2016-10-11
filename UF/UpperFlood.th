@@ -15,8 +15,6 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
     author 2007.01.23 "Ben Cooper"
     copyright 2010 "Mendip Caving Group"
     
-    #cs EPSG:27700
-   
     # Join Golden Chamber survey to the Entrance survey:-     
     #equate RA2@CC.GoldenChamber        RA2@MCGPaper.Entrance
     equate RA2@CC.GoldenChamber        1.13a@LavatoryTrap.Entrance # Approximately
@@ -215,8 +213,7 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
    endmap
    
    map UF_m1
-       Entrance_map@Entrance
-       EntranceDisto_map@Entrance
+       EntranceM@Entrance
        GoldenChamber_map@GoldenChamber
        BoulderChoke_m1
        Neverland_m1@Neverland
@@ -231,7 +228,9 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
        UF_m2
        break
        BoulderChoke_m0
-     MalcolmsWay_map@MalcolmsWay
+       MalcolmsWay_map@MalcolmsWay
+       TerminalM@Terminal
+       Terminal2M@Terminal2
        #break
        #Survey_m1
        #Centreline_m1
@@ -312,9 +311,8 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
    # This is done within Layout using "surface on"  This is why only one surface can be defined.  
    survey Geo_Surface
      surface 
-#       cs EPSG:27700 
-       #cs OSGB:SN
-       #bitmap "../../images/6in BGS map Blkmoor.jpg" [236 177 350000 155000 801.5 732.7 351000 156000]
+       input cs_include.th
+       bitmap "./1.Images (inputs)/6in BGS map Blkmoor.jpg" [236 177 350000 155000 801.5 732.7 351000 156000]
          #NOTES:-
          # size 436.034mm x 337.346mm (1648 x 1275) pixels
          # Grid 1 62.5mm x 46.827 mm (236, 177)pixels E(350)000,N(155)000

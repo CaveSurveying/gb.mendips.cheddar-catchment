@@ -3,9 +3,9 @@ survey Entrance -title "Entrance"
 
   centreline     
     walls on
-#  cs EPSG:27700 
-     cs OSGB:ST
-  fix LIMEKILN 50590.00  55693.50  249.11  2  2  0.2  
+    input ../cs_include.th 
+    # UF Entrance is fixed using a surface survey from LIMEKILN 
+    fix LIMEKILN 50590.00  55693.50  249.11  2  2  0.2  
                 # StD derived by BJC as follows: 6"-to-mile map (15cm to 1600m), 
                 # assumed map measurement precision ~0.2 mm = 0.3/150 x 1600m = 2m 
                 # (but this assumes no intrinsic printing error in map, which will not be the case)
@@ -31,9 +31,13 @@ survey Entrance -title "Entrance"
   
   endcentreline
 
-  input Entrance_MCGPaper.th
-  equate Entrance@MCGPaper  ENTRANCE
-  #Hang old paper survey of Shale Rift onto new DistoX survey
+  # MCGPaper has two issues: 
+  #  1. no clino data.  So trying to close loops to it is not advised.
+  #  2. Already set to grid North, so cs setting tends to rotate it by 0.5-degress.
+  # OK to include it hanging off ENTRANCE, but don't tie it in anywhere else as it will result in false distortions.
+  input MCGPaper/Entrance_MCGPaper.th
+  equate Entrance@MCGPaper  ENTRANCE    
+  #Hang old paper survey of Shale Rift onto new DistoX survey.  Note that BS20 is otherwise disconnected from MCGPaper.  
   equate BS0@MCGPaper    E12    # Approximately true.  
   
   input Entrance_MYR2007.th
@@ -44,7 +48,8 @@ survey Entrance -title "Entrance"
   equate 2@TK1986      3@MYR2007
   #equate 13@TK1986    R6@MCGPaper
 
-  input MidnightChamber.th
+  # No other survey hangs off MidnightChamber, so OK to hang it off MCGPaper.
+  input MidnightChamber/MidnightChamber.th
   equate 1@MidnightChamber M2@MCGPaper 
 
   input WillieStanton/WillieStanton.th
@@ -61,8 +66,7 @@ survey Entrance -title "Entrance"
   equate WS50    50@FS.WS  # drillmark 1.5m up on base of big stal column
   equate WS60    60@FS.WS  # Smoked broken stal in roof just before downstep of 0.6m
   equate WS65    65@FS.WS  # Drillmark in middle of roof in niche facing up passage, in stal <= NOT WHERE I THINK IT IS
-  
-  
+    
   input EntranceDisto2011.th
   equate 0.0@Disto2011  WS24
   #equate 0.5@Disto2011  WS28
@@ -104,28 +108,35 @@ survey Entrance -title "Entrance"
   #Experimental - Close loops
   #equate B6@MCGPaper  1.20@ByPassPassage  #(Lavatory trap)
 
-  input Entrance_s1r.th2
-  input Entrance_s2.th2
-  input Entrance_s3.th2    # Shale Rift
+  input MCGPaper/Entrance_s1r.th2
+  input MCGPaper/Entrance_s2b.th2
+  input MCGPaper/Entrance_s3.th2    # Shale Rift
   join UF_s2 UF_s1
   #join wall_Es3_1 wall_Es2_1
   #join wall_Es3_2 wall_Es2_2
-  input MidnightChamber.th2
+  
+  input MidnightChamber/MidnightChamber.th2
 
-  map Entrance_map
+  map EntranceM
+    MCGPaperM
+    EntranceDistoM
+    ShaleRiftM
+  endmap
+  
+  map MCGPaperM
     UF_s1
     UF_s2
-    UF_s3
+    #UF_s3  
   endmap     
   
-  map EntranceDisto_map
+  map EntranceDistoM
     BypassPassageM@BypassPassage
     break
     MidnightPassageM@MidnightPassage
     LavatoryTrapM@LavatoryTrap
   endmap
   
-  map  ShaleRift_map
+  map ShaleRiftM
     UF_s3  
   endmap
 

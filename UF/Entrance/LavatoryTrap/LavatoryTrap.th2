@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -75.538395691 -41.18897637 1597.78443896 1947.0944882
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -75.538395691 -41.18897637 1597.78443896 2084.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {652.12191927 1 1.0} {1543.17330709 1.4} ../PocketTopo/LavatoryTrap_p.xvi 0 {}
 
 
@@ -155,6 +155,19 @@ line border -id l39-692-792
   687.82 736.93 700.0 738.0 748.0 761.0
   smooth off
 endline
+
+line arrow -head end
+  1130.0 1334.0
+  956.0 1570.0
+endline
+
+point 1318.0 1032.0 label -text "Lavatory<br>Trap" -scale s
+
+point 446.0 714.0 label -text "The Canal" -scale m -align l
+
+point 684.0 326.0 label -text "Puddle Lake" -scale s -align l
+
+point 72.0 1346.0 label -text "Sludge Junction" -scale s -align l
 
 line border -id l63-156-1525 -reverse on
   137.0 1547.0

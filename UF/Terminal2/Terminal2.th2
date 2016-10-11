@@ -1,30 +1,111 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -114.18 -367.7 685.09 2206.2
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {421.514336551 1 1.0} {1952.27559055 12} PocketTopo/Terminal2_p.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {85.724336551 1 1.0} {249.07559055 24} PocketTopo/Terminal2_p.xvi 0 {}
 
 
-scrap Terminal2SP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap Terminal2SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  239.0 411.0
+  224.0 422.0 188.0 473.0 190.0 483.0
+  192.0 493.0 203.0 486.0 214.0 505.0
+  225.0 524.0 217.0 546.0 234.0 575.0
+  251.0 604.0 283.0 670.0 283.0 675.0
+  283.0 680.0 271.0 911.0 271.0 938.0
+  271.0 965.0 283.0 1232.0 288.0 1249.0
+  293.0 1266.0 315.0 1331.0 318.0 1356.0
+  321.0 1381.0 314.0 1499.0 317.0 1522.0
+  320.0 1545.0 342.0 1745.0 351.0 1764.0
+  360.0 1783.0 412.0 1824.0 422.0 1844.0
+  432.0 1864.0 470.0 1980.0 478.0 1998.0
+  486.0 2016.0 491.0 2028.0 477.0 2011.0
+  463.0 1994.0 439.0 1973.0 432.0 1969.0
+  425.0 1965.0 431.0 1986.0 432.0 2001.0
+  smooth off
+endline
+
+line wall
+  124.0 244.0
+  113.0 254.0 99.0 254.0 107.0 266.0
+  115.0 278.0 144.0 322.0 151.0 341.0
+  158.0 360.0 156.0 370.0 186.0 379.0
+  216.0 388.0 219.0 392.0 222.0 388.0
+  smooth off
+endline
+
+line wall
+  398.0 1998.0
+  398.0 1966.0 352.0 1894.0 342.0 1874.0
+  332.0 1854.0 314.0 1814.0 310.0 1778.0
+  306.0 1742.0 276.0 1554.0 274.0 1536.0
+  272.0 1518.0 200.0 1296.0 200.0 1268.0
+  200.0 1240.0 202.0 960.0 202.0 922.0
+  202.0 884.0 216.0 738.0 214.0 708.0
+  altitude .
+  212.0 678.0 234.0 616.0 146.0 584.0
+  126.02 576.73 116.0 534.0 120.0 518.0
+  124.0 502.0 132.0 464.0 132.0 440.0
+  132.0 416.0 140.0 384.0 134.0 368.0
+  128.0 352.0 120.0 326.0 116.0 317.0
+  112.0 308.0 60.0 283.0 78.0 190.0
+  81.55 171.66 93.0 237.0 93.0 237.0
+  smooth off
+  119.0 211.0
+endline
+
+point 119.154336551 217.08559055 station -name 25
+
+point 85.724336551 249.07559055 station -name 24
+
+point 143.214336551 328.10559055 station -name 23
+
+point 225.564336551 398.76559055 station -name 21
+
+point 165.234336551 450.97559055 station -name 22
+
+point 136.944336551 465.61559055 station -name 20
+
+point 162.904336551 516.64559055 station -name 19
+
+point 226.774336551 697.67559055 station -name 18
+
+point 235.674336551 933.42559055 station -name 17
+
+point 247.744336551 1252.60559055 station -name 16
+
+point 308.304336551 1522.59559055 station -name 15
+
+point 336.814336551 1768.56559055 station -name 14
+
+point 353.834336551 1883.73559055 station -name 13
+
+point 421.514336551 1952.27559055 station -name 12
 
 endscrap
 
 
-scrap Terminal2SP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap Terminal2SP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap Terminal2SP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap Terminal2SP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap Terminal2SPX15 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap Terminal2SPX15 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap Terminal2SPX14 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap Terminal2SPX14 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

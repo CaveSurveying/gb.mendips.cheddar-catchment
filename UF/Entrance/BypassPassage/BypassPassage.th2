@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 165.68609457 -11.818897637 4232.0 4055.70866142
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -421.0 -11.818897637 4240.0 2868.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {3179.28270874 1 1.0} {945.100787402 1.4} ../PocketTopo/BypassPassage_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {306.660314961 0 1.0} {1624.36228346 1.4} ../PocketTopo/LavatoryTrap_p.xvi 0 {}
 
@@ -16,7 +16,7 @@ point 1760.62270874 1476.7407874 station -name 1.14
 
 point 1891.65270874 1317.3307874 station -name 1.13
 
-point 2011.0 1170.0 stalagmites
+point 1991.0 1118.0 stalagmites
 
 point 2039.18270874 1236.6907874 station -name 1.12
 
@@ -260,13 +260,21 @@ endline
 line wall
 endline
 
-point 1922.0 1458.0 label -text "p3" -scale xs
+point 1200.0 2720.0 label -text "By-Pass<br><centre>Passage" -scale m -align l
 
-point 2265.0 1044.0 label -orientation 24.9 -text "Flat out crawl" -scale xs
+line arrow -head end
+  2108.0 1800.0
+  1740.0 1724.0 1874.0 1584.0 1913.0 1465.0
+  smooth off
+endline
 
-point 1833.0 1217.0 rope
+point 2212.0 1864.0 label -text "Hannah's<br>Grotto" -scale s -align right
 
-point 3081.0 1057.0 label -orientation 14.1 -text "Flat out crawl" -scale xs
+point 2264.0 948.0 label -text "Low" -scale xs -align left
+
+point 1945.0 1511.0 label -text "P3" -scale xs -align right
+
+point 1817.0 1193.0 rope
 
 line ceiling-step
   3268.0 848.0

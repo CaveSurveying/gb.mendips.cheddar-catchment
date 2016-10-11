@@ -23,7 +23,7 @@ layout l_atlas	#
 	scale-bar 50 m
 	#statistics topo-length on # per surveyor lengths
 	#statistics topo off # turns off list of surveyors
-	map-comment "Copyright Mendip Caving Group 2007"
+	map-comment "Copyright Mendip Caving Group 2016"
 	#legend on         # turns on the symbol legend
     	#legend-width 10 cm # printed size, based on scale
 	grid bottom

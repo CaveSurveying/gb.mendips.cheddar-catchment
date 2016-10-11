@@ -21,20 +21,8 @@ point 19939.71 7209.66 station -name 6@Leg2
 
 point 20033.48 7284.34 station -name 7@Leg2
 
-line wall -close on -subtype unsurveyed
-  19698.0 6479.0
-  19781.0 6724.0
-  19698.0 6479.0
-endline
-
-line wall -subtype unsurveyed
-  19771.0 6735.0
-  19687.0 6482.0
-endline
-
 line wall
-  19781.0 6724.0
-  19791.0 6743.0 19828.0 6865.5 19832.5 6874.0
+  19832.5 6874.0
   19837.0 6882.5 19850.0 6921.5 19854.0 6931.5
   19858.0 6941.5 19886.5 7042.5 19890.5 7054.5
   19894.5 7066.5 19898.0 7076.0 19910.5 7091.0
@@ -48,11 +36,11 @@ line wall
 endline
 
 line arrow -head end
-  19654.0 6790.0
-  19756.0 6770.0
+  19450.0 6741.0
+  19780.0 6884.0
 endline
 
-point 19634.0 6794.0 label -text "Terminal 1" -scale s -align l
+point 19427.0 6741.0 label -text "Terminal 1" -scale s -align l
 
 line wall
   20022.0 7296.0
@@ -61,9 +49,7 @@ line wall
   19928.0 7151.0 19893.0 7105.0 19883.0 7079.0
   19873.0 7053.0 19838.0 6955.0 19832.0 6940.0
   19826.0 6925.0 19803.0 6888.5 19806.0 6884.0
-  19817.91 6866.13 19776.0 6748.0 19771.0 6735.0
   smooth off
-  altitude .
 endline
 
 point 19683.0 6464.0 water-flow -orientation 200.9

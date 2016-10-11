@@ -12,7 +12,7 @@ layout l2500	# 1:2500 Map
         symbol-colour point entrance [100 0 0]
 	map-header 0 5 off  # turns on the map header positioned at (0,0)
 	scale-bar 100 m
-	map-comment "Copyright Mendip Caving Group 2013"
+	map-comment "Copyright Mendip Caving Group 2016"
 	grid off # bottom
 	grid-size 100 100 100 m # x,y,z
 	#debug on

@@ -20,7 +20,7 @@ survey Leg2 # From Terminal Rift to Walk The Plank
       extend left
       
       data normal from to length compass clino left right up down
-      1 1a  0.1  20  35  .2  .2  3  0  # 1 LRUD estimate
+      1 1a  0.01  20  35  .2  .2  3  0  # 1 LRUD estimate
       # 2 1  8.00  200  -35  0.8  0.4  2.9  2.2  # 2
       1a 2  7.99  20  35  0.8  0.4  2.9  2.2  # 2 REVERSED
       station 2 "MW2 painted on RH side of flake of rock in middle of passage" continuation explored 10 attr print "true" attr Code "fixed" attr Name "MW2" attr LR "left"

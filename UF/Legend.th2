@@ -19,7 +19,7 @@ point 9508.0 9410.0 label -scale m -align r -text "ST 50570 55766 237.8"
 
 point 9508.0 9284.0 label -scale m -align r -text "(Spot heights in metres AOD)"
 
-point 9508.0 9156.0 label -scale m -align r -text "Copyright 2012 Mendip Caving Group"
+point 9508.0 9156.0 label -scale m -align r -text "Copyright 2016 Mendip Caving Group"
 
 point 9508.0 9040.0 label -scale s -align r -text "This work is licensed under the Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England & Wales Licence."
 

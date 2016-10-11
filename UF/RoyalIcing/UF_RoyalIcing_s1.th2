@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 134.0 252.13 1082.0 2170.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust 12.0 252.13 1078.0 2165.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {359.808 1 1.0} {380.13 1.0@HiddenPassage.RoyalIcing} xvi/RoyalIcing.xvi 0 {}
 ##XTHERION## xth_me_image_insert {361.023622047 1 1.0} {382.377952756 1.0} DistoX/RoyalIcing/UF_RoyalIcing_20090710.therion_p5.xvi 0 {}
 
@@ -220,7 +220,6 @@ point 320.0 1178.0 water-flow -orientation 128.4 -subtype intermittent
 
 line wall -id wall_RIs1_SW
   359.75 1145.75
-  altitude .
   362.78 1138.49 383.5 1118.25 390.0 1114.75
   396.5 1111.25 421.0 1100.5 419.5 1082.75
   418.74 1073.79 420.0 1042.0 441.5 1046.0
@@ -281,11 +280,12 @@ point 362.168 1144.5 station -name 43@Pony
 point 450.0 1058.0 dig -scale m
 
 line arrow -head end
-  300.0 936.0
-  416.0 1046.0
+  142.0 1022.0
+  142.0 1022.0 375.0 1019.0 408.0 1048.0
+  smooth off
 endline
 
-point 271.0 911.5 label -text "Brian's Eye" -scale s -align l
+point 118.0 1021.5 label -text "Brian's Eye" -scale s -align l
 
 endscrap
 

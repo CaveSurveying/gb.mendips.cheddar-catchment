@@ -14,13 +14,14 @@ point 254.723 398.62 station -name 38@Pony
 point 353.343 634.65 station -name 30@Pony
 
 line arrow
-  336.0 748.5
-  354.5 688.5
+  141.0 765.5
+  199.5 768.5 353.0 739.0 354.5 688.5
+  smooth off
 endline
 
-point 216.5 709.0 label -text "05/07/2008" -scale xs -align l
+point 74.5 707.0 label -text "05/07/2008" -scale xs -align l
 
-point 333.5 768.0 label -text "Birthday Surprise" -scale s -align l
+point 126.0 765.0 label -text "Birthday Surprise" -scale s -align l
 
 line wall -subtype unsurveyed
   233.5 428.5
