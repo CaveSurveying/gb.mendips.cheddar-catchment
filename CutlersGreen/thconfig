@@ -1,4 +1,137 @@
 encoding  utf-8
 source CutlersGreen.th
 
-export model -o CutlersGreen.3d
+export model -o CutlersGreenth.3d
+
+
+export map -proj [elevation 90] -layout elevation90 -o CutlersGreenE90.pdf
+export map -proj [elevation 180] -layout elevation180 -o CutlersGreenE180.pdf
+export map -layout plan -o CutlersGreen.pdf
+
+select MainHoleME180@MainHole.CutlersGreen
+select MinorHolesME180@MinorHoles.CutlersGreen -map-level 1
+select MainHoleM@MainHole.CutlersGreen
+select MinorHolesM@MinorHoles.CutlersGreen  -map-level 1
+select MainHoleME90@MainHole.CutlersGreen
+select MinorHolesME90@MinorHoles.CutlersGreen  -map-level 1
+
+
+
+layout plan
+  copy local
+  grid off
+  colour map-bg transparent
+  map-header 100 100 off
+  #map-image 100 100 sw CutlersGreenE180.pdf
+ # map-image 100 100 se CutlersGreenE90.pdf
+  rotate 270
+  overlap 4 mm
+  code tex-map
+  legend-width 9.2 cm
+  \def\maplayout{
+    \legendbox{100}{100}{SE}{\loadpicture{/media/Data/Andrew/Caving/Surveys/CheddarCatchment/CutlersGreen/CutlersGreenE90.pdf}}
+    \legendbox{100}{100}{SW}{\loadpicture{/media/Data/Andrew/Caving/Surveys/CheddarCatchment/CutlersGreen/CutlersGreenE180.pdf}}
+    \legendbox{100}{0}{SE}{
+                  \hsize=3.4cm
+                                                    \northarrow
+                                                    \comment={Grid North}
+                                                    \the\comment
+    } 
+    \legendbox{98}{98}{NE}{\scalebar}
+    \legendbox{102}{98}{NW}{
+              \hsize=\legendwidth
+              \size[36]\the\cavename
+              \smallskip
+              \comment={Location: ST 59782 52154}
+              \size[12]\the\comment
+              \qquad
+              \comment={Altitude: 137m OD Source MCRA}
+              \the\comment
+              \vskip.7cm
+              \size[16]\the\cavelengthtitle: \the\cavelength\qquad
+              \the\cavedepthtitle: \the\cavedepth
+              \vskip.4cm
+              \size[12]\the\topotitle\smallskip
+              \the\topoteam\space
+              \the\topodate
+              \medskip
+              \comment={Drawn, using Therion, by Andrew Atkinson}
+              \size[12]\the\comment
+              \medskip
+              \comment={Scale 1:250}
+              \the\comment
+              \qquad
+              \comment={Grade UISv1 6-4-BEF}
+              \the\comment
+              \medskip
+              \comment={Survey available at}
+              \size[12]\the\comment
+              \smallskip
+              \comment={http://cave-registry.org.uk/cheddarcatchment}
+              \the\comment
+              \medskip
+              \comment={Data available at}
+              \the\comment
+              \smallskip
+              \comment={http://cave-registry.org.uk/svn/CheddarCatchment}
+              \the\comment
+              \bigskip
+              \comment={Copyright 2016 CC BY NC SA}
+              \size[14]\the\comment
+              }
+    }
+  endcode
+endlayout
+
+layout elevation90
+  copy local
+  legend-width 4 cm
+  code tex-map
+    \def\maplayout{
+        \legendbox{75}{10}{S}{
+              \hsize=\legendwidth
+              \comment={View towards 90$^{^{\circ}}$}
+              \the\comment
+              \smallskip
+              \comment={(From bottom, on plan)}
+              \the\comment
+              }
+    }
+  endcode
+endlayout
+
+layout elevation180
+  copy local
+  grid-coords off
+  legend-width 4 cm
+  code tex-map
+    \def\maplayout{
+        \legendbox{75}{10}{S}{
+              \hsize=\legendwidth
+              \comment={View towards 180$^{^{\circ}}$}
+              \the\comment
+              \smallskip
+              \comment={(From right, on plan)}
+              \the\comment
+              
+         }
+    }
+  endcode
+endlayout
+
+layout local
+  copy common
+  scale 1 250
+  grid-size 20 20 10 m
+  debug off
+  map-header 0 0 off
+  map-header-bg off
+  symbol-hide group cave-centreline
+  colour map-fg map
+  colour map-bg [50 0 0]
+  scale-bar 20 m
+  overlap 0 mm
+
+endlayout
+
+input ../common_layout.th

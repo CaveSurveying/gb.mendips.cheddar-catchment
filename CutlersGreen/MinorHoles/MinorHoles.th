@@ -2,17 +2,140 @@ encoding  utf-8
 survey MinorHoles
 
 input MinorHoles.th2
+input MinorHolesE90.th2
+input MinorHolesE180.th2
 
 map MinorHolesM
+  MinorHolesMP6
+  MinorHolesMP7
+  MinorHolesMP8
+  MinorHolesMP3
+  MinorHolesMP2
+  MinorHolesMP5
+  MinorHolesMP1
+  MinorHolesMP4
+endmap
+
+map MinorHolesMP1
   MinorHolesSP1
+endmap
+
+map MinorHolesMP2
   MinorHolesSP2
+endmap
+
+
+map MinorHolesMP3
   MinorHolesSP3
+endmap
+
+map MinorHolesMP4
   MinorHolesSP4
+endmap
+
+map MinorHolesMP5
   MinorHolesSP5
+endmap
+
+map MinorHolesMP6
   MinorHolesSP6
+endmap
+
+map MinorHolesMP7
   MinorHolesSP7
+endmap
+
+map MinorHolesMP8
   MinorHolesSP8
-  MinorHolesSP9
+endmap
+
+
+map MinorHolesME90
+  MinorHolesME90_6
+  MinorHolesME90_7
+  MinorHolesME90_8
+  MinorHolesME90_3
+  MinorHolesME90_2
+  MinorHolesME90_5
+  MinorHolesME90_1
+  MinorHolesME90_4
+endmap
+
+map MinorHolesME90_1
+  MinorHolesSE90_1
+endmap
+
+map MinorHolesME90_2
+  MinorHolesSE90_2
+endmap
+
+
+map MinorHolesME90_3
+  MinorHolesSE90_3
+endmap
+
+map MinorHolesME90_4
+  MinorHolesSE90_4
+endmap
+
+map MinorHolesME90_5
+  MinorHolesSE90_5
+endmap
+
+map MinorHolesME90_6
+  MinorHolesSE90_6
+endmap
+
+map MinorHolesME90_7
+  MinorHolesSE90_7
+endmap
+
+map MinorHolesME90_8
+  MinorHolesSE90_8
+endmap
+
+map MinorHolesME180
+  MinorHolesME180_6
+  MinorHolesME180_7
+  MinorHolesME180_8
+  MinorHolesME180_3
+  MinorHolesME180_2
+  MinorHolesME180_5
+  MinorHolesME180_1
+  MinorHolesME180_4
+endmap
+
+map MinorHolesME180_1
+  MinorHolesSE180_1
+endmap
+
+map MinorHolesME180_2
+  MinorHolesSE180_2
+endmap
+
+
+map MinorHolesME180_3
+  MinorHolesSE180_3
+endmap
+
+map MinorHolesME180_4
+  MinorHolesSE180_4
+endmap
+
+map MinorHolesME180_5
+  MinorHolesSE180_5
+endmap
+
+map MinorHolesME180_6
+  MinorHolesSE180_6
+endmap
+
+map MinorHolesME180_7
+  MinorHolesSE180_7
+endmap
+
+map MinorHolesME180_8
+  MinorHolesSE180_8
 endmap
 
 centreline
@@ -27,10 +150,10 @@ copyright 2016 "CC BY SA NC"
   date 2016.06.07
 
   team "Andrew Atkinson" notes
-  team "John Williams" instruments
-  team "Chris Smith" dog
+  team "James Begley" instruments
 
-  instrument  instruments "Distox2-ubss2-2412"
+
+  instrument  instruments "DistoX2-2409-UBSS4"
 
 data normal from to tape compass clino ignoreall
   extend right

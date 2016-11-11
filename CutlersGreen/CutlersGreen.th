@@ -1,8 +1,23 @@
 encoding  utf-8
-survey CutlersGreen
+survey CutlersGreen -title "Cutler's Green"
 
 input MinorHoles/MinorHoles.th
 input MainHole/MainHole.th
+
+map CutlersGreenM
+  MainHoleM@MainHole
+  MinorHolesM@MinorHoles
+endmap
+
+map CutlersGreenME90
+  MainHoleME90@MainHole
+  MinorHolesME90@MinorHoles
+endmap
+
+map CutlersGreenME180
+  MainHoleME180@MainHole
+  MinorHolesME180@MinorHoles
+endmap
 
 equate 1.0@MinorHoles 0@MainHole
 

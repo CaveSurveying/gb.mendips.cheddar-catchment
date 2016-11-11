@@ -6,12 +6,14 @@ source MinorHoles.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o MinorHoles.pdf
+export map -proj plan -layout local -o MinorHoles.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o MinorHolesEe.pdf
 
-#export map -proj [elevation 0] -layout local -o MinorHolesE0.pdf
+export map -proj [elevation 0] -layout local -o MinorHolesE0.pdf
+export map -proj [elevation 90] -layout local -o MinorHolesE90.pdf
+export map -proj [elevation 180] -layout local -o MinorHolesE180.pdf
 
 export model -fmt survex -o MinorHolesth.3d
 #Survex file showing centre line only

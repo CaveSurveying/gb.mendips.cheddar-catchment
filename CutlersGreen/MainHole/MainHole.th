@@ -2,13 +2,28 @@ encoding  utf-8
 survey MainHole
 
 input MainHole.th2
+input MainHoleE90.th2
+input MainHoleE180.th2
 
 map MainHoleM
   MainHoleSP1
+ break
   MainHoleSP2
   MainHoleSP3
   MainHoleSP4
   MainHoleSP5
+endmap
+
+map MainHoleME90
+  MainHoleSE90_1
+ break
+  MainHoleSE90_2
+ break
+  MainHoleSE90_3
+endmap
+
+map MainHoleME180
+  MainHoleSE180_1
 endmap
 
 centreline
@@ -23,10 +38,9 @@ copyright 2016 "CC BY SA NC"
   date 2016.06.07
 
   team "Andrew Atkinson" notes
-  team "John Williams" instruments
-  team "Chris Smith" dog
+  team "James Begley" instruments
 
-  instrument  instruments "Distox2-ubss2-2412"
+  instrument  instruments "DistoX2-2409-UBSS4"
 
 data normal from to tape compass clino ignoreall
   extend right
