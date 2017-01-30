@@ -41,10 +41,10 @@ layout plan
               \hsize=\legendwidth
               \size[36]\the\cavename
               \smallskip
-              \comment={Location: ST 59782 52154}
+              \comment={Location: ST 59783 52168}
               \size[12]\the\comment
               \qquad
-              \comment={Altitude: 137m OD Source MCRA}
+              \comment={Altitude: 168m OD}
               \the\comment
               \vskip.7cm
               \size[16]\the\cavelengthtitle: \the\cavelength\qquad
