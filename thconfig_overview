@@ -7,33 +7,36 @@ source CheddarCatchment.th
 #unselect Surface.Charterhouse
 
 #Cave overview
-#select TyningsGSM@TyningsGS.CheddarCatchment
+select TyningsGSM@TyningsGS.CheddarCatchment
 #select Charterhouse_exclude_2010M@Charterhouse.CheddarCatchment
+select ReservoirM@Reservoir.CheddarCatchment
+select GoughsM@Goughs.CheddarCatchment
+select GoughsOldM@GoughsOld.CheddarCatchment
+select CharterhouseM@Charterhouse.CheddarCatchment
+select LongHoleM@LongHole.CheddarCatchment
+select WhiteSpotM@WhiteSpot.CheddarCatchment
+
 #select 2010M@Charterhouse.CheddarCatchment
 
-
-
-
-
-#select GBM@GB.CheddarCatchment
+select GBM@GB.CheddarCatchment
 #select New_Charter_displaceM@Charterhouse.CheddarCatchment
-#select ReadsGrottoM@ReadsGrotto.CheddarCatchment
+select ReadsGrottoM@ReadsGrotto.CheddarCatchment
 
 
 #Needed for dated overview
-select TyningsGSM@TyningsGS.CheddarCatchment
-select CrickmayM@Crickmay.GB.CheddarCatchment
-select LadderExtensionM@GB.CheddarCatchment
+#select TyningsGSM@TyningsGS.CheddarCatchment
+#select CrickmayM@Crickmay.GB.CheddarCatchment
+#select LadderExtensionM@GB.CheddarCatchment
 
-select 2011M@Charterhouse.CheddarCatchment
-select 2010M@Charterhouse.CheddarCatchment
-select 2009M@2009.CharterhouseCheddarCatchment
-select lowerM@lower.Charterhouse.CheddarCatchment
-select OldCaveM@OldCave.Charterhouse.CheddarCatchment
-select ReadsGrottoM@ReadsGrotto.CheddarCatchment
-select cornersM@corners.CheddarCatchment
+#select 2011M@Charterhouse.CheddarCatchment
+#select 2010M@Charterhouse.CheddarCatchment
+#select 2009M@2009.CharterhouseCheddarCatchment
+#select lowerM@lower.Charterhouse.CheddarCatchment
+#select OldCaveM@OldCave.Charterhouse.CheddarCatchment
+#select ReadsGrottoM@ReadsGrotto.CheddarCatchment
+#select cornersM@corners.CheddarCatchment
 
-select Longwood@Longwood.CheddarCatchment
+#select Longwood@Longwood.CheddarCatchment
 
 
 
@@ -92,7 +95,7 @@ scale 1 10000
 
 #rotate 270
 symbol-hide group all
-#symbol-show line wall
+symbol-show line wall
 
 #symbol-hide group sections
 #symbol-hide line section

@@ -45,7 +45,7 @@ input GreatOones/GreatOones/GreatOones.th
 
 #input Great_Oones/Great_Oones.th
 #input "Great Swallet/Great_Swallet.th" 
-input Largesurface/Largesurface.th
+#input Largesurface/Largesurface.th
 
 #input Long_Hole/Long_Hole.th
 input LongHole/LongHole.th
@@ -73,7 +73,7 @@ input SayesHole/Sayes/Sayes.th
 input SparryFissure/SparryFissure.th
 input Spider/Spider.th
 input SunHole/SunHole.th
-#input Surface/Surface.th
+input Surface/Surface.th
 input Hangover/Hangover.th
 input Timber/Timber.th
 input Toothache/Toothache.th
@@ -81,7 +81,7 @@ input Totty/Totty.th
 input TyningsGS/TyningsGS.th
 input TyningsBarrow/TyningsBarrow.th
 #input UpperFlood/UpperFlood.th
-input UF/UpperFlood.th
+#input UF/UpperFlood.th
 input Waterwheel/Waterwheel.th
 input WhitebeamArea/WhitebeamArea.th
 #input White_Spot/White_Spot.th

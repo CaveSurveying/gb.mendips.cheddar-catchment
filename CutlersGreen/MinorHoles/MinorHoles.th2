@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.33333333333334 -136.33333333333334 1857.5669291363001 2209.1389852875
+##XTHERION## xth_me_area_adjust -136.33333333333334 -136.33333333333334 1856.5433070863 2206.5039370075
 ##XTHERION## xth_me_area_zoom_to 48
-##XTHERION## xth_me_image_insert {281.01448819000007 1 1.0} {1101.84805076 11} PocketTopo/MinorHoles_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {279.99086614 1 1.0} {1099.21300248 11} PocketTopo/MinorHoles_p.xvi 0 {}
 
 
 
@@ -66,6 +66,8 @@ line wall
   smooth off
 endline
 
+point 1483.3333333333335 1083.3333333333335 label -text "No. 5" -align bottom
+
 line wall -close on -subtype pit
   1559.32448819 1167.91805076
   1580.0 1164.0 1580.0 1128.0 1610.0 1138.0
@@ -89,6 +91,8 @@ endscrap
 
 
 scrap MinorHolesSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 1300.0 1358.3333333333335 label -text "No. 6" -align bottom
 
 line wall -close on -subtype pit
   1322.53448819 1445.79805076
@@ -148,6 +152,8 @@ line wall -subtype pit -outline none
   smooth off
 endline
 
+point 1002.0833333333334 1395.8333333333335 label -text "No. 3" -align bottom
+
 line wall -subtype pit
   1045.0 1621.0
   1035.0 1628.0 1019.0 1622.0 1012.0 1628.0
@@ -188,6 +194,8 @@ line pit
   1074.0 430.0 1052.0 438.0 1022.0 428.0
   smooth off
 endline
+
+point 1093.75 564.5833333333334 label -text "No. 4" -align top
 
 line wall -close on -subtype pit
   1112.0 432.0
@@ -233,6 +241,8 @@ line wall
   smooth off
 endline
 
+point 691.6666666666667 1010.4166666666667 label -text "No. 1" -align right
+
 line wall -subtype pit
   440.0 1072.0
   436.0 1048.0 432.88 1039.37 446.0 1030.0
@@ -269,6 +279,8 @@ point 188.62448818999997 1049.31805076 station -name 10
 
 line wall -subtype pit
 endline
+
+point 145.83333333333334 1335.4166666666667 label -text "No. 7" -align top
 
 line wall -close on -subtype pit
   188.62448818999997 1049.31805076
@@ -321,6 +333,8 @@ line wall -subtype pit -outline none
   378.0 1418.0 371.0 1420.0 353.0 1412.0
   smooth off
 endline
+
+point 481.25000000000006 1435.4166666666667 label -text "No. 2" -align bottom-right
 
 line wall -subtype pit
   353.0 1412.0

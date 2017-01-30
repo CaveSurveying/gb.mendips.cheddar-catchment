@@ -9,8 +9,8 @@ map MainHoleM
   MainHoleSP1
  break
   MainHoleSP2
-  MainHoleSP3
-  MainHoleSP4
+  #MainHoleSP3
+  #MainHoleSP4
   MainHoleSP5
 endmap
 
