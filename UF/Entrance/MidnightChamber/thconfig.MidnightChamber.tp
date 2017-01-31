@@ -1,0 +1,12 @@
+encoding  utf-8
+source ../MidnightChamber.th
+
+layout l1
+ 	scale 1 165 
+endlayout
+ 
+
+export model -format survex -o MidnightChamber.3d
+export map -projection plan -o MidnightChamber.pdf
+export map -projection plan -format xvi -layout l1 -o MidnightChamber.xvi
+#export atlas -projection plan -o MidnightChamber.pdf

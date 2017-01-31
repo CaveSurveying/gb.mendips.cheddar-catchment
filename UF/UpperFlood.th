@@ -312,7 +312,7 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
    survey Geo_Surface
      surface 
        input cs_include.th
-       bitmap "./1.Images (inputs)/6in BGS map Blkmoor.jpg" [236 177 350000 155000 801.5 732.7 351000 156000]
+       bitmap "./1.Images (inputs)/6in BGS map Blkmoor.jpg" [236 177 50000 55000 801.5 732.7 51000 56000]
          #NOTES:-
          # size 436.034mm x 337.346mm (1648 x 1275) pixels
          # Grid 1 62.5mm x 46.827 mm (236, 177)pixels E(350)000,N(155)000

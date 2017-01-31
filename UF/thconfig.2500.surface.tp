@@ -4,7 +4,7 @@ source UpperFlood
 
 layout l2500	# 1:2500 Map
 	scale 1 10000
-	surface top        # turns on or off surface bit-map
+	surface bottom        # turns on or off surface bit-map
 #       colour map-fg altitude
    	colour preview-below [100 0 100]   # greyscale or x y z colour
 #  	colour preview-above [100 0 100]   # greyscale or x y z colour
