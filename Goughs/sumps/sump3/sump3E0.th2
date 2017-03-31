@@ -1,13 +1,13 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 4093.0 1585.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {374.01 1 1.0} {1437.01 0_00} sump3E0.xvi 0 {}
 
 
 
 scrap sump3SE01 -projection [elevation 0] -scale [-128.0 -128.0 4439.015 -128.0 0.0 0.0 116.002181 0.0 m]
 
-point 1693.0 235.0 label -text [Elevation of Sheppard's Crook - Sump 2 - projected on 000 degrees] -scale m
+point 1693.0 235.0 label -text [Elevation of Sheppard's Crook - Sump 3 - projected on 000 degrees] -scale m
 
 area sump
   l18-819-1205
