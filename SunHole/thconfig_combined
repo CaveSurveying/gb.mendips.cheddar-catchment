@@ -5,16 +5,11 @@ source SunHole.th
 
 #Surveys to output
 #-----------------
-#Plan has to be produced first for combined to work
+#Elevation has to be produced first for combined to work
+
+export map -proj [elevation 45] -layout local -o SunHoleE45.pdf
 
 export map -proj plan -layout plan -o SunHole.pdf
-#Produces plan of cave, on a single sheet
-
-export map -proj [elevation 45] -layout elev -o SunHoleE45.pdf
-
-#Plan and elevation on same sheet
-export map -proj [elevation 45] -layout combined -o SunHole_combined.pdf
-
 
 #export model -fmt survex -o SunHoleth.3d
 #Survex file showing centre line only
@@ -22,81 +17,57 @@ export map -proj [elevation 45] -layout combined -o SunHole_combined.pdf
 #export model -o SunHole.lox
 #3d therion model to be viewed in the therion viewer
 
-layout elev
-copy local
-#colour map-bg transparent
-
-endlayout
-
-layout combined
-copy local
-map-image -2 100 sw SunHole.pdf
-map-header 100 -5 ne
-map-comment "Drawn, using Therion, by Andrew Atkinson and Graham Mullan.<br>\
-Surveyed by Andrew Atkinson and Alison Moody<br>\
-Grade UISv1 6-4-BEF<br>\
-Copyright 2013 CC BY NC SA <br>\
- <br>\
-Heights in metres AOD"
-
-endlayout
-
 layout plan
 copy local
+
+map-header 200 -20 ne
+map-image 150 -10 sw SunHoleE45.pdf
+
+
+map-comment "Cheddar Gorge, Somerset<br>\
+<br>\
+Length 24.52 m Depth 11.42 m<br>\
+Drawn, using Therion, by Andrew Atkinson and Graham Mullan.<br>\
+Surveyed by Andrew Atkinson and Alison Moody<br>\
+Grade UISv1 6-4-EF<br>\
+Copyright 2017 CC BY NC SA.<br>\
+Heights in metres AOD"
+
+scale-bar 10 metres
+
+colour-legend off
+
 code tex-map
-  \def\maplayout{
-    \legendbox{5}{90}{SW}{\northarrow}
-  }
-endcode
+  \cavename={\size [30] Sun Hole} 
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse
+    
+endcode    
+
 endlayout
 
 layout local
 copy common
-debug off
-map-header 0 0 off
-#colour map-fg map
-colour-legend off
+doc-title "Sun Hole"
+#rotate -90
+grid-size 10 10 5 m
+
+#base-scale 1 500
+scale 1 150
+
+symbol-hide point remark
 symbol-hide group centreline
-#grid-size 100 100 20 m
 
+#grid off
 
-#A1 (for combined)
-scale 1 50
-base-scale 1 250
+map-header 0 0 off
+map-header-bg on
 
-code tex-map
-  \cavename={\size[30] Sun Hole}
-   # \cavelength={} %empty
-   #\cavedepth={}  %empty
-   \legendtextsize={\size[16]}
-    \colorlegendfalse
-    \topodate={}  %empty
-
-
-	
-
-code metapost
-
-#####################################
-#Text sizes
-#xs: features such as sumps
-#s: point names such as rocks
-#m: normal names
-#l: major names
-#xl: Area/cave names
-#####################################
-
-  #base 1:750 scale 1:2750 (A3 charterhouse,GB)
-  #fonts_setup(8,16,24,40,60)
-
-  #scale 1:1000 (A0 width charterhouse,GB)
-  #fonts_setup(7,10,14,20,30)
-
-  #base 1:500 scale 1:2750 
-  #fonts_setup(8,20,26,40,60)
-
-endcode
+statistics explo off
+statistics topo off
 
 endlayout
 
+#get the master layout settings
 input ../common_layout.th

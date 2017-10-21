@@ -87,7 +87,7 @@ point 252.165 166.775 station -name 1
 
 point 389.075 137.795 station -name 0
 
-point 98.5 79.0 label -align r -text "elevation projected on 045 degrees" -scale xs
+point 98.0 118.5 label -align r -text "elevation projected on 045 degrees" -scale m
 
 endscrap
 
