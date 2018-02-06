@@ -305,7 +305,7 @@ input WetWitch/WetWitch.th
 equate 1.1@BatRoom 1.0@Entrance
 equate 7.0@BeddingChamber 1.23@Tableaux
 equate 1.0@Blackcat 1.0@CastleHairyRing 1.17@Tableaux
-equate 3.13@BoulderChamber 6.21@Improbable
+equate 3.13@BoulderChamber 6.21@Improbable2
 equate 3.0@BoulderChamber 2.25@SandChamber
 equate 3.2@BoulderChamber 9.21@FarRift
 equate 3.3@BoulderChamber 2.6@SandChamber
@@ -315,7 +315,7 @@ equate 3.29@BoulderChamber 2.11@SandChamber
 equate 1.24@Blackcat 2.0@SandChamber
 equate 1.27@Blackcat 2.16@SandChamber 1.0@SandCrawl
 equate 1.27@Blackcat 1.12@NathansAttic
-equate 1.31@Blackcat 1.31@CastleHairyRing 6.17@KingsSolomons
+equate 1.31@Blackcat 1.3@CastleHairyRing 6.17@KingsSolomons
 equate 1.0@Damocles1 2.16@SandChamber
 equate 1.22@Damocles1 1.22@Damocles2
 equate 1.25@Damocles2 1.25@Damocles3
