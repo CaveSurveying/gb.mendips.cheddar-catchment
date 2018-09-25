@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -255.15 -209.29 1530.9 1255.75
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {163.401574803 1 1.0} {928.976377953 1.0} PocketTopo/Terminal3_p.xvi 0 {}
+
+
+scrap Terminal3SP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

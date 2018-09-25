@@ -1,0 +1,27 @@
+encoding  utf-8
+source Terminal3.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout local -o Terminal3.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o Terminal3Ee.pdf
+
+export model -fmt survex -o Terminal3th.3d
+#Survex file showing centre line only
+
+#export model -o Terminal3.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Terminal3_Walls.3d
+#Survex file showing walls only
+
+layout local
+debug off
+map-header 0 0 ne
+#symbol-hide group cave-centreline
+endlayout
