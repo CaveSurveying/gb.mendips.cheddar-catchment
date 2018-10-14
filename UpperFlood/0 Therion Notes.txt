@@ -1,2 +1,0 @@
-Preview above prints map outline with no internal details or labels
-Preview below prints map outline with infill colout with no details or labels

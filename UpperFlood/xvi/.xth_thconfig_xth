@@ -1,7 +1,0 @@
-set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 6 {} 0 RoyalIcing RoyalIcing "Royal Icing Passage" "Royal Icing Passage" "length: 195.83m (surface 0.00m, duplicated 0.00m)\nvertical range: 21.50m (from C6@RoyalIcing at 20.80m to C28@RoyalIcing at -0.71m)\nnorth-south range: 143.02m (from d0@RoyalIcing at 0.00m to C29@RoyalIcing at -143.02m)\neast-west range: 25.33m (from d0@RoyalIcing at 0.00m to C15@RoyalIcing at -25.33m)\nnumber of shots: 36\nnumber of stations: 37"
-xth_cp_data_tree_create
-set xth(ctrl,cp,maplist) {}
-xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
-xth_cp_map_tree_create
-xth_cp_comp_stat 196 0

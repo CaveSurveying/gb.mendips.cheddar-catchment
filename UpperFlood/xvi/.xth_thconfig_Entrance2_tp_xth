@@ -1,8 +1,0 @@
-set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 148.33m (surface 0.00m, duplicated 0.00m)\nvertical range: 25.12m (from 1@Entrance2 at 0.00m to 31@Entrance2 at -25.12m)\nnorth-south range: 57.55m (from 1@Entrance2 at 0.00m to 31@Entrance2 at -57.55m)\neast-west range: 102.28m (from 31@Entrance2 at 102.28m to 1@Entrance2 at 0.00m)\nnumber of shots: 31\nnumber of stations: 32"
-xth_cp_data_tree_insert 9 1 1 Entrance2 Entrance2 "Upper Flood" "Upper Flood" "length: 148.33m (surface 0.00m, duplicated 0.00m)\nvertical range: 25.12m (from 1@Entrance2 at 0.00m to 31@Entrance2 at -25.12m)\nnorth-south range: 57.55m (from 1@Entrance2 at 0.00m to 31@Entrance2 at -57.55m)\neast-west range: 102.28m (from 31@Entrance2 at 102.28m to 1@Entrance2 at 0.00m)\nnumber of shots: 31\nnumber of stations: 32"
-xth_cp_data_tree_create
-set xth(ctrl,cp,maplist) {}
-xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
-xth_cp_map_tree_create
-xth_cp_comp_stat 148 0
