@@ -1,13 +1,14 @@
 encoding  utf-8
 language en_UK
 source BoneHole.th
-select BoneHoleMap@BoneHole
-select HappyNewYearM@BoneHole
-select LadderPitchM@BoneHole
-select PerforationChokeM@BoneHole
-##select HappyNewYearME278@HappyNewYear.BoneHole
-##select BoneHoleMapE278@BoneHole
-##select BoneDigMapE278@BoneHole
+
+#select BoneHoleMap@BoneHole
+#select HappyNewYearM@BoneHole
+#select LadderPitchM@BoneHole
+#select PerforationChokeM@BoneHole
+select HappyNewYearME278@HappyNewYear.BoneHole
+select BoneHoleMapE278@BoneHole
+select BoneDigMapE278@BoneHole
 #unselect BH_PerforationChoke.BoneHole
 #select 01_BoneSlope2015.BoneHole
 #select 02_LadderPitch.BoneHole
@@ -24,7 +25,6 @@ layout lcommon
 	scale-bar 10 m
         color map-fg map #50  
  	scale 1 200
- 	map-header 0 100 nw
 endlayout 
 
 layout lelevation
@@ -32,6 +32,7 @@ layout lelevation
 	scale-bar 10 m
         color map-fg map #50  
  	scale 1 200
+ 	map-header 0 100 nw
 endlayout 
 export model -format survex -o Maps/BoneHole.3d
 export model -format loch -o Maps/BoneHole.lox

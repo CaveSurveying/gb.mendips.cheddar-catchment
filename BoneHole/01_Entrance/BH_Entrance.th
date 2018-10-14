@@ -3,7 +3,6 @@ encoding  utf-8
 survey BH_Entrance -title "Entrance"
 
 centreline
-cs OSGB:ST
   station 1.3 "Bone Hole" entrance
   units clino compass degree
   units length meter
@@ -12,7 +11,8 @@ cs OSGB:ST
   instrument length  "Ben's DistoX, Dell Axim PDA"
 
   walls auto
-  fix 1.3 48050 54720 185 #ST 4805 5472 185
+  # include ../cs_include.th
+  # fix 1.3 48050 54720 185 #ST 4805 5472 185 (from MCRA description, entrance is at opening of fissue, station 1.0, not at cave entrance 1.3)
 
   sd compass 1 degree
   sd clino 0.5 degree

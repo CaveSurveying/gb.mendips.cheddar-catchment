@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -269.5 -164.53 1617.02 987.17
+##XTHERION## xth_me_area_adjust -71.9885277648 -124.476157525 1624.0 1048.0
 ##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {142.746021314 1 1.0} {667.830094005 5.0} PocketTopo/00_SurfaceRift2015_E278.xvi 0 {}
 
@@ -17,6 +17,7 @@ line wall
   1106.0 660.0 1110.0 806.0 1092.0 804.0
   1074.0 802.0 1060.0 776.0 1054.0 790.0
   1048.0 804.0 1054.0 906.0 1028.0 902.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -29,6 +30,7 @@ line wall -reverse on
   348.0 550.0 279.98 565.34 270.0 572.0
   198.0 620.0 86.0 600.0 86.0 600.0
   smooth off
+  altitude .
 endline
 
 line wall
@@ -45,6 +47,7 @@ line pit -reverse on
   898.0 806.0 884.0 788.0 866.0 782.0
   848.0 776.0 322.0 720.0 308.0 720.0
   190.95 720.0 282.0 668.0 182.0 606.0
+  smooth off
 endline
 
 line pit -outline out
