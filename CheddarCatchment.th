@@ -73,15 +73,14 @@ input SayesHole/Sayes/Sayes.th
 input SparryFissure/SparryFissure.th
 input Spider/Spider.th
 input SunHole/SunHole.th
-input Surface/Surface.th
+# input Surface/Surface.th  # Surfaace directory has disappeared...
 input Hangover/Hangover.th
 input Timber/Timber.th
 input Toothache/Toothache.th
 input Totty/Totty.th
 input TyningsGS/TyningsGS.th
 input TyningsBarrow/TyningsBarrow.th
-#input UpperFlood/UpperFlood.th
-#input UF/UpperFlood.th
+input UpperFlood/UpperFlood.th
 input Waterwheel/Waterwheel.th
 input WhitebeamArea/WhitebeamArea.th
 #input White_Spot/White_Spot.th
