@@ -103,7 +103,7 @@ layout l500	# 1:500 Map
 endlayout
  
 select Map_m500@UpperFlood
-#export map -projection plan -layout l500 -o 0.Maps/UF_500.pdf 
+export map -projection plan -layout l500 -o 0.Maps/UF_500.pdf 
 #export map -projection plan -layout l500 -fmt svg -o 0.Maps/UF_500.svg 
 export model -o UF.3d
 
