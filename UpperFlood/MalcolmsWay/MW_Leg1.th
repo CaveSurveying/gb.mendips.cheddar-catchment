@@ -1,6 +1,10 @@
 encoding  utf-8
   survey Leg1  # From Boulder Choke to Walk The Plank
     centerline    
+      explo-date 2006.09.10
+      explo-team "Tim Francis"
+      explo-team "Julie Hesketh"
+
       date 2007.05.06
       team "Ben Cooper"    instruments  # Instruments
       team "Mike Richardson"  notes    # Note taker
