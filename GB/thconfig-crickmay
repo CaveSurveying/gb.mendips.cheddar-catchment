@@ -11,7 +11,7 @@ export map -proj plan -layout mendip -o Crickmay.pdf
 
 #export map -proj plan -fmt kml -layout mendip -o Crickmay.kml
 
-#export model -fmt survex -o Crickmayth.3d
+export model -fmt survex -o Crickmayth.3d
 #Survex file showing centre line only
 
 #export model -fmt therion -o Crickmay.thm

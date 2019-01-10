@@ -8,6 +8,10 @@ source Reservoir.th
 #-----------------
 
 #select FrozenDeepSplaysM@Reservoir
+
+
+
+
 #export map -proj plan -layout local -o TFD.svg
 #export map -proj plan -layout local -o TFD.pdf
 
@@ -17,7 +21,7 @@ export map -proj plan -layout local -o Reservoir.pdf
 
 export map -proj [elevation 90] -layout local -o ReservoirE90.pdf
 
-select Reservoir
+select Reservoir -map-level 2
 export model -fmt survex -o Reservoirth.3d
 #Survex file showing centre line only
 
@@ -40,7 +44,10 @@ symbol-hide group all
 symbol-show group cave-centreline
 symbol-show line wall
 grid off
-color map-fg [0 100 0]
+color map-fg altitude
 endlayout
+
+
+  
 
 input ../common_layout.th

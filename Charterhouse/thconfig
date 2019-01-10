@@ -1,32 +1,13 @@
 encoding  utf-8
 
 source Charterhouse.th
-# Change name to the main therion file
 
-#select CharterhouseM@Charterhouse
-
-#select 2008.charter
-
-
-#select 2011aM@Charterhouse
-#select 2011bM@Charterhouse
-
-
-#select 2010.Charterhouse
-#select 2010b.Charterhouse
-#select OldCave.Charterhouse
-
-#select 2011M@Charterhouse
-#select 2009M@2009.Charterhouse
-#select 100FathomM@100Fathom.2008.Charterhouse
-#select TimeLineM@TimeLine.2008.Charterhouse
-#select PortalPoolM@PortalPool.2009.Charterhouse
 
 
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o Charterhouse.pdf
+export map -proj plan -layout local -o Charterhouse.pdf
 #Produces plan of cave, on a single sheet
 
 export model -fmt survex -o Charterhouseth.3d
@@ -48,6 +29,7 @@ debug off
 map-header 0 0 off
 base-scale 1 500
 scale 1 1000
+colour map-fg map
 endlayout
 
 input ../common_layout.th

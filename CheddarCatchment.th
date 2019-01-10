@@ -1,5 +1,5 @@
 encoding  utf-8
-survey CheddarCatchment -title "Gough'sCave,<br>Reservoir Hole<br>and<br>White Spot Cave" 
+survey CheddarCatchment -title "Cheddar Catchment"
 
 map CheddarMinorM -title "Other Caves"
   EntranceM@Entrance.BakeHole
@@ -19,6 +19,7 @@ endmap
 #to process this the correct 3d files are needed 
 #in the correct directories
 input Attborough/Attborough.th
+input Bagpit/Bagpit.th
 input BakeHole/BakeHole.th
 input Blackmoor/Blackmoor.th
 input BlackrockRift/BlackrockRift.th
