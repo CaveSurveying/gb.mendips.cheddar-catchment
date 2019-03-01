@@ -4,6 +4,9 @@ survey Bagpit
 input "Bagpit plan.th2"
 input "Bagpit ee.th2"
 
+input "SlabChamber/bagpit2_2.th"
+
+equate 43 1@bagpit2_2
 
   centreline
   cs OSGB:ST
