@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -265.0 -442.0 1526.4339 758.8824
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {24.79992126 1 1.0} {239.846377953 1.0} PocketTopo/awol1_2_p.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {24.79992126000002 1 1.0} {239.846377953 1.0} PocketTopo/awol1_2_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {492.922 1 1.0} {394.657 1.18@AwolAven} 0.Maps/AwolAven.xvi 0 {}
 
 
@@ -50,6 +50,11 @@ line border -id l14-174-129 -close on
   -1.0 237.5 94.0 117.0 135.0 87.0
   176.0 57.0 238.5 15.5 246.5 32.0
   254.5 48.5 162.14 139.41 155.0 147.5
+endline
+
+line arrow -head end
+  458.0 -25.5
+  463.5 66.5
 endline
 
 line arrow -head end

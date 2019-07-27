@@ -31,14 +31,21 @@ survey Neverland
     equate N_D4.0	4.0@FunnelChamber	
     mark N_D4.0 natural	# Tip of Small Stalagmite on wall near ceiling, above curtain climb
     station N_D4.0 "Tip of Small Stalagmite on wall near ceiling, above Curtain Climb" attr print "true" attr Code "fixed" attr Name "N-D4.0"
-    equate N_D4.0	5.3@RopeTraverse
+    equate N_D4.0	5.3@CurtainClimb
     
-    equate N_D5.0	5.0@RopeTraverse
+    equate N_D5.0	5.0@CurtainClimb
     mark N_D5.0 fixed	# 5mm hole in RH wall
     station N_D5.0 "5mm hole in RH wall" attr print "true" attr Code "fixed" attr Name "N-D5.0"
     
-    equate 1.20@RopeTraverse	1.20@LowerFunnel
+    equate N_D5.1	5.1@CurtainClimb
+    mark N_D5.0 fixed	# 5mm hole in RH wall
+    station N_D5.0 "5mm hole on protrusion, reflector" attr print "true" attr Code "fixed" attr Name "N-D5.0"
+
+    equate 1.20@CurtainClimb	1.20@LowerFunnel
     
+    equate 5.1@RopeTraverse	5.1@CurtainClimb
+    equate 5.2@RopeTraverse	5.2@CurtainClimb
+
     equate N_D1.0	1.0@LowerFunnel
 
     equate N41        N41@NeverlandCC 
@@ -47,6 +54,9 @@ survey Neverland
     #close possible loops between two surveys
     #equate N12@NeverlandCC    3.16@NeverlandDisto
     #equate N15@NeverlandCC    3.21@NeverlandDisto
+    
+    # Bend Pony NeverlandRopeClimb to fit new Disto Rope Climb
+    equate 18@NeverlandRopeClimb 7.241@RopeTraverse
   endcentreline
   
   input NeverlandDisto.th
@@ -59,7 +69,10 @@ survey Neverland
   input FunnelChamber/FunnelChamber.th
   join NeverlandDisto_s1 FunnelChamberSP1@FunnelChamber
 
-  input CurtainClimb/RopeTraverse.th
+  input CurtainClimb/CurtainClimb.th
+
+  input RopeTraverse/RopeTraverse.th
+  join RopeTraverseSP1@RopeTraverse CurtainClimbSP1@CurtainClimb
 
   input LowerFunnel/LowerFunnel.th 
 
@@ -76,9 +89,10 @@ survey Neverland
   join NeverlandRopeClimb_s1 Neverland_s1
 
    map Neverland_m1
+   	RopeTraverseM@RopeTraverse
    	NeverlandM
    	FunnelChamberM@FunnelChamber
-   	RopeTraverseM@RopeTraverse
+   	CurtainClimbM@CurtainClimb
    	LowerFunnelM@LowerFunnel [40 -47.67 ] below
    endmap
    

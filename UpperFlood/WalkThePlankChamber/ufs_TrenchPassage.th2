@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -267.38 -449.368 1484.68 1401.117
+##XTHERION## xth_me_area_adjust -132.0 -435.0 2272.0769999999998 2857.81
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {490.537 1 1.0} {958.16 MW51-stal@MW.WalkThePlankChamber} 0.Maps/TrenchPassage.xvi 0 {}
+##XTHERION## xth_me_image_insert {1206.481 1 1.0} {2207.96 MW50@MW.WalkThePlankChamber} 0.Maps/TrenchPassage.xvi 0 {}
 
 
 
@@ -76,6 +76,9 @@ point 457.0 446.0 water-flow -orientation 103.4 -subtype intermittent -scale l -
 
 point 374.0 444.0 label -text "Trench Rising" -scale s -align l
 
+area water
+endarea
+
 point 531.0 289.0 label -text "Trench Passage" -scale m -align l
 
 line chimney -close on
@@ -87,6 +90,7 @@ endline
 line section -reverse on -direction both
   676.0 74.0
   741.0 113.0 938.0 228.0 990.0 262.0
+  smooth off
 endline
 
 point 647.0 72.0 label -text "08/12/2007" -scale xs -align l

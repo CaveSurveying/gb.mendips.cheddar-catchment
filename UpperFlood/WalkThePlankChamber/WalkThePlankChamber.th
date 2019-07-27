@@ -4,12 +4,12 @@ survey WalkThePlankChamber
   # Define fixed points
   #####################
   centreline
-    mark FIXED-MW51-wall fixed
+	mark FIXED-MW51-wall fixed
 	mark PAINTED-MW54-wall painted
 	mark 0.11@PlankGrotto_DistoX painted
-    station FIXED-MW51-wall "MW51 5mm hole, brass screw, reflector, 70cm from painted stal tip MW51" attr print "true" attr Code "fixed" attr Name "MW51"
-    station PAINTED-MW54-wall "MW54 Painted on South Wall close to ceiling" attr print "true" attr Code "fixed" attr Name "MW54" attr LR "left"
-    station 0.11@PlankGrotto_DistoX "T5 Painted on South Wall close to floor" attr print "true" attr Code "fixed" attr Name "T5"
+	station FIXED-MW51-wall "MW51 5mm hole, brass screw, reflector, 70cm from painted stal tip MW51" attr print "true" attr Code "fixed" attr Name "MW51"
+	station PAINTED-MW54-wall "MW54 Painted on South Wall close to ceiling" attr print "true" attr Code "fixed" attr Name "MW54" attr LR "left"
+	station 0.11@PlankGrotto_DistoX "T5 Painted on South Wall close to floor" attr print "true" attr Code "fixed" attr Name "T5"
     
 	station MW55@MW "Calcited passage" dig continuation attr name "WTP Inlet" attr dig "dig" attr LR "left"
 	station 2b@TrenchPassage_Pony "11m Aven" continuation continuation attr aven "11" attr name "WTP2" attr LR "left"
@@ -25,10 +25,20 @@ survey WalkThePlankChamber
   equate MW51@MW          PAINTED-MW51-stal
   equate MW54@MW          PAINTED-MW54-wall
   
+  input PlankInlet/PlankInlet.th
+  equate 1.0@PlankInlet MW54@MW 
+  join PlankInletSP1@PlankInlet Trench1SP1@Trench1
+  
   input ufs_PlankGrotto_DistoX.th
   equate MW51-wall@PlankGrotto_DistoX  FIXED-MW51-wall
   equate MW51-stal@PlankGrotto_DistoX  PAINTED-MW51-stal
   equate 0.2@PlankGrotto_DistoX    MW52@MW
+  
+  input Trench1/Trench1.th
+  equate 1.0@Trench1 0.3@PlankGrotto_DistoX
+  
+  input ShakeNVac/ShakeNVac.th
+  equate 1.19@ShakeNVac  1.19@Trench1
   
   input ufs_TrenchPassage_Pony.th
   equate MW54@TrenchPassage_Pony    PAINTED-MW54-wall
@@ -37,6 +47,7 @@ survey WalkThePlankChamber
   
   input ufs_ThievesChamber_Pony.th
   equate D1@ThievesChamber_Pony    9@TrenchPassage_Pony   
+  
 
   # Import the scraps 
   ####################
@@ -49,8 +60,19 @@ survey WalkThePlankChamber
   # Create the maps
   ###########################
   map WalkThePlankChamber_m1
+    preview below WTP_m1
+    WTP_m2
+    Trench1M@Trench1
+    ShakeNVacM@ShakeNVac
+  endmap
+  
+  map WTP_m1
     PlankChamber_s1
-    TrenchPassage_s1
+    #TrenchPassage_s1
+  endmap
+
+  map WTP_m2
+  	PlankInletM@PlankInlet
   endmap
 
 endsurvey

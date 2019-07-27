@@ -2,7 +2,7 @@ encoding  utf-8
 source Neverland.th
 
 layout lmap
-        color map-fg 75  
+        color map-fg scrap  
  	scale 1 200 
  	
  	symbol-colour area water [0 0 100]

@@ -1,12 +1,12 @@
-survey RopeTraverse
+survey CurtainClimb
 
 input CurtainClimbInlet.th2
-input RopeTraverse.th2
+input CurtainClimb.th2
 #input RopeTraverseEe.th2
 
-map RopeTraverseM
+map CurtainClimbM
 	CurtainClimbInletSP1
-	RopeTraverseSP1
+	CurtainClimbSP1
 endmap
 
 #map RopeTraverseME

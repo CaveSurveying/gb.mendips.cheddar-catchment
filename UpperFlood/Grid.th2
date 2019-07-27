@@ -1,71 +1,72 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -200 -179.75 387.453773 466.183973
-##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {28.74 1 1.0} {304.33 Grid_05_08} xvi/Grid.xvi 0 {}
+##XTHERION## xth_me_area_adjust 360.13559322033893 -39.864406779661024 1138.1694915254238 936.4745762711864
+##XTHERION## xth_me_area_zoom_to 59
 
 
 
-scrap Grid_s1 -projection plan -scale [-128.0 -128.0 342.960746 -128.0 0.0 0.0 11.9624029484 0.0 m]
+scrap Grid_s1 -projection plan -scale [500.0 100.0 1100.0 900.0 500 100 1100 900 m]
 
-point 28.74 304.33 station -name Grid_05_08@Grid
+point 500.0 800.0 station -name Grid_Y_58@Grid
 
-point 28.74 265.0 station -name Grid_05_07@Grid
+point 500.0 700.0 station -name Grid_Y_57@Grid
 
-point 28.74 226.0 station -name Grid_05_06@Grid
+point 500.0 600.0 station -name Grid_Y_56@Grid
 
-point 28.74 186.0 station -name Grid_05_05@Grid
+point 500.0 500.0 station -name Grid_Y_55@Grid
 
-point 28.74 147.0 station -name Grid_05_04@Grid
+point 500.0 400.0 station -name Grid_Y_54@Grid
 
-point 28.74 107.5 station -name Grid_05_03@Grid
+point 500.0 300.0 station -name Grid_Y_53@Grid
 
-point 28.74 67.5 station -name Grid_05_02@Grid
+point 500.0 200.0 station -name Grid_Y_52@Grid
 
-point 28.74 28.74 station -name Grid_05_01@Grid
+point 500.0 100.0 station -name Grid_Origin@Grid
 
-point 68.11 28.74 station -name Grid_06_01@Grid
+point 600.0 100.0 station -name Grid_X_06@Grid
 
-point 107.48 28.74 station -name Grid_07_01@Grid
+point 700.0 100.0 station -name Grid_X_07@Grid
 
-point 146.85 28.74 station -name Grid_08_01@Grid
+point 800.05 100.0 station -name Grid_X_08@Grid
 
-point 225.6 28.74 station -name Grid_10_01@Grid
+point 900.0 100.0 station -name Grid_X_09@Grid
 
-point 186.22 28.74 station -name Grid_09_01@Grid
+point 1000.0 100.0 station -name Grid_X_10@Grid
 
 # Northings
 
-point 24.0 304.25 label -text "55800" -scale m
 
-point 24.0 265.0 label -text "55700" -scale m
+point 490.0 800.0 label -text "55800" -scale m -align l
 
-point 24.0 226.0 label -text "55600" -scale m
+point 490.0 700.0 label -text "55700" -scale m -align l
 
-point 24.0 186.0 label -text "55500" -scale m
+point 490.0 600.0 label -text "55600" -scale m -align l
 
-point 24.0 147.0 label -text "55400" -scale m
+point 490.0 500.0 label -text "55500" -scale m -align l
 
-point 24.0 107.5 label -text "55300" -scale m
+point 490.0 400.0 label -text "55400" -scale m -align l
 
-point 24.0 67.5 label -text "55200" -scale m
+point 490.0 300.0 label -text "55300" -scale m -align l
 
-point 24.0 28.5 label -text "55100" -scale m
+point 490.0 200.0 label -text "55200" -scale m -align l
+
+point 490.0 100.0 label -text "55100" -scale m -align l
 
 #Eastings
 
-point 225.5 25.25 label -text "51000" -scale m
 
-point 186.5 25.0 label -text "50900" -scale m
+point 1000.0 90.0 label -text "51000" -scale m
 
-point 147.0 25.0 label -text "50800" -scale m
+point 900.0 90.0 label -text "50900" -scale m
 
-point 107.5 25.0 label -text "50700" -scale m
+point 800.0 90.0 label -text "50800" -scale m
 
-point 68.0 25.0 label -text "50600" -scale m
+point 700.0 90.0 label -text "50700" -scale m
 
-point 28.5 25.0 label -text "50500" -scale m
+point 600.0 90.0 label -text "50600" -scale m
 
-point 22.0 24.0 label -text "ST" -scale l
+point 500.0 90.0 label -text "50500" -scale m
+
+point 490.0 90.0 label -text "ST" -scale l -align l
 
 endscrap
 

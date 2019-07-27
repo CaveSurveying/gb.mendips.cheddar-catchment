@@ -1,12 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -89.0 -78.0 1111.88188976 1359.1023622
+##XTHERION## xth_me_area_adjust -132.0 -132.0 1072.8818897636 1309.1023622045
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {39.371259842 1 1.0} {582.207086614 1.20} ../PocketTopo/RopeTraverse_p1.xvi 0 {}
-##XTHERION## xth_me_image_insert {39.371259842 1 1.0} {582.207086614 1.20} ../PocketTopo/RopeTraverse_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {39.371259842000086 1 1.0} {582.207086614 1.20} ../PocketTopo/CurtainClimb_p.xvi 0 {}
 
 
 
-scrap RopeTraverseSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+scrap CurtainClimbSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 line contour
   763.0 476.0
@@ -33,8 +32,8 @@ endline
 
 line contour -reverse on
   678.5 369.5
-  681.0 387.5 696.94 400.15 704.721259842 395.827086614
-  712.5 391.5 801.0 360.0 801.0 360.0
+  681.0 387.5 695.82 395.31 704.721259842 395.827086614
+  725.0 397.0 749.0 370.0 797.0 371.0
   smooth off
 endline
 

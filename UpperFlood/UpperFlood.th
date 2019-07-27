@@ -86,12 +86,12 @@ survey UpperFlood -title "" # -title "Upper Flood Swallet"
    
    input WalkThePlankChamber/WalkThePlankChamber.th
    equate PAINTED-MW51-stal@WalkThePlankChamber        PAINTED-MW51-stal@MalcolmsWay
-   join MalcolmsWay_s1@MalcolmsWay PlankChamber_s1@WalkThePlankChamber
+   join MalcolmsWay_s1@MalcolmsWay Trench1SP1@Trench1.WalkThePlankChamber
   
    input WallStreet/WallStreet.th
    equate s22@WallStreet    22@Leg2.MalcolmsWay
 
-#   join WallStreet_s1  MalcolmsWay_s3@MalcolmsWay
+   join WallStreet_s1@WallStreet  MalcolmsWay_s3@MalcolmsWay
    
    input CharnelPassage/CharnelPassage.th
    #input CharnelPassage/CharnelPassage_CC.th2

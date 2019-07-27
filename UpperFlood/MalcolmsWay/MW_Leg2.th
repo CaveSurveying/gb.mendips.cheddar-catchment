@@ -110,6 +110,7 @@ survey Leg2 # From Terminal Rift to Walk The Plank
       extend left
       # 53 52  7.11  115  -24  5.6  0.9  7.0  0.2  # 53 Botton RH corner of boulder
       52 53  7.11  295  +24  5.6  0.9  7.0  0.2  # 53 REVERSED
+      flags duplicate # The following legs have been superseded by survey legs in WalkThePlankChamber.
       53 54  12.82  291  +36  0  3.5  0  1.5  # 54 Top of LH Wall
       station 54 "Plank Stream Inlet"
       mark 54 painted

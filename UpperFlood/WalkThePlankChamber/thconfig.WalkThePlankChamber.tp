@@ -10,11 +10,11 @@ layout l1
 endlayout
 
 export model -format survex -o 0.Maps/WalkThePlankChamber.3d
-export model -format loch -o 0.Maps/WalkThePlankChamber.lox
+#export model -format loch -o 0.Maps/WalkThePlankChamber.lox
 export map -projection plan -format pdf -layout l1 -o 0.Maps/WalkThePlankChamber_CL.pdf
-export map -projection extended -format pdf -layout l1 -o 0.Maps/WalkThePlankChamber_CLex.pdf
-export map -projection elevation -format pdf -layout l1 -o 0.Maps/WalkThePlankChamber_CLel.pdf
-export map -projection plan -format xvi -layout l1 -o 0.Maps/WalkThePlankChamber.xvi
+#export map -projection extended -format pdf -layout l1 -o 0.Maps/WalkThePlankChamber_CLex.pdf
+#export map -projection elevation -format pdf -layout l1 -o 0.Maps/WalkThePlankChamber_CLel.pdf
+#export map -projection plan -format xvi -layout l1 -o 0.Maps/WalkThePlankChamber.xvi
 # Trench Passage was originally drawn to 1:200
 layout l2
  	scale 1 200 

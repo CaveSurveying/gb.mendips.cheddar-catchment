@@ -1,0 +1,75 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -165.16535433099995 -393.5 593.0 992.0944881883
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {213.14503937000003 1 1.0} {131.57905511799999 1.22} PocketTopo/ShakeNVac_p.xvi 0 {}
+
+
+
+scrap ShakeNVacSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  258.0 124.0
+  272.0 123.0 293.0 116.0 296.0 124.0
+  299.0 132.0 292.0 204.0 296.0 208.0
+  300.0 212.0 329.0 213.0 330.0 236.0
+  331.0 259.0 333.0 295.0 353.0 323.0
+  373.0 351.0 411.0 385.0 426.0 396.0
+  441.0 407.0 476.0 417.0 458.0 430.0
+  440.0 443.0 396.0 443.5 392.0 457.5
+  388.0 471.5 359.0 556.0 356.0 564.0
+  353.0 572.0 278.5 598.0 278.5 598.0
+  smooth off
+endline
+
+line wall -subtype presumed
+  278.0 -0.5
+  278.0 -0.5 285.69 95.1 258.0 124.0
+  smooth off
+endline
+
+line pit
+  297.5 141.5
+  297.5 141.5 294.5 165.0 265.0 172.0
+  smooth off
+endline
+
+line ceiling-step
+  200.0 132.0
+  258.0 124.0
+endline
+
+point 244.5 -339.0 label -text "Shake 'n Vac" -scale s -align r
+
+point 242.0 -145.5 dig
+
+line wall -subtype presumed
+  200.0 132.0
+  198.0 -2.0
+  altitude .
+endline
+
+line wall
+  241.5 468.5
+  259.0 437.0 263.0 427.5 285.0 409.5
+  307.0 391.5 328.0 358.5 328.0 358.5
+  smooth off
+  328.0 358.5 280.0 334.0 262.0 306.0
+  244.0 278.0 275.0 227.0 275.0 220.0
+  275.0 213.0 265.0 172.0 265.0 172.0
+  smooth off
+  265.0 172.0 202.0 171.0 201.0 168.0
+  200.0 165.0 200.0 136.0 200.0 132.0
+  smooth off
+endline
+
+point 213.14503937000003 131.57905511799999 station -name 1.22
+
+point 289.51503937 126.60905511800001 station -name 1.21
+
+point 280.03503937000005 215.539055118 station -name 1.20
+
+point 389.68503937 457.559055118 station -name 1.19
+
+endscrap
+
+

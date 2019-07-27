@@ -7,31 +7,31 @@ encoding  utf-8
 
 scrap Outline_s1 -scale [5828.0 16700.0 6124.0 16700.0 0.0 0.0 296.0 0.0 m]
 
-point 12401.26 1803.97 station -name Grid_10_01@Grid
+point 12401.26 1803.97 station -name Grid_X_10@Grid
 
-point 10432.75 1803.97 station -name Grid_09_01@Grid -visibility off
+point 10432.75 1803.97 station -name Grid_X_09@Grid -visibility off
 
-point 8464.25 1803.97 station -name Grid_08_01@Grid -visibility off
+point 8464.25 1803.97 station -name Grid_X_08@Grid -visibility off
 
-point 6495.75 1803.97 station -name Grid_07_01@Grid -visibility off
+point 6495.75 1803.97 station -name Grid_X_07@Grid -visibility off
 
-point 4527.24 1803.97 station -name Grid_06_01@Grid -visibility off
+point 4527.24 1803.97 station -name Grid_X_06@Grid -visibility off
 
-point 2558.74 1803.97 station -name Grid_05_01@Grid -visibility off
+point 2558.74 1803.97 station -name Grid_Origin@Grid -visibility off
 
-point 2558.74 3772.47 station -name Grid_05_02@Grid -visibility off
+point 2558.74 3772.47 station -name Grid_Y_52@Grid -visibility off
 
-point 2558.74 5740.97 station -name Grid_05_03@Grid -visibility off
+point 2558.74 5740.97 station -name Grid_Y_53@Grid -visibility off
 
-point 2558.74 7709.48 station -name Grid_05_04@Grid -visibility off
+point 2558.74 7709.48 station -name Grid_Y_54@Grid -visibility off
 
-point 2558.74 9677.98 station -name Grid_05_05@Grid -visibility off
+point 2558.74 9677.98 station -name Grid_Y_55@Grid -visibility off
 
-point 2558.74 11646.49 station -name Grid_05_06@Grid -visibility off
+point 2558.74 11646.49 station -name Grid_Y_56@Grid -visibility off
 
-point 2558.74 13614.99 station -name Grid_05_07@Grid -visibility off
+point 2558.74 13614.99 station -name Grid_Y_57@Grid -visibility off
 
-point 2558.74 15583.49 station -name Grid_05_08@Grid
+point 2558.74 15583.49 station -name Grid_Y_58@Grid
 
 point 3965.04 15063.61 station -name ENTRANCE@Entrance -visibility off
 

@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 1597.0 -594.469 3833.4381 1832.8547
+##XTHERION## xth_me_area_adjust -132.0 -594.4590000000001 3833.4381000000003 1832.8646999999999
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {2011.33 1 1.0} {1323.081 START@BeyondZebraAven} 0.Maps/BeyondZebraAven_165.xvi 0 {}
+##XTHERION## xth_me_image_insert {1981.74 1 1.0} {1403.021 20@BZA_Pony.BeyondZebraAven} 0.Maps/BeyondZebraAven_165.xvi 0 {}
 
 
 
@@ -78,15 +78,15 @@ line rock-edge
 endline
 
 line arrow -head end
-  3277.0 891.0
+  3157.0 1013.0
   3110.0 843.0
 endline
 
-point 3323.0 821.0 rope-ladder
+point 3204.0 976.0 rope-ladder
 
-point 3369.5 821.0 label -text "c6 03/11/2011" -scale xs -align r
+point 3239.5 975.0 label -text "c6 03/11/2011" -scale xs -align r
 
-point 3301.25 916.75 label -text "AWOL Aven" -scale m -align r
+point 3168.25 1074.75 label -text "AWOL Aven" -scale m -align r
 
 line wall -reverse on
   2051.0 1345.5
@@ -111,6 +111,7 @@ line wall -reverse on
   2879.26 955.48 2988.5 897.0 3030.0 863.5
   3088.36 816.39 3113.5 704.5 3121.0 695.5
   smooth off
+  altitude .
 endline
 
 line arrow -head end

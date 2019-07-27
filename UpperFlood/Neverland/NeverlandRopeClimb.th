@@ -24,10 +24,12 @@ survey NeverlandRopeClimb -title "Neverland Rope Climb"
         data normal from to length compass clino 
         N38  N39  10.29  271  0.5          #  N39 On back wall of sort of t-junction
         data normal from to length compass clino left right up down    
-        N39  N40  12.72  147  -7  0.00  1.10  2.20  1.00  #N40  
+        N39  N40  12.72  197  -7  0.00  1.10  2.20  1.00  #N40  
         N40  1  5.76  215  7	3.1	0.9	4.7	5.8	#1=N41  Pitch head. Pinnacle on edge.
     flags not duplicate
     
+    sd compass 10 degrees 
+
     data normal from to length compass clino left right up down    #LRUD   Station description
     1 2		1.46	162	+18	2.8	2.9	4.1	0.4 	#2  Data recorded
     #					3.1	0.9	4.7	5.8	#1  Pitch head.  =N41

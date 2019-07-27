@@ -1,23 +1,23 @@
 encoding  utf-8
-source RopeTraverse.th
+source CurtainClimb.th
 # Change name to the main therion file
 
 
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o 0.Maps/RopeTraverse.pdf
+export map -proj plan -layout local -o 0.Maps/CurtainClimb.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o 0.Maps/RopeTraverseEe.pdf
+#export map -proj extended -layout local -o 0.Maps/CurtainClimbEe.pdf
 
-export model -fmt survex -o 0.Maps/RopeTraverseth.3d
+export model -fmt survex -o 0.Maps/CurtainClimbth.3d
 #Survex file showing centre line only
 
-#export model -o 0.Maps/RopeTraverse.lox
+#export model -o 0.Maps/CurtainClimb.lox
 #3d therion model to be viewed in the therion viewer
 
-#export map -proj plan -o 0.Maps/RopeTraverse_Walls.3d
+#export map -proj plan -o 0.Maps/CurtainClimb_Walls.3d
 #Survex file showing walls only
 
 layout local

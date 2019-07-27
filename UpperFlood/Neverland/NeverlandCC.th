@@ -15,7 +15,7 @@ survey NeverlandCC
 
     sd length 1 centimeter
     sd compass 1 degree
-    sd clino 1 degree
+    sd clino 0.2 degree
     
     #walls on
     #declination -3.052  deg  	# BGS at 2007.02.03 (2007.175) 51.2987N 2.71038W
@@ -94,7 +94,7 @@ flags duplicate # Back to main passage
   # N27  N26  2.08  104  3  0.00  0.60  1.00  0.60  #N27  
     N26 N27  2.08  284  -3  0.00  0.60  1.00  0.60  #  REVERSED  
     N27  N28  3.21  314  -41  0.60  0.10  1.20  0.10  #N28  Amo box on floor
-flags not duplicate # Traverses
+  # Traverses
     N28  N29  8.63  273  10  0  2  3  5  #est  N29 Start of traverse (Richard)
   # N30  N29  11.54  149  -20.5  0.80  0.30  1.10  5.60  #N30  Beyond both ropes, after chock stone
     N29  N30  11.54  329  20.5  0.80  0.30  1.10  5.60  #  REVERSED
@@ -112,13 +112,14 @@ flags not duplicate # Traverses
     N36  N37  4.25  346  -2  3.00  0.00  3.00  1.00  #N37  On RH wall above 1m climb
     data normal from to length compass clino 
     N37  H1  9.5  215  -20          #  Left passage leads to blind pot
+flags not duplicate     
     data normal from to length compass clino left right up down    
   # N38  N37  11.5  103  -9  0.00  3.60  3.00  0.80  #N38  N38 on left: small bulgs in flaks of rock on corner of dog-leg.
     N37  N38  11.5  283  9  0.00  3.60  3.00  0.80  #  REVERSED
     data normal from to length compass clino 
     N38  N39  10.29  271  0.5          #  N39 On back wall of sort of t-junction
     data normal from to length compass clino left right up down    
-    N39  N40  12.72  147  -7  0.00  1.10  2.20  1.00  #N40  
+    N39  N40  12.72  197  -7  0.00  1.10  2.20  1.00  #N40  
     N40  N41  5.76  215  7		3.1	0.9	4.7	5.8  #N41  Pitch head. Pinnacle on edge.
 
     #=================================

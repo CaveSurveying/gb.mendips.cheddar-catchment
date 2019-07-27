@@ -1,10 +1,9 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -1208.0 -7366.0 10386.5888 7141.9762
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {1269.21244095 0 1.0} {931.223228347 0.0} PocketTopo/wtp_ufs_p.xvi 0 {}
-##XTHERION## xth_me_image_insert {1234.722 0 1.0} {890.801 MW51-stal@MW.WalkThePlankChamber} 0.Maps/WalkThePlankChamber.xvi 0 {}
+##XTHERION## xth_me_area_adjust -457.1666666666667 -1788.4166666666667 3088.8776000000003 1656.5614333333335
+##XTHERION## xth_me_area_zoom_to 96
+##XTHERION## xth_me_image_insert {1228.59 1 1.0} {898.6433333333332 MW51-stal@MW.WalkThePlankChamber} 0.Maps/WalkThePlankChamber.xvi 0 {}
 ##XTHERION## xth_me_image_insert {1242.84 0 1.0} {911.6 35@Leg1.MalcolmsWay} ../MalcolmsWay/0.Maps/MalcolmsWay_100.xvi 0 {}
-##XTHERION## xth_me_image_insert {1266.87401575 1 1.0} {924.173228347 0.0} PocketTopo/wtp_ufs_p0.xvi 0 {}
+##XTHERION## xth_me_image_insert {1269.21244095 0 1.0} {931.2232283469999 0.0} PocketTopo/wtp_ufs_p0.xvi 0 {}
 
 
 
@@ -39,10 +38,9 @@ point 1116.41244095 896.493228347 station -name 0.3@PlankGrotto_DistoX
 point 1245.47244095 914.173228347 station -name 0.1@PlankGrotto_DistoX
 
 line wall
-  304.0 1242.0
-  325.0 1219.0 551.0 948.0 558.0 944.0
+  536.622 972.811
   altitude .
-  565.0 940.0 775.0 613.0 780.0 590.0
+  543.62 968.81 775.0 613.0 780.0 590.0
   785.0 567.0 850.0 456.0 865.0 428.0
   880.0 400.0 901.0 346.0 906.0 330.0
   smooth off
@@ -91,12 +89,6 @@ endline
 point 1165.0 1148.0 label -text "Walk the Plank" -scale s -align r
 
 point 883.0 1145.0 label -text "Aven" -scale xs
-
-point 211.0 1284.0 label -text "Plank Inlet" -scale m -align l
-
-point 275.0 1339.0 dig
-
-point 333.0 1246.0 water-flow -orientation 127.1 -scale l
 
 line chimney
 endline
@@ -167,8 +159,7 @@ line wall -reverse on
   1266.0 955.0 1105.9 899.03 1095.0 894.0
   1082.0 888.0 1067.0 922.0 1028.0 933.0
   989.0 944.0 821.0 946.0 789.0 967.0
-  757.0 988.0 620.0 1070.0 591.0 1095.0
-  562.0 1120.0 370.0 1241.0 354.0 1266.0
+  757.0 988.0 645.0 1031.0 616.0 1056.0
   smooth off
 endline
 
@@ -179,13 +170,13 @@ line wall -reverse on
   1306.0 627.0 1357.0 595.0 1384.0 573.0
   1411.0 551.0 1450.0 532.0 1492.0 515.0
   1534.0 498.0 1656.0 474.0 1688.0 467.0
-  1720.0 460.0 1885.0 443.0 1926.0 453.0
-  1967.0 463.0 2065.0 441.0 2067.0 399.0
+  1720.0 460.0 1864.25 441.71 1905.73 449.48
+  1947.4 457.29 2056.33 438.35 2058.33 396.35
   altitude .
-  2069.0 357.0 2063.0 348.0 2034.0 342.0
+  2060.33 354.35 2063.0 348.0 2034.0 342.0
   2005.0 336.0 2028.0 310.0 1999.0 300.0
-  1970.0 290.0 1968.0 259.0 1865.0 276.0
-  1762.0 293.0 1628.0 317.0 1608.0 325.0
+  1970.0 290.0 1972.27 264.25 1869.27 281.25
+  1766.27 298.25 1628.0 317.0 1608.0 325.0
   1588.0 333.0 1356.0 366.0 1340.0 375.0
   1324.0 384.0 1234.0 391.0 1220.0 378.0
   1214.83 373.2 1202.0 373.0 1191.0 341.0
