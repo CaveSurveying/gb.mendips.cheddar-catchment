@@ -59,7 +59,7 @@ survey Neverland
   input FunnelChamber/FunnelChamber.th
   join NeverlandDisto_s1 FunnelChamberSP1@FunnelChamber
 
-  input RopeTraverse/RopeTraverse.th
+  input CurtainClimb/RopeTraverse.th
 
   input LowerFunnel/LowerFunnel.th 
 
