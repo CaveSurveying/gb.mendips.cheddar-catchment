@@ -1,343 +1,892 @@
 set XVIgrids {1.0 m}
 set XVIstations {
-  {     -202.89       -96.95 MW50@MW.WalkThePlankChamber}
-  {      -88.96       -86.91 MW51@MW.WalkThePlankChamber}
-  {     -202.89       -96.95 MW50@MW.WalkThePlankChamber}
-  {     -240.20       -72.74 MW52@MW.WalkThePlankChamber}
-  {     -240.20       -72.74 MW52@MW.WalkThePlankChamber}
-  {     -368.06       -15.65 MW53@MW.WalkThePlankChamber}
-  {     -368.06       -15.65 MW53@MW.WalkThePlankChamber}
-  {     -572.23       132.58 MW54@MW.WalkThePlankChamber}
-  {     -572.23       132.58 MW54@MW.WalkThePlankChamber}
-  {     -726.89       148.92 MW55@MW.WalkThePlankChamber}
-  {     -368.06       -15.65 MW53@MW.WalkThePlankChamber}
-  {     -723.01       -46.75 MW56@MW.WalkThePlankChamber}
-  {     -368.06       -15.65 MW53@MW.WalkThePlankChamber}
-  {     -691.63       -44.00 MW57@MW.WalkThePlankChamber}
-  {     -797.90       132.58 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -898.09       148.92 0.0@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -88.96       -86.91 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -88.96       -86.91 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -88.96       -86.91 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -88.96       -86.91 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -88.96       -86.91 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -88.96       -86.91 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -88.96       -86.91 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -88.96       -86.91 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -88.96       -86.91 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -88.96       -86.91 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -88.96       -86.91 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -88.96       -86.91 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -88.96       -86.91 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -499.08      -122.74 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -504.98      -102.07 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -220.97       -71.56 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -592.98       -27.85 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -596.52       -46.95 0.3@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -614.43       -48.72 0.3@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -633.13       -58.76 0.0@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -631.16       -81.00 0.3@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -445.14       -80.22 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
-  {       20.68       -23.13 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
-  {       20.68       -23.13 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
-  {       20.68       -23.13 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
-  {       20.68       -23.13 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
-  {       20.68       -23.13 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
-  {       20.68       -23.13 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
-  {       20.68       -23.13 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
-  {       20.68       -23.13 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
-  {       20.68       -23.13 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
-  {       20.68       -23.13 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -130.77       -99.90 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -138.25       -91.63 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      166.47       -82.58 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -72.50       -54.82 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      -75.26       198.52 0.6@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      104.07       -87.89 0.6@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      138.72      -100.30 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      416.90       -72.34 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      416.90       -72.34 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      416.90       -72.34 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      416.90       -72.34 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      416.90       -72.34 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      416.90       -72.34 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      416.90       -72.34 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      416.90       -72.34 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -449.67       -86.91 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -449.67       -86.91 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      521.04       -84.74 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      521.04       -84.74 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      521.04       -84.74 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      521.04       -84.74 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      521.04       -84.74 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      521.04       -84.74 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      521.04       -84.74 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      521.04       -84.74 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -449.67       -86.91 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -449.67       -86.91 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      651.73      -126.48 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      651.73      -126.48 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      651.73      -126.48 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      651.73      -126.48 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      651.73      -126.48 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      651.73      -126.48 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      651.73      -126.48 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -449.67       -86.91 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -449.67       -86.91 0.10@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -449.67       -86.91 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -449.67       -86.91 0.11@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -449.67       -86.91 0.11@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -449.67       -86.91 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      341.65        -9.35 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      341.65        -9.35 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      341.65        -9.35 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      341.65        -9.35 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      341.65        -9.35 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      341.65        -9.35 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      341.65        -9.35 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      341.65        -9.35 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      341.65        -9.35 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
-  {      341.65        -9.35 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -449.67       -86.91 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -449.67       -86.91 0.13@PlankGrotto_DistoX.WalkThePlankChamber}
-  {     -449.67       -86.91 MW54@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 2@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 2@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 2a@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 2@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 2b@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 2@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 3@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 3@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 4@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 4@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 5@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 5@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 6@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 6@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 7@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 6@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 6a@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 6a@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 6b@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 7@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 8@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 8@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 9@TrenchPassage_Pony.WalkThePlankChamber}
-  {      481.74       -49.51 9@TrenchPassage_Pony.WalkThePlankChamber}
-  {      560.43       -52.26 10@TrenchPassage_Pony.WalkThePlankChamber}
-  {      481.74       -49.51 9@TrenchPassage_Pony.WalkThePlankChamber}
-  {      627.32       -54.63 11@TrenchPassage_Pony.WalkThePlankChamber}
-  {      627.32       -54.63 11@TrenchPassage_Pony.WalkThePlankChamber}
-  {      682.36       -57.58 12@TrenchPassage_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D1@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D2@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D2@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D3@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D3@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D4@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D4@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D5@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D5@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D6@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D5@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D7@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D7@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D7a@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D7@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D8@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D8@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D9@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D9@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D10@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D10@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D11@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 D8@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 U9@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 U9@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 U10@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 U10@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 U11@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 U10@ThievesChamber_Pony.WalkThePlankChamber}
-  {     -449.67       -86.91 U12@ThievesChamber_Pony.WalkThePlankChamber}
+  {     -349.48      -107.09 MW50@MW.WalkThePlankChamber}
+  {     -235.54       -97.83 MW51@MW.WalkThePlankChamber}
+  {     -349.48      -107.09 MW50@MW.WalkThePlankChamber}
+  {     -386.79       -82.68 MW52@MW.WalkThePlankChamber}
+  {     -386.79       -82.68 MW52@MW.WalkThePlankChamber}
+  {     -514.65       -25.59 MW53@MW.WalkThePlankChamber}
+  {     -514.65       -25.59 MW53@MW.WalkThePlankChamber}
+  {     -718.82       122.64 MW54@MW.WalkThePlankChamber}
+  {     -718.82       122.64 MW54@MW.WalkThePlankChamber}
+  {     -873.48       138.98 MW55@MW.WalkThePlankChamber}
+  {     -514.65       -25.59 MW53@MW.WalkThePlankChamber}
+  {     -869.59       -56.69 MW56@MW.WalkThePlankChamber}
+  {     -514.65       -25.59 MW53@MW.WalkThePlankChamber}
+  {     -838.22       -53.94 MW57@MW.WalkThePlankChamber}
+  {     -718.82       122.64 1.0@PlankInlet.WalkThePlankChamber}
+  {     -661.04       127.56 1.1@PlankInlet.WalkThePlankChamber}
+  {     -718.82       122.64 1.0@PlankInlet.WalkThePlankChamber}
+  {     -718.82       122.64 1.0@PlankInlet.WalkThePlankChamber}
+  {     -718.82       122.64 1.0@PlankInlet.WalkThePlankChamber}
+  {     -718.82       122.64 1.0@PlankInlet.WalkThePlankChamber}
+  {     -718.82       122.64 1.0@PlankInlet.WalkThePlankChamber}
+  {     -718.82       122.64 1.0@PlankInlet.WalkThePlankChamber}
+  {     -661.04       127.56 1.1@PlankInlet.WalkThePlankChamber}
+  {     -661.04       127.56 1.1@PlankInlet.WalkThePlankChamber}
+  {     -661.04       127.56 1.1@PlankInlet.WalkThePlankChamber}
+  {     -661.04       127.56 1.1@PlankInlet.WalkThePlankChamber}
+  {     -661.04       127.56 1.1@PlankInlet.WalkThePlankChamber}
+  {     -661.04       127.56 1.1@PlankInlet.WalkThePlankChamber}
+  {     -661.04       127.56 1.1@PlankInlet.WalkThePlankChamber}
+  {     -585.39       144.69 1.2@PlankInlet.WalkThePlankChamber}
+  {     -585.39       144.69 1.2@PlankInlet.WalkThePlankChamber}
+  {     -585.39       144.69 1.2@PlankInlet.WalkThePlankChamber}
+  {     -585.39       144.69 1.2@PlankInlet.WalkThePlankChamber}
+  {     -585.39       144.69 1.2@PlankInlet.WalkThePlankChamber}
+  {     -585.39       144.69 1.2@PlankInlet.WalkThePlankChamber}
+  {     -585.39       144.69 1.2@PlankInlet.WalkThePlankChamber}
+  {     -585.39       144.69 1.2@PlankInlet.WalkThePlankChamber}
+  {     -541.07       144.09 1.3@PlankInlet.WalkThePlankChamber}
+  {     -541.07       144.09 1.3@PlankInlet.WalkThePlankChamber}
+  {     -541.07       144.09 1.3@PlankInlet.WalkThePlankChamber}
+  {     -541.07       144.09 1.3@PlankInlet.WalkThePlankChamber}
+  {     -541.07       144.09 1.3@PlankInlet.WalkThePlankChamber}
+  {     -541.07       144.09 1.3@PlankInlet.WalkThePlankChamber}
+  {     -541.07       144.09 1.3@PlankInlet.WalkThePlankChamber}
+  {     -541.07       144.09 1.3@PlankInlet.WalkThePlankChamber}
+  {     -541.07       144.09 1.3@PlankInlet.WalkThePlankChamber}
+  {     -541.07       144.09 1.3@PlankInlet.WalkThePlankChamber}
+  {     -541.07       144.09 1.3@PlankInlet.WalkThePlankChamber}
+  {     -482.88       147.24 1.4@PlankInlet.WalkThePlankChamber}
+  {     -482.88       147.24 1.4@PlankInlet.WalkThePlankChamber}
+  {     -482.88       147.24 1.4@PlankInlet.WalkThePlankChamber}
+  {     -482.88       147.24 1.4@PlankInlet.WalkThePlankChamber}
+  {     -482.88       147.24 1.4@PlankInlet.WalkThePlankChamber}
+  {     -482.88       147.24 1.4@PlankInlet.WalkThePlankChamber}
+  {     -482.88       147.24 1.4@PlankInlet.WalkThePlankChamber}
+  {     -482.88       147.24 1.4@PlankInlet.WalkThePlankChamber}
+  {     -482.88       147.24 1.4@PlankInlet.WalkThePlankChamber}
+  {     -482.88       147.24 1.4@PlankInlet.WalkThePlankChamber}
+  {     -482.88       147.24 1.4@PlankInlet.WalkThePlankChamber}
+  {     -482.88       147.24 1.4@PlankInlet.WalkThePlankChamber}
+  {     -430.83       149.61 1.5@PlankInlet.WalkThePlankChamber}
+  {     -430.83       149.61 1.5@PlankInlet.WalkThePlankChamber}
+  {     -381.62       149.61 1.6@PlankInlet.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -223.19      -103.15 0.0@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -235.54       -97.83 0.1@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -154.43       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -386.79       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -367.56       -82.68 0.2@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -301.53       -50.79 0.3@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -301.53       -50.79 0.3@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -223.19      -103.15 0.0@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -301.53       -50.79 0.3@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -125.91       -34.06 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -125.91       -34.06 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -125.91       -34.06 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -125.91       -34.06 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -125.91       -34.06 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -125.91       -34.06 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -125.91       -34.06 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -125.91       -34.06 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -125.91       -34.06 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -125.91       -34.06 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -125.91       -34.06 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -125.91       -34.06 0.4@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      166.30       -91.14 0.6@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      166.30       -91.14 0.6@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      270.31       -83.27 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      270.31       -83.27 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      270.31       -83.27 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      270.31       -83.27 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      270.31       -83.27 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      270.31       -83.27 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      270.31       -83.27 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      270.31       -83.27 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      270.31       -83.27 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      270.31       -83.27 0.7@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      374.45       -95.87 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      374.45       -95.87 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      374.45       -95.87 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      374.45       -95.87 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      374.45       -95.87 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      374.45       -95.87 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      374.45       -95.87 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      374.45       -95.87 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      374.45       -95.87 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      374.45       -95.87 0.8@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      505.14      -137.60 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      505.14      -137.60 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      505.14      -137.60 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      505.14      -137.60 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      505.14      -137.60 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      505.14      -137.60 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      505.14      -137.60 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      505.14      -137.60 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      505.14      -137.60 0.9@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      613.70      -146.46 0.10@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       19.88       -93.70 0.5@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       70.93       -84.84 0.11@PlankGrotto_DistoX.WalkThePlankChamber}
+  {       70.93       -84.84 0.11@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      195.07       -20.28 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      195.07       -20.28 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      195.07       -20.28 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      195.07       -20.28 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      195.07       -20.28 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      195.07       -20.28 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      195.07       -20.28 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      195.07       -20.28 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      195.07       -20.28 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      195.07       -20.28 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      195.07       -20.28 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      195.07       -20.28 0.12@PlankGrotto_DistoX.WalkThePlankChamber}
+  {      277.88       -13.98 0.13@PlankGrotto_DistoX.WalkThePlankChamber}
+  {     -301.53       -50.79 1.0@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -146.91       -50.79 1.0@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -301.53       -50.79 1.3@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -338.45       -86.42 1.4@Trench1.WalkThePlankChamber}
+  {     -338.45       -86.42 1.4@Trench1.WalkThePlankChamber}
+  {     -338.45       -86.42 1.4@Trench1.WalkThePlankChamber}
+  {     -338.45       -86.42 1.4@Trench1.WalkThePlankChamber}
+  {     -338.45       -86.42 1.4@Trench1.WalkThePlankChamber}
+  {     -338.45       -86.42 1.4@Trench1.WalkThePlankChamber}
+  {     -338.45       -86.42 1.4@Trench1.WalkThePlankChamber}
+  {     -338.45       -86.42 1.4@Trench1.WalkThePlankChamber}
+  {     -338.45       -86.42 1.4@Trench1.WalkThePlankChamber}
+  {     -338.45       -86.42 1.4@Trench1.WalkThePlankChamber}
+  {     -338.45       -86.42 1.4@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -488.81      -106.10 1.2@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -323.21       -36.02 1.1@Trench1.WalkThePlankChamber}
+  {     -338.45       -86.42 1.4@Trench1.WalkThePlankChamber}
+  {     -338.45       -86.42 1.4@Trench1.WalkThePlankChamber}
+  {     -214.28       -21.46 1.5@Trench1.WalkThePlankChamber}
+  {     -214.28       -21.46 1.5@Trench1.WalkThePlankChamber}
+  {     -214.28       -21.46 1.5@Trench1.WalkThePlankChamber}
+  {     -214.28       -21.46 1.5@Trench1.WalkThePlankChamber}
+  {     -214.28       -21.46 1.5@Trench1.WalkThePlankChamber}
+  {     -214.28       -21.46 1.5@Trench1.WalkThePlankChamber}
+  {     -214.28       -21.46 1.5@Trench1.WalkThePlankChamber}
+  {     -214.28       -21.46 1.5@Trench1.WalkThePlankChamber}
+  {     -214.28       -21.46 1.5@Trench1.WalkThePlankChamber}
+  {     -214.28       -21.46 1.5@Trench1.WalkThePlankChamber}
+  {     -151.22       -13.58 1.6@Trench1.WalkThePlankChamber}
+  {     -151.22       -13.58 1.6@Trench1.WalkThePlankChamber}
+  {     -151.22       -13.58 1.6@Trench1.WalkThePlankChamber}
+  {     -151.22       -13.58 1.6@Trench1.WalkThePlankChamber}
+  {     -151.22       -13.58 1.6@Trench1.WalkThePlankChamber}
+  {     -151.22       -13.58 1.6@Trench1.WalkThePlankChamber}
+  {     -151.22       -13.58 1.6@Trench1.WalkThePlankChamber}
+  {     -151.22       -13.58 1.6@Trench1.WalkThePlankChamber}
+  {     -214.28       -21.46 1.5@Trench1.WalkThePlankChamber}
+  {     -214.28       -21.46 1.5@Trench1.WalkThePlankChamber}
+  {     -214.28       -21.46 1.5@Trench1.WalkThePlankChamber}
+  {     -151.22       -13.58 1.6@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -151.22       -13.58 1.6@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -200.21       -17.91 1.7@Trench1.WalkThePlankChamber}
+  {     -151.22       -13.58 1.6@Trench1.WalkThePlankChamber}
+  {     -151.22       -13.58 1.6@Trench1.WalkThePlankChamber}
+  {     -151.22       -13.58 1.6@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -109.14       -54.33 1.9@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -109.14       -54.33 1.9@Trench1.WalkThePlankChamber}
+  {     -109.14       -54.33 1.9@Trench1.WalkThePlankChamber}
+  {      -78.63       -73.23 1.10@Trench1.WalkThePlankChamber}
+  {      -78.63       -73.23 1.10@Trench1.WalkThePlankChamber}
+  {      -78.63       -73.23 1.10@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {     -137.71       -43.31 1.8@Trench1.WalkThePlankChamber}
+  {        8.94       -47.64 1.11@Trench1.WalkThePlankChamber}
+  {        8.94       -47.64 1.11@Trench1.WalkThePlankChamber}
+  {        8.94       -47.64 1.11@Trench1.WalkThePlankChamber}
+  {        8.94       -47.64 1.11@Trench1.WalkThePlankChamber}
+  {        8.94       -47.64 1.11@Trench1.WalkThePlankChamber}
+  {        8.94       -47.64 1.11@Trench1.WalkThePlankChamber}
+  {        8.94       -47.64 1.11@Trench1.WalkThePlankChamber}
+  {        8.94       -47.64 1.11@Trench1.WalkThePlankChamber}
+  {        8.94       -47.64 1.11@Trench1.WalkThePlankChamber}
+  {        8.94       -47.64 1.11@Trench1.WalkThePlankChamber}
+  {        8.94       -47.64 1.11@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      151.24       -43.31 1.12@Trench1.WalkThePlankChamber}
+  {      253.54       -66.54 1.13@Trench1.WalkThePlankChamber}
+  {      253.54       -66.54 1.13@Trench1.WalkThePlankChamber}
+  {      253.54       -66.54 1.13@Trench1.WalkThePlankChamber}
+  {      253.54       -66.54 1.13@Trench1.WalkThePlankChamber}
+  {      253.54       -66.54 1.13@Trench1.WalkThePlankChamber}
+  {      253.54       -66.54 1.13@Trench1.WalkThePlankChamber}
+  {      253.54       -66.54 1.13@Trench1.WalkThePlankChamber}
+  {      253.54       -66.54 1.13@Trench1.WalkThePlankChamber}
+  {      253.54       -66.54 1.13@Trench1.WalkThePlankChamber}
+  {      382.37       -72.24 1.14@Trench1.WalkThePlankChamber}
+  {      382.37       -72.24 1.14@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      382.37       -72.24 1.14@Trench1.WalkThePlankChamber}
+  {      382.37       -72.24 1.14@Trench1.WalkThePlankChamber}
+  {      382.37       -72.24 1.14@Trench1.WalkThePlankChamber}
+  {      382.37       -72.24 1.14@Trench1.WalkThePlankChamber}
+  {      382.37       -72.24 1.14@Trench1.WalkThePlankChamber}
+  {      382.37       -72.24 1.14@Trench1.WalkThePlankChamber}
+  {      382.37       -72.24 1.14@Trench1.WalkThePlankChamber}
+  {      382.37       -72.24 1.14@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      456.52       -69.29 1.15@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      539.70       -60.83 1.16@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      861.94         7.28 1.17a@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      621.15      -102.17 1.17@Trench1.WalkThePlankChamber}
+  {      717.65       -91.34 1.18@Trench1.WalkThePlankChamber}
+  {      717.65       -91.34 1.18@Trench1.WalkThePlankChamber}
+  {      717.65       -91.34 1.18@Trench1.WalkThePlankChamber}
+  {      717.65       -91.34 1.18@Trench1.WalkThePlankChamber}
+  {      717.65       -91.34 1.18@Trench1.WalkThePlankChamber}
+  {      717.65       -91.34 1.18@Trench1.WalkThePlankChamber}
+  {      717.65       -91.34 1.18@Trench1.WalkThePlankChamber}
+  {      717.65       -91.34 1.18@Trench1.WalkThePlankChamber}
+  {      717.65       -91.34 1.18@Trench1.WalkThePlankChamber}
+  {      717.65       -91.34 1.18@Trench1.WalkThePlankChamber}
+  {      717.65       -91.34 1.18@Trench1.WalkThePlankChamber}
+  {      717.65       -91.34 1.18@Trench1.WalkThePlankChamber}
+  {      717.65       -91.34 1.18@Trench1.WalkThePlankChamber}
+  {      760.68      -108.86 1.19@Trench1.WalkThePlankChamber}
+  {      760.68      -108.86 1.19@Trench1.WalkThePlankChamber}
+  {      760.68      -108.86 1.19@Trench1.WalkThePlankChamber}
+  {      760.68      -108.86 1.19@Trench1.WalkThePlankChamber}
+  {      760.68      -108.86 1.19@ShakeNVac.WalkThePlankChamber}
+  {      760.68      -108.86 1.19@ShakeNVac.WalkThePlankChamber}
+  {      760.68      -108.86 1.19@ShakeNVac.WalkThePlankChamber}
+  {      760.68      -108.86 1.19@ShakeNVac.WalkThePlankChamber}
+  {      827.10      -116.14 1.20@ShakeNVac.WalkThePlankChamber}
+  {      760.68      -108.86 1.19@ShakeNVac.WalkThePlankChamber}
+  {      760.68      -108.86 1.19@ShakeNVac.WalkThePlankChamber}
+  {      827.10      -116.14 1.20@ShakeNVac.WalkThePlankChamber}
+  {      827.10      -116.14 1.20@ShakeNVac.WalkThePlankChamber}
+  {      827.10      -116.14 1.20@ShakeNVac.WalkThePlankChamber}
+  {      827.10      -116.14 1.20@ShakeNVac.WalkThePlankChamber}
+  {      849.47      -125.79 1.21@ShakeNVac.WalkThePlankChamber}
+  {      849.47      -125.79 1.21@ShakeNVac.WalkThePlankChamber}
+  {      849.47      -125.79 1.21@ShakeNVac.WalkThePlankChamber}
+  {      849.47      -125.79 1.21@ShakeNVac.WalkThePlankChamber}
+  {      849.47      -125.79 1.21@ShakeNVac.WalkThePlankChamber}
+  {      868.60      -158.27 1.22@ShakeNVac.WalkThePlankChamber}
+  {      827.10      -116.14 1.20@ShakeNVac.WalkThePlankChamber}
+  {      827.10      -116.14 1.20@ShakeNVac.WalkThePlankChamber}
 }
 set XVIshots {
-  {     -202.89       -96.95       -88.96       -86.91      -202.89        70.37       -88.96       -47.54       -88.96      -116.44      -202.89      -108.76}
-  {     -202.89       -96.95      -240.20       -72.74      -202.89        70.37      -240.20        74.90      -240.20       -72.74      -202.89      -108.76}
-  {     -240.20       -72.74      -368.06       -15.65      -240.20        74.90      -368.06       122.15      -368.06       -19.59      -240.20       -72.74}
-  {     -368.06       -15.65      -572.23       132.58      -368.06       122.15      -572.23       132.58      -572.23       103.05      -368.06       -19.59}
-  {     -572.23       132.58      -726.89       148.92}
-  {     -368.06       -15.65      -723.01       -46.75}
-  {     -368.06       -15.65      -691.63       -44.00}
-  {     -797.90       132.58      -898.09       148.92}
-  {      -88.96       -86.91       -80.80      -113.68}
-  {      -88.96       -86.91       -68.71       -69.19}
-  {      -88.96       -86.91       -81.21       -65.06}
-  {      -88.96       -86.91       -73.12        30.61}
-  {      -88.96       -86.91       -67.16       -18.80}
-  {      -88.96       -86.91       -59.35       -42.62}
-  {      -88.96       -86.91       -41.34       -46.36}
-  {      -88.96       -86.91       -38.97       -79.04}
-  {      -88.96       -86.91       -44.32      -123.13}
-  {      -88.96       -86.91       -26.69      -141.83}
-  {      -88.96       -86.91       -31.96      -148.92}
-  {      -88.96       -86.91       -54.78      -126.28}
-  {      -88.96       -86.91       -78.80      -124.11}
-  {     -499.08      -122.74      -504.98      -102.07}
-  {     -220.97       -71.56      -192.94       -28.25}
-  {     -220.97       -71.56      -210.04       -32.78}
-  {     -220.97       -71.56      -214.40       -42.03}
-  {     -220.97       -71.56      -208.87       -48.72}
-  {     -220.97       -71.56      -197.27       -51.08}
-  {     -220.97       -71.56      -202.64       -66.83}
-  {     -220.97       -71.56      -208.85       -76.67}
-  {     -220.97       -71.56      -218.24      -104.43}
-  {     -220.97       -71.56      -202.99      -122.74}
-  {     -220.97       -71.56      -194.54      -102.07}
-  {     -220.97       -71.56      -177.62      -102.26}
-  {     -220.97       -71.56      -191.26       -91.83}
-  {     -220.97       -71.56      -185.76       -70.18}
-  {     -220.97       -71.56      -122.42       -58.37}
-  {     -220.97       -71.56      -143.93       -43.80}
-  {     -220.97       -71.56      -150.66        -2.66}
-  {     -220.97       -71.56      -169.53         0.10}
-  {     -592.98       -27.85      -596.52       -46.95}
-  {     -614.43       -48.72      -633.13       -58.76}
-  {     -631.16       -81.00      -445.14       -80.22}
-  {       20.68       -23.13        29.15        35.73}
-  {       20.68       -23.13        52.07        68.41}
-  {       20.68       -23.13       112.33        96.56}
-  {       20.68       -23.13       158.72        83.76}
-  {       20.68       -23.13       181.84        23.33}
-  {       20.68       -23.13       183.24       -34.94}
-  {       20.68       -23.13       191.75       -71.36}
-  {       20.68       -23.13        65.92       -38.09}
-  {       20.68       -23.13        28.68       -40.65}
-  {       20.68       -23.13        69.69       -31.00}
-  {     -130.77       -99.90      -138.25       -91.63}
-  {      166.47       -82.58       297.34       -18.21}
-  {      166.47       -82.58       257.00       -21.36}
-  {      166.47       -82.58       254.61       -12.50}
-  {      166.47       -82.58       266.30       -20.18}
-  {      166.47       -82.58       291.42       -66.44}
-  {      166.47       -82.58       352.39       -56.40}
-  {      166.47       -82.58       347.98       -21.56}
-  {      166.47       -82.58       359.28       -32.58}
-  {      166.47       -82.58       376.79       -39.07}
-  {      166.47       -82.58       367.25       -50.49}
-  {      166.47       -82.58       280.61       -64.67}
-  {      166.47       -82.58       253.18       -38.09}
-  {      166.47       -82.58       214.77       -25.69}
-  {      166.47       -82.58       189.94       -22.93}
-  {      166.47       -82.58       184.54       -27.85}
-  {      166.47       -82.58       184.50       -46.95}
-  {      166.47       -82.58       202.98       -48.72}
-  {      166.47       -82.58       221.18       -58.76}
-  {      166.47       -82.58       219.79       -81.00}
-  {      -72.50       -54.82       -75.26       198.52}
-  {      104.07       -87.89       138.72      -100.30}
-  {      416.90       -72.34       433.98       -67.62}
-  {      416.90       -72.34       428.55       -57.58}
-  {      416.90       -72.34       423.88       -53.44}
-  {      416.90       -72.34       490.03       -48.33}
-  {      416.90       -72.34       490.77       -53.64}
-  {      416.90       -72.34       463.51       -63.48}
-  {      416.90       -72.34       434.41       -74.90}
-  {      416.90       -72.34       418.13       -77.85}
-  {     -449.67       -86.91      -449.67       -86.91}
-  {      521.04       -84.74       527.51       -74.90}
-  {      521.04       -84.74       538.02       -67.81}
-  {      521.04       -84.74       587.03       -59.55}
-  {      521.04       -84.74       580.72       -94.39}
-  {      521.04       -84.74       552.95      -108.56}
-  {      521.04       -84.74       523.08      -112.70}
-  {      521.04       -84.74       534.76      -115.45}
-  {      521.04       -84.74       529.58       -87.30}
-  {     -449.67       -86.91      -449.67       -86.91}
-  {      651.73      -126.48       659.53      -109.74}
-  {      651.73      -126.48       653.77       -99.90}
-  {      651.73      -126.48       697.12       -91.63}
-  {      651.73      -126.48       719.90       -87.50}
-  {      651.73      -126.48       726.89      -113.09}
-  {      651.73      -126.48       695.57      -135.14}
-  {      651.73      -126.48       660.02      -141.04}
-  {     -449.67       -86.91      -449.67       -86.91}
-  {     -449.67       -86.91      -449.67       -86.91}
-  {     -449.67       -86.91      -449.67       -86.91}
-  {      341.65        -9.35       375.84       -18.60}
-  {      341.65        -9.35       366.57        26.87}
-  {      341.65        -9.35       357.19        30.41}
-  {      341.65        -9.35       382.34        29.04}
-  {      341.65        -9.35       384.47        12.11}
-  {      341.65        -9.35       413.63        13.09}
-  {      341.65        -9.35       412.17       -20.77}
-  {      341.65        -9.35       369.37       -14.27}
-  {      341.65        -9.35       344.19       -25.30}
-  {      341.65        -9.35       371.34       -10.73}
-  {     -449.67       -86.91      -449.67       -86.91}
-  {     -449.67       -86.91      -449.67       -86.91      -512.66      -120.37      -357.15      -120.37      -357.15         5.61      -512.66         5.61}
-  {     -449.67       -86.91      -449.67       -86.91      -465.42      -126.28      -341.40      -126.28      -341.40        50.89      -465.42        50.89}
-  {     -449.67       -86.91      -449.67       -86.91}
-  {     -449.67       -86.91      -449.67       -86.91      -618.96      -120.37      -357.15      -120.37      -357.15         5.61      -618.96         5.61}
-  {     -449.67       -86.91      -449.67       -86.91      -618.96      -100.69      -390.61      -100.69      -390.61       -27.85      -618.96       -27.85}
-  {     -449.67       -86.91      -449.67       -86.91      -577.62       -94.78      -390.61       -94.78      -390.61       -27.85      -577.62       -27.85}
-  {     -449.67       -86.91      -449.67       -86.91      -567.78      -106.59      -439.83      -106.59      -439.83       -45.57      -567.78       -45.57}
-  {     -449.67       -86.91      -449.67       -86.91      -567.78      -114.47      -439.83      -114.47      -439.83       -45.57      -567.78       -45.57}
-  {     -449.67       -86.91      -449.67       -86.91}
-  {     -449.67       -86.91      -449.67       -86.91}
-  {     -449.67       -86.91      -449.67       -86.91      -567.78      -124.31      -420.14      -124.31      -420.14       -79.04      -567.78       -79.04}
-  {     -449.67       -86.91      -449.67       -86.91      -504.79      -124.31      -420.14      -124.31      -420.14       -71.16      -504.79       -71.16}
-  {      481.74       -49.51       560.43       -52.26       481.74       -33.76       560.43       -46.36       560.43       -56.20       481.74       -59.35}
-  {      481.74       -49.51       627.32       -54.63       481.74       -33.76       627.32       -50.69       627.32       -64.47       481.74       -59.35}
-  {      627.32       -54.63       682.36       -57.58}
-  {     -449.67       -86.91      -449.67       -86.91      -561.87       -98.72      -400.46       -98.72      -400.46       -71.16      -561.87       -71.16}
-  {     -449.67       -86.91      -449.67       -86.91      -561.87       -94.78      -400.46       -94.78      -400.46       -77.07      -561.87       -77.07}
-  {     -449.67       -86.91      -449.67       -86.91      -455.57       -90.85      -431.95       -90.85      -431.95       -75.10      -455.57       -75.10}
-  {     -449.67       -86.91      -449.67       -86.91      -510.69      -100.69      -424.08      -100.69      -424.08       -71.16      -510.69       -71.16}
-  {     -449.67       -86.91      -449.67       -86.91      -475.26      -100.69      -388.64      -100.69      -388.64       -71.16      -475.26       -71.16}
-  {     -449.67       -86.91      -449.67       -86.91      -542.19      -102.66      -388.64      -102.66      -388.64       -51.48      -542.19       -51.48}
-  {     -449.67       -86.91      -449.67       -86.91}
-  {     -449.67       -86.91      -449.67       -86.91      -542.19      -104.63      -359.12      -104.63      -359.12       -27.85      -542.19       -27.85}
-  {     -449.67       -86.91      -449.67       -86.91      -477.23      -104.63      -359.12      -104.63      -359.12       -27.85      -477.23       -27.85}
-  {     -449.67       -86.91      -449.67       -86.91      -463.45       -98.72      -437.86       -98.72      -437.86       -81.00      -463.45       -81.00}
-  {     -449.67       -86.91      -449.67       -86.91}
-  {     -449.67       -86.91      -449.67       -86.91      -483.13      -104.63      -359.12      -104.63      -359.12        19.39      -483.13        19.39}
-  {     -449.67       -86.91      -449.67       -86.91      -483.13       -86.91      -398.49       -86.91      -398.49        19.39      -483.13        19.39}
-  {     -449.67       -86.91      -449.67       -86.91      -457.54       -94.78      -410.30       -94.78      -410.30        -8.17      -457.54        -8.17}
-  {     -449.67       -86.91      -449.67       -86.91}
+  {     -349.48      -107.09      -235.54       -97.83      -349.48        60.24      -235.54       -58.46      -235.54      -127.36      -349.48      -118.90}
+  {     -349.48      -107.09      -386.79       -82.68      -349.48        60.24      -386.79        64.96      -386.79       -82.68      -349.48      -118.90}
+  {     -386.79       -82.68      -514.65       -25.59      -386.79        64.96      -514.65       112.20      -514.65       -29.53      -386.79       -82.68}
+  {     -514.65       -25.59      -718.82       122.64      -514.65       112.20      -718.82       122.64      -718.82        93.11      -514.65       -29.53}
+  {     -718.82       122.64      -873.48       138.98}
+  {     -514.65       -25.59      -869.59       -56.69}
+  {     -514.65       -25.59      -838.22       -53.94}
+  {     -718.82       122.64      -661.04       127.56}
+  {     -718.82       122.64      -718.82       122.64}
+  {     -718.82       122.64      -715.90        93.90}
+  {     -718.82       122.64      -662.95        85.04}
+  {     -718.82       122.64      -674.22        75.98}
+  {     -718.82       122.64      -661.45       120.28}
+  {     -718.82       122.64      -645.41       122.64}
+  {     -661.04       127.56      -661.04       127.56}
+  {     -661.04       127.56      -660.05       118.31}
+  {     -661.04       127.56      -650.02       126.57}
+  {     -661.04       127.56      -625.96       127.95}
+  {     -661.04       127.56      -623.54       108.66}
+  {     -661.04       127.56      -627.90       106.10}
+  {     -661.04       127.56      -585.39       144.69}
+  {     -585.39       144.69      -581.33       135.24}
+  {     -585.39       144.69      -577.38       130.31}
+  {     -585.39       144.69      -551.85       141.73}
+  {     -585.39       144.69      -556.77       143.70}
+  {     -585.39       144.69      -562.91       137.80}
+  {     -585.39       144.69      -560.79       137.80}
+  {     -585.39       144.69      -541.07       144.09}
+  {     -541.07       144.09      -525.73       144.88}
+  {     -541.07       144.09      -526.03       144.29}
+  {     -541.07       144.09      -512.04       142.32}
+  {     -541.07       144.09      -539.45       139.57}
+  {     -541.07       144.09      -536.72       150.39}
+  {     -541.07       144.09      -520.35       144.69}
+  {     -541.07       144.09      -511.66       146.26}
+  {     -541.07       144.09      -502.47       146.06}
+  {     -541.07       144.09      -500.87       146.65}
+  {     -541.07       144.09      -482.88       147.24}
+  {     -482.88       147.24      -479.46       139.17}
+  {     -482.88       147.24      -474.51       139.37}
+  {     -482.88       147.24      -472.91       159.84}
+  {     -482.88       147.24      -479.75       156.50}
+  {     -482.88       147.24      -467.89       145.47}
+  {     -482.88       147.24      -457.07       146.26}
+  {     -482.88       147.24      -468.21       144.69}
+  {     -482.88       147.24      -428.92       143.50}
+  {     -482.88       147.24      -469.35       145.87}
+  {     -482.88       147.24      -454.70       146.85}
+  {     -482.88       147.24      -430.83       149.61}
+  {     -430.83       149.61      -381.62       149.61}
+  {     -235.54       -97.83      -223.19      -103.15}
+  {     -235.54       -97.83      -227.39      -124.61}
+  {     -235.54       -97.83      -215.30       -80.12}
+  {     -235.54       -97.83      -227.79       -75.98}
+  {     -235.54       -97.83      -219.71        19.69}
+  {     -235.54       -97.83      -213.75       -29.72}
+  {     -235.54       -97.83      -205.94       -53.54}
+  {     -235.54       -97.83      -187.93       -57.28}
+  {     -235.54       -97.83      -185.56       -89.96}
+  {     -235.54       -97.83      -190.91      -134.06}
+  {     -235.54       -97.83      -173.28      -152.76}
+  {     -235.54       -97.83      -178.55      -159.84}
+  {     -235.54       -97.83      -201.37      -137.20}
+  {     -235.54       -97.83      -225.38      -135.04}
+  {     -235.54       -97.83      -154.43       -82.68}
+  {     -386.79       -82.68      -358.76       -39.37}
+  {     -386.79       -82.68      -375.86       -43.90}
+  {     -386.79       -82.68      -380.21       -53.15}
+  {     -386.79       -82.68      -374.69       -59.84}
+  {     -386.79       -82.68      -363.09       -62.20}
+  {     -386.79       -82.68      -368.46       -77.95}
+  {     -386.79       -82.68      -374.67       -87.80}
+  {     -386.79       -82.68      -384.06      -115.55}
+  {     -386.79       -82.68      -368.81      -133.86}
+  {     -386.79       -82.68      -360.36      -112.99}
+  {     -386.79       -82.68      -343.44      -113.39}
+  {     -386.79       -82.68      -357.08      -102.95}
+  {     -386.79       -82.68      -351.58       -81.30}
+  {     -386.79       -82.68      -288.24       -69.49}
+  {     -386.79       -82.68      -309.75       -54.92}
+  {     -386.79       -82.68      -316.48       -13.78}
+  {     -386.79       -82.68      -335.35       -11.02}
+  {     -367.56       -82.68      -301.53       -50.79}
+  {     -301.53       -50.79      -223.19      -103.15}
+  {     -301.53       -50.79      -125.91       -34.06}
+  {     -125.91       -34.06      -117.44        24.61}
+  {     -125.91       -34.06       -94.52        57.28}
+  {     -125.91       -34.06       -34.26        85.63}
+  {     -125.91       -34.06        12.14        72.83}
+  {     -125.91       -34.06        35.26        12.20}
+  {     -125.91       -34.06        36.65       -46.06}
+  {     -125.91       -34.06        45.16       -82.48}
+  {     -125.91       -34.06       -80.67       -49.02}
+  {     -125.91       -34.06      -117.91       -51.77}
+  {     -125.91       -34.06       -76.90       -41.93}
+  {     -125.91       -34.06        19.88       -93.70}
+  {       19.88       -93.70       150.76       -29.33}
+  {       19.88       -93.70       110.41       -32.48}
+  {       19.88       -93.70       108.03       -23.62}
+  {       19.88       -93.70       119.72       -31.30}
+  {       19.88       -93.70       144.84       -77.56}
+  {       19.88       -93.70       205.81       -67.32}
+  {       19.88       -93.70       201.40       -32.48}
+  {       19.88       -93.70       212.70       -43.50}
+  {       19.88       -93.70       230.20       -50.20}
+  {       19.88       -93.70       220.66       -61.42}
+  {       19.88       -93.70       134.02       -75.59}
+  {       19.88       -93.70       106.59       -49.21}
+  {       19.88       -93.70        68.19       -36.81}
+  {       19.88       -93.70        43.35       -33.86}
+  {       19.88       -93.70        37.95       -38.78}
+  {       19.88       -93.70        37.91       -58.07}
+  {       19.88       -93.70        56.39       -59.65}
+  {       19.88       -93.70        74.59       -69.88}
+  {       19.88       -93.70        73.20       -92.13}
+  {       19.88       -93.70       166.30       -91.14}
+  {      166.30       -91.14       270.31       -83.27}
+  {      270.31       -83.27       287.39       -78.54}
+  {      270.31       -83.27       281.96       -68.70}
+  {      270.31       -83.27       277.29       -64.57}
+  {      270.31       -83.27       343.44       -59.25}
+  {      270.31       -83.27       344.19       -64.76}
+  {      270.31       -83.27       316.92       -74.41}
+  {      270.31       -83.27       287.83       -86.02}
+  {      270.31       -83.27       271.54       -88.78}
+  {      270.31       -83.27       374.45       -95.87}
+  {      374.45       -95.87       380.92       -86.02}
+  {      374.45       -95.87       391.44       -78.94}
+  {      374.45       -95.87       440.44       -70.67}
+  {      374.45       -95.87       434.13      -105.51}
+  {      374.45       -95.87       406.37      -119.69}
+  {      374.45       -95.87       376.50      -123.82}
+  {      374.45       -95.87       388.17      -126.38}
+  {      374.45       -95.87       382.99       -98.23}
+  {      374.45       -95.87       505.14      -137.60}
+  {      505.14      -137.60       512.95      -120.87}
+  {      505.14      -137.60       507.18      -110.83}
+  {      505.14      -137.60       550.54      -102.76}
+  {      505.14      -137.60       573.31       -98.62}
+  {      505.14      -137.60       580.30      -124.02}
+  {      505.14      -137.60       548.98      -146.26}
+  {      505.14      -137.60       513.43      -152.17}
+  {      505.14      -137.60       613.70      -146.46}
+  {       19.88       -93.70        70.93       -84.84}
+  {       70.93       -84.84       195.07       -20.28}
+  {      195.07       -20.28       229.25       -29.72}
+  {      195.07       -20.28       219.98        15.75}
+  {      195.07       -20.28       210.61        19.49}
+  {      195.07       -20.28       235.75        18.11}
+  {      195.07       -20.28       237.88         0.98}
+  {      195.07       -20.28       267.04         1.97}
+  {      195.07       -20.28       265.58       -31.89}
+  {      195.07       -20.28       222.79       -25.20}
+  {      195.07       -20.28       197.61       -36.22}
+  {      195.07       -20.28       224.75       -21.85}
+  {      195.07       -20.28       277.88       -13.98}
+  {     -301.53       -50.79      -301.53       -50.79}
+  {     -323.21       -36.02      -146.91       -50.79}
+  {     -323.21       -36.02      -297.72       -34.65}
+  {     -323.21       -36.02      -278.88       -33.46}
+  {     -323.21       -36.02      -243.56       -14.76}
+  {     -323.21       -36.02      -193.35       -39.37}
+  {     -323.21       -36.02      -193.22       -17.91}
+  {     -323.21       -36.02      -176.10         9.25}
+  {     -323.21       -36.02      -155.04        34.84}
+  {     -488.81      -106.10      -323.21       -36.02}
+  {     -488.81      -106.10      -301.53       -50.79}
+  {     -488.81      -106.10      -488.81      -106.10}
+  {     -488.81      -106.10      -396.08      -100.00}
+  {     -488.81      -106.10      -435.96      -100.39}
+  {     -488.81      -106.10      -441.41      -101.18}
+  {     -488.81      -106.10      -453.03      -107.28}
+  {     -488.81      -106.10      -473.30      -107.28}
+  {     -488.81      -106.10      -477.59      -108.46}
+  {     -488.81      -106.10      -469.52      -108.46}
+  {     -488.81      -106.10      -432.20      -112.99}
+  {     -488.81      -106.10      -418.39      -107.48}
+  {     -488.81      -106.10      -461.86      -106.30}
+  {     -488.81      -106.10      -431.42      -103.54}
+  {     -488.81      -106.10      -475.36      -106.89}
+  {     -488.81      -106.10      -459.01      -106.69}
+  {     -488.81      -106.10      -436.83      -104.33}
+  {     -488.81      -106.10      -401.04       -99.61}
+  {     -488.81      -106.10      -410.25       -99.80}
+  {     -488.81      -106.10      -338.45       -86.42}
+  {     -338.45       -86.42      -325.81       -88.98}
+  {     -338.45       -86.42      -324.68       -95.28}
+  {     -338.45       -86.42      -266.59       -62.01}
+  {     -338.45       -86.42      -269.03       -61.02}
+  {     -338.45       -86.42      -314.16       -98.23}
+  {     -338.45       -86.42      -288.72       -99.61}
+  {     -338.45       -86.42      -259.77       -99.80}
+  {     -338.45       -86.42      -291.86       -97.83}
+  {     -338.45       -86.42      -307.16       -83.07}
+  {     -338.45       -86.42      -262.09       -82.28}
+  {     -488.81      -106.10      -488.81      -106.10}
+  {     -488.81      -106.10      -389.96       -88.39}
+  {     -488.81      -106.10      -381.18       -69.29}
+  {     -488.81      -106.10      -393.61       -75.98}
+  {     -488.81      -106.10      -399.51       -87.01}
+  {     -488.81      -106.10      -373.36       -76.77}
+  {     -488.81      -106.10      -411.09       -67.52}
+  {     -488.81      -106.10      -386.44       -60.63}
+  {     -323.21       -36.02      -323.21       -36.02}
+  {     -323.21       -36.02      -273.49       -52.56}
+  {     -323.21       -36.02      -246.60       -73.23}
+  {     -323.21       -36.02      -291.30       -42.32}
+  {     -323.21       -36.02      -260.06       -26.18}
+  {     -323.21       -36.02      -274.06       -36.61}
+  {     -323.21       -36.02      -264.55       -25.20}
+  {     -323.21       -36.02      -287.17       -45.28}
+  {     -323.21       -36.02      -266.87       -42.13}
+  {     -323.21       -36.02      -305.86       -52.95}
+  {     -323.21       -36.02      -298.59       -48.03}
+  {     -323.21       -36.02      -280.27       -42.13}
+  {     -323.21       -36.02      -289.24       -79.53}
+  {     -323.21       -36.02      -291.23       -78.94}
+  {     -323.21       -36.02      -243.50       -93.70}
+  {     -323.21       -36.02      -257.45       -89.17}
+  {     -338.45       -86.42      -338.45       -86.42}
+  {     -338.45       -86.42      -214.28       -21.46}
+  {     -214.28       -21.46      -142.07       -37.99}
+  {     -214.28       -21.46      -142.83       -25.98}
+  {     -214.28       -21.46      -127.11       -27.36}
+  {     -214.28       -21.46      -133.80       -52.36}
+  {     -214.28       -21.46      -142.41       -66.93}
+  {     -214.28       -21.46      -163.73       -57.28}
+  {     -214.28       -21.46      -203.85       -32.48}
+  {     -214.28       -21.46      -178.14       -26.97}
+  {     -214.28       -21.46      -151.22       -13.58}
+  {     -151.22       -13.58       -33.89       -11.61}
+  {     -151.22       -13.58       -52.33       -14.76}
+  {     -151.22       -13.58       -82.99        17.91}
+  {     -151.22       -13.58      -113.77        12.20}
+  {     -151.22       -13.58      -132.25        11.22}
+  {     -151.22       -13.58      -133.52       -47.83}
+  {     -151.22       -13.58       -38.85       -12.01}
+  {     -214.28       -21.46      -214.28       -21.46}
+  {     -214.28       -21.46      -179.14       -19.29}
+  {     -214.28       -21.46      -182.50       -17.32}
+  {     -151.22       -13.58      -151.22       -13.58}
+  {     -200.21       -17.91      -151.22       -13.58}
+  {     -200.21       -17.91      -151.46       -13.39}
+  {     -200.21       -17.91      -194.62        48.03}
+  {     -200.21       -17.91      -195.59        53.54}
+  {     -200.21       -17.91      -186.75        17.32}
+  {     -200.21       -17.91      -183.09        39.76}
+  {     -200.21       -17.91      -181.70        28.74}
+  {     -200.21       -17.91      -149.10        -2.56}
+  {     -200.21       -17.91      -166.69         4.72}
+  {     -200.21       -17.91      -169.78        33.86}
+  {     -200.21       -17.91      -173.08        96.26}
+  {     -200.21       -17.91      -195.27        37.20}
+  {     -200.21       -17.91      -191.99        25.00}
+  {     -200.21       -17.91      -177.79        14.37}
+  {     -200.21       -17.91      -160.84         8.46}
+  {     -200.21       -17.91      -149.31       -11.61}
+  {     -200.21       -17.91      -151.15       -16.54}
+  {     -151.22       -13.58      -151.22       -13.58}
+  {     -151.22       -13.58      -134.05       -51.38}
+  {     -151.22       -13.58      -137.71       -43.31}
+  {     -137.71       -43.31      -109.14       -54.33}
+  {     -137.71       -43.31      -137.71       -43.31}
+  {     -137.71       -43.31      -114.78       -51.57}
+  {     -137.71       -43.31       -99.23       -55.71}
+  {     -137.71       -43.31       -76.69       -54.33}
+  {     -137.71       -43.31       -21.93       -14.76}
+  {     -137.71       -43.31        -8.99       -33.66}
+  {     -109.14       -54.33      -109.14       -54.33}
+  {     -109.14       -54.33       -78.63       -73.23}
+  {      -78.63       -73.23       -66.38       -71.85}
+  {      -78.63       -73.23       -66.71       -81.10}
+  {     -137.71       -43.31      -137.71       -43.31}
+  {     -137.71       -43.31       -61.74       -40.55}
+  {     -137.71       -43.31       -30.50       -39.57}
+  {     -137.71       -43.31        -3.32       -32.87}
+  {     -137.71       -43.31        12.92       -35.83}
+  {     -137.71       -43.31       -54.08       -51.57}
+  {     -137.71       -43.31       -27.27       -49.80}
+  {     -137.71       -43.31       -56.31       -47.83}
+  {     -137.71       -43.31       -29.16       -48.03}
+  {     -137.71       -43.31      -111.33       -45.28}
+  {     -137.71       -43.31         8.94       -47.64}
+  {        8.94       -47.64        39.62       -43.90}
+  {        8.94       -47.64        70.24       -46.06}
+  {        8.94       -47.64       123.88       -52.76}
+  {        8.94       -47.64        71.86       -43.31}
+  {        8.94       -47.64        90.65       -37.20}
+  {        8.94       -47.64        50.75       -47.64}
+  {        8.94       -47.64        24.89       -48.82}
+  {        8.94       -47.64        49.77       -51.97}
+  {        8.94       -47.64        53.82       -60.63}
+  {        8.94       -47.64       151.24       -43.31}
+  {      151.24       -43.31       193.37       -50.39}
+  {      151.24       -43.31       181.67       -50.98}
+  {      151.24       -43.31       168.56       -45.67}
+  {      151.24       -43.31       156.97       -50.39}
+  {      151.24       -43.31       156.75       -70.67}
+  {      151.24       -43.31       174.89       -71.26}
+  {      151.24       -43.31       188.54       -51.57}
+  {      151.24       -43.31       207.68       -48.43}
+  {      151.24       -43.31       216.33       -38.98}
+  {      151.24       -43.31       183.94       -36.61}
+  {      151.24       -43.31       208.67       -50.98}
+  {      151.24       -43.31       231.76       -47.05}
+  {      151.24       -43.31       288.09       -49.80}
+  {      151.24       -43.31       374.83       -53.74}
+  {      151.24       -43.31       188.78       -52.76}
+  {      151.24       -43.31       232.64       -54.33}
+  {      151.24       -43.31       215.24       -53.74}
+  {      151.24       -43.31       253.54       -66.54}
+  {      253.54       -66.54       282.46       -63.98}
+  {      253.54       -66.54       297.97       -71.85}
+  {      253.54       -66.54       268.11       -60.63}
+  {      253.54       -66.54       307.53       -62.01}
+  {      253.54       -66.54       320.90       -67.52}
+  {      253.54       -66.54       305.42       -74.21}
+  {      253.54       -66.54       324.36       -71.46}
+  {      253.54       -66.54       382.37       -72.24}
+  {      382.37       -72.24       456.52       -69.29}
+  {      382.37       -72.24       382.37       -72.24}
+  {      382.37       -72.24       404.91       -70.87}
+  {      382.37       -72.24       414.84       -66.93}
+  {      382.37       -72.24       415.59       -73.62}
+  {      382.37       -72.24       425.23       -72.44}
+  {      382.37       -72.24       404.26       -72.64}
+  {      382.37       -72.24       400.67       -69.49}
+  {      382.37       -72.24       421.98       -64.37}
+  {      456.52       -69.29       456.52       -69.29}
+  {      456.52       -69.29       481.81       -68.50}
+  {      456.52       -69.29       471.63       -67.72}
+  {      456.52       -69.29       475.66       -72.44}
+  {      456.52       -69.29       475.14       -73.82}
+  {      456.52       -69.29       524.33       -76.97}
+  {      456.52       -69.29       499.72       -67.13}
+  {      456.52       -69.29       492.37       -65.94}
+  {      456.52       -69.29       508.92       -62.40}
+  {      456.52       -69.29       526.51       -62.80}
+  {      456.52       -69.29       539.84       -63.98}
+  {      456.52       -69.29       514.72       -62.01}
+  {      456.52       -69.29       498.56       -61.02}
+  {      456.52       -69.29       497.91       -60.04}
+  {      456.52       -69.29       457.42       -55.71}
+  {      456.52       -69.29       459.10       -75.39}
+  {      456.52       -69.29       472.77       -67.52}
+  {      456.52       -69.29       539.51       -61.22}
+  {      456.52       -69.29       539.70       -60.83}
+  {      539.70       -60.83       576.08       -57.28}
+  {      539.70       -60.83       576.48       -58.86}
+  {      539.70       -60.83       585.37       -57.87}
+  {      539.70       -60.83       603.87       -61.22}
+  {      539.70       -60.83       662.03       -67.13}
+  {      539.70       -60.83       721.87       -68.11}
+  {      539.70       -60.83       611.76       -60.63}
+  {      539.70       -60.83       666.90       -57.87}
+  {      539.70       -60.83       678.44       -59.06}
+  {      539.70       -60.83       690.91       -62.01}
+  {      539.70       -60.83       676.86       -56.10}
+  {      539.70       -60.83       635.06       -56.30}
+  {      539.70       -60.83       643.88       -58.46}
+  {      539.70       -60.83       612.61       -60.04}
+  {      539.70       -60.83       554.29        69.09}
+  {      539.70       -60.83       547.24       -26.18}
+  {      539.70       -60.83       550.58       -26.18}
+  {      539.70       -60.83       551.56       -37.01}
+  {      539.70       -60.83       548.70       -29.72}
+  {      539.70       -60.83       564.95       -25.39}
+  {      539.70       -60.83       574.41       -52.95}
+  {      539.70       -60.83       582.40       -66.93}
+  {      539.70       -60.83       564.89       -66.73}
+  {      539.70       -60.83       560.57       -65.16}
+  {      539.70       -60.83       578.08       -65.55}
+  {      539.70       -60.83       621.15      -102.17}
+  {      621.15      -102.17       681.93       -68.90}
+  {      621.15      -102.17       684.89       -69.09}
+  {      621.15      -102.17       686.37       -74.61}
+  {      621.15      -102.17       682.59       -71.26}
+  {      621.15      -102.17       749.53       -62.40}
+  {      621.15      -102.17       704.18       -61.22}
+  {      621.15      -102.17       725.04       -64.37}
+  {      621.15      -102.17       661.85      -126.97}
+  {      621.15      -102.17       781.21       -52.56}
+  {      621.15      -102.17       801.53       -27.56}
+  {      621.15      -102.17       861.94         7.28}
+  {      621.15      -102.17       798.83       -36.61}
+  {      621.15      -102.17       742.86       -75.39}
+  {      621.15      -102.17       717.65       -91.34}
+  {      717.65       -91.34       775.24       -69.29}
+  {      717.65       -91.34       742.30       -84.45}
+  {      717.65       -91.34       722.16       -62.40}
+  {      717.65       -91.34       732.78       -34.45}
+  {      717.65       -91.34       752.00       -38.78}
+  {      717.65       -91.34       764.74       -29.72}
+  {      717.65       -91.34       766.82       -38.39}
+  {      717.65       -91.34       815.85       -60.63}
+  {      717.65       -91.34       777.89      -101.57}
+  {      717.65       -91.34       745.56      -112.20}
+  {      717.65       -91.34       717.93      -105.71}
+  {      717.65       -91.34       760.68      -108.86}
+  {      760.68      -108.86       779.34      -108.86}
+  {      760.68      -108.86       780.66      -110.04}
+  {      760.68      -108.86       794.77      -109.25}
+  {      760.68      -108.86       760.68      -108.86}
+  {      760.68      -108.86       789.76      -104.33}
+  {      760.68      -108.86       788.06       -95.47}
+  {      760.68      -108.86       827.10      -116.14}
+  {      760.68      -108.86       760.68      -108.86}
+  {      760.68      -108.86       789.75      -109.45}
+  {      827.10      -116.14       827.10      -116.14}
+  {      827.10      -116.14       849.21      -112.20}
+  {      827.10      -116.14       839.90      -115.94}
+  {      827.10      -116.14       849.47      -125.79}
+  {      849.47      -125.79       861.54      -131.69}
+  {      849.47      -125.79       873.48      -133.07}
+  {      849.47      -125.79       871.37      -137.01}
+  {      849.47      -125.79       868.60      -158.27}
+  {      827.10      -116.14       827.10      -116.14}
+  {      827.10      -116.14       831.71      -116.14}
 }
-set XVIgrid  {-882.739 -303.445 19.685 0.0 0.0 19.685 90 31}
+set XVIgrid  {-1063.46 -353.74 19.685 0.0 0.0 19.685 108 36}

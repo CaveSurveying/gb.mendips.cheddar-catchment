@@ -109,7 +109,9 @@ flags duplicate # Back to main passage
     N35  G1  9.8  349  45          #  Bang fume holes on right
     data normal from to length compass clino left right up down    
     N35  N36  18.03  295  9  0.00  2.10  1.00  1.40  #N36  
+flags not duplicate  
     N36  N37  4.25  346  -2  3.00  0.00  3.00  1.00  #N37  On RH wall above 1m climb
+flags duplicate
     data normal from to length compass clino 
     N37  H1  9.5  215  -20          #  Left passage leads to blind pot
 flags not duplicate     

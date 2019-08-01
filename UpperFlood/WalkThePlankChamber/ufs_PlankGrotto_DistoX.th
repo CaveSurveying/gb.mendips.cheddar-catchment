@@ -22,7 +22,6 @@ survey PlankGrotto_DistoX
 		sd compass clino 0.5 degrees
 		sd length 1 centimetre
 
-	flags duplicate # For now, duplicate out this one and leave in Pony survey.  Eventually, deprecate Pony survey.
 		data normal from to compass clino tape
 		extend right
 		0.1 0.0 65.23 -23.04 0.682			# 0.0 is the painted stal fixed point in Malcolm's Way
@@ -120,8 +119,8 @@ survey PlankGrotto_DistoX
 		0.9 - 358.91 -60.29 0.850
 		0.9 0.10 64.63 -4.63 5.533
 		
-	flags duplicate	# Trench Passage: for now, duplicate out this survey and leave the Pony one in as master.
 		0.5 0.11 219.08 9.82 2.632
+	flags duplicate	# Trench Passage: for now, duplicate out this survey and leave the Pony one in as master.
 		0.11 0.12 129.74 27.45 7.106
 		0.12 - 218.34 -15.36 1.801
 		0.12 - 215.22 55.42 2.230
