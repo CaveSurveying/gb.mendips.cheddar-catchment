@@ -1,0 +1,4 @@
+encoding  utf-8
+source Dave_Mitchells_Dig.th
+
+export model -fmt survex -o Dave_Mitchells_Dig.3d
