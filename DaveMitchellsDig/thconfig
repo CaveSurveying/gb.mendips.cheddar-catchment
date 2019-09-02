@@ -1,4 +1,4 @@
 encoding  utf-8
-source Dave_Mitchells_Dig.th
+source DaveMitchells.th
 
-export model -fmt survex -o Dave_Mitchells_Dig.3d
+export model -fmt survex -o DaveMitchellsth.3d
