@@ -19,7 +19,7 @@ endmap
 #to process this the correct 3d files are needed 
 #in the correct directories
 input Attborough/Attborough.th
-input Bagpit/Bagpit.th
+#input Bagpit/Bagpit.th
 input BakeHole/BakeHole.th
 input Blackmoor/Blackmoor.th
 input BlackrockRift/BlackrockRift.th
@@ -36,6 +36,7 @@ input ChelmsCombe/ChelmsCombe.th
 input ChewtonMendip/Buddles.th
 input Coopers/Coopers.th
 input Coxs/Coxs.th
+input DaveMitchellsDig/DaveMitchells.th #probably needs renaming to be consistant
 #corners is only needed for google maps mendip map
 #input corners.th
 input GB/GB.th
