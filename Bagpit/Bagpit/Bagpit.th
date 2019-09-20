@@ -4,9 +4,29 @@ survey Bagpit
 input "Bagpit plan.th2"
 input "Bagpit ee.th2"
 
-input "SlabChamber/bagpit2_2.th"
+input "SlabChamber/SlabChamber.th"
+input "NextDoor/NextDoor.th"
 
-equate 43 1@bagpit2_2
+input Temp/bagpit_dig.th #containing survey Temp
+equate 21 20@Temp
+
+map BagpitLOCALM
+  BagpitSP1
+  BagpitSP2
+  BagpitSP3
+  BagpitSP4
+  BagpitSP5
+endmap
+
+map BagpitM
+  SlabChamberM@SlabChamber
+  BagpitLOCALM
+endmap
+
+equate 43 1@SlabChamber
+equate 33 3.4@NextDoor
+
+join SlabChamberSP1@SlabChamber BagpitSP5
 
   centreline
   cs OSGB:ST
@@ -27,9 +47,6 @@ station 6 "Bagpit - Fox Hole" entrance
   instrument instruments UBSS2-distoX-2027
   
   explo-date 2018.12
-  explo-team "Alison Moody" 
-  explo-team "Pete Buckley"
-  explo-team "John Cooper"
   
   #File Bagpit.json - crash during trip forced a new file
   data nosurvey from to ignoreall
@@ -340,19 +357,20 @@ station 6 "Bagpit - Fox Hole" entrance
     42  -  2.78  1.86  4.03  
     42  -  3.49  7.81  1.80  
     42  -  2.41  12.37  1.86  
-    42  -  3.48  341.11  10.26  
+    42  -  3.48  341.11  10.26 
     42  43  2.40  305.20  20.95    ;  {from: 2.41 125.22 -21.02, 2.40 125.28 -20.96, 2.40 125.10 -20.89} nv stall
     43  -  0.92  209.11  20.48  
     43  -  0.94  91.76  75.72  
     43  -  0.38  83.24  -70.29  
     43  -  2.18  36.10  -12.60  
     43  -  0.78  35.60  18.42  
-    43  -  1.26  40.20  41.73  
-    43  44  3.52  316.52  22.40    ;  {from: 3.51 316.52 22.39, 3.52 316.53 22.38, 3.52 316.51 22.43}
-    44  -  1.68  45.84  13.49  
-    44  -  0.37  55.05  88.19  
-    44  -  0.80  243.78  -12.71  
-    44  45  2.28  332.99  17.05    ;  {from: 2.28 332.99 16.84, 2.28 332.98 17.28, 2.28 333.00 17.03}
+    43  -  1.26  40.20  41.73
+ #   43 to 45 removed as repeated on SlabChamber Survey 
+ #   43  44  3.52  316.52  22.40    ;  {from: 3.51 316.52 22.39, 3.52 316.53 22.38, 3.52 316.51 22.43}
+#    44  -  1.68  45.84  13.49  
+#    44  -  0.37  55.05  88.19  
+#    44  -  0.80  243.78  -12.71  
+#    44  45  2.28  332.99  17.05    ;  {from: 2.28 332.99 16.84, 2.28 332.98 17.28, 2.28 333.00 17.03}
     23  25  1.78  252.39  37.27    ;  {from: 1.78 252.38 37.24, 1.78 252.49 37.22, 1.78 252.30 37.35}
     25  -  0.31  56.96  76.17  
     25  -  0.89  133.63  3.32  

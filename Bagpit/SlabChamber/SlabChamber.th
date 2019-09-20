@@ -4,8 +4,22 @@ survey SlabChamber
 input "SlabChamber plan.th2"
 input "SlabChamber ee.th2"
 
+map SlabChamberM
+  SlabChamberSP1
+endmap
   
+
   centreline
+  
+    date 2018.02.12
+  copyright 2010 "Creative Commons BY NC SA"
+  
+  team "Andrew Atkinson" notes
+  team "Alison Moody" instruments
+  team "Simon Flower" dog
+  instrument instruments UBSS2-distoX-2027
+  
+  explo-date 2018.01
     data normal from to length compass clino ignoreall
   #calabration at AAs  
    # 1  -  3.059  94.86  31.35  
@@ -44,8 +58,10 @@ input "SlabChamber ee.th2"
     5  -  2.517  108.23  -28.54  
     5  -  1.658  60.43  35.36  
     5  -  2.893  90.20  2.80  
+  flags splay
     5  6  3.055  65.10  12.53    ;  {from: 3.058 65.14 12.53, 3.063 65.13 12.56, 3.044 65.04 12.49}
-    6  -  0.656  250.78  61.77  
+  flags not splay
+        6  -  0.656  250.78  61.77  
     6  -  1.487  21.95  16.83  
     6  -  2.073  94.16  -63.85  
     5  7  2.904  2.74  33.48    ;  {from: 2.905 2.70 33.51, 2.903 2.70 33.43, 2.904 2.82 33.49}
