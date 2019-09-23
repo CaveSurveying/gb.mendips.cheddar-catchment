@@ -4,13 +4,8 @@ survey Bagpit
 input "Bagpit plan.th2"
 input "Bagpit ee.th2"
 
-input "SlabChamber/SlabChamber.th"
-input "NextDoor/NextDoor.th"
 
-input Temp/bagpit_dig.th #containing survey Temp
-equate 21 20@Temp
-
-map BagpitLOCALM
+map BagpitM
   BagpitSP1
   BagpitSP2
   BagpitSP3
@@ -18,15 +13,7 @@ map BagpitLOCALM
   BagpitSP5
 endmap
 
-map BagpitM
-  SlabChamberM@SlabChamber
-  BagpitLOCALM
-endmap
 
-equate 43 1@SlabChamber
-equate 33 3.4@NextDoor
-
-join SlabChamberSP1@SlabChamber BagpitSP5
 
   centreline
   cs OSGB:ST
