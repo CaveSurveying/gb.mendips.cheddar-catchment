@@ -1,8 +1,9 @@
 encoding  utf-8
 survey Bagpit
 
-input "Bagpit plan.th2"
-input "Bagpit ee.th2"
+input "BagpitP.th2"
+#input BagpitEE.th2
+input BagpitE320.th2
 
 
 map BagpitM

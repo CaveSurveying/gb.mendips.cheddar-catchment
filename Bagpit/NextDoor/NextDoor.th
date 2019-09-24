@@ -3,8 +3,8 @@ encoding  utf-8
 
 survey NextDoor
 
-input "NextDoorP.th2"
-input "NextDoorEE.th2"
+input NextDoorP.th2
+input NextDoorE320.th2
 
 map NextDoorM
   NextDoorPS1

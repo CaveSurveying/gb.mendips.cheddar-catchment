@@ -4,6 +4,6 @@ source "SlabChamber.th"
 
 export model -o "SlabChamber.3d"
 
-# export map -proj plan -layout local -o "SlabChamber-plan.pdf"
+# export map -proj plan -layout local -o "SlabChamberP.pdf"
 
 # export map -proj extended -layout local -o "SlabChamber-ee.pdf"

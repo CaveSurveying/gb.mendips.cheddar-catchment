@@ -1,8 +1,9 @@
 encoding  utf-8
 survey SlabChamber
 
-input "SlabChamber plan.th2"
-input "SlabChamber ee.th2"
+input SlabChamberP.th2
+#input "SlabChamber ee.th2"
+input SlabChamberE320.th2
 
 map SlabChamberM
   SlabChamberSP1

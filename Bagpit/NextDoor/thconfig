@@ -10,6 +10,6 @@ source "NextDoor.th"
 
 export model -fmt survex -o "NextDoor-th.3d"
 
-# export map -proj plan -layout local -o "NextDoor-plan.pdf"
+# export map -proj plan -layout local -o "NextDoorP.pdf"
 
-# export map -proj extended -layout local -o "NextDoor-ee.pdf"
+# export map -proj extended -layout local -o "NextDoorEEpdf"
