@@ -11,6 +11,11 @@ map NextDoorM
   NextDoorPS2
 endmap
 
+map NextDoorE320M
+  NextDoorE320S1
+  NextDoorE320S2
+endmap
+
   
   centreline
   

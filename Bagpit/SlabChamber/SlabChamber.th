@@ -8,6 +8,10 @@ input SlabChamberE320.th2
 map SlabChamberM
   SlabChamberSP1
 endmap
+
+map SlabChamberE320M
+  SlabChamberE320S1
+endmap
   
 
   centreline

@@ -14,7 +14,12 @@ map BagpitM
   BagpitSP5
 endmap
 
-
+map BagpitE320M
+  BagpitE320S1
+  BagpitE320S2
+  BagpitE320S3
+  BagpitE320S4
+endmap
 
   centreline
   cs OSGB:ST
