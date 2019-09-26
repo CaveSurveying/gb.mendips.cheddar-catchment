@@ -7,6 +7,8 @@ encoding  utf-8
 
 scrap BagpitE320S1 -projection [elevation 320] -scale [-128.0 -128.0 718.55 -128.0 0.0 0.0 21.50237 0.0 m]
 
+point 200.0 476.0 label -align bottom-right -text OCD -scale l
+
 line wall -subtype sand
   104.5 466.0
   108.5 466.5 108.5 464.75 112.75 466.0
@@ -230,6 +232,10 @@ line arrow
   212.5 345.5
 endline
 
+point 299.0 258.5 label -align bottom-right -scale l -text Priddy<br>Good
+
+point 340.5 367.0 label -align bottom-right -scale l -text Wedge<br>Chamber
+
 line wall -subtype blocks
   250.0 306.0
   254.0 310.5 267.0 322.0 274.0 325.0
@@ -277,9 +283,11 @@ line wall -subtype blocks
   smooth off
 endline
 
-point 511.5 139.0 label -align bottom-right -text [ <br>looking towards 320]
+point 511.5 139.0 label -align bottom-right -text [ <br>Looking towards 320]
 
 point 511.5 139.0 label -text Elevation -scale xl -align top-right
+
+point 595 135.5 label -scale xs -align bottom-right -text [o]
 
 line wall
   194.5 249.0

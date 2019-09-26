@@ -46,24 +46,24 @@ that have made <br>information available.<br>\
 Data available at www.cave-registry.org.uk<br>\
 Grade UISv1 6-4-BEF<br>\
 Copyright 2018-9 CC BY NC SA <br>\
- <br>\
- Heights in metres AOD. Directions and coordinates to OS Grid"
+<br>\
+Heights in metres AOD. Directions and coordinates to OS Grid"
 #map-image -3 98 sw BagpitP.pdf
-overlap 10 mm
+overlap 9 mm
 code tex-map
 %\framethickness=0.5mm %Puts a boder round the whole survey
 
     \def\maplayout{
-    %\hsize=23 cm
         \legendbox{3}{102}{SW}{\loadpicture{/mnt/c408ae7c-c590-4fe0-ab71-538d53a95829/Andrew/Caving/Surveys/CheddarCatchment/Bagpit/BagpitP.pdf}} %has to be full path
         \legendbox{57}{95}{SW}{\scalebar}
-        \legendbox{113}{90}{NE}{\loadpicture{/mnt/c408ae7c-c590-4fe0-ab71-538d53a95829/Andrew/Caving/Surveys/CheddarCatchment/Bagpit/20181218_2_scaled.JPG}}
+        \legendbox{113}{90}{NE}{\loadpicture{/mnt/c408ae7c-c590-4fe0-ab71-538d53a95829/Andrew/Caving/Surveys/CheddarCatchment/Bagpit/20181218_2_scaled.JPG}\hsize=7 cm \smallskip Pete Buckley decending the pitch \it Alison Moody}
+        
         %\legendbox{113}{90}{NE}{{Pete Descending the pitch}}
         \legendbox{-6}{100}{SW}{\northarrow}
-        \legendbox{0}{-3}{SW}{\size[40]\the\cavename\bigskip\size[16]ST 49360 52192 255}
-       \legendbox{113}{-3}{SE}{\the\comment}
-       \comment={\hbox{\size[30]\color[100 100 100]FD}} %covers up the grid marker I do not want
-        \legendbox{114}{118}{SW}{\the\comment}
+        \legendbox{0}{-4}{SW}{\size[40]\the\cavename\hskip2em\size[16]\the\cavelengthtitle: \the\cavelength\bigskip ST 49360 52192 255 \hskip3.2em\size[16]\the\cavedepthtitle: \the\cavedepth}
+       \legendbox{113}{-4}{SE}{\the\comment}
+       \comment={{\size[30]\color[100 100 100]FD}} %covers up the grid marker I do not want
+        \legendbox{114}{118}{SW}{\hbox\the\comment}
                      }
 endcode                     
                      
@@ -93,9 +93,28 @@ enddef;
 
 initsymbol("p_entrance_Ched")
 
+def l_arrow_Ched (expr P, Q) =
+  T:=identity;
+  %pickup PenC;
+  thdrawoptions(dashed dashpattern( on 1bp off 5bp) scaled (1 * optical_zoom) withpen PenC);
+  thdraw P;
+  thdrawoptions();
+  p := (-.1u,-.25u)--(0,0)--(.1u,-.25u);
+  if odd Q:
+    draw p rotated (angle(thdir(P,0))+90) shifted (point 0 of P);
+  fi;
+  if Q>1:
+    draw p rotated (angle(thdir(P,length P))-90) 
+         shifted (point infinity of P);
+  fi;
+enddef;
+
+initsymbol("l_arrow_Ched")
+
 endcode
 
 symbol-assign point entrance Ched
+symbol-assign line arrow Ched
 
 endlayout
 
