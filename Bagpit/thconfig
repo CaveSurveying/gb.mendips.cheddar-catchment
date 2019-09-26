@@ -36,7 +36,7 @@ endlayout
 layout combined
 copy local
 grid-coords border
-grid top
+grid bottom
 map-header-bg on
 legend off
 map-comment "Drawn, using Therion, by Andrew Atkinson.<br>\
