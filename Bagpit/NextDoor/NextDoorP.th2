@@ -73,6 +73,18 @@ endscrap
 
 scrap NextDoorPS2 -projection plan -scale [-131.33578865610934 -135.11587468060088 957.4480570662613 -135.11587468060088 0.0 0.0 27.655109681348215 0.0 m]
 
+line pit -reverse on
+  543.0 98.0
+  505.0 122.0 457.0 145.0 440.0 164.0
+  423.0 183.0 427.0 179.0 418.0 204.0
+endline
+
+point 534.0 178.0 gradient -orientation 79.1
+
+point 355.0 174.0 gradient -orientation 130.0
+
+point 254.0 361.0 gradient -orientation 160.7
+
 line wall
   206.0 413.0
   217.0 404.0 196.0 391.0 202.0 381.0

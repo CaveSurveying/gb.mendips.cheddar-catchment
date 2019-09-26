@@ -22,7 +22,7 @@ line wall -subtype sand
   smooth off
 endline
 
-point 313.0 564.0 gradient -orientation 263.3 -scale xl
+point 313.0 564.0 entrance -orientation 263.3 -scale xl
 
 line wall
   288.5 501.5

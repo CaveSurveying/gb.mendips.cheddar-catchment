@@ -1,0 +1,102 @@
+encoding  utf-8
+source Bagpit.th
+
+select BagpitE320M@Bagpit -map-level 1
+select BagpitPM@Bagpit -map-level 1
+
+
+
+
+
+#Order of export is important for the combined output
+export map  -layout elevation -proj [elevation 320] -o BagpitE320.pdf
+export model -o Bagpitth.3d
+export map -layout plan -o BagpitP.pdf
+export map -layout combined -proj [elevation 320] -o Bagpit.pdf
+
+layout plan
+copy local
+symbol-hide special north-arrow
+symbol-hide special scale-bar
+statistics topo off
+map-header-bg off
+map-header 88 80 nw
+legend on
+legend-columns 1
+legend-width 50 mm
+overlap 1 mm
+code tex-map
+  \cavename={}
+  \cavedepth={}
+  \cavelength={}
+  endcode
+
+endlayout
+
+layout combined
+copy local
+grid-coords border
+grid top
+map-header-bg on
+legend off
+map-comment "Drawn, using Therion, by Andrew Atkinson.<br>\
+Survey UBSS/WCC<br>\
+With thanks to all the other cavers past and present \
+that have made <br>information available.<br>\
+Data available at www.cave-registry.org.uk<br>\
+Grade UISv1 6-4-BEF<br>\
+Copyright 2018-9 CC BY NC SA <br>\
+ <br>\
+ Heights in metres AOD. Directions and coordinates to OS Grid"
+#map-image -3 98 sw BagpitP.pdf
+overlap 10 mm
+code tex-map
+%\framethickness=0.5mm %Puts a boder round the whole survey
+
+    \def\maplayout{
+    %\hsize=23 cm
+        \legendbox{3}{102}{SW}{\loadpicture{/mnt/c408ae7c-c590-4fe0-ab71-538d53a95829/Andrew/Caving/Surveys/CheddarCatchment/Bagpit/BagpitP.pdf}} %has to be full path
+        \legendbox{57}{95}{SW}{\scalebar}
+        \legendbox{113}{90}{NE}{\loadpicture{/mnt/c408ae7c-c590-4fe0-ab71-538d53a95829/Andrew/Caving/Surveys/CheddarCatchment/Bagpit/20181218_2_scaled.JPG}}
+        %\legendbox{113}{90}{NE}{{Pete Descending the pitch}}
+        \legendbox{-6}{100}{SW}{\northarrow}
+        \legendbox{0}{-3}{SW}{\size[40]\the\cavename\bigskip\size[16]ST 49360 52192 255}
+       \legendbox{113}{-3}{SE}{\the\comment}
+       \comment={\hbox{\size[30]\color[100 100 100]FD}} %covers up the grid marker I do not want
+        \legendbox{114}{118}{SW}{\the\comment}
+                     }
+endcode                     
+                     
+endlayout
+
+layout local
+copy common
+colour map-fg map
+colour map-bg [100 100 100]
+colour-legend off #Turn on/off the maps legend
+grid-size 10 10 5 m
+grid-coords off
+debug off
+scale 1 140
+symbol-hide point station
+symbol-hide line border
+rotate 40
+symbol-hide group cave-centreline
+
+code metapost
+
+def p_entrance_Ched (expr pos,theta,sc,al)=
+    U:=(.25u,0.7u);
+    T:=identity aligned al rotated theta scaled sc shifted pos;
+    thdraw (-.25u,-0.7u)--(0,.7u)--(.25u,-.7u)--cycle;
+enddef;
+
+initsymbol("p_entrance_Ched")
+
+endcode
+
+symbol-assign point entrance Ched
+
+endlayout
+
+input ../common_layout.th
