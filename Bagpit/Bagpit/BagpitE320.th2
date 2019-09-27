@@ -229,7 +229,8 @@ endline
 
 line arrow
   516.0 448.0
-  212.5 345.5
+  303.5 449.5 206.5 363.0 206.5 363.0
+  smooth off
 endline
 
 point 299.0 258.5 label -align bottom-right -scale l -text Priddy<br>Good

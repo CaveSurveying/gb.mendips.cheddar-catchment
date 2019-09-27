@@ -69,24 +69,28 @@ point 187.40305413708842 968.7724554726353 station -name 7
 
 point 104.63305413708844 1132.5524554726353 station -name 6
 
-line overhang
+line ceiling-step
   258.0 385.0
   278.0 373.0 298.0 350.0 309.0 331.0
+  smooth off
 endline
 
-line overhang -reverse on
+line ceiling-step -reverse on
   244.0 348.0
   272.0 343.0 294.0 341.0 309.0 331.0
+  smooth off
 endline
 
-line overhang
+line ceiling-step
   159.0 26.0
   149.0 43.0 105.0 79.0 99.0 99.0
+  smooth off
 endline
 
-line overhang
+line ceiling-step
   137.0 201.0
   151.0 191.0 196.0 76.0 201.0 50.0
+  smooth off
 endline
 
 line wall
