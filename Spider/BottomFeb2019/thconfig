@@ -1,9 +1,9 @@
-encoding utf-8
+encoding  utf-8
 
-source "SpiderBottomFeb2019.th"
+source "BottomFeb2019.th"
 
-export model -o "SpiderBottomFeb2019.3d"
+export model -o "BottomFeb2019.3d"
 
-# export map -proj plan -layout local -o "SpiderBottomFeb2019-plan.pdf"
+# export map -proj plan -layout local -o "BottomFeb2019-plan.pdf"
 
-# export map -proj extended -layout local -o "SpiderBottomFeb2019-ee.pdf"
+# export map -proj extended -layout local -o "BottomFeb2019-ee.pdf"

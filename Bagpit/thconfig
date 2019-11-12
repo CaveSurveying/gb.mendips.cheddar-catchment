@@ -14,6 +14,12 @@ export model -o Bagpitth.3d
 export map -layout plan -o BagpitP.pdf
 export map -layout combined -proj [elevation 320] -o Bagpit.pdf
 
+export model -cs EPSG:27700 -fmt esri -output BagpitModel.shp
+
+layout GIS
+cs EPSG:27700
+endlayout
+
 layout plan
 copy local
 symbol-hide special north-arrow

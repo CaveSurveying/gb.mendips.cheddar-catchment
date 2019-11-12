@@ -85,6 +85,7 @@ symbol-hide special north-arrow
 symbol-hide special scale-bar
 #legend-width 20 cm 
 
+
 code tex-map
   \cavename={\size[60]  Reservoir Hole \size[30] and\size[60] White Spot Cave}
   \cavelength={} %empty

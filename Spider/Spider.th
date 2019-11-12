@@ -5,6 +5,7 @@ input Entrance/Entrance.th
 input Hazelnut/Hazelnut.th
 input TheDig/TheDig.th
 input 4TonneShaft/4TonneShaft.th
+input BottomFeb2019/BottomFeb2019.th
 
 map SpiderM
   EntranceM@Entrance
@@ -21,6 +22,7 @@ map SpiderEeM
   4TonneShaftMEe@4TonneShaft
 endmap
 
+equate 1@BottomFeb2019 7.4@4TonneShaft
 equate 7.0@4TonneShaft 3.8@TheDig
 equate 1.10@Entrance 2.0@Hazelnut
 equate 2.9@Hazelnut 3.0@TheDig
