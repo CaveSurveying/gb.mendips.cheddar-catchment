@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 470.0 1130.0 14879.515 18649.745
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {6080.88 1 1.0} {11842.25 PAINTED-MW1-stal@Leg1.MalcolmsWay.UpperFlood} 0.Maps/UF.xvi 0 {}
+##XTHERION## xth_me_area_adjust 172.76 1098.11 14975.974999999999 18657.225
+##XTHERION## xth_me_area_zoom_to 12
+##XTHERION## xth_me_image_insert {9159.03 1 1.0} {12840.29 L@Legend.UpperFlood} 0.Maps/UF.xvi 0 {}
 
 
 
@@ -31,15 +31,15 @@ point 5673.0 13459.0 station:fixed
 
 point 5415.0 13683.0 station:fixed
 
-point 5595.8 13704.59 station:fixed
+point 5595.8 13704.59 station -subtype fixed
 
-point 6512.0 13556.0 station:fixed
+point 6512.0 13556.0 station -subtype fixed
 
-point 6552.0 14074.0 station:fixed
+point 6552.0 14074.0 station -subtype fixed
 
-point 7133.0 14924.0 station:fixed
+point 7133.0 14924.0 station -subtype fixed
 
-point 6928.0 15180.0 station:fixed
+point 6928.0 15180.0 station -subtype fixed
 
 endscrap
 
