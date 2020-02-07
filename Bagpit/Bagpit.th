@@ -4,6 +4,7 @@ survey Bagpit
 input Bagpit/Bagpit.th
 input "SlabChamber/SlabChamber.th"
 input "NextDoor/NextDoor.th"
+input "MemoryLane/MemoryLane.th"
 
 map BagpitPM
   BagpitPM1
@@ -17,6 +18,7 @@ map BagpitPM1
 break
  BagpitSP3@Bagpit
  BagpitSP4@Bagpit
+ MemoryLaneSP1@MemoryLane
 endmap
 
 map BagpitPM2
@@ -49,6 +51,7 @@ endmap
 
 equate 43@Bagpit 1@SlabChamber
 equate 33@Bagpit 3.4@NextDoor
+equate 20@Bagpit 20@MemoryLane
 
 #input Temp/Bagpit_dig.th #containing survey Temp
 #equate 21 20@Temp
@@ -61,6 +64,7 @@ equate 33@Bagpit 3.4@NextDoor
 
 
 #Plan Joins #####################################
+join BagpitSP3@Bagpit MemoryLaneSP1@MemoryLane -smooth off
 join BagpitSP5@Bagpit SlabChamberSP1@SlabChamber -smooth on
 join BagpitSP5@Bagpit NextDoorPS1@NextDoor -smooth on
 
