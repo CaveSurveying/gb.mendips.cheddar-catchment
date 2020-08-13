@@ -1,38 +1,84 @@
 encoding  utf-8
-survey Spider
+survey SpiderHole -title "Spider Hole"
 
 input Entrance/Entrance.th
 input Hazelnut/Hazelnut.th
 input TheDig/TheDig.th
-input 4TonneShaft/4TonneShaft.th
-input BottomFeb2019/BottomFeb2019.th
+input 4Tonne/4Tonne.th
+input Bottom/Bottom.th
+input GrottoTop/GrottoTop.th
 
 map SpiderM
   EntranceM@Entrance
  break
   HazelnutM@Hazelnut
+ break
   TheDigM@TheDig
-  4TonneShaftM@4TonneShaft
+ break
+  4TonneM@4Tonne
+ break
+  BottomM@Bottom
+ break
+  GrottoTopM@GrottoTop
 endmap
 
-map SpiderEeM
-  EntranceEeM@Entrance
-  HazelnutEeM@Hazelnut
-  TheDigMEe@TheDig
-  4TonneShaftMEe@4TonneShaft
+#map SpiderTopM
+#  EntranceM@Entrance
+#endmap
+
+#map SpiderMiddleM
+#  HazelnutM@Hazelnut
+#endmap
+
+#map SpiderBottomM
+#  TheDigM@TheDig
+# break
+#  4TonneM@4Tonne
+# break
+#  BottomM@Bottom
+#endmap
+
+#map SpiderEeM
+#  EntranceEeM@Entrance
+#  HazelnutEeM@Hazelnut
+#  TheDigMEe@TheDig
+#  4TonneMEe@4Tonne
+#endmap
+
+map SpiderME90
+  EntranceME90@Entrance
+  HazelnutME90@Hazelnut
+  TheDigME90@TheDig
+  4TonneME90@4Tonne
+  BottomME90@Bottom
+  GrottoTopME90@GrottoTop
 endmap
 
-equate 1@BottomFeb2019 7.4@4TonneShaft
-equate 7.0@4TonneShaft 3.8@TheDig
 equate 1.10@Entrance 2.0@Hazelnut
 equate 2.9@Hazelnut 3.0@TheDig
+equate 3.8@TheDig 7.0@4Tonne
+equate 7.4@4Tonne 1@Bottom
+equate 10@Bottom 10@GrottoTop
 
 #Plan joins
-join EntranceSPl2@Entrance HazelnutSPl1@Hazelnut -smooth on
+join EntranceSP2@Entrance HazelnutSP1@Hazelnut -smooth on
+join HazelnutSP2@Hazelnut TheDigSP1@TheDig -smooth on
+join TheDigSP4@TheDig 4TonneSP1@4Tonne -smooth on
+join 4TonneSP1@4Tonne BottomSP1@Bottom -smooth on
+join BottomSP2@Bottom GrottoTopSP3@GrottoTop -smooth on
 
-#Elevation joins
-join HazelnutSEe1@Hazelnut TheDigSEe1@TheDig -smooth on
-join TheDigSEe1@TheDig 4TonneShaftSEe1@4TonneShaft -smooth on
+#ExtendedElevation joins
+#join EntranceSEe1@Entrance HazelnutSEe1@Hazelnut -smooth on
+#join HazelnutSEe1@Hazelnut TheDigSEe1@TheDig -smooth on
+#join TheDigSEe1@TheDig 4TonneSEe1@4Tonne -smooth on
+#join 4TonneSEe1@4Tonne BottomSEe1@Bottom  -smooth on
+
+#Elevation 90 joins
+join EntranceSE901@Entrance HazelnutSE901@Hazelnut -smooth on
+join HazelnutSE901@Hazelnut TheDigSE901@TheDig -smooth on
+join TheDigSE901@TheDig 4TonneSE901@4Tonne -smooth on
+join 4TonneSE901@4Tonne BottomSE901@Bottom  -smooth on
+join BottomSE901@Bottom GrottoTopSE902@GrottoTop -smooth on
 
 endsurvey
 

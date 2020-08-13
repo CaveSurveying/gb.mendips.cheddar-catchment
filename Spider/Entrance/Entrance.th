@@ -1,29 +1,34 @@
 encoding  utf-8
 survey Entrance
 
-input Entrance.th2
-input EntranceEe.th2
+input EntranceP.th2
+input EntranceE90.th2
+#input EntranceEe.th2
 
 map EntranceM
-  EntranceSPl1
+  EntranceSP1
  break
-  EntranceSPl2
+  EntranceSP2
 endmap
 
-map EntranceEeM
- EntranceSEe1
+#map EntranceEeM
+#  EntranceSEe1
+#endmap
+
+map EntranceME90
+ EntranceSE901
 endmap
 
 centreline
 cs OSGB:ST
-  date 2011.06.30
+#  date 2011.06.30
   
-  team "Andrew Atkinson" notes
-  team "Pete Hann" instruments
-  team "Adrian Vanderplank" dog
-  instrument instruments UBSS1-distoX
+#  team "Andrew Atkinson" notes
+#  team "Pete Hann" instruments
+#  team "Adrian Vanderplank" dog
+#  instrument instruments UBSS1-distoX
   
-  explo-date 2011
+#  explo-date 2011
 
 fix 1.0 48051 54245 184 #4805154245
 station 1.1 "" entrance 

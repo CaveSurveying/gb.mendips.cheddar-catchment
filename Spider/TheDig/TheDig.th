@@ -1,9 +1,9 @@
 encoding  utf-8
 survey TheDig
 
-input TheDig.th2
+input TheDigP.th2
 input TheDigE90.th2
-input TheDigEe.th2
+#input TheDigEe.th2
 
 map TheDigM
   TheDigSP1
@@ -16,15 +16,12 @@ map TheDigM
 endmap
 
 map TheDigME90 -proj [elevation 90]
-  TheDigSE90_1
-  TheDigSE90_2
-  TheDigSE90_3
-  TheDigSE90_4
+  TheDigSE901
 endmap
 
-map TheDigMEe -proj [extended]
-  TheDigSEe1
-endmap
+#map TheDigMEe -proj [extended]
+#  TheDigSEe1
+#endmap
   
 centreline
 
@@ -36,10 +33,10 @@ copyright 2013 "CC BY SA NC"
 #DistoX: Simon Flower
 
 
-  date 2013.04.29
+#  date 2013.04.29
 
-  team "Andrew Atkinson" notes
-  team "Simon Flower" instruments
+#  team "Andrew Atkinson" notes
+#  team "Simon Flower" instruments
 
 data normal from to tape compass clino ignoreall
 #  extend right
