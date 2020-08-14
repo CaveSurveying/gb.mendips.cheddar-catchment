@@ -1,0 +1,31 @@
+encoding  utf-8
+source GrottoTop.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout local -o GrottoTopP.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj [elevation 90] -layout local -o GrottotopE90.pdf
+
+#export map -proj extended -layout local -o GrottoTopEe.pdf
+
+export model -fmt survex -o GrottoTopth.3d
+#Survex file showing centre line only
+
+#export model -o GrottoTop.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Grotto_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+endlayout
+
+input ../../common_layout.th

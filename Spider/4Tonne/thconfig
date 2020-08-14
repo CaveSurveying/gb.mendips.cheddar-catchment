@@ -1,0 +1,8 @@
+encoding  utf-8
+source 4Tonne.th
+
+export model -fmt survex -o 4Tonne.3d
+export map -projection plan -o 4TonneP.pdf
+export map -projection [elevation 90] -o 4TonneE90.pdf
+#export map -projection extended -o 4TonneEe.pdf
+export model -o 4Tonne.lox

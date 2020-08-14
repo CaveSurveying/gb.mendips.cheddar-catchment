@@ -1,0 +1,33 @@
+encoding  utf-8
+survey Grotto
+
+input GrottoP.th2
+#input GrottoEe.th2
+input GrottoE90.th2
+
+map GrottoM
+    GrottoSP1
+    break
+    GrottoSP2
+    break
+    GrottoSP3 
+endmap
+
+map GrottoME90
+  GrottoSE901
+endmap
+
+centreline
+  date 2017.12.17
+  data normal from to compass clino tape
+  extend right
+  10 11 167.00 -0.1 3.596
+  11 12 126.69 64.21 1.855
+  12 13 338.99 8.19 1.088
+  12 14 179.38 -73.29 1.604
+  14 15 181.60 -1.80 4.078
+  15 16 191.11 45.42 2.173
+endcentreline
+
+endsurvey
+

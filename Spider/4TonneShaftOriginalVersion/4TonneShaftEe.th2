@@ -1,0 +1,66 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -136.0 -136.0 1163.90551181 1424.23202196
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {238.030393701 1 1.0} {629.78625737 7.2} PocketTopo/4TonneShaft_e.xvi 0 {}
+
+
+
+scrap 4TonneShaftSEe1 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -reverse on -subtype debris
+  898.0 178.0
+  894.0 214.0 884.0 396.0 880.0 428.0
+  876.0 460.0 890.01 527.77 766.0 522.0
+  680.0 518.0 519.66 526.57 434.0 518.0
+  354.0 510.0 319.39 517.43 296.0 572.0
+  284.0 600.0 192.0 624.0 170.0 618.0
+  smooth off
+endline
+
+line wall -reverse on -subtype sand
+  170.0 618.0
+  148.0 612.0 160.0 666.0 160.0 726.0
+  160.0 786.0 50.0 1036.0 54.0 1160.0
+  smooth off
+endline
+
+line wall -subtype blocks
+  898.0 178.0
+  998.0 186.0
+endline
+
+line wall -reverse on -subtype debris
+  164.0 1188.0
+  184.0 980.0 187.49 886.5 206.0 818.0
+  226.0 744.0 206.0 698.0 206.0 698.0
+  smooth off
+endline
+
+line wall -reverse on -subtype debris
+  206.0 698.0
+  206.0 698.0 211.41 677.77 274.0 656.0
+  320.0 640.0 372.0 610.0 398.0 628.0
+  424.0 646.0 466.47 706.05 456.0 660.0
+  436.0 572.0 632.0 590.0 730.0 588.0
+  766.05 587.26 929.79 619.78 938.0 550.0
+  944.29 496.52 998.0 186.0 998.0 186.0
+  smooth off
+endline
+
+point 952.490393701 115.12625737 station -name 7.6
+
+point 944.0 490.0 station -name 7.5
+
+point 866.930393701 556.26625737 station -name 7.4
+
+point 416.370393701 576.21625737 station -name 7.3
+
+point 238.030393701 629.78625737 station -name 7.2
+
+point 163.590393701 796.26625737 station -name 7.1
+
+point 106.850393701 1266.42625737 station -name 7.0
+
+endscrap
+
+

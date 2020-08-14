@@ -1,0 +1,184 @@
+therion 5.4.3 (2019-02-01)
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.20
+ 2> Copyright ¸ 1990-2015 Olly Betts
+ 3> Survey has no control points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 50 survey stations, joined by 49 shots.
+ 6> There are 0 loops.
+ 7> Total length of survey shots =   56.10m (  56.10m adjusted)
+ 8> Total plan length of survey shots =   35.91m
+ 9> Total vertical length of survey shots =   32.34m
+10> Vertical range = 19.31m (from 2 at 0.00m to 50 at -19.31m)
+11> North-South range = 8.01m (from 4 at 1.18m to 47 at -6.83m)
+12> East-West range = 1.95m (from 47 at 0.26m to 14 at -1.69m)
+13>   41 1-nodes.
+14>    1 2-node.
+15>    2 5-nodes.
+16>    3 6-nodes.
+17>    1 8-node.
+18>    1 9-node.
+19>    1 10-node.
+20> 
+######################### transcription ########################
+ 3> 1 : 2.9@TheDig
+ 5> 50 : -@TheDig -- 49 : -@TheDig
+10> 2 : 3.0@TheDig -- 50 : -@TheDig
+11> 4 : -@TheDig -- 47 : -@TheDig
+12> 47 : -@TheDig -- 14 : -@TheDig
+13> 41 : -@TheDig
+14> 1 : 2.9@TheDig
+15> 2 : 3.0@TheDig
+16> 3 : 3.1@TheDig
+17> 1 : 2.9@TheDig
+18> 1 : 2.9@TheDig
+19> 1 : 2.9@TheDig
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.05%
+writing TheDigP.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  11 MAR 2019 10:32
+**data.mp
+(./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013]
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+[14] [15] [16] [17] [18] [19] [20] [21] [22] [23] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1138 strings out of 1162
+ 14119 string characters out of 20720
+ 62730 words of memory out of 1500000
+ 1431 symbolic tokens out of 16384
+ 9i,75n,12p,197b,4f stack positions out of 300i,84n,5000p,200b,15f
+ 37 string compactions (moved 413085 characters, 33221 strings)
+36 output files written: data.1 .. data.4013
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  11 MAR 2019 10:32
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 74 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 269 strings out of 95617
+ 2724 string characters out of 1171098
+ 18116 words of memory out of 1504094
+ 1684 multiletter control sequences out of 15000+50000
+ 16503 words of font info for 54 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 6i,5n,6p,238b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
+/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
+/cmsy10.pfb>
+Output written on data.pdf (1 page, 33651 bytes).
+PDF statistics:
+ 98 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection elevation ... done
+average distortion: 0.09%
+writing TheDigE90.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.209 (kpathsea version 5.1.0) (mem=mpost 2010.01.31)  11 MAR 2019 10:32
+**data.mp
+(./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013]
+[1] [2] [3] [4] [5] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] [7] [8] [9] [10] [11] [12]
+[13] [14] [15] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1131 strings out of 1162
+ 14176 string characters out of 20720
+ 62730 words of memory out of 1500000
+ 1433 symbolic tokens out of 16384
+ 9i,75n,16p,299b,5f stack positions out of 300i,84n,5000p,312b,15f
+ 31 string compactions (moved 330568 characters, 26592 strings)
+28 output files written: data.1 .. data.4013
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdftex 2010.1.2)  11 MAR 2019 10:32
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 63 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 258 strings out of 95617
+ 2606 string characters out of 1171098
+ 20091 words of memory out of 1507069
+ 1673 multiletter control sequences out of 15000+50000
+ 16503 words of font info for 54 fonts, out of 1000000 for 2000
+ 849 hyphenation exceptions out of 1000
+ 6i,5n,6p,238b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program F
+iles (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion
+/texmf/fonts/type1/cmsy10.pfb>
+Output written on data.pdf (1 page, 25826 bytes).
+PDF statistics:
+ 65 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing TheDigth.3d ... done
+writing xtherion file ... done
+compilation time: 1 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.15%    0.85%  TheDigSP1@TheDig
+   0.00%    0.00%  TheDigSP4@TheDig
+   0.00%    0.00%  TheDigSP2@TheDig
+   0.00%    0.00%  TheDigSP3@TheDig
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: elevation
+ AVERAGE  MAXIMAL  SCRAP
+   0.09%    0.51%  TheDigSE901@TheDig
+################### end of scrap distortions ###################

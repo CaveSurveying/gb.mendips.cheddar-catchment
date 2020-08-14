@@ -1,0 +1,51 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -132.0 -132.0 276.0 972.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {139.00511811 1 1.0} {791.564518124 7.2} PocketTopo/4TonneShaft_p.xvi 0 {}
+
+
+
+scrap 4TonneSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line pit
+  84.0 173.0
+  84.0 173.0 68.95 199.63 19.0 197.0
+  smooth off
+endline
+
+line wall
+endline
+
+line wall
+  10.0 794.0
+  29.0 772.0 48.0 667.0 53.0 656.0
+  58.0 645.0 33.0 471.0 43.0 402.0
+  44.36 392.6 18.0 207.0 19.0 197.0
+  smooth off
+endline
+
+line wall
+  84.0 173.0
+  88.0 186.0 101.15 274.11 110.0 285.0
+  123.0 301.0 126.0 503.0 126.0 514.0
+  126.0 615.83 151.0 617.0 142.0 689.0
+  141.12 696.03 139.00511811 791.564518124 139.00511811 791.564518124
+  smooth off
+  139.00511811 791.564518124 137.48 815.03 134.0 822.0
+  123.0 844.0 99.0 866.0 99.0 866.0
+  smooth off
+endline
+
+point 67.4951181102 174.014518124 station -name 7.4
+
+point 76.6351181102 624.484518124 station -name 7.3
+
+point 139.00511811 791.564518124 station -name 7.2
+
+point 79.0351181102 835.664518124 station -name 7.1
+
+point 29.0551181102 808.814518124 station -name 7.0
+
+endscrap
+
+

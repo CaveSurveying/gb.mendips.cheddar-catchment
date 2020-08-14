@@ -1,0 +1,19 @@
+encoding  utf-8
+
+source Bottom.th
+
+export model -o Bottom.3d
+
+export map -proj plan -layout local -o BottomP.pdf"
+
+# export map -proj extended -layout local -o BottomEe.pdf
+
+export map -proj [elevation 90] -layout local -o BottomE90.pdf
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+endlayout
+
+input ../../common_layout.th
