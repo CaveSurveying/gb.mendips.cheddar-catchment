@@ -1,0 +1,4 @@
+encoding  utf-8
+source davemitchellsdig2020.th
+
+export model -fmt survex -o davemitchellsdig2020.3d

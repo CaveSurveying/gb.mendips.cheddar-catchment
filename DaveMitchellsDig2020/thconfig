@@ -1,0 +1,107 @@
+encoding  utf-8
+#select DMMP@DaveMitchellsDig2020
+source DaveMitchellsDig2020.th
+
+#Get .3d and .lox out of way first
+#--------
+
+export model -fmt survex -o DaveMitchellsDig2020th.3d
+export model -o DaveMitchellsDig2020.lox
+
+#note special layouts Projected and Plan defined later
+
+#projection first as used later in plan
+#--------
+
+export map -projection elevation -layout Projected -o DaveMitchellsDig2020E000.pdf
+
+#plan next
+#--------
+
+export map -projection plan -layout Plan -o DaveMitchellsDig2020P.pdf
+
+#now define the Plan layout
+#--------
+
+layout Plan
+
+copy local
+
+map-image -90 130 ne DaveMitchellsDig2020E000.pdf
+
+map-header 0 -100 nw
+
+map-comment "Entrance 49284 54335 242 OD<br>\
+Length 69 m (November 2020)<br>\
+Depth 55 m (November 2020)<br>\
+<br>\
+Drawn using Therion by John Cooper<br>\
+Survey by John Cooper and Adrian Vanderplank<br>\
+<br>\
+Grade UISv1 6-4-EF<br>\
+Copyright 2020 CC BY NC SA<br>\
+Data available at http://cave-registry.org.uk/<br>\
+<br>\
+Heights in metres OD\"
+
+scale-bar 5 metres
+
+colour-legend off
+
+grid-coords off
+
+code tex-map
+  \cavename={\size[40] Dave Mitchell's Dig}
+  \cavelength={} %empty
+  \cavedepth={} %empty
+  \colorlegendfalse
+endcode
+
+endlayout
+
+#now define the Projected layout
+#--------
+
+layout Projected
+
+copy local
+
+map-header 50 100 off
+
+statistics explo off
+statistics topo-length off
+
+symbol-hide special north-arrow
+symbol-hide special scale-bar
+symbol-hide group cave-centerline
+symbol-hide point cave-station
+
+endlayout
+
+layout local
+
+copy common
+
+doc-title "Dave Mitchell's Dig"
+
+grid-size 5 5 5 metres
+
+scale 1 250
+
+symbol-hide point remark
+symbol-hide group cave-centerline
+
+map-header 50 70 off
+map-header-bg off
+
+statistics explo off
+statistics topo off
+
+code metapost
+  fonts_setup(8,12,16,20,24)
+endcode
+
+endlayout
+
+#get the master layout settings
+input ../common_layout.th
