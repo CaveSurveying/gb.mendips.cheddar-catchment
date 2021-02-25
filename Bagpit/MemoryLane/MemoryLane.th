@@ -1,13 +1,25 @@
 encoding  utf-8
 # created with SexyTopo 1.4.6
 
-survey MemoryLane
+survey MemoryLane -title "Bone Passge"
 
 input "MemoryLanePlan.th2"
-input "MemoryLaneEE.th2"
+#input "MemoryLaneEE.th2"
+input "MemoryLaneE320.th2"
+input "MemoryLaneE230.th2"
 
 map MemoryLanePM
   MemoryLaneSP1
+endmap
+
+map MemoryLaneE230M
+  MemoryLaneE230S1
+endmap
+
+map MemoryLaneE320M
+  MemoryLaneE320S2
+ break
+  MemoryLaneE320S1
 endmap
 
 centreline

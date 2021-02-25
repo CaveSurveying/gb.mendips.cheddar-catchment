@@ -6,7 +6,7 @@ input MainHoleE90.th2
 input MainHoleE180.th2
 
 map MainHoleM
-  MainHoleSP1
+  #MainHoleSP1
  break
   MainHoleSP2
   #MainHoleSP3

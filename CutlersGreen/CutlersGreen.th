@@ -3,6 +3,7 @@ survey CutlersGreen -title "Cutler's Green"
 
 input MinorHoles/MinorHoles.th
 input MainHole/MainHole.th
+input 2020/2020.th
 
 map CutlersGreenM
   MainHoleM@MainHole
@@ -20,6 +21,7 @@ map CutlersGreenME180
 endmap
 
 equate 1.0@MinorHoles 0@MainHole
+equate 35@MainHole 1@CutlersGreen2020
 
 endsurvey
 

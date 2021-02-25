@@ -38,6 +38,10 @@ map BagpitE320M1
  BagpitE320S2@Bagpit
  BagpitE320S3@Bagpit
  #BagpitE320S4@Bagpit
+ #MemoryLaneE320M@MemoryLane
+ MemoryLaneE320S2@MemoryLane #Maps cannot contain boh maps and Scraps
+break
+ MemoryLaneE320S1@MemoryLane #Maps cannot contain boh maps and Scraps
 endmap
 
 map BagpitE320M2
@@ -69,6 +73,7 @@ join BagpitSP5@Bagpit SlabChamberSP1@SlabChamber -smooth on
 join BagpitSP5@Bagpit NextDoorPS1@NextDoor -smooth on
 
 #Elevation Joins ############################
+join BagpitE320S1@Bagpit MemoryLaneE320S1@MemoryLane
 join BagpitE320S4@Bagpit SlabChamberE320S1@SlabChamber -smooth on
 join BagpitE320S4@Bagpit NextDoorE320S1@NextDoor
 

@@ -11,21 +11,25 @@ line floor-step
   157.0 316.0
   146.0 305.0 103.0 279.0 118.0 265.0
   133.0 251.0 171.0 254.0 184.0 254.0
+  smooth off
 endline
 
 line floor-step
   125.0 351.0
   111.0 352.0 86.0 359.0 56.0 342.0
+  smooth off
 endline
 
 line overhang -reverse on
   184.0 254.0
   177.0 271.0 166.0 301.0 157.0 316.0
+  smooth off
 endline
 
 line overhang -reverse on
   179.0 107.0
   192.0 98.0 213.0 81.0 229.0 70.0
+  smooth off
 endline
 
 line wall
@@ -60,6 +64,7 @@ line wall
   107.0 453.0 115.0 484.0 118.0 495.0
   121.0 506.0 124.0 515.0 127.0 520.0
   130.0 525.0 134.0 543.0 140.0 551.0
+  smooth off
 endline
 
 point 240.57182177619063 84.7013352217939 station -name 25

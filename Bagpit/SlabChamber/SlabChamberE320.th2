@@ -84,7 +84,7 @@ line wall
   smooth off
 endline
 
-point 133.5 65.5 label -text [Slab Chamber] -scale l
+point 168.0 80.75 label -text [Slab Chamber] -scale l
 
 line wall -subtype sand
   54.5 58.5

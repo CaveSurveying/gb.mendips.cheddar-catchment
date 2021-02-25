@@ -27,7 +27,7 @@ layout local
 copy common
 debug off
 map-header 0 0 off
-symbol-hide group cave-centreline
+#symbol-hide group cave-centreline
 colour map-fg scrap
 endlayout
 
