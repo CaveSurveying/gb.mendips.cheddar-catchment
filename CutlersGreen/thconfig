@@ -15,22 +15,25 @@ select MainHoleM@MainHole.CutlersGreen
 select MinorHolesM@MinorHoles.CutlersGreen  -map-level 1
 select MainHoleME90@MainHole.CutlersGreen
 select MinorHolesME90@MinorHoles.CutlersGreen  -map-level 1
+select 2020M@2020.CutlersGreen
+select 2020ME90@2020.CutlersGreen
+select 2020ME180@2020.CutlersGreen
 
 
 
 layout plan
   copy local
   grid off
-  map-header 100 100 off
-  #map-image 100 100 sw CutlersGreenE180.pdf
- # map-image 100 100 se CutlersGreenE90.pdf
+  map-header 100 0 off
+ map-image 100 100 sw CutlersGreenE180.pdf
+  map-image 100 100 se CutlersGreenE90.pdf
   rotate 270
   overlap 4 mm
-  code tex-map
+code tex-map
   legend-width 9.2 cm
   \def\maplayout{
-    \legendbox{100}{100}{SE}{\loadpicture{/media/Data/Andrew/Caving/Surveys/CheddarCatchment/CutlersGreen/CutlersGreenE90.pdf}}
-    \legendbox{100}{100}{SW}{\loadpicture{/media/Data/Andrew/Caving/Surveys/CheddarCatchment/CutlersGreen/CutlersGreenE180.pdf}}
+    \legendbox{100}{100}{SE}{\loadpicture{/mnt/c408ae7c-c590-4fe0-ab71-538d53a95829/Andrew/Caving/Surveys/CheddarCatchment/CutlersGreen/CutlersGreenE90.pdf}}
+    \legendbox{100}{100}{SW}{\loadpicture{/mnt/c408ae7c-c590-4fe0-ab71-538d53a95829/Andrew/Caving/Surveys/CheddarCatchment/CutlersGreen/CutlersGreenE180.pdf}}
     \legendbox{100}{0}{SE}{
                   \hsize=3.4cm
                                                     \northarrow
@@ -76,11 +79,13 @@ layout plan
               \comment={http://cave-registry.org.uk/svn/CheddarCatchment}
               \the\comment
               \bigskip
-              \comment={Copyright 2016 CC BY NC SA}
+              \comment={Copyright 2021 CC BY NC SA}
               \size[14]\the\comment
               }
     }
   endcode
+
+
 endlayout
 
 layout elevation90

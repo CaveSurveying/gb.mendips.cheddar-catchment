@@ -6,22 +6,29 @@ input MainHole/MainHole.th
 input 2020/2020.th
 
 map CutlersGreenM
+  2020M@2020
   MainHoleM@MainHole
   MinorHolesM@MinorHoles
 endmap
 
 map CutlersGreenME90
+  2020ME90@2020
   MainHoleME90@MainHole
   MinorHolesME90@MinorHoles
 endmap
 
 map CutlersGreenME180
+  2020ME180@2020
   MainHoleME180@MainHole
   MinorHolesME180@MinorHoles
 endmap
 
 equate 1.0@MinorHoles 0@MainHole
-equate 35@MainHole 1@CutlersGreen2020
+equate 30@MainHole 1@2020
+
+join 2020PS1@2020 MainHoleSP2@MainHole -smooth on
+join 2020E180S1@2020 MainHoleSE180_1@MainHole -smooth on
+join 2020E90S1@2020 MainHoleSE90_2@MainHole -smooth on
 
 endsurvey
 

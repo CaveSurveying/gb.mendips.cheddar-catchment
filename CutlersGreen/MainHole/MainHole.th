@@ -262,10 +262,12 @@ data normal from to tape compass clino ignoreall
 #23  25  2.823  350.6  -41.14  352  
 #23  25  2.781  350.46  -41.11  352  
 23  25  2.791  349.75  -41.47  Calculated leg from 3 above
+flags duplicate
 #25  26  1.818  33.74  -11.75  352  
 #25  26  1.825  34.5  -10.88  352  
 #25  26  1.825  34.67  -10.48  352  
 25  26  1.823  34.12  -11.04  Calculated leg from 3 above
+flags not duplicate
 23  -  2.572  324.19  -39.19  337  
   extend left
 #27  23  1.469  54.33  15.61  5  

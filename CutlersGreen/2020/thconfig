@@ -1,0 +1,16 @@
+encoding  utf-8
+source "2020.th"
+
+export model -fmt survex -o "2020-th.3d"
+
+export map -proj plan -layout local -o "2020-plan.pdf"
+
+ export map -proj [elevation 90] -o 2020E90.pdf
+
+#export map -proj [elevation 180] -o 2020E180.xvi
+
+layout local
+  debug off
+  map-header 0 0 off
+  # symbol-hide group cave-centreline
+endlayout
