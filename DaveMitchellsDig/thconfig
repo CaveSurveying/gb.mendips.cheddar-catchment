@@ -1,4 +1,0 @@
-encoding  utf-8
-source DaveMitchells.th
-
-export model -fmt survex -o DaveMitchellsth.3d
