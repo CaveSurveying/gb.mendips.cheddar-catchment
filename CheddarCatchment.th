@@ -36,7 +36,7 @@ input ChelmsCombe/ChelmsCombe.th
 input ChewtonMendip/Buddles.th
 input Coopers/Coopers.th
 input Coxs/Coxs.th
-input DaveMitchellsDig/DaveMitchells.th #probably needs renaming to be consistant
+input DaveMitchellsDig/DaveMitchellsDig.th
 #corners is only needed for google maps mendip map
 #input corners.th
 input GB/GB.th
