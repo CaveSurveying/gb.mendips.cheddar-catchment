@@ -371,8 +371,6 @@ line wall
   smooth off
 endline
 
-line border
-endline
 
 line border
   4936.0 917.0

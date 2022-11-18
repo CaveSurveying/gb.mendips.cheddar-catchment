@@ -136,8 +136,6 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 point 748.0 3496.0 altitude -scale xs -align bl
 
@@ -262,8 +260,6 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 point 924.5 477.5 continuation -scale s -attr Type Climb -attr Grade C -text "Possible high passage above climb over deep pool"
 
@@ -803,8 +799,6 @@ line border
   smooth off
 endline
 
-line border
-endline
 
 line border
   1473.0 2032.0
@@ -1618,8 +1612,6 @@ line rock-border -close on
   1171.3 4085.90259843
 endline
 
-line rock-border
-endline
 
 line rock-edge
   1371.0 2653.5
@@ -1807,8 +1799,6 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 point 1189.0 3845.0 altitude -scale xs -align bl
 
@@ -2458,8 +2448,6 @@ line wall -subtype debris
   smooth off
 endline
 
-line wall
-endline
 
 endscrap
 

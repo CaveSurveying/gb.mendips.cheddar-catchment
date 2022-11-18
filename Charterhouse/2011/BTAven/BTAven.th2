@@ -113,8 +113,6 @@ line floor-step -reverse on
   smooth off
 endline
 
-line floor-step
-endline
 
 line floor-step
   734.5 2967.5
@@ -1622,8 +1620,6 @@ endscrap
 
 scrap BTAvenSX1.2 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line wall
-endline
 
 line wall -close on
   687.0 414.0

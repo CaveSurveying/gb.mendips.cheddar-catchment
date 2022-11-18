@@ -34,8 +34,6 @@ point 1210.86845506 2664.2714326 station -name 1.8
 
 point 1220.68845506 2717.3814326 station -name 1.6
 
-line chimney
-endline
 
 point 1151.71845506 2959.9914326 station -name 1.5
 
@@ -440,8 +438,6 @@ line section -reverse on -direction both
   3043.75 1468.75
 endline
 
-line rock-edge
-endline
 
 line rock-edge
   1262.5 4175.0

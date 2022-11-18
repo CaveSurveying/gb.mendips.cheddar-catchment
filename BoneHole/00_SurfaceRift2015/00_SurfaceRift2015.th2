@@ -13,13 +13,9 @@ line contour -outline out
   smooth off
 endline
 
-line pit -outline out
-endline
 
 point 1024.0 1508.0 station
 
-line pit -outline out
-endline
 
 line pit -reverse on -outline out
   702.0 764.0

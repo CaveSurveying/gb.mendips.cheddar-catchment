@@ -447,8 +447,6 @@ line border -id l73-1821--1157
   smooth off
 endline
 
-line section
-endline
 
 point 1642.0 -2364.0 water-flow -orientation 230.2 -scale l
 

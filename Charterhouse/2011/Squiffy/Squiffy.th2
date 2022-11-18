@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap SquiffySPl1 -projection plan -scale [-128.0 -128.0 1624.06299213 -128.0 0.0 0.0 44.5024000001 0.0 m]
 
-line wall
-endline
 
 point 75.0 4839.0 continuation -attr Type Dig -attr Grade B -text " Too Tight vertical rift"
 
@@ -128,8 +126,6 @@ line wall -id l4-522-3047
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   1019.5 1962.5

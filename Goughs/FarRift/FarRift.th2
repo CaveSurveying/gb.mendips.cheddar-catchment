@@ -1042,8 +1042,6 @@ endscrap
 
 scrap FarRiftSPl2 -projection plan -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-line wall
-endline
 
 line wall -reverse on
   1374.0 280.0

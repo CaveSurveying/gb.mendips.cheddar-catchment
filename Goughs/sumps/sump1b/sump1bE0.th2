@@ -233,14 +233,8 @@ line border -id l64-1337-364 -visibility off
   1336.0 381.25
 endline
 
-area water
-endarea
 
-line border -visibility off
-endline
 
-area water
-endarea
 
 endscrap
 

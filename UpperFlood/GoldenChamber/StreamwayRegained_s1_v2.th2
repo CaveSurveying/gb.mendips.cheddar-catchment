@@ -111,8 +111,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 point 234.5 105.0 water-flow -orientation 123.8 -scale l -align t
 

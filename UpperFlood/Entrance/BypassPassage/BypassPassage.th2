@@ -156,11 +156,7 @@ line border -id l27-3873-642
   smooth off
 endline
 
-area water
-endarea
 
-line pit -outline out
-endline
 
 line pit -close off -outline in
   644.5 1742.5
@@ -254,11 +250,7 @@ line ceiling-step -reverse on
   smooth off
 endline
 
-line ceiling-step
-endline
 
-line wall
-endline
 
 point 1200.0 2720.0 label -text "By-Pass<br><centre>Passage" -scale m -align l
 

@@ -166,8 +166,6 @@ point 423.0 845.0 pillar -scale xs
 
 point 819.059291338 933.70275591 station -name 1.5
 
-line border -subtype invisible
-endline
 
 line border -id l42-518-929 -close on -subtype invisible
   493.0 942.0

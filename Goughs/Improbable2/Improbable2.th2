@@ -255,8 +255,6 @@ line rock-border -close on
   795.5 3144.0
 endline
 
-line rock-edge
-endline
 
 line rock-border -close on
   468.5 4271.0

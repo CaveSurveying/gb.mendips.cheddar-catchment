@@ -179,8 +179,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 endscrap
 

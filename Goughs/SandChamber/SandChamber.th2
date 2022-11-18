@@ -46,8 +46,6 @@ line overhang
   smooth off
 endline
 
-line overhang
-endline
 
 line wall -close on -outline in
   377.08393701 1372.98937008

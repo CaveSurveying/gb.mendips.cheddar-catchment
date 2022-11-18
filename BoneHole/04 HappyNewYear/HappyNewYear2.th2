@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap HappyNewYear2SP1 -projection plan -station-names []  @HappyNewYear2 -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line contour
-endline
 
 line wall
   289.0 139.0

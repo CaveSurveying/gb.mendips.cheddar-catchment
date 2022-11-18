@@ -23,8 +23,6 @@ line section -direction both
   smooth off
 endline
 
-line wall
-endline
 
 point 264.0 912.0 map-connection
 
@@ -76,11 +74,7 @@ line wall -close off
   2726.0 484.0
 endline
 
-line wall
-endline
 
-line wall
-endline
 
 line rock-edge
   427.5 932.0

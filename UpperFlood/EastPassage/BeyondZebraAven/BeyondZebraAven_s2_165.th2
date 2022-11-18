@@ -53,8 +53,6 @@ point 3432.65 474.981 station -id BZA_48 -name 48@BZA_Pony
 
 point 3329.81 563.511 station -id BZA_47 -name 47@BZA_Pony
 
-line arrow -head end
-endline
 
 point 3148.23 713.591 station -id BZA_46 -name 46@BZA_Pony
 
@@ -184,8 +182,6 @@ line arrow -head end
   2666.0 647.0
 endline
 
-line wall
-endline
 
 point 2714.0 483.0 label -text "Blind aven (c5)" -scale xs -align l
 

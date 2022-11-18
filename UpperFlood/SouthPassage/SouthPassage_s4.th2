@@ -243,8 +243,6 @@ line wall -close on -outline in
   smooth off
 endline
 
-line gradient
-endline
 
 line ceiling-step
   891.0 2037.0
@@ -275,8 +273,6 @@ line wall -close on -outline in
   846.0 2216.0
 endline
 
-line wall
-endline
 
 line wall -reverse on
   460.0 3734.0

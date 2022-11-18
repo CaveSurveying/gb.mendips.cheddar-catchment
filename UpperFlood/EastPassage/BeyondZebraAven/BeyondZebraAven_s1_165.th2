@@ -128,8 +128,6 @@ endline
 
 point 2425.0 965.0 label -text "c5" -scale xs -align l
 
-line wall
-endline
 
 line wall
   2679.5 793.0
@@ -201,8 +199,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line arrow -head begin
   2062.0 1315.0

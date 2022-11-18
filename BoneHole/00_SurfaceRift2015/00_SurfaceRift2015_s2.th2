@@ -79,8 +79,6 @@ line border
   smooth off
 endline
 
-line pit -outline out
-endline
 
 point 1024.0 1508.0 station
 

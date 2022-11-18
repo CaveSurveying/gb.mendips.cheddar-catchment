@@ -185,8 +185,6 @@ line pit -outline in
   smooth off
 endline
 
-line wall
-endline
 
 line wall -outline in -subtype unsurveyed
   564.5 544.0

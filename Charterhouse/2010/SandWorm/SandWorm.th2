@@ -61,8 +61,6 @@ line floor-step -reverse on
   smooth off
 endline
 
-line chimney
-endline
 
 line chimney
   7351.0 3470.0
@@ -191,8 +189,6 @@ line pit -id l52-4495-3020 -reverse on
   smooth off
 endline
 
-line pit
-endline
 
 line rock-edge
   3314.0 1994.0
@@ -271,8 +267,6 @@ line rock-border -close on
   3317.0 1973.0
 endline
 
-line rock-border
-endline
 
 line rock-edge
   1401.0 1152.0
@@ -379,8 +373,6 @@ line rock-border -close on
   4046.0 2531.0
 endline
 
-line rock-edge
-endline
 
 line rock-border -close on
   3674.0 1758.0

@@ -108,8 +108,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 point 468 92.4 station -name 1.10
 

@@ -13,8 +13,6 @@ point 99.13333789200001 864.21448656 station -name 6.13
 
 point 114.063337892 640.7544865599999 station -name 6.12
 
-line pit
-endline
 
 line pit
   100.5 263.5

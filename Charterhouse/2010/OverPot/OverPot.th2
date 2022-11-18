@@ -661,8 +661,6 @@ line section -direction both
   smooth off
 endline
 
-line wall -outline none
-endline
 
 line wall -id l82-31-13 -reverse on -subtype presumed
   36.0 19.0

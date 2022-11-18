@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap LowerSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line border
-endline
 
 area water
   l15-181-441

@@ -73,8 +73,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   948.0 -624.0
@@ -103,11 +101,7 @@ point 711.0 -991.0 station -name 8
 
 point 744.0 -864.0 station -name 7
 
-line wall
-endline
 
-line wall
-endline
 
 line wall
   652.0 -958.0

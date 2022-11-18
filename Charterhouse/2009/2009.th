@@ -71,7 +71,7 @@ endmap
 join Quicksand_ChamberSPl1@Quicksand_Chamber DieselDuckSPl1@DieselDuck -smooth on
 join Quicksand_ChamberSPl2@Quicksand_Chamber DieselDuckSPl1@DieselDuck -smooth on
 join DieselDuckSPl4@DieselDuck Time_SquareSPl1@Time_Square -smooth on
-join DieselInletSPl1@DieselInlet StreamSPl2@Stream -smooth on  -count 4
+join DieselInletSPl1@DieselInlet StreamSPl2@Stream -smooth on  -count 2
 join PipeDream1SPl1@PipeDream1 PipeDream2SPl1@PipeDream2 -smooth on
 join PipeDream2SPl1@PipeDream2 StreamSPl1@Stream -smooth on 
 join PortalPoolSPl1@PortalPool Rip_Rift1SPl1@Rip_Rift1 -smooth on

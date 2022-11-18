@@ -44,8 +44,6 @@ point 3950.0 1818.0 label -text [blind avens] -scale m
 
 point 7650.0 2524.0 label -scale m -text [Once Only]
 
-line section -direction both
-endline
 
 line section -direction both
   5868.0 1688.0
@@ -71,8 +69,6 @@ line section -direction both
   smooth off
 endline
 
-line section
-endline
 
 line section -direction both
   5052.0 3000.0
@@ -94,8 +90,6 @@ line pit -close on -reverse on
   1986.0 1232.0
 endline
 
-line border
-endline
 
 area clay
   l124-4740-2744

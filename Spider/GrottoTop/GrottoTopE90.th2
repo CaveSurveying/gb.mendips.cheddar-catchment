@@ -76,8 +76,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   351.2 225.2

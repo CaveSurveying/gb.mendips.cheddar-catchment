@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap JillsSlitherSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line wall
-endline
 
 line wall -subtype sand
   607.0 1299.0
@@ -217,8 +215,6 @@ line border -id l92-400-2685 -close on -subtype invisible
   489.0 2678.0 476.0 2724.0 468.0 2748.0
 endline
 
-area sand
-endarea
 
 line border -close on -subtype invisible
   581.0 2378.0

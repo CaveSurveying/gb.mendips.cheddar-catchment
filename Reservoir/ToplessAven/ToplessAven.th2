@@ -16,8 +16,6 @@ line wall
   smooth off
 endline
 
-line rock-border
-endline
 
 line wall
   437.0 2910.0
@@ -96,8 +94,6 @@ line border
   549.0 2825.0
 endline
 
-line border
-endline
 
 line border
   578.0 2798.0
@@ -480,8 +476,6 @@ line section -direction both
   675.0 1261.0 535.0 1278.0 450.0 1289.0
 endline
 
-line section -direction both
-endline
 
 point 209.0 828.0 section -scrap ToplessAvenSX1.13
 

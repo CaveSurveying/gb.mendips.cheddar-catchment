@@ -215,8 +215,6 @@ line rock-border
   1662.0 298.0
 endline
 
-line rock-edge
-endline
 
 line rock-edge
   934.0 647.0
@@ -246,8 +244,6 @@ line rock-border -close on
   934.0 647.0
 endline
 
-line pit
-endline
 
 line wall
   455.0 715.0
@@ -425,8 +421,6 @@ line flowstone -close on
   637.0 861.0 582.0 872.0 576.0 895.0
 endline
 
-line flowstone
-endline
 
 line flowstone -id l60-546-898
   593.0 855.0
@@ -435,8 +429,6 @@ line flowstone -id l60-546-898
   smooth off
 endline
 
-line flowstone
-endline
 
 line flowstone -id l61-632-938
   553.0 921.0

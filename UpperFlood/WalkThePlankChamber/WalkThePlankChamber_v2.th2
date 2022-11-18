@@ -90,8 +90,6 @@ point 1165.0 1148.0 label -text "Walk the Plank" -scale s -align r
 
 point 883.0 1145.0 label -text "Aven" -scale xs
 
-line chimney
-endline
 
 point 2148.0 488.0 label -text "Plank Grotto" -scale s -align r
 

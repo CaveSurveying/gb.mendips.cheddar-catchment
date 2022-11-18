@@ -393,11 +393,7 @@ line rock-border -close on
   1823.0 1469.5
 endline
 
-line floor-step
-endline
 
-line rock-edge
-endline
 
 line rock-edge
   1790.0 1236.0
@@ -547,8 +543,6 @@ point 1983.0 2379.0 continuation -scale s -attr Type Climb -attr Grade B -text "
 
 point 2206.0 2007.5 label -text "Skeleton<br>Passage" -scale l -align br
 
-line border -subtype invisible
-endline
 
 area blocks
   l121-2948-2160

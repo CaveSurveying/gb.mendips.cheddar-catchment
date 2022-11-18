@@ -299,11 +299,7 @@ point 1086.0 1180.0 curtain -scale xs
 
 point 1382.0 1083.0 pillar -scale xs
 
-line border -subtype invisible
-endline
 
-line border -subtype invisible
-endline
 
 point 381.0 1596.0 stalagmite -scale xs
 

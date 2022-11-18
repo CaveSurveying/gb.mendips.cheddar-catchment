@@ -61,8 +61,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 point 560.326191343 335.118657826 station -name 2.7
 

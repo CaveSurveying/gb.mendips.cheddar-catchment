@@ -483,8 +483,6 @@ endscrap
 
 scrap up08ScP2 -projection plan -scale [-128 -907 913 -907 0.0 0.0 26.4414 0.0 m]
 
-line wall
-endline
 
 point 131.0 -707.75 label -text "Grotto of the<br>Singing Stal" -scale m -align r
 

@@ -53,11 +53,7 @@ line section -reverse on -direction end
   smooth off
 endline
 
-line rock-border
-endline
 
-line rock-edge
-endline
 
 line pit
   1990.0 5375.0
@@ -377,11 +373,7 @@ point 2021.89007874 5265.82307087 station -name 1.19
 
 point 2135.04007874 4952.28307087 station -name 1.18
 
-line rock-border
-endline
 
-line floor-step
-endline
 
 line rock-edge
   1426.0 4750.0

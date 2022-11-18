@@ -200,8 +200,6 @@ line pit -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 point 589.9573265200002 3113.76094488 station -name 7.25
 

@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap StreamEeSE1 -projection extended -scale [-128.0 -128.0 25246.1102362 -128.0 0.0 0.0 644.502399999 0.0 m]
 
-line wall
-endline
 
 line wall
   1013.0 254.0
@@ -16,8 +14,6 @@ line wall
   939.0 281.0 883.0 298.0 868.0 299.0
 endline
 
-line wall
-endline
 
 line wall
   1034.0 574.0

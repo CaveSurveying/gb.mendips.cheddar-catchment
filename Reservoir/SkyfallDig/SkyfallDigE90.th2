@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap SkyfallDigSE90_1 -projection [elevation 90] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line overhang
-endline
 
 line rock-border -close on
   828.0 1200.0

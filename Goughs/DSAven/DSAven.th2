@@ -11,8 +11,6 @@ point 335.907007874 90.38992126 station -name 1.1
 
 point 303.937007874 510.62992126 station -name 1.0
 
-line wall
-endline
 
 line wall
   372.0 104.5

@@ -39,8 +39,6 @@ line wall -id wall_BCs3_1
   smooth off
 endline
 
-line wall -subtype blocks
-endline
 
 line wall -id wall_BCs3_2 -subtype blocks
   566.0 249.5

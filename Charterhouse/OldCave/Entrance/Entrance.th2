@@ -659,11 +659,7 @@ line wall
   smooth off
 endline
 
-line rock-edge
-endline
 
-line overhang
-endline
 
 line rock-border -close on
   6393.0 8246.0
@@ -2285,8 +2281,6 @@ line pit -reverse on
   smooth off
 endline
 
-line pit
-endline
 
 line pit -id l268-1981-3623 -reverse on
   1918.0 3662.0
@@ -2302,8 +2296,6 @@ line pit -id l165-2330-4450
   smooth off
 endline
 
-line pit
-endline
 
 line pit -id l271-1926-3403
   1852.0 3119.0
@@ -3276,8 +3268,6 @@ endscrap
 
 scrap EntranceSPl7 -projection plan -scale [-128.0 -128.0 8002.01574803 -128.0 0.0 0.0 206.5024 0.0 m]
 
-area water
-endarea
 
 point 104.0 82.0 altitude -scale xs -align bl
 
@@ -3408,8 +3398,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 area debris
   l416-104-805

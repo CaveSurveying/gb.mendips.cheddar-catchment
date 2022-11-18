@@ -523,8 +523,6 @@ endscrap
 
 scrap CeilingAround2SP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line overhang
-endline
 
 line pit
   2752.0 2146.0

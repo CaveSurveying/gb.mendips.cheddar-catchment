@@ -137,8 +137,6 @@ point 2241.0 -2430.0 station -name gb.d.2
 
 point 2356.0 -2790.0 station -name gb.d.4
 
-line wall
-endline
 
 line wall -reverse on
   2064.0 -2832.0

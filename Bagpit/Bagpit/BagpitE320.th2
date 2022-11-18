@@ -39,8 +39,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   266.5 572.5
@@ -113,8 +111,6 @@ scrap BagpitE320S2 -projection [elevation 320] -scale [-128.0 -128.0 718.55 -128
 
 point 176.0 426.5 label -text [Concrete Garden]  -scale l -align top-right
 
-line wall
-endline
 
 line arrow
   172.0 422.5

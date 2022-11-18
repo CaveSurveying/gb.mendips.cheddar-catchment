@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap Damocles3SPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line pit
-endline
 
 line pit
   771.0 417.0
@@ -38,8 +36,6 @@ endscrap
 
 scrap Damocles3SPl2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line overhang -outline out
-endline
 
 line overhang -outline out
   168.0 676.0

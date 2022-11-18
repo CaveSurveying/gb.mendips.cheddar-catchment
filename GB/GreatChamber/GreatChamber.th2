@@ -63,8 +63,6 @@ line wall -id l6-534-447 -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 line wall -id l106-634-410 -reverse on
   560.0 654.0

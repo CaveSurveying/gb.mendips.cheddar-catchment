@@ -546,8 +546,6 @@ line wall -id l36-532-3740
   smooth off
 endline
 
-line border -subtype invisible
-endline
 
 area flowstone
   l105-418-3632
@@ -593,8 +591,6 @@ line border -id l105-418-3632
   smooth off
 endline
 
-line wall -subtype unsurveyed
-endline
 
 line wall -subtype unsurveyed
   105.0 3498.0

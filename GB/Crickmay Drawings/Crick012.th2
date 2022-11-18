@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap Crick012ScP1 -projection plan -scale [-128 -3006 3721 -3006 0.0 0.0 97.7646 0.0 m]
 
-line border
-endline
 
 line border
   1859.0 -2025.0

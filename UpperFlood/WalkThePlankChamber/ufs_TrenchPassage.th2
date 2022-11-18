@@ -76,8 +76,6 @@ point 457.0 446.0 water-flow -orientation 103.4 -subtype intermittent -scale l -
 
 point 374.0 444.0 label -text "Trench Rising" -scale s -align l
 
-area water
-endarea
 
 point 531.0 289.0 label -text "Trench Passage" -scale m -align l
 

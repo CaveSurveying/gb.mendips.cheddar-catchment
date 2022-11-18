@@ -1328,8 +1328,6 @@ line rock-border -close on
   2919.0 7850.0
 endline
 
-line wall
-endline
 
 line border -id l252-3396-9933 -subtype invisible
   3345.0 9953.0
@@ -2772,8 +2770,6 @@ line wall -id l181-2767-3237
   smooth off
 endline
 
-line wall
-endline
 
 line wall -id l183-4349-1573
   5016.0 1043.0

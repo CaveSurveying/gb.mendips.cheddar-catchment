@@ -280,8 +280,6 @@ line wall -close on
   367.25 283.0 367.75 278.0 369.0 276.5
 endline
 
-line wall
-endline
 
 point 382.8 276 station -name 30.0
 

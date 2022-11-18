@@ -88,8 +88,6 @@ endscrap
 
 scrap MW_s1_c3 -projection none -scale [-128.0 -128.0 6618.1104 -128.0 0.0 0.0 171.35120416 0.0 m]
 
-line flowstone
-endline
 
 line overhang -reverse on
   17463.5 11314.0
@@ -351,8 +349,6 @@ point 17576.75 11827.5 flowstone
 
 point 17509.5 11850.25 flowstone
 
-line flowstone
-endline
 
 point 17541.0 11736.0 curtain
 

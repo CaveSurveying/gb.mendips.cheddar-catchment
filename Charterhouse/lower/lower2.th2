@@ -55,8 +55,6 @@ line rock-border -close on
   1276.75 -1109.75
 endline
 
-line wall
-endline
 
 line wall
   1267.75 -486.25

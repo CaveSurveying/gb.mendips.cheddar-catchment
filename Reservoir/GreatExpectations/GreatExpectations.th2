@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap GreatExpectationsSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line rock-edge
-endline
 
 line wall
   2177.98910377 5395.70866142
@@ -62,8 +60,6 @@ line wall -subtype blocks
   smooth off
 endline
 
-line wall
-endline
 
 point 2181.0 1701.0 label -align br -text "Resurrection"
 
@@ -562,8 +558,6 @@ line rock-border -close on
   2184.0 5111.5
 endline
 
-line rock-edge
-endline
 
 line rock-edge
   2163.5 5141.75

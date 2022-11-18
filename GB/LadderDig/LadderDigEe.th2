@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap LadderDigSEe1 -projection extended -scale [-128.0 -128.0 2253.98425197 -128.0 0.0 0.0 60.5024 0.0 m]
 
-line wall
-endline
 
 line wall
   5718.0 1011.0
@@ -335,8 +333,6 @@ line wall
   3226.0 232.0 3216.0 228.0 3209.0 228.0
 endline
 
-line wall
-endline
 
 line wall
   4671.0 61.0

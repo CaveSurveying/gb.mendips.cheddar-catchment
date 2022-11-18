@@ -33,8 +33,6 @@ line wall
   smooth off
 endline
 
-line wall -outline in
-endline
 
 line wall
   3760.0 321.0

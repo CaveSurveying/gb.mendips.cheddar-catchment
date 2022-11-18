@@ -645,8 +645,6 @@ point 669.0 -2776.0 label -text "Sludge Junction" -scale s -align l
 
 point 1305.0 -2194.0 label -text "Hannah's Grotto" -scale s
 
-line section
-endline
 
 line arrow -head end
   1256.0 -2282.0

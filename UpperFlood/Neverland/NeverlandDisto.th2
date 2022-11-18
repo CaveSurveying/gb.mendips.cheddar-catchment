@@ -641,8 +641,6 @@ endline
 
 point 2830.71291338 1695.39149606 stalagmite
 
-area bedrock
-endarea
 
 line border
   2857.0 1540.0
@@ -726,11 +724,7 @@ point 3004.0 1036.5 blocks
 
 point 2968.5 1041.5 blocks
 
-line border
-endline
 
-line gradient
-endline
 
 point 2945.0 1194.0 flowstone
 
@@ -958,8 +952,6 @@ area debris
   l73-3060-1966
 endarea
 
-line wall
-endline
 
 line border -id l73-3060-1966 -close on
   2864.5 1741.0

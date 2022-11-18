@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap HappySnappersSPl1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line wall
-endline
 
 line wall
   47.5 1341.5

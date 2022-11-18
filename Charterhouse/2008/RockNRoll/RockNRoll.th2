@@ -273,8 +273,6 @@ line wall -id l10-1225-13418
   smooth off
 endline
 
-line border -subtype invisible
-endline
 
 line border -id l445-1201-13478 -subtype invisible
   1238.0 13436.0
@@ -285,8 +283,6 @@ line border -id l445-1201-13478 -subtype invisible
   smooth off
 endline
 
-line border -subtype invisible
-endline
 
 line border -subtype invisible
   1259.0 13476.0
@@ -398,8 +394,6 @@ line border -id l436-873-12636 -subtype invisible
   smooth off
 endline
 
-line border
-endline
 
 line border
   1647.0 14674.0
@@ -786,8 +780,6 @@ endline
 
 point 1872.0 7677.0 water-flow -orientation 107.2 -scale s
 
-line wall
-endline
 
 point 1697.0 7750.0 water-flow -orientation 99.1 -scale s
 
@@ -944,8 +936,6 @@ endline
 
 point 1746.0 8678.0 label -text "P6" -align br -scale xs
 
-line pit
-endline
 
 line pit
   1655.0 8617.0
@@ -1063,8 +1053,6 @@ line wall -outline in
   smooth off
 endline
 
-line rock-border
-endline
 
 line rock-border -close on
   1879.0 7699.0
@@ -1362,11 +1350,7 @@ line wall -id l56-1024-11949 -outline in
   smooth off
 endline
 
-line wall
-endline
 
-line wall
-endline
 
 line wall
   1032.0 11903.0
@@ -1578,15 +1562,11 @@ line section -direction both
   smooth off
 endline
 
-line section -direction both
-endline
 
 point 1614.0 7473.0 section -scrap RockNRollSX1.40 -align bl
 
 point 1033.0 12301.0 stalactite -scale xs
 
-area water
-endarea
 
 area water
   l424-1634-8539
@@ -1734,8 +1714,6 @@ endline
 
 point 1154.0 10605.0 section -scrap RockNRollSX1.23 -align tl
 
-line section -direction both
-endline
 
 line section -direction both
   1426.0 10715.0
@@ -2586,8 +2564,6 @@ line section -direction both
   smooth off
 endline
 
-line border -subtype invisible
-endline
 
 line border -id l419-4867-5564 -subtype invisible
   4860.0 5599.0
@@ -2809,11 +2785,7 @@ endline
 
 point 5465.0 2732.0 stalactite -scale m
 
-line wall
-endline
 
-area water
-endarea
 
 area water
   l417-4754-5733
@@ -3674,8 +3646,6 @@ endscrap
 
 scrap RockNRollSX1.61 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-line wall
-endline
 
 line wall
   8371.0 1141.0

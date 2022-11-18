@@ -174,8 +174,6 @@ scrap MinorHolesSE90_8 -projection [elevation 90] -scale [0 0 787.4 787.4 0 0 10
 
 point 324.755340139 757.8633195360001 station -name 14
 
-line wall
-endline
 
 line wall
   154.0 770.0

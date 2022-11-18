@@ -430,8 +430,6 @@ line wall -subtype debris
   smooth off
 endline
 
-line wall -subtype debris
-endline
 
 line rock-edge
   324.0 2182.0

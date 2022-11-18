@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap SlabChamberSP1 -projection plan -scale [-163.77 -274.85 982.63 -274.85 0.0 0.0 29.118560000000002 0.0 m]
 
-line rock-border
-endline
 
 line rock-edge -close on
   253.0 1018.0
@@ -21,8 +19,6 @@ line rock-edge
   278.0 1035.0
 endline
 
-line rock-edge
-endline
 
 line rock-edge
   440.0 1192.0

@@ -208,8 +208,6 @@ endscrap
 
 scrap MainPassageSouthSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line border
-endline
 
 line border
   1244.5 1390.0

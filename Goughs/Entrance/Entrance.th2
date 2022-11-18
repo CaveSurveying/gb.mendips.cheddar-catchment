@@ -27,8 +27,6 @@ line section -direction both
   smooth off
 endline
 
-line section -direction both
-endline
 
 line section -direction both
   7928.0 1268.0
@@ -66,8 +64,6 @@ line section -direction both
   smooth off
 endline
 
-area water
-endarea
 
 line pit
   4422.0 2256.0

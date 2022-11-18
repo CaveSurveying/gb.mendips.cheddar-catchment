@@ -167,8 +167,6 @@ endline
 
 point 6266.0 2024.0 water-flow -orientation 116.7
 
-line rock-border
-endline
 
 point 5818.0 2188.0 water-flow -orientation 116.7
 

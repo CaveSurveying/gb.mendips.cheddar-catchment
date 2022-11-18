@@ -713,8 +713,6 @@ endline
 
 point 1040.0 4061.0 continuation -scale s -attr Type Dig -attr Grade C -text "Small tube"
 
-area water
-endarea
 
 point 903.0 3866.0 continuation -scale s -attr Type Dig -attr Grade C -text "Way on blocked by bolders"
 
@@ -1382,8 +1380,6 @@ line wall -id l127-554-2744 -reverse on -outline in
   smooth off
 endline
 
-line rock-border
-endline
 
 line pit -reverse on
   1007.0 324.0

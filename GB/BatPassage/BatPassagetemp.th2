@@ -181,8 +181,6 @@ line border -id l66-3171-6828 -subtype invisible
   smooth off
 endline
 
-line wall -subtype blocks
-endline
 
 line wall -id l3-2639-6499
   2593.0 6692.0
@@ -310,8 +308,6 @@ line rock-border
   2522.0 6453.0
 endline
 
-line rock-border
-endline
 
 line rock-edge
   2487.0 5889.0
@@ -440,8 +436,6 @@ line wall -id l36-2607-5340 -subtype unsurveyed
   smooth off
 endline
 
-line wall -subtype blocks
-endline
 
 line wall
   2232.0 6568.0
@@ -550,8 +544,6 @@ endscrap
 
 scrap BatPassageSPl2 -projection plan -scale [-128.0 -128.0 3986.26771653 -128.0 0.0 0.0 104.5024 0.0 m]
 
-line gradient
-endline
 
 line gradient -reverse on
   1092.0 3106.0
@@ -772,8 +764,6 @@ line wall -subtype presumed
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   857.0 869.0
@@ -787,11 +777,7 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
-line wall
-endline
 
 line wall
   763.0 849.0
@@ -799,8 +785,6 @@ line wall
   smooth off
 endline
 
-line pit
-endline
 
 line pit
   745.5 1180.5
@@ -899,8 +883,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 point 941.65818898 551.10362205 station -name 1.17
 

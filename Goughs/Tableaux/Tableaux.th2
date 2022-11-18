@@ -127,8 +127,6 @@ line rock-border -close on
   2888.0 2190.0 2888.0 2208.0 2884.0 2210.0
 endline
 
-line rock-border
-endline
 
 line rock-edge
   3868.0 1323.0
@@ -814,8 +812,6 @@ line overhang
   smooth off
 endline
 
-line overhang
-endline
 
 line overhang -reverse on
   1780.0 1740.0
@@ -1010,8 +1006,6 @@ line rock-edge
   smooth off
 endline
 
-line rock-edge
-endline
 
 line rock-border -close on
   2557.0 1424.0

@@ -112,8 +112,6 @@ line border
   smooth off
 endline
 
-line wall
-endline
 
 line rock-edge -close on
   226.0 1120.0

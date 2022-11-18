@@ -281,8 +281,6 @@ point 1046.85480315 1557.63976378 station -name 3.25
 
 point 1006.61480315 1459.99976378 station -name 3.24
 
-line wall -outline in
-endline
 
 line floor-step
   203.0 972.0
@@ -436,8 +434,6 @@ line wall
   smooth off
 endline
 
-line wall -subtype unsurveyed
-endline
 
 line wall -subtype unsurveyed
   1406.0 337.0
@@ -454,8 +450,6 @@ line wall -outline in -subtype unsurveyed
   smooth off
 endline
 
-line wall -outline in
-endline
 
 line wall -outline in
   1388.0 355.0
@@ -474,8 +468,6 @@ line wall -outline in
   smooth off
 endline
 
-line overhang
-endline
 
 line overhang
   1185.0 227.0
@@ -498,8 +490,6 @@ line overhang -reverse on
   smooth off
 endline
 
-line overhang
-endline
 
 line pit
   758.0 1442.0

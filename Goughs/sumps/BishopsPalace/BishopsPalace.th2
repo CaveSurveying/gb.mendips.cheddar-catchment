@@ -27,8 +27,6 @@ area blocks
   l164-4010-7904
 endarea
 
-area blocks
-endarea
 
 line border -id l164-4010-7904 -close on -subtype invisible
   4038.0 8048.0
@@ -114,8 +112,6 @@ line rock-border -close on
   smooth off
 endline
 
-line rock-border
-endline
 
 line rock-border -close on
   3906.0 6802.0
@@ -262,8 +258,6 @@ line section -direction both
   smooth off
 endline
 
-line section -direction both
-endline
 
 line section -direction end
   4472.0 8036.0
@@ -294,8 +288,6 @@ line section -direction both
   smooth off
 endline
 
-line wall -outline in
-endline
 
 line wall -close on -outline in
   4190.0 8526.0
@@ -588,8 +580,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   3674.0 6057.0
@@ -1055,8 +1045,6 @@ line wall -subtype debris
   2996.0 2804.0
 endline
 
-line wall
-endline
 
 line wall
   2036.0 2832.0
@@ -1065,8 +1053,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   2996.0 2804.0

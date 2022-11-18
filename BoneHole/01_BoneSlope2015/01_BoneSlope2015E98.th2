@@ -34,8 +34,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line fixed-ladder
   326.0 695.0

@@ -11,11 +11,7 @@ point 1020.0 -348.0 water-flow -orientation 66.3
 
 point 609.0 -50.0 water-flow -orientation 176.5
 
-line wall
-endline
 
-line wall
-endline
 
 point 1958.0 -277.0 water-flow -orientation 142.2
 

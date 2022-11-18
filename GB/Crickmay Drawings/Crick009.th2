@@ -55,8 +55,6 @@ line pit -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   1039.0 -1494.0

@@ -277,8 +277,6 @@ scrap MinorHolesSP6 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 point 188.62448818999997 1049.31805076 station -name 10
 
-line wall -subtype pit
-endline
 
 point 145.83333333333334 1335.4166666666667 label -text "No. 7" -align top
 
@@ -306,8 +304,6 @@ scrap MinorHolesSP7 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 point 407.95448819 1557.48805076 station -name 13
 
-line wall -subtype pit -outline none
-endline
 
 line wall
   404.5 1563.0

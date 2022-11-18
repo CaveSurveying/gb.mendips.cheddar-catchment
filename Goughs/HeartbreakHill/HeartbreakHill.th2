@@ -220,8 +220,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   4434.0 3253.0
@@ -851,8 +849,6 @@ line border -id l108-1864-3872 -subtype invisible
   smooth off
 endline
 
-line border
-endline
 
 line border -id l87-2516-3037
   362.0 2217.0
@@ -902,11 +898,7 @@ endline
 
 point 153.543307086 2529.60629921 station -name 1.0
 
-line section
-endline
 
-line section
-endline
 
 line section -direction both
   7140.0 2108.0

@@ -39,8 +39,6 @@ line wall
   821.0 -28.0
 endline
 
-line wall
-endline
 
 point 736.800611604 262.269992383 station -name 9.8
 

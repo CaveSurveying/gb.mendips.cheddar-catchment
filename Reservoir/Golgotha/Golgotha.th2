@@ -1267,8 +1267,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line ceiling-step
   1030.5 4881.0

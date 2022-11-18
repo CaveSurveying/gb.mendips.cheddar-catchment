@@ -13,8 +13,6 @@ line pit
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   10.0 794.0

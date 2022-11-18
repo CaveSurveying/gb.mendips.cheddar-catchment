@@ -35,8 +35,6 @@ line border -id l4-434-2500
   smooth off
 endline
 
-line rock-border
-endline
 
 line rock-border -close on
   507.5 1501.0

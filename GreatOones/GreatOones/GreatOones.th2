@@ -107,8 +107,6 @@ line floor-step
   smooth off
 endline
 
-line rock-border
-endline
 
 point 4548.0 4488.0 gradient -orientation 242.1 -scale xs
 
@@ -1552,8 +1550,6 @@ endscrap
 
 scrap GreatOonesSPX1.10 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line rock-border
-endline
 
 line rock-border -close on -reverse on -close on
   4324.75 5290.5

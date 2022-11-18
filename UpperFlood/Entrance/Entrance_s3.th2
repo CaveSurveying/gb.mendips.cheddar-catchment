@@ -37,11 +37,7 @@ line wall -id wall_Es3_2 -reverse on
   2327.0 -2101.0
 endline
 
-line wall
-endline
 
-line wall
-endline
 
 line wall -reverse on
   590.0 -710.0

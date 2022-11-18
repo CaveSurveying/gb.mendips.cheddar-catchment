@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap UpperBeddingChamberSPl1 -projection plan -scale [-128.0 -128.0 2253.98425197 -128.0 0.0 0.0 60.5024 0.0 m]
 
-line wall
-endline
 
 line wall
   1378.0 721.0

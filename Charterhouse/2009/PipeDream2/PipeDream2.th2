@@ -27,8 +27,6 @@ endline
 
 point 183.389212598 584.097244094 station -name 1.5
 
-area water
-endarea
 
 line border
   182.0 579.5

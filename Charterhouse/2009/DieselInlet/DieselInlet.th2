@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -300 1702.80314961 953.0
+##XTHERION## xth_me_area_adjust -132.0 -412.0 1702.803149606 952.0
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {123.228346457 1 1.0} {242.125984252 1.0} PocketTopo/DieselInletth_p.xvi 0 {}
 
@@ -14,6 +14,7 @@ line wall -id l16-701-178
   627.0 193.0 560.0 209.0 526.0 211.0
   492.0 213.0 469.0 213.0 444.0 219.0
   419.0 225.0 430.0 225.0 396.0 229.0
+  smooth off
 endline
 
 line floor-step -id l29-1072-554
@@ -31,9 +32,7 @@ line floor-step -id l29-1072-554
   1145.0 665.0 1138.0 666.0 1148.0 674.0
   1158.0 682.0 1160.0 682.0 1171.0 693.0
   1182.0 704.0 1210.0 713.0 1220.0 714.0
-endline
-
-line border -subtype invisible
+  smooth off
 endline
 
 point 1033.0 533.0 stalactite -scale xs
@@ -45,6 +44,7 @@ point 1206.0 740.0 stalactite -scale xs
 line pit -id l42-1190-155 -reverse on
   1168.0 156.0
   1178.0 156.0 1204.0 157.0 1216.0 156.0
+  smooth off
 endline
 
 line border -id l41-1160-183 -subtype invisible
@@ -87,36 +87,43 @@ endarea
 line pit -id l48-664-151
   677.0 124.0
   677.0 124.0 654.71 146.65 662.0 186.0
+  smooth off
 endline
 
 line pit -id l47-1053-104
   1067.0 134.0
   1063.0 128.0 1045.0 93.0 1043.0 84.0
+  smooth off
 endline
 
 line border -id l34-1117-250 -subtype invisible
   1127.0 233.0
   1114.0 245.0 1105.0 278.0 1101.0 290.0
+  smooth off
 endline
 
 line border -id l33-1110-501 -subtype invisible
   1068.0 508.0
   1088.0 512.0 1114.0 502.0 1127.0 496.0
+  smooth off
 endline
 
 line border -id l32-1067-578 -subtype invisible
   1076.0 567.0
   1062.0 579.0 1053.0 597.0 1041.0 595.0
+  smooth off
 endline
 
 line border -id l31-1049-538 -subtype invisible
   1025.0 542.0
   1041.0 538.0 1056.0 535.0 1067.0 540.0
+  smooth off
 endline
 
 line border -id l30-1061-274 -subtype invisible
   1050.0 266.0
   1059.0 272.0 1066.0 280.0 1073.0 279.0
+  smooth off
 endline
 
 line floor-step -id l28-1082-226 -reverse on
@@ -142,21 +149,21 @@ line floor-step -id l28-1082-226 -reverse on
   1124.0 676.0 1120.89 701.87 1131.0 709.0
   1148.0 721.0 1174.23 749.97 1185.0 756.0
   1210.0 770.0 1223.0 774.0 1236.0 799.0
+  smooth off
 endline
 
 line wall -id l35-1096-296 -outline in
   1083.0 302.0
   1092.0 299.0 1101.0 298.0 1101.0 290.0
   1101.0 282.0 1098.0 276.0 1092.0 275.0
-endline
-
-line wall -outline in
+  smooth off
 endline
 
 line wall -id l36-1083-275 -outline in
   1092.0 275.0
   1086.0 274.0 1073.0 272.0 1073.0 279.0
   1073.0 286.0 1074.0 305.0 1083.0 302.0
+  smooth off
 endline
 
 line rock-edge
@@ -242,6 +249,7 @@ line wall
   91.0 540.0 94.0 529.0 98.0 512.0
   102.0 495.0 106.0 472.0 110.0 458.0
   114.0 444.0 139.35 400.22 149.0 382.0
+  smooth off
 endline
 
 line wall -id l14-860-154
@@ -282,6 +290,7 @@ line wall
   1269.0 764.0 1268.0 765.0 1275.0 778.0
   1282.0 791.0 1280.0 791.0 1288.0 801.0
   1296.0 811.0 1296.0 815.0 1299.0 820.0
+  smooth off
 endline
 
 line wall -id l12-1123-470
@@ -326,6 +335,7 @@ point 1217.55834646 92.365984252 station -name 1.4
 line section -reverse on -direction both
   1228.0 492.0
   1153.0 528.0 972.0 630.0 891.0 675.0
+  smooth off
 endline
 
 point 1536.0 474.0 section -scrap DieselInletSX1.6
@@ -335,6 +345,7 @@ point 905.0 -279.0 section -scrap DieselInletSX1.3
 line section -reverse on -direction both
   768.0 40.0
   775.0 85.0 792.0 172.0 799.0 221.0
+  smooth off
 endline
 
 point 784.878346457 152.835984252 station -name 1.3
@@ -356,6 +367,7 @@ line wall -subtype sand
   468.0 422.0 465.0 410.0 474.0 402.0
   483.0 394.0 484.0 387.0 495.0 398.0
   506.0 409.0 518.0 431.0 520.0 434.0
+  smooth off
 endline
 
 line wall
@@ -378,6 +390,7 @@ line wall
   468.0 500.0 465.0 499.0 465.0 488.0
   465.0 477.0 467.0 472.0 466.0 460.0
   465.0 448.0 463.0 437.0 465.0 432.0
+  smooth off
 endline
 
 endscrap

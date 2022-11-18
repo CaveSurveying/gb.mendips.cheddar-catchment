@@ -116,8 +116,6 @@ line floor-step
   smooth off
 endline
 
-line rock-border
-endline
 
 line rock-border -close on
   950.0 222.0

@@ -147,11 +147,7 @@ line wall -subtype unsurveyed
   smooth off
 endline
 
-line wall -subtype debris
-endline
 
-line wall -subtype presumed
-endline
 
 point 1660.0 1416.0 label -scale m -text "Nut Pitch"
 
@@ -161,8 +157,6 @@ point 88.0 3860.0 label -scale l -text "Extended Elevation"
 
 point 1340.0 3620.0 label -scale m -text "Hazelnut Rift
 
-line wall -subtype presumed
-endline
 
 line wall -subtype debris
   51.0 682.0

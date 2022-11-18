@@ -319,8 +319,6 @@ line pit
   smooth off
 endline
 
-line floor-step
-endline
 
 point -199.24022523112865 541.3514113764182 station -name 27
 
@@ -381,8 +379,6 @@ line section -direction begin
   smooth off
 endline
 
-line wall
-endline
 
 point 676.0 738.0 section -scrap BagpitPSX3.4 -align top-right
 
@@ -807,8 +803,6 @@ point 269.06977476887135 694.2814113764182 station -name 31
 
 point 121.62977476887136 920.2514113764182 station -name 30
 
-area water
-endarea
 
 endscrap
 

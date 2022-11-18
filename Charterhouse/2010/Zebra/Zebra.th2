@@ -9,8 +9,6 @@ scrap ZebraSPl1 -projection plan -scale [-128.0 -128.0 1545.32283465 -128.0 0.0 
 
 point 838.0 794.0 section -scrap ZebraSX1.3
 
-line wall -subtype underlying
-endline
 
 line wall -reverse on
   647.0 629.0
@@ -105,8 +103,6 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 line wall -reverse on
   934.0 282.0
@@ -130,8 +126,6 @@ line wall -reverse on
   smooth off
 endline
 
-line rock-edge
-endline
 
 line rock-edge
   594.0 600.0
@@ -243,8 +237,6 @@ line ceiling-step -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 #point 1197.83700787 211.532047244 station -name 1.5
 

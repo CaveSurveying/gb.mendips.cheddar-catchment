@@ -229,8 +229,6 @@ line fixed-ladder -close on
   700.0 1228.0
 endline
 
-line border
-endline
 
 line fixed-ladder
   683.0 1228.0

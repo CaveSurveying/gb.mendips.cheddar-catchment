@@ -2710,8 +2710,6 @@ endscrap
 
 scrap StreamSX1.17 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-line wall
-endline
 
 line wall -id l233-1491-14289 -reverse on
   1501.75 14295.25
@@ -2793,8 +2791,6 @@ line wall -reverse on
   smooth off
 endline
 
-line border
-endline
 
 line wall -reverse on
   2683.0 13998.0

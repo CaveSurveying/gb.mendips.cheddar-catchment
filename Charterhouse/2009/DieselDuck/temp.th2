@@ -93,8 +93,6 @@ line rock-border -close on
   smooth off
 endline
 
-line border -subtype invisible
-endline
 
 line rock-border -close on
   2062.0 22597.0

@@ -54,8 +54,6 @@ line wall -id l2-1678-3934
   smooth off
 endline
 
-line border
-endline
 
 area flowstone
   l191-1788-4106
@@ -673,8 +671,6 @@ area sand
   l34-4648-2174
 endarea
 
-line wall
-endline
 
 line wall -id l39-3180-3182
   4703.0 2409.0
@@ -1137,8 +1133,6 @@ line border
   smooth off
 endline
 
-line wall
-endline
 
 point 6838.42031496 246.53338583 station -name 1.23
 
@@ -1658,8 +1652,6 @@ endscrap
 
 scrap 100FathomSX1.2 -projection none -scale [0 0 787.5 787.5 0.0 0.0 10 10 m]
 
-line wall
-endline
 
 line wall -close on
   2213.0 4611.0

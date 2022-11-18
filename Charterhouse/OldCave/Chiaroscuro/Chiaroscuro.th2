@@ -396,8 +396,6 @@ line wall -id l25-357-2200
   smooth off
 endline
 
-line wall
-endline
 
 line wall -id l27-578-2189
   641.0 2242.0
@@ -718,8 +716,6 @@ line rock-border -close on
   1492.0 1405.0
 endline
 
-line border -subtype invisible
-endline
 
 line border -subtype invisible
   2136.0 1658.0
@@ -731,8 +727,6 @@ point 2179.0 1708.0 cave-pearl -scale xs
 
 point 1915.0 1714.0 cave-pearl -scale xs
 
-line border -subtype invisible
-endline
 
 line rock-edge
   2102.0 1689.0

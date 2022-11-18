@@ -88,8 +88,6 @@ line wall -reverse on
   smooth off
 endline
 
-line section -direction end
-endline
 
 line section -direction end
   1436.0 954.0

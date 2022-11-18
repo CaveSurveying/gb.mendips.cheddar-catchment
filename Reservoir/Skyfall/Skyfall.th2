@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap SkyfallSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line floor-step
-endline
 
 line floor-step
   644.5 1636.5

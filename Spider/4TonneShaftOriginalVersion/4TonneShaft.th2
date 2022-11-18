@@ -19,8 +19,6 @@ line pit -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   68.0 799.0
@@ -68,8 +66,6 @@ endscrap
 
 scrap scrap18 -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line wall
-endline
 
 endscrap
 

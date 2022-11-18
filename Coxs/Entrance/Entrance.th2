@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap EntranceSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line wall
-endline
 
 line wall -close on -outline in
   6718.0 2116.0

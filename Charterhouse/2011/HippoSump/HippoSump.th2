@@ -15,8 +15,6 @@ point 185.0 -190.0 station -name 1
 
 point 272.0 -88.0 station -name 0
 
-line wall
-endline
 
 area sump
   l10-262--84

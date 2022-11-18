@@ -399,8 +399,6 @@ line border -id l107-1778-2370 -subtype invisible
   smooth off
 endline
 
-line wall -outline none -subtype debris
-endline
 
 area sand
   l107-1778-2370

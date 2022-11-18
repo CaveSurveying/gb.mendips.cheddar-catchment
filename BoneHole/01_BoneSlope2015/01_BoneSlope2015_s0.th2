@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap 01_BoneSlope2015SP0 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line border
-endline
 
 line pit -close on -reverse on -outline in
   943.0 1578.0
@@ -29,8 +27,6 @@ line wall
   1003.0 1583.0
 endline
 
-line wall
-endline
 
 point 972.112125984 1589.13409449 station -name 5.5
 
