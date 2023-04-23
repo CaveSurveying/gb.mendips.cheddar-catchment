@@ -1,0 +1,67 @@
+encoding  utf-8
+source Entrance.th
+
+select EntranceMP@Entrance
+select EntranceME0@Entrance
+select EntranceME90@Entrance
+
+export model -o Outputs/Entranceth.3d
+
+export map -proj plan -layout plan -o Outputs/EntranceP.pdf
+export map -proj plan -layout plan -o Outputs/EntranceP.xvi
+
+export map -proj [elevation 90 deg] -layout elevation90 -o Outputs/EntranceE90.pdf
+export map -proj [elevation 90 deg] -layout elevation90 -o Outputs/EntranceE90.xvi
+
+export map -proj elevation -layout elevation0 -o Outputs/EntranceE0.pdf
+export map -proj elevation -layout elevation0 -o Outputs/EntranceE0.xvi
+
+layout plan
+copy local
+code tex-map
+  \cavename={\size[20] Vurley Swallet Plan View}
+  \cavelength={}%empty
+  \cavedepth={}%empty
+  \colorlegendfalse
+endcode
+endlayout
+
+layout elevation90
+copy local
+code tex-map
+  \cavename={\size[20] Vurley Swallet Elevation Looking East}
+  \cavelength={}%empty
+  \cavedepth={}%empty
+  \colorlegendfalse
+endcode
+endlayout
+
+layout elevation0
+copy local
+code tex-map
+  \cavename={\size[20] Vurley Swallet Elevation Looking North}
+  \cavelength={}%empty
+  \cavedepth={}%empty
+  \colorlegendfalse
+endcode
+endlayout
+
+layout local
+north grid
+grid bottom
+grid-size 5 5 5 metres
+symbol-hide point remark
+#symbol-hide group cave-centreline
+statistics explo off
+statistics topo-length off
+transparency on
+map-header 0 0 nw
+map-comment "Length 81.7m Depth 45.15m"
+code tex-map
+  \cavelength={}%empty
+  \cavedepth={}%empty
+  \colorlegendfalse
+endcode
+endlayout
+
+input ../../common_layout.th
