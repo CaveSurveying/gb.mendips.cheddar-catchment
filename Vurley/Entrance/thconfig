@@ -56,7 +56,7 @@ statistics explo off
 statistics topo-length off
 transparency on
 map-header 0 0 nw
-map-comment "Length 81.7m Depth 45.15m"
+map-comment "Location ST 47993.53391 Alt 221.7<br>Length 120.3m Depth 65.85m"
 code tex-map
   \cavelength={}%empty
   \cavedepth={}%empty
