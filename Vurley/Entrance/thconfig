@@ -16,6 +16,8 @@ export map -proj [elevation 90 deg] -layout elevation90 -o Outputs/EntranceE90.x
 export map -proj elevation -layout elevation0 -o Outputs/EntranceE0.pdf
 export map -proj elevation -layout elevation0 -o Outputs/EntranceE0.xvi
 
+export map -proj elevation -layout elevationcombined -o Outputs/ElevationCombined.pdf
+
 layout plan
 copy local
 code tex-map
@@ -40,6 +42,20 @@ layout elevation0
 copy local
 code tex-map
   \cavename={\size[20] Vurley Swallet Elevation Looking North}
+  \cavelength={}%empty
+  \cavedepth={}%empty
+  \colorlegendfalse
+endcode
+endlayout
+
+layout elevationcombined
+#copy local
+map-image 0 0 se Outputs/EntranceE0.pdf
+map-image 0 0 sw Outputs/EntranceE90.pdf
+map-header 0 0 off
+symbol-hide special scale-bar
+code tex-map
+  \cavename={\size[20] }
   \cavelength={}%empty
   \cavedepth={}%empty
   \colorlegendfalse
