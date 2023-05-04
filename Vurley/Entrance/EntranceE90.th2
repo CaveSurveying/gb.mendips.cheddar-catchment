@@ -92,9 +92,9 @@ line wall
   smooth off
 endline
 
-point 476.0 337.0 label -text [38 Foot way]
+point 480.25 329.5 label -text [38 Foot way]
 
-point 477.5 470.0 label -text [Fourth Chamber]
+point 479.0 437.5 label -text [Fourth Chamber]
 
 point 386.01699999999994 448.027 station -name 61.0
 
@@ -159,7 +159,7 @@ endline
 
 point 197.5 -304.5 label -text [11m Pitch]
 
-point 317.0 0.5 label -text [Egg Timer]
+point 321.0 39.25 label -text [Egg Timer]
 
 line wall
   367.5 432.5
@@ -325,7 +325,7 @@ line wall
   smooth off
 endline
 
-point 392.5 539.75 label -text [Third Chamber]
+point 392.5 532.75 label -text [Third Chamber]
 
 line wall
   307.25 555.5

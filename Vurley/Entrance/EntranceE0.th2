@@ -21,6 +21,7 @@ endline
 line wall
   420.5 549.75
   425.25 549.0 444.75 546.25 450.5 546.5
+  smooth off
 endline
 
 line wall
@@ -47,9 +48,9 @@ point 483.07599999999996 522.047 station -name 50.0
 
 point 377.0 326.5 label -text [38 Foot Way]
 
-point 129.0 -296.5 label -text [11m Pitch]
+point 174.5 -296.5 label -text [11m Pitch]
 
-point 255.0 64.0 label -text [Egg Timer]
+point 251.5 47.0 label -text [Egg Timer]
 
 line wall
   187.0 -260.5
@@ -91,6 +92,7 @@ line wall
   181.5 -223.0 178.5 -223.5 178.5 -231.5
   178.5 -239.5 186.5 -239.5 178.5 -244.0
   170.5 -248.5 178.5 -254.5 167.5 -254.5
+  smooth off
 endline
 
 point 180.90599999999995 -252.95299999999997 station -name 82.0-
@@ -127,7 +129,7 @@ point 486.75 449.0 label -text [Fourth Chamber]
 
 point 568.5 532.25 label -text [Third Chamber]
 
-point 335.0 759.5 label -text [Kate's Chamber]
+point 335.5 743.0 label -text [Kate's Chamber]
 
 line wall
   421.25 456.0
@@ -167,6 +169,7 @@ line wall
   406.25 443.5 407.5 440.5 411.75 440.0
   416.0 439.5 417.5 442.0 419.0 445.0
   420.5 448.0 420.81 450.44 421.25 456.0
+  smooth off
 endline
 
 line wall
@@ -198,6 +201,7 @@ line wall
   168.25 243.5 139.75 223.75 138.25 219.25
   136.75 214.75 143.75 183.75 145.0 182.0
   146.25 180.25 163.75 166.75 165.5 164.75
+  smooth off
 endline
 
 point 187.996 154.52700000000004 station -name 34.0
@@ -266,6 +270,7 @@ line wall
   497.25 715.5 497.25 709.75 488.5 706.0
   479.75 702.25 467.75 699.25 462.0 698.5
   456.25 697.75 441.75 694.25 439.75 693.75
+  smooth off
 endline
 
 point 433.66599999999994 750.787 station -name 44.0
