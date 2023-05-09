@@ -1,0 +1,25 @@
+encoding  utf-8
+survey Vurley -title "Vurley Swallet"
+
+input Entrance/Entrance.th
+input Pitch/Pitch.th
+
+map VurleyMP
+  EntranceMP@Entrance
+ break
+  PitchMP@Pitch
+endmap
+
+equate 81.0@Entrance 81.0@Pitch
+
+#Plan joins
+join EntranceSP5@Entrance PitchSP1@Pitch -smooth on
+
+#Elevation 0 joins
+join EntranceSE02@Entrance PitchSE01@Pitch -smooth on
+
+#Elevation 90 joins
+join EntranceSE901@Entrance PitchSE901@Pitch -smooth on
+
+endsurvey
+

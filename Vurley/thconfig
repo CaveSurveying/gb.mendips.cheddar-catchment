@@ -1,0 +1,94 @@
+encoding  utf-8
+source Vurley.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export model -fmt survex -o Outputs/Vurley.3d
+
+export map -proj plan -layout plan -o Outputs/VurleyP.pdf
+
+export map -proj elevation -layout elevation0 -o Outputs/VurleyE0.pdf
+
+export map -proj [elevation 90] -layout elevation90 -o Outputs/VurleyE90.pdf
+
+export map -proj elevation -layout elevationcombined -o Outputs/ElevationCombined.pdf
+
+#export model -o Outputs/Vurley.lox
+
+layout plan
+copy local
+code tex-map
+  \cavename={\size [20] Vurley Swallet Plan View} 
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse   
+endcode
+endlayout
+
+layout elevation0
+copy local
+code tex-map
+  \cavename={\size [20] Vurley Swallet Elevation Looking North} 
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse   
+endcode 
+endlayout
+
+layout elevation90
+copy local
+code tex-map
+  \cavename={\size [20] Vurley Swallet Elevation Looking East} 
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse  
+endcode 
+endlayout
+
+layout elevationcombined
+map-image 0 0 sw Outputs/VurleyE0.pdf
+map-image 0 0 se Outputs/VurleyE90.pdf
+map-header 0 0 off
+symbol-hide special scale-bar
+code tex-map
+  \cavename={\size[20] }
+  \cavelength={} %empty
+  \cavedepth={}  %empty
+  \colorlegendfalse  
+endcode 
+endlayout
+
+layout local
+north grid
+grid bottom
+grid-size 5 5 5 metres
+symbol-hide point remark
+symbol-hide group cave-centreline
+statistics explo off
+statistics topo-length off
+transparency on
+map-header 0 0 nw
+map-header-bg off
+map-comment "Length 146 m (surveyed 2023)<br>\
+Depth 85 m (surveyed 2023)<br>\
+Drawn using Therion by John Cooper.<br>\
+Survey by John Cooper, Adrian and Jude Vanderplank<br>\
+Grade UISv1 6-4-EF<br>\
+Copyright 2011-23 CC BY NC SA<br>\
+Data available at http://cave-registry.org.uk/<br>\"
+
+scale-bar 25 metres
+
+colour-legend off
+code tex-map
+  \cavelength={}%empty
+  \cavedepth={}%empty
+  \colorlegendfalse
+endcode
+endlayout
+
+#get the master layout settings
+input ../common_layout.th
