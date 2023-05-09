@@ -1,0 +1,84 @@
+encoding  utf-8
+survey Pitch
+
+input PitchP.th2
+input PitchE0.th2
+input PitchE90.th2
+
+map PitchMP -title "Pitch - Plan"
+  PitchSP1
+  break
+  PitchSP2
+endmap
+
+map PitchME0 -title "Pitch<br>Elevation Looking North"
+  PitchSE01
+endmap
+
+map PitchME90 -title "Pitch<br>Elevation Looking East"
+  PitchSE901
+endmap
+
+centreline
+
+copyright 2023 "CC BY SA NC"
+
+  date 2023.05.08
+
+  team "John Cooper" notes
+  team "John Cooper" instruments
+  team "Adrian Vanderplank" dog
+  team "Jude Vanderplank" dog
+
+  instrument  instruments "John Cooper"
+
+  explo-date 2023.05.08
+
+  data normal from to compass clino tape ignoreall
+  extend right
+
+
+  81.0 90.0 291.08 -28.16 1.899
+  90.0 - 64.85 6.85 0.419
+  90.0 - 61.22 37.07 0.508
+  90.0 - 56.31 88.05 0.212
+  90.0 - 188.13 -73.77 0.708
+  90.0 - 91.32 -70.76 0.792
+  90.0 - 339.66 -77.63 3.102
+  90.0 91.0 0 0 0
+  91.0 92.0 342.14 -78.25 3.120
+  92.0 - 355.40 -7.23 0.604
+  92.0 - 67.00 -5.45 0.643
+  92.0 - 210.04 2.40 0.954
+  92.0 - 129.94 1.98 0.754
+  92.0 93.0 157.93 -75.48 2.846
+  93.0 - 217.09 -3.69 0.824
+  93.0 - 122.42 -7.00 1.821
+  93.0 - 80.01 0.44 0.790
+  93.0 - 57.93 -55.01 0.870
+  93.0 94.0 150.00 -61.48 4.343
+  94.0 - 212.21 53.23 0.448
+  94.0 - 244.68 -26.41 3.268
+  94.0 - 275.34 18.46 1.800
+  94.0 - 262.77 13.45 2.662
+  94.0 - 310.10 -3.84 0.149
+  94.0 - 253.89 -38.08 6.076
+  94.0 95.0 253.87 -38.11 6.076
+  95.0 - 259.77 74.23 0.269
+  95.0 - 165.55 6.15 0.971
+  95.0 - 179.70 -34.12 0.922
+  95.0 - 309.27 21.76 0.267
+  95.0 96.0 218.90 -37.97 4.317
+  96.0 - 226.16 -39.33 3.784
+  96.0 97.0 226.19 -39.28 3.777
+  97.0 - 228.34 -30.25 1.250
+  97.0 - 199.30 -23.77 1.352
+  97.0 - 138.66 5.72 0.813
+  97.0 - 159.95 25.78 0.832
+  97.0 - 150.32 14.55 1.214
+  97.0 - 146.23 1.49 0.806
+
+endcentreline
+
+endsurvey
+

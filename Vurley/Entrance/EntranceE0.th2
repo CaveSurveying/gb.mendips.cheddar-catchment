@@ -46,11 +46,9 @@ point 474.60599999999994 505.317 station -name 51.0
 
 point 483.07599999999996 522.047 station -name 50.0
 
-point 377.0 326.5 label -text [38 Foot Way]
+point 407.5 326.0 label -text [38 Foot Way]
 
-point 174.5 -296.5 label -text [11m Pitch]
-
-point 251.5 47.0 label -text [Egg Timer]
+point 291.0 44.5 label -text [Egg Timer]
 
 line wall
   187.0 -260.5
@@ -125,11 +123,11 @@ point 402.5559999999999 448.027 station -name 61.0
 
 point 414.17599999999993 463.187 station -name 62.0
 
-point 486.75 449.0 label -text [Fourth Chamber]
+point 527.75 447.0 label -text [Fourth Chamber]
 
-point 568.5 532.25 label -text [Third Chamber]
+point 595.5 529.75 label -text [Third Chamber]
 
-point 335.5 743.0 label -text [Kate's Chamber]
+point 319.0 768.5 label -text [Kate's Chamber]
 
 line wall
   421.25 456.0

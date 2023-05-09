@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -214.62200000000004 -595.323 631.9291999999999 1235.4802
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {196.84699999999998 1 1.0} {1043.307 1.0} Outputs/EntranceE90.xvi 0 {}
 
 
@@ -92,9 +92,9 @@ line wall
   smooth off
 endline
 
-point 480.25 329.5 label -text [38 Foot way]
+point 497.75 329.75 label -text [38 Foot Way]
 
-point 479.0 437.5 label -text [Fourth Chamber]
+point 496.25 439.5 label -text [Fourth Chamber]
 
 point 386.01699999999994 448.027 station -name 61.0
 
@@ -157,9 +157,7 @@ line wall
   smooth off
 endline
 
-point 197.5 -304.5 label -text [11m Pitch]
-
-point 321.0 39.25 label -text [Egg Timer]
+point 344.0 38.0 label -text [Egg Timer]
 
 line wall
   367.5 432.5
@@ -325,7 +323,7 @@ line wall
   smooth off
 endline
 
-point 392.5 532.75 label -text [Third Chamber]
+point 426.75 534.25 label -text [Third Chamber]
 
 line wall
   307.25 555.5
@@ -366,7 +364,7 @@ point 124.59699999999998 740.547 station -name 43.0
 
 point 161.01699999999997 704.137 station -name 12.0
 
-point 49.5 745.75 label -text [Kate's Chamber]
+point 6.25 751.25 label -text [Kate's Chamber]
 
 line wall -close on
   95.5 767.25

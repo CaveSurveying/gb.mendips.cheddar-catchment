@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -129.0 -139.803 746.1111999999999 535.0
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {570.866 1 1.0} {295.279 1.0} Outputs/EntranceP.xvi 0 {}
 
 
@@ -96,17 +96,17 @@ line pit
   smooth off
 endline
 
-point 268.0 122.0 label -text [38 Foot Way]
+point 268.0 122.0 label -text [38 Foot Way] -scale xs
 
-point 435.5 75.25 label -text [Fourth Chamber]
+point 435.5 75.25 label -text [Fourth Chamber] -scale xs
 
-point 561.75 151.0 label -text [Third Chamber]
+point 588.75 148.5 label -text [Third Chamber] -scale xs
 
-point 261.5 251.0 label -text [Egg Timer]
+point 289.0 250.5 label -text [Egg Timer] -scale xs
 
-point 133.75 302.5 label -text [11m pitch]
+point 158.75 331.5 label -text [11m pitch] -scale xs
 
-point 361.5 405.75 label -text [Kate's Chamber]
+point 362.5 416.75 label -text [Kate's Chamber] -scale xs
 
 line wall
   458.5 177.5
@@ -320,7 +320,7 @@ line wall
   smooth off
 endline
 
-point 559.0 261.5 label -text Entrance -align bottom-right
+point 559.0 261.5 label -text Entrance -align bottom-right -scale xs
 
 endscrap
 
@@ -429,16 +429,9 @@ endscrap
 
 scrap EntranceSP5 -projection plan -scale [-128.0 -128.0 620.126 -128.0 0.0 0.0 19.0024004 0.0 m]
 
-line pit
-  184.0 274.0
-  186.0 275.75 190.3 278.05 189.25 279.25
-  smooth off
-endline
-
-line wall -close on
-  157.75 283.0
-  165.0 280.75 173.75 279.25 177.75 276.75
-  181.75 274.25 186.75 274.0 189.25 271.0
+line wall
+  182.5 274.5
+  186.5 272.0 186.75 274.0 189.25 271.0
   191.75 268.0 202.25 256.75 203.0 254.75
   203.75 252.75 203.25 244.0 203.25 242.5
   203.25 241.0 204.25 234.5 206.75 234.5
@@ -447,10 +440,8 @@ line wall -close on
   218.0 240.75 228.75 236.5 222.25 243.75
   215.75 251.0 212.5 253.25 210.0 257.25
   207.5 261.25 207.0 263.75 201.25 270.0
-  195.5 276.25 191.0 276.75 189.25 279.25
-  187.5 281.75 186.31 280.83 180.90599999999995 282.289
-  175.5 283.75 168.0 284.75 161.25 287.0
-  154.5 289.25 150.5 285.25 157.75 283.0
+  195.5 276.25 188.34 278.86 185.5 280.0
+  smooth off
 endline
 
 point 208.85599999999994 256.109 station -name 80.0
