@@ -71,7 +71,7 @@ point 196.84699999999998 857.4770000000001 station -name 2.0
 
 point 196.84699999999998 1043.307 station -name 1.0
 
-point 196.5 1072.5 label -text Entrance
+point 196.5 1072.5 label -text Entrance -scale s
 
 line wall
   295.5 154.75
@@ -92,9 +92,9 @@ line wall
   smooth off
 endline
 
-point 497.75 329.75 label -text [38 Foot Way]
+point 469.75 333.25 label -text [38 Foot Way] -scale s
 
-point 496.25 439.5 label -text [Fourth Chamber]
+point 454.75 457.0 label -text [Fourth Chamber] -scale s
 
 point 386.01699999999994 448.027 station -name 61.0
 
@@ -157,7 +157,7 @@ line wall
   smooth off
 endline
 
-point 344.0 38.0 label -text [Egg Timer]
+point 344.0 38.0 label -text [Egg Timer] -scale s
 
 line wall
   367.5 432.5
@@ -267,6 +267,12 @@ line wall
   smooth off
 endline
 
+point 434.5 214.0 label -text [La La Land] -scale s
+
+point 119.0 588.0 label -text Mai-dez -scale s
+
+point 220.5 742.0 label -text [First Chamber] -scale s
+
 line wall
   167.25 691.0
   159.5 691.75 146.5 694.0 144.25 697.5
@@ -288,7 +294,7 @@ line wall
   smooth off
 endline
 
-point 230.5 1025.0 label -text [Ground level] -align top-right
+point 230.5 1025.0 label -text [Ground level] -align top-right -scale s
 
 line wall
   209.25 1017.5
@@ -323,7 +329,7 @@ line wall
   smooth off
 endline
 
-point 426.75 534.25 label -text [Third Chamber]
+point 426.75 534.25 label -text [Third Chamber] -scale s
 
 line wall
   307.25 555.5
@@ -364,7 +370,7 @@ point 124.59699999999998 740.547 station -name 43.0
 
 point 161.01699999999997 704.137 station -name 12.0
 
-point 6.25 751.25 label -text [Kate's Chamber]
+point 6.25 751.25 label -text [Kate's Chamber] -scale s
 
 line wall -close on
   95.5 767.25
