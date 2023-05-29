@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -129.0 -139.803 746.1111999999999 546.0
+##XTHERION## xth_me_area_adjust -129.0 -139.803 746.1111999999999 527.5
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {570.866 1 1.0} {295.279 1.0} Outputs/EntranceP.xvi 0 {}
 
@@ -77,7 +77,7 @@ point 562.596 287.599 station -name 3.0
 
 point 570.866 295.279 station -name 2.0
 
-line wall -close on
+line pit -close on -clip off
   570.866 295.279
   571.0 288.5 574.7 284.75 581.0 284.5
   593.5 284.0 595.0 289.5 595.0 296.0
@@ -472,6 +472,7 @@ scrap EntranceSP4 -projection plan -scale [-128.0 -128.0 620.126 -128.0 0.0 0.0 
 line pit
   203.0 253.5
   204.5 250.0 206.75 251.0 208.0 250.25
+  smooth off
 endline
 
 line wall

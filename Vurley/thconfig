@@ -14,7 +14,7 @@ export map -proj elevation -layout elevation0 -o Outputs/VurleyE0.pdf
 
 export map -proj [elevation 90] -layout elevation90 -o Outputs/VurleyE90.pdf
 
-export map -proj elevation -layout elevationcombined -o Outputs/ElevationCombined.pdf
+export map -proj elevation -layout elevationcombined -o Outputs/VurleyECombined.pdf
 
 #export model -o Outputs/Vurley.lox
 
@@ -73,8 +73,8 @@ transparency on
 map-header 0 0 nw
 map-header-bg off
 map-comment "Location ST 47993 53391 Alt. 221.7m OD<br>\
-Length 146 m (surveyed 2023)<br>\
-Depth 85 m (surveyed 2023)<br>\
+Length 177 m (surveyed 2023)<br>\
+Depth 112 m (surveyed 2023)<br>\
 Drawn using Therion by John Cooper.<br>\
 Survey by John Cooper, Adrian and Jude Vanderplank<br>\
 Grade UISv1 6-4-EF<br>\
