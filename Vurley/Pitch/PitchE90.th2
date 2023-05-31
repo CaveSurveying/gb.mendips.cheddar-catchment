@@ -11,7 +11,7 @@ point 181.0 61.5 label -text [20m pitch]
 
 point 198.0 401.0 label -text [11m pitch]
 
-point 156.5 -368.0 label -text [Crumble pitch - 7m]
+point 155.5 -345.5 label -text [Hotwells pitch (7m)] -scale m
 
 point 295.08299999999997 -431.89199999999994 station -name 105
 
