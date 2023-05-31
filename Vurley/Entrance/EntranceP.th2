@@ -104,13 +104,13 @@ endline
 
 point 219.25 166.5 label -text [La La Land] -scale m
 
-point 410.75 228.75 label -text Mai-dez -scale m
+point 386.5 230.25 label -text Mai-dez -scale m
 
 point 268.0 122.0 label -text [38 Foot Way] -scale m
 
 point 435.5 75.25 label -text [Fourth Chamber] -scale m
 
-point 549.5 149.5 label -text [Third Chamber] -scale m
+point 567.25 150.0 label -text [Third Chamber] -scale m
 
 point 260.5 249.75 label -text [Egg Timer]
 

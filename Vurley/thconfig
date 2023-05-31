@@ -70,6 +70,7 @@ symbol-hide group cave-centreline
 statistics explo off
 statistics topo-length off
 transparency on
+#color map-fg altitude
 map-header 0 0 nw
 map-header-bg off
 map-comment "Location ST 47993 53391 Alt. 221.7m OD<br>\
