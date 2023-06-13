@@ -71,7 +71,7 @@ point 196.84699999999998 857.4770000000001 station -name 2.0
 
 point 196.84699999999998 1043.307 station -name 1.0
 
-point 196.5 1072.5 label -text Entrance -scale s
+point 196.5 1072.5 label -text Entrance -scale m
 
 line wall
   295.5 154.75
@@ -92,9 +92,9 @@ line wall
   smooth off
 endline
 
-point 469.75 333.25 label -text [38 Foot Way] -scale s
+point 469.75 333.25 label -text [38 Foot Way] -scale m
 
-point 454.75 457.0 label -text [Fourth Chamber] -scale s
+point 454.75 457.0 label -text [Fourth Chamber] -scale m
 
 point 386.01699999999994 448.027 station -name 61.0
 
@@ -157,7 +157,7 @@ line wall
   smooth off
 endline
 
-point 344.0 38.0 label -text [Egg Timer] -scale s
+point 344.0 38.0 label -text [Egg Timer] -scale m
 
 line wall
   367.5 432.5
@@ -200,6 +200,8 @@ point 251.95699999999997 29.726999999999975 station -name 72.0
 point 260.227 79.91699999999997 station -name 71.0
 
 point 285.81699999999995 143.507 station -name 70.0
+
+point 393.5 587.0 label -text [1st Rift Chamber] -scale m
 
 line wall
   317.75 558.25
@@ -267,11 +269,11 @@ line wall
   smooth off
 endline
 
-point 434.5 214.0 label -text [La La Land] -scale s
+point 434.5 214.0 label -text [La La Land] -scale m
 
-point 119.0 588.0 label -text Mai-dez -scale s
+point 122.5 611.0 label -text M'aidez -scale m
 
-point 220.5 742.0 label -text [First Chamber] -scale s
+point 220.5 742.0 label -text [First Chamber] -scale m
 
 line wall
   167.25 691.0
@@ -294,9 +296,9 @@ line wall
   smooth off
 endline
 
-point 230.5 1025.0 label -text [Ground level] -align top-right -scale s
+point 230.5 1025.0 label -text [Ground level] -align top-right -scale m
 
-line wall
+line arrow -reverse on
   209.25 1017.5
   243.0 1017.5
 endline
@@ -328,8 +330,6 @@ line wall
   164.25 673.75 168.25 670.0 170.0 667.25
   smooth off
 endline
-
-point 426.75 534.25 label -text [Third Chamber] -scale s
 
 line wall
   307.25 555.5
@@ -370,7 +370,7 @@ point 124.59699999999998 740.547 station -name 43.0
 
 point 161.01699999999997 704.137 station -name 12.0
 
-point 6.25 751.25 label -text [Kate's Chamber] -scale s
+point 6.25 751.25 label -text [Kate's Chamber] -scale m
 
 line wall -close on
   95.5 767.25

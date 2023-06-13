@@ -6,11 +6,11 @@ set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 elevation {} {} {}
 xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[90.0\] {} {} {}
-xth_cp_map_tree_insert map 1 319X1 p1 1 EntranceMP EntranceMP@Entrance "Vurley Swallet - Plan" "Vurley Swallet - Plan"
-xth_cp_map_tree_insert map 1 320X1 p2 1 EntranceME0 EntranceME0@Entrance "Vurley Swallet<br>Elevation Looking North" "Vurley Swallet<br>Elevation Looking North"
-xth_cp_map_tree_insert map 1 321X1 p3 1 EntranceME90 EntranceME90@Entrance "Vurley Swallet<br>Elevation Looking East" "Vurley Swallet<br>Elevation Looking East"
+xth_cp_map_tree_insert map 1 325X1 p1 1 EntranceMP EntranceMP@Entrance "Vurley Swallet - Plan" "Vurley Swallet - Plan"
+xth_cp_map_tree_insert map 1 326X1 p2 1 EntranceME0 EntranceME0@Entrance "Vurley Swallet<br>Elevation Looking North" "Vurley Swallet<br>Elevation Looking North"
+xth_cp_map_tree_insert map 1 327X1 p3 1 EntranceME90 EntranceME90@Entrance "Vurley Swallet<br>Elevation Looking East" "Vurley Swallet<br>Elevation Looking East"
 xth_cp_map_tree_create
 xth_cp_comp_stat 123 9
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1683885493
+set xth(th_exit_number) 1686650310
 

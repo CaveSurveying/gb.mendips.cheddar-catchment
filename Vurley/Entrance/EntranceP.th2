@@ -104,15 +104,11 @@ endline
 
 point 219.25 166.5 label -text [La La Land] -scale m
 
-point 386.5 230.25 label -text Mai-dez -scale m
+point 386.5 230.25 label -text M'aidez -scale m
 
 point 268.0 122.0 label -text [38 Foot Way] -scale m
 
 point 435.5 75.25 label -text [Fourth Chamber] -scale m
-
-point 567.25 150.0 label -text [Third Chamber] -scale m
-
-point 260.5 249.75 label -text [Egg Timer]
 
 point 158.75 331.5 label -text [11m pitch] -scale m
 
@@ -243,6 +239,8 @@ line wall
   smooth off
 endline
 
+point 523.5 194.25 label -text [1st Rift Chamber] -scale m
+
 line wall
   417.0 325.0
   408.0 326.0 408.0 323.5 403.0 322.0
@@ -346,6 +344,8 @@ scrap EntranceSP2 -projection plan -scale [-128.0 -128.0 620.126 -128.0 0.0 0.0 
 line wall
 endline
 
+point 271.75 233.25 label -text [Egg Timer]
+
 line pit
   192.5 276.0
   194.25 268.75 203.0 265.5 206.0 266.0
@@ -382,12 +382,17 @@ line pit
   smooth off
 endline
 
+line arrow
+  255.25 233.5
+  215.75 233.5
+endline
+
 line wall
   188.25 203.25
   195.5 201.5 196.75 197.0 205.0 202.0
   213.25 207.0 223.75 207.75 228.0 210.75
-  232.25 213.75 248.0 235.0 230.25 229.5
-  212.5 224.0 191.0 212.75 190.25 212.5
+  232.25 213.75 244.25 230.5 232.0 226.75
+  214.22 221.31 191.0 212.75 190.25 212.5
   189.5 212.25 195.5 224.75 197.5 225.75
   199.5 226.75 207.5 229.0 207.25 231.75
   207.0 234.5 196.25 238.0 194.75 239.75
@@ -531,6 +536,13 @@ endline
 point 208.85599999999994 256.109 station -name 80.0
 
 point 184.84599999999995 278.549 station -name 81.0
+
+line arrow
+  248.5 254.5
+  219.0 254.5
+endline
+
+point 268.25 254.5 label -text [Kate's Corner] -scale m
 
 point 180.90599999999995 282.289 station -name 82.0-
 
