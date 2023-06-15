@@ -71,7 +71,7 @@ point 196.84699999999998 857.4770000000001 station -name 2.0
 
 point 196.84699999999998 1043.307 station -name 1.0
 
-point 196.5 1072.5 label -text Entrance -scale m
+point 196.5 1072.5 label -text Entrance -scale m -align top
 
 line wall
   295.5 154.75
@@ -92,9 +92,9 @@ line wall
   smooth off
 endline
 
-point 469.75 333.25 label -text [38 Foot Way] -scale m
+point 423.75 320.75 label -text [38 Foot Way] -scale m -align bottom-right
 
-point 454.75 457.0 label -text [Fourth Chamber] -scale m
+point 422.25 461.5 label -text [Fourth Chamber] -scale m -align right
 
 point 386.01699999999994 448.027 station -name 61.0
 
@@ -157,7 +157,7 @@ line wall
   smooth off
 endline
 
-point 344.0 38.0 label -text [Egg Timer] -scale m
+point 282.0 24.5 label -text [Egg Timer] -scale m -align right
 
 line wall
   367.5 432.5
@@ -201,7 +201,7 @@ point 260.227 79.91699999999997 station -name 71.0
 
 point 285.81699999999995 143.507 station -name 70.0
 
-point 393.5 587.0 label -text [1st Rift Chamber] -scale m
+point 333.5 581.5 label -text [1st Rift Chamber] -scale m -align right
 
 line wall
   317.75 558.25
@@ -269,11 +269,11 @@ line wall
   smooth off
 endline
 
-point 434.5 214.0 label -text [La La Land] -scale m
+point 384.0 205.5 label -text [La La Land] -scale m -align bottom-right
 
-point 122.5 611.0 label -text M'aidez -scale m
+point 158.0 615.5 label -text M'aidez -scale m -align bottom-left
 
-point 220.5 742.0 label -text [First Chamber] -scale m
+point 208.5 739.0 label -text [First Chamber] -scale m -align right
 
 line wall
   167.25 691.0
@@ -296,7 +296,7 @@ line wall
   smooth off
 endline
 
-point 230.5 1025.0 label -text [Ground level] -align top-right -scale m
+point 230.5 1025.0 label -text [Ground level] -scale m -align top-right
 
 line arrow -reverse on
   209.25 1017.5
@@ -370,7 +370,7 @@ point 124.59699999999998 740.547 station -name 43.0
 
 point 161.01699999999997 704.137 station -name 12.0
 
-point 6.25 751.25 label -text [Kate's Chamber] -scale m
+point 80.25 751.25 label -text [Kate's Chamber] -scale m -align bottom-left
 
 line wall -close on
   95.5 767.25

@@ -7,9 +7,9 @@ encoding  utf-8
 
 scrap PitchSE01 -projection elevation -scale [2.0 1.0 198.0 197.0 0.0 0.0 14.002400239999998 0.0 m]
 
-point 161.0 398.0 label -text [11m pitch] -scale m
+point 206.0 402.0 label -text [11m pitch] -scale m
 
-point 198.0 72.0 label -text [20m pitch] -scale m
+point 166.0 48.5 label -text [20m pitch] -scale m -align right
 
 point 47.24999999999997 -431.89199999999994 station -name 105.0
 
@@ -27,7 +27,7 @@ line wall
   smooth off
 endline
 
-point 294.0 -582.5 label -text [7m Pitch] -scale m
+point 241.5 -589.5 label -text [7m Pitch] -scale m -align right
 
 line wall -close on
   218.5 -683.0
@@ -127,7 +127,7 @@ line wall
   smooth off
 endline
 
-point 161.5 -343.0 label -text [Hotwells pitch (7m)] -scale m
+point 109.5 -374.0 label -text [Hotwells pitch (7m)] -scale m -align right
 
 point 63.38999999999997 -306.30199999999996 station -name 104.0
 

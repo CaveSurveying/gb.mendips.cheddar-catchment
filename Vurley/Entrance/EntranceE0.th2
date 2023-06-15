@@ -46,9 +46,9 @@ point 474.60599999999994 505.317 station -name 51.0
 
 point 483.07599999999996 522.047 station -name 50.0
 
-point 373.0 324.0 label -text [38 Foot Way] -scale m
+point 323.0 319.5 label -text [38 Foot Way] -scale m -align bottom-right
 
-point 291.0 44.5 label -text [Egg Timer] -scale m
+point 225.5 47.0 label -text [Egg Timer] -scale m -align bottom-right
 
 line wall
   187.0 -260.5
@@ -123,9 +123,9 @@ point 402.5559999999999 448.027 station -name 61.0
 
 point 414.17599999999993 463.187 station -name 62.0
 
-point 493.25 458.0 label -text [Fourth Chamber] -scale m
+point 467.25 464.0 label -text [Fourth Chamber] -scale m -align bottom-right
 
-point 547.0 602.0 label -text [1st Rift Chamber] -scale m
+point 519.0 615.0 label -text [1st Rift Chamber] -scale m -align bottom-right
 
 line wall
   421.25 456.0
@@ -240,11 +240,11 @@ endscrap
 
 scrap EntranceSE01 -projection elevation -scale [-128.0 -128.0 816.9764 -128.0 0.0 0.0 24.002400559999998 0.0 m]
 
-point 582.0 1068.0 label -text Entrance -align top -scale m
+point 582.0 1068.0 label -text Entrance -scale m
 
-point 319.0 768.5 label -text [Kate's Chamber] -scale m
+point 377.0 754.5 label -text [Kate's Chamber] -scale m -align top-left
 
-point 618.25 1024.25 label -text [Ground level] -align top-right -scale m
+point 617.25 1026.25 label -text [Ground level] -scale m -align top-right
 
 line arrow -reverse on
   597.5 1017.25
@@ -356,11 +356,11 @@ line wall
   smooth off
 endline
 
-point 253.0 213.0 label -text [La La Land] -scale m
+point 249.0 221.0 label -text [La La Land] -scale m -align bottom-right
 
-point 363.0 611.5 label -text M'aidez -scale m
+point 363.0 611.5 label -text M'aidez -scale m -align bottom-left
 
-point 615.0 720.5 label -text [First Chamber] -scale m
+point 568.5 714.5 label -text [First Chamber] -scale m -align bottom-right
 
 line wall
   445.75 588.25

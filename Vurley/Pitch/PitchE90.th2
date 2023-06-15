@@ -16,13 +16,13 @@ line wall -close on -reverse on
   445.0 -680.0 422.5 -674.0 422.5 -677.0
 endline
 
-point 250.5 -582.0 label -text [7m pitch] -scale m
+point 282.0 -590.0 label -text [7m pitch] -scale m -align left
 
-point 181.0 61.5 label -text [20m pitch] -scale m
+point 200.0 38.0 label -text [20m pitch] -scale m -align left
 
-point 198.0 401.0 label -text [11m pitch] -scale m
+point 131.0 412.0 label -text [11m pitch] -scale m -align right
 
-point 155.5 -345.5 label -text [Hotwells pitch (7m)] -scale m
+point 219.0 -370.0 label -text [Hotwells pitch (7m)] -scale m -align left
 
 point 295.08299999999997 -431.89199999999994 station -name 105.0
 
