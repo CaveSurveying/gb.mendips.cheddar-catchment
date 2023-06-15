@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap PitchSE01 -projection elevation -scale [2.0 1.0 198.0 197.0 0.0 0.0 14.002400239999998 0.0 m]
 
-point 206.0 402.0 label -text [11m pitch] -scale m
+point 206.0 402.0 label -text [11m pitch] -scale m -align left
 
 point 166.0 48.5 label -text [20m pitch] -scale m -align right
 
