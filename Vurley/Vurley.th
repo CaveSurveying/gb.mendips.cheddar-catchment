@@ -6,8 +6,20 @@ input Pitch/Pitch.th
 
 map VurleyMP
   EntranceMP@Entrance
- break
+  break
   PitchMP@Pitch
+endmap
+
+map VurleyME0
+  EntranceMP@Entrance
+  break
+  PitchMP@Pitch
+endmap
+
+map VurleyME90
+  EntranceME90@Entrance
+  break
+  PitchME90@Pitch
 endmap
 
 equate 81.0@Entrance 81.0@Pitch

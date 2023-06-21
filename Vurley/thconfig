@@ -20,7 +20,7 @@ export map -proj [elevation 90] -layout elevation90 -o Outputs/VurleyE90.pdf
 
 export map -proj elevation -layout elevationcombined -o Outputs/VurleyECombined.pdf
 
-#export model -o Outputs/Vurley.lox
+export model -o Outputs/Vurley.lox
 
 layout plan
 copy local
@@ -53,7 +53,7 @@ endlayout
 
 layout elevation0
 copy local
-map-header 100 0 center
+map-header 50 0 center
 scale-bar 25 metres
 scale 1 100
 base-scale 1 400
@@ -67,7 +67,7 @@ endlayout
 
 layout elevation90
 copy local
-map-header 0 0 center
+map-header 50 0 center
 scale-bar 25 metres
 scale 1 100
 base-scale 1 400
