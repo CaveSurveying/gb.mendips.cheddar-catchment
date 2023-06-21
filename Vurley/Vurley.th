@@ -11,9 +11,9 @@ map VurleyMP
 endmap
 
 map VurleyME0
-  EntranceMP@Entrance
+  EntranceME0@Entrance
   break
-  PitchMP@Pitch
+  PitchME0@Pitch
 endmap
 
 map VurleyME90

@@ -6,7 +6,7 @@ source Vurley.th
 #Surveys to output
 #-----------------
 
-export model -o Outputs/Vurley.lox
+#export model -o Outputs/Vurley.lox
 
 export model -fmt survex -o Outputs/Vurley.3d
 
@@ -19,8 +19,6 @@ export map -proj elevation -layout elevation0 -o Outputs/VurleyE0.pdf
 export map -proj [elevation 90] -layout elevation90 -o Outputs/VurleyE90.pdf
 
 export map -proj elevation -layout elevationcombined -o Outputs/VurleyECombined.pdf
-
-export model -o Outputs/Vurley.lox
 
 layout plan
 copy local

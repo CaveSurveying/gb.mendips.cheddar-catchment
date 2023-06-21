@@ -7,6 +7,7 @@ select PitchME90@Pitch
 
 export model -o Outputs/Pitchth.3d
 
+#export model -o Outputs/Pitch.lox
 
 export map -proj plan -layout plan -o Outputs/PitchP.pdf
 export map -proj plan -layout plan -o Outputs/PitchP.xvi
