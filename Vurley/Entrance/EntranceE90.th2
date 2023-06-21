@@ -115,8 +115,8 @@ line wall
 endline
 
 line wall
-  211.0 -275.0
-  211.0 -270.0 211.0 -263.0 215.0 -262.5
+  211.5 -269.5
+  211.5 -264.5 211.0 -263.0 215.0 -262.5
   219.0 -262.0 221.0 -258.5 223.5 -253.5
   226.0 -248.5 234.0 -227.5 240.0 -223.5
   246.0 -219.5 255.0 -216.0 257.0 -214.0
@@ -153,11 +153,11 @@ line wall
   231.5 -201.5 223.5 -206.5 216.0 -216.0
   208.5 -225.5 205.5 -230.5 205.0 -239.0
   204.5 -247.5 210.0 -252.0 203.0 -257.0
-  196.0 -262.0 184.0 -265.0 184.0 -274.0
+  196.0 -262.0 184.5 -261.5 184.5 -270.5
   smooth off
 endline
 
-point 282.0 24.5 label -text [Egg Timer] -scale m -align right
+point 284.0 34.0 label -text [Egg Timer] -scale m -align right
 
 line wall
   367.5 432.5
@@ -269,11 +269,11 @@ line wall
   smooth off
 endline
 
-point 384.0 205.5 label -text [La La Land] -scale m -align bottom-right
+point 387.5 212.5 label -text [La La Land] -scale m -align bottom-right
 
 point 158.0 615.5 label -text M'aidez -scale m -align bottom-left
 
-point 208.5 739.0 label -text [First Chamber] -scale m -align right
+point 208.5 715.0 label -text [First Chamber] -scale m -align right
 
 line wall
   167.25 691.0
@@ -370,7 +370,7 @@ point 124.59699999999998 740.547 station -name 43.0
 
 point 161.01699999999997 704.137 station -name 12.0
 
-point 80.25 751.25 label -text [Kate's Chamber] -scale m -align bottom-left
+point 78.75 772.75 label -text [Kate's Chamber] -scale m -align bottom-left
 
 line wall -close on
   95.5 767.25

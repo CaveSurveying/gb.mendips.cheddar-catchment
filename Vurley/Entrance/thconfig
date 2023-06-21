@@ -50,8 +50,8 @@ endlayout
 
 layout elevationcombined
 #copy local
-map-image 0 0 se Outputs/EntranceE0.pdf
-map-image 0 0 sw Outputs/EntranceE90.pdf
+map-image 0 0 sw Outputs/EntranceE0.pdf
+map-image 0 0 se Outputs/EntranceE90.pdf
 map-header 0 0 off
 symbol-hide special scale-bar
 code tex-map

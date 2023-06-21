@@ -48,12 +48,12 @@ point 483.07599999999996 522.047 station -name 50.0
 
 point 323.0 319.5 label -text [38 Foot Way] -scale m -align bottom-right
 
-point 225.5 47.0 label -text [Egg Timer] -scale m -align bottom-right
+point 225.5 38.5 label -text [Egg Timer] -scale m -align bottom-right
 
 line wall
-  187.0 -260.5
-  190.5 -258.5 218.0 -224.5 220.0 -216.5
-  222.0 -208.5 218.0 -193.5 215.5 -186.0
+  171.5 -270.0
+  178.5 -268.5 215.0 -224.5 220.0 -216.5
+  224.37 -209.51 218.0 -193.5 215.5 -186.0
   213.0 -178.5 217.5 -180.0 206.0 -170.5
   194.5 -161.0 187.5 -162.5 185.5 -154.5
   183.5 -146.5 177.5 -140.5 181.5 -128.5
@@ -89,7 +89,7 @@ line wall
   195.0 -209.0 194.5 -216.0 188.0 -219.5
   181.5 -223.0 178.5 -223.5 178.5 -231.5
   178.5 -239.5 186.5 -239.5 178.5 -244.0
-  170.5 -248.5 178.5 -254.5 167.5 -254.5
+  170.5 -248.5 150.5 -252.0 145.5 -270.5
   smooth off
 endline
 
@@ -356,7 +356,7 @@ line wall
   smooth off
 endline
 
-point 249.0 221.0 label -text [La La Land] -scale m -align bottom-right
+point 249.5 214.0 label -text [La La Land] -scale m -align bottom-right
 
 point 363.0 611.5 label -text M'aidez -scale m -align bottom-left
 
