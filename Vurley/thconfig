@@ -6,7 +6,7 @@ source Vurley.th
 #Surveys to output
 #-----------------
 
-#export model -o Outputs/Vurley.lox
+export model -o Outputs/Vurley.lox
 
 export model -fmt survex -o Outputs/Vurley.3d
 
@@ -33,7 +33,7 @@ map-header-bg off
 map-comment "Location ST 47993 53391 Alt. 221.7m OD<br>\
 Length 205 m (surveyed 2023)<br>\
 Depth 129 m (surveyed 2023)<br>\
-Drawn using Therion by John Cooper, Draft 21/06/2023<br>\
+Drawn using Therion by John Cooper, Draft 22/06/2023<br>\
 Survey by John Cooper, Adrian and Jude Vanderplank<br>\
 Grade UISv1 6-4-EF<br>\
 Copyright 2011-23 CC BY NC SA<br>\

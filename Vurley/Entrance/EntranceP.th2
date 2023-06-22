@@ -110,8 +110,6 @@ point 268.0 122.0 label -text [38 Foot Way] -scale m
 
 point 435.5 75.25 label -text [Fourth Chamber] -scale m
 
-point 158.75 331.5 label -text [11m pitch] -scale m
-
 point 362.75 398.25 label -text [Kate's Chamber] -scale m
 
 line wall
