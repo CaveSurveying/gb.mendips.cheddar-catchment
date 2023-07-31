@@ -1,0 +1,112 @@
+encoding  utf-8
+
+source DaveMitchellsDig.th
+
+#Get .3d .xvi and .lox out of way first
+#--------
+
+export model -fmt survex -o Outputs/DaveMitchellsDigth.3d
+
+export map -proj plan -layout local -o Outputs/DaveMitchellsDigP.xvi
+
+export map -proj elevation -layout local -o Outputs/DaveMitchellsDigE000.xvi
+
+#export model -o Outputs/DaveMitchellsDig.lox
+
+#note special layouts Projected and Plan defined later
+
+#projection first as used later in plan
+#--------
+
+export map -projection elevation -layout Projected -o Outputs/DaveMitchellsDigE000.pdf
+
+#plan next
+#--------
+
+export map -projection plan -layout Plan -o Outputs/DaveMitchellsDigP.pdf
+
+#now define the Plan layout
+#--------
+
+layout Plan
+
+copy local
+
+map-image -90 130 ne Outputs/DaveMitchellsDigE000.pdf
+
+map-header 0 -100 nw
+
+map-comment "Entrance 49284 54335 242 OD<br>\
+Length 85.5 m (July 2023)<br>\
+Depth 66.5m (July 2023)<br>\
+<br>\
+Drawn using Therion by John Cooper<br>\
+Survey by John Cooper and Adrian Vanderplank<br>\
+<br>\
+Grade UISv1 6-4-EF<br>\
+Copyright 2023 CC BY NC SA<br>\
+Data available at http://cave-registry.org.uk/<br>\
+<br>\
+Heights in metres OD\"
+
+scale-bar 5 metres
+
+colour-legend off
+
+grid-coords off
+
+code tex-map
+  \cavename={\size[40] Dave Mitchell's Dig}
+  \cavelength={} %empty
+  \cavedepth={} %empty
+  \colorlegendfalse
+endcode
+
+endlayout
+
+#now define the Projected layout
+#--------
+
+layout Projected
+
+copy local
+
+map-header 50 100 off
+
+statistics explo off
+statistics topo-length off
+
+symbol-hide special north-arrow
+symbol-hide special scale-bar
+symbol-hide group cave-centerline
+symbol-hide point cave-station
+
+endlayout
+
+layout local
+
+copy common
+
+doc-title "Dave Mitchell's Dig"
+
+grid-size 5 5 5 metres
+
+scale 1 250
+
+symbol-hide point remark
+symbol-hide group cave-centerline
+
+map-header 50 70 off
+map-header-bg off
+
+statistics explo off
+statistics topo off
+
+code metapost
+  fonts_setup(8,12,16,20,24)
+endcode
+
+endlayout
+
+#get the master layout settings
+input ../common_layout.th

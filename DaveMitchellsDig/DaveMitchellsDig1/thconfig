@@ -1,0 +1,74 @@
+encoding  utf-8
+source DaveMitchellsDig1.th
+
+#Get .3d .xvi and .lox out of way first
+#--------
+
+export model -fmt survex -o Outputs/DaveMitchellsDig1th.3d
+
+export map -proj plan -layout local -o Outputs/DaveMitchellsDig1P.xvi
+
+export map -proj elevation -layout local -o Outputs/DaveMitchellsDig1E000.xvi
+
+#export model -o Outputs/DaveMitchellsDig1.lox
+
+#note special layouts Projected and Plan defined later
+
+#projection first
+#--------
+
+export map -projection elevation -layout Projected -o Outputs/DaveMitchellsDig1E000.pdf
+
+#plan next
+#--------
+
+export map -projection plan -layout Plan -o Outputs/DaveMitchellsDig1P.pdf
+
+#now define the Plan layout
+#--------
+
+layout Plan
+
+copy local
+
+
+grid-coords off
+
+endlayout
+
+#now define the Projected layout
+#--------
+
+layout Projected
+
+copy local
+
+endlayout
+
+layout local
+
+copy common
+
+doc-title "Dave Mitchell's Dig 1"
+
+grid-size 5 5 5 metres
+
+scale 1 250
+
+symbol-hide point remark
+#symbol-hide group cave-centerline
+
+map-header 0 0 se
+map-header-bg off
+
+statistics explo off
+statistics topo off
+
+code metapost
+  fonts_setup(8,12,16,20,24)
+endcode
+
+endlayout
+
+#get the master layout settings
+input ../../common_layout.th

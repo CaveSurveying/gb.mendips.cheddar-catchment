@@ -1,0 +1,45 @@
+encoding  utf-8
+
+survey DaveMitchellsDig
+
+input DaveMitchellsDig1/DaveMitchellsDig1.th
+input DaveMitchellsDig2/DaveMitchellsDig2.th
+input DaveMitchellsDig3/DaveMitchellsDig3.th
+input DaveMitchellsDig4/DaveMitchellsDig4.th
+
+map DMDMP -title "Dave Mitchell's Dig"
+  DMD1MP@DaveMitchellsDig1
+  break
+  DMD2MP@DaveMitchellsDig2
+  break
+  DMD3MP@DaveMitchellsDig3
+  break
+  DMD4MP@DaveMitchellsDig4
+endmap
+
+map DMDME000
+  DMD1ME000@DaveMitchellsDig1
+  break
+  DMD2ME000@DaveMitchellsDig2
+  break
+  DMD3ME000@DaveMitchellsDig3
+  break
+  DMD4ME000@DaveMitchellsDig4
+endmap
+
+equate 18.0@DaveMitchellsDig1 18.0@DaveMitchellsDig2
+equate 23.0@DaveMitchellsDig2 23.0@DaveMitchellsDig3
+equate 34.0@DaveMitchellsDig3 43.0@DaveMitchellsDig4
+
+#Plan Joins
+join DMD1SP3@DaveMitchellsDig1 DMD2SP1@DaveMitchellsDig2 -smooth on
+join DMD2SP2@DaveMitchellsDig2 DMD3SP1@DaveMitchellsDig3 -smooth on
+join DMD3SP3@DaveMitchellsDig3 DMD4SP1@DaveMitchellsDig4 -smooth on
+
+#E000 Joins
+join DMD1SE0001@DaveMitchellsDig1 DMD2SE0001@DaveMitchellsDig2 -smooth on
+join DMD2SE0001@DaveMitchellsDig2 DMD3SE0001@DaveMitchellsDig3 -smooth on
+join DMD3SE0001@DaveMitchellsDig3 DMD4SE0001@DaveMitchellsDig4 -smooth on
+
+endsurvey
+

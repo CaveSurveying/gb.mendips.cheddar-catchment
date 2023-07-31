@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 10.49m (surface 0.00m, duplicated 0.00m)\nvertical range: 8.05m (from 43.0@DaveMitchellsDig4 at 0.00m to 48.0@DaveMitchellsDig4 at -8.05m)\nnorth-south range: 1.72m (from 43.0@DaveMitchellsDig4 at 0.00m to 46.0@DaveMitchellsDig4 at -1.72m)\neast-west range: 3.59m (from 43.0@DaveMitchellsDig4 at 0.00m to 46.0@DaveMitchellsDig4 at -3.59m)\nnumber of shots: 53\nnumber of stations: 54"
+xth_cp_data_tree_insert 29 1 1 DaveMitchellsDig4 DaveMitchellsDig4 "" "" "length: 10.49m (surface 0.00m, duplicated 0.00m)\nvertical range: 8.05m (from 43.0@DaveMitchellsDig4 at 0.00m to 48.0@DaveMitchellsDig4 at -8.05m)\nnorth-south range: 1.72m (from 43.0@DaveMitchellsDig4 at 0.00m to 46.0@DaveMitchellsDig4 at -1.72m)\neast-west range: 3.59m (from 43.0@DaveMitchellsDig4 at 0.00m to 46.0@DaveMitchellsDig4 at -3.59m)\nnumber of shots: 53\nnumber of stations: 54"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 elevation {} {} {}
+xth_cp_map_tree_insert map 1 56X1 p1 1 DMD4MP DMD4MP@DaveMitchellsDig4 "Dave Mitchell's Dig" "Dave Mitchell's Dig"
+xth_cp_map_tree_insert map 1 57X1 p2 1 DMD4ME000 DMD4ME000@DaveMitchellsDig4 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 10 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1690795994
+
