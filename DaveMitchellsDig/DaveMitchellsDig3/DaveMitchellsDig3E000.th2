@@ -1,11 +1,15 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -129.0 -129.0 254.75 365.25
+##XTHERION## xth_me_area_adjust -129.0 -129.0 262.25 365.25
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {78.73910000000001 1 1.0} {236.216 23.0} Outputs/DaveMitchellsDig3E000.xvi 0 {}
 
 
 
 scrap DMD3SE0001 -projection elevation -scale [-128.0 -128.0 206.74020000000002 -128.0 0.0 0.0 8.50240108 0.0 m]
+
+point 133.0 102.75 label -text [Water From<br>Soakaway Re-enters] -align top-right
+
+point 124.0 103.0 water-flow -orientation 249.0
 
 line wall
   105.0 86.75

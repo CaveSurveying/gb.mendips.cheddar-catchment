@@ -73,7 +73,7 @@ S    -1.18 DMD3SE0001@DaveMitchellsDig3 ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/DaveMitchellsDig3E000.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  31 JUL 2023 10:35
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  11 NOV 2023 20:14
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -86,10 +86,10 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 [13] [14] [15] )
  
 Here is how much of MetaPost's memory you used:
- 2039 strings using 55896 characters
- 2394884 bytes of node memory
- 1733 symbolic tokens
- 9i,82n,16p,339b,5f stack positions out of 16i,98n,20p,390b,6f
+ 2152 strings using 58697 characters
+ 2400348 bytes of node memory
+ 1739 symbolic tokens
+ 9i,82n,16p,448b,5f stack positions out of 16i,98n,20p,487b,6f
 29 output files written: data-patt.1 .. data.15
 
 
@@ -97,7 +97,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  31 JUL 2023 10:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  11 NOV 2023 20:14
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -109,7 +109,7 @@ entering extended mode
 Here is how much of TeX's memory you used:
  287 strings out of 94604
  3976 string characters out of 1142524
- 22922 words of memory out of 5007650
+ 23350 words of memory out of 5008078
  1942 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
@@ -117,7 +117,7 @@ Here is how much of TeX's memory you used:
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program F
 iles (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 40421 bytes).
+Output written on data.pdf (1 page, 41541 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
@@ -137,7 +137,7 @@ S    -9.26 DMD3SP3@DaveMitchellsDig3 ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/DaveMitchellsDig3P.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  31 JUL 2023 10:35
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  11 NOV 2023 20:14
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -161,7 +161,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  31 JUL 2023 10:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  11 NOV 2023 20:14
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -180,7 +180,7 @@ Here is how much of TeX's memory you used:
  9i,5n,6p,229b,60s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 33366 bytes).
+Output written on data.pdf (1 page, 33355 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream

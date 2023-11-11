@@ -5,10 +5,10 @@ xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 elevation {} {} {}
-xth_cp_map_tree_insert map 1 68X1 p1 1 DMD3MP DMD3MP@DaveMitchellsDig3 "Dave Mitchell's Dig" "Dave Mitchell's Dig"
-xth_cp_map_tree_insert map 1 69X1 p2 1 DMD3ME000 DMD3ME000@DaveMitchellsDig3 "" ""
+xth_cp_map_tree_insert map 1 70X1 p1 1 DMD3MP DMD3MP@DaveMitchellsDig3 "Dave Mitchell's Dig" "Dave Mitchell's Dig"
+xth_cp_map_tree_insert map 1 71X1 p2 1 DMD3ME000 DMD3ME000@DaveMitchellsDig3 "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 21 4
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1690796112
+set xth(th_exit_number) 1699733697
 
