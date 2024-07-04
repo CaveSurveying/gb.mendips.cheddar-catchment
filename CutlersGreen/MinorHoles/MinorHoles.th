@@ -163,8 +163,10 @@ data normal from to tape compass clino ignoreall
 #1.0  -  3.18  86.61  -14.13  4  
 #1.0  1  3.532  176.93  -24.26  1  
 #1.0  1  3.532  176.99  -24.4  1  
-#1.0  1  3.532  176.99  -24.36  2  
+#1.0  1  3.532  176.99  -24.36  2 
+flags surface
 1.0  1  3.532  176.96  -24.34  Calculated leg from 3 above
+flags not surface
 1  -  1.012  270.05  -0.22  341  
 1  -  1.634  342.72  -0.69  1  hole 2
 1  -  1.789  48.55  -3.11  14  
@@ -173,21 +175,25 @@ data normal from to tape compass clino ignoreall
 #1  2  3.657  2.65  -77.94  354  
 #1  2  3.682  2.8  -77.66  354  
 1  2  3.671  2.83  -77.86  Calculated leg from 3 above
-1.0  -  0.0  0.0  0.0  0  
+flags surface
+1.0  -  0.0  0.0  0.0  0 
 #1.0  3  7.593  154.7  -10.88  358  
 #1.0  3  7.592  154.83  -10.95  358  
 #1.0  3  7.59  154.81  -10.96  358  
 1.0  3  7.592  154.76  -10.93  Calculated leg from 3 above
+flags not surface
 3  -  1.663  294.65  -6.04  350  
 3  -  1.942  328.62  -1.52  352  hole 1
 3  -  1.891  26.33  -0.56  2  
 3  -  0.975  105.86  -1.41  5  
 3  -  0.0  0.0  0.0  0  
   extend left
+flags surface
 #1.0  4  4.6  242.47  -16.82  2  
 #1.0  4  4.599  242.53  -16.83  2  
 #1.0  4  4.595  242.57  -16.83  2  
 1.0  4  4.598  242.5  -16.82  Calculated leg from 3 above
+flags not surface
 4  -  1.145  3.84  -4.93  351  hole 3
 4  -  1.581  67.44  -3.13  347  
 4  -  1.436  152.01  -2.98  9  
@@ -205,12 +211,14 @@ data normal from to tape compass clino ignoreall
 #5  6  1.684  55.37  -23.59  352  
 #5  6  1.682  55.31  -23.7  352  
 5  6  1.681  55.31  -23.7  Calculated leg from 3 above
+flags surface
 1.0  -  0.0  0.0  0.0  0  
   extend right
 #1.0  7  12.99  229.13  -4.92  352  
 #1.0  7  13.004  229.13  -4.91  352  
 #1.0  7  13.0  229.08  -4.92  352  
 1.0  7  12.998  229.13  -4.91  Calculated leg from 3 above
+flags not surface
 7  -  1.308  275.17  3.74  0  hole 5
 7  -  2.159  340.24  -3.31  0  
 7  -  1.19  78.05  0.48  11  
@@ -228,11 +236,13 @@ data normal from to tape compass clino ignoreall
 9  -  1.28  147.8  -43.51  68  
 9  -  0.811  122.91  -84.08  42  
 9  -  1.151  72.34  -43.19  26  
+flags surface
 1.0  -  0.0  0.0  0.0  0  
 #1.0  10  16.466  239.9  -2.84  355  
 #1.0  10  16.471  239.9  -2.8  355  
 #1.0  10  16.466  239.9  -2.8  354  
 1.0  10  16.468  239.9  -2.81  Calculated leg from 3 above
+flags not surface
 10  -  2.68  350.85  -3.92  358  hole 6
 10  -  2.543  22.67  -5.43  4  
 10  -  1.584  72.71  -1.69  1  
@@ -241,6 +251,7 @@ data normal from to tape compass clino ignoreall
 #10  11  3.415  60.39  -66.79  4  
 #10  11  3.417  60.0  -66.56  4  
 10  11  3.414  60.38  -66.71  Calculated leg from 3 above
+flags surface
 10  -  0.0  0.0  0.0  0  
 #10  12  5.302  29.01  -1.94  2  
 #10  12  5.3  28.98  -1.96  2  
@@ -248,16 +259,19 @@ data normal from to tape compass clino ignoreall
 10  12  5.301  29.0  -1.96  Calculated leg from 3 above
 12  -  1.334  228.78  -8.48  355  
 12  -  1.841  192.72  -4.92  352  
-12  -  0.836  146.22  -10.8  345  
+12  -  0.836  146.22  -10.8  345
+flags not surface 
 #12  13  2.063  6.93  -25.18  54  taken 10cm below station
 #12  13  2.021  6.69  -24.92  56  
 #12  13  1.986  6.48  -25.1  57  
 12  13  2.023  6.81  -25.07  Calculated leg from 3 above
   extend left
+flags surface
 #1.0  14  8.708  273.67  -8.52  355  
 #1.0  14  8.702  274.06  -8.61  0  
 #1.0  14  8.707  274.01  -8.57  0  
 1.0  14  8.706  273.87  -8.57  Calculated leg from 3 above
+flags not surface
 14  -  3.639  226.85  5.41  28  
 14  -  3.601  199.93  1.22  19  
 14  -  2.18  176.93  1.44  15  
@@ -270,24 +284,28 @@ data normal from to tape compass clino ignoreall
 #14  15  4.076  26.8  -75.37  279  
 14  15  4.074  26.36  -75.48  Calculated leg from 3 above
   extend right
+flags surface
 #1.0  16  19.777  194.51  0.86  1  
 #1.0  16  19.777  194.49  0.86  1  
 #1.0  16  19.776  194.5  0.86  1  
 1.0  16  19.777  194.5  0.86  Calculated leg from 3 above
 #17  16  4.001  221.79  17.33  0  
 #17  16  3.966  221.78  17.42  0  
-#17  16  4.0  221.79  17.42  0  
+#17  16  4.0  221.79  17.42  0
 17  16  3.989  221.78  17.39  Calculated leg from 3 above
+flags not surface
 17  -  1.275  267.26  6.54  348  
 17  -  2.333  262.85  2.48  351  
 17  -  2.829  243.25  2.03  355  
 17  -  1.954  177.35  -3.53  350  
 17  -  1.867  120.63  -4.41  357  
+flags surface
 3  -  0.0  0.0  0.0  0  
 #18  3  4.849  182.06  67.92  1  
 #18  3  4.849  181.37  67.54  1  
 #18  3  4.849  182.68  67.9  4  
 18  3  4.849  181.71  67.79  Calculated leg from 3 above
+flags not surface
 18  -  1.567  154.33  -9.05  355  
 18  -  0.747  12.51  -3.1  355  
 18  -  0.463  101.7  1.26  7  
