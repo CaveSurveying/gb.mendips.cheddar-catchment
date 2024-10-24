@@ -9,7 +9,7 @@ input sump1b/sump1b.th
 input BishopsPalace/BishopsPalace.th
 input sump2/sump2.th
 input sheppards_crook/sheppards_crook.th
-input sump3/sump3
+input sump3/sump3.th
 
 equate 20@downstream 20@upstream
 equate 160@upstream 0@sump1b

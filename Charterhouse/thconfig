@@ -6,8 +6,9 @@ source Charterhouse.th
 
 #Surveys to output
 #-----------------
-
+cs EPSG:27700
 export map -proj plan -layout local -o Charterhouse.pdf
+export map -proj plan -layout local -o Charterhouse.shp
 #Produces plan of cave, on a single sheet
 
 export model -fmt survex -o Charterhouseth.3d
