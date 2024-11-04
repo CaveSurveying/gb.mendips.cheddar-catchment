@@ -74,8 +74,8 @@ fix SowsHole 47853 54567 139 #ST 4785 5456 139
 station SowsHole "" entrance
 #fix SparryFissure 48020 54580 151 #ST 4802 5458 151
 #station SparryFissure "" entrance
-fix SpiderHole 48060 54240 184 #ST 4806 5424 184
-station SpiderHole "" entrance
+#fix SpiderHole 48060 54240 184 #ST 4806 5424 184
+#station SpiderHole "" entrance
 fix SugerLoafRock 46900 54150 54 #ST 4690 5415 54
 station SugerLoafRock "" entrance
 #fix SunHole 46730 54080 83 #ST 4673 5408 83
