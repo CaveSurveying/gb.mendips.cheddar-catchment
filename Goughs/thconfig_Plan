@@ -7,6 +7,11 @@ source Goughs.th
 #-----------------
 
 export map -proj plan -layout local -o Goughs_Plan.pdf
+export map -proj plan -layout local -o Goughs_Plan.kml
+export map -proj plan -layout local -o Goughs_Plan.bbox
+export map -proj plan -layout local -o Goughs_Plan.shp
+export model -o Goughsth.3d
+ 
 #Produces plan of cave, on a single sheet
 
 #select GoughsM@Goughs
