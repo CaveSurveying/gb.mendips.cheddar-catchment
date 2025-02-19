@@ -6,8 +6,8 @@
 
 *BEGIN
 ;Source WIS survey book 1 pp55/6
-;*DATE 1951.12.28
-;commented out usual Survex date problem
+*DATE 1951.12.28
+
 *DATA Normal from to compass tape clino ignoreall
 *UNITS tape feet
 *CALIBRATE Compass +11.5
@@ -32,8 +32,7 @@ R	S	293.00	34.2	-72.0
 
 *BEGIN
 ;Source WIS survey book 2 pp27/8
-;*DATE 1965.03.03
-;commented out usual Survex date problem
+*DATE 1965.03.03
 *DATA Normal from to compass clino tape ignoreall
 *UNITS tape feet
 *CALIBRATE Compass +7.66
@@ -47,8 +46,7 @@ Q	423	182.83	21.42	5.0
 
 *BEGIN
 ;Source WIS survey book 2 pp33/4
-;*DATE 1965.11.08
-;commented out usual Survex date problem
+*DATE 1965.11.08
 *DATA Normal from to compass clino tape ignoreall
 *UNITS tape feet
 *CALIBRATE Compass +8.32
@@ -61,9 +59,8 @@ Q	445	160.00	-12.5	3.9
 *END
 
 ;*BEGIN
-;Source WIS survey book 2 pp49/50
+;;Source WIS survey book 2 pp49/50
 ;*DATE 1967.03.18
-;commented out usual Survex date problem
 ;*DATA Normal from to compass clino tape ignoreall
 ;*UNITS tape feet
 ;*CALIBRATE Compass +8.16
@@ -78,8 +75,7 @@ Q	445	160.00	-12.5	3.9
 
 *BEGIN
 ;Source WIS survey book 2 pp53/4
-;*DATE 1967.10.13
-;commented out usual Survex date problem
+*DATE 1967.10.13
 *DATA Normal from to compass clino tape ignoreall
 *UNITS tape feet
 *CALIBRATE Compass +8.42
@@ -96,8 +92,7 @@ Q	445	160.00	-12.5	3.9
 
 *BEGIN
 ;Source WIS survey book 2 pp61/2
-;*DATE 1969.04.14
-;commented out usual Survex date problem
+*DATE 1969.04.14
 *DATA Normal from to compass clino tape ignoreall
 *UNITS tape feet
 *CALIBRATE Compass +8.32
@@ -112,8 +107,7 @@ Q	445	160.00	-12.5	3.9
 
 *BEGIN
 ;Source WIS survey book 2 pp63/4
-;*DATE 1969.05.16
-;commented out usual Survex date problem
+*DATE 1969.05.16
 *DATA Normal from to compass clino tape ignoreall
 *UNITS tape feet
 *CALIBRATE Compass +8.16
@@ -130,8 +124,7 @@ Q	445	160.00	-12.5	3.9
 
 *BEGIN
 ;Source WIS survey book 2 pp63/4
-;*DATE 1969.10.15
-;commented out usual Survex date problem
+*DATE 1969.10.15
 *DATA Normal from to compass clino tape ignoreall
 *UNITS tape feet
 *CALIBRATE Compass +8.16
@@ -157,8 +150,7 @@ Q	445	160.00	-12.5	3.9
 
 *BEGIN
 ;Source WIS survey book 2 pp65/6
-;*DATE 1969.10.17
-;commented out usual Survex date problem
+*DATE 1969.10.17
 *DATA Normal from to compass clino tape ignoreall
 *UNITS tape feet
 *CALIBRATE Compass +8.16

@@ -5,8 +5,9 @@
 ;Old End to 2009 extenson, plus chamber above old end
 ;Madphil Rowsell, Tom Clayton, Diccon Morris
 *COPYRIGHT 2010 MAdphil
-*DATE 01.11.10
-*calibrate declination 2.22
+*begin
+*DATE 2010.05.11 ;originally said 01.11.10 but coment below suggests otherwise
+;*calibrate declination 2.22
 
 *DATA NORMAL FROM TO TAPE COMPASS CLINO  
 ;passage dimensions recorded but order not noted
@@ -45,10 +46,11 @@
 229	230	2.35	146.00	-38.00
 230	231	4.63	248.00	-66.00
 231	232	0.82	51.00	14.00
+*end
 
 
-
-
+*begin
+*date 2010.03.07
 ;survey date 07-03-10				
 301	302	0.90	180.00	90.00
 302	303	10.08	348.00	54.00
@@ -72,7 +74,7 @@
 
 
 
-
+*end
 
 ;72 drill hole on west wall 0.5 m above floor
 ;staton 201 was best estimate of station 72, used old readings to pin point station
