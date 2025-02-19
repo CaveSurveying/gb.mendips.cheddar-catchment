@@ -18,6 +18,10 @@ endmap
   centreline
     data normal from to length compass clino
     
+    date 2019.2
+    
+    ##Date taken from Bottom2019 as it is the same data but without the information
+    
     1  -  3.058  94.69  31.16  
     1  -  3.058  94.11  31.26  
     1  -  0.367  273.16  54.28  
