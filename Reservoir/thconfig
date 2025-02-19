@@ -9,9 +9,6 @@ source Reservoir.th
 
 #select FrozenDeepSplaysM@Reservoir
 
-
-
-
 #export map -proj plan -layout local -o TFD.svg
 #export map -proj plan -layout local -o TFD.pdf
 
