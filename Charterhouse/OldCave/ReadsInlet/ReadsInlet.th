@@ -2,6 +2,11 @@ encoding  utf-8
 survey ReadsInlet
 
 input ReadsInlet.th2
+input ReadsInletE67.th2
+
+map ReadsInletME67
+    ReadsInletSE67_1
+endmap
 
 map ReadsInletM -title "Read's Inlet"
   ReadsInletSPl1

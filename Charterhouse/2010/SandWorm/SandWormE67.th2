@@ -1,0 +1,32 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 479.8 430.16
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {87.37 1 1.0} {40.94 1.0} PocketTopo/SandWormE67.xvi 0 {}
+
+
+
+scrap SandWormSE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+
+point 87.37 40.93999999999998 station -name 1.0
+
+point 246.8 -2.8421709430404007e-14 station -name 1.1
+
+point 259.19 15.149999999999977 station -name 1.2
+
+point 228.83 44.28999999999998 station -name 1.3
+
+point 159.55 69.87999999999998 station -name 1.5
+
+point 102.94 136.80999999999997 station -name 1.12
+
+point 189.74 163.19 station -name 1.7
+
+point 172.31 183.45999999999998 station -name 1.10
+
+point 260.78 219.67999999999998 station -name 1.17
+
+point 351.8 221.45 station -name 1.18
+
+endscrap
+
+

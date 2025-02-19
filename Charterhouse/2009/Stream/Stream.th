@@ -2,6 +2,11 @@ encoding  utf-8
 survey Stream
 
 input Stream.th2
+input StreamE67.th2
+
+map StreamME67
+    StreamSE67_1
+endmap
 input StreamEe.th2
 
 map StreamM

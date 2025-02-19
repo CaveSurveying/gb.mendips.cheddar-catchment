@@ -10,6 +10,7 @@ export map -proj plan -layout local -o 2008.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o 2008Ee.pdf
+export map -proj [elevation 67] -layout local -o 2008E67.pdf
 
 export model -fmt survex -o 2008th.3d
 #Survex file showing centre line only

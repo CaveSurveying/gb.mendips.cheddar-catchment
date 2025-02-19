@@ -2,6 +2,11 @@ encoding  utf-8
 survey HighTime
 
 input HighTime.th2
+input HighTimeE67.th2
+
+map HighTimeME67
+    HighTimeSE67_1
+endmap
 
 map HighTimeM
   HighTimeSPl1

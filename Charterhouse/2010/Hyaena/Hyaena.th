@@ -2,6 +2,11 @@ encoding  utf-8
 survey Hyaena
 
 input Hyaena.th2
+input HyaenaE67.th2
+
+map HyaenaME67
+    HyaenaSE67_1
+endmap
 
 map HyaenaM
   HyaenaSPl2

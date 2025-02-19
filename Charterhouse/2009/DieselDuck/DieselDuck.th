@@ -2,6 +2,11 @@ encoding  utf-8
 survey DieselDuck
 
 input DieselDuck.th2
+input DieselDuckE67.th2
+
+map DieselDuckME67
+    DieselDuckSE67_1
+endmap
 
 map DieselDuckM
   DieselDuckSPl1

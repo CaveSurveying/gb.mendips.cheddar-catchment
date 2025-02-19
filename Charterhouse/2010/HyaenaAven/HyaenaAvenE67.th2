@@ -1,0 +1,22 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 342.7 353.98
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {214.7 1 1.0} {225.98000000000002 1.0} PocketTopo/HyaenaAvenE67.xvi 0 {}
+
+
+
+scrap HyaenaAvenSE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+
+point 214.7 225.98000000000002 station -name 1.0
+
+point 164.01 130.71 station -name 1.1
+
+point 172.16 1.4210854715202004e-14 station -name 1.2
+
+point 55.44 19.68000000000002 station -name 1.3
+
+point 0.0 26.380000000000024 station -name 1.4
+
+endscrap
+
+

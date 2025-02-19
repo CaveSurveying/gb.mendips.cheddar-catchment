@@ -2,6 +2,11 @@ encoding  utf-8
 survey Zebra
 
 input Zebra.th2
+input ZebraE67.th2
+
+map ZebraME67
+    ZebraSE67_1
+endmap
 
 map ZebraM
   ZebraSPl1

@@ -2,6 +2,11 @@ encoding  utf-8
 survey Rip_Rift2
 
 input Rip_Rift2.th2
+input Rip_Rift2E67.th2
+
+map Rip_Rift2ME67
+    Rip_Rift2SE67_1
+endmap
 
 map Rip_Rift2M
   Rip_Rift2SPl2

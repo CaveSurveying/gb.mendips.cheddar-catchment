@@ -2,6 +2,11 @@ encoding  utf-8
 survey 100Fathom
 
 input 100Fathom.th2
+input 100FathomE67.th2
+
+map 100FathomME67
+    100FathomSE67_1
+endmap
 
 map 100FathomM
   100FathomSPl1

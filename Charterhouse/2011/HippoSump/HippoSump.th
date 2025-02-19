@@ -2,6 +2,11 @@ encoding  utf-8
 survey HippoSump
 
 input HippoSump.th2
+input HippoSumpE67.th2
+
+map HippoSumpME67
+    HippoSumpSE67_1
+endmap
 
 map HippoSumpM
   HippoSumpSPl1

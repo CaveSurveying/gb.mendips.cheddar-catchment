@@ -2,6 +2,11 @@ encoding  utf-8
 survey Quicksand_Chamber
 
 input Quicksand_Chamber.th2
+input Quicksand_ChamberE67.th2
+
+map Quicksand_ChamberME67
+    Quicksand_ChamberSE67_1
+endmap
 
 map Quicksand_ChamberM
   Quicksand_ChamberSPl1

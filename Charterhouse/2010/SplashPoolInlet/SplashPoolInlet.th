@@ -2,6 +2,11 @@ encoding  utf-8
 survey SplashPoolInlet
 
 input SplashPoolInlet.th2
+input SplashPoolInletE67.th2
+
+map SplashPoolInletME67
+    SplashPoolInletSE67_1
+endmap
 
 map SplashPoolInletM -title "Splash Pool Inlet"
   SplashPoolInletSPl1

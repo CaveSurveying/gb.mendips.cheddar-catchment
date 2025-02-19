@@ -1,0 +1,7 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 910.08 626.63
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {657.72 1 1.0} {8.469999999999999 1.1} PocketTopo/BTAvenE67.xvi 0 {}
+
+scrap BTAvenSE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+endscrap

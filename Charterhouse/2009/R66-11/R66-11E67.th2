@@ -1,0 +1,28 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 221.85000000000002 440.4
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {32.28 1 1.0} {154.13 0} PocketTopo/R66-11E67.xvi 0 {}
+
+
+
+scrap R66-11SE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+
+point 14.269999999999989 0.0 station -name 7
+
+point 5.439999999999991 16.53 station -name 6
+
+point 29.639999999999993 72.63999999999999 station -name 1
+
+point 93.85 312.4 station -name 5
+
+point 76.49 134.04999999999998 station -name 4
+
+point 53.11999999999999 158.26999999999998 station -name 3
+
+point 32.279999999999994 154.13 station -name 0
+
+point -1.4210854715202004e-14 177.76 station -name 2
+
+endscrap
+
+

@@ -2,6 +2,11 @@ encoding  utf-8
 survey Time_Square
 
 input Time_Square.th2
+input Time_SquareE67.th2
+
+map Time_SquareME67
+    Time_SquareSE67_1
+endmap
 
 map Time_SquareM
   Time_SquareSPl2

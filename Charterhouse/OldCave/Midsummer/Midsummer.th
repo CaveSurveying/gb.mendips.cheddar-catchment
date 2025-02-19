@@ -2,6 +2,11 @@ encoding  utf-8
 survey Midsummer
 
 input Midsummer.th2
+input MidsummerE67.th2
+
+map MidsummerME67
+    MidsummerSE67_1
+endmap
 
 map MidsummerM -title "Midsummer Chamber"
   MidsummerSPl1

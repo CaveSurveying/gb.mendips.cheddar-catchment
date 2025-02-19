@@ -1,22 +1,19 @@
 encoding  utf-8
-
 source Charterhouse.th
-
-
 
 #Surveys to output
 #-----------------
 cs EPSG:27700
-export map -proj plan -layout local -o Charterhouse.pdf
-export map -proj plan -layout local -o Charterhouse.shp
+#export map -proj plan -layout local -o Charterhouse.pdf
+#export map -proj plan -layout local -o Charterhouse.shp
 #Produces plan of cave, on a single sheet
 
-export model -fmt survex -o Charterhouseth.3d
+export map -proj [elevation 67]-o CharterhouseE67.pdf
+
+#export model -fmt survex -o Charterhouseth.3d
 #Survex file showing centre line only
 
 #export map -proj plan -fmt kml -layout googlemaps -o Charterhouse.kml
-
-
 #export model -o Charterhouse.lox
 #3d therion model to be viewed in the therion viewer
 

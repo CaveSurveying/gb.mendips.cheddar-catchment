@@ -1,0 +1,32 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 472.56 351.21999999999997
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {344.56 1 1.0} {90.35 1.5} PocketTopo/StalPotInletE67.xvi 0 {}
+
+
+
+scrap StalPotInletSE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+
+point 31.860000000000014 140.94 station -name 2.15
+
+point 161.41 62.0 station -name 2.13
+
+point 230.0 10.0 station -name 2.12
+
+point 263.34000000000003 15.349999999999994 station -name 2.11
+
+point 344.56 90.35 station -name 2.0
+
+point 264.45 133.26 station -name 2.1
+
+point 166.53 150.19 station -name 2.5
+
+point 104.99 182.48 station -name 2.6
+
+point 85.22 194.88 station -name 2.8
+
+point 48.2 223.21999999999997 station -name 2.9
+
+endscrap
+
+

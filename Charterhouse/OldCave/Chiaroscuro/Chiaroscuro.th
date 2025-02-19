@@ -2,6 +2,11 @@ encoding  utf-8
 survey Chiaroscuro
 
 input Chiaroscuro.th2
+input ChiaroscuroE67.th2
+
+map ChiaroscuroME67
+    ChiaroscuroSE67_1
+endmap
 
 map ChiaroscuroM -title "Chiaroscuro"
   ChiaroscuroSPl1

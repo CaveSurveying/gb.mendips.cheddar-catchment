@@ -2,6 +2,11 @@ encoding  utf-8
 survey DelayingTactics
 
 input DelayingTactics.th2
+input DelayingTacticsE67.th2
+
+map DelayingTacticsME67
+    DelayingTacticsSE67_1
+endmap
 
 map DelayingTacticsM -title "Delaying Tactics"
   DelayingTacticsSPl1

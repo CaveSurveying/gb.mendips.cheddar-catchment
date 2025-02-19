@@ -2,6 +2,11 @@ encoding  utf-8
 survey DieselInlet
 
 input DieselInlet.th2
+input DieselInletE67.th2
+
+map DieselInletME67
+    DieselInletSE67_1
+endmap
 
 map DieselInletM -title "Diesel Inlet"
   DieselInletSPl1

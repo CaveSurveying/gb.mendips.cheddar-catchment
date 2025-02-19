@@ -17,6 +17,13 @@ map 2008M
   TimeLineM@TimeLine
 endmap
 
+map 2008ME67
+  ChillOutChokeME67@ChillOutChoke
+  RockNRollME67@RockNRoll
+  100FathomME67@100Fathom
+  TimeLineME67@TimeLine
+endmap
+
 join ChillOutChokeSPl5@ChillOutChoke RockNRollSPl1@RockNRoll -smooth on
 join RockNRollSPl3@RockNRoll 100FathomSPl1@100Fathom -smooth on
 join TimeLineSPl2@TimeLine 100FathomSPl1@100Fathom -smooth on

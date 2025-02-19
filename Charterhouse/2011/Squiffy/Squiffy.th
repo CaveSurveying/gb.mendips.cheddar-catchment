@@ -2,6 +2,11 @@ encoding  utf-8
 survey Squiffy
 
 input Squiffy.th2
+input SquiffyE67.th2
+
+map SquiffyME67
+    SquiffySE67_1
+endmap
 
 map SquiffyM
   SquiffySPl1

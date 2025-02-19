@@ -2,6 +2,11 @@ encoding  utf-8
 survey Skeleton2
 
 input Skeleton2.th2
+input Skeleton2E67.th2
+
+map Skeleton2ME67
+    Skeleton2SE67_1
+endmap
 
 map Skeleton2M
   Skeleton2SP1

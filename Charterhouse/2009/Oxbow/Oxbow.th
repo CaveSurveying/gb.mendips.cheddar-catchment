@@ -2,6 +2,11 @@ encoding  utf-8
 survey Oxbow
 
 input Oxbow.th2
+input OxbowE67.th2
+
+map OxbowME67
+    OxbowSE67_1
+endmap
 
 map OxbowM
   OxbowSPl1

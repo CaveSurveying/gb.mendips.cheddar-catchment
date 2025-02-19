@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 228.67000000000002 648.08
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {1.2199999999999847 1 1.0} {418.5 20} PocketTopo/HighTimeAvenE67.xvi 0 {}
+
+
+
+scrap HighTimeAvenSE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+
+point 100.66999999999999 0.0 station -name 25
+
+point 48.21999999999999 59.25 station -name 24
+
+point 40.279999999999994 116.73 station -name 23
+
+point 53.49999999999999 185.43 station -name 22
+
+point -7.105427357601002e-15 311.42 station -name 21
+
+point 1.2199999999999918 418.5 station -name 20
+
+point 13.65999999999999 520.08 station -name 19
+
+endscrap
+
+

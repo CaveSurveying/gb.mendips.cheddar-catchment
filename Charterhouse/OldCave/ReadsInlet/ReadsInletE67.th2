@@ -1,0 +1,7 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 416.84 209.5
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {201.42999999999998 1 1.0} {0.0 1.0} PocketTopo/ReadsInletE67.xvi 0 {}
+
+scrap ReadsInletSE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+endscrap

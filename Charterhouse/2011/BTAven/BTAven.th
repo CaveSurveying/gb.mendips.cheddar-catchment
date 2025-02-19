@@ -2,6 +2,11 @@ encoding  utf-8
 survey BTAven
 
 input BTAven.th2
+input BTAvenE67.th2
+
+map BTAvenME67
+    BTAvenSE67_1
+endmap
 
 map BTAvenM
   BTAvenSPl5

@@ -2,6 +2,11 @@ encoding  utf-8
 survey PuffPantRift
 
 input PuffPantRift.th2
+input PuffPantRiftE67.th2
+
+map PuffPantRiftME67
+    PuffPantRiftSE67_1
+endmap
 
 map PuffPantRiftM
   PuffPantRiftSP1

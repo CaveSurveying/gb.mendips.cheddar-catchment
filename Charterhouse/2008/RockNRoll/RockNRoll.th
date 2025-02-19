@@ -2,6 +2,11 @@ encoding  utf-8
 survey RockNRoll
 
 input RockNRoll.th2
+input RockNRollE67.th2
+
+map RockNRollME67
+    RockNRollSE67_1
+endmap
 
 map RockNRollM
   RockNRollSPl1

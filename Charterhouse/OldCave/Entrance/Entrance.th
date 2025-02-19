@@ -2,6 +2,11 @@ encoding  utf-8
 survey Entrance
 
 input Entrance.th2
+input EntranceE67.th2
+
+map EntranceME67
+    EntranceSE67_1
+endmap
 
 equate 1.54 1.81
 equate 1.59 1.76

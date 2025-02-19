@@ -2,6 +2,11 @@ encoding  utf-8
 survey SandWorm
 
 input SandWorm.th2
+input SandWormE67.th2
+
+map SandWormME67
+    SandWormSE67_1
+endmap
 
 map SandWormM
   SandWormSPl1

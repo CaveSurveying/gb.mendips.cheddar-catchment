@@ -2,6 +2,11 @@ encoding  utf-8
 survey PortalPool
 
 input PortalPool.th2
+input PortalPoolE67.th2
+
+map PortalPoolME67
+    PortalPoolSE67_1
+endmap
 
 map PortalPoolM
   PortalPoolSPl1

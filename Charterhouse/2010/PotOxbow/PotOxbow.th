@@ -2,6 +2,11 @@ encoding  utf-8
 survey PotOxbow
 
 input PotOxbow.th2
+input PotOxbowE67.th2
+
+map PotOxbowME67
+    PotOxbowSE67_1
+endmap
 
 map PotOxbowM
   PotOxbowSPl1

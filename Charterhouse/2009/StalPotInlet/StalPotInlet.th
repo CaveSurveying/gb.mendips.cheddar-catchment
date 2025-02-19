@@ -2,6 +2,11 @@ encoding  utf-8
 survey StalPotInlet
 
 input StalPotInlet.th2
+input StalPotInletE67.th2
+
+map StalPotInletME67
+    StalPotInletSE67_1
+endmap
 
 map StalPotInletM
   StalPotInlet1M

@@ -2,6 +2,11 @@ encoding  utf-8
 survey PipeDream2
 
 input PipeDream2.th2
+input PipeDream2E67.th2
+
+map PipeDream2ME67
+    PipeDream2SE67_1
+endmap
 
 map PipeDream2M
   PipeDream2SPl1

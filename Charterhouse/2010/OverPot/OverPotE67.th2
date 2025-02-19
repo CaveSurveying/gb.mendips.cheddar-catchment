@@ -1,0 +1,64 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 1409.79 556.55
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {1239.95 1 1.0} {28.349999999999966 1.1} PocketTopo/OverPotE67.xvi 0 {}
+
+
+
+scrap OverPotSE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+
+point 1281.79 -2.8421709430404007e-14 station -name 1.0
+
+point 1239.95 28.349999999999966 station -name 1.1
+
+point 1187.1599999999999 70.47999999999996 station -name 1.2
+
+point 1024.48 114.95999999999998 station -name 1.3
+
+point 922.99 134.26 station -name 1.4
+
+point 1001.69 149.40999999999997 station -name 1.10
+
+point 1036.81 148.81999999999996 station -name 1.9
+
+point 1075.95 141.33999999999997 station -name 1.8
+
+point 1168.22 138.97999999999996 station -name 1.13
+
+point 1105.7 189.36999999999998 station -name 1.14
+
+point 1019.97 210.23999999999998 station -name 1.15
+
+point 923.37 208.85999999999996 station -name 1.16
+
+point 861.1800000000001 217.32999999999998 station -name 1.17
+
+point 845.66 151.57999999999998 station -name 1.11
+
+point 746.39 136.80999999999997 station -name 1.12
+
+point 778.08 219.09999999999997 station -name 1.18
+
+point 765.01 223.62999999999997 station -name 1.19
+
+point 708.01 237.99999999999997 station -name 1.20
+
+point 496.76 268.30999999999995 station -name 1.21
+
+point 383.86 289.36999999999995 station -name 1.22
+
+point 351.46 290.54999999999995 station -name 1.23
+
+point 271.0 321.0 station -name 1.26
+
+point 177.8 310.63 station -name 1.25
+
+point 39.110000000000014 307.88 station -name 1.26
+
+point 86.09000000000003 428.54999999999995 station -name 1.27
+
+point 0.0 413.78 station -name 1.28
+
+endscrap
+
+

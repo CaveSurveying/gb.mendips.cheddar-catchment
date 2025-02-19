@@ -2,6 +2,11 @@ encoding  utf-8
 survey RipRiftLadder
 
 input RipRiftLadder.th2
+input RipRiftLadderE67.th2
+
+map RipRiftLadderME67
+    RipRiftLadderSE67_1
+endmap
 
 map RipRiftLadderM
   RipRiftLadderSPl2

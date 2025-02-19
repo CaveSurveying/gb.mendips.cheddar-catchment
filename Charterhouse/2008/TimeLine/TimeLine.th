@@ -2,6 +2,11 @@ encoding  utf-8
 survey TimeLine
 
 input TimeLine.th2
+input TimeLineE67.th2
+
+map TimeLineME67
+    TimeLineSE67_1
+endmap
 
 map TimeLineM
   TimeLineSPl1

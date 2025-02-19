@@ -1,0 +1,7 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 342.94 250.82999999999998
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {75.32 1 1.0} {12.79 4.1} PocketTopo/R66-8E67.xvi 0 {}
+
+scrap R66-8SE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+endscrap

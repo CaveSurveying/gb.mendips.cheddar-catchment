@@ -1,0 +1,61 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 1901.24 388.43
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {335.94000000000005 1 1.0} {163.38 1.0} PocketTopo/100FathomE67.xvi 0 {}
+
+
+
+scrap 100FathomSE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+
+point 1773.24 0.0 station -name 1.23
+
+point 1595.6 13.190000000000012 station -name 1.22
+
+point 1500.72 10.430000000000007 station -name 1.21
+
+point 1393.91 24.010000000000005 station -name 1.20
+
+point 1351.26 55.900000000000006 station -name 1.14
+
+point 1222.49 75.59 station -name 1.13
+
+point 1135.7 83.07000000000001 station -name 1.12
+
+point 1069.82 58.85000000000001 station -name 1.11
+
+point 1019.27 59.05000000000001 station -name 1.10
+
+point 977.49 65.55000000000001 station -name 1.9
+
+point 896.66 74.80000000000001 station -name 1.8
+
+point 807.63 90.35000000000001 station -name 1.7
+
+point 766.59 89.17000000000002 station -name 1.6
+
+point 687.62 87.4 station -name 1.5
+
+point 607.13 102.16000000000001 station -name 1.4
+
+point 553.39 113.58000000000001 station -name 1.3
+
+point 507.1 114.17 station -name 1.2
+
+point 347.73 157.28 station -name 1.1
+
+point 335.94000000000005 163.38 station -name 1.0
+
+point 388.51 245.67000000000002 station -name 1.30
+
+point 344.74 253.54000000000002 station -name 1.29
+
+point 230.16999999999996 209.84 station -name 1.25
+
+point 205.61 260.43 station -name 1.28
+
+point 111.18000000000006 222.04000000000002 station -name 1.26
+
+point 0.0 253.34 station -name 1.27
+
+
+endscrap

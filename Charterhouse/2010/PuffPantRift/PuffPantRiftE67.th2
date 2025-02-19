@@ -1,0 +1,48 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 471.22 755.1600000000001
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {247.79 1 1.0} {273.23 0} PocketTopo/PuffPantRiftE67.xvi 0 {}
+
+
+
+scrap PuffPantRiftSE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+
+point 317.98 0.0 station -name 19
+
+point 323.38 85.43 station -name 18
+
+point 338.18 172.83 station -name 16
+
+point 311.74 207.87 station -name 15
+
+point 276.91 250.20000000000002 station -name 14
+
+point 247.79 273.23 station -name 0
+
+point 223.68 298.62 station -name 1
+
+point 221.49 359.64000000000004 station -name 2
+
+point 205.78 394.88 station -name 3
+
+point 194.89 440.94000000000005 station -name 4
+
+point 188.11 469.09000000000003 station -name 5
+
+point 147.78 525.79 station -name 6
+
+point 127.56 540.35 station -name 7
+
+point 108.71000000000001 566.73 station -name 8
+
+point 98.82000000000001 604.72 station -name 9
+
+point 57.420000000000016 627.1600000000001 station -name 10
+
+point 34.0 612.0 station -name 14
+
+point 39.69999999999999 600.0 station -name 12
+
+endscrap
+
+

@@ -1,0 +1,24 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 381.44 190.8
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {253.44 1 1.0} {0.0 1.0} PocketTopo/PipeDream2E67.xvi 0 {}
+
+
+
+scrap PipeDream2SE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+
+point 0.0 61.03 station -name 1.5
+
+point 253.44 0.0 station -name 1.0
+
+point 166.54 12.399999999999999 station -name 1.1
+
+point 154.01 21.849999999999998 station -name 1.2
+
+point 130.47 23.03 station -name 1.3
+
+point 8.269999999999996 62.8 station -name 1.4
+
+endscrap
+
+

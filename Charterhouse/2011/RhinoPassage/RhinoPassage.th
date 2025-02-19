@@ -2,6 +2,11 @@ encoding  utf-8
 survey RhinoPassage
 
 input RhinoPassage.th2
+input RhinoPassageE67.th2
+
+map RhinoPassageME67
+    RhinoPassageSE67_1
+endmap
 
 map RhinoPassageM
   RhinoPassageSPl2

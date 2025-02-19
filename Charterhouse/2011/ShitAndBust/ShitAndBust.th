@@ -2,6 +2,11 @@ encoding  utf-8
 survey ShitAndBust
 
 input ShitAndBust.th2
+input ShitAndBustE67.th2
+
+map ShitAndBustME67
+    ShitAndBustSE67_1
+endmap
 
 map ShitAndBustM
 	ShitAndBustSPl1

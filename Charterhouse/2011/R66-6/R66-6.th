@@ -2,6 +2,11 @@ encoding  utf-8
 survey R66-6
 
 input R66-6.th2
+input R66-6E67.th2
+
+map R66-6ME67
+    R66-6SE67_1
+endmap
 
 map R66-6M
   R66-6SPl1

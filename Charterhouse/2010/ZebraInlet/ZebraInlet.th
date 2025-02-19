@@ -2,6 +2,11 @@ encoding  utf-8
 survey ZebraInlet
 
 input ZebraInlet.th2
+input ZebraInletE67.th2
+
+map ZebraInletME67
+    ZebraInletSE67_1
+endmap
 
 map ZebraInletM -title "Zebra Inlet"
   ZebraInletSPl1

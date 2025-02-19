@@ -2,6 +2,11 @@ encoding  utf-8
 survey UpperHighTime
 
 input UpperHighTime.th2
+input UpperHighTimeE67.th2
+
+map UpperHighTimeME67
+    UpperHighTimeSE67_1
+endmap
 
 map UpperHighTimeM
   UpperHighTimeSPl1

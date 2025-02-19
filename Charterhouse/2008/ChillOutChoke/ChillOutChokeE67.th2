@@ -1,0 +1,74 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 618.38 965.99
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {837.99 1.0} PocketTopo/ChillOutChokeE67.xvi 0 {}
+
+
+
+scrap ChillOutChokeSE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+
+point 490.38 0.0 station -name 1.36
+
+point 468.3 28.74000000000001 station -name 1.35
+
+point 460.64 42.120000000000005 station -name 1.34
+
+point 410.24 105.31 station -name 1.31
+
+point 379.57 154.51999999999998 station -name 1.30
+
+point 330.15 205.71 station -name 1.29
+
+point 355.79 235.43 station -name 1.28
+
+point 350.75 278.74 station -name 1.25
+
+point 311.45 340.35 station -name 1.24
+
+point 278.36 387.2 station -name 1.23
+
+point 292.22 384.45 station -name 1.27
+
+point 278.5 398.0 station -name 1.19
+
+point 252.5 411.25 station -name 1.18
+
+point 239.71 406.3 station -name 1.17
+
+point 246.5 429.25 station -name 1.16
+
+point 269.44 435.82 station -name 1.15
+
+point 266.01 462.4 station -name 1.14
+
+point 242.10000000000002 503.74 station -name 1.13
+
+point 237.55 566.53 station -name 1.12
+
+point 235.62 606.1 station -name 1.11
+
+point 227.61 642.91 station -name 1.10
+
+point 242.37 655.51 station -name 1.9
+
+point 209.60000000000002 706.89 station -name 1.8
+
+point 153.02 718.11 station -name 1.7
+
+point 145.14000000000001 736.61 station -name 1.6
+
+point 137.05 736.61 station -name 1.5
+
+point 98.55000000000001 732.28 station -name 1.4
+
+point 85.95000000000002 736.61 station -name 1.3
+
+point 70.31 796.6500000000001 station -name 1.2
+
+point 5.8700000000000045 829.9200000000001 station -name 1.1
+
+point 0.0 837.99 station -name 1.0
+
+endscrap
+
+

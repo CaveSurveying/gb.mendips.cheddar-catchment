@@ -1,0 +1,28 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 369.96000000000004 180.95
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {221.35000000000002 1 1.0} {0.0 1.1} PocketTopo/Quicksand_ChamberE67.xvi 0 {}
+
+
+
+scrap Quicksand_ChamberSE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+
+point 241.96000000000004 9.06 station -name 1.0
+
+point 221.35000000000002 0.0 station -name 1.1
+
+point 191.3 23.43 station -name 1.2
+
+point 111.07000000000002 25.990000000000002 station -name 1.3
+
+point 97.85000000000002 52.95 station -name 1.4
+
+point 45.46000000000002 37.4 station -name 1.5
+
+point 30.670000000000016 32.09 station -name 1.6
+
+point 1.4210854715202004e-14 34.84 station -name 1.7
+
+endscrap
+
+

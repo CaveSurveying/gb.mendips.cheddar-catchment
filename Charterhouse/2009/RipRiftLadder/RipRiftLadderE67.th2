@@ -1,0 +1,36 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 761.92 430.76
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {374.32 1 1.0} {98.03000000000003 1.1} PocketTopo/RipRiftLadderE67.xvi 0 {}
+
+
+
+scrap RipRiftLadderSE67_1 -projection [elevation 67] -scale [-128.0 -128.0 3238.23 -128.0 0.0 0.0 85.502242 0.0 m]
+
+point 591.39 0.0 station -name 1.22
+
+point 530.76 24.210000000000008 station -name 1.21
+
+point 434.66999999999996 108.66000000000001 station -name 1.20
+
+point 398.80999999999995 157.48000000000002 station -name 1.19
+
+point 390.90999999999997 241.54000000000002 station -name 1.14
+
+point 461.34 240.95000000000002 station -name 1.13
+
+point 633.92 270.67 station -name 1.8
+
+point 488.27 270.28000000000003 station -name 1.7
+
+point 431.40999999999997 302.76 station -name 1.9
+
+point 311.02 275.59000000000003 station -name 1.4
+
+point 296.54999999999995 280.12 station -name 1.10
+
+point 0.0 296.46000000000004 station -name 1.11
+
+endscrap
+
+
