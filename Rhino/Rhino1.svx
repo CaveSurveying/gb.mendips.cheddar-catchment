@@ -5,7 +5,7 @@
 ;Typed in by Graham Mullan October 2008
 
 ;SURVEY TEAM: WIS, Fred Davies, Tim Reynolds Glyn Bolt, Greg ?
-*DATE 26091971
+*DATE 1971.09.26
 *DATA NORMAL FROM TO COMPASS CLINO TAPE IGNOREALL
 ;(up down left right)
 *UNITS tape feet

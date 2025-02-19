@@ -5,7 +5,7 @@
 ;Typed in by Graham Mullan October 2008
 
 ;SURVEY TEAM: WIS, Jeremy Hawkes
-*DATE 12121971
+*DATE 1971.12.12
 *DATA NORMAL FROM TO COMPASS CLINO TAPE IGNOREALL
 ;(up down left right)
 *UNITS tape feet
