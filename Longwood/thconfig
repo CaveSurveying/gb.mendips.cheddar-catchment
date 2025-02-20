@@ -9,7 +9,9 @@ source Longwood.th
 export map -proj plan -layout local -o Longwood.pdf
 #Produces plan of cave, on a single sheet
 
-#export model -fmt survex -o Longwoodth.3d
+#export map -proj plan -o Longwood.xvi
+
+export model -fmt survex -o Longwoodth.3d
 #Survex file showing centre line only
 
 #export model -o Longwood.lox

@@ -1,5 +1,15 @@
 encoding  utf-8
 source CheddarCatchment.th
 
-export model -o Outputs/LongwoodValleyth.th
-select CharterhouseM@Charterhouse
+export model -o Outputs/LongwoodValleyth.3d
+#export model -o Outputs/LongwoodValleyCharterhouseth.3d
+
+select RRift.CheddarCatchment
+select LongwoodValleySink.CheddarCatchment
+select Longwood.CheddarCatchment
+select Toothache.CheddarCatchment
+
+#select TyningsGS.CheddarCatchment
+#select ReadsGrotto.CheddarCatchment
+#select Charterhouse.CheddarCatchment
+#select GB.CheddarCatchment

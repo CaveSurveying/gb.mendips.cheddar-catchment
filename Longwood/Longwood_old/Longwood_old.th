@@ -10,7 +10,11 @@ data normal from to tape compass clino ignoreall
 fix LW-1 48610 55710 213
 station LW-1 "Longwood Swallet" entrance
 
-calibrate compass -90
+calibrate compass -109
+#originally this was -90, but comparing the xvi on the scan and aligning the noth 
+#arrow to up gives 109° [AA Feb 2025]
+declination 0 degree
+#map aligned with true north, this stops automatic date correction
 units tape feet
 
 LW-1  LW-2  36  000  -90
