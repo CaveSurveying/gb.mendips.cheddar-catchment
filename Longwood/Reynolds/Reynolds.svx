@@ -1,4 +1,4 @@
-*Begin Renolds
+*Begin Reynolds
 
 ;data culled from a digitization of Renolds Passage Longwood
 ;original survey by P & A Moody
@@ -60,5 +60,5 @@
 -1.5	-9.6	-1.5
 25
 
-*End Renolds
+*End Reynolds
 
