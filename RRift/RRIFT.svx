@@ -5,9 +5,9 @@
 ;Modified 2009.02.21
 
 *DATA NORMAL FROM TO LENGTH BEARING GRADIENT IGNOREALL
-
+*begin
 ;First part dated 11/05/2003
-
+*date 2003.05.11
 *ENTRANCE RR1
 
 RR2	RR1	0.45	310.0	21.0
@@ -28,9 +28,10 @@ RR15	RR14	2.77	336.0	22.0
 RR15	RR16	4.47	129.0	-41.0
 RR16	RR17	15.12	0.0	-90.0
 RR17	RR18	5.49	226.0	-15.0
-
+*end
+*begin
 ;Second part dated 01/06/2003
-
+*date 2003.05.01
 RR18	RR19	3.68	181.0	-34.0
 RR20	RR19	22.10	8.0	76.0
 RR21	RR20	10.99	1.0	29.0
@@ -46,10 +47,10 @@ RR28	RR27	4.05	356.0	8.0
 RR28	RR29	2.72	169.0	-7.0
 							
 RR28	RR30	3.67	0.0	-90.0
-
-
+*end
+*begin
 ;Third part dated 13/11/04
-
+*date 2004.11.13
 RR28a	RR29	2.69	169.00	-7.0
 RR28a	RR43	3.60	0.00	-90.0
 RR44	RR43	2.36	3.00	8.0
@@ -66,12 +67,12 @@ RR61	RR10	2.42	161.00	-23.0
 RR62	RR61	1.90	141.00	-44.0
 RR62	RR63	4.10	6.00	18.0
 RR63	RR64	2.00	6.00	18.0
-
+*end
 
 ;fourth part is surface traverse to Longwood blockhouse dated 01/06/2003
 
 *BEGIN
-
+*date 2003.06.01
 *FLAGS surface
 
 ;traverse started at station RRLH1 = RR1 of above
