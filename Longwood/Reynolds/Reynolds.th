@@ -2,6 +2,10 @@ encoding  utf-8
 survey Reynolds
 #Previous surveys and references have used Renold's, however,
 #Mendip Underground 5 p205 says it is names after Chris Reynold
+
+#The data for this is probably  reconstructed from
+#https://wessex-cave-club.org/wp-content/uploads/2016/09/Wessex-Cave-Club-Journal-Number-193.pdf
+#p31 [AA Feb 2025]
 centreline
 data cartesian station newline easting northing altitude
 declination 0 degrees

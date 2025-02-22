@@ -10,9 +10,12 @@ data normal from to tape compass clino ignoreall
 fix LW-1 48610 55710 213
 station LW-1 "Longwood Swallet" entrance
 
-calibrate compass -109
-#originally this was -90, but comparing the xvi on the scan and aligning the noth 
-#arrow to up gives 109° [AA Feb 2025]
+calibrate compass 299
+#originally this was -90°, but comparing the xvi on the scan and aligning the north 
+#arrow to up gives -109° from the cica 1963 survey, but the 1984 survey has a different
+#noerth arrow at 299°, then there is a letter on page p318 
+#https://wessex-cave-club.org/wp-content/uploads/2016/09/Wessex-Cave-Club-Journal-Number-103.pdf
+# saying 323°. Mentions a 37° error but that is the difference between 323° and north [AA Feb 2025]
 declination 0 degree
 #map aligned with true north, this stops automatic date correction
 units tape feet

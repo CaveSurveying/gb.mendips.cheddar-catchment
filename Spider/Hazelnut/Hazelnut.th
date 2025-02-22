@@ -20,14 +20,14 @@ endmap
 #endmap
 
 centreline 
-#  date 2011.06.30
+date 2011.06.30
   
-#  team "Andrew Atkinson" notes
-#  team "Pete Hann" instruments
-#  team "Adrian Vanderplank" dog
-#  instrument instruments UBSS1-distoX
+team "Andrew Atkinson" notes
+team "Pete Hann" instruments
+team "Adrian Vanderplank" dog
+instrument instruments UBSS1-distoX
   
-#  explo-date 2011
+  explo-date 2011
  
 #  explo-team "Pete Hann" 
 

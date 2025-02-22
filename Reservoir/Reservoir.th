@@ -101,6 +101,7 @@ equate 1.0@ResEnt 1.0@ChGorge
 equate 1.10@WIShICouldFly 17.0@WISh
 
 centreline
+date 2013.07.23 # date taken form WIShICouldFly to supress warning
 data nosurvey from to
 flags duplicate
 1.5@WIShICouldFly 5.3@FrozenDeep
