@@ -56,7 +56,7 @@ point 108.0291 214.646 station -name 24.0
 
 point 78.73910000000001 236.216 station -name 23.0
 
-point 125.5 181.25 label -text [Father Duckmas Shaft] -align right -scale m
+point 126.25 207.25 label -text [Father Duckmas Shaft] -align right -scale m
 
 endscrap
 
