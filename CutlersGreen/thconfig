@@ -6,7 +6,8 @@ export model -o CutlersGreenth.3d
 
 export map -proj [elevation 90] -layout elevation90 -o CutlersGreenE90.pdf
 export map -proj [elevation 180] -layout elevation180 -o CutlersGreenE180.pdf
-export map -layout plan -o CutlersGreen.pdf
+#export map -layout plan -o CutlersGreen.pdf
+export map -o CutlersGreen.kml
 
 
 select MainHoleME180@MainHole.CutlersGreen

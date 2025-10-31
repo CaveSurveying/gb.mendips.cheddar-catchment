@@ -27,6 +27,7 @@ map MainHoleME180
 endmap
 
 centreline
+cs OSGB:ST
 
 copyright 2016 "CC BY SA NC"
 
