@@ -1,0 +1,2 @@
+# cave-viewer builds the site (python -m caveviewer build caves.json --out site/), pinned to a release
+cave-viewer @ git+https://github.com/CaveSurveying/cave-viewer@v0.6.1

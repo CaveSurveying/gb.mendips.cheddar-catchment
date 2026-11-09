@@ -1,0 +1,202 @@
+{
+  "_comment": "The Cave Registry Data Archive's CheddarCatchment dataset, built by cave-viewer (python -m caveviewer build caves.json --out site/). Each cave's survey: its folder here, its main Therion file, Survex files Therion imports (built first with cavern), and the selects for its plan. defaults: what every cave shares. The catchment page draws all of CheddarCatchment.th together. See cave-viewer's caveviewer/schema.json for every key.",
+  "work": "build",
+  "site": {
+    "title": "The Cheddar Catchment in 3D",
+    "description": "Caves of the Cheddar catchment, Mendip, in 3D beneath the ground: the whole catchment together, and the larger caves each with its drawn survey.",
+    "lede": "The Cave Registry Data Archive's CheddarCatchment dataset in 3D beneath the LiDAR ground and satellite imagery: the whole catchment together, every entrance named, and the larger caves each with routes and its drawn survey as a 2D plan.",
+    "footer": "Survey data: the <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">Cave Registry Data Archive's CheddarCatchment dataset</a>, maintained by UBSS and MCG with many other clubs and individuals. Each cave's data has its own licence, as its files state: {credits}. Ground: Environment Agency LiDAR Composite DTM, OGL v3. Imagery: Esri."
+  },
+  "defaults": {
+    "area": "Mendip Hills",
+    "grid": {
+      "offset": [
+        300000,
+        100000
+      ],
+      "_comment": "Therion's export is on the ST 100 km square of the National Grid"
+    },
+    "survey": {
+      "type": "therion",
+      "checkout": ".",
+      "from": "Cave Registry Data Archive, CheddarCatchment"
+    },
+    "data": {
+      "label": "the Cave Registry Data Archive"
+    },
+    "terrain": {
+      "type": "ea",
+      "step": 2,
+      "margin": 250,
+      "align": 100,
+      "cache": "lidar"
+    },
+    "drawn": {
+      "type": "therion-svg"
+    },
+    "walls": {
+      "type": "therion",
+      "_comment": "passage walls in 3D, built by Therion from the drawings"
+    }
+  },
+  "caves": [
+    {
+      "id": "catchment",
+      "name": "The Cheddar Catchment",
+      "short_name": "Cheddar Catchment",
+      "area": "Mendip Hills",
+      "survey": {
+        "dir": ".",
+        "source": "CheddarCatchment.th",
+        "svx": [
+          "GB/GB.svx",
+          "Great Swallet/Great_Swallet.svx",
+          "ManorFarm/ManorFarm.svx",
+          "RRift/RRIFT.svx",
+          "ReadsGrotto/Reads/reads.svx"
+        ]
+      },
+      "credit": "Every survey in the Cave Registry Data Archive's CheddarCatchment dataset, by UBSS, MCG, the Charterhouse Digging Team, the Cave Diving Group and many other clubs and cavers. Each cave's data has its own terms: see LICENCES.md",
+      "data": {
+        "url": "http://www.cave-registry.org.uk/svn/CheddarCatchment/",
+        "label": "the Cave Registry Data Archive"
+      },
+      "names": {
+        "labels": false,
+        "file": "catchment-names.json"
+      },
+      "terrain": {
+        "step": 8,
+        "margin": 300
+      },
+      "drawn": {
+        "type": "none"
+      },
+      "features": {
+        "routes": false
+      },
+      "_comment": "Everything in CheddarCatchment.th at once, entrances named (catchment-names.json, from tools/entrances.py): even a cave that's only an entrance or a few legs is here."
+    },
+    {
+      "id": "gb",
+      "name": "GB Cave",
+      "survey": {
+        "dir": "GB",
+        "source": "GB.th",
+        "svx": [
+          "GB.svx"
+        ]
+      },
+      "area": "Blackdown, Charterhouse",
+      "credit": "GB Cave survey from the CheddarCatchment dataset: produced by Andrew Atkinson from data provided by UBSS and the Charterhouse Digging Team, published by UBSS. Its files state no licence",
+      "places": {
+        "Devil's Elbow": "GB.Crickmay.gb.z.7"
+      },
+      "trips": [
+        {
+          "name": "Devil's Elbow round trip",
+          "via": [
+            "GB Entrance",
+            "Devil's Elbow",
+            "Gorge",
+            "GB Entrance"
+          ]
+        }
+      ],
+      "note": "Includes the Crickmay survey (the Crickmay series in the data).",
+      "ways": [
+        [
+          "GB Entrance",
+          "Gorge",
+          "Ladder Dig",
+          "Bat Passage",
+          "The Dig"
+        ]
+      ],
+      "offway": 3,
+      "codes": {
+        "^GB\\.Crickmay\\.gb\\.[yz]\\.": "Devil's Elbow",
+        "^GB\\.Crickmay\\.gb\\.g\\.": "Gorge"
+      },
+      "data": {
+        "url": "http://www.cave-registry.org.uk/svn/CheddarCatchment/GB/",
+        "label": "the Cave Registry Data Archive"
+      },
+      "licence": "Licence: none stated in the data."
+    },
+    {
+      "id": "charterhouse",
+      "name": "Charterhouse Cave",
+      "survey": {
+        "dir": "Charterhouse",
+        "source": "Charterhouse.th"
+      },
+      "area": "Blackdown, Charterhouse",
+      "credit": "Charterhouse Cave survey from the CheddarCatchment dataset: produced by Andrew Atkinson from data provided by UBSS and the Charterhouse Digging Team, published by UBSS. Licence: Creative Commons BY-NC-SA, as its files say",
+      "data": {
+        "url": "http://www.cave-registry.org.uk/svn/CheddarCatchment/Charterhouse/",
+        "label": "the Cave Registry Data Archive"
+      },
+      "licence": "Licence: Creative Commons BY-NC-SA, as the data says."
+    },
+    {
+      "id": "upper-flood",
+      "name": "Upper Flood Swallet",
+      "survey": {
+        "dir": "UpperFlood",
+        "source": "UpperFlood.th"
+      },
+      "entrances": {
+        "UpperFlood.Entrance.WS18": "Upper Flood Entrance"
+      },
+      "area": "Charterhouse",
+      "credit": "Upper Flood Swallet survey, &copy; Mendip Caving Group, surveyed by Ben Cooper and others. Licence: <a href=\"https://creativecommons.org/licenses/by-nc-sa/2.0/uk/\">CC&nbsp;BY-NC-SA&nbsp;2.0&nbsp;UK</a> (its Licence.txt; some of its files say GNU GPL)",
+      "licence": "Licence: Creative Commons Attribution-NonCommercial-ShareAlike 2.0 UK: England & Wales (Licence.txt in the data; some of its files say GNU GPL).",
+      "avoid": {
+        "UpperFlood.Neverland.NeverlandCC.N4": "Carrot: not passable; trips to Neverland go round it by Link Rift.",
+        "UpperFlood.Neverland.NeverlandDisto.3.4": "Carrot: not passable; trips to Neverland go round it by Link Rift.",
+        "UpperFlood.Neverland.NeverlandDisto.3.5": "Carrot: not passable; trips to Neverland go round it by Link Rift."
+      },
+      "alone": [
+        "Carrot"
+      ],
+      "data": {
+        "url": "http://www.cave-registry.org.uk/svn/CheddarCatchment/UpperFlood/",
+        "label": "the Cave Registry Data Archive"
+      }
+    },
+    {
+      "id": "reservoir",
+      "name": "Reservoir Hole",
+      "survey": {
+        "dir": "Reservoir",
+        "source": "Reservoir.th"
+      },
+      "area": "Cheddar Gorge",
+      "credit": "Reservoir Hole survey from the CheddarCatchment dataset, by Andrew Atkinson and others. Licence: Creative Commons BY-NC-SA, as its files say",
+      "data": {
+        "url": "http://www.cave-registry.org.uk/svn/CheddarCatchment/Reservoir/",
+        "label": "the Cave Registry Data Archive"
+      },
+      "licence": "Licence: Creative Commons BY-NC-SA, as the data says."
+    },
+    {
+      "id": "goughs",
+      "name": "Gough's Cave",
+      "survey": {
+        "dir": "Goughs",
+        "source": "Goughs.th"
+      },
+      "entrances": {
+        "Goughs.Entrance.1.0": "Gough's Cave Entrance"
+      },
+      "area": "Cheddar Gorge",
+      "credit": "Gough's Cave survey from the CheddarCatchment dataset: produced by Andrew Atkinson and Graham Mullan from data provided by UBSS and the Cave Diving Group, published by UBSS. Licence: Creative Commons BY-NC-SA, as its files say",
+      "data": {
+        "url": "http://www.cave-registry.org.uk/svn/CheddarCatchment/Goughs/",
+        "label": "the Cave Registry Data Archive"
+      },
+      "licence": "Licence: Creative Commons BY-NC-SA, as the data says."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+.DS_Store
+__pycache__/
+# what's built from the data: made again by every build
+/build/
+/site/
+# written into each cave's folder by the build
+thconfig.web
+therion.log
+# cavern's output for the Survex files Therion imports (caves.json lists them)
+/GB/GB.3d
+/GB/GB.err
+/Great Swallet/Great_Swallet.3d
+/Great Swallet/Great_Swallet.err
+/ManorFarm/ManorFarm.3d
+/ManorFarm/ManorFarm.err
+/RRift/RRIFT.3d
+/RRift/RRIFT.err
+/ReadsGrotto/Reads/reads.3d
+/ReadsGrotto/Reads/reads.err
+/.venv/
