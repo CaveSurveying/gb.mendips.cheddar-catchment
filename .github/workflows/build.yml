@@ -1,12 +1,17 @@
-# Build the 3D view with cave-viewer's reusable workflow and publish it
-# to GitHub Pages. The LiDAR isn't kept in the repository: the build
-# fetches it from the Environment Agency, and Actions keeps it in its
-# cache between runs.
+# Build the 3D views with cave-viewer's reusable workflow and publish them
+# to GitHub Pages: the whole catchment at the site's root, and each bigger
+# cave's own page in its folder. Each is built in a job of its own, at the
+# same time (parallel: true), and the site put together after.
 #
-# Run by hand (Actions tab, Run workflow) for now. Pages needs turning on
-# first: Settings > Pages > Source: GitHub Actions.
-name: Build the 3D view
+# The LiDAR isn't kept in the repository: each job fetches its cave's from
+# the Environment Agency, and Actions keeps it in its cache between runs.
+#
+# Runs on every push to main, or by hand (Actions tab, Run workflow).
+# Pages' source must be GitHub Actions (Settings > Pages).
+name: Build the 3D views
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -14,10 +19,16 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
   site:
-    uses: CaveSurveying/cave-viewer/.github/workflows/build.yml@v0.6.0
+    # (cave-viewer#9's commit until it's merged and released; then its tag, as requirements.txt)
+    uses: CaveSurveying/cave-viewer/.github/workflows/build.yml@f592f41203ada3dcbbd3aa9cb4f25bad667f94f4
     with:
       config: caves.json
       apt-packages: therion survex
+      parallel: true
       deploy: true
