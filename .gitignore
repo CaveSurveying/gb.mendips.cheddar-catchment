@@ -18,3 +18,5 @@ therion.log
 /ReadsGrotto/Reads/reads.3d
 /ReadsGrotto/Reads/reads.err
 /.venv/
+# the Environment Agency LiDAR: fetched by the build, kept between runs by Actions' cache
+/lidar/

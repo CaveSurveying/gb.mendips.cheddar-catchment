@@ -1,23 +1,23 @@
-# Build the 3D views from the data, with cave-viewer's
-# reusable workflow. The repository is private, so the site isn't
-# published: it's attached to the run (the github-pages artifact) to
-# download and look at. To publish it, set deploy: true and turn on
-# Pages (Settings > Pages > Source: GitHub Actions); on a private
-# repository that needs a paid plan, and makes the site public.
-name: Build the 3D views
-# Run by hand (Actions tab, Run workflow), so a failing run sends no email.
+# Build the 3D view with cave-viewer's reusable workflow and publish it
+# to GitHub Pages. The LiDAR isn't kept in the repository: the build
+# fetches it from the Environment Agency, and Actions keeps it in its
+# cache between runs.
+#
+# Run by hand (Actions tab, Run workflow) for now. Pages needs turning on
+# first: Settings > Pages > Source: GitHub Actions.
+name: Build the 3D view
 on:
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write        # (asked for by the reusable workflow's deploy job, which is off)
+  pages: write
   id-token: write
 
 jobs:
   site:
-    uses: CaveSurveying/cave-viewer/.github/workflows/build.yml@v0.6.1
+    uses: CaveSurveying/cave-viewer/.github/workflows/build.yml@v0.6.0
     with:
       config: caves.json
       apt-packages: therion survex
-      deploy: false
+      deploy: true
