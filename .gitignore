@@ -20,3 +20,4 @@ therion.log
 /.venv/
 # the Environment Agency LiDAR: fetched by the build, kept between runs by Actions' cache
 /lidar/
+/proj/

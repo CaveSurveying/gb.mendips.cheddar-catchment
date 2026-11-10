@@ -75,7 +75,11 @@
         "type": "none"
       },
       "walls": {
-        "type": "therion"
+        "type": "therion",
+        "leave_out": [
+          "Longwood"
+        ],
+        "_comment": "Longwood's drawing is one scrap over the whole cave, on a few long legs: its walls come out as sheets across the hill."
       },
       "features": {
         "routes": false
@@ -192,7 +196,9 @@
         "source": "Longwood.th"
       },
       "area": "Longwood, Charterhouse",
-      "credit": "Longwood Swallet survey from the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset"
+      "credit": "Longwood Swallet survey from the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset",
+      "walls": null,
+      "_comment": "No walls: its drawing is one scrap over the whole cave, on a few long legs, and Therion's walls from it come out as sheets across the hill."
     },
     {
       "id": "wigmore",
