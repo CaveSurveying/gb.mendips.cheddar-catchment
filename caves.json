@@ -49,6 +49,9 @@
       },
       "walls": {
         "type": "therion"
+      },
+      "features": {
+        "routes": false
       }
     }
   ]
