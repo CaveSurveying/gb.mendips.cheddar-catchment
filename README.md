@@ -1,32 +1,46 @@
 # The Cheddar Catchment
 
-A copy of the Cave Registry Data Archive's **CheddarCatchment** Therion and
-Survex surveys of the caves of the Cheddar catchment on Mendip, with its
-history, and a 3D view of them all together.
+[![Upper Flood Swallet in 3D, under the LiDAR ground surface and aerial imagery. Click to open the Cheddar Catchment's site.](docs/upper-flood-3d.png)](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/)
 
-**The source of truth is the SVN repository:
-<https://www.cave-registry.org.uk/svn/CheddarCatchment/>.** That's where
-the Cheddar surveys are developed and where changes go. This repository
-is a copy of it, for building the 3D view; don't make survey changes here.
-The surveys' credits and licences are as their own files give them.
+## **[Open the site →](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/)**
 
-## See it
+The surveys of the caves that drain to Cheddar, on Mendip, Somerset:
+Gough's Cave, GB, Charterhouse, Upper Flood, Reservoir Hole, the Longwood
+caves and over forty more, about **28 km** surveyed in all. The site shows them
+in 3D under the ground surface, gives each of the bigger caves a page of its
+own, and has the plans to print and the data to download. It's rebuilt from
+this repository every time it changes.
 
-**<https://cavesurveying.github.io/gb.mendips.cheddar-catchment/>**: the catchment's landing page, as the Swildons survey's
-homepage is: the whole catchment in 3D (<https://cavesurveying.github.io/gb.mendips.cheddar-catchment/3d/>), a page for each of the
-bigger caves, every survey by length, and the files to download.
+| On the site | |
+|---|---|
+| [The whole catchment in 3D](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/3d/) | Every survey together under the Environment Agency's LiDAR and aerial imagery, with every entrance named. Add `#at=` and a survey's name to open it on one cave, e.g. [`3d/#at=UpperFlood`](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/3d/#at=UpperFlood). |
+| [Charterhouse Cave](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/charterhouse/) | 5.2 km surveyed, 228 m deep. |
+| [Upper Flood Swallet](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/upper-flood/) | 4.7 km surveyed, 138 m deep. |
+| [Gough's Cave](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/goughs/) | 3.4 km surveyed, 116 m deep. |
+| [GB Cave](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/gb/) | 2.5 km surveyed, 138 m deep. |
+| [Reservoir Hole](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/reservoir/) | 2.2 km surveyed, 131 m deep. |
+| [Longwood Valley Sink](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/longwood-valley-sink/) | 1.7 km surveyed, 130 m deep. |
+| [Longwood Swallet](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/longwood/) | 1.4 km surveyed, 177 m deep. |
+| [Wigmore Swallet](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/wigmore/) | 1.0 km surveyed, 100 m deep. |
+| [Bone Hole](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/bone-hole/) | 0.4 km surveyed, 37 m deep. |
+| Models and data | On each cave's page: Survex `.3d` for Aven, Therion `.lox` for Loch, the plan as PDF and SVG, KML for Google Earth, and Therion's survey, cave and continuation lists. |
 
-Each bigger cave's page, Upper Flood's for example
-(<https://cavesurveying.github.io/gb.mendips.cheddar-catchment/upper-flood/>), has its figures, its 3D view
-(`upper-flood/3d/`: the survey beneath the LiDAR ground and aerial imagery,
-with the drawn survey as a 2D plan, passage walls from the drawings and
-routes through the cave), the plan to print as a PDF, and its models and
-data: Survex `.3d`, Therion `.lox`, the plan as SVG, KML for Google Earth,
-and Therion's survey, cave and continuation lists. The 3D views work
-offline once opened, and in AR on an iPhone or iPad.
+Each cave's page has its figures, its 3D view (with passage walls from the
+drawings, the drawn plan and routes through the cave where there are
+them), the plan to print and its data. The 3D views work offline once
+opened. They also work in AR on an iPhone or iPad, and in AR or VR in any
+browser that supports WebXR, such as on an Android phone or a headset.
 
-`#at=` opens the catchment's 3D view on one cave: a survey's name in
-`CheddarCatchment.th` (`3d/#at=UpperFlood`) or an entrance's (`3d/#at=Goughs%202`).
+[![The whole Cheddar Catchment in 3D: the caves under the fields above Cheddar Gorge.](docs/catchment-3d.png)](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/3d/)
+
+## Where the data comes from
+
+This is a copy of the Cave Registry Data Archive's **CheddarCatchment**
+Therion and Survex surveys, with their history. **The source of truth is
+the SVN repository, <https://www.cave-registry.org.uk/svn/CheddarCatchment/>:**
+that's where the surveys are worked on and where changes go, so don't make
+survey changes here. The surveys' credits and licences are as their own
+files give them.
 
 ## The caves
 
@@ -97,6 +111,8 @@ All Eights, Batts Combe Quarry Pot, Bed Stead, Black Rock Quarry, Chedder 1 Feed
 |---|---|
 | The cave folders (`GB/`, `Goughs/`, `UpperFlood/`, …) and `CheddarCatchment.th` | The SVN data as it is, every revision from r1 (2011) to r503 (October 2026), each commit with its author, date and an `SVN-Revision:` trailer. |
 | `caves.json` | The 3D views: the whole catchment (everything in `CheddarCatchment.th` together) at the site's root, and each bigger cave's own page in its folder. |
+| `tools/` | What a pull request changes, for its comment: `pdfdiff` pictures each cave's plan against the published one, `prstats` the surveys' lengths and depths. |
+| `docs/` | The pictures in this README. |
 
 ## The 3D view
 
@@ -114,6 +130,17 @@ Agency the first time and keeps it in `lidar/` (ignored by git). GitHub
 Actions builds the views and publishes them to GitHub Pages on every push
 to main (`.github/workflows/build.yml`), each cave in a job of its own at
 the same time, keeping the LiDAR in its cache between runs.
+
+## Pull requests
+
+`main` takes changes only by pull request. Each PR is built as main is,
+but not published: the build compares it with the published site and
+comments on the PR with what changed, the surveys' lengths and depths and
+pictures of each cave's plan that changed (red removed, blue added), with
+the built plans to download. `build.yml` runs the PR's code with no write
+access; `pr-comment.yml` runs from main and posts the comment, pushing the
+pictures to the `pr-previews` branch so the comment can show them. It works
+as the [Swildons Hole survey's](https://github.com/CaveSurveying/gb.mendips.swildons-hole) does.
 
 ## Bringing across new SVN revisions
 

@@ -9,10 +9,15 @@
 #
 # Runs on every push to main, or by hand (Actions tab, Run workflow).
 # Pages' source must be GitHub Actions (Settings > Pages).
+#
+# A pull request is built the same way but not published: its plans and
+# figures are compared with the published site instead (the diff job), and
+# pr-comment.yml puts what changed on the PR.
 name: Build the 3D views
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -20,8 +25,9 @@ permissions:
   pages: write
   id-token: write
 
+# main's builds one at a time, a newer one replacing an older; each PR's the same, apart from main's
 concurrency:
-  group: pages
+  group: ${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || 'pages' }}
   cancel-in-progress: true
 
 jobs:
@@ -33,4 +39,60 @@ jobs:
       apt-packages: survex ghostscript   # (ghostscript: the pictures of the PDFs)
       therion-image: ghcr.io/paperclipmonkey/therion:6.4.0   # (Ubuntu's Therion, 6.2, fails on drawings 6.4 builds)
       parallel: true
-      deploy: true
+      deploy: ${{ github.event_name != 'pull_request' }}
+
+  # ---- pull requests: compare with the published site, don't publish ----
+  #
+  # The PR build is of the PR merged into main, and the published site is
+  # main as it stands, so the differences are the PR's own. This job runs
+  # the PR's code, so it has no write access (none at all for a PR from a
+  # fork): it uploads the pictures, and pr-comment.yml, which runs from
+  # main with write access, puts them on the PR.
+  diff:
+    if: github.event_name == 'pull_request'
+    needs: site
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/pages
+      - name: Unpack the site
+        run: mkdir site && tar -xf "$RUNNER_TEMP/pages/artifact.tar" -C site
+      - name: Compare the plans and figures with the published site
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          command -v pdftoppm || { sudo apt-get update -q && sudo apt-get install -yq poppler-utils; }
+          python3 -m venv "$RUNNER_TEMP/venv"
+          "$RUNNER_TEMP/venv/bin/pip" install -q numpy pillow
+          mkdir -p pr-diff
+          jq -n --argjson number "$PR_NUMBER" --arg head_sha "$PR_HEAD_SHA" \
+            '{number: $number, head_sha: $head_sha}' > pr-diff/pr.json
+          # A failed comparison shouldn't fail the build: the comment says so instead.
+          site="$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq .html_url)" || site=''
+          if [ -n "$site" ]; then
+            python3 -m tools.prstats --base "$site" --head site > pr-diff/stats.md ||
+              { echo "::warning::Couldn't compare the figures with the published site"; rm -f pr-diff/stats.md; }
+            "$RUNNER_TEMP/venv/bin/python" -m tools.pdfdiff --base "$site" --head site --out pr-diff ||
+              { echo "::warning::Couldn't compare the plans with the published site"; rm -f pr-diff/manifest.json; }
+          fi
+          cat pr-diff/stats.md >> "$GITHUB_STEP_SUMMARY" || true
+          # the plans on their own, to download from the run
+          mkdir plans && find site -path '*/files/*.pdf' -exec cp {} plans/ \;
+      - uses: actions/upload-artifact@v4
+        with:
+          name: plans-${{ github.event.pull_request.number }}-${{ github.sha }}
+          path: plans/
+          retention-days: 14
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pr-diff
+          path: pr-diff/
+          retention-days: 7
