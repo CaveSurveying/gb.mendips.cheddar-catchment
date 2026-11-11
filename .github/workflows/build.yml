@@ -32,8 +32,8 @@ concurrency:
 
 jobs:
   site:
-    # (cave-viewer's main, with #9, #10 and #11 merged, until its next release; then its tag, as requirements.txt)
-    uses: CaveSurveying/cave-viewer/.github/workflows/build.yml@ea1b215607e553db5343d27eb362431635ea695a
+    # (cave-viewer's main, with #9 to #12 merged, until its next release; then its tag, as requirements.txt)
+    uses: CaveSurveying/cave-viewer/.github/workflows/build.yml@df3eeb90a85d80ba6e39e99da0b581b1a0e993fc
     with:
       config: caves.json
       apt-packages: survex ghostscript   # (ghostscript: the pictures of the PDFs)
