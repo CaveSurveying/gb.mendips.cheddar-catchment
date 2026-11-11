@@ -1,4 +1,4 @@
 # cave-viewer builds the 3D view (python -m caveviewer build caves.json --out site/).
 # Pinned to CaveSurveying/cave-viewer#9 (links to one cave, pages below the root) until it's
 # merged and released; then pin the release tag instead.
-cave-viewer @ git+https://github.com/CaveSurveying/cave-viewer@8e7495bfbee9ecb78e8ee449984d015a269ebb9c
+cave-viewer @ git+https://github.com/CaveSurveying/cave-viewer@93ccb695ad02bab8ec6eff3c61f91b57cb1304f4
