@@ -1,6 +1,7 @@
-# Build the 3D views with cave-viewer's reusable workflow and publish them
-# to GitHub Pages: the whole catchment at the site's root, and each bigger
-# cave's own page in its folder. Each is built in a job of its own, at the
+# Build the site with cave-viewer's reusable workflow and publish it to
+# GitHub Pages: the catchment's landing page at the root (its 3D view in
+# 3d/), and each bigger cave's landing page in its folder (its 3D view in
+# a 3d/ folder of that), each with the files Therion makes of it. Each is built in a job of its own, at the
 # same time (parallel: true), and the site put together after.
 #
 # The LiDAR isn't kept in the repository: each job fetches its cave's from
@@ -26,10 +27,10 @@ concurrency:
 jobs:
   site:
     # (cave-viewer#9's commit until it's merged and released; then its tag, as requirements.txt)
-    uses: CaveSurveying/cave-viewer/.github/workflows/build.yml@93ccb695ad02bab8ec6eff3c61f91b57cb1304f4
+    uses: CaveSurveying/cave-viewer/.github/workflows/build.yml@2c779ea58156644e03a94eba25e457587a86d3e3
     with:
       config: caves.json
-      apt-packages: survex
+      apt-packages: survex ghostscript   # (ghostscript: the pictures of the PDFs)
       therion-image: ghcr.io/paperclipmonkey/therion:6.4.0   # (Ubuntu's Therion, 6.2, fails on drawings 6.4 builds)
       parallel: true
       deploy: true

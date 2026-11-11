@@ -1,5 +1,5 @@
 {
-  "_comment": "The 3D views, built by cave-viewer (python -m caveviewer build caves.json --out site/). The first, the whole catchment, is the site's root; each cave after it has its own page in its own folder (upper-flood/, goughs/, ...), with its drawn survey as a 2D plan, passage walls from the drawings and routes through it. defaults: what they share. Each cave's survey: its folder here, its main Therion file and any Survex files Therion imports (built first with cavern). places, ways, trips, codes, avoid, alone: for its routes. See cave-viewer's caveviewer/schema.json for every key.",
+  "_comment": "The 3D views, built by cave-viewer (python -m caveviewer build caves.json --out site/). The first, the whole catchment, has its landing page at the site's root and its 3D view in 3d/; each cave after it has its own landing page in its own folder (upper-flood/, goughs/, ...) and its 3D view in a 3d/ folder of that, with its drawn survey as a 2D plan, passage walls from the drawings and routes through it. defaults: what they share. Each cave's survey: its folder here, its main Therion file and any Survex files Therion imports (built first with cavern). places, ways, trips, codes, avoid, alone: for its routes. See cave-viewer's caveviewer/schema.json for every key.",
   "work": "build",
   "site": {
     "index": false
@@ -42,7 +42,7 @@
       "name": "The Cheddar Catchment",
       "short_name": "Cheddar Catchment",
       "area": "Mendip Hills",
-      "path": ".",
+      "path": "3d",
       "credit": "the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset, by UBSS, MCG and many other clubs and cavers, each cave under the terms in its own files",
       "survey": {
         "dir": ".",
@@ -84,7 +84,60 @@
       "features": {
         "routes": false
       },
-      "_comment": "The whole catchment, at the site's root: every survey in CheddarCatchment.th together, every entrance marked. Each cave below has a page of its own as well, in its own folder."
+      "_comment": "The whole catchment, at the site's root: every survey in CheddarCatchment.th together, every entrance marked. Each cave below has a page of its own as well, in its own folder.",
+      "page": ".",
+      "titles": {
+        "GoughsOld": "Gough's Old Cave",
+        "LongHole": "Long Hole",
+        "Grebe_Swallet": "Grebe Swallet",
+        "GreatOones": "Great Oones Hole",
+        "RRift": "Rhino Rift",
+        "CharterhouseWarren": "Charterhouse Warren Farm Swallet",
+        "Coxs": "Cox's Cave",
+        "WhitebeamArea": "Whitebeam area (Whitebeam, Swine Hole, Brock)",
+        "DaveMitchellsDig": "Dave Mitchell's Dig",
+        "ChelmsCombe": "Chelms Combe",
+        "CanyonCave": "Canyon Cave",
+        "BoweryCorner": "Bowery Corner",
+        "TyningsGS": "Tynings Great Swallet",
+        "Sayes": "Sayes Hole",
+        "ReadsGrotto": "Read's Grotto",
+        "SunHole": "Sun Hole",
+        "PrideEvans": "Pride Evans",
+        "BlackrockRift": "Blackrock Rift",
+        "BridgedRiftCave": "Bridged Rift Cave",
+        "YewCleftHole": "Yew Cleft Hole",
+        "BakeHole": "Bake Hole",
+        "SparryFissure": "Sparry Fissure",
+        "PrideEvansAttic": "Pride Evans Attic",
+        "Buddles": "Buddles Wood (Chewton Mendip)",
+        "Waterwheel": "Waterwheel Swallet",
+        "Blackmoor": "Stainsby's Shaft",
+        "Totty": "Totty Pot",
+        "Pigs": "Pig's Hole",
+        "Reynolds": "Reynolds' Cave",
+        "Toothache": "Toothache Pot",
+        "Timber": "Timber Pot",
+        "Champions": "Champion's Cave",
+        "Hangover": "Hangover Pot",
+        "SpiderHole": "Spider Hole",
+        "TyningsBarrow": "Tyning's Barrows Swallet",
+        "Attborough": "Attborough Swallet",
+        "WhiteSpot": "White Spot Cave",
+        "Coopers": "Cooper's Hole",
+        "Palmers": "Palmer's Cave",
+        "UpperFlood": "Upper Flood Swallet",
+        "Goughs": "Gough's Cave",
+        "GB": "GB Cave",
+        "Reservoir": "Reservoir Hole",
+        "LongwoodValleySink": "Longwood Valley Sink",
+        "Longwood": "Longwood Swallet",
+        "Wigmore": "Wigmore Swallet",
+        "BoneHole": "Bone Hole",
+        "Charterhouse": "Charterhouse Cave",
+        "BoxCave": "Box Cave"
+      },
+      "lede": "Every survey in the Cave Registry Data Archive&rsquo;s CheddarCatchment dataset, together in 3D, and the bigger caves each with a page of their own. A copy of the <a href=\"https://www.cave-registry.org.uk/svn/CheddarCatchment/\">SVN repository</a>, which is where the surveys are developed."
     },
     {
       "id": "upper-flood",
@@ -106,7 +159,8 @@
       "alone": [
         "Carrot"
       ],
-      "path": "upper-flood"
+      "path": "upper-flood/3d",
+      "page": "upper-flood"
     },
     {
       "id": "goughs",
@@ -120,7 +174,8 @@
       },
       "area": "Cheddar Gorge",
       "credit": "Gough's Cave survey from the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset",
-      "path": "goughs"
+      "path": "goughs/3d",
+      "page": "goughs"
     },
     {
       "id": "gb",
@@ -163,7 +218,8 @@
         "^GB\\.Crickmay\\.gb\\.[yz]\\.": "Devil's Elbow",
         "^GB\\.Crickmay\\.gb\\.g\\.": "Gorge"
       },
-      "path": "gb"
+      "path": "gb/3d",
+      "page": "gb"
     },
     {
       "id": "reservoir",
@@ -174,23 +230,25 @@
       },
       "area": "Cheddar Gorge",
       "credit": "Reservoir Hole survey from the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset",
-      "path": "reservoir"
+      "path": "reservoir/3d",
+      "page": "reservoir"
     },
     {
       "id": "longwood-valley-sink",
       "name": "Longwood Valley Sink",
-      "path": "longwood-valley-sink",
+      "path": "longwood-valley-sink/3d",
       "survey": {
         "dir": "LongwoodValleySink",
         "source": "LongwoodValleySink.th"
       },
       "area": "Longwood, Charterhouse",
-      "credit": "Longwood Valley Sink survey from the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset"
+      "credit": "Longwood Valley Sink survey from the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset",
+      "page": "longwood-valley-sink"
     },
     {
       "id": "longwood",
       "name": "Longwood Swallet",
-      "path": "longwood",
+      "path": "longwood/3d",
       "survey": {
         "dir": "Longwood",
         "source": "Longwood.th"
@@ -198,29 +256,32 @@
       "area": "Longwood, Charterhouse",
       "credit": "Longwood Swallet survey from the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset",
       "walls": null,
-      "_comment": "No walls: its drawing is one scrap over the whole cave, on a few long legs, and Therion's walls from it come out as sheets across the hill."
+      "_comment": "No walls: its drawing is one scrap over the whole cave, on a few long legs, and Therion's walls from it come out as sheets across the hill.",
+      "page": "longwood"
     },
     {
       "id": "wigmore",
       "name": "Wigmore Swallet",
-      "path": "wigmore",
+      "path": "wigmore/3d",
       "survey": {
         "dir": "Wigmore",
         "source": "Wigmore.th"
       },
       "area": "Priddy",
-      "credit": "Wigmore Swallet survey from the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset"
+      "credit": "Wigmore Swallet survey from the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset",
+      "page": "wigmore"
     },
     {
       "id": "bone-hole",
       "name": "Bone Hole",
-      "path": "bone-hole",
+      "path": "bone-hole/3d",
       "survey": {
         "dir": "BoneHole",
         "source": "BoneHole.th"
       },
       "area": "Cheddar Gorge",
-      "credit": "Bone Hole survey from the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset"
+      "credit": "Bone Hole survey from the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset",
+      "page": "bone-hole"
     },
     {
       "id": "charterhouse",
@@ -231,7 +292,8 @@
       },
       "area": "Blackdown, Charterhouse",
       "credit": "Charterhouse Cave survey from the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset",
-      "path": "charterhouse"
+      "path": "charterhouse/3d",
+      "page": "charterhouse"
     }
   ]
 }
