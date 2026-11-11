@@ -28,7 +28,8 @@ this repository every time it changes.
 Each cave's page has its figures, its 3D view (with passage walls from the
 drawings, the drawn plan and routes through the cave where there are
 them), the plan to print and its data. The 3D views work offline once
-opened, and in AR on an iPhone or iPad.
+opened. They also work in AR on an iPhone or iPad, and in AR or VR in any
+browser that supports WebXR, such as on an Android phone or a headset.
 
 [![The whole Cheddar Catchment in 3D: the caves under the fields above Cheddar Gorge.](docs/catchment-3d.png)](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/3d/)
 
