@@ -23,6 +23,7 @@ this repository every time it changes.
 | [Longwood Swallet](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/longwood/) | 1.4 km surveyed, 177 m deep. |
 | [Wigmore Swallet](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/wigmore/) | 1.0 km surveyed, 100 m deep. |
 | [Bone Hole](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/bone-hole/) | 0.4 km surveyed, 37 m deep. |
+| [Grebe Swallet](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/grebe/) | 0.3 km surveyed, 53 m deep: W. I. Stanton's survey and the 2014 Predition series. |
 | Models and data | On each cave's page: Survex `.3d` for Aven, Therion `.lox` for Loch, the plan as PDF and SVG, KML for Google Earth, and Therion's survey, cave and continuation lists. |
 
 Each cave's page has its figures, its 3D view (with passage walls from the
@@ -78,7 +79,7 @@ page). *Splays*: the survey has splay shots, shown faintly in 3D.
 | Long Hole | 315 m | 31 m |  | [show](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/3d/#at=LongHole) | ✓ | ✓ | [`LongHole/`](LongHole/) |
 | Attborough Swallet | 307 m | 41 m |  | [show](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/3d/#at=Attborough) |  |  | [`Attborough/`](Attborough/) |
 | Waterwheel Swallet | 301 m | 64 m |  | [show](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/3d/#at=Waterwheel) |  |  | [`Waterwheel/`](Waterwheel/) |
-| Grebe Swallet | 296 m | 53 m |  | [show](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/3d/#at=Grebe_Swallet) | ✓ | ✓ | [`Grebe/`](Grebe/) |
+| **Grebe Swallet** | 296 m | 53 m | [page](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/grebe/) | [show](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/3d/#at=Grebe_Swallet) | ✓ | ✓ | [`Grebe/`](Grebe/) |
 | Great Oones Hole | 257 m | 37 m |  | [show](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/3d/#at=GreatOones) | ✓ | ✓ | [`GreatOones/`](GreatOones/) |
 | Rhino Rift | 253 m | 147 m |  | [show](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/3d/#at=RRift) | ✓ |  | [`RRift/`](RRift/) |
 | Charterhouse Warren Farm Swallet | 209 m | 49 m |  | [show](https://cavesurveying.github.io/gb.mendips.cheddar-catchment/3d/#at=CharterhouseWarren) | ✓ | ✓ | [`CharterhouseWarren/`](CharterhouseWarren/) |
