@@ -42,6 +42,19 @@ that's where the surveys are worked on and where changes go, so don't make
 survey changes here. The surveys' credits and licences are as their own
 files give them.
 
+Every Subversion revision is a commit here, with its author, date and message,
+and `SVN-Revision` and `SVN-URL` at the end of the message. Until the switch to
+git, a scheduled workflow ([`.github/workflows/svn-sync.yml`](.github/workflows/svn-sync.yml))
+brings in each new revision every day, with [`tools/svn_sync.py`](tools/svn_sync.py),
+and rebuilds the site when there was one. It fetches only what each revision
+changed (it needs Subversion's `svn` client, but no checkout), and leaves out the
+registry's access-restricted folders (`Outputs/`, `PocketTopo/`). To bring them in
+by hand:
+
+```bash
+python3 tools/svn_sync.py
+```
+
 ## The caves
 
 By surveyed length (Therion's figures, including duplicate legs but not surface ones).
