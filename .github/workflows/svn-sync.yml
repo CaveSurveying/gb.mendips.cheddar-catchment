@@ -1,0 +1,44 @@
+# Bring in what's new in the Cave Registry's CheddarCatchment Subversion repository, every day,
+# until the switch to git: one commit for each new revision (its author, date and message,
+# with "SVN-Revision: rN" and "SVN-URL" at the end), pushed to main. tools/svn_sync.py does
+# it, fetching only what each revision changed, so no Subversion checkout is kept.
+#
+# Runs daily at 04:37 UTC, or by hand (Actions tab, Run workflow). Nothing new: no commit.
+# A push made with the workflow's own token doesn't start other workflows, so when it brings
+# something in it starts the build (build.yml) itself, which publishes the site.
+name: Sync from the Cave Registry's Subversion
+on:
+  schedule:
+    - cron: '37 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write          # (to start the build after a sync)
+
+concurrency:
+  group: svn-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # (the history, to find the last revision brought in)
+      - name: Subversion's client
+        run: sudo apt-get update -q && sudo apt-get install -y -q subversion
+      - name: Bring in new revisions
+        run: python3 tools/svn_sync.py
+      - name: Push, and build the site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(git rev-list --count origin/main..HEAD)" -gt 0 ]; then
+            git push origin HEAD:main
+            gh workflow run build.yml --ref main
+          else
+            echo "Nothing new."
+          fi
