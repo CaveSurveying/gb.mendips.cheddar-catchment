@@ -292,6 +292,10 @@
         "source": "Grebe.th"
       },
       "area": "Charterhouse",
+      "drawn": {
+        "type": "none",
+        "_comment": "Only the 2014 Predition series is drawn: under 200 m across, too small for the plan's 100 m grid to place it"
+      },
       "credit": "Grebe Swallet survey from the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset",
       "page": "grebe"
     },
