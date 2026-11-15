@@ -284,6 +284,18 @@
       "page": "bone-hole"
     },
     {
+      "id": "grebe",
+      "name": "Grebe Swallet",
+      "path": "grebe/3d",
+      "survey": {
+        "dir": "Grebe",
+        "source": "Grebe.th"
+      },
+      "area": "Charterhouse",
+      "credit": "Grebe Swallet survey from the Cave Registry Data Archive's <a href=\"http://www.cave-registry.org.uk/svn/CheddarCatchment/\">CheddarCatchment</a> dataset",
+      "page": "grebe"
+    },
+    {
       "id": "charterhouse",
       "name": "Charterhouse Cave",
       "survey": {
