@@ -15,40 +15,36 @@ processing survey data ...
  2> Copyright ¸ 1990-2015 Olly Betts
  3> Survey has no control points. Therefore I've fixed 1 at (0,0,0)
  4> 
- 5> Survey contains 59 survey stations, joined by 58 shots.
+ 5> Survey contains 67 survey stations, joined by 66 shots.
  6> There is 1 loop.
  7> Survey has 2 connected components.
- 8> Total length of survey shots =   19.85m (  19.85m adjusted)
- 9> Total plan length of survey shots =    9.79m
-10> Total vertical length of survey shots =   16.38m
-11> Vertical range = 18.28m (from 2 at 1.54m to 59 at -16.73m)
-12> North-South range = 1.90m (from 4 at 0.32m to 16 at -1.59m)
-13> East-West range = 5.74m (from 2 at 0.73m to 59 at -5.01m)
-14>   49 1-nodes.
+ 8> Total length of survey shots =   21.47m (  21.47m adjusted)
+ 9> Total plan length of survey shots =   11.04m
+10> Total vertical length of survey shots =   17.14m
+11> Vertical range = 17.81m (from 2 at 0.46m to 65 at -17.35m)
+12> North-South range = 1.89m (from 3 at 0.52m to 24 at -1.37m)
+13> East-West range = 4.77m (from 1 at 0.00m to 61 at -4.77m)
+14>   55 1-nodes.
 15>    1 2-node.
-16>    1 4-node.
-17>    1 5-node.
-18>    3 7-nodes.
-19>    2 8-nodes.
-20>    1 9-node.
-21>    1 10-node.
-22> 
+16>    5 6-nodes.
+17>    4 7-nodes.
+18>    1 8-node.
+19>    1 9-node.
+20> 
 ######################### transcription ########################
- 3> 1 : 50.0@DaveMitchellsDig4
- 5> 59 : -@DaveMitchellsDig4 -- 58 : -@DaveMitchellsDig4
- 6> 1 : 50.0@DaveMitchellsDig4
+ 3> 1 : 60.0@DaveMitchellsDig4
+ 5> 67 : -@DaveMitchellsDig4 -- 66 : -@DaveMitchellsDig4
+ 6> 1 : 60.0@DaveMitchellsDig4
  7> 2 : 43.0@DaveMitchellsDig4
-11> 2 : 43.0@DaveMitchellsDig4 -- 59 : -@DaveMitchellsDig4
-12> 4 : -@DaveMitchellsDig4 -- 16 : -@DaveMitchellsDig4
-13> 2 : 43.0@DaveMitchellsDig4 -- 59 : -@DaveMitchellsDig4
-14> 49 : -@DaveMitchellsDig4
-15> 1 : 50.0@DaveMitchellsDig4
-16> 1 : 50.0@DaveMitchellsDig4
-17> 1 : 50.0@DaveMitchellsDig4
-18> 3 : -@DaveMitchellsDig4
-19> 2 : 43.0@DaveMitchellsDig4
-20> 1 : 50.0@DaveMitchellsDig4
-21> 1 : 50.0@DaveMitchellsDig4
+11> 2 : 43.0@DaveMitchellsDig4 -- 65 : -@DaveMitchellsDig4
+12> 3 : -@DaveMitchellsDig4 -- 24 : -@DaveMitchellsDig4
+13> 1 : 60.0@DaveMitchellsDig4 -- 61 : -@DaveMitchellsDig4
+14> 55 : -@DaveMitchellsDig4
+15> 1 : 60.0@DaveMitchellsDig4
+16> 5 : -@DaveMitchellsDig4
+17> 4 : -@DaveMitchellsDig4
+18> 1 : 60.0@DaveMitchellsDig4
+19> 1 : 60.0@DaveMitchellsDig4
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
@@ -56,21 +52,17 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 writing Outputs/DaveMitchellsDig4th.3d ... done
-processing projection plan ... done
-average distortion: 0.03%
-writing Outputs/DaveMitchellsDig4P.xvi ... done
 processing projection elevation ... done
 average distortion: 0.01%
-writing Outputs/DaveMitchellsDig4E000.xvi ... done
 
 
 ############### export maps & scraps selection #################
-M    -0.47 DMD4ME000@DaveMitchellsDig4 ()
-S    -0.47 DMD4SE0001@DaveMitchellsDig4 ()
+M    -0.64 DMD4ME000@DaveMitchellsDig4 ()
+S    -0.64 DMD4SE0001@DaveMitchellsDig4 ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/DaveMitchellsDig4E000.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  15 OCT 2025 13:56
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  13 NOV 2026 14:19
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -78,63 +70,65 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[1] [2] [3] [4] [5] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] [7] [8] [9] [10] [11] [12]
-[13] [14] [15] )
+[1] [2] [3] [4] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] )
  
 Here is how much of MetaPost's memory you used:
- 2622 strings using 69197 characters
- 2453092 bytes of node memory
- 1737 symbolic tokens
- 9i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
-29 output files written: data-patt.1 .. data.15
+ 2221 strings using 59013 characters
+ 2449972 bytes of node memory
+ 1735 symbolic tokens
+ 9i,82n,12p,312b,4f stack positions out of 16i,98n,15p,312b,6f
+28 output files written: data-patt.1 .. data.14
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  15 OCT 2025 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  13 NOV 2026 14:19
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 64 numeric registers used out of 32768
+ 63 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 287 strings out of 94604
- 3976 string characters out of 1142524
- 24504 words of memory out of 5009232
- 1942 multiletter control sequences out of 15000+50000
+ 286 strings out of 94604
+ 3965 string characters out of 1142524
+ 25307 words of memory out of 5010035
+ 1941 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
  9i,5n,6p,229b,56s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program F
 iles (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 42218 bytes).
+Output written on data.pdf (1 page, 40932 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
+processing projection plan ... done
+average distortion: 0.01%
 
 
 ############### export maps & scraps selection #################
-M    -6.93 DMD4MP@DaveMitchellsDig4 (Dave Mitchell's Dig)
-S    -0.92 DMD4SP1@DaveMitchellsDig4 ()
-S    -6.57 DMD4SP2@DaveMitchellsDig4 ()
-S   -13.28 DMD4SP3@DaveMitchellsDig4 ()
+M    -8.65 DMD4MP@DaveMitchellsDig4 (Dave Mitchell's Dig)
+S    -2.16 DMD4SP1@DaveMitchellsDig4 ()
+S    -6.86 DMD4SP2@DaveMitchellsDig4 ()
+S   -10.38 DMD4SP3@DaveMitchellsDig4 ()
+S   -15.21 DMD4SP4@DaveMitchellsDig4 ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/DaveMitchellsDig4P.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  15 OCT 2025 13:56
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  13 NOV 2026 14:19
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -142,66 +136,69 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [11] [12] [13]
-[14] [15] [16] [17] [18] [19] [20] )
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+[Warning: scrap outline intersects itself in scrap DMD4SP1@DaveMitchellsDig4]
+[11] [12] [13] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) [14] [15] [16] [17] [18] [19] [20] [21] [22]
+[23] )
  
 Here is how much of MetaPost's memory you used:
- 2756 strings using 67318 characters
- 2438088 bytes of node memory
+ 2653 strings using 65650 characters
+ 2438804 bytes of node memory
  1735 symbolic tokens
  9i,82n,12p,312b,4f stack positions out of 16i,98n,15p,312b,6f
-34 output files written: data-patt.1 .. data.20
+37 output files written: data-patt.1 .. data.23
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  15 OCT 2025 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  13 NOV 2026 14:19
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
 (c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
 (./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 73 numeric registers used out of 32768
+ 78 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 296 strings out of 94604
- 4087 string characters out of 1142524
- 19276 words of memory out of 5005004
- 1951 multiletter control sequences out of 15000+50000
+ 301 strings out of 94604
+ 4148 string characters out of 1142524
+ 20185 words of memory out of 5005913
+ 1956 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
  9i,5n,6p,229b,60s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 35778 bytes).
+Output written on data.pdf (1 page, 37470 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 247 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
 writing xtherion file ... done
-compilation time: 3 sec
+compilation time: 1 sec
 
 
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.05%    0.32%  DMD4SP3@DaveMitchellsDig4
-   0.01%    0.23%  DMD4SP1@DaveMitchellsDig4
-   0.02%    0.13%  DMD4SP2@DaveMitchellsDig4
+   0.02%    0.17%  DMD4SP1@DaveMitchellsDig4
+   0.00%    0.11%  DMD4SP3@DaveMitchellsDig4
+   0.02%    0.07%  DMD4SP4@DaveMitchellsDig4
+   0.00%    0.02%  DMD4SP2@DaveMitchellsDig4
 ################### end of scrap distortions ###################
 
 
 ###################### scrap distortions #######################
  PROJECTION: elevation
  AVERAGE  MAXIMAL  SCRAP
-   0.01%    0.14%  DMD4SE0001@DaveMitchellsDig4
+   0.01%    0.10%  DMD4SE0001@DaveMitchellsDig4
 ################### end of scrap distortions ###################

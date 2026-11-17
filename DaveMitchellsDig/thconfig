@@ -7,9 +7,9 @@ source DaveMitchellsDig.th
 
 export model -fmt survex -o Outputs/DaveMitchellsDigth.3d
 
-export map -proj plan -layout local -o Outputs/DaveMitchellsDigP.xvi
+#export map -proj plan -layout local -o Outputs/DaveMitchellsDigP.xvi
 
-export map -proj elevation -layout local -o Outputs/DaveMitchellsDigE000.xvi
+#export map -proj elevation -layout local -o Outputs/DaveMitchellsDigE000.xvi
 
 #export model -o Outputs/DaveMitchellsDig.lox
 
@@ -37,14 +37,14 @@ map-image -90 130 ne Outputs/DaveMitchellsDigE000.pdf
 map-header 0 -100 nw
 
 map-comment "Entrance 49284 54335 242 OD<br>\
-Length 94.6m (October 2025)<br>\
-Depth 75.4m (October 2025)<br>\
+Length 94.2m (November 2026)<br>\
+Depth 75.5m (November 2026)<br>\
 <br>\
 Drawn using Therion by John Cooper<br>\
-Survey by John Cooper and Adrian Vanderplank<br>\
+Survey by John Cooper, Adrian Vanderplank & Jude Vanderplank<br>\
 <br>\
 Grade UISv1 6-4-EF<br>\
-Copyright 2025 CC BY NC SA<br>\
+Copyright 2026 CC BY NC SA<br>\
 Data available at http://cave-registry.org.uk/<br>\
 <br>\
 Heights in metres OD\"
