@@ -31,8 +31,12 @@ equate 233@G6 233@G7
 input G8/G8.th
 equate 246@G7 246@G8
 
-input Predition/Predition.th
-equate 208@G4 9@Predition
+# (Predition/Predition.th, Atkinson and Binding 2014, is no longer included: Grebe2026 below surveys the
+# same passage from the junction, with the shaft moved over to it. The files are still in Predition/.)
+
+input Grebe2026/Grebe2026.th
+# the dig surveyed back to the junction chamber: its last station is the tie
+equate 25@Grebe2026 208@G4
 
 map Grebe -proj plan
 G1
@@ -43,7 +47,6 @@ G5
 G6
 G7
 G8
-PreditionM@Predition
 endmap
 
 endsurvey
