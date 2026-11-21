@@ -276,6 +276,8 @@
     {
       "id": "longwood-valley-sink",
       "name": "Longwood Valley Sink",
+      "notice": "The routes are worked out by computer from the survey&rsquo;s centreline: they show which passages join, not how to get through them. They don&rsquo;t know about the pitches, squeezes, climbs, water or digs on the way, so they&rsquo;re no guide for a trip.",
+      "features": {"directions": false},
       "path": "longwood-valley-sink/3d",
       "survey": {
         "dir": "LongwoodValleySink",
